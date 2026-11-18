@@ -1,0 +1,78 @@
+{
+  "slug": "us-en-promotional-prod-form-test-html",
+  "type": "form",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "breadcrumb",
+    "form",
+    "form-anchor"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "container",
+    "container"
+  ],
+  "canonShas": {
+    "header": "18107bab43d7",
+    "footer": "79dfc8cc50c3",
+    "css": "481e893f2500"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Prod Form Test | InsureShield",
+    "description": "Contact us for shipping insurance, effortless claims, and reliable support. Empower your business with coverage and peace of mind for every shipment.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Prod Form Test | InsureShield",
+    "description": "Contact us for shipping insurance, effortless claims, and reliable support. Empower your business with coverage and peace of mind for every shipment.",
+    "url": "https://www.insureshield.com/us/en/promotional/prod-form-test.html"
+  },
+  "migratedAt": "2026-11-18T03:40:13Z",
+  "designMdSha": "3a53c3d58678",
+  "designJsonSha": "d5b1e78b9da2",
+  "sourceCurrentSha": "f4354790a1e5",
+  "sourceProposedSha": "749633e18d05",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [
+    "form contact standalone"
+  ],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/content/insureshield/us/en/press-releases",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/es/about/contact-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/about/newsroom.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/resources.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "us/en/promotional/prod-form-test.html",
+  "outputPathDefault": null,
+  "sidecar": "us/en/promotional/prod-form-test._meta.json",
+  "driverVersion": "1"
+}

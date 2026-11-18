@@ -1,0 +1,779 @@
+{
+  "types": {
+    "program": {
+      "archetype": "us-en-shipping-insurance-b2b-html",
+      "liveUrl": "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+      "prototype": "stardust/prototypes/us-en-shipping-insurance-b2b-html-proposed.html",
+      "css": [
+        "stardust/prototypes/canon/canon.css",
+        "stardust/prototypes/us-en-shipping-insurance-b2b-html.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon/canon.js",
+        "stardust/prototypes/us-en-shipping-insurance-b2b-html.js"
+      ],
+      "contentRoot": "#container-5b9b496b44",
+      "regime": "prototype",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixelPct": 2,
+          "heightDelta": 1,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡",
+          "headerBand": 0,
+          "footerBand": 0.59,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "1 advisory: IMAGE DID NOT LOAD AfterShip (lazy image of off-screen carousel slide 3 on the live side; build loads it) — justified",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/us-en-shipping-insurance-b2b-html-360/"
+        },
+        "1440": {
+          "pixelPct": 0.25,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (confirm2; confirm round showed 5 ICON DIFF from live social icons not lazy-loaded — live nondeterminism, cleared on re-read)",
+          "headerBand": 0,
+          "footerBand": 0.03,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "none",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/us-en-shipping-insurance-b2b-html-1440/"
+        }
+      },
+      "capProbe": "PASS",
+      "chromeParity": "header ✓ at 1440; remaining footer deltas are the live social-icon <img> before lazysizes fires (chrome-parity does not scroll: 16×64 unsized vs 16×16) — instrument/live-state artefact, crops 99.97% / 99.41%",
+      "residuals": [
+        {
+          "id": "form-iframes",
+          "cause": "dynamic-content",
+          "note": "Get-a-quote and loss-calculator are AEM Forms iframes; in every gate capture the quote iframe stays height 0 and the calculator iframe renders blank (the extract screenshot once showed the quote form). Prototype reproduces the captured geometry with empty mount points (.form-mount--quote 24px, .form-mount--calculator 157px); the form UI rebuild belongs to dynamics D1 (stardust/dynamic-features-plan.md)."
+        },
+        {
+          "id": "duplicate-teaser-titles",
+          "cause": "source-markup",
+          "note": "Source teasers render each title twice (media column copy shown <768, copy-column copy shown >=768). Mirrored as authored (teaser-title--media / --content) so heading counts match."
+        },
+        {
+          "id": "story-aria-labels",
+          "cause": "source-markup",
+          "note": "Story-card links carry the source's literal aria-label '<h1><b>…</b></h1> ' — mirrored verbatim (pure replica); a11y fix is an owner decision."
+        }
+      ],
+      "captureState": [
+        {
+          "what": "story-card carousel",
+          "restoreAtDelivery": "slick carousel <992 (1 per view <768, 2 at 768-991), arrows + dots, no autoplay — implemented in us-en-shipping-insurance-b2b-html.js"
+        }
+      ],
+      "motion": {
+        "observed": [
+          "header sticky-nav on scrollY>0 with root padding compensation",
+          "desktop mega-menu hover (transform/opacity 350ms)",
+          "locale dropdown click (chevron rotate 350ms)",
+          "search toggle click (slideInLight 500ms / slideDownLight <768, input outline transition 250ms)",
+          "mobile drawer click (right/background 500ms, hamburger morph 350ms)",
+          "story-card carousel arrows/dots <992 (track transform 500ms)",
+          "footer accordion <992"
+        ],
+        "implemented": [
+          "sticky-nav + .page-root padding",
+          "mega-menu hover",
+          "locale dropdown",
+          "search toggle",
+          "mobile drawer",
+          "story-card carousel",
+          "footer accordion",
+          "alert close"
+        ],
+        "dead": [
+          "live hover probe saw no diff on nav items / story cards (pseudo-element underline only)",
+          "bootstrap collapse/collapsing, lazysizes, slick-* class vocab (implementation classes, behaviour covered)"
+        ]
+      },
+      "status": "passed",
+      "updatedAt": "2026-11-17T21:30:19.731Z"
+    },
+    "home": {
+      "archetype": "index",
+      "liveUrl": "https://www.insureshield.com/us/en/securecommerce.html",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "css": [
+        "stardust/prototypes/canon/canon.css",
+        "stardust/prototypes/index.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon/canon.js"
+      ],
+      "contentRoot": "#container-260a1c067c",
+      "regime": "prototype",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixelPct": 0.1,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (5 advisory: 2× hidden 'Load More' buttons (display:none on live), 1 lazy no-src icon placeholder, 2 canon aria-labels)",
+          "headerBand": 0,
+          "footerBand": 0,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "none",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/index-360/"
+        },
+        "1440": {
+          "pixelPct": 0.41,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (4 advisory: 2× hidden 'Load More' buttons (display:none on live), 2 canon aria-labels)",
+          "headerBand": 0,
+          "footerBand": 0.03,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "none",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/index-1440/"
+        }
+      },
+      "capProbe": "PASS",
+      "chromeParity": "header ✓ at 1440 and 360 after swapping the canon horizontal logo for the home template's logo_shield picture (page-level markup); remaining footer deltas are the known live social-icon lazysizes artefact (16×64 unsized before scroll) and, at 360, the un-scrolled live doc being 150px shorter (lazy images) — stitched crops header 100% / footer 99.97% (1440), 100% / 100% (360)",
+      "residuals": [
+        {
+          "id": "load-more-hidden",
+          "cause": "source-markup",
+          "note": "Source pathways blocks carry a 'Load More' button that is display:none (only shown with .hide-list); not authored in the prototype — content-diff advisory only."
+        },
+        {
+          "id": "hero-gif",
+          "cause": "dynamic-content",
+          "note": "Hero media is an animated GIF (scene7 'Secure Commerce - Hero Animation'); prototype uses the same asset, so frames animate on both sides; pixel diff stayed 0.41%/0.10%."
+        },
+        {
+          "id": "home-header-logo",
+          "cause": "template-variant",
+          "note": "Home template header uses logo_shield (62px shield) instead of the canon horizontal InsureShield logo; swapped in this page's header markup only — canon back-port candidate (header logo variant per template)."
+        }
+      ],
+      "captureState": [
+        {
+          "what": "hero animated GIF",
+          "restoreAtDelivery": "keep the animated GIF asset (autoplay/loop image) in the hero picture"
+        }
+      ],
+      "motion": {
+        "observed": [
+          "header sticky-nav on scroll (canon parity)",
+          "hero primary button hover box-shadow",
+          "hero secondary button hover background + box-shadow",
+          "pathways card link hover color (text + chevron)",
+          "CTA band primary button hover box-shadow"
+        ],
+        "implemented": [
+          "all observed hovers via canon .btn:hover and .pcard__link a:hover (motion-compare: 6 parity, 0 extra)"
+        ],
+        "dead": [
+          "pathways card hover (no diff on live)",
+          "icon card hover (no diff on live)",
+          "logo hover (no diff on live)",
+          "lazysizes classes lazyloaded/lazyloading/ls-is-cached (loader markers, native loading=lazy in build)"
+        ]
+      },
+      "status": "passed",
+      "updatedAt": "2026-11-17T21:45:12Z"
+    },
+    "listing": {
+      "archetype": "gb-en-resources-html",
+      "liveUrl": "https://www.insureshield.com/gb/en/resources.html",
+      "prototype": "stardust/prototypes/gb-en-resources-html-proposed.html",
+      "css": [
+        "stardust/prototypes/canon/canon.css",
+        "stardust/prototypes/gb-en-resources-html.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon/canon.js",
+        "stardust/prototypes/gb-en-resources-html.js"
+      ],
+      "contentRoot": "#container-ec87763e92",
+      "regime": "prototype",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixelPct": 1.39,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 main / 0 nothing-lost 🟡; footer 5 🔴 ICON DIFF = live social <img> not yet lazy-loaded (no src, 16×64) at 360 — live-state artefact (residual social-lazy-icons)",
+          "headerBand": 0.55,
+          "footerBand": 1.06,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "advisory only: IMAGE DID NOT LOAD ×N = live lazy images of off-screen carousel slides (build loads them) — justified",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/gb-en-resources-html-360/ (verdict-confirm2.json, content-diff-confirm2.txt, visual-diff-confirm2.txt)"
+        },
+        "1440": {
+          "pixelPct": 0.03,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (confirm2)",
+          "headerBand": 0,
+          "footerBand": 0.03,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "advisory only: IMAGE DID NOT LOAD ×4 = live lazy images of off-screen carousel slides — justified",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/gb-en-resources-html-1440/ (verdict-confirm2.json, content-diff-confirm2.txt, visual-diff-confirm2.txt)"
+        }
+      },
+      "capProbe": "PASS",
+      "chromeParity": "header ✓ at 1440 and 360; footer compensated (UK 3/6/3 column split, body.locale-gb); remaining footer deltas are the live social-icon <img> before lazysizes fires (16×64 vs 16×16) — live-state artefact; crops header 100%/99.45%, footer 99.97%/98.94% (1440/360)",
+      "residuals": [
+        {
+          "id": "social-lazy-icons",
+          "cause": "live-state",
+          "note": "Live footer social <img> carry no src until lazysizes fires; chrome-parity/content-diff do not scroll, so they read 16×64 empty images (ICON DIFF at 360, Δh -48px per link). Stitched-capture footer band matches 99.97%/98.94%."
+        },
+        {
+          "id": "search-results-shell",
+          "cause": "dynamic-content",
+          "note": "Site-search results/filter/sort/pagination/no-results shell is rendered hidden on load by the source site-search app; mirrored as hidden markup (text + icons) so content-diff is whole. Query behaviour (search API) belongs to dynamics."
+        },
+        {
+          "id": "story-aria-labels",
+          "cause": "source-markup",
+          "note": "Story-card links carry the source literal aria-label <h1><b>…</b></h1> — mirrored verbatim (pure replica)."
+        },
+        {
+          "id": "hidden-alerts",
+          "cause": "source-markup",
+          "note": "UK header carries an empty alerts strip (1 of 2, no messages) — mirrored hidden inside <header>."
+        }
+      ],
+      "captureState": [
+        {
+          "what": "story-card carousels ×2 (6 cards each)",
+          "restoreAtDelivery": "slick: 3/2/1 per view (>=992/768-991/<768), slidesToScroll = per view (2 dots at 1440, 6 at 360), arrows + dots, track transform 500ms, no autoplay — gb-en-resources-html.js"
+        }
+      ],
+      "motion": {
+        "observed": [
+          "header sticky-nav on scroll (canon)",
+          "story-card carousel track transform 500ms (2 transitions)",
+          "cta-link + site-search submit hover box-shadow"
+        ],
+        "implemented": [
+          "sticky-nav (canon.js)",
+          "story-card carousels (page js, scroll-by-view)",
+          "button hover box-shadow (lifted)"
+        ],
+        "dead": [
+          "widget frame sampler saw no track change on live arrow/dot pokes (transition events confirm the 500ms transform)",
+          "story-card hover: no measured diff",
+          "banner yellow button hover: live probe saw no diff, source CSS declares box-shadow — kept (advisory EXTRA)",
+          "lazysizes / slick-* class vocab (implementation classes, behaviour covered)"
+        ]
+      },
+      "status": "passed",
+      "updatedAt": "2026-11-17T21:49:08.548Z"
+    },
+    "legal": {
+      "archetype": "us-en-legal-terms-and-conditions-upscia-html",
+      "liveUrl": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html",
+      "prototype": "stardust/prototypes/us-en-legal-terms-and-conditions-upscia-html-proposed.html",
+      "css": [
+        "stardust/prototypes/canon/canon.css",
+        "stardust/prototypes/us-en-legal-terms-and-conditions-upscia-html.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon/canon.js"
+      ],
+      "contentRoot": "#container-4f18f18982",
+      "regime": "prototype",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixelPct": 0,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (2 advisory: canon aria-labels Search button + Legal nav)",
+          "headerBand": 0,
+          "footerBand": 0,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "none",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/us-en-legal-terms-and-conditions-upscia-html-360/"
+        },
+        "1440": {
+          "pixelPct": 0,
+          "heightDelta": 0,
+          "contentDiff": "0 nothing-lost 🟡; 1 🔴 ICON DIFF [footer] justified as instrument artefact (live YouTube social icon has no src yet — lazysizes, 16×64 unsized before scroll; build loads the same scene7 asset; stitched footer identical); 2 advisory canon aria-labels",
+          "headerBand": 0,
+          "footerBand": 0,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "none",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/us-en-legal-terms-and-conditions-upscia-html-1440/"
+        }
+      },
+      "capProbe": "PASS",
+      "chromeParity": "header ✓ parity at 1440 and 360 (10/10 texts, 1/1 icons); footer: all texts paired, only deltas are the known live social-icon lazysizes artefact (64→16 unsized un-scrolled imgs, Δy cascade) — stitched pixel diff 0.00% at both widths (303 px / 18 px differing)",
+      "residuals": [
+        {
+          "id": "footer-social-lazysizes",
+          "cause": "instrument-artefact",
+          "note": "Live footer social icons are lazysizes imgs with no src/size before scroll; content-diff (1440) and chrome-parity read them as 16×64 no-src icons. Stitched capture (scrolled) matches build pixel-for-pixel."
+        },
+        {
+          "id": "rte-long-url-overflow-360",
+          "cause": "source-markup",
+          "note": "At 360 the two long URLs in the T&Cs body overflow their 296px paragraph (353px) on live and build alike; clip-probe advisory 'horizontal 2', document scrollWidth stays 360."
+        }
+      ],
+      "captureState": [],
+      "motion": {
+        "observed": [
+          "header sticky-nav on scroll (canon parity)"
+        ],
+        "implemented": [
+          "sticky-nav via canon.js (motion-compare: 2 parity, 0 extra); canon a:hover underline cancelled on RTE body links (live hover measured no change)"
+        ],
+        "dead": [
+          "RTE body link hover (no diff on live)",
+          "hero h1 hover (no diff on live)",
+          "lazysizes classes lazyloaded/lazyloading (loader markers, native loading=lazy in build)"
+        ]
+      },
+      "status": "passed",
+      "updatedAt": "2026-11-17T21:57:30Z"
+    },
+    "locale-home": {
+      "archetype": "de-en-home-html",
+      "liveUrl": "https://www.insureshield.com/de/en/home.html",
+      "prototype": "stardust/prototypes/de-en-home-html-proposed.html",
+      "css": [
+        "stardust/prototypes/canon/canon.css",
+        "stardust/prototypes/de-en-home-html.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon/canon.js",
+        "stardust/prototypes/de-en-home-html.js"
+      ],
+      "contentRoot": "#container-b10391c006",
+      "regime": "prototype",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixelPct": 2.06,
+          "heightDelta": 1,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (confirm2; 2 advisory: build-only aria-labels Search / Legal from canon chrome)",
+          "headerBand": 0.55,
+          "footerBand": 0.74,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "none",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/de-en-home-html-360/ (confirm2: capture-normalization round, live.png re-captured, both sides pinned to carousel slide 1 via --dismiss '.cmp-carousel__indicator:first-child,.fpromo__dot:first-child'; no prototype edits). Earlier final round 17.61%/Δh -47 was live autoplay on slide 2."
+        },
+        "1440": {
+          "pixelPct": 2.91,
+          "heightDelta": 1,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (final; 2 advisory: build-only aria-labels Search button / Legal nav from canon chrome)",
+          "headerBand": 0,
+          "footerBand": 0.67,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "none",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/de-en-home-html-1440/ (final round); only hot band y2000–2500 18.3% = carousel slide state (live slide 2 vs build slide 1, same height at 1440) — residual hot band is the same slide-state artefact (not re-pinned; 1440 already passes)"
+        }
+      },
+      "capProbe": "FAIL (instrument false positive): 12/13 rows ✓; module 8 (testimonial carousel) reads live 'full-bleed' because the walker descends into the first, display:none carousel item and finds no cap. measure.mjs at 2560 shows the visible live item's .cmp-teaser capped at max-width 1280 (x 640) = build .container 1280 — evidence stardust/replica/gates/de-en-home-html-2560/cap-iter.json + bg/de-en-home-html-measure-live3.log",
+      "chromeParity": "header ✓ parity at 1440 (8/8 texts, 1/1 icons) incl. DE nav/locale/utility links; footer: one real delta fixed (DE 'Other UPS Sites' column is col-lg-6: Δw -101 → body.locale-de compensation); remaining footer deltas are live social-icon <img> before lazysizes fires (16×64 unsized vs 16×16, chrome-parity does not scroll) — artefact; stitched crops header 100%/99.45%, footer 99.33%/99.26% (1440/360)",
+      "residuals": [
+        {
+          "id": "cap-probe-hidden-first-item",
+          "cause": "instrument",
+          "note": "cap-probe module 8 false positive (walker reads the first, hidden carousel item); live visible item measured capped at 1280 at 2560 = build."
+        },
+        {
+          "id": "story-aria-labels",
+          "cause": "source-markup",
+          "note": "Resource-card links carry the source's literal aria-label '<h1><b>…</b></h1>\\n' — mirrored verbatim (pure replica), as in program."
+        },
+        {
+          "id": "pathways-hidden-load-more",
+          "cause": "source-markup",
+          "note": "Source pathways block carries a display:none 'Load More' button; mirrored as a hidden button so text/role counts match."
+        }
+      ],
+      "captureState": [
+        {
+          "what": "testimonial carousel (fpromo)",
+          "restoreAtDelivery": "autoplay rotates every 5 s (no transition, wraps), prev/next arrows + 3 indicators restart the timer, autopause disabled; hidden pause/play buttons kept — implemented in de-en-home-html.js; gate capture pins slide 1 on both sides with --dismiss '.cmp-carousel__indicator:first-child,.fpromo__dot:first-child' (360 confirm2) — capture state only, autoplay stays in the deliverable"
+        },
+        {
+          "what": "resource cards load-more",
+          "restoreAtDelivery": "3 of 8 cards shown; 'Load More' reveals the next 3 per click and hides when all are shown — implemented in de-en-home-html.js"
+        }
+      ],
+      "motion": {
+        "observed": [
+          "header sticky-nav on scrollY>0 (115px, fixed)",
+          "testimonial carousel timer rotation (cmp-carousel__item--active / indicator--active swap, unpoked) and swaps on prev/next/indicator clicks (no transition frames)",
+          "cmp-carousel__action--disabled toggle"
+        ],
+        "implemented": [
+          "sticky-nav + .page-root padding (canon.js)",
+          "testimonial carousel: 5 s autoplay + prev/next/dots (is-active swap; observed on build: 8 class swaps, timer advance during traversal)",
+          "resource-card Load More (functional, not motion)"
+        ],
+        "dead": [
+          "hover probes on pathway cards, resource cards and primary buttons: no measured diff on live (build .btn--primary hover shadow is canon, advisory)",
+          "lazysizes classes (lazyloading/lazyloaded/ls-is-cached) — loader vocab, native lazy loading in build",
+          "carousel prev/next widget frames: no track/transform motion on live (display swap only)"
+        ]
+      },
+      "status": "passed",
+      "updatedAt": "2026-11-17T21:59:23.000Z"
+    },
+    "form": {
+      "archetype": "us-en-about-contact-us-html",
+      "liveUrl": "https://www.insureshield.com/us/en/about/contact-us.html",
+      "prototype": "stardust/prototypes/us-en-about-contact-us-html-proposed.html",
+      "css": [
+        "stardust/prototypes/canon/canon.css",
+        "stardust/prototypes/us-en-about-contact-us-html.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon/canon.js"
+      ],
+      "contentRoot": "#container-a0c0c006c0",
+      "regime": "prototype",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixelPct": 0.41,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (confirm); advisory only: build-only iframe title + chrome aria-labels",
+          "headerBand": 0,
+          "footerBand": 0.31,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "0 flags",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/us-en-about-contact-us-html-360/ (verdict-confirm.json, content-diff-confirm.txt, visual-diff-confirm.txt, chrome-parity-confirm.txt)"
+        },
+        "1440": {
+          "pixelPct": 0.07,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 on main; footer 5 🔴 ICON DIFF = live social <img> not yet lazy-loaded (no src, 16×64) — live-state artefact (residual social-lazy-icons)",
+          "headerBand": 0,
+          "footerBand": 0.03,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "0 flags",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/us-en-about-contact-us-html-1440/ (verdict-confirm.json, content-diff-confirm.txt, visual-diff-confirm.txt, chrome-parity-confirm.txt)"
+        }
+      },
+      "capProbe": "PASS",
+      "chromeParity": "header ✓ at 1440 and 360 (canon chrome, no compensation); footer deltas are only the live social-icon <img> before lazysizes fires (16×64 vs 16×16) — live-state artefact; crops header 100%/100%, footer 99.97%/99.69% (1440/360)",
+      "residuals": [
+        {
+          "id": "social-lazy-icons",
+          "cause": "live-state",
+          "note": "Live footer social <img> carry no src until lazysizes fires; chrome-parity/content-diff do not scroll, so they read 16×64 empty images. Stitched-capture footer band matches 99.97%/99.69%."
+        },
+        {
+          "id": "contact-form-iframe",
+          "cause": "dynamic-content",
+          "note": "Contact form is an AEM Forms iframe (/content/forms/af/insure-shield/contact-us-master/contact-us-us-only) that renders in every capture. Recreated as a static, non-submitting frame (us-en-about-contact-us-html-form.html: real inputs/radios/Send, measured geometry; 522px at >=768, 798.28px below; reCAPTCHA as an unbranded 302x76 slot). Validation/submission/reCAPTCHA/success toaster belong to the dynamics plan (stardust/dynamic-features-plan.md)."
+        },
+        {
+          "id": "success-toaster",
+          "cause": "dynamic-content",
+          "note": "popover-ups success toaster mirrored hidden (as program archetype); its wrapper keeps 7px of flow on the source — reproduced as padding on the following title."
+        },
+        {
+          "id": "iframe-title",
+          "cause": "role-parity",
+          "note": "Build iframe carries title=\"Contact Us form\" (source has none) — a11y improvement, advisory EXTRA TITLE."
+        },
+        {
+          "id": "send-contrast",
+          "cause": "source-design",
+          "note": "White on #3fa29d Send button is below WCAG AA (source design, pure replica)."
+        }
+      ],
+      "captureState": [],
+      "motion": {
+        "observed": [
+          "header sticky-nav on scroll (canon)",
+          "hero Submit Inquiry button hover box-shadow",
+          "pathways card link hover colour (link + chevron)"
+        ],
+        "implemented": [
+          "sticky-nav (canon.js)",
+          "btn hover box-shadow (canon .btn:hover)",
+          "pcard__link a:hover colour (lifted)"
+        ],
+        "dead": [
+          "pathways card hover: no measured diff on live",
+          "lazysizes lazyloading/lazyloaded classes (implementation vocab; loading=lazy covers behaviour)"
+        ]
+      },
+      "status": "passed",
+      "updatedAt": "2026-11-17T22:01:40.000Z"
+    },
+    "shell": {
+      "archetype": "us-en-customer-communications-html",
+      "liveUrl": "https://www.insureshield.com/us/en/customer-communications.html",
+      "prototype": "stardust/prototypes/us-en-customer-communications-html-proposed.html",
+      "css": [
+        "stardust/prototypes/canon/canon.css",
+        "stardust/prototypes/us-en-customer-communications-html.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon/canon.js"
+      ],
+      "contentRoot": "#container-a3cb952865",
+      "regime": "prototype",
+      "iterations": {
+        "360": 1,
+        "1440": 1
+      },
+      "gates": {
+        "360": {
+          "pixelPct": 0,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (2 advisory: canon aria-labels Search button + Legal nav)",
+          "headerBand": 0,
+          "footerBand": 0,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "BLANK RENDER advisory justified: live content root #container-a3cb952865 is an empty responsive grid (source blankRender true, main 0 px) — the build mirrors it",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/us-en-customer-communications-html-360/"
+        },
+        "1440": {
+          "pixelPct": 0.02,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (2 advisory: canon aria-labels Search button + Legal nav); no footer ICON DIFF this round",
+          "headerBand": 0,
+          "footerBand": 0.03,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "BLANK RENDER advisory justified: live content root #container-a3cb952865 is an empty responsive grid (source blankRender true, main 0 px) — the build mirrors it",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/us-en-customer-communications-html-1440/"
+        }
+      },
+      "capProbe": "PASS",
+      "chromeParity": "header ✓ parity (10/10 texts, 1/1 icons); footer ✓ parity (32/32 texts, 5/5 icons) at 1440 and 360; crop-compare header 0.00%/0.00%, footer 0.03%/0.00% (1440/360)",
+      "residuals": [
+        {
+          "id": "empty-main-blank-render",
+          "cause": "source-markup",
+          "note": "Live page is chrome-only: breadcrumb renders an empty container (0 px) and content root #container-a3cb952865 holds an empty aem-Grid. visual-diff BLANK RENDER flag fires on both sides; content-diff warns 'one side has almost no content' — both are the source's real state, not a failed render."
+        }
+      ],
+      "captureState": [],
+      "motion": {
+        "observed": [
+          "header sticky-nav on scroll (canon parity)",
+          "header scroll-morph (Δheight 0, canon parity)"
+        ],
+        "implemented": [
+          "sticky-nav via canon.js (motion-compare: 2 parity, 0 missing, 0 extra)"
+        ],
+        "dead": []
+      },
+      "status": "passed",
+      "updatedAt": "2026-11-17T22:03:00Z"
+    },
+    "region-selector": {
+      "archetype": "us-en-global-html",
+      "liveUrl": "https://www.insureshield.com/us/en/global.html",
+      "prototype": "stardust/prototypes/us-en-global-html-proposed.html",
+      "css": [
+        "stardust/prototypes/canon/canon.css",
+        "stardust/prototypes/us-en-global-html.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon/canon.js",
+        "stardust/prototypes/us-en-global-html.js"
+      ],
+      "contentRoot": "#container-713eed9db4",
+      "regime": "prototype",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixelPct": 0.04,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (1 advisory: canon aria-label Legal nav); iter1 ROLE SWAP x2 (toggles were <button>) fixed with <a role=button>",
+          "headerBand": 0,
+          "footerBand": 0,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "none",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/us-en-global-html-360/"
+        },
+        "1440": {
+          "pixelPct": 0.02,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (1 advisory: canon aria-label Legal nav); no footer ICON DIFF this round; iter1 ROLE SWAP x2 fixed",
+          "headerBand": 0,
+          "footerBand": 0.02,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "none",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/us-en-global-html-1440/"
+        }
+      },
+      "capProbe": "PASS",
+      "chromeParity": "header ✓ parity (0/0 texts, 1/1 icons — logo-only header); footer ✓ parity (32/32 texts, 5/5 icons) at 1440 and 360; crop-compare header 0.00%/0.00%, footer 0.02%/0.00% (1440/360)",
+      "residuals": [],
+      "captureState": [],
+      "motion": {
+        "observed": [
+          "header sticky-nav on scroll (canon parity, Δheight 0)",
+          "accordion toggle click: .ups-active on item, toggle and linked map region g; toggle bg/color .15s; chevron rotate(180deg) .5s",
+          "accordion toggle hover: .ups-mousein on toggle + its map region (bg #77c2c2, color #000, .15s)"
+        ],
+        "implemented": [
+          "sticky-nav via canon.js",
+          "region accordion click/keyboard + toggle hover pairing via us-en-global-html.js; map fills via CSS (:hover/.ups-mousein/.ups-active) lifted from theme-insure-shield",
+          "motion-compare: 8 parity, 0 missing, 0 extra, 0 out of tolerance"
+        ],
+        "dead": [
+          "#ups-imagemap0/#ups-imagemap1 carousel-frame sampling (not a carousel — no track change)",
+          "#ups-svg-europe hover (no measured color/background diff; SVG fill hover kept as lifted CSS)",
+          ".ups-accordion_expand a hover (no measured diff)"
+        ]
+      },
+      "status": "passed",
+      "updatedAt": "2026-11-17T22:09:17Z"
+    },
+    "shipping-hub": {
+      "archetype": "us-en-shipping-insurance-html",
+      "liveUrl": "https://www.insureshield.com/us/en/shipping-insurance.html",
+      "prototype": "stardust/prototypes/us-en-shipping-insurance-html-proposed.html",
+      "css": [
+        "stardust/prototypes/us-en-shipping-insurance-html.css"
+      ],
+      "js": [
+        "stardust/prototypes/us-en-shipping-insurance-html.js"
+      ],
+      "contentRoot": "#main",
+      "regime": "prototype",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixelPct": 1.2,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (17 advisory: inline-svg illustrations served as <img> asset files; slider/premium reserve text '$50,000 to $50,000+' read with a split '+' on live)",
+          "headerBand": 0,
+          "footerBand": 0,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "none",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/us-en-shipping-insurance-html-360/"
+        },
+        "1440": {
+          "pixelPct": 0.22,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (17 advisory: inline-svg illustrations served as <img> asset files; slider/premium reserve text split '+')",
+          "headerBand": 0,
+          "footerBand": 0,
+          "clipped": 0,
+          "overflowPx": 0,
+          "visualDiff": "none",
+          "verdict": "pass",
+          "evidence": "stardust/replica/gates/us-en-shipping-insurance-html-1440/"
+        }
+      },
+      "capProbe": "PASS (2560, 0 of 7 rows failed)",
+      "chromeParity": "NOT canon chrome: chrome-parity live vs canon (program prototype) = 70 deltas (header 15, footer 55; 46 vs 32 footer texts) — page is a Vite app with its own design system (Inter, m-* tokens). Page-own header (utility bar + 3-col grid nav, sticky hide-on-scroll) and inverse global footer authored in this page's CSS/markup; canon.css/canon.js deliberately NOT linked (would fight the token system). Against own chrome: ✓ parity at 1440 and 360; header/footer crop-compare 0.00% at both widths.",
+      "residuals": [
+        {
+          "id": "hero-term-popovers",
+          "cause": "dynamic-content",
+          "note": "Hero h1 terms lost/damaged/stolen open a react-aria popover on live (observed: m-popover opacity/translate 100ms, dialog text-decoration-color 100ms). Popover copy is client-rendered and absent from the capture; build keeps the buttons (dotted underline, solid on hover/expanded) without a popover — motion-compare 'text-decoration-color MISSING' + transform timing line. Hand to dynamics."
+        },
+        {
+          "id": "header-megamenus",
+          "cause": "dynamic-content",
+          "note": "Main-nav triggers (Shipping Insurance, Solutions, Partners, Resources, About) and the <1024 Menu button open client-rendered menus not in the capture; build triggers are inert buttons with the same closed-state look. Hand to dynamics."
+        },
+        {
+          "id": "calculator-and-quote",
+          "cause": "dynamic-content",
+          "note": "Hero premium calculator (dual-handle range slider, live histogram/readout), 'Estimate monthly premium', 'Talk to an expert' and the 'Quote monthly cost' dock open the app's QuoteDrawer; build renders the captured initial state ($100 to $1,000 / $0.80 to $10.50) statically. Hand to dynamics."
+        },
+        {
+          "id": "webgl-canvases-static",
+          "cause": "capture-state",
+          "note": "Hero lattice, pattern-band signal field and the two stand-out tile illustrations are three.js/canvas on live but render their own static fallback stills under the instrument (data-motion=reduce, canvas data-live=false). Build ships those stills as self-contained SVG assets (stardust/prototypes/us-en-shipping-insurance-html-assets/)."
+        },
+        {
+          "id": "hero-lattice-360",
+          "cause": "generated-per-viewport",
+          "note": "Live regenerates the lattice still per viewport (behind the calculator at <768). Build reuses the 1440 still (same 73.5px lattice pitch) with slice-fit behind the aside; the hairline offsets account for most of the 1.20% at 360, no hot band."
+        },
+        {
+          "id": "reserve-text-split",
+          "cause": "instrument-reading",
+          "note": "content-diff advisory: live readout reserves read as '$50,000 to $50,000 +' / '$400.00 to $525.00 +' (hidden layout reservers); build carries the captured strings verbatim. Advisory only."
+        }
+      ],
+      "captureState": [],
+      "motion": {
+        "observed": [
+          "sticky header hides on scroll down / returns on scroll up (translate -100% 320ms exit + opacity, opacity 200ms enter)",
+          "Quote monthly cost dock fades/slides in after scrolling past the hero (opacity/translate 200ms)",
+          "FAQ disclosure expand (block-size + opacity 320ms)",
+          "hero term popover (opacity/translate 100ms)",
+          "utility-nav link hover colour (100ms)"
+        ],
+        "implemented": [
+          "header data-hidden hide-on-scroll (us-en-shipping-insurance-html.js; translate parity 320ms)",
+          "dock data-visible via IntersectionObserver on the calculator (opacity parity)",
+          "FAQ disclosure (height parity 320ms, hidden=until-found)",
+          "utility link hover colour (parity 100ms) — motion-compare: 5 parity, 0 extra"
+        ],
+        "dead": [
+          "tile hovers in #solutions/#stories (no measured diff on live; build ground-tile hover background removed to match)",
+          "primary/secondary button hover (no measured diff on live)",
+          "footer link hover (no measured diff on live)",
+          "hero term popover — not implemented (content not captured; see residual hero-term-popovers)"
+        ]
+      },
+      "status": "passed",
+      "updatedAt": "2026-11-17T22:18:34Z"
+    }
+  }
+}

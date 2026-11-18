@@ -1,0 +1,297 @@
+/* stylelint-disable no-descending-specificity -- hero, variants, legal body keep source order */
+
+/* transition-hero — lifted: teasernMarketHero + theme-insure-shield (.ups-teaser__transitionhero),
+   legal archetype prototype `.thero`. The section is the full-bleed band; the wrapper stays the
+   foundation container. */
+main > .section.transition-hero-container {
+  position: relative;
+  z-index: 0;
+  margin-bottom: 64px;
+  padding: 2.4rem 0 0;
+  background: linear-gradient(350.94deg, #dce8e7 8%, #f3f3f3 55.74%);
+}
+
+/* the low white arc closing the band (theme ::after, 1440 x 72 path) */
+main > .section.transition-hero-container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.1rem;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  background: url("./arc.svg") 0 100% / 100% no-repeat;
+}
+
+/* live .row is display:flex, so the content margin never collapses through the band */
+main > .section.transition-hero-container > .transition-hero-wrapper {
+  display: flow-root;
+}
+
+.transition-hero .transition-hero-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 2.6rem;
+}
+
+.transition-hero .transition-hero-title {
+  position: relative;
+  display: block;
+  margin-bottom: 1.6rem;
+  padding-bottom: 1.6rem;
+  text-align: left;
+}
+
+.transition-hero .transition-hero-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+.transition-hero .transition-hero-title :is(h1, h2) {
+  margin: 0;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.transition-hero .transition-hero-desc {
+  margin-bottom: 1.6rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.transition-hero .transition-hero-desc :is(p, ul, ol) {
+  margin: 0 0 1.2rem;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.transition-hero .transition-hero-desc > :last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 768px) {
+  main > .section.transition-hero-container {
+    padding: 3.2rem 0 1.6rem;
+  }
+
+  .transition-hero .transition-hero-content {
+    margin-bottom: 3.2rem;
+  }
+
+  .transition-hero .transition-hero-title :is(h1, h2) {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .transition-hero .transition-hero-desc {
+    margin-bottom: 2.4rem;
+  }
+}
+
+@media (width >= 992px) {
+  main > .section.transition-hero-container {
+    padding: 4rem 0 5rem;
+  }
+
+  .transition-hero .transition-hero-title {
+    margin-bottom: 2.4rem;
+    padding-bottom: 2rem;
+  }
+
+  .transition-hero .transition-hero-title :is(h1, h2) {
+    font-size: 4.8rem;
+    line-height: 1.17;
+  }
+
+  .transition-hero .transition-hero-desc {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}
+
+/* ---------- variant `marketing`: copy-only Marketing Hero teaser (legal siblings) ----------
+   lifted: teasernMarketHero .ups-teaser__marketinghero without media (values as program's
+   marketing-hero no-media; the source arcHeightManager puts the arc 72px above the band bottom) */
+main > .section.transition-hero-container:has(.transition-hero.marketing) {
+  overflow: hidden;
+}
+
+main > .section.transition-hero-container:has(.transition-hero.marketing)::after {
+  bottom: -12.1rem;
+  padding-top: 50%;
+  background: url("./arc-marketing-sm.svg") 0 100% / 100% no-repeat;
+}
+
+.transition-hero.marketing .transition-hero-content {
+  margin-bottom: 24px;
+}
+
+.transition-hero.marketing .transition-hero-desc {
+  margin-bottom: 24px;
+}
+
+.transition-hero.marketing .transition-hero-actions {
+  display: flex;
+  flex-direction: column;
+  margin-top: -16px;
+  margin-bottom: 2.4rem;
+}
+
+.transition-hero.marketing .transition-hero-actions p {
+  margin: 16px 0 0;
+}
+
+/* additional text (source .cmp-teaser__additionalText) */
+
+/* the Transition Hero variation hides its additional text at every width (lifted:
+   teasernMarketHero .ups-teaser__transitionhero .content-dir .cmp-teaser__content
+   .cmp-teaser__additionalText { display: none }); only the Marketing Hero shows it */
+.transition-hero:not(.marketing) .transition-hero-additional {
+  display: none;
+}
+
+.transition-hero .transition-hero-additional p {
+  margin: 0 0 1.2rem;
+  color: var(--is-grey-dark);
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.transition-hero.marketing .transition-hero-additional {
+  margin-bottom: 2.4rem;
+}
+
+.transition-hero .transition-hero-additional p:last-child {
+  margin-bottom: 0;
+}
+
+/* variant `small`: description in the source `.small` print; the p keeps the source line box
+   (the description's font size at line-height 1: 16px, 20px from 992 — measured on the source) */
+.transition-hero.small .transition-hero-desc p {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+@media (width >= 992px) {
+  .transition-hero.small .transition-hero-desc p {
+    line-height: 2rem;
+  }
+}
+
+@media (width >= 768px) {
+  main > .section.transition-hero-container:has(.transition-hero.marketing) {
+    padding: 3.2rem 0 7.2rem;
+  }
+
+  main > .section.transition-hero-container:has(.transition-hero.marketing)::after {
+    bottom: 0;
+    height: 7.4rem;
+    padding-top: 0;
+  }
+
+  /* the source row is row-reverse: a copy-only teaser sits in the right-hand column */
+  .transition-hero.marketing .transition-hero-content {
+    width: calc(50% + var(--is-gutter) / 2);
+    margin-bottom: 0;
+    margin-left: 50%;
+    padding-left: calc(var(--is-gutter) / 2);
+    padding-right: 2.4rem;
+  }
+
+  .transition-hero.marketing .transition-hero-title {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .transition-hero.marketing .transition-hero-additional {
+    margin-bottom: 0.8rem;
+  }
+
+  .transition-hero.marketing .transition-hero-actions {
+    flex-flow: row wrap;
+    column-gap: 12px;
+    margin-bottom: 0;
+  }
+}
+
+@media (width >= 992px) {
+  main > .section.transition-hero-container:has(.transition-hero.marketing) {
+    padding: 4rem 0 10.4rem;
+  }
+
+  main > .section.transition-hero-container:has(.transition-hero.marketing)::after {
+    top: calc(100% - 7.2rem);
+    bottom: 0;
+    height: auto;
+    padding: 0 0 35.4rem;
+    background: url("./arc-marketing.svg") 0 0 / 100% auto no-repeat;
+  }
+
+  .transition-hero.marketing .transition-hero-content {
+    padding-right: 120px;
+  }
+
+  .transition-hero.marketing .transition-hero-title {
+    margin-bottom: 2.4rem;
+  }
+
+  .transition-hero.marketing .transition-hero-desc {
+    margin-bottom: 24px;
+  }
+}
+
+@media (width >= 1400px) {
+  main > .section.transition-hero-container:has(.transition-hero.marketing)::after {
+    background-repeat: round;
+  }
+}
+
+/* ---------- legal body (source text--rte .cmp-text): default content after the hero ----------
+   p / lists / headings 16px apart, last one flush; the band closes 64px above the footer */
+.transition-hero-container ~ .section > div:last-child {
+  margin-bottom: 64px;
+}
+
+.transition-hero-container ~ .section .default-content-wrapper :is(p, ul, ol, h2, h3, h4, h5, h6) {
+  margin: 0 0 1.6rem;
+}
+
+.transition-hero-container ~ .section .default-content-wrapper p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* an authored empty paragraph (source <p>&nbsp;</p>) keeps its line */
+.transition-hero-container ~ .section .default-content-wrapper p:empty {
+  min-height: 2.4rem;
+}
+
+.transition-hero-container ~ .section .default-content-wrapper:last-child > :last-child {
+  margin-bottom: 0;
+}
+
+.transition-hero-container ~ .section .default-content-wrapper ul {
+  padding-left: 3.2rem;
+  list-style: disc;
+}
+
+/* section style `indent`: the source's indented sub-clauses (i.–vii. typed after a run of
+   15–18 &nbsp; — a first-line indent, wrapped lines return to the margin). Measured first-line
+   indent 63.5–75.4px, median 67.5px (16 &nbsp; + a space); the band keeps the 16px p rhythm
+   with the sections around it */
+.transition-hero-container ~ .section.indent .default-content-wrapper p {
+  text-indent: 6.75rem;
+}
+
+.transition-hero-container ~ .section:has(+ .section.indent) > div:last-child,
+.transition-hero-container ~ .section.indent:not(:last-child) > div:last-child {
+  margin-bottom: 1.6rem;
+}

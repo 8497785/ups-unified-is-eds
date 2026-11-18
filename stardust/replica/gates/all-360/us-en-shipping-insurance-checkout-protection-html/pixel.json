@@ -1,0 +1,95 @@
+{
+  "a": "stardust/replica/gates/all-360/us-en-shipping-insurance-checkout-protection-html/origin.png",
+  "b": "stardust/replica/gates/all-360/us-en-shipping-insurance-checkout-protection-html/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 5636,
+    "mode": "overlap"
+  },
+  "heightDelta": 74,
+  "differingPixels": 109567,
+  "pct": 6.16,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/us-en-shipping-insurance-checkout-protection-html/diff.png",
+  "masks": [
+    {
+      "yA": 3654,
+      "h": 690,
+      "yB": 3652
+    }
+  ],
+  "maskedRows": 692,
+  "textPct": 4.86,
+  "textBoxes": 98,
+  "textPixels": 338330,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.5
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 3.5
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0.9
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 3.4
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 39.8
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 9.9
+    },
+    {
+      "y0": 5500,
+      "y1": 5636,
+      "pct": 3.9
+    }
+  ],
+  "maskReason": "capture state: the Real Customers secondary-promo video carousel autoplays on the source (cmp-carousel data-cmp-autoplay, data-cmp-delay 5000; build variant `autoplay`) and the origin stitch lands on slide 2 (Leather Spa, dot 2 active) while the build capture shows slide 1 (Aussie Select); same 4 slides on both sides, slide heights differ (measure.mjs 360: source .cmp-carousel y3654 h732 on The Wine Cellarage, build .secondary-promo.carousel y3652 h649 on Leather Spa). C-final fix-b1 2026-11-18.",
+  "capturesDropped": {
+    "masks": [
+      "3654:690@3652"
+    ],
+    "edsUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/checkout-protection"
+  }
+}

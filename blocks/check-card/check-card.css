@@ -1,0 +1,55 @@
+/* check-card — lifted: the source embed's inline styles (/us/en/partners/3pl-partners): a 700px
+   white card, 4px radius, 0 2px 8px shadow, Arial; a #0f8585 header bar (22px 30px) with a
+   24/1.3 500 white heading; a 30px panel of 18/1.5 #222 lines, 28px apart, each led by a 20px
+   check mark 12px before the text */
+.check-card {
+  max-width: 700px;
+  margin: 0 auto 64px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 12%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.check-card .check-card-head {
+  padding: 22px 30px;
+  background-color: #0f8585;
+}
+
+.check-card .check-card-head :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  color: #fff;
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.check-card .check-card-list {
+  margin: 0;
+  padding: 30px;
+  list-style: none;
+}
+
+.check-card .check-card-list li {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.check-card .check-card-list li + li {
+  margin-top: 28px;
+}
+
+.check-card .check-card-list li::before {
+  content: "\2705";
+  margin-right: 12px;
+  font-size: 20px;
+}
+
+.check-card .check-card-list li > span {
+  color: #222;
+  font-size: 18px;
+  line-height: 1.5;
+}

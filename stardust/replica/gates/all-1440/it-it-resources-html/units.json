@@ -1,0 +1,749 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-18T11:02:57.267Z",
+  "tol": 4,
+  "n": 3,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.insureshield.com/it/it/resources.html",
+  "at": "2026-11-18T07:46:01.516Z",
+  "docH": 3731
+ },
+ "eds": {
+  "url": "https://main--9ade650b--aemcoder.aem.page/it/it/resources",
+  "at": "2026-11-18T11:02:57.166Z",
+  "docH": 3731
+ },
+ "results": [
+  {
+   "sel": ".slick-active > .story-card--list__item__card=.stories__slide.is-active > .story, .story-card-carousel .stories-slide:not([aria-hidden]) > .story",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.slick-track > div#slick-slide00 > a.story-card--list__item__card"
+     },
+     "eds": {
+      "path": "div.stories-track > div.stories-slide > a.story"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "image:semi truck on fire on the side of the hi",
+       "role": "image",
+       "text": "semi truck on fire on the side of the highway.",
+       "edsText": "semi truck on fire on the side of the highway.",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:storie dei clienti",
+       "role": "text",
+       "text": "storie dei clienti",
+       "edsText": "storie dei clienti",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 248,
+        "w": 320,
+        "h": 12
+       },
+       "eds": {
+        "x": 32,
+        "y": 248,
+        "w": 320,
+        "h": 12,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "10/12/500",
+        "eds": "10/12/500"
+       }
+      },
+      {
+       "key": "heading:quando accadono incidenti a un carico so",
+       "role": "heading",
+       "text": "quando accadono incidenti a un carico solido",
+       "edsText": "quando accadono incidenti a un carico solido",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 276,
+        "w": 320,
+        "h": 48
+       },
+       "eds": {
+        "x": 32,
+        "y": 276,
+        "w": 320,
+        "h": 48,
+        "sel": "h3#quando-accadono-incidenti-a-un-carico-solido",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/500",
+        "eds": "20/24/500"
+       }
+      },
+      {
+       "key": "text:l'assicurazione del carico salva argus g",
+       "role": "text",
+       "text": "l'assicurazione del carico salva argus group da una perdita ",
+       "edsText": "l'assicurazione del carico salva argus group da una perdita ",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 336,
+        "w": 320,
+        "h": 48
+       },
+       "eds": {
+        "x": 32,
+        "y": 336,
+        "w": 320,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:per saperne di più",
+       "role": "text",
+       "text": "per saperne di più",
+       "edsText": "per saperne di più",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 424,
+        "w": 320,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 424,
+        "w": 320,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 112,
+       "y": 1043,
+       "w": 384,
+       "h": 480
+      },
+      "eds": {
+       "x": 112,
+       "y": 1043,
+       "w": 384,
+       "h": 480
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.slick-track > div#slick-slide01 > a.story-card--list__item__card"
+     },
+     "eds": {
+      "path": "div.stories-track > div.stories-slide > a.story"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "image:brightly colored clove polyps coral in t",
+       "role": "image",
+       "text": "brightly colored clove polyps coral in the pacific east",
+       "edsText": "brightly colored clove polyps coral in the pacific east",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:storie dei clienti",
+       "role": "text",
+       "text": "storie dei clienti",
+       "edsText": "storie dei clienti",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 248,
+        "w": 320,
+        "h": 12
+       },
+       "eds": {
+        "x": 32,
+        "y": 248,
+        "w": 320,
+        "h": 12,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "10/12/500",
+        "eds": "10/12/500"
+       }
+      },
+      {
+       "key": "heading:consegne dal vivo",
+       "role": "heading",
+       "text": "consegne dal vivo",
+       "edsText": "consegne dal vivo",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 276,
+        "w": 320,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 276,
+        "w": 320,
+        "h": 24,
+        "sel": "h3#consegne-dal-vivo",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/500",
+        "eds": "20/24/500"
+       }
+      },
+      {
+       "key": "text:assicurando il corallo di alto valore di",
+       "role": "text",
+       "text": "assicurando il corallo di alto valore di pacific east aquacu",
+       "edsText": "assicurando il corallo di alto valore di pacific east aquacu",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 312,
+        "w": 320,
+        "h": 48
+       },
+       "eds": {
+        "x": 32,
+        "y": 312,
+        "w": 320,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:per saperne di più",
+       "role": "text",
+       "text": "per saperne di più",
+       "edsText": "per saperne di più",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 424,
+        "w": 320,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 424,
+        "w": 320,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 528,
+       "y": 1043,
+       "w": 384,
+       "h": 480
+      },
+      "eds": {
+       "x": 528,
+       "y": 1043,
+       "w": 384,
+       "h": 480
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.slick-track > div#slick-slide02 > a.story-card--list__item__card"
+     },
+     "eds": {
+      "path": "div.stories-track > div.stories-slide > a.story"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "image:all white loft bathroom with a large pla",
+       "role": "image",
+       "text": "all white loft bathroom with a large plant and tub",
+       "edsText": "all white loft bathroom with a large plant and tub",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:storie dei clienti",
+       "role": "text",
+       "text": "storie dei clienti",
+       "edsText": "storie dei clienti",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 248,
+        "w": 320,
+        "h": 12
+       },
+       "eds": {
+        "x": 32,
+        "y": 248,
+        "w": 320,
+        "h": 12,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "10/12/500",
+        "eds": "10/12/500"
+       }
+      },
+      {
+       "key": "heading:una politica che si ripaga da sola",
+       "role": "heading",
+       "text": "una politica che si ripaga da sola",
+       "edsText": "una politica che si ripaga da sola",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 276,
+        "w": 320,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 276,
+        "w": 320,
+        "h": 24,
+        "sel": "h3#una-politica-che-si-ripaga-da-sola",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/500",
+        "eds": "20/24/500"
+       }
+      },
+      {
+       "key": "text:insureshield pone fine alla battaglia pe",
+       "role": "text",
+       "text": "insureshield pone fine alla battaglia per i reclami sul valo",
+       "edsText": "insureshield pone fine alla battaglia per i reclami sul valo",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 312,
+        "w": 320,
+        "h": 72
+       },
+       "eds": {
+        "x": 32,
+        "y": 312,
+        "w": 320,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:®",
+       "role": "text",
+       "text": "®",
+       "edsText": "®",
+       "byPosition": false,
+       "origin": {
+        "x": 120,
+        "y": 312,
+        "w": 9,
+        "h": 14
+       },
+       "eds": {
+        "x": 120,
+        "y": 312,
+        "w": 9,
+        "h": 14,
+        "sel": "sup",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      },
+      {
+       "key": "text:per saperne di più",
+       "role": "text",
+       "text": "per saperne di più",
+       "edsText": "per saperne di più",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 424,
+        "w": 320,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 424,
+        "w": 320,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 944,
+       "y": 1043,
+       "w": 384,
+       "h": 480
+      },
+      "eds": {
+       "x": 944,
+       "y": 1043,
+       "w": 384,
+       "h": 480
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 3,
+  "within": 19,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

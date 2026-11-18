@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "roboto",
+        "createdAt": "2026-11-18T11:46:10.872Z",
+        "reason": "replica migration: Roboto is the source site's own brand face (styles/styles.css, captured from insureshield.com); design changes are out of scope"
+      }
+    ]
+  }
+}

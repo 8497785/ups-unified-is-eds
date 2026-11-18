@@ -1,0 +1,937 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-17T21:46:12.788Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.insureshield.com/gb/en/resources.html",
+      "http://localhost:8791/gb-en-resources-html-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.insureshield.com/gb/en/resources.html",
+    "http://localhost:8791/gb-en-resources-html-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid > div.cmp-container",
+      "isBody": false,
+      "leaves": 64,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "#teaser-48c86d08de",
+        "tier": 3,
+        "share": 0.03,
+        "section": 0,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 624,
+        "via": "fixed",
+        "selector": "#teaser-48c86d08de > div.row > div.col-md-6.col-12",
+        "tier": 5,
+        "share": 0,
+        "section": 0,
+        "w1": 624,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 624,
+        "via": "fixed",
+        "selector": "#teaser-48c86d08de > div.row > div.col-md-6.col-12",
+        "tier": 5,
+        "share": 0.03,
+        "section": 0,
+        "w1": 624,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.title.container",
+        "tier": 2,
+        "share": 0.02,
+        "section": 1,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 377,
+        "via": "fixed",
+        "selector": "div.aem-Grid.aem-Grid--12 > div.title.container > div.cmp-title > h2.cmp-title__text",
+        "tier": 4,
+        "share": 0.02,
+        "section": 1,
+        "w1": 377,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.aem-Grid.aem-Grid--12 > div.search.aem-GridColumn > div > div.site-search.container",
+        "tier": 4,
+        "share": 0.02,
+        "section": 2,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.title.container",
+        "tier": 2,
+        "share": 0.03,
+        "section": 3,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 308,
+        "via": "fixed",
+        "selector": "div.aem-Grid.aem-Grid--12 > div.title.container > div.cmp-title > h2.cmp-title__text",
+        "tier": 4,
+        "share": 0.02,
+        "section": 3,
+        "w1": 308,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.cmp-container > div.aem-Grid.aem-Grid--12 > div.storycard.storycard-personalization > div.story-card.container",
+        "tier": 3,
+        "share": 0.41,
+        "section": 4,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "#slick-slide00",
+        "tier": 7,
+        "share": 0.06,
+        "section": 4,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "#slick-slide01",
+        "tier": 7,
+        "share": 0.08,
+        "section": 4,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 247,
+        "via": "fixed",
+        "selector": "div > div.description__title > h1 > b",
+        "tier": 13,
+        "share": 0.02,
+        "section": 4,
+        "w1": 247,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "#slick-slide02",
+        "tier": 7,
+        "share": 0.06,
+        "section": 4,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "#slick-slide03",
+        "tier": 7,
+        "share": 0.06,
+        "section": 4,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 260,
+        "via": "fixed",
+        "selector": "div > div.description__title > h1 > b",
+        "tier": 13,
+        "share": 0.02,
+        "section": 4,
+        "w1": 260,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "#slick-slide04",
+        "tier": 7,
+        "share": 0.06,
+        "section": 4,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "#slick-slide05",
+        "tier": 7,
+        "share": 0.08,
+        "section": 4,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 311,
+        "via": "fixed",
+        "selector": "div > div.description__title > h1 > b",
+        "tier": 13,
+        "share": 0.02,
+        "section": 4,
+        "w1": 311,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.cta-link.container",
+        "tier": 2,
+        "share": 0.02,
+        "section": 5,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.title.container",
+        "tier": 2,
+        "share": 0.03,
+        "section": 6,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.cmp-container > div.aem-Grid.aem-Grid--12 > div.storycard.storycard-personalization > div.story-card.container",
+        "tier": 3,
+        "share": 0.38,
+        "section": 7,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "#slick-slide10",
+        "tier": 7,
+        "share": 0.06,
+        "section": 7,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 301,
+        "via": "fixed",
+        "selector": "div > div.description__text > p > i",
+        "tier": 13,
+        "share": 0.02,
+        "section": 7,
+        "w1": 301,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "#slick-slide11",
+        "tier": 7,
+        "share": 0.06,
+        "section": 7,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "#slick-slide12",
+        "tier": 7,
+        "share": 0.06,
+        "section": 7,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 253,
+        "via": "fixed",
+        "selector": "div > div.description__title > h1 > b",
+        "tier": 13,
+        "share": 0.02,
+        "section": 7,
+        "w1": 253,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "#slick-slide13",
+        "tier": 7,
+        "share": 0.06,
+        "section": 7,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 286,
+        "via": "fixed",
+        "selector": "div > div.description__title > h1 > b",
+        "tier": 13,
+        "share": 0.02,
+        "section": 7,
+        "w1": 286,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "#slick-slide14",
+        "tier": 7,
+        "share": 0.06,
+        "section": 7,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "#slick-slide15",
+        "tier": 7,
+        "share": 0.06,
+        "section": 7,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.cta-link.container",
+        "tier": 2,
+        "share": 0.02,
+        "section": 8,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.secondarypromo.secondarypromo-personalization",
+        "tier": 2,
+        "share": 0.05,
+        "section": 9,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.marketinghero.marketinghero-personalization",
+        "px": 1280,
+        "capSelector": "#teaser-48c86d08de"
+      },
+      {
+        "index": 1,
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.title.container",
+        "px": 1280,
+        "capSelector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.title.container"
+      },
+      {
+        "index": 2,
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.search.aem-GridColumn",
+        "px": 1280,
+        "capSelector": "div.aem-Grid.aem-Grid--12 > div.search.aem-GridColumn > div > div.site-search.container"
+      },
+      {
+        "index": 3,
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.title.container",
+        "px": 1280,
+        "capSelector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.title.container"
+      },
+      {
+        "index": 4,
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.storycard.storycard-personalization",
+        "px": 1280,
+        "capSelector": "div.cmp-container > div.aem-Grid.aem-Grid--12 > div.storycard.storycard-personalization > div.story-card.container"
+      },
+      {
+        "index": 5,
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.cta-link.container",
+        "px": 1280,
+        "capSelector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.cta-link.container"
+      },
+      {
+        "index": 6,
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.title.container",
+        "px": 1280,
+        "capSelector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.title.container"
+      },
+      {
+        "index": 7,
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.storycard.storycard-personalization",
+        "px": 1280,
+        "capSelector": "div.cmp-container > div.aem-Grid.aem-Grid--12 > div.storycard.storycard-personalization > div.story-card.container"
+      },
+      {
+        "index": 8,
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.cta-link.container",
+        "px": 1280,
+        "capSelector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.cta-link.container"
+      },
+      {
+        "index": 9,
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.secondarypromo.secondarypromo-personalization",
+        "px": 1280,
+        "capSelector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.secondarypromo.secondarypromo-personalization"
+      },
+      {
+        "index": 10,
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.text.container",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1280,
+    "contentFrom": "module",
+    "maxCap": 1280,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 263
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "body.locale-gb > div.page-root > main.page-main",
+      "isBody": false,
+      "leaves": 64,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.page-root > main.page-main > section.mhero.mhero--plain > div.container",
+        "tier": 2,
+        "share": 0.03,
+        "section": 0,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 624,
+        "via": "fixed",
+        "selector": "section.mhero.mhero--plain > div.container > div.row.mhero__row > div.col-md-6.mhero__content",
+        "tier": 4,
+        "share": 0.03,
+        "section": 0,
+        "w1": 624,
+        "maxWidth": "50%"
+      },
+      {
+        "kind": "module",
+        "px": 624,
+        "via": "fixed",
+        "selector": "section.mhero.mhero--plain > div.container > div.row.mhero__row > div.col-md-6.mhero__media",
+        "tier": 4,
+        "share": 0,
+        "section": 0,
+        "w1": 624,
+        "maxWidth": "50%"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "body.locale-gb > div.page-root > main.page-main > div.container.sec-title",
+        "tier": 1,
+        "share": 0.02,
+        "section": 1,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 377,
+        "via": "fixed",
+        "selector": "main.page-main > div.container.sec-title > div.sec-title__inner > h2.sec-title__text",
+        "tier": 3,
+        "share": 0.02,
+        "section": 1,
+        "w1": 377,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "body.locale-gb > div.page-root > main.page-main > div.container.lsearch",
+        "tier": 1,
+        "share": 0.02,
+        "section": 2,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "body.locale-gb > div.page-root > main.page-main > div.container.sec-title",
+        "tier": 1,
+        "share": 0.03,
+        "section": 3,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 308,
+        "via": "fixed",
+        "selector": "main.page-main > div.container.sec-title > div.sec-title__inner > h2.sec-title__text",
+        "tier": 3,
+        "share": 0.02,
+        "section": 3,
+        "w1": 308,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "body.locale-gb > div.page-root > main.page-main > div.container.stories",
+        "tier": 1,
+        "share": 0.42,
+        "section": 4,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "div.container.stories > div.stories__viewport > div.stories__track > div.stories__slide",
+        "tier": 4,
+        "share": 0.06,
+        "section": 4,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "div.container.stories > div.stories__viewport > div.stories__track > div.stories__slide",
+        "tier": 4,
+        "share": 0.08,
+        "section": 4,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 247,
+        "via": "fixed",
+        "selector": "div > div.story__title > h1 > b",
+        "tier": 10,
+        "share": 0.02,
+        "section": 4,
+        "w1": 247,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "div.container.stories > div.stories__viewport > div.stories__track > div.stories__slide",
+        "tier": 4,
+        "share": 0.06,
+        "section": 4,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "div.container.stories > div.stories__viewport > div.stories__track > div.stories__slide",
+        "tier": 4,
+        "share": 0.06,
+        "section": 4,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 260,
+        "via": "fixed",
+        "selector": "div > div.story__title > h1 > b",
+        "tier": 10,
+        "share": 0.02,
+        "section": 4,
+        "w1": 260,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "div.container.stories > div.stories__viewport > div.stories__track > div.stories__slide",
+        "tier": 4,
+        "share": 0.06,
+        "section": 4,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "div.container.stories > div.stories__viewport > div.stories__track > div.stories__slide",
+        "tier": 4,
+        "share": 0.08,
+        "section": 4,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 311,
+        "via": "fixed",
+        "selector": "div > div.story__title > h1 > b",
+        "tier": 10,
+        "share": 0.02,
+        "section": 4,
+        "w1": 311,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "body.locale-gb > div.page-root > main.page-main > div.container.sec-title",
+        "tier": 1,
+        "share": 0.03,
+        "section": 5,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "body.locale-gb > div.page-root > main.page-main > div.container.stories",
+        "tier": 1,
+        "share": 0.39,
+        "section": 6,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "div.container.stories > div.stories__viewport > div.stories__track > div.stories__slide",
+        "tier": 4,
+        "share": 0.06,
+        "section": 6,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 301,
+        "via": "fixed",
+        "selector": "div > div.story__text > p > i",
+        "tier": 10,
+        "share": 0.02,
+        "section": 6,
+        "w1": 301,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "div.container.stories > div.stories__viewport > div.stories__track > div.stories__slide",
+        "tier": 4,
+        "share": 0.06,
+        "section": 6,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "div.container.stories > div.stories__viewport > div.stories__track > div.stories__slide",
+        "tier": 4,
+        "share": 0.06,
+        "section": 6,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 253,
+        "via": "fixed",
+        "selector": "div > div.story__title > h1 > b",
+        "tier": 10,
+        "share": 0.02,
+        "section": 6,
+        "w1": 253,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "div.container.stories > div.stories__viewport > div.stories__track > div.stories__slide",
+        "tier": 4,
+        "share": 0.06,
+        "section": 6,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 286,
+        "via": "fixed",
+        "selector": "div > div.story__title > h1 > b",
+        "tier": 10,
+        "share": 0.02,
+        "section": 6,
+        "w1": 286,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "div.container.stories > div.stories__viewport > div.stories__track > div.stories__slide",
+        "tier": 4,
+        "share": 0.06,
+        "section": 6,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "div.container.stories > div.stories__viewport > div.stories__track > div.stories__slide",
+        "tier": 4,
+        "share": 0.06,
+        "section": 6,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "body.locale-gb > div.page-root > main.page-main > section.container.bpromo",
+        "tier": 1,
+        "share": 0.05,
+        "section": 7,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "body.locale-gb > div.page-root > main.page-main > section.mhero.mhero--plain",
+        "px": 1280,
+        "capSelector": "div.page-root > main.page-main > section.mhero.mhero--plain > div.container"
+      },
+      {
+        "index": 1,
+        "selector": "body.locale-gb > div.page-root > main.page-main > div.container.sec-title",
+        "px": 1280,
+        "capSelector": "body.locale-gb > div.page-root > main.page-main > div.container.sec-title"
+      },
+      {
+        "index": 2,
+        "selector": "body.locale-gb > div.page-root > main.page-main > div.container.lsearch",
+        "px": 1280,
+        "capSelector": "body.locale-gb > div.page-root > main.page-main > div.container.lsearch"
+      },
+      {
+        "index": 3,
+        "selector": "body.locale-gb > div.page-root > main.page-main > div.container.sec-title",
+        "px": 1280,
+        "capSelector": "body.locale-gb > div.page-root > main.page-main > div.container.sec-title"
+      },
+      {
+        "index": 4,
+        "selector": "body.locale-gb > div.page-root > main.page-main > div.container.stories",
+        "px": 1280,
+        "capSelector": "body.locale-gb > div.page-root > main.page-main > div.container.stories"
+      },
+      {
+        "index": 5,
+        "selector": "body.locale-gb > div.page-root > main.page-main > div.container.sec-title",
+        "px": 1280,
+        "capSelector": "body.locale-gb > div.page-root > main.page-main > div.container.sec-title"
+      },
+      {
+        "index": 6,
+        "selector": "body.locale-gb > div.page-root > main.page-main > div.container.stories",
+        "px": 1280,
+        "capSelector": "body.locale-gb > div.page-root > main.page-main > div.container.stories"
+      },
+      {
+        "index": 7,
+        "selector": "body.locale-gb > div.page-root > main.page-main > section.container.bpromo",
+        "px": 1280,
+        "capSelector": "body.locale-gb > div.page-root > main.page-main > section.container.bpromo"
+      },
+      {
+        "index": 8,
+        "selector": "body.locale-gb > div.page-root > main.page-main > div.container.note",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1280,
+    "contentFrom": "module",
+    "maxCap": 1280,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 229
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1280px = build 1280px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "sections",
+        "detail": "live 11 vs build 9 top-level sections — module rows compared by order up to the shorter side, advisory until the structure matches",
+        "advisory": true
+      },
+      {
+        "ok": true,
+        "label": "module 1/11",
+        "detail": "1280px = 1280px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/11",
+        "detail": "1280px = 1280px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/11",
+        "detail": "1280px = 1280px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/11",
+        "detail": "1280px = 1280px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 5/11",
+        "detail": "1280px = 1280px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 6/11",
+        "detail": "1280px = 1280px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 7/11",
+        "detail": "1280px = 1280px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 8/11",
+        "detail": "1280px = 1280px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 9/11",
+        "detail": "live 1280px (div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.cta-link.container) → build full-bleed (body.locale-gb > div.page-root > main.page-main > div.container.note)",
+        "advisory": true
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/gb-en-resources-html-2560/cap-iter.json"
+}

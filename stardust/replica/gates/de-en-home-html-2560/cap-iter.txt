@@ -1,0 +1,22 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.insureshield.com/de/en/home.html
+  modules  12 sections: capped 1280 ×11 · full-bleed ×1
+  contentMaxWidth 1280px (module) · shellMaxWidth fluid · root #container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid > div.cmp-container
+build  http://localhost:8791/de-en-home-html-proposed.html
+  modules  12 sections: capped 1280 ×12 · full-bleed ×0
+  contentMaxWidth 1280px (module) · shellMaxWidth fluid · root body.locale-de > div.page-root > main.page-main
+rows
+  ✓ content cap: live 1280px = build 1280px (±20, shared module cap)
+  ✓ module 1/12: 1280px = 1280px
+  ✓ module 2/12: 1280px = 1280px
+  ✓ module 3/12: 1280px = 1280px
+  ✓ module 4/12: 1280px = 1280px
+  ✓ module 5/12: 1280px = 1280px
+  ✓ module 6/12: 1280px = 1280px
+  ✓ module 7/12: 1280px = 1280px
+  ✗ module 8/12: live full-bleed (div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.carousel.panelcontainer) → build 1280px (#fpromo-slide-1 > div.fpromo__item > div.container)
+  ✓ module 9/12: 1280px = 1280px
+  ✓ module 10/12: 1280px = 1280px
+  ✓ module 11/12: 1280px = 1280px
+  ✓ module 12/12: 1280px = 1280px
+cap-probe: FAIL at 2560 — 1 of 13 rows failed (evidence stardust/replica/gates/de-en-home-html-2560/cap-iter.json)

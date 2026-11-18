@@ -1,0 +1,221 @@
+/* region-selector — lifted from language-selector.min.css #ups-langSelect +
+   theme-insure-shield #ups-langSelect rules (prototype us-en-global-html.css).
+   The section wrapper is the source .container; padding (not margin) keeps the
+   source's margins inside main (the source content root contains them). */
+.region-selector {
+  padding-bottom: 6rem;
+}
+
+/* bootstrap col-md-9 / col-md-3 */
+.region-selector .region-selector-row > .region-selector-acc-col {
+  margin: 0 -3px;
+  padding: 0 3px 0 10px;
+}
+
+/* ---------- title (#ups-langSelect h1 + :before) ---------- */
+.region-selector .region-selector-title {
+  position: relative;
+  margin: 0 0 2rem;
+  padding-bottom: 0.6rem;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.region-selector .region-selector-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 120px;
+  height: 1px;
+  background: #3fa29d;
+}
+
+/* ---------- map (.ups-langSelect_map, #ups-svg-countries) ---------- */
+.region-selector .region-selector-map {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 55%;
+}
+
+.region-selector .region-selector-map svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.region-selector .region-selector-map svg g * {
+  cursor: pointer;
+  fill: #8c857e;
+}
+
+.region-selector .region-selector-map svg g.region-disabled * {
+  cursor: default;
+  fill: #dfdbd7;
+}
+
+.region-selector .region-selector-map svg g.ups-mousein *,
+.region-selector .region-selector-map svg g:hover * {
+  fill: #77c2c2;
+}
+
+.region-selector .region-selector-map svg g.ups-active * {
+  fill: #3fa29d;
+}
+
+.region-selector .region-selector-map svg g.ups-active:hover * {
+  fill: #77c2c2;
+}
+
+/* disabled regions (asia, south pacific…) never highlight */
+.region-selector .region-selector-map svg g.region-disabled:hover * {
+  cursor: default;
+  fill: #dfdbd7;
+}
+
+.region-selector .region-selector-map svg g:focus {
+  outline-width: 0;
+}
+
+/* ---------- accordion (.ups-langSelect_accordion) ---------- */
+.region-selector .region-selector-acc {
+  border: 1px solid #8c857e;
+}
+
+.region-selector .region-selector-item {
+  position: relative;
+  min-height: 4.5rem;
+  border-top: 1px solid #8c857e;
+  transition: all 0.5s;
+}
+
+.region-selector .region-selector-item:first-child {
+  border: none;
+}
+
+.region-selector .region-selector-head {
+  margin: 0;
+}
+
+.region-selector .region-selector-toggle {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 2rem 4rem 1.6rem 1.6rem;
+  border: 0;
+  background: #fff;
+  color: #121212;
+  font-family: var(--is-font);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.region-selector .region-selector-toggle:focus {
+  outline-color: #c67d30;
+  outline-offset: -1px;
+}
+
+.region-selector .region-selector-toggle:hover,
+.region-selector .region-selector-toggle.ups-mousein {
+  background-color: #77c2c2;
+  color: #000;
+  text-decoration: none;
+}
+
+.region-selector .region-selector-toggle.ups-active {
+  background-color: #3fa29d;
+  color: #fff;
+}
+
+.region-selector .region-selector-toggle.ups-active:hover,
+.region-selector .region-selector-toggle.ups-active.ups-mousein {
+  background-color: #77c2c2;
+  color: #000;
+}
+
+.region-selector .region-selector-toggle .upspr-icon-chevrondown {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  font-size: 1.2rem;
+  line-height: inherit;
+  vertical-align: middle;
+  transform: translateY(-50%) rotate(0);
+}
+
+/* source sets the .5s transform transition only on the active item's chevron */
+.region-selector .region-selector-item.ups-active .upspr-icon-chevrondown {
+  transform: translateY(-50%) rotate(180deg);
+  transition: transform 0.5s;
+}
+
+.region-selector .region-selector-links {
+  display: none;
+  max-height: 0;
+  overflow: hidden auto;
+  margin: 0;
+  padding: 3rem;
+  list-style: none;
+  background: #fff;
+  transition: max-height 0.3s;
+}
+
+.region-selector .region-selector-item.ups-active .region-selector-links {
+  display: block;
+  max-height: 33rem;
+  padding: 0 1.5rem;
+}
+
+.region-selector .region-selector-links li {
+  margin: 0;
+}
+
+.region-selector .region-selector-links a {
+  display: block;
+  padding: 15px 5px 15px 0;
+  color: #000;
+  text-decoration: none;
+}
+
+.region-selector .region-selector-links a:hover {
+  color: #5f5656;
+  text-decoration: underline;
+}
+
+@media (width >= 768px) {
+  .region-selector {
+    padding: 30px 0;
+  }
+
+  .region-selector .region-selector-row > .region-selector-map-col {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+
+  .region-selector .region-selector-row > .region-selector-acc-col {
+    flex-basis: 25%;
+    max-width: 25%;
+    padding: 0 10px;
+  }
+
+  .region-selector .region-selector-title {
+    margin-bottom: 3rem;
+    font-size: 3.2rem;
+  }
+}
+
+@media (width >= 992px) {
+  .region-selector .region-selector-row > .region-selector-acc-col {
+    margin: 0 -5px;
+  }
+}

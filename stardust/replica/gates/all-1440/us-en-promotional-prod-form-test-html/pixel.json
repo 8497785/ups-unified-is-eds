@@ -1,0 +1,46 @@
+{
+  "a": "stardust/replica/gates/all-1440/us-en-promotional-prod-form-test-html/origin.png",
+  "b": "stardust/replica/gates/all-1440/us-en-promotional-prod-form-test-html/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 1777,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 173042,
+  "pct": 6.76,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/us-en-promotional-prod-form-test-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 4.32,
+  "textBoxes": 49,
+  "textPixels": 163738,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.1
+    },
+    {
+      "y0": 1500,
+      "y1": 1777,
+      "pct": 41.1
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/promotional/prod-form-test"
+  }
+}

@@ -1,0 +1,747 @@
+/* pathways-cards — lifted from the de-en-home-html (.pw, icon) and index (.paths/.pcard) prototypes */
+.pathways-cards {
+  margin-bottom: 64px;
+}
+
+.pathways-cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 calc(var(--is-gutter) / -2);
+}
+
+.pathways-cards-item {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 calc(var(--is-gutter) / 2);
+}
+
+.pathways-cards-item:not(:first-child) {
+  margin-top: 2rem;
+}
+
+.pathways-cards-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #fff;
+  border-radius: var(--is-radius);
+  box-shadow: var(--is-card-shadow);
+  filter: drop-shadow(0 2px 5px rgb(0 0 0 / 14%));
+}
+
+.pathways-cards-image {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.pathways-cards-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+}
+
+/* photo cards: the source image is inline (baseline gap under it, ~7px) — home, program */
+.pathways-cards:not(.icon) .pathways-cards-image img {
+  display: inline;
+  vertical-align: baseline;
+}
+
+.pathways-cards-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 2.4rem;
+}
+
+.pathways-cards-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.pathways-cards-title :is(p, h2, h3, h4) {
+  font: inherit;
+}
+
+.pathways-cards-text {
+  margin-top: 0.8rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.pathways-cards-link {
+  margin-top: 1.6rem;
+  text-align: left;
+}
+
+.pathways-cards-link a:any-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  color: var(--is-blue);
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  border-radius: 4rem;
+}
+
+.pathways-cards-link a:hover {
+  color: var(--is-blue-hover);
+  text-decoration: none;
+}
+
+.pathways-cards-link .upspr-icon-chevronright {
+  margin-left: 0.2rem;
+}
+
+/* icon variant (lifted: .pathways.services.icon) */
+.pathways-cards.icon .pathways-cards-image {
+  width: 7.2rem;
+  height: 7.2rem;
+  margin: 2.4rem 0 0 2.4rem;
+}
+
+.pathways-cards.icon .pathways-cards-image img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 0;
+}
+
+.pathways-cards.icon .pathways-cards-body {
+  padding-top: 1.6rem;
+}
+
+/* no-icon variant (lifted: .pathways.services.no-icon — the card image is display: none) */
+.pathways-cards.no-icon .pathways-cards-image {
+  display: none;
+}
+
+/* a card without text keeps the source's empty description__text <p> (its .8rem / 1.2rem top
+   margin) under the title */
+.pathways-cards:not(.icon) .pathways-cards-body:not(:has(.pathways-cards-text)) {
+  padding-bottom: 3.2rem;
+}
+
+/* a lone CTA authored after the block (default content) — lifted: .cta */
+.pathways-cards-container .pathways-cards-wrapper + .default-content-wrapper {
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+/* centred rich-text lines after the grid (source .text--rte h6, text-align centre, 16/24 →
+   20/28 ≥992, 16px apart — /us/en/shipping-insurance/retail) */
+.pathways-cards-container .pathways-cards-wrapper + .default-content-wrapper h6 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.pathways-cards-container .pathways-cards-wrapper + .default-content-wrapper h6 + h6 {
+  margin-top: 16px;
+}
+
+@media (width >= 768px) {
+  .pathways-cards-item {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .pathways-cards-item:not(:first-child) {
+    margin-top: 0;
+  }
+
+  .pathways-cards-item:nth-child(n + 3) {
+    margin-top: 2.4rem;
+  }
+
+  .pathways-cards-link a:any-link {
+    width: auto;
+  }
+}
+
+@media (width >= 992px) {
+  .pathways-cards-item {
+    flex-basis: 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .pathways-cards-item:nth-child(n + 3) {
+    margin-top: 0;
+  }
+
+  .pathways-cards-item:nth-child(n + 4) {
+    margin-top: 4.8rem;
+  }
+
+  .pathways-cards-body {
+    padding: 3.2rem;
+  }
+
+  .pathways-cards-title {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  .pathways-cards-text {
+    margin-top: 1.2rem;
+  }
+
+  .pathways-cards.icon .pathways-cards-image {
+    margin: 3.2rem 0 0 3.2rem;
+  }
+
+  .pathways-cards-container .pathways-cards-wrapper + .default-content-wrapper h6 {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  .pathways-cards.icon .pathways-cards-body {
+    padding-top: 1.6rem;
+  }
+
+  .pathways-cards:not(.icon) .pathways-cards-body:not(:has(.pathways-cards-text)) {
+    padding-bottom: 4.4rem;
+  }
+}
+
+/* section head (h2 + lede) authored as default content before the block — styled in place
+   (lifted: canon .sec-title / .sec-title--center) */
+.pathways-cards-container .default-content-wrapper:has(+ .pathways-cards-wrapper) {
+  margin-bottom: 24px;
+}
+
+.pathways-cards-container .default-content-wrapper:has(+ .pathways-cards-wrapper) h2 {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding-bottom: 16px;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.28;
+}
+
+.pathways-cards-container .default-content-wrapper:has(+ .pathways-cards-wrapper) h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+.pathways-cards-container .default-content-wrapper:has(+ .pathways-cards-wrapper) p {
+  margin-top: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* a CTA in the section head (gb/en "Who We Serve"): the source's cta-link band spacing */
+.pathways-cards-container .default-content-wrapper:has(+ .pathways-cards-wrapper) p.button-wrapper {
+  margin-top: 24px;
+  margin-bottom: 64px;
+}
+
+@media (width >= 768px) {
+  .pathways-cards-container .default-content-wrapper:has(+ .pathways-cards-wrapper) {
+    text-align: center;
+  }
+
+  .pathways-cards-container .default-content-wrapper:has(+ .pathways-cards-wrapper) h2::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (width >= 992px) {
+  .pathways-cards-container .default-content-wrapper:has(+ .pathways-cards-wrapper) {
+    margin-bottom: 48px;
+  }
+
+  .pathways-cards-container .default-content-wrapper:has(+ .pathways-cards-wrapper) :is(h2, p) {
+    margin-right: 16.5%;
+    margin-left: 16.5%;
+  }
+
+  .pathways-cards-container .default-content-wrapper:has(+ .pathways-cards-wrapper) h2 {
+    padding-bottom: 20px;
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .pathways-cards-container .default-content-wrapper:has(+ .pathways-cards-wrapper) p {
+    margin-top: 20px;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  .pathways-cards-container .default-content-wrapper:has(+ .pathways-cards-wrapper)
+  p.button-wrapper {
+    margin-top: 47px;
+    margin-bottom: 63px;
+  }
+}
+
+/* section style `columncontrol-gap`: the source places an EMPTY two-column control after the
+   pathways CTA — 0px tall >= 992 / 42px below, plus its 64px margin (measured on
+   /us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify) */
+main > .section.columncontrol-gap > div:last-child {
+  margin-bottom: 170px;
+}
+
+@media (width >= 992px) {
+  main > .section.columncontrol-gap > div:last-child {
+    margin-bottom: 128px;
+  }
+}
+
+/* section style `head-flush`: an h3 section head without the home template's 40px top pad
+   (source /us/en/about "Additional Solutions" sits 96px under the card links above; with the
+   pad the build measured 136px at 1440 and 360) */
+main > .section.pathways-cards-container.head-flush
+  > .default-content-wrapper:has(> h3:first-child) {
+  padding-top: 0;
+}
+
+/* variant `figures` (source .pathways.pathway-default, /us/en/solutions/delivery-orchestration/
+   delivery "Real Results"): frameless figure items — a 72px icon (inline, 79px line box), the
+   figure 20/28 500 16px under it and its label 8px lower; items 48px apart (first 8px down)
+   below 992; from 992 three columns, icon beside the copy (24px), figure 32/40 400, label 12px
+   lower — measured at 360 and 1440 */
+.pathways-cards.figures .pathways-cards-item:first-child {
+  margin-top: 8px;
+}
+
+.pathways-cards.figures .pathways-cards-item:not(:first-child) {
+  margin-top: 48px;
+}
+
+.pathways-cards.figures .pathways-cards-card {
+  height: auto;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  filter: none;
+}
+
+.pathways-cards.figures .pathways-cards-image {
+  width: 72px;
+  line-height: 24px;
+}
+
+.pathways-cards.figures .pathways-cards-image img {
+  display: inline;
+  width: 72px;
+  height: 72px;
+  aspect-ratio: 1 / 1;
+  vertical-align: baseline;
+  border-radius: 0;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.pathways-cards.figures .pathways-cards-body {
+  margin-top: 16px;
+  padding: 0;
+}
+
+.pathways-cards.figures .pathways-cards-title {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.pathways-cards.figures .pathways-cards-text {
+  margin-top: 8px;
+}
+
+@media (width >= 992px) {
+  .pathways-cards.figures .pathways-cards-item:is(:first-child, :not(:first-child)) {
+    margin-top: 0;
+  }
+
+  .pathways-cards.figures .pathways-cards-card {
+    flex-direction: row;
+  }
+
+  .pathways-cards.figures .pathways-cards-body {
+    margin: 0 0 0 24px;
+    padding: 0;
+  }
+
+  .pathways-cards.figures .pathways-cards-title {
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.25;
+  }
+
+  .pathways-cards.figures .pathways-cards-text {
+    margin-top: 12px;
+  }
+}
+
+/* section style `bg-light-gray` (source containerBackgroundColor cmp-container--bg-light-gray:
+   #f5f5f5 band, no padding of its own) — interim here, see
+   stardust/rollout/foundation-requests.md */
+main > .section.bg-light-gray {
+  display: flow-root;
+  background: #f5f5f5;
+}
+
+/* section style `head-left` (source title text-left): the pathways head stays left-aligned at
+   every width, its lede 67 % wide from 992 (/us/en/customer-communications/
+   enhanced-declared-value "Why Protection Matters") */
+@media (width >= 768px) {
+  main > .section.head-left .default-content-wrapper:has(+ .pathways-cards-wrapper) {
+    text-align: left;
+  }
+
+  main > .section.head-left .default-content-wrapper:has(+ .pathways-cards-wrapper) h2::after {
+    left: 0;
+    transform: none;
+  }
+}
+
+@media (width >= 992px) {
+  main > .section.head-left .default-content-wrapper:has(+ .pathways-cards-wrapper) :is(h2, p) {
+    margin-right: 33%;
+    margin-left: 0;
+  }
+}
+
+/* section style `eyebrow-head` (source RTE head: a centred 16/24 eyebrow
+   16px above a centred h3 — 20/28, 32/40 from 992 — with the teal bar; 64px to the content
+   (the source's leading empty 40px line = add `title-pad`);
+   EDV "How It All Comes Together" / "Customer Success Stories") — interim here, see
+   stardust/rollout/foundation-requests.md */
+/* stylelint-disable-next-line no-descending-specificity */
+main > .section.eyebrow-head > .default-content-wrapper:first-child {
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+main > .section.eyebrow-head > .default-content-wrapper:first-child > p:first-child {
+  margin: 0 0 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+main > .section.eyebrow-head > .default-content-wrapper:first-child > h3 {
+  display: inline-block;
+  position: relative;
+  max-width: calc(100% - 64px);
+  margin: 0;
+  padding-bottom: 16px;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+main > .section.eyebrow-head > .default-content-wrapper:first-child > h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+  transform: translateX(-50%);
+}
+
+/* variant `steps` (source teasercard pair in a column control): framed cards 0 0 8px shadow,
+   a 72px icon, 24/26 500 title 24px under it, the numbered list 24px lower (24px rows 16px
+   apart, a 24px numbered disc); 40px padding (24px below 992), two 584px columns from 992 */
+.pathways-cards.steps .pathways-cards-item:not(:first-child) {
+  margin-top: 42px;
+}
+
+.pathways-cards.steps .pathways-cards-card {
+  padding: 24px 24px 32px;
+  border-radius: 0;
+  box-shadow: 0 0 8px rgb(0 0 0 / 20%);
+  filter: none;
+}
+
+.pathways-cards.steps .pathways-cards-image img {
+  display: block;
+  width: 72px;
+  height: 72px;
+  aspect-ratio: auto;
+  object-fit: contain;
+  border-radius: 0;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.pathways-cards.steps .pathways-cards-body {
+  padding: 0;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.pathways-cards.steps .pathways-cards-title p {
+  margin-top: 24px;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.pathways-cards.steps .pathways-cards-text ol {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+}
+
+.pathways-cards.steps .pathways-cards-text li {
+  display: flex;
+  align-items: flex-start;
+  min-height: 24px;
+  font-size: 1.6rem;
+  line-height: 21px;
+  counter-increment: step;
+}
+
+.pathways-cards.steps .pathways-cards-text li + li {
+  margin-top: 16px;
+}
+
+.pathways-cards.steps .pathways-cards-text li::before {
+  content: counter(step);
+  flex: none;
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #e5eeee;
+  font-size: 1.2rem;
+  line-height: 22px;
+  text-align: center;
+}
+
+@media (width >= 992px) {
+  /* the source RTE head sits in a 772px measure (a long h3 wraps there — commerceshield
+     "A Risk Control Layer for the Full “buy-to-deliver” Journey") */
+  main > .section.eyebrow-head > .default-content-wrapper:first-child > h3 {
+    max-width: 772px;
+    padding-bottom: 20px;
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+
+  .pathways-cards.steps .pathways-cards-item {
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 0 20px;
+  }
+
+  .pathways-cards.steps .pathways-cards-item:not(:first-child) {
+    margin-top: 0;
+  }
+
+  .pathways-cards.steps .pathways-cards-card {
+    padding: 40px 40px 48px;
+  }
+
+  .pathways-cards.steps .pathways-cards-title p {
+    font-size: 2.4rem;
+  }
+
+  .pathways-cards.steps .pathways-cards-text ol {
+    margin-top: 24px;
+  }
+}
+
+/* eyebrow-head copy under the h3 (source cmp-title__description h6: 16/24 left in a 32px inset
+   below 768, centred from 768, 20/28 in a 772px measure from 992 — /us/en/solutions/
+   commerceshield) */
+main > .section.eyebrow-head > .default-content-wrapper:first-child > h6 {
+  margin: 16px 32px 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+
+@media (width >= 768px) {
+  main > .section.eyebrow-head > .default-content-wrapper:first-child > h6 {
+    text-align: center;
+  }
+}
+
+@media (width >= 992px) {
+  main > .section.eyebrow-head > .default-content-wrapper:first-child > h6 {
+    max-width: 772px;
+    margin: 16px auto 0;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}
+
+/* an image after the eyebrow-head copy (source image component: 64px under the head, the
+   full content width, inline — its 7px baseline gap kept as an explicit 7px foot: measured
+   image → next band 162 / 111px on the origin vs 155 / 104px with the inline gap left implicit) */
+/* stylelint-disable-next-line no-descending-specificity */
+main > .section.eyebrow-head > .default-content-wrapper:first-child > h6 + p:has(img) {
+  margin-top: 64px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+main > .section.eyebrow-head > .default-content-wrapper:first-child > p:has(img) {
+  padding-bottom: 7px;
+}
+
+main > .section.eyebrow-head > .default-content-wrapper:first-child > p:has(img) img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* section style `title-gap` (with eyebrow-head): the head is a source cmp-title (h3 + description,
+   no RTE eyebrow) — its block sits 24px under it, 48px from 992 (title.min .cmp-title margins,
+   /us/en/solutions/commerceshield "Simple ways to get connected" / "Insights for Managing …") */
+/* stylelint-disable-next-line no-descending-specificity */
+main > .section.eyebrow-head.title-gap > .default-content-wrapper:first-child {
+  margin-bottom: 24px;
+}
+
+@media (width >= 992px) {
+  main > .section.eyebrow-head.title-gap > .default-content-wrapper:first-child {
+    margin-bottom: 48px;
+  }
+}
+
+/* section style `rule-above` (source RTE: an empty line, an <hr> — 1px #121212 at 25 % — and
+   another empty line between two bands): the rule 40px under the previous band's 64px margin,
+   the head 50px under it */
+/* stylelint-disable-next-line no-descending-specificity */
+main > .section.rule-above > .default-content-wrapper:first-child {
+  padding-top: 40px;
+}
+
+main > .section.rule-above > .default-content-wrapper:first-child::before {
+  content: "";
+  display: block;
+  margin-bottom: 50px;
+  border-top: 1px solid rgb(18 18 18 / 25%);
+}
+
+/* section style `start-mobile` (with eyebrow-head): below 768 the head is left-aligned at the
+   full content width (source title text-center only from 768, e.g. commerceshield "Simple
+   ways to get connected") */
+@media (width < 768px) {
+  main > .section.eyebrow-head.start-mobile > .default-content-wrapper:first-child {
+    text-align: left;
+  }
+
+  main > .section.eyebrow-head.start-mobile > .default-content-wrapper:first-child > h3 {
+    max-width: none;
+  }
+
+  main > .section.eyebrow-head.start-mobile > .default-content-wrapper:first-child > h3::after {
+    left: 0;
+    transform: none;
+  }
+}
+
+/* section head with rich-text h6 ledes (source: a title h2, then a separate .text--rte block of
+   centred h6s — /us/en/partners/3pl-partners "When a shipment goes wrong"): the h6s 24px under
+   the bar (48px from 992), 16px apart, 16/24 (20/28 from 992) at the full content width,
+   centred at every width; the cards 64px under them */
+/* stylelint-disable-next-line no-descending-specificity */
+.pathways-cards-container .default-content-wrapper:has(+ .pathways-cards-wrapper):has(> h6) {
+  margin-bottom: 64px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.pathways-cards-container .default-content-wrapper:has(+ .pathways-cards-wrapper) > h6 {
+  margin: 24px 0 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.pathways-cards-container .default-content-wrapper:has(+ .pathways-cards-wrapper) > h6 + h6 {
+  margin-top: 16px;
+}
+
+@media (width >= 992px) {
+  .pathways-cards-container .default-content-wrapper:has(+ .pathways-cards-wrapper) > h6 {
+    margin-top: 48px;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  .pathways-cards-container .default-content-wrapper:has(+ .pathways-cards-wrapper) > h6 + h6 {
+    margin-top: 16px;
+  }
+}
+
+/* variant `teaser` of `steps` (source teasercard with a description instead of a numbered list,
+   two per column-control row — /us/en/partners/3pl-partners "Platform & Technology"): 40px
+   padding (24px below 768), title 24/26 (20/26 below 768), the grey 16/22.4 description 24px
+   under it (20px below 768), its p 24px bottom margin; the empty action row adds 8px (4px
+   below 768); 42px between the stacked cards of one row below 992, 64px between rows */
+.pathways-cards.steps.teaser .pathways-cards-card {
+  padding: 24px 24px 28px;
+  border-radius: 4px;
+}
+
+.pathways-cards.steps.teaser .pathways-cards-item:nth-child(3) {
+  margin-top: 64px;
+}
+
+.pathways-cards.steps.teaser .pathways-cards-text {
+  margin-top: 20px;
+  color: #5f5753;
+  font-size: 1.6rem;
+  line-height: 2.24rem;
+}
+
+.pathways-cards.steps.teaser .pathways-cards-text + .pathways-cards-text {
+  margin-top: 0;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.pathways-cards.steps.teaser .pathways-cards-text p {
+  margin: 0 0 24px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.pathways-cards.steps.teaser .pathways-cards-text h6 {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+@media (width >= 768px) {
+  .pathways-cards.steps.teaser .pathways-cards-card {
+    padding: 40px 40px 48px;
+  }
+
+  .pathways-cards.steps.teaser .pathways-cards-title p {
+    font-size: 2.4rem;
+  }
+
+  .pathways-cards.steps.teaser .pathways-cards-text {
+    margin-top: 24px;
+  }
+}
+
+@media (width >= 992px) {
+  .pathways-cards.steps.teaser .pathways-cards-item:nth-child(n + 3) {
+    margin-top: 64px;
+  }
+}
+
+/* section style `title-pad` where the page carries no featured-list (its rule lives in
+   featured-list.css, loaded only with that block): the same 40px source title-padding-top */
+main > .section.pathways-cards-container.title-pad > .default-content-wrapper:first-child,
+main > .section.check-card-container.title-pad > .default-content-wrapper:first-child {
+  padding-top: 4rem;
+}

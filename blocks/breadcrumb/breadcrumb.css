@@ -1,0 +1,20 @@
+/* breadcrumb — the band look is foundation (styles.css `.breadcrumb`); ul authored like ol */
+.breadcrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 1.6rem 0;
+  list-style: none;
+}
+
+@media (width >= 992px) {
+  .breadcrumb ul {
+    padding: 2.4rem 0;
+  }
+}
+
+/* the crumb list wraps whole crumbs (source .cmp-breadcrumb__list flex-wrap: wrap): a long trail
+   breaks between items at 360 instead of squeezing each label onto two lines */
+.breadcrumb ol {
+  flex-wrap: wrap;
+}

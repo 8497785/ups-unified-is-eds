@@ -1,0 +1,3526 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-17T22:36:05.138Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-17T22:36:05.138Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "us-en-shipping-insurance-b2b-html",
+    "ca-en-about-html",
+    "ca-en-claims-html",
+    "ca-en-partners-html",
+    "ca-en-shipping-insurance-html",
+    "de-de-cargo-insurance-html",
+    "de-de-claims-html",
+    "de-en-about-html",
+    "de-en-cargo-insurance-html",
+    "de-en-claims-html",
+    "de-en-partners-html",
+    "gb-en-about-html",
+    "gb-en-cargo-insurance-html",
+    "gb-en-claims-html",
+    "it-en-about-html",
+    "it-en-cargo-insurance-html",
+    "it-en-claims-html",
+    "it-it-about-html",
+    "it-it-cargo-insurance-html",
+    "it-it-claims-html",
+    "us-en-about-html",
+    "us-en-claims-channel-partners-claims-html",
+    "us-en-claims-html",
+    "us-en-claims-insureshield-ups-claims-support-html",
+    "us-en-customer-communications-enhanced-declared-value-html",
+    "us-en-partners-3pl-partners-html",
+    "us-en-partners-become-a-partner-html",
+    "us-en-partners-connect-with-a-partner-html",
+    "us-en-partners-html",
+    "us-en-promotional-delivery-defense-mockup-html",
+    "us-en-promotional-insureshield-benefits-html",
+    "us-en-promotional-webinars-html",
+    "us-en-resources-customer-stories-html",
+    "us-en-resources-insights-html",
+    "us-en-resources-the-logistics-lowdown-html",
+    "us-en-risk-mitigation-risk-intelligence-smb-html",
+    "us-en-risk-mitigation-risk-intelligence-smb2-html",
+    "us-en-shipping-insurance-checkout-protection-html",
+    "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+    "us-en-shipping-insurance-get-a-quote-html",
+    "us-en-shipping-insurance-multi-carrier-shipments-html",
+    "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+    "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+    "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+    "us-en-shipping-insurance-retail-html",
+    "us-en-shipping-insurance-select-my-coverage-html",
+    "us-en-shipping-insurance-special-commodities-html",
+    "us-en-shipping-insurance-ups-shipments-html",
+    "us-en-solutions-commerceshield-html",
+    "us-en-solutions-delivery-defense-html",
+    "us-en-solutions-delivery-defense-learning-center-html",
+    "us-en-solutions-delivery-orchestration-delivery-html",
+    "us-en-solutions-delivery-orchestration-html",
+    "us-en-solutions-delivery-orchestration-pickup-html",
+    "us-en-solutions-delivery-orchestration-returns-html",
+    "us-en-customer-communications-html",
+    "de-en-alerts-html",
+    "gb-en-alerts-html",
+    "gb-en-other-ups-sites-html",
+    "it-en-alerts-html",
+    "it-it-alerts-html",
+    "us-en-legal-cookie-settings-html",
+    "us-en-page-deletion-html",
+    "us-en-resources-webinars-html",
+    "us-en-test-deletion-html",
+    "us-en-test-deletion1-html",
+    "gb-en-resources-html",
+    "ca-en-resources-html",
+    "de-en-resources-html",
+    "it-en-resources-html",
+    "it-it-resources-html",
+    "us-en-about-announcements-html",
+    "us-en-resources-whitepapers-and-guides-html",
+    "us-en-legal-terms-and-conditions-upscia-html",
+    "us-en-about-our-locations-html",
+    "us-en-legal-product-disclosure-html",
+    "us-en-legal-technology-agreement-html",
+    "us-en-legal-terms-and-conditions-gallagher-affinity-html",
+    "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-html",
+    "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-users-html",
+    "de-en-home-html",
+    "ca-en-home-html",
+    "de-de-home-html",
+    "gb-en-home-html",
+    "it-en-home-html",
+    "it-it-home-html",
+    "us-en-about-contact-us-html",
+    "us-en-customer-communications-confirm-contact-information-html",
+    "us-en-customer-communications-updated-contact-information-html",
+    "us-en-promotional-prod-form-test-html",
+    "us-en-resources-help-and-support-html",
+    "index",
+    "us-en-securecommerce-html",
+    "us-en-shipping-insurance-html",
+    "us-en-solutions-insureshield-shipping-insurance-html",
+    "us-en-global-html"
+  ],
+  "steps": [
+    {
+      "slug": "us-en-shipping-insurance-b2b-html",
+      "path": "/us/en/shipping-insurance/b2b",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "ca-en-about-html",
+      "path": "/ca/en/about",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "ca-en-claims-html",
+      "path": "/ca/en/claims",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "ca-en-partners-html",
+      "path": "/ca/en/partners",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "ca-en-shipping-insurance-html",
+      "path": "/ca/en/shipping-insurance",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "de-de-cargo-insurance-html",
+      "path": "/de/de/cargo-insurance",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "de-de-claims-html",
+      "path": "/de/de/claims",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "de-en-about-html",
+      "path": "/de/en/about",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "de-en-cargo-insurance-html",
+      "path": "/de/en/cargo-insurance",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "de-en-claims-html",
+      "path": "/de/en/claims",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "de-en-partners-html",
+      "path": "/de/en/partners",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "gb-en-about-html",
+      "path": "/gb/en/about",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "gb-en-cargo-insurance-html",
+      "path": "/gb/en/cargo-insurance",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "gb-en-claims-html",
+      "path": "/gb/en/claims",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "it-en-about-html",
+      "path": "/it/en/about",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "it-en-cargo-insurance-html",
+      "path": "/it/en/cargo-insurance",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "it-en-claims-html",
+      "path": "/it/en/claims",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "it-it-about-html",
+      "path": "/it/it/about",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "it-it-cargo-insurance-html",
+      "path": "/it/it/cargo-insurance",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "it-it-claims-html",
+      "path": "/it/it/claims",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-about-html",
+      "path": "/us/en/about",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-claims-channel-partners-claims-html",
+      "path": "/us/en/claims/channel-partners-claims",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-claims-html",
+      "path": "/us/en/claims",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-claims-insureshield-ups-claims-support-html",
+      "path": "/us/en/claims/insureshield-ups-claims-support",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-customer-communications-enhanced-declared-value-html",
+      "path": "/us/en/customer-communications/enhanced-declared-value",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-partners-3pl-partners-html",
+      "path": "/us/en/partners/3pl-partners",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-partners-become-a-partner-html",
+      "path": "/us/en/partners/become-a-partner",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-partners-connect-with-a-partner-html",
+      "path": "/us/en/partners/connect-with-a-partner",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-partners-html",
+      "path": "/us/en/partners",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-promotional-delivery-defense-mockup-html",
+      "path": "/us/en/promotional/delivery-defense-mockup",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-promotional-insureshield-benefits-html",
+      "path": "/us/en/promotional/insureshield-benefits",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-promotional-webinars-html",
+      "path": "/us/en/promotional/webinars",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-resources-customer-stories-html",
+      "path": "/us/en/resources/customer-stories",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-resources-insights-html",
+      "path": "/us/en/resources/insights",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-resources-the-logistics-lowdown-html",
+      "path": "/us/en/resources/the-logistics-lowdown",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-risk-mitigation-risk-intelligence-smb-html",
+      "path": "/us/en/risk-mitigation/risk-intelligence-smb",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-risk-mitigation-risk-intelligence-smb2-html",
+      "path": "/us/en/risk-mitigation/risk-intelligence-smb2",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-shipping-insurance-checkout-protection-html",
+      "path": "/us/en/shipping-insurance/checkout-protection",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+      "path": "/us/en/shipping-insurance/consumer-electronics-and-technology",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-shipping-insurance-get-a-quote-html",
+      "path": "/us/en/shipping-insurance/get-a-quote",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-html",
+      "path": "/us/en/shipping-insurance/multi-carrier-shipments",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+      "path": "/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+      "path": "/us/en/shipping-insurance/multi-carrier-shipments/insureShield-complete",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+      "path": "/us/en/shipping-insurance/multi-carrier-shipments/insureShield-connect",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-shipping-insurance-retail-html",
+      "path": "/us/en/shipping-insurance/retail",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-shipping-insurance-select-my-coverage-html",
+      "path": "/us/en/shipping-insurance/select-my-coverage",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-shipping-insurance-special-commodities-html",
+      "path": "/us/en/shipping-insurance/special-commodities",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-shipping-insurance-ups-shipments-html",
+      "path": "/us/en/shipping-insurance/ups-shipments",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-solutions-commerceshield-html",
+      "path": "/us/en/solutions/commerceshield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-solutions-delivery-defense-html",
+      "path": "/us/en/solutions/delivery-defense",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-solutions-delivery-defense-learning-center-html",
+      "path": "/us/en/solutions/delivery-defense/learning-center",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-delivery-html",
+      "path": "/us/en/solutions/delivery-orchestration/delivery",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-html",
+      "path": "/us/en/solutions/delivery-orchestration",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-pickup-html",
+      "path": "/us/en/solutions/delivery-orchestration/pickup",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-returns-html",
+      "path": "/us/en/solutions/delivery-orchestration/returns",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "loss-calculator",
+          "edsBlockName": "loss-calculator",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-customer-communications-html",
+      "path": "/us/en/customer-communications",
+      "templateId": "us-en-customer-communications-html",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-en-alerts-html",
+      "path": "/de/en/alerts",
+      "templateId": "us-en-customer-communications-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "gb-en-alerts-html",
+      "path": "/gb/en/alerts",
+      "templateId": "us-en-customer-communications-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "gb-en-other-ups-sites-html",
+      "path": "/gb/en/other-ups-sites",
+      "templateId": "us-en-customer-communications-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "it-en-alerts-html",
+      "path": "/it/en/alerts",
+      "templateId": "us-en-customer-communications-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "it-it-alerts-html",
+      "path": "/it/it/alerts",
+      "templateId": "us-en-customer-communications-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "us-en-legal-cookie-settings-html",
+      "path": "/us/en/legal/cookie-settings",
+      "templateId": "us-en-customer-communications-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "us-en-page-deletion-html",
+      "path": "/us/en/page-deletion",
+      "templateId": "us-en-customer-communications-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "us-en-resources-webinars-html",
+      "path": "/us/en/resources/webinars",
+      "templateId": "us-en-customer-communications-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "us-en-test-deletion-html",
+      "path": "/us/en/test-deletion",
+      "templateId": "us-en-customer-communications-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "us-en-test-deletion1-html",
+      "path": "/us/en/test-deletion1",
+      "templateId": "us-en-customer-communications-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "gb-en-resources-html",
+      "path": "/gb/en/resources",
+      "templateId": "gb-en-resources-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "search",
+          "edsBlockName": "search"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "ca-en-resources-html",
+      "path": "/ca/en/resources",
+      "templateId": "gb-en-resources-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "search",
+          "edsBlockName": "search",
+          "convertedBy": "gb-en-resources-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "de-en-resources-html",
+      "path": "/de/en/resources",
+      "templateId": "gb-en-resources-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "search",
+          "edsBlockName": "search",
+          "convertedBy": "gb-en-resources-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "it-en-resources-html",
+      "path": "/it/en/resources",
+      "templateId": "gb-en-resources-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "search",
+          "edsBlockName": "search",
+          "convertedBy": "gb-en-resources-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "it-it-resources-html",
+      "path": "/it/it/resources",
+      "templateId": "gb-en-resources-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "search",
+          "edsBlockName": "search",
+          "convertedBy": "gb-en-resources-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-about-announcements-html",
+      "path": "/us/en/about/announcements",
+      "templateId": "gb-en-resources-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "search",
+          "edsBlockName": "search",
+          "convertedBy": "gb-en-resources-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-resources-whitepapers-and-guides-html",
+      "path": "/us/en/resources/whitepapers-and-guides",
+      "templateId": "gb-en-resources-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "search",
+          "edsBlockName": "search",
+          "convertedBy": "gb-en-resources-html"
+        },
+        {
+          "id": "story-card-carousel",
+          "edsBlockName": "story-card-carousel",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "promo-banner",
+          "edsBlockName": "promo-banner",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-upscia-html",
+      "path": "/us/en/legal/terms-and-conditions-upscia",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "transition-hero",
+          "edsBlockName": "transition-hero"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "us-en-about-our-locations-html",
+      "path": "/us/en/about/our-locations",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "transition-hero",
+          "edsBlockName": "transition-hero",
+          "convertedBy": "us-en-legal-terms-and-conditions-upscia-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-legal-product-disclosure-html",
+      "path": "/us/en/legal/product-disclosure",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "transition-hero",
+          "edsBlockName": "transition-hero",
+          "convertedBy": "us-en-legal-terms-and-conditions-upscia-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-legal-technology-agreement-html",
+      "path": "/us/en/legal/technology-agreement",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "transition-hero",
+          "edsBlockName": "transition-hero",
+          "convertedBy": "us-en-legal-terms-and-conditions-upscia-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-gallagher-affinity-html",
+      "path": "/us/en/legal/terms-and-conditions-gallagher-affinity",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "transition-hero",
+          "edsBlockName": "transition-hero",
+          "convertedBy": "us-en-legal-terms-and-conditions-upscia-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-html",
+      "path": "/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "transition-hero",
+          "edsBlockName": "transition-hero",
+          "convertedBy": "us-en-legal-terms-and-conditions-upscia-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-users-html",
+      "path": "/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage-users",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "transition-hero",
+          "edsBlockName": "transition-hero",
+          "convertedBy": "us-en-legal-terms-and-conditions-upscia-html"
+        }
+      ]
+    },
+    {
+      "slug": "de-en-home-html",
+      "path": "/de/en/home",
+      "templateId": "de-en-home-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "homepage-hero",
+          "edsBlockName": "homepage-hero"
+        },
+        {
+          "id": "pathways-cards",
+          "edsBlockName": "pathways-cards"
+        },
+        {
+          "id": "featured-list",
+          "edsBlockName": "featured-list"
+        },
+        {
+          "id": "featured-promo",
+          "edsBlockName": "featured-promo"
+        },
+        {
+          "id": "story-card-grid",
+          "edsBlockName": "story-card-grid"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "ca-en-home-html",
+      "path": "/ca/en/home",
+      "templateId": "de-en-home-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "homepage-hero",
+          "edsBlockName": "homepage-hero",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "pathways-cards",
+          "edsBlockName": "pathways-cards",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "featured-list",
+          "edsBlockName": "featured-list",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "featured-promo",
+          "edsBlockName": "featured-promo",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "story-card-grid",
+          "edsBlockName": "story-card-grid",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "de-de-home-html",
+      "path": "/de/de/home",
+      "templateId": "de-en-home-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "homepage-hero",
+          "edsBlockName": "homepage-hero",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "pathways-cards",
+          "edsBlockName": "pathways-cards",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "featured-list",
+          "edsBlockName": "featured-list",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "featured-promo",
+          "edsBlockName": "featured-promo",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "story-card-grid",
+          "edsBlockName": "story-card-grid",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "gb-en-home-html",
+      "path": "/gb/en/home",
+      "templateId": "de-en-home-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "homepage-hero",
+          "edsBlockName": "homepage-hero",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "pathways-cards",
+          "edsBlockName": "pathways-cards",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "featured-list",
+          "edsBlockName": "featured-list",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "featured-promo",
+          "edsBlockName": "featured-promo",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "story-card-grid",
+          "edsBlockName": "story-card-grid",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "it-en-home-html",
+      "path": "/it/en/home",
+      "templateId": "de-en-home-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "homepage-hero",
+          "edsBlockName": "homepage-hero",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "pathways-cards",
+          "edsBlockName": "pathways-cards",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "featured-list",
+          "edsBlockName": "featured-list",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "featured-promo",
+          "edsBlockName": "featured-promo",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "story-card-grid",
+          "edsBlockName": "story-card-grid",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "it-it-home-html",
+      "path": "/it/it/home",
+      "templateId": "de-en-home-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "homepage-hero",
+          "edsBlockName": "homepage-hero",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "pathways-cards",
+          "edsBlockName": "pathways-cards",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "featured-list",
+          "edsBlockName": "featured-list",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "featured-promo",
+          "edsBlockName": "featured-promo",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "story-card-grid",
+          "edsBlockName": "story-card-grid",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "secondary-promo",
+          "edsBlockName": "secondary-promo",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-about-contact-us-html",
+      "path": "/us/en/about/contact-us",
+      "templateId": "us-en-about-contact-us-html",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "pathways-cards",
+          "edsBlockName": "pathways-cards",
+          "convertedBy": "de-en-home-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-customer-communications-confirm-contact-information-html",
+      "path": "/us/en/customer-communications/confirm-contact-information",
+      "templateId": "us-en-about-contact-us-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "pathways-cards",
+          "edsBlockName": "pathways-cards",
+          "convertedBy": "de-en-home-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-customer-communications-updated-contact-information-html",
+      "path": "/us/en/customer-communications/updated-contact-information",
+      "templateId": "us-en-about-contact-us-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "pathways-cards",
+          "edsBlockName": "pathways-cards",
+          "convertedBy": "de-en-home-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-promotional-prod-form-test-html",
+      "path": "/us/en/promotional/prod-form-test",
+      "templateId": "us-en-about-contact-us-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "pathways-cards",
+          "edsBlockName": "pathways-cards",
+          "convertedBy": "de-en-home-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-resources-help-and-support-html",
+      "path": "/us/en/resources/help-and-support",
+      "templateId": "us-en-about-contact-us-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "marketing-hero",
+          "edsBlockName": "marketing-hero",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "form-toast",
+          "edsBlockName": "form-toast",
+          "convertedBy": "us-en-shipping-insurance-b2b-html"
+        },
+        {
+          "id": "pathways-cards",
+          "edsBlockName": "pathways-cards",
+          "convertedBy": "de-en-home-html"
+        }
+      ]
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "stats",
+          "edsBlockName": "stats"
+        },
+        {
+          "id": "logo-strip",
+          "edsBlockName": "logo-strip"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "homepage-hero",
+          "edsBlockName": "homepage-hero",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "pathways-cards",
+          "edsBlockName": "pathways-cards",
+          "convertedBy": "de-en-home-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-securecommerce-html",
+      "path": "/us/en/securecommerce",
+      "templateId": "index",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "homepage-hero",
+          "edsBlockName": "homepage-hero",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "pathways-cards",
+          "edsBlockName": "pathways-cards",
+          "convertedBy": "de-en-home-html"
+        },
+        {
+          "id": "stats",
+          "edsBlockName": "stats",
+          "convertedBy": "index"
+        },
+        {
+          "id": "logo-strip",
+          "edsBlockName": "logo-strip",
+          "convertedBy": "index"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-shipping-insurance-html",
+      "path": "/us/en/shipping-insurance",
+      "templateId": "us-en-shipping-insurance-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "sh-hero",
+          "edsBlockName": "sh-hero"
+        },
+        {
+          "id": "sh-compare",
+          "edsBlockName": "sh-compare"
+        },
+        {
+          "id": "sh-tiles",
+          "edsBlockName": "sh-tiles"
+        },
+        {
+          "id": "sh-benefits",
+          "edsBlockName": "sh-benefits"
+        },
+        {
+          "id": "sh-band",
+          "edsBlockName": "sh-band"
+        },
+        {
+          "id": "sh-faq",
+          "edsBlockName": "sh-faq"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "us-en-solutions-insureshield-shipping-insurance-html",
+      "path": "/us/en/solutions/insureshield-shipping-insurance",
+      "templateId": "us-en-shipping-insurance-html",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "sh-hero",
+          "edsBlockName": "sh-hero",
+          "convertedBy": "us-en-shipping-insurance-html"
+        },
+        {
+          "id": "sh-compare",
+          "edsBlockName": "sh-compare",
+          "convertedBy": "us-en-shipping-insurance-html"
+        },
+        {
+          "id": "sh-tiles",
+          "edsBlockName": "sh-tiles",
+          "convertedBy": "us-en-shipping-insurance-html"
+        },
+        {
+          "id": "sh-benefits",
+          "edsBlockName": "sh-benefits",
+          "convertedBy": "us-en-shipping-insurance-html"
+        },
+        {
+          "id": "sh-band",
+          "edsBlockName": "sh-band",
+          "convertedBy": "us-en-shipping-insurance-html"
+        },
+        {
+          "id": "sh-faq",
+          "edsBlockName": "sh-faq",
+          "convertedBy": "us-en-shipping-insurance-html"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-global-html",
+      "path": "/us/en/global",
+      "templateId": "us-en-global-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "region-selector",
+          "edsBlockName": "region-selector"
+        }
+      ],
+      "reuse": []
+    }
+  ]
+}

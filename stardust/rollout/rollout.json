@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-17T22:35:28.005Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.insureshield.com/",
+    "da": {
+      "org": "aemcoder",
+      "site": "9ade650b",
+      "ref": "main"
+    },
+    "liveHost": "main--9ade650b--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 96,
+    "discovered": 100,
+    "capped": true,
+    "pageCap": null
+  },
+  "lastRun": {
+    "at": "2026-11-18T14:07:40.763Z",
+    "pages": {
+      "total": 96,
+      "verified": 96,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 23,
+      "converted": 23,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

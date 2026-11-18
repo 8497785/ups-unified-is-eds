@@ -1,0 +1,14 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html
+  shell     1280px  max-width div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.text.container  (tier 2, holds 98% of the text)
+  modules  2 sections: capped 1280 ×1, 1209 ×1 · full-bleed ×0
+  contentMaxWidth 1280px (shell) · shellMaxWidth 1280px · root #container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid > div.cmp-container
+build  http://localhost:8791/us-en-legal-terms-and-conditions-upscia-html-proposed.html
+  shell     1280px  max-width body.tpl-legal > div.page-root > main.page-main > div.container.rte  (tier 1, holds 98% of the text)
+  modules  2 sections: capped 1280 ×1, 1209 ×1 · full-bleed ×0
+  contentMaxWidth 1280px (shell) · shellMaxWidth 1280px · root body.tpl-legal > div.page-root > main.page-main
+rows
+  ✓ wrapper cap: live 1280px = build 1280px (±20)
+  ✓ module 1/2: 1280px = 1280px
+  ✓ module 2/2: 1209px = 1209px
+cap-probe: PASS at 2560 — 0 of 3 rows failed (evidence stardust/replica/gates/us-en-legal-terms-and-conditions-upscia-html-2560/cap-iter.json)

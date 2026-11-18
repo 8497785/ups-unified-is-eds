@@ -1,0 +1,117 @@
+{
+  "slug": "us-en-global-html",
+  "type": "region-selector",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "region-selector"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "container"
+  ],
+  "canonShas": {
+    "header": "a4dfeb977efa",
+    "footer": "79dfc8cc50c3",
+    "css": "481e893f2500"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Global | InsureShield",
+    "description": "Global listing",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Global | InsureShield",
+    "description": "Global listing",
+    "url": "https://www.insureshield.com/us/en/global.html"
+  },
+  "migratedAt": "2026-11-17T22:32:50Z",
+  "designMdSha": "3a53c3d58678",
+  "designJsonSha": "d5b1e78b9da2",
+  "sourceCurrentSha": "87e71caadba9",
+  "sourceProposedSha": "f8ae4607fa26",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/us/en/securecommerce.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/en/home.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/fr/home.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/de/home.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/en/home.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it/home.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/gb/en/home.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/home.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/home.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/es/home.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/claims.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/partners.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/about.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/legal/technology-agreement.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/legal/product-disclosure.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "us/en/global.html",
+  "outputPathDefault": null,
+  "sidecar": "us/en/global._meta.json",
+  "driverVersion": "1"
+}

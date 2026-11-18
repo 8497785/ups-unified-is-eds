@@ -1,0 +1,105 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/optimize",
+    "writtenAt": "2026-11-18T14:07:49.770Z",
+    "stardustVersion": "0.0.0"
+  },
+  "current": {
+    "runId": "run-2",
+    "at": "2026-11-18T14:07:49.770Z",
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": 100
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "fixed": {
+      "P1": 14,
+      "P2": 0,
+      "P3": 0
+    }
+  },
+  "history": [
+    {
+      "runId": "run-1",
+      "at": "2026-11-18T13:50:40.285Z",
+      "overall": 59,
+      "dimensions": {
+        "brand-tensions": null,
+        "design-ux": null,
+        "accessibility": null,
+        "seo": 0,
+        "content-conversion": null,
+        "ai-search": 100,
+        "cross-page": 76
+      },
+      "severity": {
+        "P1": 14,
+        "P2": 2,
+        "P3": 1
+      },
+      "fixed": {
+        "P1": 0,
+        "P2": 0,
+        "P3": 0
+      }
+    },
+    {
+      "runId": "autofix-2026-11-18T13:51:30.681Z",
+      "at": "2026-11-18T13:51:30.681Z",
+      "overall": 67,
+      "dimensions": {
+        "brand-tensions": null,
+        "design-ux": null,
+        "accessibility": null,
+        "seo": 0,
+        "content-conversion": null,
+        "ai-search": 100,
+        "cross-page": 100
+      },
+      "severity": {
+        "P1": 14,
+        "P2": 0,
+        "P3": 0
+      },
+      "fixed": {
+        "P1": 0,
+        "P2": 0,
+        "P3": 0
+      }
+    },
+    {
+      "runId": "run-2",
+      "at": "2026-11-18T14:07:49.770Z",
+      "overall": 100,
+      "dimensions": {
+        "brand-tensions": null,
+        "design-ux": null,
+        "accessibility": null,
+        "seo": 100,
+        "content-conversion": null,
+        "ai-search": 100,
+        "cross-page": 100
+      },
+      "severity": {
+        "P1": 0,
+        "P2": 0,
+        "P3": 0
+      },
+      "fixed": {
+        "P1": 14,
+        "P2": 0,
+        "P3": 0
+      }
+    }
+  ]
+}

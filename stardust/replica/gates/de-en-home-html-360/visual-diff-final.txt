@@ -1,0 +1,880 @@
+[live-session] waiting to pace live navigations to www.insureshield.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 949 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/de-en-home-html-360/vdiff-final/
+
+build red flags (advisory): 
+  • IMAGE DID NOT LOAD: BikeFlights_IMG_0558?$UPSer_Preset$&wid=592&hei=333&fit=constrain rendered 296x167 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 6051,
+  "textLen": 3614,
+  "images": [
+   {
+    "src": "InsureShield_horizontal_UPSC",
+    "natural": "300x112",
+    "rendered": "149x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_1395788537_digital_03062023%20homepage%20hero_2880x1280?$UPSer_Preset$&wid=320&hei=142&fit=constrain",
+    "natural": "320x142",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Description_72x72_Teal?$UPSer_Preset$&wid=72&hei=72&fmt=png-alpha",
+    "natural": "72x72",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Handshake_72x72_Teal?$UPSer_Preset$&wid=72&hei=72&fmt=png-alpha",
+    "natural": "72x72",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "LocalShipping_72x72_Teal?$UPSer_Preset$&wid=72&hei=72&fmt=png-alpha",
+    "natural": "72x72",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "GettyImages-879265016?$UPSer_Preset$&wid=256&hei=144&fit=constrain",
+    "natural": "256x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "checkmark.svg",
+    "natural": "24x24",
+    "rendered": "24x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "80x64",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "checkmark.svg",
+    "natural": "24x24",
+    "rendered": "24x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "JCR_iStock-664709026?$UPSer_Preset$&wid=256&hei=144&fit=constrain",
+    "natural": "256x144",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "BikeFlights_IMG_0558?$UPSer_Preset$&wid=256&hei=144&fit=constrain",
+    "natural": "256x144",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "DataVision_inside%20pic?$UPSer_Preset$&wid=256&hei=144&fit=constrain",
+    "natural": "256x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_1593134869_digital_02062023?$UPSer_Preset$&wid=256&hei=144&fit=constrain",
+    "natural": "256x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "13253_ups_be_portchls038_2004rev-1080.1080?$UPSer_Preset$&wid=256&hei=144&fit=constrain",
+    "natural": "256x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_1929908654_digital_12202022?$UPSer_Preset$&wid=256&hei=144&fit=constrain",
+    "natural": "256x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_1607982631_digital_11302022-1?$UPSer_Preset$&wid=256&hei=144&fit=constrain",
+    "natural": "256x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-facebook",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-instagram",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-twitter",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-linkedin",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-youtube",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1187733~UPS_Flat_Shield_2Color_RGB.original.png",
+    "natural": "425x480",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "464526.gif",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=187194318&Ver=2&mid=4bfa3985-483d-4859-bbcf-c30d4e13280c&bo=2&sid=5e79b050e2c011f1836949d77ef27f00&vid=5e799730e2c011f19d691d813d056856&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=InsureShield%C2%AE%20Shipping%20Insurance%20%7C%20InsureShield&p=https%3A%2F%2Fwww.insureshield.com%2Fde%2Fen%2Fhome.html&r=&lt=1740&evt=pageLoad&sv=2&asc=G&cdb=AQER&rn=826852",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "InsureShield® Shipping Insurance",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "32px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s So Much More Than Shipping ",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "We’ve Got Your Back",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Real Customers. Real Solutions.",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Featured Resources",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "What Is Shipping Insurance?",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "What are Incoterms and Why Do Th",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "How Much Does Cargo Insurance Co",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Out to Sea",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Protect Your Greatest Investment",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Stay Ahead of the Claims Game",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Picture Perfect",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Supply Chain Risk",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Recent search results",
+    "color": "rgb(18, 18, 18)"
+   },
+   {
+    "text": "Insights to Help Your Bu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Insights to Help Your Bu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Insights to Help Your Bu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Insights to Help Your Bu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Insights to Help Your Bu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Insights to Help Your Bu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Insights to Help Your Bu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "cmp-teaser__title",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "cmp-teaser__description",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "cmp-title",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "description",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "description",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "description",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "cmp-title",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "list_desc",
+    "width": 256,
+    "left": 72
+   },
+   {
+    "sel": "col-md-6",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "list_desc",
+    "width": 256,
+    "left": 72
+   },
+   {
+    "sel": "cmp-title",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "cmp-teaser__description",
+    "width": 296,
+    "left": 32
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 6010,
+  "textLen": 3682,
+  "images": [
+   {
+    "src": "InsureShield_horizontal_UPSC",
+    "natural": "300x112",
+    "rendered": "149x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_1395788537_digital_03062023%20homepage%20hero_2880x1280?$UPSer_Preset$&wid=320&hei=142&fit=constrain",
+    "natural": "320x142",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Description_72x72_Teal?$UPSer_Preset$&wid=72&hei=72&fmt=png-alpha",
+    "natural": "72x72",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Handshake_72x72_Teal?$UPSer_Preset$&wid=72&hei=72&fmt=png-alpha",
+    "natural": "72x72",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "LocalShipping_72x72_Teal?$UPSer_Preset$&wid=72&hei=72&fmt=png-alpha",
+    "natural": "72x72",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "GettyImages-879265016?$UPSer_Preset$&wid=256&hei=144&fit=constrain",
+    "natural": "256x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "checkmark.svg",
+    "natural": "24x24",
+    "rendered": "24x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "checkmark.svg",
+    "natural": "24x24",
+    "rendered": "24x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "checkmark.svg",
+    "natural": "24x24",
+    "rendered": "24x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "JCR_iStock-664709026?$UPSer_Preset$&wid=256&hei=144&fit=constrain",
+    "natural": "256x144",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "BikeFlights_IMG_0558?$UPSer_Preset$&wid=592&hei=333&fit=constrain",
+    "natural": "0x0",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "DataVision_inside%20pic?$UPSer_Preset$&wid=592&hei=333&fit=constrain",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_1593134869_digital_02062023?$UPSer_Preset$&wid=256&hei=144&fit=constrain",
+    "natural": "256x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "13253_ups_be_portchls038_2004rev-1080.1080?$UPSer_Preset$&wid=256&hei=144&fit=constrain",
+    "natural": "256x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_1929908654_digital_12202022?$UPSer_Preset$&wid=256&hei=144&fit=constrain",
+    "natural": "256x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_784765822_digital_02062023?$UPSer_Preset$&wid=384&hei=216&fit=constrain",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_2140701373_digital_02062023?$UPSer_Preset$&wid=384&hei=216&fit=constrain",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_1723841416_digital_11302022-1?$UPSer_Preset$&wid=384&hei=216&fit=constrain",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_2083529698_digital_11302022-1?$UPSer_Preset$&wid=384&hei=216&fit=constrain",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "1222988_20210505_TRACY_UPS_HEALTHCARE_6Z8A8774-1080.1080?$UPSer_Preset$&wid=384&hei=216&fit=constrain",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_1607982631_digital_11302022-1?$UPSer_Preset$&wid=256&hei=144&fit=constrain",
+    "natural": "256x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-facebook",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-instagram",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-twitter",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-linkedin",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-youtube",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "InsureShield® Shipping Insurance",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "32px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s So Much More Than Shipping ",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "We’ve Got Your Back",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Real Customers. Real Solutions.",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Featured Resources",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "What Is Shipping Insurance?",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "What are Incoterms and Why Do Th",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "How Much Does Cargo Insurance Co",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Out to Sea",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Protect Your Greatest Investment",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Stay Ahead of the Claims Game",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Picture Perfect",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Supply Chain Risk",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Recent search results",
+    "color": "rgb(18, 18, 18)"
+   },
+   {
+    "text": "Insights to Help Your Bu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Insights to Help Your Bu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Insights to Help Your Bu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Insights to Help Your Bu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Insights to Help Your Bu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Insights to Help Your Bu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Insights to Help Your Bu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "hph__title",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "hph__desc",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "sec-title__inner",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "pw__body",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "pw__body",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "pw__body",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "sec-title__inner",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "flist__desc",
+    "width": 256,
+    "left": 72
+   },
+   {
+    "sel": "flist__desc",
+    "width": 256,
+    "left": 72
+   },
+   {
+    "sel": "flist__desc",
+    "width": 256,
+    "left": 72
+   },
+   {
+    "sel": "sec-title__inner",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "fpromo__desc",
+    "width": 296,
+    "left": 32
+   }
+  ]
+ }
+}

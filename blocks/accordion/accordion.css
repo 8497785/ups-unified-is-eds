@@ -1,0 +1,662 @@
+/* accordion — lifted: core accordion + ups-accordion (theme-insure-shield) geometry */
+.accordion-container .default-content-wrapper:has(+ .accordion-wrapper) {
+  margin-bottom: 24px;
+}
+
+.accordion-container .default-content-wrapper:has(+ .accordion-wrapper) :is(h2, h3) {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 16px;
+  font-size: 2.8rem;
+  line-height: 1.28;
+}
+
+.accordion-container .default-content-wrapper:has(+ .accordion-wrapper) :is(h2, h3)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+.accordion-container .default-content-wrapper:has(+ .accordion-wrapper) p {
+  margin-top: 16px;
+}
+
+.accordion {
+  max-width: 800px;
+  margin: 0 auto 64px;
+}
+
+.accordion .accordion-item {
+  margin-bottom: 12px;
+  padding: 20px 16px;
+  background: #fff;
+  border-radius: var(--is-radius);
+  box-shadow: var(--is-card-shadow);
+}
+
+.accordion .accordion-head {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  cursor: pointer;
+}
+
+/* the source title runs to 95 % (90 % >= 768) of the row; the icon sits over its right edge
+   (lifted .cmp-accordion__button padding-right 5 % / 10 %, .cmp-accordion__icon absolute) */
+.accordion .accordion-title {
+  flex: 1 1 auto;
+  padding-right: 5%;
+}
+
+.accordion .accordion-title :is(p, h2, h3, h4) {
+  margin: 0;
+  color: inherit;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.accordion .is-open .accordion-title :is(p, h2, h3, h4) {
+  font-weight: 500;
+}
+
+.accordion .accordion-toggle {
+  position: absolute;
+  top: 0;
+  right: -8px;
+  flex: none;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background: none;
+  border: 0;
+}
+
+.accordion .accordion-toggle::before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  margin: 5px auto 0;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  transform: rotate(45deg);
+  transition: transform 0.35s ease;
+}
+
+.accordion .is-open .accordion-toggle::before {
+  margin-top: 9px;
+  transform: rotate(-135deg);
+}
+
+.accordion .accordion-panel {
+  padding-top: 16px;
+}
+
+.accordion .accordion-panel :is(p, ul, ol) + :is(p, ul, ol) {
+  margin-top: 12px;
+}
+
+.accordion .accordion-panel ul {
+  padding-left: 3.2rem;
+  list-style: disc;
+}
+
+/* an h3 section head (source h3.cmp-title__text: 20/28, 24/32 >= 768, 32/40 >= 992) */
+.accordion-container .default-content-wrapper:has(+ .accordion-wrapper) h3 {
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+@media (width >= 768px) {
+  .accordion-container .default-content-wrapper:has(+ .accordion-wrapper) {
+    text-align: center;
+  }
+
+  .accordion-container .default-content-wrapper:has(+ .accordion-wrapper) h3 {
+    font-size: 2.4rem;
+    line-height: 1.33;
+  }
+
+  .accordion .accordion-item {
+    margin-bottom: 16px;
+  }
+
+  .accordion .accordion-title {
+    padding-right: 10%;
+  }
+
+  .accordion-container .default-content-wrapper:has(+ .accordion-wrapper) :is(h2, h3)::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (width >= 992px) {
+  .accordion-container .default-content-wrapper:has(+ .accordion-wrapper) {
+    margin-bottom: 48px;
+  }
+
+  .accordion-container .default-content-wrapper:has(+ .accordion-wrapper) :is(h2, h3) {
+    padding-bottom: 20px;
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .accordion-container .default-content-wrapper:has(+ .accordion-wrapper) p {
+    margin: 20px 16.5% 0;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  .accordion-container .default-content-wrapper:has(+ .accordion-wrapper) h3 {
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+}
+
+/* variant tabs — source ups-tabs vertical (delivery-orchestration, delivery-defense, partners) */
+.accordion.tabs {
+  max-width: none;
+}
+
+.accordion.tabs .accordion-tablist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 24px;
+  margin-bottom: 24px;
+}
+
+.accordion.tabs .accordion-tab {
+  padding: 12px 8px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.accordion.tabs .accordion-tab :is(p, h2, h3, h4) {
+  display: inline-block;
+  padding-bottom: 8px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  border-bottom: 4px solid transparent;
+}
+
+.accordion.tabs .accordion-tab[aria-selected="true"] :is(p, h2, h3, h4) {
+  font-weight: 500;
+  border-bottom-color: var(--is-teal);
+}
+
+.accordion.tabs .accordion-tabpanel h3 {
+  margin-bottom: 12px;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.33;
+}
+
+.accordion.tabs .accordion-tabpanel :is(p, ul, ol, h3) + :is(p, ul, ol) {
+  margin-top: 12px;
+}
+
+.accordion.tabs .accordion-tabpanel ul {
+  padding-left: 3.2rem;
+  list-style: disc;
+}
+
+/* partner logos in tab panels render as small inline marks on the source */
+.accordion.tabs .accordion-tabpanel img {
+  width: auto;
+  max-width: 100%;
+  height: 24px;
+}
+
+@media (width >= 992px) {
+  .accordion.tabs {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .accordion.tabs .accordion-tablist {
+    flex: 0 0 25%;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 0;
+    padding: 24px 0 0;
+  }
+
+  .accordion.tabs .accordion-tab {
+    padding: 0 0 33px;
+  }
+
+  .accordion.tabs .accordion-tab :is(p, h2, h3, h4) {
+    padding: 0 8px 13px;
+  }
+
+  .accordion.tabs .accordion-panels {
+    flex: 1 1 0%;
+    align-self: stretch;
+    margin-left: 58px;
+    padding: 0 0 8px 48px;
+    border-left: 1px solid #ddd;
+  }
+}
+
+/* variant `tabs aside`: the source ups-tabs vertical in the right half of a 50/50 column
+   control, the section head (h2 + lede) left (risk-intelligence-smb2). Lifted tabs.min.css
+   (.ups-tabs.vertical): below 992 one scrolling tab row over a 1px #dfdbd7 rule, 12/16 tabs,
+   a 72px active bar; >= 992 the tab column (30.6 %, 4.85rem right padding, 1px rule) beside
+   the panel (68.4 %, 4.75rem left margin); 24/16 tabs, bar 8px up. The component sits 32px in
+   (.ups-tabs padding) with 64px below it and the column control's 64px after that. */
+.accordion.tabs.aside {
+  margin-bottom: 128px;
+  padding: 0 32px;
+}
+
+/* stacked below 992: the head column's 32px title margin + 42px column margin */
+.accordion-container:has(.accordion.tabs.aside) .default-content-wrapper {
+  margin-bottom: 74px;
+}
+
+.accordion.tabs.aside .accordion-tablist {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 0;
+  margin-bottom: 24px;
+  overflow-x: auto;
+  border-bottom: 1px solid #dfdbd7;
+}
+
+.accordion.tabs.aside .accordion-tab {
+  position: relative;
+  flex: none;
+  padding: 12px 16px;
+  white-space: nowrap;
+}
+
+.accordion.tabs.aside .accordion-tab :is(p, h2, h3, h4),
+.accordion.tabs.aside .accordion-tab[aria-selected="true"] :is(p, h2, h3, h4) {
+  display: block;
+  padding: 0;
+  border: 0;
+}
+
+.accordion.tabs.aside .accordion-tab[aria-selected="true"]::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 72px;
+  height: 4px;
+  margin: auto;
+  background: var(--is-teal);
+}
+
+.accordion.tabs.aside .accordion-tabpanel {
+  padding-bottom: 8px;
+}
+
+.accordion.tabs.aside .accordion-tabpanel h3 {
+  margin-bottom: 8px;
+}
+
+@media (width >= 768px) {
+  .accordion.tabs.aside .accordion-tablist {
+    margin-bottom: 32px;
+  }
+
+  .accordion.tabs.aside .accordion-panels {
+    margin-left: 20px;
+  }
+
+  .accordion.tabs.aside .accordion-tabpanel h3 {
+    margin-bottom: 12px;
+  }
+}
+
+@media (width >= 992px) {
+  main > .section.accordion-container:has(.accordion.tabs.aside) {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, calc(var(--container-max) / 2)) 1fr;
+    align-items: start;
+  }
+
+  main > .section.accordion-container:has(.accordion.tabs.aside) > div {
+    grid-column: 3;
+    max-width: none;
+    margin: 0;
+    padding: 0 32px 0 16px;
+  }
+
+  main > .section.accordion-container:has(.accordion.tabs.aside) > .default-content-wrapper {
+    grid-column: 2;
+    margin: 0;
+    padding: 0 33% 0 32px;
+    text-align: left;
+  }
+
+  .accordion-container:has(.accordion.tabs.aside) .default-content-wrapper :is(h2, h3)::after {
+    left: 0;
+    transform: none;
+  }
+
+  .accordion-container:has(.accordion.tabs.aside) .default-content-wrapper p {
+    margin: 20px 0 0;
+  }
+
+  .accordion.tabs.aside .accordion-tablist {
+    flex: 0 1 auto;
+    flex-flow: column wrap;
+    align-items: stretch;
+    width: 30.6%;
+    margin: 0;
+    padding: 0 4.85rem 0 0;
+    overflow-x: visible;
+    border-right: 1px solid #dfdbd7;
+    border-bottom: 0;
+  }
+
+  .accordion.tabs.aside .accordion-tab {
+    padding: 24px 16px;
+    white-space: normal;
+  }
+
+  .accordion.tabs.aside .accordion-tab :is(p, h2, h3, h4),
+  .accordion.tabs.aside .accordion-tab[aria-selected="true"] :is(p, h2, h3, h4) {
+    padding: 0;
+  }
+
+  .accordion.tabs.aside .accordion-tab[aria-selected="true"]::after {
+    bottom: 8px;
+  }
+
+  .accordion.tabs.aside .accordion-panels {
+    flex: 0 1 auto;
+    width: 68.4%;
+    margin-left: 4.75rem;
+    padding: 0;
+    border-left: 0;
+  }
+
+  .accordion.tabs.aside .accordion-tabpanel {
+    padding-bottom: 0;
+  }
+}
+
+/* the small-print note after an FAQ (source .text--rte > div: 16px p gap, last p flush, 64px
+   band bottom); the foundation legal-note's p margin collapses into a 48px wrapper margin
+   (interim, see stardust/rollout/foundation-requests.md) */
+main > .section.accordion-container + .section.legal-note > .default-content-wrapper {
+  margin-bottom: 64px;
+}
+
+/* variant `tabs logos` (source ups-tabs vertical of textandimage partner teasers,
+   /us/en/partners/connect-with-a-partner). Lifted tabs.min.css + measured at 360 / 1440: the
+   panel container scrolls at max-height 600px; each teaser is a 44px-high logo (12px right)
+   beside its 24/31.92 title, 16px over the copy, 24px after the CTA. Below 992 the tab list is
+   one scrolling row (12px 16px nowrap tabs over a 1px #dfdbd7 rule, 24px under it). */
+.accordion.tabs.logos .accordion-tabpanel {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.accordion.tabs.logos .accordion-tabpanel :is(p:has(> img), p:has(> picture), h3) {
+  display: inline-block;
+  margin: 0 0 16px;
+  vertical-align: middle;
+}
+
+.accordion.tabs.logos .accordion-tabpanel :is(p:has(> img), p:has(> picture)) {
+  margin-right: 12px;
+  line-height: 0;
+}
+
+.accordion.tabs.logos .accordion-tabpanel img {
+  height: 44px;
+}
+
+.accordion.tabs.logos .accordion-tabpanel h3 + p {
+  margin-top: 0;
+}
+
+.accordion.tabs.logos .accordion-tabpanel p.button-wrapper {
+  margin: 16px 0 24px;
+}
+
+@media (width < 992px) {
+  .accordion.tabs.logos .accordion-tablist {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 0;
+    margin-bottom: 24px;
+    overflow-x: auto;
+    border-bottom: 1px solid #dfdbd7;
+  }
+
+  .accordion.tabs.logos .accordion-tab {
+    position: relative;
+    flex: none;
+    padding: 12px 16px;
+    white-space: nowrap;
+  }
+
+  .accordion.tabs.logos .accordion-tab :is(p, h2, h3, h4),
+  .accordion.tabs.logos .accordion-tab[aria-selected="true"] :is(p, h2, h3, h4) {
+    display: block;
+    padding: 0;
+    border: 0;
+  }
+
+  .accordion.tabs.logos .accordion-tab[aria-selected="true"]::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 72px;
+    height: 4px;
+    margin: auto;
+    background: var(--is-teal);
+  }
+}
+
+/* variant `tabs icons`: ups-tabs vertical whose panels are icon teasers (textandimage
+   is-textandimage-icon: delivery-defense, delivery-orchestration). Panel: the icon (48px,
+   72px from 992; 12px right, 16px under) beside a 24/31.92 title box as tall as the icon, the
+   description under both with no paragraph gaps. Below 992 the tab row of tabs.min.css
+   (left-aligned 12/16 tabs over a 1px #dfdbd7 rule, a 72px #0a8080 active bar) — measured at
+   360 / 1440 on /us/en/solutions/delivery-defense. `tabs tab-row`: that tab row alone (panels
+   without icons, /us/en/solutions/delivery-orchestration) */
+.accordion.tabs.icons .accordion-tabpanel:not([hidden]) {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  padding-bottom: 8px;
+}
+
+.accordion.tabs.icons .accordion-tabpanel > * {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+.accordion.tabs.icons .accordion-tabpanel > p:first-child:has(img) {
+  grid-column: 1;
+  margin: 0 12px 16px 0;
+  line-height: 0;
+}
+
+.accordion.tabs.icons .accordion-tabpanel > p:first-child:has(img) img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.accordion.tabs.icons .accordion-tabpanel > p:first-child:has(img) + h3 {
+  grid-column: 2;
+  min-height: 48px;
+  margin: 0 0 16px;
+  font-size: 2.4rem;
+  line-height: 3.192rem;
+}
+
+.accordion.tabs.icons .accordion-tabpanel :is(p, ul, ol, h3) + :is(p, ul, ol) {
+  margin-top: 0;
+}
+
+/* the source description's blank line (<div>&nbsp;</div>) between the lede and its list */
+.accordion.tabs.icons .accordion-tabpanel > p + :is(ul, ol) {
+  margin-top: 24px;
+}
+
+@media (width < 992px) {
+  .accordion.tabs:is(.icons, .tab-row) .accordion-tablist {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 0;
+    margin-bottom: 24px;
+    overflow-x: auto;
+    border-bottom: 1px solid #dfdbd7;
+  }
+
+  .accordion.tabs:is(.icons, .tab-row) .accordion-tab {
+    position: relative;
+    flex: none;
+    padding: 12px 16px;
+    white-space: nowrap;
+  }
+
+  .accordion.tabs:is(.icons, .tab-row) .accordion-tab :is(p, h2, h3, h4),
+  .accordion.tabs:is(.icons, .tab-row) .accordion-tab[aria-selected="true"] :is(p, h2, h3, h4) {
+    display: block;
+    padding: 0;
+    border: 0;
+  }
+
+  .accordion.tabs:is(.icons, .tab-row) .accordion-tab[aria-selected="true"]::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 72px;
+    height: 4px;
+    margin: auto;
+    background: #0a8080;
+  }
+}
+
+@media (width >= 992px) {
+  .accordion.tabs.icons .accordion-tabpanel > p:first-child:has(img) img {
+    width: 72px;
+    height: 72px;
+  }
+
+  .accordion.tabs.icons .accordion-tabpanel > p:first-child:has(img) + h3 {
+    min-height: 72px;
+  }
+}
+
+/* variant `tabs horizontal` (source ups-tabs horizontal tab-list-center, /us/en/solutions/
+   commerceshield): one tab row over a 1px #dfdbd7 rule (left and scrolling below 768, centred
+   from 768), 12/16 tabs with the 72px active bar; the panel 40px under it, its copy and image
+   centred in a 32px inset — h6 16/24 (20/28 from 992) and p 16px apart, the full-width image
+   after a 24px blank line, 71px of trailing source blank lines */
+.accordion.tabs.horizontal .accordion-tablist {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 0;
+  margin-bottom: 24px;
+  overflow-x: auto;
+  border-bottom: 1px solid #dfdbd7;
+}
+
+.accordion.tabs.horizontal .accordion-tab {
+  position: relative;
+  flex: none;
+  padding: 12px 16px;
+  white-space: nowrap;
+}
+
+.accordion.tabs.horizontal .accordion-tab :is(p, h2, h3, h4),
+.accordion.tabs.horizontal .accordion-tab[aria-selected="true"] :is(p, h2, h3, h4) {
+  display: block;
+  padding: 0;
+  border: 0;
+}
+
+.accordion.tabs.horizontal .accordion-tab[aria-selected="true"]::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 72px;
+  height: 4px;
+  margin: auto;
+  background: var(--is-teal);
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.accordion.tabs.horizontal .accordion-tabpanel {
+  padding: 40px 32px 71px;
+  text-align: center;
+}
+
+.accordion.tabs.horizontal .accordion-tabpanel :is(h6, p) {
+  margin: 0 0 16px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.accordion.tabs.horizontal .accordion-tabpanel p:has(img) {
+  margin: 40px 0 0;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.accordion.tabs.horizontal .accordion-tabpanel img {
+  display: inline;
+  width: 100%;
+  height: auto;
+}
+
+@media (width >= 768px) {
+  .accordion.tabs.horizontal .accordion-tablist {
+    justify-content: center;
+    margin-bottom: 0;
+  }
+}
+
+@media (width >= 992px) {
+  .accordion.tabs.horizontal {
+    display: block;
+  }
+
+  .accordion.tabs.horizontal .accordion-tablist {
+    flex-direction: row;
+    align-items: stretch;
+    padding: 0;
+  }
+
+  .accordion.tabs.horizontal .accordion-tab {
+    padding: 12px 16px;
+  }
+
+  .accordion.tabs.horizontal .accordion-panels {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .accordion.tabs.horizontal .accordion-tabpanel h6 {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}

@@ -1,0 +1,81 @@
+/* form-anchor — the form template's contact section, scoped to the section the block marks
+   (lifted: .text--rte h5 intro, .aemform margin, and the AEM Forms contact-us frame geometry of
+   stardust/prototypes/us-en-about-contact-us-html-form.html). The contact frame geometry itself
+   lives in the form block (`form contact`, blocks/form/form.css). */
+main .section .form-anchor-wrapper {
+  display: none;
+}
+
+/* source: hero margin 16 + empty rte (noscript pixel) 64 before the #form anchor; the
+   marketing-hero block already reserves the rest */
+main > .section.form-anchor-container {
+  padding-top: 5px;
+  padding-bottom: 7px; /* the hidden popover-ups wrapper keeps 7px of flow on the source */
+  scroll-margin-top: 80px;
+}
+
+/* intro: centred h5s (lifted: .text--rte .cmp-text h5, inline text-align: center) */
+.section.form-anchor-container .default-content-wrapper {
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.section.form-anchor-container .default-content-wrapper h5 {
+  margin-bottom: 1.6rem;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.section.form-anchor-container .default-content-wrapper h5:last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 768px) {
+  main > .section.form-anchor-container {
+    padding-top: 16px;
+  }
+}
+
+@media (width >= 992px) {
+  main > .section.form-anchor-container {
+    padding-top: 48px;
+  }
+
+  .section.form-anchor-container .default-content-wrapper h5 {
+    font-size: 2.4rem;
+    line-height: 1.33;
+  }
+}
+
+/* sections whose head is an h2 title + lede (source `.title` above the frame): 48px to the
+   frame; `preference` / `standalone` frames end the page (7px to the footer) */
+.form-anchor-container:has(.form.contact:is(.update, .preference, .standalone))
+  .default-content-wrapper {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+@media (width >= 768px) {
+  .form-anchor-container:has(.form.contact:is(.update, .preference, .standalone))
+    .default-content-wrapper {
+    margin-bottom: 48px;
+    text-align: center;
+  }
+}
+
+/* `standalone` = no hero: the title sits right under the breadcrumb band */
+main > .section.form-anchor-container:has(.form.contact.standalone) {
+  padding-top: 0;
+}
+
+@media (width >= 992px) {
+  main > .section.form-anchor-container:has(.form.contact.preference) {
+    padding-top: 12px;
+  }
+}
+
+/* variant `trailing` of the reused pathways-cards: the source's hidden Load More row keeps
+   64px more flow after the last card (confirm-contact-information: 128px card → footer) */
+.pathways-cards.trailing {
+  margin-bottom: 128px;
+}

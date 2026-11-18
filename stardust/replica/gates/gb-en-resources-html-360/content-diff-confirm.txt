@@ -1,0 +1,31 @@
+[live-session] waiting to pace live navigations to www.insureshield.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 547 ms
+
+Content diff @ 360px (profile "generic", roots: #container-ec87763e92, header, footer)
+root "#container-ec87763e92"
+  source: 75 text nodes — 8 headings, 12 eyebrows, 3 CTAs, 52 body; 13 img
+  build: 75 text nodes — 8 headings, 12 eyebrows, 3 CTAs, 52 body; 13 img
+  editable texts (outermost h*/p/ul/ol): source 51 / build 51
+  attributes (placeholder/aria-label/title): source 28 / build 32; icons: source 22 / build 22
+root "header"
+  source: 29 text nodes — 0 headings, 1 eyebrows, 15 CTAs, 13 body; 1 img
+  build: 29 text nodes — 0 headings, 1 eyebrows, 15 CTAs, 13 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 10 / build 11; icons: source 11 / build 11
+root "footer"
+  source: 25 text nodes — 1 headings, 0 eyebrows, 20 CTAs, 4 body; 5 img
+  build: 25 text nodes — 1 headings, 0 eyebrows, 20 CTAs, 4 body; 5 img
+  editable texts (outermost h*/p/ul/ol): source 8 / build 8
+  attributes (placeholder/aria-label/title): source 2 / build 3; icons: source 16 / build 16
+
+Findings: 10 (4 structural 🔴)
+Tiers: looks-same 🔴 4 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 6
+  🔴 ICON DIFF [footer]: source image (no src) (16×64) vs build image social-instagram (16×16) at "instagram". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [footer]: source image (no src) (16×64) vs build image social-twitter (16×16) at "@upscapital". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [footer]: source image (no src) (16×64) vs build image social-linkedin (16×16) at "linkedin". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [footer]: source image (no src) (16×64) vs build image social-youtube (16×16) at "youtube". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 EXTRA ARIA-LABEL [#container-ec87763e92]: build <button> aria-label="Previous" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#container-ec87763e92]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#container-ec87763e92]: build <button> aria-label="Previous" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#container-ec87763e92]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <nav> aria-label="Legal" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

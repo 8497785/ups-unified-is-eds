@@ -1,0 +1,37 @@
+[live-session] waiting to pace live navigations to www.insureshield.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 883 ms
+
+Content diff @ 1440px (profile "generic", roots: #container-ec87763e92, header, footer)
+root "#container-ec87763e92"
+  source: 75 text nodes — 8 headings, 12 eyebrows, 3 CTAs, 52 body; 13 img
+  build: 75 text nodes — 8 headings, 12 eyebrows, 3 CTAs, 52 body; 13 img
+  editable texts (outermost h*/p/ul/ol): source 51 / build 51
+  attributes (placeholder/aria-label/title): source 20 / build 24; icons: source 22 / build 22
+root "header"
+  source: 29 text nodes — 0 headings, 4 eyebrows, 15 CTAs, 10 body; 1 img
+  build: 23 text nodes — 0 headings, 4 eyebrows, 15 CTAs, 4 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 10 / build 10; icons: source 11 / build 8
+root "footer"
+  source: 25 text nodes — 1 headings, 0 eyebrows, 20 CTAs, 4 body; 5 img
+  build: 25 text nodes — 1 headings, 0 eyebrows, 20 CTAs, 4 body; 5 img
+  editable texts (outermost h*/p/ul/ol): source 8 / build 8
+  attributes (placeholder/aria-label/title): source 2 / build 3; icons: source 16 / build 16
+
+Findings: 16 (3 structural 🔴)
+Tiers: looks-same 🔴 3 · nothing-lost 🟡 4 · accepted 🟢 0 (owner 0, auto 0) · advisory 9
+  🔴 MISSING ICON [header]: source icon-font glyph chevron_left (upspricons, 0×0) at "previous" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph chevron_right (upspricons, 0×0) at "next" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph close (upspricons, 0×0) at "close" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 EXTRA ARIA-LABEL [#container-ec87763e92]: build <button> aria-label="Previous" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#container-ec87763e92]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#container-ec87763e92]: build <button> aria-label="Previous" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#container-ec87763e92]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 MISSING BODY [header]: source body "of"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING SR-ONLY TEXT [header]: source body "Previous" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 MISSING BODY [header]: source body "1"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "2"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING SR-ONLY TEXT [header]: source body "Next" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 MISSING SR-ONLY TEXT [header]: source body "close" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 MISSING ARIA-LABEL [header]: source <div> aria-label="Time Sensitive Information from UPS" has no build <div> with that aria-label (build <div> aria-labels: "Search suggestions", "Recent search results"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <nav> aria-label="Legal" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

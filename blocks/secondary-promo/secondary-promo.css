@@ -1,0 +1,611 @@
+/* secondary-promo — lifted: secondarypromo teaser (media left/right) + theme-insure-shield */
+.secondary-promo {
+  background: #fff;
+  padding: 32px 0;
+}
+
+.secondary-promo .secondary-promo-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas:
+    "title"
+    "media"
+    "desc"
+    "actions";
+}
+
+.secondary-promo .secondary-promo-media {
+  grid-area: media;
+  line-height: 0;
+}
+
+.secondary-promo .secondary-promo-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 87 / 49; /* source .ups-teaser .cmp-teaser__image .cmp-image__image */
+  border-radius: var(--is-radius);
+}
+
+.secondary-promo .teaser-title {
+  grid-area: title;
+  position: relative;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+}
+
+.secondary-promo .teaser-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+.secondary-promo .teaser-title :is(h1, h2, h3) {
+  font-size: 2.8rem;
+  line-height: 1.28;
+}
+
+.secondary-promo .teaser-desc {
+  grid-area: desc;
+  margin: 24px 0 32px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.secondary-promo .teaser-desc :is(p, ul, ol) + :is(p, ul, ol) {
+  margin-top: 12px;
+}
+
+.secondary-promo .teaser-desc ul {
+  list-style: disc;
+  padding-left: 3.2rem;
+}
+
+.secondary-promo .teaser-desc ol {
+  counter-reset: item;
+  list-style: none;
+  padding-left: 1.4rem;
+}
+
+.secondary-promo .teaser-desc ol li {
+  counter-increment: item;
+  display: table-row;
+}
+
+.secondary-promo .teaser-desc ol li::before {
+  content: counters(item, ".") ". ";
+  display: table-cell;
+  padding-right: 0.5rem;
+}
+
+.secondary-promo .teaser-actions {
+  grid-area: actions;
+  display: flex;
+  flex-direction: column;
+  margin: -16px 0 24px;
+}
+
+.secondary-promo .teaser-actions p {
+  margin: 16px 0 0;
+}
+
+.secondary-promo .teaser-actions a.button::after {
+  content: "chevron_right";
+  margin-left: 0.2rem;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: upspricons;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1;
+  font-feature-settings: "liga";
+}
+
+/* copy followed by CTAs: the source description keeps its 24px margin (action row -16px, each
+   link +16px) — measured on /ca/en/partners at 360 and 1440 */
+.secondary-promo .teaser-desc:has(+ .teaser-actions) {
+  margin-bottom: 24px;
+}
+
+@media (width >= 768px) {
+  .secondary-promo .secondary-promo-grid {
+    grid-template:
+      "media ." 1fr
+      "media title" auto
+      "media desc" auto
+      "media actions" auto
+      "media ." 1fr
+      / minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: var(--is-gutter);
+  }
+
+  .secondary-promo.media-right .secondary-promo-grid {
+    grid-template-areas:
+      ". media"
+      "title media"
+      "desc media"
+      "actions media"
+      ". media";
+  }
+
+  .secondary-promo.no-media .secondary-promo-grid {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "."
+      "title"
+      "desc"
+      "actions"
+      ".";
+  }
+
+  .secondary-promo .secondary-promo-media {
+    align-self: start;
+  }
+
+  .secondary-promo .teaser-desc {
+    margin: 0 0 8px;
+  }
+
+  .secondary-promo .teaser-actions {
+    flex-flow: row wrap;
+    column-gap: 12px;
+    margin: -16px 0 0;
+  }
+
+  .secondary-promo .teaser-title :is(h1, h2, h3) {
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+}
+
+@media (width >= 992px) {
+  .secondary-promo {
+    padding: 64px 0;
+  }
+
+  .secondary-promo .teaser-title {
+    padding-bottom: 20px;
+  }
+
+  .secondary-promo .teaser-title :is(h1, h2, h3) {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .secondary-promo .teaser-desc {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  /* the source's 120px column padding replaces the 16px gutter half the grid gap already gives */
+  .secondary-promo :is(.teaser-title, .teaser-desc, .teaser-actions) {
+    padding-left: calc(120px - var(--is-gutter) / 2);
+  }
+
+  .secondary-promo.media-right :is(.teaser-title, .teaser-desc, .teaser-actions) {
+    padding-left: 0;
+    padding-right: calc(120px - var(--is-gutter) / 2);
+  }
+
+  .secondary-promo .teaser-title::after {
+    left: calc(120px - var(--is-gutter) / 2);
+  }
+
+  .secondary-promo.media-right .teaser-title::after {
+    left: 0;
+  }
+}
+
+/* section head (h2 + lede) authored as default content before the block — styled in place */
+.secondary-promo-container .default-content-wrapper:has(+ .secondary-promo-wrapper) {
+  margin-bottom: 24px;
+}
+
+.secondary-promo-container .default-content-wrapper:has(+ .secondary-promo-wrapper) :is(h2, h3) {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 16px;
+  font-size: 2.8rem;
+  line-height: 1.28;
+}
+
+.secondary-promo-container .default-content-wrapper:has(+ .secondary-promo-wrapper) :is(h2, h3)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+.secondary-promo-container .default-content-wrapper:has(+ .secondary-promo-wrapper) p {
+  margin-top: 16px;
+}
+
+@media (width >= 768px) {
+  .secondary-promo-container .default-content-wrapper:has(+ .secondary-promo-wrapper) {
+    text-align: center;
+    padding: 0 16.5%; /* source .sec-title--center .sec-title__inner */
+  }
+
+  .secondary-promo-container .default-content-wrapper:has(+ .secondary-promo-wrapper) :is(h2, h3)::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (width >= 992px) {
+  .secondary-promo-container .default-content-wrapper:has(+ .secondary-promo-wrapper) {
+    margin-bottom: 48px;
+  }
+
+  .secondary-promo-container .default-content-wrapper:has(+ .secondary-promo-wrapper) :is(h2, h3) {
+    padding-bottom: 20px;
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .secondary-promo-container .default-content-wrapper:has(+ .secondary-promo-wrapper) p {
+    margin: 20px 0 0;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}
+
+/* variant carousel — source cmp-carousel of secondarypromo teasers: one slide visible, prev /
+   dots / next centred below (lifted from the source carousel indicators) */
+.secondary-promo.carousel {
+  padding-bottom: 0;
+}
+
+/* under a section head the slides start right below it (/us/en/resources/insights); a head-less
+   carousel keeps the band padding (/us/en/resources/customer-stories) */
+.default-content-wrapper + .secondary-promo-wrapper .secondary-promo.carousel {
+  padding-top: 0;
+}
+
+/* below 768 a head-less carousel straight after the marketing hero starts at the hero's 64px
+   margin, no band padding (source .carousel padding 0 — /us/en/resources/customer-stories) */
+@media (width < 768px) {
+  main > .section.marketing-hero-container + .section
+    > .secondary-promo-wrapper:first-child .secondary-promo.carousel {
+    padding-top: 0;
+  }
+}
+
+.secondary-promo .secondary-promo-slide[hidden] {
+  display: none;
+}
+
+.secondary-promo .secondary-promo-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.2rem 0;
+}
+
+.secondary-promo .secondary-promo-arrow {
+  height: 26px;
+  padding: 1px 6px;
+  border: 0;
+  background: transparent;
+  color: var(--is-text);
+  line-height: 0;
+  cursor: pointer;
+}
+
+.secondary-promo .secondary-promo-arrow::before {
+  content: "chevron_right";
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: upspricons;
+  font-size: 2.4rem;
+  line-height: 1;
+  font-feature-settings: "liga";
+}
+
+.secondary-promo .secondary-promo-prev::before {
+  content: "chevron_left";
+}
+
+.secondary-promo .secondary-promo-dots {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.secondary-promo .secondary-promo-dot {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin: 0 0.7rem 0 3rem;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 0 2px var(--is-grey-mid);
+  cursor: pointer;
+}
+
+.secondary-promo .secondary-promo-dot:last-child {
+  margin-right: 3rem;
+}
+
+.secondary-promo .secondary-promo-dot.is-active {
+  width: 1.4rem;
+  height: 1.4rem;
+  box-shadow: 0 0 0 4px var(--is-teal);
+}
+
+@media (width >= 768px) {
+  .secondary-promo .secondary-promo-bar {
+    padding: 4rem 0 6.4rem;
+  }
+}
+
+/* copy ending in a list: the source action row sits 8px under it (no -16px pull-up — that
+   offsets a closing paragraph's 16px margin) — measured on /de/en/cargo-insurance */
+.secondary-promo:not(.featured) .teaser-desc:has(> :is(ul, ol):last-child):has(+ .teaser-actions) {
+  margin-bottom: 8px;
+}
+
+.secondary-promo .teaser-desc:has(> :is(ul, ol):last-child) + .teaser-actions {
+  margin-top: 0;
+}
+
+/* section style `quote` — a source pull quote (quote text: blockquote h3 + small attribution,
+   /us/en/about); styled here as the program block every such page carries. Lifted: quote.min +
+   theme .quote blockquote (3.2rem inset, #5f5753), .quote h3 (20/28, 24/32 ≥768, 32/40 ≥992),
+   .quote blockquote small (10px 500 uppercase, 16px inset, a 10px grey rule before it) */
+main > .section.quote > .default-content-wrapper {
+  padding-left: 30px;
+  margin-bottom: 64px;
+  color: rgb(95 87 83);
+}
+
+main > .section.quote > .default-content-wrapper > * {
+  margin-left: 32px;
+}
+
+main > .section.quote > .default-content-wrapper :is(h2, h3) {
+  max-width: 666px;
+  margin-bottom: 12px;
+  color: inherit;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+main > .section.quote > .default-content-wrapper p {
+  position: relative;
+  margin-top: 24px;
+  padding-left: 16px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+
+main > .section.quote > .default-content-wrapper p::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 10px;
+  height: 1px;
+  margin-top: -1px;
+  background-color: rgb(95 87 83);
+}
+
+/* below 992 the source quote row stacks its (empty) second column: 195px row for a 148px
+   quote at 360 */
+@media (width < 992px) {
+  main > .section.quote > .default-content-wrapper {
+    padding-bottom: 47px;
+  }
+}
+
+@media (width >= 768px) {
+  main > .section.quote > .default-content-wrapper :is(h2, h3) {
+    font-size: 2.4rem;
+    line-height: 1.33;
+  }
+}
+
+@media (width >= 992px) {
+  main > .section.quote > .default-content-wrapper :is(h2, h3) {
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+}
+
+/* variant `featured` (source teaserpromo ups-teaser__featuredpromo, e.g. whitepapers-and-guides):
+   a full-bleed light gradient band closed by a white arc, no top padding, the copy column
+   without the 120px inset, 64px to the next section (lifted: teasernMarketHero +
+   theme-insure-shield .ups-teaser__featuredpromo) */
+.secondary-promo.featured {
+  position: relative;
+  z-index: 0;
+  margin-bottom: 64px;
+  padding: 0 0 3.2rem;
+  background: none;
+}
+
+.secondary-promo.featured::before,
+.secondary-promo.featured::after {
+  content: "";
+  position: absolute;
+  left: calc(50% - 50vw);
+  z-index: -1;
+  width: 100vw;
+}
+
+.secondary-promo.featured::before {
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(350.94deg, #dce8e7 8%, #fff 55.74%);
+}
+
+.secondary-promo.featured::after {
+  bottom: -0.1rem;
+  height: 6vw;
+  background: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='1440'%20height='128'%20viewBox='0%200%201440%20128'%20fill='white'%3E%3Cpath%20d='M0%200%20H1440%20V69.8751%20C1028.42%2046.941%20139.222%2032.794%20-415%20232Z'%20fill='white'/%3E%3C/svg%3E") 0 100% / 100% no-repeat;
+  transform: rotate(180deg);
+}
+
+/* featured: an h3 title takes the source teaser h3 scale (.ups-teaser .cmp-teaser__title h3:
+   20/28, 24/32 from 768, 32/40 from 992) and the note after the CTA the additionalText p
+   (14/19.88 #5f5753, 24px under the action row) — measured on /us/en/about at 360 and 1440 */
+.secondary-promo.featured .teaser-title h3 {
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.secondary-promo.featured .teaser-actions p.teaser-note {
+  width: 100%;
+  margin: 24px 0 0;
+  color: var(--is-grey-dark);
+  font-size: 1.4rem;
+  line-height: 1.42;
+}
+
+@media (width >= 768px) {
+  .secondary-promo.featured .teaser-title h3 {
+    font-size: 2.4rem;
+    line-height: 1.33;
+  }
+
+  .secondary-promo.featured {
+    padding-bottom: 4rem;
+  }
+
+  .secondary-promo.featured::after {
+    height: 5vw;
+  }
+}
+
+@media (width >= 992px) {
+  .secondary-promo.featured {
+    padding-bottom: 6.4rem;
+  }
+
+  .secondary-promo.featured :is(.teaser-title, .teaser-desc, .teaser-actions) {
+    padding-left: 0;
+  }
+
+  .secondary-promo.featured .teaser-title::after {
+    left: 0;
+  }
+
+  .secondary-promo.featured .teaser-title h3 {
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+
+  .secondary-promo.featured .teaser-desc:has(+ .teaser-actions) {
+    margin-bottom: 8px;
+  }
+}
+
+/* variant `video` (source video teaser, /us/en/promotional/insureshield-benefits): below 768 the
+   title shows twice — above the video and again in the copy column under it (copy column
+   24px margins, 92px tall) — measured at 360; from 768 only the copy-column title */
+.secondary-promo.video .secondary-promo-grid {
+  grid-template-areas:
+    "title"
+    "media"
+    "retitle"
+    "desc"
+    "actions";
+}
+
+.secondary-promo.video .teaser-title-repeat {
+  grid-area: retitle;
+  margin: 24px 0 28px;
+}
+
+/* with copy under it (learning-center carousel) the repeated title keeps its 20px margin and
+   the copy follows directly */
+.secondary-promo.video .teaser-title-repeat:has(+ .teaser-desc) {
+  margin-bottom: 20px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.secondary-promo.video .teaser-title-repeat + .teaser-desc {
+  margin-top: 0;
+}
+
+@media (width >= 768px) {
+  .secondary-promo.video .teaser-title-repeat {
+    display: none;
+  }
+
+  .secondary-promo.video.media-right .secondary-promo-grid {
+    grid-template-areas:
+      ". media"
+      "title media"
+      "desc media"
+      "actions media"
+      ". media";
+  }
+
+  .secondary-promo.video:not(.media-right) .secondary-promo-grid {
+    grid-template-areas:
+      "media ."
+      "media title"
+      "media desc"
+      "media actions"
+      "media .";
+  }
+}
+
+/* section style `cta-center`: the source cta-link after the promo (cta-link__container
+   text-center: the button 16px down, centred; full width below 768; 64px under it —
+   measured on /us/en/promotional/webinars at 360 / 1440) */
+main > .section.cta-center > .default-content-wrapper:last-child {
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+main > .section.cta-center > .default-content-wrapper:last-child > p {
+  margin: 16px 0 0;
+}
+
+@media (width < 768px) {
+  main > .section.cta-center > .default-content-wrapper:last-child a.button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+/* an h6 description (source cmp-teaser__description h6) reads at the description size, and a
+   paragraph after it is the cmp-teaser__additionalText note: 14/19.88 #5f5753, 32px lower
+   (24px description margin + the empty action row) — /us/en/resources/the-logistics-lowdown */
+.secondary-promo .teaser-desc > h6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: inherit;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.secondary-promo .teaser-desc > h6 + p {
+  margin-top: 32px;
+  color: var(--is-grey-dark);
+  font-size: 1.4rem;
+  line-height: 1.42;
+}
+
+/* variant `featured copy-inset` (/us/en/solutions/delivery-defense learning-center promo): the
+   featured band keeps the 120px copy-column inset of the default teaser from 992 (title at
+   x 840 beside a 592px image at 1440, measured) */
+@media (width >= 992px) {
+  .secondary-promo.featured.copy-inset:not(.media-right)
+    :is(.teaser-title, .teaser-desc, .teaser-actions) {
+    padding-left: calc(120px - var(--is-gutter) / 2);
+  }
+
+  .secondary-promo.featured.copy-inset:not(.media-right) .teaser-title::after {
+    left: calc(120px - var(--is-gutter) / 2);
+  }
+}

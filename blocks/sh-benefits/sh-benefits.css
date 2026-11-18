@@ -1,0 +1,290 @@
+/* sh-benefits — compiled from the shipping-hub prototype (mobile-first, 1rem = 16px) */
+/* stylelint-disable no-duplicate-selectors, no-descending-specificity -- source cascade order kept */
+.sh-benefits {
+  --m-border-width-thin: 1px;
+  --m-button-hover-shadow: 0px 0px 0px 0px #0000;
+  --m-button-secondary-edge: #85858e;
+  --m-button-secondary-edge-width: 1px;
+  --m-button-secondary-hover-edge: #121212;
+  --m-button-secondary-hover-fill: #efeff2
+;
+  --m-button-secondary-ink: #121212;
+  --m-color-ink-default: #121212;
+  --m-color-ink-medium: #5f5753;
+  --m-duration-base: .2s;
+  --m-duration-fast: .1s;
+  --m-easing-standard: cubic-bezier(.2, 0, 0, 1);
+  --m-font-family-base: inter, system-ui, sans-serif;
+  --m-font-line-height-sm: 20px;
+  --m-font-weight-semibold: 600;
+  --m-radius-pill: 999px;
+  --m-size-control-md: 44px;
+  --m-size-icon-md: 20px;
+  --m-space-0: 0;
+  --m-space-1: 4px;
+  --m-space-2: 8px;
+  --m-space-3: 12px;
+  --m-space-4: 16px;
+  --m-space-5: 24px;
+  --m-space-6: 32px;
+  --m-space-7: 48px;
+  --m-space-8: 64px;
+  --m-space-9: 96px;
+  --m-typography-body-md: 400 16px/20px var(--m-font-family-base);
+  --m-typography-body-sm: 400 16px/20px var(--m-font-family-base);
+  --m-typography-button-label-lg: 500 16px/20px var(--m-font-family-base);
+  --m-typography-display-md: 600 32px/40px var(--m-font-family-base);
+  --m-typography-display-sm: 600 28px/36px var(--m-font-family-base);
+  --m-typography-label-lg: 500 16px/20px var(--m-font-family-base);
+  --m-typography-title-lg: 500 20px/28px var(--m-font-family-base);
+}
+
+@media (width >= 768px) {
+  .sh-benefits {
+    --m-typography-body-md: 400 16px/24px inter, system-ui, sans-serif;
+    --m-typography-body-sm: 400 14px/20px inter, system-ui, sans-serif;
+    --m-typography-button-label-lg: 500 16px/24px inter, system-ui, sans-serif;
+    --m-typography-display-md: 600 40px/48px inter, system-ui, sans-serif;
+    --m-typography-display-sm: 600 32px/40px inter, system-ui, sans-serif;
+    --m-typography-label-lg: 500 16px/24px inter, system-ui, sans-serif;
+    --m-typography-title-lg: 500 28px/36px inter, system-ui, sans-serif;
+  }
+}
+
+.sh-benefits .sh-icon {
+  inline-size: var(--sh-icon,var(--m-size-icon-md));
+  block-size: var(--sh-icon,var(--m-size-icon-md));
+  vertical-align: middle;
+  flex: none;
+  display: inline-block;
+  fill: currentcolor;
+}
+
+.sh-benefits .sh-icon-16 {
+  --sh-icon: var(--m-space-4);
+}
+
+.sh-benefits .sh-btn {
+  --btn-step: calc(var(--m-space-1) / 2);
+  --btn-lift: var(--m-space-0);
+
+  appearance: none;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  gap: var(--m-space-2);
+  min-block-size: var(--m-size-control-md);
+  padding-block: var(--m-space-2);
+  padding-inline: var(--m-space-4);
+  border: var(--m-border-width-thin) solid transparent;
+  border-radius: var(--m-radius-pill);
+  color: var(--m-color-ink-default);
+  font: var(--m-typography-button-label-lg);
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  transition-property: background-color,border-color,box-shadow,color,outline-color,scale;
+  transition-duration: var(--m-duration-fast);
+  transition-timing-function: var(--m-easing-standard);
+  background-color: #0000;
+  margin: 0;
+  text-decoration: none;
+  display: inline-flex;
+  position: relative;
+}
+
+.sh-benefits .sh-btn-icon {
+  inline-size: var(--m-size-icon-md);
+  block-size: var(--m-size-icon-md);
+  transition: transform var(--m-duration-base) var(--m-easing-standard);
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.sh-benefits .sh-btn-icon svg {
+  fill: currentcolor;
+  block-size: 100%;
+  inline-size: 100%;
+}
+
+.sh-benefits .sh-btn:hover .sh-btn-icon {
+  transform: translateX(var(--btn-step));
+}
+
+.sh-benefits .sh-btn-secondary {
+  border-width: var(--m-button-secondary-edge-width);
+  border-color: var(--m-button-secondary-edge);
+  color: var(--m-button-secondary-ink);
+}
+
+.sh-benefits .sh-btn-secondary:hover {
+  border-color: var(--m-button-secondary-hover-edge);
+  background-color: var(--m-button-secondary-hover-fill);
+  box-shadow: var(--m-button-hover-shadow);
+}
+
+.sh-benefits .sh-container {
+  box-sizing: border-box;
+  inline-size: 100%;
+  max-inline-size: calc(var(--m-space-9) * 13);
+  margin-inline: auto;
+  padding-inline: var(--m-space-4);
+}
+
+.sh-benefits {
+  padding-block: var(--m-space-7);
+}
+
+.sh-benefits .sh-intro {
+  gap: var(--m-space-3);
+  max-inline-size: 72ch;
+  font-family: var(--m-font-family-base);
+  color: var(--m-color-ink-default);
+  flex-direction: column;
+  display: flex;
+}
+
+.sh-benefits .sh-intro-title {
+  text-wrap: balance;
+  margin: 0;
+  font: var(--m-typography-display-sm);
+}
+
+.sh-benefits .sh-intro-section .sh-intro-title {
+  font: var(--m-typography-title-lg);
+  font-weight: var(--m-font-weight-semibold);
+}
+
+.sh-benefits .sh-illo {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.sh-benefits .sh-illo img {
+  display: block;
+}
+
+.sh-benefits .sh-split {
+  gap: var(--m-space-7);
+  align-items: center;
+  display: grid;
+}
+
+.sh-benefits .sh-split-media {
+  block-size: calc(var(--m-space-9) * 4);
+  position: relative;
+}
+
+.sh-benefits .sh-split-copy {
+  gap: var(--m-space-5);
+  flex-direction: column;
+  display: flex;
+}
+
+.sh-benefits .sh-checklist {
+  gap: var(--m-space-2);
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.sh-benefits .sh-checklist li {
+  align-items: flex-start;
+  gap: var(--m-space-2);
+  font: var(--m-typography-body-sm);
+  color: var(--m-color-ink-medium);
+  margin: 0;
+  display: flex;
+}
+
+.sh-benefits .sh-checklist .sh-icon {
+  color: var(--m-color-ink-medium);
+  margin-block-start: calc((var(--m-font-line-height-sm) - var(--m-space-4)) / 2);
+}
+
+.sh-benefits .sh-benefit {
+  gap: var(--m-space-1);
+  flex-direction: column;
+  display: flex;
+  min-inline-size: 0;
+}
+
+.sh-benefits .sh-benefit strong {
+  font: var(--m-typography-label-lg);
+  color: var(--m-color-ink-default);
+}
+
+/* authored-element adapters and section shell */
+main > .section.sh-benefits-container > div {
+  max-width: none;
+  padding: 0;
+}
+
+.sh-benefits :is(h1, h2, h3, h4, h5, h6) {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+  margin: 0;
+}
+
+.sh-benefits {
+  font: var(--m-typography-body-md);
+  color: var(--m-color-ink-default);
+  -webkit-font-smoothing: antialiased;
+}
+
+.sh-benefits .sh-benefit strong {
+  font-weight: inherit;
+}
+
+@media (width >= 768px) {
+  .sh-benefits .sh-btn {
+    padding-block: var(--m-space-2);
+    padding-inline: var(--m-space-4);
+    font: var(--m-typography-button-label-lg);
+  }
+
+  .sh-benefits .sh-container {
+    padding-inline: var(--m-space-6);
+  }
+
+  .sh-benefits {
+    padding-block: var(--m-space-8);
+  }
+
+  .sh-benefits .sh-intro {
+    font-family: var(--m-font-family-base);
+  }
+
+  .sh-benefits .sh-intro-title {
+    font: var(--m-typography-display-md);
+  }
+
+  .sh-benefits .sh-intro-section .sh-intro-title {
+    font: var(--m-typography-display-sm);
+  }
+
+  .sh-benefits .sh-checklist {
+    padding: 0;
+  }
+
+  .sh-benefits .sh-checklist li {
+    font: var(--m-typography-body-sm);
+  }
+
+  .sh-benefits .sh-benefit strong {
+    font: var(--m-typography-label-lg);
+  }
+}
+
+@media (width >= 1024px) {
+  .sh-benefits .sh-split {
+    grid-template-columns: minmax(0,5fr) minmax(0,7fr);
+  }
+}
+

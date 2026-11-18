@@ -1,0 +1,4331 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-18T13:10:30.096Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.insureshield.com/us/en/solutions/delivery-orchestration/delivery.html",
+  "at": "2026-11-18T13:10:05.570Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 8157,
+  "root": null,
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "span.upser-alert__msg.slick-slide > div.upser-alert__wrapper > p.upser-alert__title",
+    "x": 32,
+    "y": 37,
+    "w": 296,
+    "h": 42,
+    "text": "Introducing a fresh take on protection for your shipments"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "span.upser-alert__msg.slick-slide > div.upser-alert__wrapper > a.upser-alert__more",
+    "x": 32,
+    "y": 84,
+    "w": 138,
+    "h": 21,
+    "text": "get started in minutes",
+    "href": "/en/sign-up"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.container > div.upser-alerts__container > button.upser-alerts__close",
+    "x": 292,
+    "y": 6,
+    "w": 36,
+    "h": 26,
+    "text": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.image > div#image-d17206185b > a.cmp-image__link",
+    "x": 32,
+    "y": 138,
+    "w": 149,
+    "h": 55,
+    "text": "insureshield",
+    "href": "/us/en/securecommerce.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "a.cmp-image__link > picture > img.cmp-image__image",
+    "x": 32,
+    "y": 138,
+    "w": 149,
+    "h": 56,
+    "text": "insureshield",
+    "file": "InsureShield_horizontal_UPSC"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.profile > div.hamburger > button.navbar-toggler.collapsed",
+    "x": 238,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "text": "toggle navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.profile > div.hamburger > button.navbar-toggler.collapsed",
+    "x": 238,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "label": "toggle navigation menu",
+    "value": "toggle navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.cmp-search > div#upser-header-search > button.header-search-btn",
+    "x": 284,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "text": "search toggle"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.cmp-search > div#upser-header-search > button.header-search-btn",
+    "x": 284,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "label": "search toggle",
+    "value": "search toggle",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ol.cmp-breadcrumb__list > li.cmp-breadcrumb__item > a.cmp-breadcrumb__item-link",
+    "x": 32,
+    "y": 236,
+    "w": 58,
+    "h": 21,
+    "text": "solutions",
+    "href": "/us/en/solutions/delivery-orchestration/delivery.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ol.cmp-breadcrumb__list > li.cmp-breadcrumb__item > a.cmp-breadcrumb__item-link",
+    "x": 107,
+    "y": 236,
+    "w": 137,
+    "h": 21,
+    "text": "delivery orchestration",
+    "href": "/us/en/solutions/delivery-orchestration.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ol.cmp-breadcrumb__list > li.cmp-breadcrumb__item.cmp-breadcrumb__item--active > span",
+    "x": 261,
+    "y": 236,
+    "w": 49,
+    "h": 20,
+    "text": "Delivery"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#image-18637651c2 > picture > img.cmp-image__image",
+    "x": 32,
+    "y": 509,
+    "w": 296,
+    "h": 167,
+    "text": "female checking a box while surrounded by multiple boxes in ",
+    "file": "shutterstock_144468517_digital_02062023"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__title > h2",
+    "x": 32,
+    "y": 301,
+    "w": 296,
+    "h": 72,
+    "level": 2,
+    "text": "smarter, faster, more reliable deliveries"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__description > p",
+    "x": 32,
+    "y": 405,
+    "w": 296,
+    "h": 72,
+    "text": "Say goodbye to delivery inefficiencies and hello to a smarter, more automated wa"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 739,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "transform your last-mile logistics"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > p.cmp-title__description",
+    "x": 32,
+    "y": 843,
+    "w": 296,
+    "h": 96,
+    "text": "Our delivery orchestration platform optimizes logistics, streamlines automation,"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 32,
+    "y": 963,
+    "w": 296,
+    "h": 167,
+    "text": "two people looking at computer monitor",
+    "file": "shutterstock_1416844700_digital_11302022"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 1161,
+    "w": 248,
+    "h": 24,
+    "text": "Same-Day & Next-Day Delivery"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 1193,
+    "w": 248,
+    "h": 168,
+    "text": "Stay ahead of customer expectations with lightning-fast delivery solutions that "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 32,
+    "y": 1405,
+    "w": 296,
+    "h": 167,
+    "text": "female sitting at a desk using her laptop and a calculator",
+    "file": "shutterstock_1868366599_digital_11302022"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 1602,
+    "w": 248,
+    "h": 24,
+    "text": "Shipping Made Simple"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 1634,
+    "w": 248,
+    "h": 192,
+    "text": "Our powerful, centralized integration platform connects directly with shipping c"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 32,
+    "y": 1870,
+    "w": 296,
+    "h": 167,
+    "text": "woman working in warehouse",
+    "file": "shutterstock_1476944906_Digital_12202022"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 2068,
+    "w": 248,
+    "h": 24,
+    "text": "Effortless Delivery Management"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 2100,
+    "w": 248,
+    "h": 144,
+    "text": "Take control of your last-mile logistics with advanced features like customizabl"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 2332,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "real results, real impact"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 32,
+    "y": 2451,
+    "w": 72,
+    "h": 72,
+    "text": "front loader",
+    "file": "FrontLoader_72x72_Teal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 32,
+    "y": 2546,
+    "w": 296,
+    "h": 28,
+    "text": "100+"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 32,
+    "y": 2582,
+    "w": 296,
+    "h": 24,
+    "text": "Operating Providers"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 32,
+    "y": 2654,
+    "w": 72,
+    "h": 72,
+    "text": "storefront with awning",
+    "file": "Storefront_72x72_Teal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 32,
+    "y": 2749,
+    "w": 296,
+    "h": 28,
+    "text": "23K"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 32,
+    "y": 2785,
+    "w": 296,
+    "h": 24,
+    "text": "Stores Served"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 32,
+    "y": 2857,
+    "w": 72,
+    "h": 72,
+    "text": "circle with check mark",
+    "file": "CheckMark_72x72_Teal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 32,
+    "y": 2952,
+    "w": 296,
+    "h": 28,
+    "text": "99.8%"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 32,
+    "y": 2988,
+    "w": 296,
+    "h": 24,
+    "text": "Order Success Rate"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 3076,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "one integrated platform"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 56,
+    "y": 3212,
+    "w": 72,
+    "h": 72,
+    "text": "line chart with stars",
+    "file": "Insights_72x72_Teal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 3300,
+    "w": 248,
+    "h": 24,
+    "text": "Intelligent Orchestration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 3332,
+    "w": 248,
+    "h": 192,
+    "text": "Create a customized dispatch strategy with dynamic rule-based automation for bat"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 56,
+    "y": 3592,
+    "w": 72,
+    "h": 72,
+    "text": "clipboard with check mark",
+    "file": "Inventory_72x72_Teal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 3680,
+    "w": 248,
+    "h": 24,
+    "text": "Flexible Order Batching"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 3712,
+    "w": 248,
+    "h": 192,
+    "text": "Batching enhances control over dispatch operations, delivery service provider (D"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 56,
+    "y": 3972,
+    "w": 72,
+    "h": 72,
+    "text": "arrow and dashed line circle around a star",
+    "file": "AutoMode_72x72_Teal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 4060,
+    "w": 248,
+    "h": 24,
+    "text": "Pickup Locations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 4092,
+    "w": 248,
+    "h": 168,
+    "text": "Customize pickup locations for DSPs to align with your business needs and operat"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.ls-is-cached.lazyloaded",
+    "x": 56,
+    "y": 4328,
+    "w": 72,
+    "h": 72,
+    "text": "circle with check mark",
+    "file": "CheckMark_72x72_Teal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 4416,
+    "w": 248,
+    "h": 24,
+    "text": "Custom Coverage"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 4448,
+    "w": 248,
+    "h": 144,
+    "text": "Retailers can define precise delivery zones by setting a coverage radius, custom"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.ls-is-cached.lazyloaded",
+    "x": 56,
+    "y": 4660,
+    "w": 72,
+    "h": 72,
+    "text": "handshake",
+    "file": "Handshake_72x72_Teal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 4748,
+    "w": 248,
+    "h": 24,
+    "text": "Delivery Assurance"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 4780,
+    "w": 248,
+    "h": 120,
+    "text": "Verify delivery availability before finalizing an order. Retail teams can assess"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 56,
+    "y": 4968,
+    "w": 72,
+    "h": 72,
+    "text": "computer monitor with lines on the screen",
+    "file": "Connectivity_72x72_Teal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 5056,
+    "w": 248,
+    "h": 24,
+    "text": "Analytics & Insights"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 5088,
+    "w": 248,
+    "h": 216,
+    "text": "Bulit-in reports provide instant business insights with no setup required. Advan"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 5392,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "let's revolutionize your deliveries"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 6299,
+    "w": 51,
+    "h": 52,
+    "level": 2,
+    "text": "faq"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-277c4181f2 > div#accordion-277c4181f2-item-4ab9787ffb > h3.cmp-accordion__header",
+    "x": 48,
+    "y": 6394,
+    "w": 264,
+    "h": 48,
+    "level": 3,
+    "text": "what does delivery management mean for your business?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-277c4181f2-item-4ab9787ffb > h3.cmp-accordion__header > button#accordion-277c4181f2-item-4ab9787ffb-button",
+    "x": 48,
+    "y": 6394,
+    "w": 264,
+    "h": 48,
+    "text": "what does delivery management mean for your business?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-277c4181f2-item-4ab9787ffb > h3.cmp-accordion__header > button#accordion-277c4181f2-item-4ab9787ffb-button",
+    "x": 48,
+    "y": 6394,
+    "w": 264,
+    "h": 48,
+    "label": "trigger",
+    "value": "what does delivery management mean for your business?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-277c4181f2 > div#accordion-277c4181f2-item-691ba61ce9 > h3.cmp-accordion__header",
+    "x": 48,
+    "y": 6494,
+    "w": 264,
+    "h": 48,
+    "level": 3,
+    "text": "why is an e-commerce delivery management solution important?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-277c4181f2-item-691ba61ce9 > h3.cmp-accordion__header > button#accordion-277c4181f2-item-691ba61ce9-button",
+    "x": 48,
+    "y": 6494,
+    "w": 264,
+    "h": 48,
+    "text": "why is an e-commerce delivery management solution important?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-277c4181f2-item-691ba61ce9 > h3.cmp-accordion__header > button#accordion-277c4181f2-item-691ba61ce9-button",
+    "x": 48,
+    "y": 6494,
+    "w": 264,
+    "h": 48,
+    "label": "trigger",
+    "value": "why is an e-commerce delivery management solution important?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-277c4181f2 > div#accordion-277c4181f2-item-6fc80496e6 > h3.cmp-accordion__header",
+    "x": 48,
+    "y": 6594,
+    "w": 264,
+    "h": 48,
+    "level": 3,
+    "text": "can you integrate multiple carriers for custom shipping solutions?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-277c4181f2-item-6fc80496e6 > h3.cmp-accordion__header > button#accordion-277c4181f2-item-6fc80496e6-button",
+    "x": 48,
+    "y": 6594,
+    "w": 264,
+    "h": 48,
+    "text": "can you integrate multiple carriers for custom shipping solutions?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-277c4181f2-item-6fc80496e6 > h3.cmp-accordion__header > button#accordion-277c4181f2-item-6fc80496e6-button",
+    "x": 48,
+    "y": 6594,
+    "w": 264,
+    "h": 48,
+    "label": "trigger",
+    "value": "can you integrate multiple carriers for custom shipping solu",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__title > h2",
+    "x": 32,
+    "y": 6758,
+    "w": 296,
+    "h": 72,
+    "level": 2,
+    "text": "interested in package protection?"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#image-3bdf04e2d1 > picture > img.cmp-image__image",
+    "x": 32,
+    "y": 6866,
+    "w": 296,
+    "h": 167,
+    "text": "woman and man looking at tablet",
+    "file": "shutterstock_1237494658_1440x810"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__description > p",
+    "x": 32,
+    "y": 7057,
+    "w": 296,
+    "h": 144,
+    "text": "We offer multimodel, multicarrier shipping coverage options, so you can rest eas"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__action-container > a#teaser-3bdf04e2d1-cta-a594bff70e",
+    "x": 32,
+    "y": 7225,
+    "w": 296,
+    "h": 44,
+    "text": "explore options",
+    "href": "/us/en/shipping-insurance.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 0,
+    "y": 7333,
+    "w": 355,
+    "h": 35,
+    "text": "*Expedited reshipping reimbursement provided up to 20% of the insured value of t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 0,
+    "y": 7381,
+    "w": 358,
+    "h": 155,
+    "text": "Insurance coverage is underwritten by an authorized insurance company and issued"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 0,
+    "y": 7549,
+    "w": 352,
+    "h": 107,
+    "text": "Unless otherwise noted, all statistics used herein are derived from or based on "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 0,
+    "y": 7669,
+    "w": 358,
+    "h": 83,
+    "text": "Statistics in our social media advertising are based on aggregated insurance pro"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-97dfc0134a > p",
+    "x": 32,
+    "y": 7821,
+    "w": 296,
+    "h": 19,
+    "text": "This Site"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-c12bd6f8bb > p",
+    "x": 32,
+    "y": 7871,
+    "w": 296,
+    "h": 19,
+    "text": "Other UPS Sites"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-369e9a7e5a > p",
+    "x": 32,
+    "y": 7920,
+    "w": 296,
+    "h": 19,
+    "text": "Connect with Us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-d50c439374 > p",
+    "x": 32,
+    "y": 7970,
+    "w": 296,
+    "h": 19,
+    "text": "Legal"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.copy-right > div#text-b533edb835 > h4",
+    "x": 32,
+    "y": 8093,
+    "w": 296,
+    "h": 40,
+    "level": 4,
+    "text": "copyright ©2023-2026 united parcel service of america, inc. all rights reserved."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 20,
+    "textNodes": 89,
+    "controls": 45,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/delivery",
+  "at": "2026-11-18T13:10:29.205Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 8155,
+  "root": "main",
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.alerts-list > div.alerts-msg > p",
+    "x": 32,
+    "y": 37,
+    "w": 296,
+    "h": 42,
+    "text": "Introducing a fresh take on protection for your shipments"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.alerts-list > div.alerts-msg > a.alerts-more",
+    "x": 32,
+    "y": 84,
+    "w": 138,
+    "h": 21,
+    "text": "get started in minutes",
+    "href": "/en/sign-up"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.alerts-inner > button.alerts-close",
+    "x": 292,
+    "y": 6,
+    "w": 36,
+    "h": 26,
+    "text": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-logo > p > a",
+    "x": 32,
+    "y": 138,
+    "w": 149,
+    "h": 55,
+    "text": "insureshield",
+    "href": "/us/en/securecommerce"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 32,
+    "y": 138,
+    "w": 149,
+    "h": 56,
+    "text": "insureshield",
+    "file": "media_1e13fd7b8c723c94791c8f8ac6c80eaf75"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-row > div.hdr-actions > button.hdr-burger",
+    "x": 238,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "text": "toggle navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-row > div.hdr-actions > button.hdr-burger",
+    "x": 238,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "label": "toggle navigation menu",
+    "value": "toggle navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-actions > div.hdr-search > button.hdr-search-btn",
+    "x": 284,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "text": "search toggle"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-actions > div.hdr-search > button.hdr-search-btn",
+    "x": 284,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "label": "search toggle",
+    "value": "search toggle",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a",
+    "x": 32,
+    "y": 236,
+    "w": 58,
+    "h": 21,
+    "text": "solutions",
+    "href": "/us/en/solutions/delivery-orchestration/delivery"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a",
+    "x": 107,
+    "y": 236,
+    "w": 137,
+    "h": 21,
+    "text": "delivery orchestration",
+    "href": "/us/en/solutions/delivery-orchestration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > span",
+    "x": 261,
+    "y": 236,
+    "w": 49,
+    "h": 20,
+    "text": "Delivery"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-content > div.teaser-title > h1#smarter-faster-more-reliable-deliveries",
+    "x": 32,
+    "y": 301,
+    "w": 296,
+    "h": 72,
+    "level": 1,
+    "text": "smarter, faster, more reliable deliveries"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-content > div.teaser-desc > p",
+    "x": 32,
+    "y": 405,
+    "w": 296,
+    "h": 72,
+    "text": "Say goodbye to delivery inefficiencies and hello to a smarter, more automated wa"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-media > picture > img",
+    "x": 32,
+    "y": 509,
+    "w": 296,
+    "h": 167,
+    "text": "female checking a box while surrounded by multiple boxes in ",
+    "file": "media_144e96345ffb0813cb2795cf9ed364d476"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.pathways-cards-container > div.default-content-wrapper > h2#transform-your-last-mile-logistics",
+    "x": 32,
+    "y": 739,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "transform your last-mile logistics"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.pathways-cards-container > div.default-content-wrapper > p",
+    "x": 32,
+    "y": 843,
+    "w": 296,
+    "h": 96,
+    "text": "Our delivery orchestration platform optimizes logistics, streamlines automation,"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 32,
+    "y": 963,
+    "w": 296,
+    "h": 167,
+    "text": "two people looking at computer monitor",
+    "file": "media_17824b83b7aa65859d8afe1e72a223a461"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 1161,
+    "w": 248,
+    "h": 24,
+    "text": "Same-Day & Next-Day Delivery"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 1193,
+    "w": 248,
+    "h": 168,
+    "text": "Stay ahead of customer expectations with lightning-fast delivery solutions that "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 32,
+    "y": 1405,
+    "w": 296,
+    "h": 167,
+    "text": "female sitting at a desk using her laptop and a calculator",
+    "file": "media_111ff5daf1da71426b1b3c2b2e824dfc07"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 1602,
+    "w": 248,
+    "h": 24,
+    "text": "Shipping Made Simple"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 1634,
+    "w": 248,
+    "h": 192,
+    "text": "Our powerful, centralized integration platform connects directly with shipping c"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 32,
+    "y": 1870,
+    "w": 296,
+    "h": 167,
+    "text": "woman working in warehouse",
+    "file": "media_14a8cc2b0effb23b9fdd04c51949f31161"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 2068,
+    "w": 248,
+    "h": 24,
+    "text": "Effortless Delivery Management"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 2100,
+    "w": 248,
+    "h": 144,
+    "text": "Take control of your last-mile logistics with advanced features like customizabl"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.pathways-cards-container > div.default-content-wrapper > h2#real-results-real-impact",
+    "x": 32,
+    "y": 2332,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "real results, real impact"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 32,
+    "y": 2451,
+    "w": 72,
+    "h": 72,
+    "text": "front loader",
+    "file": "media_1a24ac802542caff872e70c8126472ff5e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 32,
+    "y": 2546,
+    "w": 296,
+    "h": 28,
+    "text": "100+"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 32,
+    "y": 2582,
+    "w": 296,
+    "h": 24,
+    "text": "Operating Providers"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 32,
+    "y": 2654,
+    "w": 72,
+    "h": 72,
+    "text": "storefront with awning",
+    "file": "media_10bc8f3623034f4dedb4dd5c2eae562548"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 32,
+    "y": 2749,
+    "w": 296,
+    "h": 28,
+    "text": "23K"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 32,
+    "y": 2785,
+    "w": 296,
+    "h": 24,
+    "text": "Stores Served"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 32,
+    "y": 2857,
+    "w": 72,
+    "h": 72,
+    "text": "circle with check mark",
+    "file": "media_180911f5cb17f75447ee85ead1ef303135"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 32,
+    "y": 2952,
+    "w": 296,
+    "h": 28,
+    "text": "99.8%"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 32,
+    "y": 2988,
+    "w": 296,
+    "h": 24,
+    "text": "Order Success Rate"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.pathways-cards-container > div.default-content-wrapper > h2#one-integrated-platform",
+    "x": 32,
+    "y": 3076,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "one integrated platform"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 56,
+    "y": 3212,
+    "w": 72,
+    "h": 72,
+    "text": "line chart with stars",
+    "file": "media_17c954371edb137622e8d0f53222e0e57f"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 3300,
+    "w": 248,
+    "h": 24,
+    "text": "Intelligent Orchestration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 3332,
+    "w": 248,
+    "h": 192,
+    "text": "Create a customized dispatch strategy with dynamic rule-based automation for bat"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 56,
+    "y": 3592,
+    "w": 72,
+    "h": 72,
+    "text": "clipboard with check mark",
+    "file": "media_191a948780a5ae0a748204335a86afb856"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 3680,
+    "w": 248,
+    "h": 24,
+    "text": "Flexible Order Batching"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 3712,
+    "w": 248,
+    "h": 192,
+    "text": "Batching enhances control over dispatch operations, delivery service provider (D"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 56,
+    "y": 3972,
+    "w": 72,
+    "h": 72,
+    "text": "arrow and dashed line circle around a star",
+    "file": "media_105c876d85da16dfd2da1802179cf6bbe0"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 4060,
+    "w": 248,
+    "h": 24,
+    "text": "Pickup Locations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 4092,
+    "w": 248,
+    "h": 168,
+    "text": "Customize pickup locations for DSPs to align with your business needs and operat"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 56,
+    "y": 4328,
+    "w": 72,
+    "h": 72,
+    "text": "circle with check mark",
+    "file": "media_1f5f2d5973a590bb63ffd21875c713b7e3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 4416,
+    "w": 248,
+    "h": 24,
+    "text": "Custom Coverage"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 4448,
+    "w": 248,
+    "h": 144,
+    "text": "Retailers can define precise delivery zones by setting a coverage radius, custom"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 56,
+    "y": 4660,
+    "w": 72,
+    "h": 72,
+    "text": "handshake",
+    "file": "media_143e897a4f6d3b277b1da6267beba87ea0"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 4748,
+    "w": 248,
+    "h": 24,
+    "text": "Delivery Assurance"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 4780,
+    "w": 248,
+    "h": 120,
+    "text": "Verify delivery availability before finalizing an order. Retail teams can assess"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 56,
+    "y": 4968,
+    "w": 72,
+    "h": 72,
+    "text": "computer monitor with lines on the screen",
+    "file": "media_17f489be828f27f2a7add4d07fbba518cc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 5056,
+    "w": 248,
+    "h": 24,
+    "text": "Analytics & Insights"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 5088,
+    "w": 248,
+    "h": 216,
+    "text": "Bulit-in reports provide instant business insights with no setup required. Advan"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.form-container > div.default-content-wrapper > h2#lets-revolutionize-your-deliveries",
+    "x": 32,
+    "y": 5392,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "let's revolutionize your deliveries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.form-grid > div.form-field.form-field-select > select#form-country-territory-4",
+    "x": 34,
+    "y": 5792,
+    "w": 292,
+    "h": 56,
+    "label": "country / territory",
+    "value": "country / territory",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.form-grid > div.form-field.form-field-checkbox > label.form-check",
+    "x": 34,
+    "y": 6008,
+    "w": 292,
+    "h": 39,
+    "text": "This is a business shipment"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form > div.form-actions > button.button.primary",
+    "x": 34,
+    "y": 6181,
+    "w": 125,
+    "h": 44,
+    "text": "submit"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.accordion-container > div.default-content-wrapper > h2#faq",
+    "x": 32,
+    "y": 6296,
+    "w": 51,
+    "h": 52,
+    "level": 2,
+    "text": "faq"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#what-does-delivery-management-mean-for-your-business",
+    "x": 48,
+    "y": 6392,
+    "w": 251,
+    "h": 48,
+    "level": 3,
+    "text": "what does delivery management mean for your business?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 6392,
+    "w": 24,
+    "h": 24,
+    "text": "what does delivery management mean for your business?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 6392,
+    "w": 24,
+    "h": 24,
+    "label": "what does delivery management mean for your business?",
+    "value": "what does delivery management mean for your business?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#why-is-an-e-commerce-delivery-management-solution-important",
+    "x": 48,
+    "y": 6492,
+    "w": 251,
+    "h": 48,
+    "level": 3,
+    "text": "why is an e-commerce delivery management solution important?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 6492,
+    "w": 24,
+    "h": 24,
+    "text": "why is an e-commerce delivery management solution important?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 6492,
+    "w": 24,
+    "h": 24,
+    "label": "why is an e-commerce delivery management solution important?",
+    "value": "why is an e-commerce delivery management solution important?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#can-you-integrate-multiple-carriers-for-custom-shipping-solutions",
+    "x": 48,
+    "y": 6592,
+    "w": 251,
+    "h": 48,
+    "level": 3,
+    "text": "can you integrate multiple carriers for custom shipping solutions?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 6592,
+    "w": 24,
+    "h": 24,
+    "text": "can you integrate multiple carriers for custom shipping solutions?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 6592,
+    "w": 24,
+    "h": 24,
+    "label": "can you integrate multiple carriers for custom shipping solutions?",
+    "value": "can you integrate multiple carriers for custom shipping solu",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-media > picture > img",
+    "x": 32,
+    "y": 6864,
+    "w": 296,
+    "h": 167,
+    "text": "woman and man looking at tablet",
+    "file": "media_1bc346977cdb927db6ed328aa345c1bdf1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-grid > div.teaser-title > h2#interested-in-package-protection",
+    "x": 32,
+    "y": 6756,
+    "w": 296,
+    "h": 72,
+    "level": 2,
+    "text": "interested in package protection?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-grid > div.teaser-desc > p",
+    "x": 32,
+    "y": 7055,
+    "w": 296,
+    "h": 144,
+    "text": "We offer multimodel, multicarrier shipping coverage options, so you can rest eas"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-actions > p.button-wrapper > a.button.primary",
+    "x": 32,
+    "y": 7223,
+    "w": 296,
+    "h": 44,
+    "text": "explore options",
+    "href": "/us/en/shipping-insurance"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 0,
+    "y": 7331,
+    "w": 355,
+    "h": 35,
+    "text": "*Expedited reshipping reimbursement provided up to 20% of the insured value of t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 0,
+    "y": 7379,
+    "w": 358,
+    "h": 155,
+    "text": "Insurance coverage is underwritten by an authorized insurance company and issued"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 0,
+    "y": 7547,
+    "w": 352,
+    "h": 107,
+    "text": "Unless otherwise noted, all statistics used herein are derived from or based on "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 0,
+    "y": 7667,
+    "w": 358,
+    "h": 83,
+    "text": "Statistics in our social media advertising are based on aggregated insurance pro"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 7803,
+    "w": 360,
+    "h": 50,
+    "text": "this site"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 7803,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "this site",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col.ftr-col-wide > div.ftr-heading",
+    "x": 0,
+    "y": 7852,
+    "w": 360,
+    "h": 50,
+    "text": "other ups sites"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col.ftr-col-wide > div.ftr-heading",
+    "x": 0,
+    "y": 7852,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "other ups sites",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 7902,
+    "w": 360,
+    "h": 50,
+    "text": "connect with us"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 7902,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "connect with us",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr > div.ftr-inner > div.ftr-heading.ftr-heading-legal",
+    "x": 0,
+    "y": 7952,
+    "w": 360,
+    "h": 51,
+    "text": "legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr > div.ftr-inner > div.ftr-heading.ftr-heading-legal",
+    "x": 0,
+    "y": 7952,
+    "w": 360,
+    "h": 51,
+    "label": "trigger",
+    "value": "legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-inner > div.ftr-copy > p",
+    "x": 32,
+    "y": 8091,
+    "w": 296,
+    "h": 40,
+    "text": "Copyright ©2023-2026 United Parcel Service of America, Inc. All rights reserved."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 81,
+    "controls": 41,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "smarter, faster, more reliable deliveries",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "transform your last-mile logistics",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 7,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "real results, real impact",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "one integrated platform",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 12,
+    "image": 6
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 12,
+    "textHidden": 0,
+    "image": 6,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "let's revolutionize your deliveries",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 6,
+   "heading": "faq",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "what does delivery management mean for your business?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "why is an e-commerce delivery management solution important?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "can you integrate multiple carriers for custom shipping solutions?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "interested in package protection?",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"submit\" served in band \"let's revolutionize your deliveries\", no origin link or button",
+   "band": 5,
+   "n": 1,
+   "text": "submit"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 32,
+    "y": 9,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 41,
+    "y": 9,
+    "w": 23,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 9,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 39,
+    "w": 285,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 60,
+    "w": 65,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 86,
+    "w": 138,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 237,
+    "w": 58,
+    "h": 16
+   },
+   {
+    "x": 107,
+    "y": 237,
+    "w": 137,
+    "h": 16
+   },
+   {
+    "x": 261,
+    "y": 237,
+    "w": 49,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 302,
+    "w": 264,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 338,
+    "w": 226,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 407,
+    "w": 295,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 431,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 455,
+    "w": 177,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 740,
+    "w": 262,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 776,
+    "w": 173,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 845,
+    "w": 247,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 869,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 893,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 917,
+    "w": 265,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1163,
+    "w": 218,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1195,
+    "w": 169,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1219,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1243,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1267,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1291,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1315,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1339,
+    "w": 71,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1604,
+    "w": 160,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1636,
+    "w": 177,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1660,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1684,
+    "w": 239,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1708,
+    "w": 231,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1732,
+    "w": 171,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1756,
+    "w": 206,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1780,
+    "w": 188,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1804,
+    "w": 221,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2070,
+    "w": 229,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2102,
+    "w": 206,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2126,
+    "w": 229,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2150,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2174,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2198,
+    "w": 180,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2222,
+    "w": 149,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2333,
+    "w": 220,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 2368,
+    "w": 87,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 2548,
+    "w": 45,
+    "h": 24
+   },
+   {
+    "x": 32,
+    "y": 2584,
+    "w": 140,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2751,
+    "w": 35,
+    "h": 24
+   },
+   {
+    "x": 32,
+    "y": 2787,
+    "w": 98,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2954,
+    "w": 54,
+    "h": 24
+   },
+   {
+    "x": 32,
+    "y": 2990,
+    "w": 140,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3077,
+    "w": 183,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 3113,
+    "w": 109,
+    "h": 33
+   },
+   {
+    "x": 56,
+    "y": 3302,
+    "w": 173,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3334,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3358,
+    "w": 234,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3382,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3406,
+    "w": 184,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3430,
+    "w": 215,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3454,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3478,
+    "w": 220,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3502,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3682,
+    "w": 166,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3714,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3738,
+    "w": 203,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3762,
+    "w": 229,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3786,
+    "w": 221,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3810,
+    "w": 202,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3834,
+    "w": 205,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3858,
+    "w": 196,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3882,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4062,
+    "w": 123,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4094,
+    "w": 221,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4118,
+    "w": 231,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4142,
+    "w": 195,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4166,
+    "w": 178,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4190,
+    "w": 192,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4214,
+    "w": 181,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4238,
+    "w": 147,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4418,
+    "w": 127,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4450,
+    "w": 196,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4474,
+    "w": 187,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4498,
+    "w": 207,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4522,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4546,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4570,
+    "w": 239,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4750,
+    "w": 137,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4782,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4806,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4830,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4854,
+    "w": 230,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4878,
+    "w": 156,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5058,
+    "w": 141,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5090,
+    "w": 213,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5114,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5138,
+    "w": 197,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5162,
+    "w": 186,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5186,
+    "w": 201,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5210,
+    "w": 242,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5234,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5258,
+    "w": 239,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5282,
+    "w": 199,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5393,
+    "w": 294,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 5429,
+    "w": 121,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 6300,
+    "w": 51,
+    "h": 33
+   },
+   {
+    "x": 48,
+    "y": 6396,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 6420,
+    "w": 174,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 6496,
+    "w": 220,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 6520,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 6596,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 6620,
+    "w": 219,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 6759,
+    "w": 269,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 6795,
+    "w": 142,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 7059,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 7083,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 7107,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 7131,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 7155,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 7179,
+    "w": 125,
+    "h": 19
+   },
+   {
+    "x": 111,
+    "y": 7237,
+    "w": 113,
+    "h": 19
+   },
+   {
+    "x": 0,
+    "y": 7333,
+    "w": 355,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7357,
+    "w": 47,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7381,
+    "w": 339,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7405,
+    "w": 344,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7429,
+    "w": 350,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7453,
+    "w": 356,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7477,
+    "w": 358,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7501,
+    "w": 344,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7525,
+    "w": 248,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7549,
+    "w": 346,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7573,
+    "w": 327,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7597,
+    "w": 352,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7621,
+    "w": 348,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7645,
+    "w": 118,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7669,
+    "w": 338,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7693,
+    "w": 358,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7717,
+    "w": 354,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7741,
+    "w": 42,
+    "h": 11
+   },
+   {
+    "x": 32,
+    "y": 7820,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 7870,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 7919,
+    "w": 116,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 7969,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 8095,
+    "w": 293,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 8115,
+    "w": 200,
+    "h": 16
+   }
+  ],
+  "eds": [
+   {
+    "x": 32,
+    "y": 9,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 41,
+    "y": 9,
+    "w": 23,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 9,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 39,
+    "w": 285,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 60,
+    "w": 65,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 86,
+    "w": 138,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 237,
+    "w": 58,
+    "h": 16
+   },
+   {
+    "x": 107,
+    "y": 237,
+    "w": 137,
+    "h": 16
+   },
+   {
+    "x": 261,
+    "y": 237,
+    "w": 49,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 302,
+    "w": 264,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 338,
+    "w": 226,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 407,
+    "w": 295,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 431,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 455,
+    "w": 173,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 740,
+    "w": 262,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 776,
+    "w": 173,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 845,
+    "w": 247,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 869,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 893,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 917,
+    "w": 265,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1163,
+    "w": 218,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1195,
+    "w": 169,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1219,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1243,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1267,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1291,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1315,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1339,
+    "w": 71,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1604,
+    "w": 160,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1636,
+    "w": 177,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1660,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1684,
+    "w": 239,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1708,
+    "w": 231,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1732,
+    "w": 171,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1756,
+    "w": 206,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1780,
+    "w": 188,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1804,
+    "w": 221,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2070,
+    "w": 229,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2102,
+    "w": 206,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2126,
+    "w": 229,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2150,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2174,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2198,
+    "w": 180,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2222,
+    "w": 149,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2333,
+    "w": 220,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 2368,
+    "w": 87,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 2548,
+    "w": 45,
+    "h": 24
+   },
+   {
+    "x": 32,
+    "y": 2584,
+    "w": 140,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2751,
+    "w": 35,
+    "h": 24
+   },
+   {
+    "x": 32,
+    "y": 2787,
+    "w": 98,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2954,
+    "w": 54,
+    "h": 24
+   },
+   {
+    "x": 32,
+    "y": 2990,
+    "w": 140,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3077,
+    "w": 183,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 3113,
+    "w": 109,
+    "h": 33
+   },
+   {
+    "x": 56,
+    "y": 3302,
+    "w": 173,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3334,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3358,
+    "w": 234,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3382,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3406,
+    "w": 184,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3430,
+    "w": 215,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3454,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3478,
+    "w": 220,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3502,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3682,
+    "w": 166,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3714,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3738,
+    "w": 203,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3762,
+    "w": 229,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3786,
+    "w": 221,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3810,
+    "w": 202,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3834,
+    "w": 205,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3858,
+    "w": 196,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 3882,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4062,
+    "w": 123,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4094,
+    "w": 221,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4118,
+    "w": 231,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4142,
+    "w": 195,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4166,
+    "w": 178,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4190,
+    "w": 192,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4214,
+    "w": 181,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4238,
+    "w": 147,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4418,
+    "w": 127,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4450,
+    "w": 196,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4474,
+    "w": 187,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4498,
+    "w": 207,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4522,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4546,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4570,
+    "w": 239,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4750,
+    "w": 137,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4782,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4806,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4830,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4854,
+    "w": 230,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4878,
+    "w": 156,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5058,
+    "w": 141,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5090,
+    "w": 213,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5114,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5138,
+    "w": 197,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5162,
+    "w": 186,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5186,
+    "w": 201,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5210,
+    "w": 242,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5234,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5258,
+    "w": 239,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 5282,
+    "w": 199,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5393,
+    "w": 294,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 5429,
+    "w": 121,
+    "h": 33
+   },
+   {
+    "x": 72,
+    "y": 6014,
+    "w": 198,
+    "h": 19
+   },
+   {
+    "x": 58,
+    "y": 6193,
+    "w": 51,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 6297,
+    "w": 51,
+    "h": 33
+   },
+   {
+    "x": 48,
+    "y": 6394,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 6418,
+    "w": 174,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 6494,
+    "w": 220,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 6518,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 6594,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 6618,
+    "w": 219,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 6757,
+    "w": 269,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 6793,
+    "w": 142,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 7057,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 7081,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 7105,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 7129,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 7153,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 7177,
+    "w": 121,
+    "h": 19
+   },
+   {
+    "x": 111,
+    "y": 7235,
+    "w": 113,
+    "h": 19
+   },
+   {
+    "x": 0,
+    "y": 7331,
+    "w": 355,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7355,
+    "w": 47,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7379,
+    "w": 339,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7403,
+    "w": 344,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7427,
+    "w": 350,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7451,
+    "w": 356,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7475,
+    "w": 358,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7499,
+    "w": 344,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7523,
+    "w": 238,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7547,
+    "w": 346,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7571,
+    "w": 327,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7595,
+    "w": 352,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7619,
+    "w": 348,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7643,
+    "w": 118,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7667,
+    "w": 338,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7691,
+    "w": 358,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7715,
+    "w": 354,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 7739,
+    "w": 42,
+    "h": 11
+   },
+   {
+    "x": 32,
+    "y": 7818,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 7867,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 7917,
+    "w": 116,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 7967,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 8093,
+    "w": 293,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 8113,
+    "w": 200,
+    "h": 16
+   }
+  ]
+ }
+}

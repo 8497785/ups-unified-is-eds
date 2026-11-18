@@ -1,0 +1,980 @@
+{
+  "slug": "it-en-resources-html",
+  "type": "listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "marketing-hero",
+    "search",
+    "story-card-carousel",
+    "promo-banner"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "container",
+    "container",
+    "container",
+    "div",
+    "div",
+    "div",
+    "div",
+    "p",
+    "container",
+    "div",
+    "div",
+    "div",
+    "div",
+    "p",
+    "container"
+  ],
+  "canonShas": {
+    "header": "e0cc8fc1523a",
+    "footer": "36c0e02d3e04",
+    "css": "481e893f2500"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Tips &amp; Insights For Your Business | InsureShield",
+    "description": "Find the resources you need, including relevant research, articles, information about claims, shipping tips for your business, and FAQs,all in one place.",
+    "canonical": null,
+    "lang": "en-IT"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Tips &amp; Insights For Your Business | InsureShield",
+    "description": "Find the resources you need, including relevant research, articles, information about claims, shipping tips for your business, and FAQs,all in one place.",
+    "url": "https://www.insureshield.com/it/en/resources.html"
+  },
+  "migratedAt": "2026-11-18T02:01:11Z",
+  "designMdSha": "3a53c3d58678",
+  "designJsonSha": "d5b1e78b9da2",
+  "sourceCurrentSha": "cb0339f796ca",
+  "sourceProposedSha": "4597b2dacf4d",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance vs gb-en-resources-html 1440: exit 2 — deltas budgeted as reused blocks (story-card-grid, secondary-promo, pathways-cards), no per-page fork",
+    "delivery-lint": "listing cluster chain 2026-11-18",
+    "media-reconcile": "listing cluster chain 2026-11-18",
+    "content-fidelity": "listing cluster chain 2026-11-18",
+    "pixel-gate-1440": "gate-all --only, preview host, 2026-11-18",
+    "pixel-gate-360": "gate-all --only, preview host, 2026-11-18"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/gb/en/about/contact-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/global.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/cargo-insurance/get-a-quote.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/cargo-insurance/connectivity-tools.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/help-and-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/about/product-availability.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/about/contact-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Made-PC.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/JCR-Distributors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Data-Vision.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/aftership-customer-story.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Proof.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/BikeFlights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/introduction-to-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/how-to-prevent-return-fraud.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-is-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-are-incoterms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/photos-to-support-claim.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/ocean-limits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/help-and-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/en/site-search",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Made-PC.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/JCR-Distributors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Data-Vision.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/aftership-customer-story.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Proof.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/BikeFlights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/introduction-to-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/how-to-prevent-return-fraud.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-is-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-are-incoterms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/photos-to-support-claim.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/ocean-limits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/help-and-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/en/resources/customer-stories/made-pc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Made-PC.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/JCR-Distributors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Data-Vision.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/aftership-customer-story.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Proof.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/BikeFlights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/introduction-to-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/how-to-prevent-return-fraud.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-is-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-are-incoterms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/photos-to-support-claim.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/ocean-limits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/help-and-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/en/resources/customer-stories/jcr-distributors",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Made-PC.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/JCR-Distributors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Data-Vision.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/aftership-customer-story.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Proof.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/BikeFlights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/introduction-to-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/how-to-prevent-return-fraud.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-is-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-are-incoterms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/photos-to-support-claim.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/ocean-limits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/help-and-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/en/resources/customer-stories/data-vision",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Made-PC.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/JCR-Distributors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Data-Vision.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/aftership-customer-story.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Proof.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/BikeFlights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/introduction-to-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/how-to-prevent-return-fraud.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-is-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-are-incoterms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/photos-to-support-claim.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/ocean-limits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/help-and-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/en/resources/customer-stories/aftership-customer-story",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Made-PC.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/JCR-Distributors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Data-Vision.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/aftership-customer-story.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Proof.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/BikeFlights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/introduction-to-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/how-to-prevent-return-fraud.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-is-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-are-incoterms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/photos-to-support-claim.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/ocean-limits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/help-and-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/en/resources/customer-stories/proof",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Made-PC.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/JCR-Distributors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Data-Vision.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/aftership-customer-story.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Proof.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/BikeFlights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/introduction-to-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/how-to-prevent-return-fraud.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-is-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-are-incoterms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/photos-to-support-claim.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/ocean-limits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/help-and-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/en/resources/customer-stories/zenith-aviation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/en/resources/customer-stories",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Made-PC.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/JCR-Distributors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Data-Vision.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/aftership-customer-story.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Proof.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/BikeFlights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/introduction-to-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/how-to-prevent-return-fraud.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-is-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-are-incoterms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/photos-to-support-claim.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/ocean-limits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/help-and-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/en/resources/insights/what-is-shipping-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Made-PC.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/JCR-Distributors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Data-Vision.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/aftership-customer-story.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Proof.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/BikeFlights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/introduction-to-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/how-to-prevent-return-fraud.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-is-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-are-incoterms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/photos-to-support-claim.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/ocean-limits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/help-and-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/en/resources/insights/cargo-insurance-cost",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Made-PC.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/JCR-Distributors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Data-Vision.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/aftership-customer-story.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Proof.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/BikeFlights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/introduction-to-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/how-to-prevent-return-fraud.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-is-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-are-incoterms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/photos-to-support-claim.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/ocean-limits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/help-and-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/en/resources/insights/claims-time-saving-tips",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Made-PC.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/JCR-Distributors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Data-Vision.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/aftership-customer-story.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Proof.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/BikeFlights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/introduction-to-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/how-to-prevent-return-fraud.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-is-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-are-incoterms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/photos-to-support-claim.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/ocean-limits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/help-and-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/en/resources/insights/what-are-incoterms",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Made-PC.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/JCR-Distributors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Data-Vision.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/aftership-customer-story.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Proof.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/BikeFlights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/introduction-to-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/how-to-prevent-return-fraud.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-is-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-are-incoterms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/photos-to-support-claim.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/ocean-limits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/help-and-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/en/resources/insights/ocean-limits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Made-PC.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/JCR-Distributors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Data-Vision.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/aftership-customer-story.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Proof.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/BikeFlights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/introduction-to-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/how-to-prevent-return-fraud.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-is-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-are-incoterms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/photos-to-support-claim.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/ocean-limits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/help-and-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/en/resources/insights/inventory-protection",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/en/resources/insights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/en/resources/help-and-support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/legal/technology-agreement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/legal/product-disclosure.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/legal/complaints.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/legal/privacy-notice.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "it/en/resources.html",
+  "outputPathDefault": null,
+  "sidecar": "it/en/resources._meta.json",
+  "driverVersion": "1"
+}

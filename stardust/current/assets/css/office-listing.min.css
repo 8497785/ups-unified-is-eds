@@ -1,0 +1,168 @@
+@media (min-width: 992px) {
+  .office-list.container {
+    padding: 0 13.6rem;
+  }
+}
+.officeListing__dropdown {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin: 5.1rem 0 6.4rem;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .officeListing__dropdown {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin: 4.2rem 0 5.6rem;
+  }
+}
+.officeListing__dropdownText {
+  line-height: 1.19;
+}
+@media (min-width: 768px) {
+  .officeListing__dropdownText {
+    display: inline-block;
+  }
+}
+.officeListing__dropdownlist {
+  cursor: pointer;
+  margin-left: 2.5rem;
+  position: relative;
+  width: 18.2rem;
+}
+@media (min-width: 768px) {
+  .officeListing__dropdownlist {
+    margin-left: 2.4rem;
+    width: 17.6rem;
+  }
+}
+.officeListing__dropdownlist__text {
+  border-radius: 0.4rem;
+  display: inline-block;
+  padding: 1.6rem 3.6rem 1.6rem 1.2rem;
+  position: relative;
+  width: inherit;
+}
+.officeListing__dropdownlist__text span {
+  margin-left: 1.2rem;
+  position: absolute;
+  right: 1.2rem;
+}
+.officeListing__dropdownlist.expanded .upspr-icon-chevrondown {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.officeListing__dropdownlist.expanded ul {
+  display: block;
+}
+.officeListing__dropdownlist ul {
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.14),
+    0 4px 12px -3px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.14), 0 4px 12px -3px rgba(0, 0, 0, 0.05);
+  display: none;
+  left: 0;
+  letter-spacing: 0;
+  padding: 1.6rem 1.2rem;
+  position: absolute;
+  text-transform: none;
+  width: inherit;
+  z-index: 1;
+}
+.officeListing__dropdownlist ul li {
+  margin-bottom: 1.6rem;
+}
+.officeListing__dropdownlist ul li:last-child {
+  margin-bottom: 0;
+}
+.officeListing .cmp-text {
+  margin-bottom: 2.4rem;
+  padding-bottom: 2.4rem;
+  text-align: left;
+}
+.officeListing .col-lg-4.col-12 p {
+  margin-bottom: 0.8rem;
+}
+.officeListing .col-lg-4.col-12 .cmp-text {
+  border-bottom: 0;
+  margin-bottom: 6.5rem;
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .officeListing .col-lg-4.col-12 .cmp-text {
+    margin-bottom: 0;
+  }
+}
+.officeListing .col-lg-4.col-12 h4 {
+  margin-bottom: 2.6rem;
+}
+.officeListing h4 {
+  margin-bottom: 4.9rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+.officeListing h4:after {
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+  position: absolute;
+  width: 7.2rem;
+}
+.officeListing h6 {
+  margin-bottom: 0.8rem;
+}
+.officeListing h5 {
+  margin-bottom: 1.6rem;
+}
+.officeListing .phone {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 1.6rem 0 0 1.6rem;
+}
+.officeListing a {
+  text-decoration: underline;
+}
+.officeListing span.upspr-icon-email,
+.officeListing span.upspr-icon-globe,
+.officeListing span.upspr-icon-phone {
+  display: inline-block;
+  vertical-align: middle;
+}
+.officeListing span.upspr-icon-email:before,
+.officeListing span.upspr-icon-globe:before,
+.officeListing span.upspr-icon-phone:before {
+  font-size: 2.4rem;
+}
+.officeListing .email,
+.officeListing .globe {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 1.6rem 0 0 1.6rem;
+  width: 87%;
+}
+@media (min-width: 768px) {
+  .officeListing .email,
+  .officeListing .globe {
+    width: 90%;
+  }
+}
+.officeListing a[href^="mailto:"] {
+  margin-left: 4rem;
+}
+.officeListing a[href^="mailto:"] span.upspr-icon-email {
+  margin-left: 0;
+}
+.officeListing .columncontrol {
+  padding: 0;
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "de-en-alerts-html",
+  "type": "shell",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [],
+  "widgets": [],
+  "slotsFilled": [
+    "empty-grid"
+  ],
+  "canonShas": {
+    "header": "a45ee05ab3bf",
+    "footer": "79dfc8cc50c3",
+    "css": "481e893f2500"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Alerts | InsureShield",
+    "description": "Alerts",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Alerts | InsureShield",
+    "description": "Alerts",
+    "url": "https://www.insureshield.com/de/en/alerts.html"
+  },
+  "migratedAt": "2026-11-18T03:33:09Z",
+  "designMdSha": "3a53c3d58678",
+  "designJsonSha": "d5b1e78b9da2",
+  "sourceCurrentSha": "7b17a4dd6fef",
+  "sourceProposedSha": "21047788e9ac",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 3,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/content/insureshield/us/en/press-releases",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/es/home.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/about/newsroom.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/resources.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "de/en/alerts.html",
+  "outputPathDefault": null,
+  "sidecar": "de/en/alerts._meta.json",
+  "driverVersion": "1"
+}

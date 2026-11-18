@@ -1,0 +1,108 @@
+{
+  "slug": "us-en-securecommerce-html",
+  "type": "home",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "homepage-hero",
+    "pathways-cards",
+    "stats",
+    "logo-strip"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "hphero",
+    "container",
+    "container",
+    "band",
+    "container",
+    "container",
+    "container",
+    "logos",
+    "band"
+  ],
+  "canonShas": {
+    "header": "1dc6bd1db99c",
+    "footer": "79dfc8cc50c3",
+    "css": "481e893f2500"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "UPS® Secure Commerce | InsureShield",
+    "description": "Manage risk across the entire supply chain with data-driven intelligence, proactive risk management, and decades of UPS expertise.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "UPS® Secure Commerce | InsureShield",
+    "description": "Manage risk across the entire supply chain with data-driven intelligence, proactive risk management, and decades of UPS expertise.",
+    "url": "https://www.insureshield.com/us/en/securecommerce.html"
+  },
+  "migratedAt": "2026-11-18T01:22:15Z",
+  "designMdSha": "3a53c3d58678",
+  "designJsonSha": "d5b1e78b9da2",
+  "sourceCurrentSha": "4c4ccfe8b3f8",
+  "sourceProposedSha": "5dbcc9a53408",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/content/insureshield/us/en/press-releases",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/es/home.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/resources/whitepapers-and-guides.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/resources/help-and-support.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/about/announcements.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/about/newsroom.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/about/our-locations.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/legal/technology-agreement.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/legal/product-disclosure.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "us/en/securecommerce.html",
+  "outputPathDefault": null,
+  "sidecar": "us/en/securecommerce._meta.json",
+  "driverVersion": "1"
+}

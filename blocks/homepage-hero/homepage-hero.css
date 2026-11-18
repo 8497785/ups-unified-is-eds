@@ -1,0 +1,279 @@
+/* homepage-hero — lifted from the de-en-home-html prototype (.hph) + index (.hphero) values */
+main > .section > .homepage-hero-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.homepage-hero {
+  position: relative;
+  margin-bottom: 4px;
+}
+
+.homepage-hero-media {
+  position: relative;
+}
+
+.homepage-hero-media img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: 144px;
+  margin: 0;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.homepage-hero-media::before,
+.homepage-hero-media::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.5rem;
+  width: 100%;
+  height: auto;
+  padding-top: 10%;
+  padding-bottom: 0;
+  margin-bottom: -5%;
+  background: transparent url("./arc-white.svg") 0 100% / 100% no-repeat;
+  transform: rotate(180deg);
+}
+
+.homepage-hero-wrap {
+  position: relative;
+  top: -6rem;
+  width: 100%;
+  max-width: var(--container-max);
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.homepage-hero-card {
+  position: relative;
+  left: 50%;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.4rem;
+  padding: 2rem 1.6rem 3.2rem;
+  text-align: left;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 14%), 0 4px 12px -3px rgb(0 0 0 / 5%);
+  transform: translateX(-50%);
+}
+
+.homepage-hero-eyebrow {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.homepage-hero-title {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+
+.homepage-hero-title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+.homepage-hero-title :is(h1, h2, h3) {
+  margin: 0;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.homepage-hero-title :is(h2, h3) {
+  font-size: 2.8rem;
+  line-height: 1.28;
+}
+
+.homepage-hero-title:has(h1) h2 {
+  font-size: 3.2rem;
+  line-height: 1.25;
+}
+
+/* a title split over several headings (de/de: h1 + continuation h2) keeps the source gap between
+   them (lifted: theme-insure-shield .ups-teaser__homepagehero .cmp-teaser__title h1 { margin-bottom:
+   1.2rem }, :last-child 0) */
+.homepage-hero-title > :is(h1, h2, h3):not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+
+.homepage-hero-desc {
+  margin-bottom: 2.4rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.homepage-hero-actions {
+  margin-top: -1.6rem;
+}
+
+/* note after the CTAs (source cmp-teaser__additionalText p: 14/19.88 #5f5753, 24px under the
+   action row — measured on /us/en/about at 360 and 1440) */
+.homepage-hero-actions:has(+ .homepage-hero-note) {
+  margin-bottom: 2.4rem;
+}
+
+.homepage-hero-note p {
+  margin: 0;
+  color: var(--is-grey-dark);
+  font-size: 1.4rem;
+  line-height: 1.42;
+}
+
+.homepage-hero-actions a.button:any-link {
+  margin-top: 1.6rem;
+}
+
+.homepage-hero-actions .upspr-icon-chevronright {
+  margin-left: 0.2rem;
+}
+
+@media (width >= 768px) {
+  .homepage-hero-media img {
+    min-height: 336px;
+    aspect-ratio: auto;
+  }
+
+  .homepage-hero-media::after {
+    background-image: url("./arc-shade.svg");
+  }
+
+  .homepage-hero-card {
+    padding: 3.2rem 4.3rem 4rem;
+    text-align: center;
+  }
+
+  .homepage-hero-title {
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+
+  .homepage-hero-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .homepage-hero-title :is(h1, h2, h3) {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .homepage-hero-title :is(h2, h3) {
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+
+  .homepage-hero-title:has(h1) h2 {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .homepage-hero-actions p.button-wrapper {
+    display: inline-block;
+  }
+
+  .homepage-hero-actions p.button-wrapper + p.button-wrapper {
+    margin-left: 12px;
+  }
+}
+
+@media (width >= 992px) {
+  .homepage-hero {
+    margin-bottom: 64px;
+  }
+
+  .homepage-hero-media img {
+    max-height: 640px;
+  }
+
+  .homepage-hero-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .homepage-hero-card {
+    position: relative;
+    top: 50%;
+    left: 0;
+    max-width: 545px;
+    margin-top: 0;
+    padding: 4.8rem;
+    text-align: left;
+    transform: translateY(-50%);
+  }
+
+  .homepage-hero.content-right .homepage-hero-card {
+    margin-left: auto;
+  }
+
+  .homepage-hero-title {
+    margin-bottom: 2.4rem;
+    text-align: left;
+  }
+
+  .homepage-hero-title::after {
+    left: 0;
+    transform: none;
+  }
+
+  .homepage-hero-title :is(h1, h2, h3) {
+    font-size: 4.8rem;
+    line-height: 1.17;
+  }
+
+  .homepage-hero-title :is(h2, h3) {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .homepage-hero-title:has(h1) h2 {
+    font-size: 4.8rem;
+    line-height: 1.17;
+  }
+
+  .homepage-hero-desc {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}
+
+/* home template (index, us/en/securecommerce): the source hero GIF is an inline image (baseline
+   gap under it) at its natural 1440:624 ratio, and the card has no top margin */
+body.home .homepage-hero-media img {
+  display: inline;
+  vertical-align: baseline;
+  aspect-ratio: auto;
+}
+
+body.home .homepage-hero-card {
+  margin-top: 0;
+}
+
+/* variant `ratio-16x9`: the source image keeps the 16:9 box at every width (capped at 640px
+   from 992), cropping a wider rendition (enhanced-declared-value: 1440x475 art in a 640px hero) */
+@media (width >= 768px) {
+  .homepage-hero.ratio-16x9 .homepage-hero-media img {
+    aspect-ratio: 16 / 9;
+  }
+}
+
+/* variant `ratio-natural`: the source serves one 1440x624 rendition at every width, so below 768
+   the image keeps its natural ratio instead of the 16:9 box (/us/en/partners/3pl-partners) */
+.homepage-hero.ratio-natural .homepage-hero-media img {
+  aspect-ratio: auto;
+}

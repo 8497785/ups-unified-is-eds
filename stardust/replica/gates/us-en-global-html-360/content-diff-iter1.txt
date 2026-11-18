@@ -1,0 +1,24 @@
+[live-session] waiting to pace live navigations to www.insureshield.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 360px (profile "generic", roots: #container-713eed9db4, header, footer)
+root "#container-713eed9db4"
+  source: 13 text nodes — 1 headings, 0 eyebrows, 12 CTAs, 0 body; 0 img
+  build: 13 text nodes — 1 headings, 0 eyebrows, 10 CTAs, 2 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 3 / build 3
+root "header"
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 1 img
+  build: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "footer"
+  source: 33 text nodes — 1 headings, 0 eyebrows, 24 CTAs, 8 body; 5 img
+  build: 33 text nodes — 1 headings, 0 eyebrows, 24 CTAs, 8 body; 5 img
+  editable texts (outermost h*/p/ul/ol): source 12 / build 12
+  attributes (placeholder/aria-label/title): source 2 / build 3; icons: source 19 / build 19
+
+Findings: 3 (2 structural 🔴)
+Tiers: looks-same 🔴 2 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 1
+  🔴 ROLE SWAP [#container-713eed9db4]: "Europe" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP [#container-713eed9db4]: "North America" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🟡 EXTRA ARIA-LABEL [footer]: build <nav> aria-label="Legal" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

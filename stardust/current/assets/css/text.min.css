@@ -1,0 +1,136 @@
+.cmp-text table {
+  border: var(--tableBorder) solid #bfb8af;
+  border-collapse: inherit;
+  border-spacing: var(--cellSpacing);
+}
+.cmp-text table td,
+.cmp-text table th {
+  border: 1px solid #bfb8af;
+  padding: var(--cellPadding);
+}
+.text--rte table tbody tr:hover td {
+  -webkit-filter: brightness(0.98);
+  filter: brightness(0.98);
+}
+.text--rte.table-header-col-brown table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.text--rte.table-header-col-brown table tbody > tr:first-child > th,
+.text--rte.table-header-col-brown table thead th {
+  background-color: #351c15;
+  border-color: #dfdbd7;
+  color: #fff;
+  font-weight: 500;
+}
+.text--rte.table-header-col-gray table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.text--rte.table-header-col-gray table tbody > tr:first-child > th,
+.text--rte.table-header-col-gray table thead th {
+  background-color: #5f5753;
+  border-color: #dfdbd7;
+  color: #fff;
+  font-weight: 500;
+}
+.text--rte.table-header-col-blue table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.text--rte.table-header-col-blue table tbody > tr:first-child > th,
+.text--rte.table-header-col-blue table thead th {
+  background-color: #064d93;
+  border-color: #dfdbd7;
+  color: #fff;
+  font-weight: 500;
+}
+.text--rte.table-header-col-teal table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.text--rte.table-header-col-teal table tbody > tr:first-child > th,
+.text--rte.table-header-col-teal table thead th {
+  background-color: #075a5a;
+  border-color: #dfdbd7;
+  color: #fff;
+  font-weight: 500;
+}
+.text--rte.table-header-row-gray table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.text--rte.table-header-row-gray table tbody th {
+  background-color: #dfdbd7;
+  border-color: #f2f1ef;
+  color: #000;
+  font-weight: 600;
+}
+.text--rte.table-header-row-blue table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.text--rte.table-header-row-blue table tbody th {
+  background-color: #b4d0eb;
+  border-color: #f2f1ef;
+  color: #000;
+  font-weight: 600;
+}
+.text--rte.table-header-row-teal table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.text--rte.table-header-row-teal table tbody th {
+  background-color: #b6d9d9;
+  border-color: #f2f1ef;
+  color: #000;
+  font-weight: 600;
+}
+.text--rte.table-zebra-row table {
+  border-color: #f2f1ef;
+}
+.text--rte.table-zebra-row table tbody tr:nth-child(even) td,
+.text--rte.table-zebra-row.table-borders-all table tbody tr:nth-child(even) th,
+.text--rte.table-zebra-row.table-borders-bottom
+  table
+  tbody
+  tr:nth-child(even)
+  th {
+  background-color: #f2f1ef;
+}
+.text--rte.table-zebra-columns table {
+  border-color: #f2f1ef;
+}
+.text--rte.table-zebra-columns table tbody tr td:nth-child(even),
+.text--rte.table-zebra-columns.table-borders-all
+  table
+  tbody
+  tr
+  th:nth-child(even),
+.text--rte.table-zebra-columns.table-borders-bottom
+  table
+  tbody
+  tr
+  th:nth-child(even) {
+  background-color: #f2f1ef;
+}
+.text--rte.table-borders-all table {
+  border-collapse: collapse;
+  border-color: #8c857e;
+  width: 100%;
+}
+.text--rte.table-borders-all table td,
+.text--rte.table-borders-all table th {
+  border: 1px solid #8c857e;
+}
+.text--rte.table-borders-bottom table {
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+.text--rte.table-borders-bottom table td,
+.text--rte.table-borders-bottom table th {
+  border: none;
+  border-bottom: 1px solid #8c857e;
+}

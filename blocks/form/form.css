@@ -1,0 +1,718 @@
+/* form — lifted: AEM adaptive-form frame geometry (quote / calculator / contact captures) */
+
+/* section head authored as default content before the block (source: .title centred) */
+.form-container .default-content-wrapper {
+  margin-bottom: 24px;
+}
+
+.form-container .default-content-wrapper :is(h2, h3) {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 16px;
+  font-size: 2.8rem;
+  line-height: 1.28;
+}
+
+.form-container .default-content-wrapper :is(h2, h3)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+.form-container .default-content-wrapper p {
+  margin-top: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.form {
+  margin-bottom: 64px;
+}
+
+/* empty mounts keep the captured frame geometry */
+.form.quote .form-mount:empty {
+  height: 24px;
+}
+
+.form.calculator .form-mount:empty {
+  height: 157px;
+}
+
+.form .form-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px 12px;
+}
+
+.form .form-radio input {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  border: 1px solid var(--is-grey-mid);
+  border-radius: 50%;
+  background: #fff;
+  appearance: none;
+}
+
+.form .form-radio input:checked {
+  border: 6px solid var(--is-teal);
+}
+
+.form .form-field input:not([type="radio"], [type="checkbox"]),
+.form .form-field select,
+.form .form-field textarea {
+  display: block;
+  width: 100%;
+  height: 56px;
+  margin: 0;
+  padding: 0 11px;
+  border: 1px solid var(--is-grey-dark);
+  border-radius: 0;
+  background: #fff;
+  color: var(--is-text);
+}
+
+.form .form-field textarea {
+  height: 120px;
+  padding: 11px;
+}
+
+.form .form-field ::placeholder {
+  color: var(--is-grey-dark);
+  opacity: 1;
+}
+
+.form .form-field fieldset {
+  margin: 4px 0 0;
+  padding: 0 0 0 5px;
+  border: 0;
+}
+
+.form .form-field legend {
+  margin-bottom: 8px;
+}
+
+.form .form-radio,
+.form .form-check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 25px;
+}
+
+.form .form-actions {
+  padding-top: 24px;
+}
+
+.form .form-actions .button {
+  height: 44px;
+  min-width: 85px;
+  border: 0;
+}
+
+.form .form-status:not(:empty) {
+  margin-top: 16px;
+  color: var(--is-grey-dark);
+}
+
+@media (width >= 768px) {
+  .form-container .default-content-wrapper {
+    text-align: center;
+  }
+
+  .form-container .default-content-wrapper :is(h2, h3)::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .form.contact .form-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  .form.contact .form-field-radio,
+  .form.contact .form-field-textarea {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (width >= 992px) {
+  .form-container .default-content-wrapper {
+    margin-bottom: 48px;
+  }
+
+  .form-container .default-content-wrapper :is(h2, h3) {
+    max-width: 67%;
+    padding-bottom: 20px;
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .form-container .default-content-wrapper p {
+    margin: 20px 16.5% 0;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}
+
+/* quote frames that render on the source (native field rows authored): the source frame is an
+   800px two-column field grid; the reCAPTCHA box (78px, 26px above and below) sits over the
+   submit button in the right half */
+.form.quote form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form.quote .form-actions {
+  padding-top: 24px;
+}
+
+@media (width >= 768px) {
+  .form.quote .form-actions {
+    padding: 130px 0 0 50%;
+  }
+}
+
+/* ---------- variant `contact` (not `quote`): the AEM Forms contact-us frame geometry ----------
+   State | Zip sharing one half column, visually-hidden radio legend + fixed 25px radio rows, the
+   reCAPTCHA slot (302x76) and Send offset 506px, frame min-height 522 (>= 768) / 798.28 (< 768);
+   variants `support`, `update`, `preference`, `standalone` (lifted: contact-us form prototype) */
+
+/* contact frame: 13px top / 33px sides < 768, a 799px column from 768 */
+.form.contact:not(.quote) .form-mount {
+  min-height: 798.28px;
+  padding: 13px 33px 0;
+}
+
+.form.contact:not(.quote) .form-field-text:has(input[id^="form-zip"]) {
+  margin-top: 2px;
+}
+
+.form.contact:not(.quote) .form-field fieldset {
+  padding-left: 3px;
+}
+
+/* radios keep the frame's fixed 25px rows (a wrapped label overflows, as on the source) */
+.form.contact:not(.quote) .form-radio {
+  height: 25px;
+  min-height: 0;
+}
+
+.form.contact:not(.quote) .form-field legend {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.form.contact:not(.quote) .form-actions {
+  padding-top: 22px;
+}
+
+/* reCAPTCHA slot on the source (third-party widget; geometry only: 302x76) */
+.form.contact:not(.quote) .form-actions::before {
+  content: "";
+  display: block;
+  width: 302px;
+  max-width: 100%;
+  height: 76px;
+  margin-bottom: 26px;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  background: #f9f9f9;
+  box-shadow: 0 0 4px 1px rgb(0 0 0 / 8%);
+}
+
+.form.contact:not(.quote) .form-actions .button {
+  width: calc(100% + 1px);
+  margin-left: -1px;
+  padding: 0 24px;
+  border-radius: 22px;
+  background: var(--is-teal);
+  color: #fff;
+}
+
+@media (width >= 768px) {
+  .form.contact:not(.quote) .form-mount {
+    max-width: 808px;
+    min-height: 522px;
+    margin: 0 auto;
+    padding: 3px 9px 0 0;
+  }
+
+  /* State | Zip share one half column (12px apart) */
+  .form.contact:not(.quote) .form-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .form.contact:not(.quote) .form-field {
+    grid-column: span 2;
+  }
+
+  .form.contact:not(.quote) .form-field-text:has(input[id^="form-state"]),
+  .form.contact:not(.quote) .form-field-text:has(input[id^="form-zip"]) {
+    grid-column: span 1;
+    margin-top: 0;
+  }
+
+  .form.contact:not(.quote) .form-field-radio {
+    grid-column: 1 / -1;
+  }
+
+  .form.contact:not(.quote) .form-field fieldset {
+    padding-left: 5px;
+  }
+
+  .form.contact:not(.quote) .form-actions {
+    padding: 24px 0 0 506px;
+  }
+
+  .form.contact:not(.quote) .form-actions .button {
+    width: auto;
+    margin-left: 0;
+  }
+}
+
+/* variant `support` of the reused form (help & support frame): no reCAPTCHA slot; Zip Code
+   alone in a half column */
+.form.contact:not(.quote).support .form-actions::before {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .form.contact:not(.quote).support .form-field-text:has(input[id^="form-zip"]) {
+    grid-column: span 2;
+  }
+}
+
+/* selects read as the frame's placeholder-styled dropdown fields (no native chevron) */
+.form.contact:not(.quote) select {
+  color: var(--is-grey-dark);
+  appearance: none;
+}
+
+/* form variants (frame geometry per source form, lifted from the capture screenshots):
+   `update` = reCAPTCHA + submit at the right column start (417px into the 799px column);
+   `preference` = a 1006px frame, 32px column gap, reCAPTCHA at the right column start and the
+   submit button right-aligned on the same row */
+@media (width >= 768px) {
+  .form.contact:not(.quote).update .form-actions {
+    padding-left: 417px;
+  }
+
+  .form.contact:not(.quote).preference .form-mount {
+    max-width: 1006px;
+    padding-right: 0;
+  }
+
+  .form.contact:not(.quote).preference .form-grid {
+    column-gap: 32px;
+  }
+
+  .form.contact:not(.quote).preference .form-actions {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: calc(50% + 16px);
+  }
+
+  .form.contact:not(.quote).preference .form-actions::before {
+    margin: 0;
+  }
+}
+
+/* < 768 the source frame is the bare field column (no inset, no reserved height) */
+.form.contact:not(.quote):is(.update, .preference, .standalone) .form-mount {
+  min-height: 0;
+  padding: 0;
+}
+
+.form.contact:not(.quote).preference .form-mount {
+  padding-bottom: 53px;
+}
+
+.form.contact:not(.quote).standalone .form-mount {
+  padding-bottom: 64px;
+}
+
+@media (width >= 768px) {
+  .form.contact:not(.quote):is(.update, .preference, .standalone) .form-mount {
+    min-height: 522px;
+    padding: 3px 9px 0 0;
+  }
+
+  .form.contact:not(.quote).preference .form-mount {
+    padding-right: 0;
+  }
+}
+
+.form.contact:not(.quote):is(.preference, .standalone) {
+  margin-bottom: 0;
+}
+
+/* ---------- variant `inset` of a quote frame with native fields: the get-a-quote crm / gaq
+   frames inside the container (/us/en/shipping-insurance/checkout-protection, special-commodities,
+   insureshield-app-for-shopify, insureshield-connect) — geometry from the origin captures:
+   56px fields 16px apart inset 2px (1px top), reCAPTCHA (302x76) 16px under the fields, submit
+   42px under it < 768; >= 768 a col-10 offset-1 frame (two 487px columns 33px apart), the
+   reCAPTCHA at 507px with the submit 59px to its right, frame 520px less its -100px margin
+   (+7px inline gap = 427px) ---------- */
+.form.quote.contact.inset form {
+  max-width: none;
+}
+
+.form.quote.contact.inset .form-mount {
+  padding: 1px 2px 7px;
+}
+
+.form.quote.contact.inset .form-grid {
+  gap: 16px 33px;
+}
+
+.form.quote.contact.inset select {
+  color: var(--is-grey-dark);
+  appearance: none;
+}
+
+/* the business-shipment checkbox: a 24px box 6px in, 20px under the field above and 28px over
+   the reCAPTCHA (360 capture of /us/en/shipping-insurance/consumer-electronics-and-technology) */
+.form.quote.contact.inset .form-check {
+  align-items: flex-start;
+  padding: 4px 0 11px 6px;
+}
+
+.form.quote.contact.inset .form-check input {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
+
+.form.quote.contact.inset .form-actions {
+  padding-top: 16px;
+}
+
+.form.quote.contact.inset .form-actions::before {
+  content: "";
+  display: block;
+  width: 302px;
+  max-width: 100%;
+  height: 76px;
+  margin-bottom: 42px;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  background: #f9f9f9;
+  box-shadow: 0 0 4px 1px rgb(0 0 0 / 8%);
+}
+
+.form.quote.contact.inset .form-actions .button {
+  width: auto;
+  padding: 0 24px;
+  border-radius: 22px;
+}
+
+.form.quote.contact.inset .form-actions .button::after {
+  content: "chevron_right";
+  margin-left: 0.2rem;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: upspricons;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1;
+  font-feature-settings: "liga";
+}
+
+@media (width >= 768px) {
+  .form.quote.contact.inset .form-mount {
+    height: 427px;
+    margin: 0 calc(100% / 12);
+    padding: 1px 5px 0 1px;
+  }
+
+  .form.quote.contact.inset .form-actions {
+    display: flex;
+    align-items: flex-start;
+    padding: 16px 0 0 507px;
+  }
+
+  .form.quote.contact.inset .form-actions::before {
+    flex: none;
+    margin: 0 59px 0 0;
+  }
+}
+
+/* variant `gaq` of `inset` (/content/forms/af/insure-shield/gaq — app-for-shopify, connect,
+   complete): the submit sits 42px under the reCAPTCHA, both 608px into the field column */
+@media (width >= 768px) {
+  .form.quote.contact.inset.gaq .form-actions {
+    display: block;
+    padding-left: 608px;
+  }
+
+  .form.quote.contact.inset.gaq .form-actions::before {
+    margin: 0 0 42px;
+  }
+}
+
+/* variant `gaq-head`: the get-a-quote fragment's text-left title (h2 + description) over the
+   frame — centred at every width, description 20/32 (20px under the bar < 992, 16px from 992),
+   the frame 20px (< 992) / 64px under it; measured on
+   /us/en/shipping-insurance/multi-carrier-shipments/insureshield-complete */
+.form-container:has(.form.gaq-head) .default-content-wrapper {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-container:has(.form.gaq-head) .default-content-wrapper :is(h2, h3)::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.form-container:has(.form.gaq-head) .default-content-wrapper p {
+  margin-top: 20px;
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+/* an h3 fragment title (/us/en/shipping-insurance/get-a-quote): 20/28, 32/40 from 992 */
+.form-container:has(.form.gaq-head) .default-content-wrapper h3 {
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+@media (width >= 992px) {
+  .form-container:has(.form.gaq-head) .default-content-wrapper {
+    margin-bottom: 64px;
+  }
+
+  .form-container:has(.form.gaq-head) .default-content-wrapper :is(h2, h3) {
+    max-width: none;
+    padding-bottom: 24px;
+  }
+
+  .form-container:has(.form.gaq-head) .default-content-wrapper h3 {
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+
+  .form-container:has(.form.gaq-head) .default-content-wrapper p {
+    margin: 16px 0 0;
+    line-height: 1.6;
+  }
+}
+
+/* the full-bleed get-a-quote frame (`gaq-head`, not `inset`: /us/en/shipping-insurance/get-a-quote)
+   < 768: fields 1px in, 13px under the frame top, the reCAPTCHA slot (302x76) 24px under the
+   fields and the full-width submit 26px under it (360 origin capture); >= 768 keeps the 130px
+   slot above the submit */
+.form.quote.contact.gaq-head:not(.inset) select {
+  color: var(--is-grey-dark);
+  appearance: none;
+}
+
+@media (width < 768px) {
+  /* frame 804px + 7px inline gap, then the form's and the fragment's 64px margins */
+  .form.quote.contact.gaq-head:not(.inset) {
+    margin-bottom: 128px;
+  }
+
+  .form.quote.contact.gaq-head:not(.inset) .form-mount {
+    padding: 13px 1px 12px;
+  }
+
+  .form.quote.contact.gaq-head:not(.inset) .form-actions::before {
+    content: "";
+    display: block;
+    width: 302px;
+    max-width: 100%;
+    height: 76px;
+    margin-bottom: 26px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    background: #f9f9f9;
+    box-shadow: 0 0 4px 1px rgb(0 0 0 / 8%);
+  }
+}
+
+/* the small-print note under a quote form (source .text--rte > div: p margin 0, 64px band
+   bottom); the foundation legal-note's 16px p margin collapses into its 48px wrapper margin
+   (interim, see stardust/rollout/foundation-requests.md) */
+main > .section.form-container + .section.legal-note > .default-content-wrapper {
+  margin-bottom: 64px;
+}
+
+/* variant `captcha` of a quote frame (/us/en/solutions/delivery-defense sign-up): below 768 the
+   source reCAPTCHA (304x78 frame) sits 26px under the last field, the submit 24px under it —
+   measured on the 360 origin capture; from 768 the quote frame already reserves its place */
+@media (width < 768px) {
+  /* the frame opens 13px lower under the lede and ends 7px lower (360 origin capture) */
+  .form.quote.captcha form {
+    margin-top: 13px;
+  }
+
+  .form.quote.captcha .form-actions {
+    padding-bottom: 7px;
+  }
+
+  .form.quote.captcha .form-actions::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    width: 304px;
+    max-width: 100%;
+    height: 78px;
+    margin: 2px 0 24px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    background: #f9f9f9;
+    box-shadow: 0 0 4px 1px rgb(0 0 0 / 8%);
+  }
+}
+
+/* `captcha` frame (delivery-defense sign-up): the "How can we help?" dropdown reads as a
+   placeholder-styled field without a native chevron (360 / 1440 origin captures) */
+/* stylelint-disable-next-line no-descending-specificity */
+.form.quote.contact.captcha select {
+  color: var(--is-grey-dark);
+  appearance: none;
+}
+
+/* stylelint-disable no-descending-specificity */
+
+/* ---------- variant `demo` of a quote frame with native fields: the get-a-demo-product AF frame
+   (/us/en/solutions/commerceshield "Speak with a risk expert") — geometry from the origin
+   captures: 56px fields 24px apart in the 800px frame, the frame's 13px top inset < 992 (4px
+   from 992); State | Zip share one half column from 768 (Zip 2px lower when stacked); the
+   reCAPTCHA (304x78) 24px under the fields with the submit 24px under it, both at 506px into
+   the frame from 768; the frame's empty foot runs 115px past the submit (176px from 992) ---------- */
+.form.quote.demo {
+  margin-bottom: 115px;
+}
+
+.form.quote.demo .form-mount {
+  padding-top: 13px;
+}
+
+.form.quote.demo .form-field-text:has(input[id^="form-zip"]) {
+  margin-top: 2px;
+}
+
+.form.quote.demo select {
+  color: var(--is-grey-dark);
+  appearance: none;
+}
+
+.form.quote.demo .form-actions {
+  padding-top: 24px;
+}
+
+/* reCAPTCHA slot on the source (third-party widget; geometry only) */
+.form.quote.demo .form-actions::before {
+  content: "";
+  display: block;
+  width: 304px;
+  max-width: 100%;
+  height: 78px;
+  margin-bottom: 24px;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  background: #f9f9f9;
+  box-shadow: 0 0 4px 1px rgb(0 0 0 / 8%);
+}
+
+.form.quote.demo .form-actions .button {
+  width: 100%;
+  padding: 0 24px;
+  border-radius: 22px;
+  background: var(--is-teal);
+  color: #fff;
+}
+
+@media (width >= 768px) {
+  .form.quote.demo .form-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .form.quote.demo .form-field {
+    grid-column: span 2;
+  }
+
+  .form.quote.demo .form-field-select,
+  .form.quote.demo .form-field-text:has(input[id^="form-zip"]) {
+    grid-column: span 1;
+    margin-top: 0;
+  }
+
+  .form.quote.demo .form-actions {
+    padding: 24px 0 0 506px;
+  }
+
+  .form.quote.demo .form-actions .button {
+    width: auto;
+  }
+}
+
+@media (width >= 992px) {
+  .form.quote.demo {
+    margin-bottom: 176px;
+  }
+
+  .form.quote.demo .form-mount {
+    padding-top: 4px;
+  }
+}
+
+/* stylelint-enable no-descending-specificity */
+
+/* section style `title-sm`: the section title is the 20/28 cmp-title (32/40 from 992), not the
+   28/36 → 40/48 quote head (/us/en/solutions/commerceshield "Speak with a risk expert") */
+main > .section.form-container.title-sm .default-content-wrapper :is(h2, h3) {
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+@media (width >= 992px) {
+  main > .section.form-container.title-sm .default-content-wrapper :is(h2, h3) {
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+}
+
+/* variant `partnership` of a `quote contact captcha` frame (/content/forms/af/insure-shield/
+   partners/start-a-partnership on /us/en/partners/3pl-partners): from 768 the reCAPTCHA box
+   (304x78, 26px under the fields) and the submit 26px under it both sit 502px into the 800px
+   frame; the frame ends 139px under the submit and the grey band 64px above the footer */
+@media (width >= 768px) {
+  .form.quote.contact.captcha.partnership .form-actions {
+    padding: 26px 0 0 502px;
+  }
+
+  .form.quote.contact.captcha.partnership .form-actions::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    width: 304px;
+    height: 78px;
+    margin-bottom: 26px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    background: #f9f9f9;
+    box-shadow: 0 0 4px 1px rgb(0 0 0 / 8%);
+  }
+
+  .form.quote.contact.captcha.partnership {
+    margin-bottom: 139px;
+  }
+}
+
+main > .section.form-container:has(.form.partnership) {
+  margin-bottom: 64px;
+}
+
+main > .section.form-container.title-pad:has(.form.partnership) > .default-content-wrapper:first-child {
+  padding-top: 4rem;
+}

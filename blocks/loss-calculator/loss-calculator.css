@@ -1,0 +1,25 @@
+/* loss-calculator — lifted: column control + calculator frame (b2b capture geometry) */
+.loss-calculator {
+  margin-bottom: 64px;
+}
+
+.loss-calculator .loss-calculator-media {
+  margin-bottom: 42px;
+}
+
+.loss-calculator .loss-calculator-media img {
+  width: 100%;
+  height: auto;
+  vertical-align: baseline;
+}
+
+.loss-calculator .form-mount {
+  height: 157px;
+  margin-bottom: 64px;
+}
+
+@media (width >= 992px) {
+  .loss-calculator .loss-calculator-media {
+    margin-bottom: 0;
+  }
+}

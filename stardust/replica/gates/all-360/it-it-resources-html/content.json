@@ -1,0 +1,2238 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-18T11:03:51.325Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.insureshield.com/it/it/resources.html",
+  "at": "2026-11-18T11:03:33.903Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3341,
+  "root": null,
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.image > div#image-3173e156fc > a.cmp-image__link",
+    "x": 32,
+    "y": 22,
+    "w": 149,
+    "h": 55,
+    "text": "insure shield",
+    "href": "/it/it/home.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "a.cmp-image__link > picture > img.cmp-image__image",
+    "x": 32,
+    "y": 22,
+    "w": 149,
+    "h": 56,
+    "text": "insure shield",
+    "file": "InsureShield_horizontal_UPSC"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.cmp-search > div#upser-header-search > button.header-search-btn",
+    "x": 236,
+    "y": 28,
+    "w": 44,
+    "h": 44,
+    "text": "search toggle"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.cmp-search > div#upser-header-search > button.header-search-btn",
+    "x": 236,
+    "y": 28,
+    "w": 44,
+    "h": 44,
+    "label": "search toggle",
+    "value": "search toggle",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.profile > div.hamburger > button.navbar-toggler.collapsed",
+    "x": 282,
+    "y": 28,
+    "w": 44,
+    "h": 44,
+    "text": "toggle navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.profile > div.hamburger > button.navbar-toggler.collapsed",
+    "x": 282,
+    "y": 28,
+    "w": 44,
+    "h": 44,
+    "label": "toggle navigation menu",
+    "value": "toggle navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ol.cmp-breadcrumb__list > li.cmp-breadcrumb__item.cmp-breadcrumb__item--active > span",
+    "x": 32,
+    "y": 115,
+    "w": 47,
+    "h": 20,
+    "text": "Risorse"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#image-df5b74e454 > picture > img.cmp-image__image",
+    "x": 32,
+    "y": 327,
+    "w": 296,
+    "h": 167,
+    "text": "female sitting at a desk using her laptop and a calculator",
+    "file": "shutterstock_1868366599_digital_11302022"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__title > h1",
+    "x": 32,
+    "y": 175,
+    "w": 296,
+    "h": 40,
+    "level": 1,
+    "text": "risorse"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__description > p",
+    "x": 32,
+    "y": 247,
+    "w": 296,
+    "h": 48,
+    "text": "Ottieni suggerimenti e approfondimenti per la tua attività."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 558,
+    "w": 229,
+    "h": 52,
+    "level": 2,
+    "text": "risorse aggiuntive"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.cmp-search__form > div.cmp-search__group > button.cmp-search__submit",
+    "x": 32,
+    "y": 696,
+    "w": 296,
+    "h": 44,
+    "text": "cerca"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 804,
+    "w": 235,
+    "h": 52,
+    "level": 2,
+    "text": "racconti dei clienti"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > p.cmp-title__description",
+    "x": 32,
+    "y": 872,
+    "w": 296,
+    "h": 72,
+    "text": "Scopri in che modo l'assicurazione sulla spedizione InsureShield® può aiutarti a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.slick-track > div#slick-slide00 > a.story-card--list__item__card",
+    "x": 34,
+    "y": 968,
+    "w": 292,
+    "h": 442,
+    "text": "storie dei clienti quando accadono incidenti a un carico solido l'assicurazione ",
+    "href": "/it/it/resources/customer-stories/argus-case-study.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 34,
+    "y": 968,
+    "w": 292,
+    "h": 164,
+    "text": "semi truck on fire on the side of the highway.",
+    "file": "Argus_iStock_000009996595"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div > div.description__title > h1",
+    "x": 66,
+    "y": 1192,
+    "w": 228,
+    "h": 38,
+    "level": 1,
+    "text": "quando accadono incidenti a un carico solido"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.slick-track > div#slick-slide01 > a.story-card--list__item__card",
+    "x": 346,
+    "y": 968,
+    "w": 292,
+    "h": 442,
+    "text": "brightly colored clove polyps coral in the pacific east",
+    "href": "/it/it/resources/customer-stories/Pacific-East-Aquaculture.html"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.ls-is-cached.lazyloaded",
+    "x": 346,
+    "y": 968,
+    "w": 292,
+    "h": 164,
+    "text": "brightly colored clove polyps coral in the pacific east",
+    "file": "PacificEast_Electrified%20Clove%20Polyps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div > div.cta-link__container.text-center > a.cta-link__action-link.primary-btn",
+    "x": 32,
+    "y": 1542,
+    "w": 296,
+    "h": 44,
+    "text": "leggi la loro storia",
+    "href": "/it/it/resources/customer-stories.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 1650,
+    "w": 210,
+    "h": 52,
+    "level": 2,
+    "text": "approfondimenti"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > p.cmp-title__description",
+    "x": 32,
+    "y": 1717,
+    "w": 296,
+    "h": 72,
+    "text": "Leggi gli articoli ed effettua ricerche per approfondimenti e tendenze aggiornat"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.slick-track > div#slick-slide10 > a.story-card--list__item__card",
+    "x": 34,
+    "y": 1813,
+    "w": 292,
+    "h": 433,
+    "text": "approfondimenti per aiutare la tua azienda cos'è l'assicurazione sulla spedizion",
+    "href": "/it/it/resources/insights/what-is-shipping-insurance.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 34,
+    "y": 1813,
+    "w": 292,
+    "h": 164,
+    "text": "close up of hands holding and placing a shipping label on a ",
+    "file": "shutterstock_1593134869_digital_02062023"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div > div.description__title > h1",
+    "x": 66,
+    "y": 2052,
+    "w": 228,
+    "h": 38,
+    "level": 1,
+    "text": "cos'è l'assicurazione sulla spedizione?"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.slick-track > div#slick-slide11 > a.story-card--list__item__card",
+    "x": 346,
+    "y": 1813,
+    "w": 292,
+    "h": 433,
+    "text": "male sitting on a couch and using a laptop",
+    "href": "/it/it/resources/insights/claims-time-saving-tips.html"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 346,
+    "y": 1813,
+    "w": 292,
+    "h": 164,
+    "text": "male sitting on a couch and using a laptop",
+    "file": "shutterstock_1723841416_digital_11302022"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div > div.cta-link__container.text-center > a.cta-link__action-link.primary-btn",
+    "x": 32,
+    "y": 2377,
+    "w": 296,
+    "h": 44,
+    "text": "più approfondimenti",
+    "href": "/it/it/resources/insights.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__title > h2",
+    "x": 56,
+    "y": 2509,
+    "w": 248,
+    "h": 72,
+    "level": 2,
+    "text": "assistenza e supporto"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__description > p",
+    "x": 56,
+    "y": 2617,
+    "w": 248,
+    "h": 48,
+    "text": "Ottieni le risposte alle domande più frequenti."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__action-container > a#teaser-0f4422fbc1-cta-ffc075a5ca",
+    "x": 56,
+    "y": 2689,
+    "w": 248,
+    "h": 68,
+    "text": "visualizza le domande frequenti",
+    "href": "/it/it/resources/help-and-support.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#text-b19decef3f > p > span.small",
+    "x": 32,
+    "y": 2847,
+    "w": 270,
+    "h": 78,
+    "text": "I casi studio e le testimonianze dei clienti possono descrivere o fare riferimen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-830e33581a > p",
+    "x": 32,
+    "y": 3005,
+    "w": 296,
+    "h": 19,
+    "text": "Questo sito"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-23ce7bd0b2 > p",
+    "x": 32,
+    "y": 3055,
+    "w": 296,
+    "h": 19,
+    "text": "Altri siti UPS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-55e23b9d3d > p",
+    "x": 32,
+    "y": 3104,
+    "w": 296,
+    "h": 19,
+    "text": "Connettiti con noi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-74fa475154 > p",
+    "x": 32,
+    "y": 3154,
+    "w": 296,
+    "h": 19,
+    "text": "Legale"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.copy-right > div#text-02afa7f8be > h4",
+    "x": 32,
+    "y": 3277,
+    "w": 296,
+    "h": 40,
+    "level": 4,
+    "text": "copyright ©2023-2026 united parcel service of america, inc. all rights reserved."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 66,
+    "textNodes": 99,
+    "controls": 58,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-HIDDEN",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.slick-list.draggable > div.slick-track > div#slick-slide01 > a.story-card--list__item__card",
+     "text": "storie dei clienti consegne dal vivo assicurando il corallo ",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--9ade650b--aemcoder.aem.page/it/it/resources",
+  "at": "2026-11-18T11:03:51.149Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3341,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-logo > p > a",
+    "x": 32,
+    "y": 22,
+    "w": 149,
+    "h": 55,
+    "text": "insureshield",
+    "href": "/it/it/home"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 32,
+    "y": 22,
+    "w": 149,
+    "h": 56,
+    "text": "insureshield",
+    "file": "media_1e13fd7b8c723c94791c8f8ac6c80eaf75"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-row > div.hdr-actions > button.hdr-burger",
+    "x": 282,
+    "y": 28,
+    "w": 44,
+    "h": 44,
+    "text": "toggle navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-row > div.hdr-actions > button.hdr-burger",
+    "x": 282,
+    "y": 28,
+    "w": 44,
+    "h": 44,
+    "label": "toggle navigation menu",
+    "value": "toggle navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-actions > div.hdr-search > button.hdr-search-btn",
+    "x": 236,
+    "y": 28,
+    "w": 44,
+    "h": 44,
+    "text": "search toggle"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-actions > div.hdr-search > button.hdr-search-btn",
+    "x": 236,
+    "y": 28,
+    "w": 44,
+    "h": 44,
+    "label": "search toggle",
+    "value": "search toggle",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > span",
+    "x": 32,
+    "y": 115,
+    "w": 47,
+    "h": 20,
+    "text": "Risorse"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-content > div.teaser-title > h1#risorse",
+    "x": 32,
+    "y": 175,
+    "w": 296,
+    "h": 40,
+    "level": 1,
+    "text": "risorse"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-content > div.teaser-desc > p",
+    "x": 32,
+    "y": 247,
+    "w": 296,
+    "h": 48,
+    "text": "Ottieni suggerimenti e approfondimenti per la tua attività."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-media > picture > img",
+    "x": 32,
+    "y": 327,
+    "w": 296,
+    "h": 167,
+    "text": "female sitting at a desk using her laptop and a calculator",
+    "file": "media_115b31320113fe9a9f5601a2050feab22a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.search-container > div.default-content-wrapper > h2#risorse-aggiuntive",
+    "x": 32,
+    "y": 558,
+    "w": 229,
+    "h": 52,
+    "level": 2,
+    "text": "risorse aggiuntive"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.search-submit > p > a.search-button",
+    "x": 32,
+    "y": 696,
+    "w": 296,
+    "h": 44,
+    "text": "cerca",
+    "href": "/it/it/site-search"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.story-card-carousel-container > div.default-content-wrapper > h2#racconti-dei-clienti",
+    "x": 32,
+    "y": 804,
+    "w": 235,
+    "h": 52,
+    "level": 2,
+    "text": "racconti dei clienti"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.story-card-carousel-container > div.default-content-wrapper > p",
+    "x": 32,
+    "y": 872,
+    "w": 296,
+    "h": 72,
+    "text": "Scopri in che modo l'assicurazione sulla spedizione InsureShield® può aiutarti a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stories-track > div.stories-slide > a.story",
+    "x": 34,
+    "y": 968,
+    "w": 292,
+    "h": 442,
+    "text": "storie dei clienti quando accadono incidenti a un carico solido l'assicurazione ",
+    "href": "/it/it/resources/customer-stories/argus-case-study"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-image > picture > img",
+    "x": 34,
+    "y": 968,
+    "w": 292,
+    "h": 164,
+    "text": "semi truck on fire on the side of the highway.",
+    "file": "media_1a0c254a47a9af277656596738c1cce074"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-top > div.story-title > h3#quando-accadono-incidenti-a-un-carico-solido",
+    "x": 66,
+    "y": 1192,
+    "w": 228,
+    "h": 38,
+    "level": 3,
+    "text": "quando accadono incidenti a un carico solido"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stories-track > div.stories-slide > a.story",
+    "x": 346,
+    "y": 968,
+    "w": 292,
+    "h": 442,
+    "text": "brightly colored clove polyps coral in the pacific east",
+    "href": "/it/it/resources/customer-stories/pacific-east-aquaculture"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-image > picture > img",
+    "x": 346,
+    "y": 968,
+    "w": 292,
+    "h": 164,
+    "text": "brightly colored clove polyps coral in the pacific east",
+    "file": "media_1e006f7fcbedd00237d5fb8300e4f51598"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-carousel.block > div.stories-controls > button.stories-arrow.stories-arrow-prev",
+    "x": 10,
+    "y": 1447,
+    "w": 54,
+    "h": 31,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.stories-dots > li.is-active > button.stories-dot",
+    "x": 64,
+    "y": 1447,
+    "w": 22,
+    "h": 22,
+    "text": "go to slide 1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.stories-dots > li > button.stories-dot",
+    "x": 116,
+    "y": 1452,
+    "w": 12,
+    "h": 12,
+    "text": "go to slide 2"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.stories-dots > li > button.stories-dot",
+    "x": 158,
+    "y": 1452,
+    "w": 12,
+    "h": 12,
+    "text": "go to slide 3"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.stories-dots > li > button.stories-dot",
+    "x": 200,
+    "y": 1452,
+    "w": 12,
+    "h": 12,
+    "text": "go to slide 4"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.stories-dots > li > button.stories-dot",
+    "x": 242,
+    "y": 1452,
+    "w": 12,
+    "h": 12,
+    "text": "go to slide 5"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.stories-dots > li > button.stories-dot",
+    "x": 284,
+    "y": 1452,
+    "w": 12,
+    "h": 12,
+    "text": "go to slide 6"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-carousel.block > div.stories-controls > button.stories-arrow.stories-arrow-next",
+    "x": 296,
+    "y": 1447,
+    "w": 54,
+    "h": 31,
+    "text": "next"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p.button-wrapper > a.button.primary",
+    "x": 32,
+    "y": 1542,
+    "w": 296,
+    "h": 44,
+    "text": "leggi la loro storia",
+    "href": "/it/it/resources/customer-stories"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.story-card-carousel-container > div.default-content-wrapper > h2#approfondimenti",
+    "x": 32,
+    "y": 1650,
+    "w": 210,
+    "h": 52,
+    "level": 2,
+    "text": "approfondimenti"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.story-card-carousel-container > div.default-content-wrapper > p",
+    "x": 32,
+    "y": 1717,
+    "w": 296,
+    "h": 72,
+    "text": "Leggi gli articoli ed effettua ricerche per approfondimenti e tendenze aggiornat"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stories-track > div.stories-slide > a.story",
+    "x": 34,
+    "y": 1813,
+    "w": 292,
+    "h": 433,
+    "text": "approfondimenti per aiutare la tua azienda cos'è l'assicurazione sulla spedizion",
+    "href": "/it/it/resources/insights/what-is-shipping-insurance"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-image > picture > img",
+    "x": 34,
+    "y": 1813,
+    "w": 292,
+    "h": 164,
+    "text": "close up of hands holding and placing a shipping label on a ",
+    "file": "media_1c54888d0a29e4b453354bbf910b9ba7ad"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-top > div.story-title > h3#cosè-lassicurazione-sulla-spedizione",
+    "x": 66,
+    "y": 2052,
+    "w": 228,
+    "h": 38,
+    "level": 3,
+    "text": "cos'è l'assicurazione sulla spedizione?"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stories-track > div.stories-slide > a.story",
+    "x": 346,
+    "y": 1813,
+    "w": 292,
+    "h": 433,
+    "text": "male sitting on a couch and using a laptop",
+    "href": "/it/it/resources/insights/claims-time-saving-tips"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-image > picture > img",
+    "x": 346,
+    "y": 1813,
+    "w": 292,
+    "h": 164,
+    "text": "male sitting on a couch and using a laptop",
+    "file": "media_17bd6826731bc6b6bf070bc0014d37aa6a"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-carousel.block > div.stories-controls > button.stories-arrow.stories-arrow-prev",
+    "x": 10,
+    "y": 2282,
+    "w": 54,
+    "h": 31,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.stories-dots > li.is-active > button.stories-dot",
+    "x": 64,
+    "y": 2282,
+    "w": 22,
+    "h": 22,
+    "text": "go to slide 1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.stories-dots > li > button.stories-dot",
+    "x": 116,
+    "y": 2287,
+    "w": 12,
+    "h": 12,
+    "text": "go to slide 2"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.stories-dots > li > button.stories-dot",
+    "x": 158,
+    "y": 2287,
+    "w": 12,
+    "h": 12,
+    "text": "go to slide 3"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.stories-dots > li > button.stories-dot",
+    "x": 200,
+    "y": 2287,
+    "w": 12,
+    "h": 12,
+    "text": "go to slide 4"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.stories-dots > li > button.stories-dot",
+    "x": 242,
+    "y": 2287,
+    "w": 12,
+    "h": 12,
+    "text": "go to slide 5"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.stories-dots > li > button.stories-dot",
+    "x": 284,
+    "y": 2287,
+    "w": 12,
+    "h": 12,
+    "text": "go to slide 6"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-carousel.block > div.stories-controls > button.stories-arrow.stories-arrow-next",
+    "x": 296,
+    "y": 2282,
+    "w": 54,
+    "h": 31,
+    "text": "next"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p.button-wrapper > a.button.primary",
+    "x": 32,
+    "y": 2377,
+    "w": 296,
+    "h": 44,
+    "text": "più approfondimenti",
+    "href": "/it/it/resources/insights"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.promo-banner-card > div.teaser-title > h2#assistenza-e-supporto",
+    "x": 56,
+    "y": 2509,
+    "w": 248,
+    "h": 72,
+    "level": 2,
+    "text": "assistenza e supporto"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.promo-banner-card > div.teaser-desc > p",
+    "x": 56,
+    "y": 2617,
+    "w": 248,
+    "h": 48,
+    "text": "Ottieni le risposte alle domande più frequenti."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-actions > p.button-wrapper > a.button.accent",
+    "x": 56,
+    "y": 2689,
+    "w": 248,
+    "h": 68,
+    "text": "visualizza le domande frequenti",
+    "href": "/it/it/resources/help-and-support"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.promo-banner-container > div.default-content-wrapper > p",
+    "x": 32,
+    "y": 2845,
+    "w": 296,
+    "h": 80,
+    "text": "I casi studio e le testimonianze dei clienti possono descrivere o fare riferimen"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 2989,
+    "w": 360,
+    "h": 50,
+    "text": "questo sito"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 2989,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "questo sito",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col.ftr-col-wide > div.ftr-heading",
+    "x": 0,
+    "y": 3039,
+    "w": 360,
+    "h": 50,
+    "text": "altri siti ups"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col.ftr-col-wide > div.ftr-heading",
+    "x": 0,
+    "y": 3039,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "altri siti ups",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 3088,
+    "w": 360,
+    "h": 50,
+    "text": "connettiti con noi"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 3088,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "connettiti con noi",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr > div.ftr-inner > div.ftr-heading.ftr-heading-legal",
+    "x": 0,
+    "y": 3138,
+    "w": 360,
+    "h": 51,
+    "text": "legale"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr > div.ftr-inner > div.ftr-heading.ftr-heading-legal",
+    "x": 0,
+    "y": 3138,
+    "w": 360,
+    "h": 51,
+    "label": "trigger",
+    "value": "legale",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-inner > div.ftr-copy > p",
+    "x": 32,
+    "y": 3277,
+    "w": 296,
+    "h": 40,
+    "text": "Copyright ©2023-2026 United Parcel Service of America, Inc. All rights reserved."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 52,
+    "textNodes": 93,
+    "controls": 59,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-HIDDEN",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.stories-viewport",
+     "path": "div.stories-viewport > div.stories-track > div.stories-slide > a.story",
+     "text": "storie dei clienticonsegne dal vivoassicurando il corallo di",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-HIDDEN",
+     "advisory": true,
+     "path": "div.stories-viewport > div.stories-track > div.stories-slide > a.story",
+     "text": "storie dei clienticonsegne dal vivoassicurando il corallo di",
+     "clipper": "div.stories-viewport",
+     "rect": {
+      "l": 346,
+      "t": 968,
+      "r": 638,
+      "b": 1411,
+      "w": 292,
+      "h": 442
+     },
+     "clip": {
+      "l": 24,
+      "t": 968,
+      "r": 336,
+      "b": 1420,
+      "w": 312,
+      "h": 452
+     }
+    },
+    {
+     "kind": "CONTROL X-HIDDEN",
+     "advisory": true,
+     "path": "div.stories-viewport > div.stories-track > div.stories-slide > a.story",
+     "text": "approfondimenti per aiutare la tua aziendaresta all'avanguar",
+     "clipper": "div.stories-viewport",
+     "rect": {
+      "l": 346,
+      "t": 1813,
+      "r": 638,
+      "b": 2246,
+      "w": 292,
+      "h": 433
+     },
+     "clip": {
+      "l": 24,
+      "t": 1813,
+      "r": 336,
+      "b": 2256,
+      "w": 312,
+      "h": 443
+     }
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "risorse",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "risorse aggiuntive",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "racconti dei clienti",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 1,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 1
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "quando accadono incidenti a un carico solido",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 8,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 5,
+   "heading": "approfondimenti",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 1,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 1
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "cos'è l'assicurazione sulla spedizione?",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 8,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 7,
+   "heading": "assistenza e supporto",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"previous\" served in band \"quando accadono incidenti a un carico solido\", no origin link or button",
+   "band": 4,
+   "n": 1,
+   "text": "previous"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×6 \"go to slide 1\" served in band \"quando accadono incidenti a un carico solido\", no origin link or button",
+   "band": 4,
+   "n": 6,
+   "text": "go to slide 1"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"next\" served in band \"quando accadono incidenti a un carico solido\", no origin link or button",
+   "band": 4,
+   "n": 1,
+   "text": "next"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"previous\" served in band \"cos'è l'assicurazione sulla spedizione?\", no origin link or button",
+   "band": 6,
+   "n": 1,
+   "text": "previous"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×6 \"go to slide 1\" served in band \"cos'è l'assicurazione sulla spedizione?\", no origin link or button",
+   "band": 6,
+   "n": 6,
+   "text": "go to slide 1"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"next\" served in band \"cos'è l'assicurazione sulla spedizione?\", no origin link or button",
+   "band": 6,
+   "n": 1,
+   "text": "next"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 16,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 6,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 32,
+    "y": 116,
+    "w": 47,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 176,
+    "w": 107,
+    "h": 38
+   },
+   {
+    "x": 32,
+    "y": 249,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 273,
+    "w": 123,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 559,
+    "w": 229,
+    "h": 33
+   },
+   {
+    "x": 146,
+    "y": 708,
+    "w": 42,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 805,
+    "w": 235,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 874,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 898,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 922,
+    "w": 208,
+    "h": 19
+   },
+   {
+    "x": 104,
+    "y": 1164,
+    "w": 117,
+    "h": 11
+   },
+   {
+    "x": 66,
+    "y": 1192,
+    "w": 207,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 1211,
+    "w": 113,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 1245,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 1269,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 1293,
+    "w": 143,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 1357,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "x": 101,
+    "y": 1554,
+    "w": 133,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1651,
+    "w": 210,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 1719,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1743,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1767,
+    "w": 176,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 2013,
+    "w": 215,
+    "h": 11
+   },
+   {
+    "x": 66,
+    "y": 2024,
+    "w": 79,
+    "h": 11
+   },
+   {
+    "x": 66,
+    "y": 2052,
+    "w": 186,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 2071,
+    "w": 85,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 2104,
+    "w": 188,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 2128,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 2192,
+    "w": 118,
+    "h": 19
+   },
+   {
+    "x": 94,
+    "y": 2389,
+    "w": 146,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2510,
+    "w": 159,
+    "h": 33
+   },
+   {
+    "x": 56,
+    "y": 2546,
+    "w": 115,
+    "h": 33
+   },
+   {
+    "x": 56,
+    "y": 2619,
+    "w": 225,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2643,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 87,
+    "y": 2701,
+    "w": 161,
+    "h": 19
+   },
+   {
+    "x": 135,
+    "y": 2725,
+    "w": 65,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2847,
+    "w": 268,
+    "h": 14
+   },
+   {
+    "x": 32,
+    "y": 2863,
+    "w": 261,
+    "h": 14
+   },
+   {
+    "x": 32,
+    "y": 2879,
+    "w": 238,
+    "h": 14
+   },
+   {
+    "x": 32,
+    "y": 2895,
+    "w": 270,
+    "h": 14
+   },
+   {
+    "x": 32,
+    "y": 2911,
+    "w": 181,
+    "h": 14
+   },
+   {
+    "x": 32,
+    "y": 3004,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3054,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3103,
+    "w": 126,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3153,
+    "w": 48,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3279,
+    "w": 293,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 3299,
+    "w": 200,
+    "h": 16
+   }
+  ],
+  "eds": [
+   {
+    "x": 32,
+    "y": 116,
+    "w": 47,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 176,
+    "w": 107,
+    "h": 38
+   },
+   {
+    "x": 32,
+    "y": 249,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 273,
+    "w": 123,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 559,
+    "w": 229,
+    "h": 33
+   },
+   {
+    "x": 146,
+    "y": 708,
+    "w": 42,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 805,
+    "w": 235,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 874,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 898,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 922,
+    "w": 208,
+    "h": 19
+   },
+   {
+    "x": 104,
+    "y": 1164,
+    "w": 117,
+    "h": 11
+   },
+   {
+    "x": 66,
+    "y": 1192,
+    "w": 207,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 1211,
+    "w": 113,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 1245,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 1269,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 1293,
+    "w": 143,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 1357,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "x": 101,
+    "y": 1554,
+    "w": 133,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1651,
+    "w": 210,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 1719,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1743,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1767,
+    "w": 176,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 2013,
+    "w": 215,
+    "h": 11
+   },
+   {
+    "x": 66,
+    "y": 2024,
+    "w": 79,
+    "h": 11
+   },
+   {
+    "x": 66,
+    "y": 2052,
+    "w": 186,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 2071,
+    "w": 85,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 2104,
+    "w": 188,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 2128,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 2192,
+    "w": 118,
+    "h": 19
+   },
+   {
+    "x": 94,
+    "y": 2389,
+    "w": 146,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2510,
+    "w": 159,
+    "h": 33
+   },
+   {
+    "x": 56,
+    "y": 2546,
+    "w": 115,
+    "h": 33
+   },
+   {
+    "x": 56,
+    "y": 2619,
+    "w": 225,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2643,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 87,
+    "y": 2701,
+    "w": 161,
+    "h": 19
+   },
+   {
+    "x": 135,
+    "y": 2725,
+    "w": 65,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2846,
+    "w": 268,
+    "h": 14
+   },
+   {
+    "x": 32,
+    "y": 2862,
+    "w": 261,
+    "h": 14
+   },
+   {
+    "x": 32,
+    "y": 2878,
+    "w": 238,
+    "h": 14
+   },
+   {
+    "x": 32,
+    "y": 2894,
+    "w": 270,
+    "h": 14
+   },
+   {
+    "x": 32,
+    "y": 2910,
+    "w": 181,
+    "h": 14
+   },
+   {
+    "x": 32,
+    "y": 3004,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3054,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3103,
+    "w": 126,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3153,
+    "w": 48,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3279,
+    "w": 293,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 3299,
+    "w": 200,
+    "h": 16
+   }
+  ]
+ }
+}

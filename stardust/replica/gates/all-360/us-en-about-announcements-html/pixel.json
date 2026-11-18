@@ -1,0 +1,46 @@
+{
+  "a": "stardust/replica/gates/all-360/us-en-about-announcements-html/origin.png",
+  "b": "stardust/replica/gates/all-360/us-en-about-announcements-html/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 1949,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 2084,
+  "pct": 0.3,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/us-en-about-announcements-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0.57,
+  "textBoxes": 47,
+  "textPixels": 137367,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.4
+    },
+    {
+      "y0": 1500,
+      "y1": 1949,
+      "pct": 0.5
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/about/announcements"
+  }
+}

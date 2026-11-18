@@ -1,0 +1,12 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.insureshield.com/us/en/customer-communications.html
+  no cap origin — content runs 2560px wide at 2560 (fluid)
+  modules  0 sections: none capped · full-bleed ×0
+  contentMaxWidth fluid · shellMaxWidth fluid · root #container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid > div.cmp-container
+build  http://localhost:8791/us-en-customer-communications-html-proposed.html
+  no cap origin — content runs 2560px wide at 2560 (fluid)
+  modules  0 sections: none capped · full-bleed ×0
+  contentMaxWidth fluid · shellMaxWidth fluid · root body.tpl-shell > div.page-root > main.page-main
+rows
+  ✓ content cap: fluid on both sides — no wrapper, no shared module cap
+cap-probe: PASS at 2560 — 0 of 1 rows failed (evidence stardust/replica/gates/us-en-customer-communications-html-2560/cap-iter.json)

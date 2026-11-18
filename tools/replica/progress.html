@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration result</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  details.spectrum-panel > summary { cursor: pointer; list-style: none; }
+  details.spectrum-panel > summary::-webkit-details-marker { display: none; }
+  details.spectrum-panel > summary > h2 { margin: 0; font: inherit; }
+  details.spectrum-panel > summary > h2::before { content: "\25B8"; display: inline-block; width: 1em; margin-right: 6px; color: var(--spectrum-text-subdued); }
+  details.spectrum-panel[open] > summary > h2::before { content: "\25BE"; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table.pages td .spectrum-badge { word-break: normal; }
+  @media (max-width: 400px) { table.pages th, table.pages td { padding: 8px 4px; } }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+  #blocks-used table.blocks { table-layout: fixed; }
+  #blocks-used table.blocks th:nth-child(1) { width: 26%; }
+  #blocks-used table.blocks th:nth-child(2) { width: 32%; }
+  #blocks-used td { overflow-wrap: break-word; vertical-align: top; }
+  #blocks-used td:last-child { overflow-wrap: anywhere; }
+  #blocks-used tr.group td { border-top: 1px solid var(--spectrum-gray-300); }
+  #blocks-used td.block { font-weight: 700; }
+  #blocks-used .block-pages { display: block; font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .variant { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-sm); font-family: var(--spectrum-font-code); }
+  #blocks-used .variant-inline { font-family: var(--spectrum-font-code); font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .default, #blocks-used .blocks-count { color: var(--spectrum-text-subdued); }
+  #blocks-used .default { font-style: italic; }
+  #blocks-used .blocks-count { margin: 0; }
+  #blocks-used button.more { padding: 0; border: 0; background: none; color: var(--spectrum-text-accent); font: inherit; cursor: pointer; text-decoration: underline; }
+  #blocks-used .blocks-popover { width: min(520px, 90vw); max-height: 80vh; overflow: auto; overflow-wrap: anywhere; padding: 16px 20px; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-lg); background-color: var(--spectrum-bg-layer-1); box-shadow: var(--spectrum-shadow-elevated); }
+  #blocks-used .blocks-popover::backdrop { background-color: color-mix(in srgb, var(--spectrum-gray-900) 35%, transparent); }
+  #blocks-used .popover-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  #blocks-used .popover-head h3 { margin: 0; }
+  #blocks-used ul.popover-pages { columns: 2; padding-left: 20px; margin: 12px 0 0; }
+  #blocks-used ul.popover-pages li { padding: 4px 0; break-inside: avoid; }
+  /* A browser without the popover API would show every page list inline; ':popover-open' is invalid there. */
+  @supports not selector(:popover-open) {
+    #blocks-used .blocks-popover, #blocks-used .more { display: none; }
+  }
+  #blocks-used .bp-radio { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  #blocks-used .bp-page, #blocks-used .bp-range { display: none; }
+  #blocks-used .pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+  #blocks-used .labels { display: flex; flex-wrap: wrap; gap: 4px; }
+  #blocks-used .bp-radio:focus-visible ~ .pager label { outline: 2px solid var(--spectrum-focus-ring); }
+  #bp-1:checked ~ table .bp-page-1 { display: table-row-group; }
+  #bp-1:checked ~ .pager .bp-range-1 { display: inline; }
+  #bp-1:checked ~ .pager label[for="bp-1"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-2:checked ~ table .bp-page-2 { display: table-row-group; }
+  #bp-2:checked ~ .pager .bp-range-2 { display: inline; }
+  #bp-2:checked ~ .pager label[for="bp-2"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-3:checked ~ table .bp-page-3 { display: table-row-group; }
+  #bp-3:checked ~ .pager .bp-range-3 { display: inline; }
+  #bp-3:checked ~ .pager label[for="bp-3"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-4:checked ~ table .bp-page-4 { display: table-row-group; }
+  #bp-4:checked ~ .pager .bp-range-4 { display: inline; }
+  #bp-4:checked ~ .pager label[for="bp-4"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-5:checked ~ table .bp-page-5 { display: table-row-group; }
+  #bp-5:checked ~ .pager .bp-range-5 { display: inline; }
+  #bp-5:checked ~ .pager label[for="bp-5"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-6:checked ~ table .bp-page-6 { display: table-row-group; }
+  #bp-6:checked ~ .pager .bp-range-6 { display: inline; }
+  #bp-6:checked ~ .pager label[for="bp-6"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-7:checked ~ table .bp-page-7 { display: table-row-group; }
+  #bp-7:checked ~ .pager .bp-range-7 { display: inline; }
+  #bp-7:checked ~ .pager label[for="bp-7"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration result</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://www.insureshield.com/" target="_blank" rel="noopener">https://www.insureshield.com/</a><br>Preview site: <a href="https://main--9ade650b--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--9ade650b--aemcoder.aem.page/</a><br>Finished: 2026-11-18 14:28 UTC</p>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>What's done</h2></summary>
+    <div class="panel-body">
+      <p>Your site migration is complete. All of your pages are live on the new platform, match your current site at desktop and phone sizes, and pass the quality review with no open issues. Your analytics, tags and consent setup have been carried over and are switched off until you choose to turn them on.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Next steps</h2></summary>
+    <div class="panel-body">
+      <p>The remaining steps are yours: connect the production form services and turn on the tracking you want to keep.</p>
+      <ol class="todo">
+        <li><strong>Make it yours.</strong> Move this result into your own site and GitHub repository: use <strong>Make it yours</strong> on this migration in AEM Coder.</li>
+        <li><strong>Review the pages</strong> on the <a href="https://main--9ade650b--aemcoder.aem.page/" target="_blank" rel="noopener">preview site</a>.</li>
+        <li><strong>Switch on analytics and tags</strong> when you are ready: see <em>Before you switch them on</em> under Analytics and tags.</li>
+      </ol>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Pages</h2></summary>
+    <div class="panel-body">
+      <p>This migration covers 100 pages. 96 of 100 are published on the preview site; 96 have passed the side-by-side check against the original.</p>
+      <details>
+        <summary>100 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://www.insureshield.com/" target="_blank" rel="noopener">https://www.insureshield.com/</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/" target="_blank" rel="noopener">UPS® Secure Commerce | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/shipping-insurance.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/shipping-insurance.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance" target="_blank" rel="noopener">Shipping Insurance for Businesses | InsureShield®</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/claims.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/claims.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims" target="_blank" rel="noopener">Effortless Claims Process | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/partners.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/partners.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/about.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/about.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/global.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/global.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/global" target="_blank" rel="noopener">Global | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/test-deletion.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/test-deletion.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/test-deletion" target="_blank" rel="noopener">Page Test | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/test-deletion1.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/test-deletion1.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/test-deletion1" target="_blank" rel="noopener">Page Test | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/page-deletion.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/page-deletion.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/page-deletion" target="_blank" rel="noopener">Page Test | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/customer-communications.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/customer-communications.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications" target="_blank" rel="noopener">Customers Communications | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/securecommerce.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/securecommerce.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/securecommerce" target="_blank" rel="noopener">UPS® Secure Commerce | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments" target="_blank" rel="noopener">Multi-Carrier Coverage Solutions | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/shipping-insurance/ups-shipments.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/shipping-insurance/ups-shipments.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/ups-shipments" target="_blank" rel="noopener">Insure Your UPS Shipments | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/shipping-insurance/special-commodities.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/shipping-insurance/special-commodities.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/special-commodities" target="_blank" rel="noopener">Special Commodities | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/shipping-insurance/select-my-coverage.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/shipping-insurance/select-my-coverage.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/select-my-coverage" target="_blank" rel="noopener">Best shipping coverage options for your needs | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/shipping-insurance/get-a-quote.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/shipping-insurance/get-a-quote.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/get-a-quote" target="_blank" rel="noopener">Request a Quote with InsureShield Shipping Insurance | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/shipping-insurance/checkout-protection.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/shipping-insurance/checkout-protection.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/checkout-protection" target="_blank" rel="noopener">Checkout Protection by Insureshield | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/shipping-insurance/consumer-electronics-and-technology.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/shipping-insurance/consumer-electronics-and-technology.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/consumer-electronics-and-technology" target="_blank" rel="noopener">Consumer Electronics and Technology | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/shipping-insurance/b2b.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/shipping-insurance/b2b.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/b2b" target="_blank" rel="noopener">B2B | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/shipping-insurance/retail.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/shipping-insurance/retail.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/retail" target="_blank" rel="noopener">Retail | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/solutions/commerceshield.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/solutions/commerceshield.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/commerceshield" target="_blank" rel="noopener">CommerceShield | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/solutions/delivery-defense.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/solutions/delivery-defense.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/solutions/delivery-orchestration.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/solutions/delivery-orchestration.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration" target="_blank" rel="noopener">Delivery Orchestration | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/solutions/insureshield-shipping-insurance.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/solutions/insureshield-shipping-insurance.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/insureshield-shipping-insurance" target="_blank" rel="noopener">Shipping Insurance for Businesses | InsureShield®</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/claims/channel-partners-claims.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/claims/channel-partners-claims.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims/channel-partners-claims" target="_blank" rel="noopener">InsureShield® Partner Claims Portal | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/claims/insureshield-ups-claims-support.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/claims/insureshield-ups-claims-support.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims/insureshield-ups-claims-support" target="_blank" rel="noopener">Claims Made Easy | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/partners/connect-with-a-partner.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/partners/connect-with-a-partner.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/connect-with-a-partner" target="_blank" rel="noopener">Connect with a Partner | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/partners/become-a-partner.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/partners/become-a-partner.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/become-a-partner" target="_blank" rel="noopener">Become a Partner | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/partners/3pl-partners.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/partners/3pl-partners.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/3pl-partners" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/resources/insights.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/resources/insights.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/insights" target="_blank" rel="noopener">Insights to Help Your Business | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/resources/whitepapers-and-guides.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/resources/whitepapers-and-guides.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/whitepapers-and-guides" target="_blank" rel="noopener">Whitepapers &amp; Guides | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/resources/customer-stories.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/resources/customer-stories.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/customer-stories" target="_blank" rel="noopener">Customer Success Stories | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/resources/help-and-support.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/resources/help-and-support.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/help-and-support" target="_blank" rel="noopener">Help &amp; Support for InsureShield Shipping Insurance | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/resources/webinars.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/resources/webinars.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/webinars" target="_blank" rel="noopener">Webinars | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/resources/the-logistics-lowdown.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/resources/the-logistics-lowdown.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/the-logistics-lowdown" target="_blank" rel="noopener">The Logistics Lowdown | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/about/announcements.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/about/announcements.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about/announcements" target="_blank" rel="noopener">Announcements | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/about/our-locations.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/about/our-locations.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about/our-locations" target="_blank" rel="noopener">Product Availability | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/about/contact-us.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/about/contact-us.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about/contact-us" target="_blank" rel="noopener">Contact Us For Help and Services | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/legal/technology-agreement.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/legal/technology-agreement.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/technology-agreement" target="_blank" rel="noopener">Technology Agreement | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/legal/product-disclosure.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/legal/product-disclosure.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/product-disclosure" target="_blank" rel="noopener">Product Disclosure | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/terms-and-conditions-upscia" target="_blank" rel="noopener">UPSCIA Terms &amp;amp; Conditions | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/legal/cookie-settings.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/legal/cookie-settings.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/cookie-settings" target="_blank" rel="noopener">Cookie Settings | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage" target="_blank" rel="noopener">Shopify Terms &amp; Conditions | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/legal/terms-and-conditions-gallagher-affinity.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/legal/terms-and-conditions-gallagher-affinity.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/terms-and-conditions-gallagher-affinity" target="_blank" rel="noopener">Terms and Conditions of Service of Gallagher Affinity | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage-users.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage-users.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage-users" target="_blank" rel="noopener">Shopify Terms &amp; Conditions | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/promotional/webinars.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/promotional/webinars.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/webinars" target="_blank" rel="noopener">Webinars | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/promotional/insureshield-benefits.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/promotional/insureshield-benefits.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/insureshield-benefits" target="_blank" rel="noopener">InsureShield Benefits | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/promotional/delivery-defense-mockup.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/promotional/delivery-defense-mockup.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/delivery-defense-mockup" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/promotional/prod-form-test.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/promotional/prod-form-test.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/prod-form-test" target="_blank" rel="noopener">Prod Form Test | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/customer-communications/updated-contact-information.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/customer-communications/updated-contact-information.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/updated-contact-information" target="_blank" rel="noopener">Update Contact Information | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/customer-communications/confirm-contact-information.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/customer-communications/confirm-contact-information.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/confirm-contact-information" target="_blank" rel="noopener">Update Contact Information | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/customer-communications/enhanced-declared-value.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/customer-communications/enhanced-declared-value.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/enhanced-declared-value" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/risk-mitigation/risk-intelligence-smb2.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/risk-mitigation/risk-intelligence-smb2.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/risk-mitigation/risk-intelligence-smb2" target="_blank" rel="noopener">Risk Intelligence for SMB</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/risk-mitigation/risk-intelligence-smb.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/risk-mitigation/risk-intelligence-smb.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/commerceshield" target="_blank" rel="noopener">CommerceShield | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments/insureShield-connect.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments/insureShield-connect.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-connect" target="_blank" rel="noopener">InsureShield Connect | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify" target="_blank" rel="noopener">InsureShield App for Shopify | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments/insureShield-complete.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments/insureShield-complete.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-complete" target="_blank" rel="noopener">InsureShield Complete | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/solutions/delivery-defense/learning-center.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/solutions/delivery-defense/learning-center.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense/learning-center" target="_blank" rel="noopener">Learning Center | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/solutions/delivery-orchestration/delivery.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/solutions/delivery-orchestration/delivery.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/delivery" target="_blank" rel="noopener">Delivery | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/solutions/delivery-orchestration/pickup.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/solutions/delivery-orchestration/pickup.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/pickup" target="_blank" rel="noopener">Pickup | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/us/en/solutions/delivery-orchestration/returns.html" target="_blank" rel="noopener">https://www.insureshield.com/us/en/solutions/delivery-orchestration/returns.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/returns" target="_blank" rel="noopener">Returns | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/it.html" target="_blank" rel="noopener">https://www.insureshield.com/it.html</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/gb.html" target="_blank" rel="noopener">https://www.insureshield.com/gb.html</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/ca.html" target="_blank" rel="noopener">https://www.insureshield.com/ca.html</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/fr.html" target="_blank" rel="noopener">https://www.insureshield.com/fr.html</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/it/en/home.html" target="_blank" rel="noopener">https://www.insureshield.com/it/en/home.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/it/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/it/en/cargo-insurance.html" target="_blank" rel="noopener">https://www.insureshield.com/it/en/cargo-insurance.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/it/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/it/en/claims.html" target="_blank" rel="noopener">https://www.insureshield.com/it/en/claims.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/it/en/claims" target="_blank" rel="noopener">File a Claim | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/it/en/resources.html" target="_blank" rel="noopener">https://www.insureshield.com/it/en/resources.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/it/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/it/en/about.html" target="_blank" rel="noopener">https://www.insureshield.com/it/en/about.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/it/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/it/en/alerts.html" target="_blank" rel="noopener">https://www.insureshield.com/it/en/alerts.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/it/en/alerts" target="_blank" rel="noopener">Alerts | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/it/it/home.html" target="_blank" rel="noopener">https://www.insureshield.com/it/it/home.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/it/it/home" target="_blank" rel="noopener">Assicurazione sulla spedizione InsureShield® | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/it/it/cargo-insurance.html" target="_blank" rel="noopener">https://www.insureshield.com/it/it/cargo-insurance.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/it/it/cargo-insurance" target="_blank" rel="noopener">Assicurazione del carico | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/it/it/claims.html" target="_blank" rel="noopener">https://www.insureshield.com/it/it/claims.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/it/it/claims" target="_blank" rel="noopener">Reclami | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/it/it/resources.html" target="_blank" rel="noopener">https://www.insureshield.com/it/it/resources.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/it/it/resources" target="_blank" rel="noopener">Suggerimenti e approfondimenti per il tuo business | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/it/it/about.html" target="_blank" rel="noopener">https://www.insureshield.com/it/it/about.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/it/it/about" target="_blank" rel="noopener">Scopri di più sulla nostra storia | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/it/it/alerts.html" target="_blank" rel="noopener">https://www.insureshield.com/it/it/alerts.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/it/it/alerts" target="_blank" rel="noopener">Alerts | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/gb/en/home.html" target="_blank" rel="noopener">https://www.insureshield.com/gb/en/home.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/home" target="_blank" rel="noopener">Business Shipping Insurance | Cargo Insurance Services | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/gb/en/cargo-insurance.html" target="_blank" rel="noopener">https://www.insureshield.com/gb/en/cargo-insurance.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance Services | Freight Insurance | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/gb/en/claims.html" target="_blank" rel="noopener">https://www.insureshield.com/gb/en/claims.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/claims" target="_blank" rel="noopener">File a Cargo Insurance Claim | Online Claims Portal | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/gb/en/resources.html" target="_blank" rel="noopener">https://www.insureshield.com/gb/en/resources.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/resources" target="_blank" rel="noopener">Insurance Resources: Tips For Your Business | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/gb/en/about.html" target="_blank" rel="noopener">https://www.insureshield.com/gb/en/about.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences in the United Kingdom | InsureShield | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/gb/en/other-ups-sites.html" target="_blank" rel="noopener">https://www.insureshield.com/gb/en/other-ups-sites.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/other-ups-sites" target="_blank" rel="noopener">Other UPS Sites | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/gb/en/alerts.html" target="_blank" rel="noopener">https://www.insureshield.com/gb/en/alerts.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/alerts" target="_blank" rel="noopener">Alerts | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/ca/en/home.html" target="_blank" rel="noopener">https://www.insureshield.com/ca/en/home.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/ca/en/shipping-insurance.html" target="_blank" rel="noopener">https://www.insureshield.com/ca/en/shipping-insurance.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/shipping-insurance" target="_blank" rel="noopener">Shipping Insurance | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/ca/en/claims.html" target="_blank" rel="noopener">https://www.insureshield.com/ca/en/claims.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/claims" target="_blank" rel="noopener">File a Claim | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/ca/en/partners.html" target="_blank" rel="noopener">https://www.insureshield.com/ca/en/partners.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/ca/en/resources.html" target="_blank" rel="noopener">https://www.insureshield.com/ca/en/resources.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/ca/en/about.html" target="_blank" rel="noopener">https://www.insureshield.com/ca/en/about.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences in Canada | InsureShield | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/de/en/home.html" target="_blank" rel="noopener">https://www.insureshield.com/de/en/home.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/de/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/de/en/cargo-insurance.html" target="_blank" rel="noopener">https://www.insureshield.com/de/en/cargo-insurance.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/de/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/de/en/claims.html" target="_blank" rel="noopener">https://www.insureshield.com/de/en/claims.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/de/en/claims" target="_blank" rel="noopener">File a Claim | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/de/en/partners.html" target="_blank" rel="noopener">https://www.insureshield.com/de/en/partners.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/de/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/de/en/resources.html" target="_blank" rel="noopener">https://www.insureshield.com/de/en/resources.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/de/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/de/en/about.html" target="_blank" rel="noopener">https://www.insureshield.com/de/en/about.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/de/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/de/en/alerts.html" target="_blank" rel="noopener">https://www.insureshield.com/de/en/alerts.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/de/en/alerts" target="_blank" rel="noopener">Alerts | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/de/de/home.html" target="_blank" rel="noopener">https://www.insureshield.com/de/de/home.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/de/de/home" target="_blank" rel="noopener">InsureShield® Transport- versicherung | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/de/de/cargo-insurance.html" target="_blank" rel="noopener">https://www.insureshield.com/de/de/cargo-insurance.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/de/de/cargo-insurance" target="_blank" rel="noopener">Warentransportversicherung | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.insureshield.com/de/de/claims.html" target="_blank" rel="noopener">https://www.insureshield.com/de/de/claims.html</a></td><td><a href="https://main--9ade650b--aemcoder.aem.page/de/de/claims" target="_blank" rel="noopener">Schadenforderungen | InsureShield</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Page templates</h2></summary>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Home page</td><td>2</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Contact and form pages</td><td>5</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Legal and terms pages</td><td>7</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Resource listings</td><td>7</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Country home pages</td><td>6</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Product and solution pages</td><td>55</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Region selector</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Notice and placeholder pages</td><td>11</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Shipping insurance hub</td><td>2</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" id="blocks-used">
+    <summary class="spectrum-panel-header"><h2>Blocks used</h2></summary>
+    <div class="panel-body">
+      <p>33 blocks in 85 variants across 95 pages. These are the building blocks your authors will work with.</p>
+      <input type="radio" name="blocks-page" id="bp-1" class="bp-radio" checked>
+      <input type="radio" name="blocks-page" id="bp-2" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-3" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-4" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-5" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-6" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-7" class="bp-radio">
+      <table class="blocks">
+        <thead><tr><th>Block</th><th>Variant</th><th>Pages</th></tr></thead>
+        <tbody class="bp-page bp-page-1">
+          <tr class="group"><td class="block">breadcrumb<span class="block-pages">71 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-0-0">View 71 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="5">marketing-hero<span class="block-pages">63 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-1-0">View 52 pages</button></td></tr>
+          <tr><td><span class="variant">title-h2</span></td><td><button class="more" popovertarget="blocks-pages-1-1">View 7 pages</button></td></tr>
+          <tr><td><span class="variant">title-pair</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/delivery-defense-mockup" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a></td></tr>
+          <tr><td><span class="variant">copy-right</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/updated-contact-information" target="_blank" rel="noopener">Update Contact Information | InsureShield</a></td></tr>
+          <tr><td><span class="variant">title-h2</span><span class="variant">desc-gap</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/webinars" target="_blank" rel="noopener">Webinars | InsureShield</a></td></tr>
+          <tr class="group"><td class="block" rowspan="7">secondary-promo<span class="block-pages">45 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-2-0">View 33 pages</button></td></tr>
+          <tr><td><span class="variant">media-right</span></td><td><button class="more" popovertarget="blocks-pages-2-1">View 25 pages</button></td></tr>
+          <tr><td><span class="variant">carousel</span><span class="variant">video</span></td><td><button class="more" popovertarget="blocks-pages-2-2">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">featured</span></td><td><button class="more" popovertarget="blocks-pages-2-3">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">featured</span><span class="variant">copy-inset</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/delivery-defense-mockup" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a></td></tr>
+          <tr><td><span class="variant">media-right</span><span class="variant">featured</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/customer-stories" target="_blank" rel="noopener">Customer Success Stories | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense/learning-center" target="_blank" rel="noopener">Learning Center | InsureShield</a></td></tr>
+          <tr><td><span class="variant">carousel</span><span class="variant">media-right</span><span class="variant">autoplay</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/checkout-protection" target="_blank" rel="noopener">Checkout Protection by Insureshield | InsureShield</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">promo-banner<span class="block-pages">36 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-3-0">View 35 pages</button></td></tr>
+          <tr><td><span class="variant">spacer-above</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/3pl-partners" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></td></tr>
+          <tr class="group"><td class="block" rowspan="7">pathways-cards<span class="block-pages">34 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-4-0">View 19 pages</button></td></tr>
+          <tr><td><span class="variant">icon</span></td><td><button class="more" popovertarget="blocks-pages-4-1">View 21 pages</button></td></tr>
+          <tr><td><span class="variant">no-icon</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/special-commodities" target="_blank" rel="noopener">Special Commodities | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/gb/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance Services | Freight Insurance | InsureShield</a></td></tr>
+          <tr><td><span class="variant">figures</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/delivery" target="_blank" rel="noopener">Delivery | InsureShield</a></td></tr>
+          <tr><td><span class="variant">icon</span><span class="variant">trailing</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/confirm-contact-information" target="_blank" rel="noopener">Update Contact Information | InsureShield</a></td></tr>
+          <tr><td><span class="variant">steps</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/enhanced-declared-value" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></td></tr>
+          <tr><td><span class="variant">steps</span><span class="variant">teaser</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/3pl-partners" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-2">
+          <tr class="group"><td class="block" rowspan="6">featured-list<span class="block-pages">27 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-5-0">View 15 pages</button></td></tr>
+          <tr><td><span class="variant">small-titles</span></td><td><button class="more" popovertarget="blocks-pages-5-1">View 9 pages</button></td></tr>
+          <tr><td><span class="variant">image-right</span><span class="variant">small-titles</span></td><td><button class="more" popovertarget="blocks-pages-5-2">View 5 pages</button></td></tr>
+          <tr><td><span class="variant">h5-titles</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims/insureshield-ups-claims-support" target="_blank" rel="noopener">Claims Made Easy | InsureShield</a></td></tr>
+          <tr><td><span class="variant">image-right</span><span class="variant">h5-titles</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims/insureshield-ups-claims-support" target="_blank" rel="noopener">Claims Made Easy | InsureShield</a></td></tr>
+          <tr><td><span class="variant">image-right</span><span class="variant">small-titles</span><span class="variant">video</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/pickup" target="_blank" rel="noopener">Pickup | InsureShield</a></td></tr>
+          <tr class="group"><td class="block" rowspan="13">form<span class="block-pages">25 pages</span></td><td><span class="variant">quote</span><span class="variant">contact</span></td><td><button class="more" popovertarget="blocks-pages-6-0">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">quote</span></td><td><button class="more" popovertarget="blocks-pages-6-1">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">quote</span><span class="variant">contact</span><span class="variant">captcha</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/become-a-partner" target="_blank" rel="noopener">Become a Partner | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/delivery-defense-mockup" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a></td></tr>
+          <tr><td><span class="variant">quote</span><span class="variant">contact</span><span class="variant">inset</span><span class="variant">gaq</span><span class="variant">gaq-head</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-connect" target="_blank" rel="noopener">InsureShield Connect | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify" target="_blank" rel="noopener">InsureShield App for Shopify | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-complete" target="_blank" rel="noopener">InsureShield Complete | InsureShield</a></td></tr>
+          <tr><td><span class="variant">quote</span><span class="variant">contact</span><span class="variant">inset</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/checkout-protection" target="_blank" rel="noopener">Checkout Protection by Insureshield | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/delivery" target="_blank" rel="noopener">Delivery | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/pickup" target="_blank" rel="noopener">Pickup | InsureShield</a></td></tr>
+          <tr><td><span class="variant">quote</span><span class="variant">contact</span><span class="variant">captcha</span><span class="variant">partnership</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/3pl-partners" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></td></tr>
+          <tr><td><span class="variant">contact</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about/contact-us" target="_blank" rel="noopener">Contact Us For Help and Services | InsureShield</a></td></tr>
+          <tr><td><span class="variant">quote</span><span class="variant">contact</span><span class="variant">demo</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/commerceshield" target="_blank" rel="noopener">CommerceShield | InsureShield</a></td></tr>
+          <tr><td><span class="variant">quote</span><span class="variant">contact</span><span class="variant">gaq-head</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/get-a-quote" target="_blank" rel="noopener">Request a Quote with InsureShield Shipping Insurance | InsureShield</a></td></tr>
+          <tr><td><span class="variant">contact</span><span class="variant">preference</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/updated-contact-information" target="_blank" rel="noopener">Update Contact Information | InsureShield</a></td></tr>
+          <tr><td><span class="variant">contact</span><span class="variant">standalone</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/prod-form-test" target="_blank" rel="noopener">Prod Form Test | InsureShield</a></td></tr>
+          <tr><td><span class="variant">contact</span><span class="variant">support</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/help-and-support" target="_blank" rel="noopener">Help &amp; Support for InsureShield Shipping Insurance | InsureShield</a></td></tr>
+          <tr><td><span class="variant">contact</span><span class="variant">update</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/confirm-contact-information" target="_blank" rel="noopener">Update Contact Information | InsureShield</a></td></tr>
+          <tr class="group"><td class="block">form-toast<span class="block-pages">24 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-7-0">View 24 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="6">accordion<span class="block-pages">20 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-8-0">View 17 pages</button></td></tr>
+          <tr><td><span class="variant">tabs</span><span class="variant">icons</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/delivery-defense-mockup" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a></td></tr>
+          <tr><td><span class="variant">tabs</span><span class="variant">aside</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/risk-mitigation/risk-intelligence-smb2" target="_blank" rel="noopener">Risk Intelligence for SMB</a></td></tr>
+          <tr><td><span class="variant">tabs</span><span class="variant">horizontal</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/commerceshield" target="_blank" rel="noopener">CommerceShield | InsureShield</a></td></tr>
+          <tr><td><span class="variant">tabs</span><span class="variant">logos</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/connect-with-a-partner" target="_blank" rel="noopener">Connect with a Partner | InsureShield</a></td></tr>
+          <tr><td><span class="variant">tabs</span><span class="variant">tab-row</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration" target="_blank" rel="noopener">Delivery Orchestration | InsureShield</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">story-card-grid<span class="block-pages">20 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-9-0">View 18 pages</button></td></tr>
+          <tr><td><span class="variant">initial-6</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/insights" target="_blank" rel="noopener">Insights to Help Your Business | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/customer-stories" target="_blank" rel="noopener">Customer Success Stories | InsureShield</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-3">
+          <tr class="group"><td class="block" rowspan="2">story-card-carousel<span class="block-pages">17 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-10-0">View 16 pages</button></td></tr>
+          <tr><td><span class="variant">stack</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/the-logistics-lowdown" target="_blank" rel="noopener">The Logistics Lowdown | InsureShield</a></td></tr>
+          <tr class="group"><td class="block">sr-heading<span class="block-pages">14 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-11-0">View 14 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="3">featured-promo<span class="block-pages">11 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/home" target="_blank" rel="noopener">Business Shipping Insurance | Cargo Insurance Services | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/de/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/de/de/home" target="_blank" rel="noopener">InsureShield® Transport- versicherung | InsureShield</a></td></tr>
+          <tr><td><span class="variant">content-right</span></td><td><button class="more" popovertarget="blocks-pages-12-1">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">content-right</span><span class="variant">with-title</span></td><td><button class="more" popovertarget="blocks-pages-12-2">View 4 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="4">homepage-hero<span class="block-pages">11 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-13-0">View 7 pages</button></td></tr>
+          <tr><td><span class="variant">content-right</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/it/it/home" target="_blank" rel="noopener">Assicurazione sulla spedizione InsureShield® | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/gb/en/home" target="_blank" rel="noopener">Business Shipping Insurance | Cargo Insurance Services | InsureShield</a></td></tr>
+          <tr><td><span class="variant">ratio-16x9</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/enhanced-declared-value" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></td></tr>
+          <tr><td><span class="variant">ratio-natural</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/3pl-partners" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">transition-hero<span class="block-pages">6 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/terms-and-conditions-upscia" target="_blank" rel="noopener">UPSCIA Terms &amp;amp; Conditions | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage" target="_blank" rel="noopener">Shopify Terms &amp; Conditions | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/terms-and-conditions-gallagher-affinity" target="_blank" rel="noopener">Terms and Conditions of Service of Gallagher Affinity | InsureShield</a></td></tr>
+          <tr><td><span class="variant">marketing</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/technology-agreement" target="_blank" rel="noopener">Technology Agreement | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/product-disclosure" target="_blank" rel="noopener">Product Disclosure | InsureShield</a></td></tr>
+          <tr><td><span class="variant">small</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage-users" target="_blank" rel="noopener">Shopify Terms &amp; Conditions | InsureShield</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-4">
+          <tr class="group"><td class="block">form-anchor<span class="block-pages">5 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-15-0">View 5 pages</button></td></tr>
+          <tr class="group"><td class="block">search<span class="block-pages">5 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-16-0">View 5 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="2">columns<span class="block-pages">4 pages</span></td><td><span class="variant">table</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage" target="_blank" rel="noopener">Shopify Terms &amp; Conditions | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/terms-and-conditions-gallagher-affinity" target="_blank" rel="noopener">Terms and Conditions of Service of Gallagher Affinity | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage-users" target="_blank" rel="noopener">Shopify Terms &amp; Conditions | InsureShield</a></td></tr>
+          <tr><td><span class="variant">titled</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/webinars" target="_blank" rel="noopener">Webinars | InsureShield</a></td></tr>
+          <tr class="group"><td class="block">loss-calculator<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-18-0">View 4 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="3">data-table<span class="block-pages">3 pages</span></td><td><span class="variant">compare</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/select-my-coverage" target="_blank" rel="noopener">Best shipping coverage options for your needs | InsureShield</a></td></tr>
+          <tr><td><span class="variant">compare</span><span class="variant">head-h2</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense/learning-center" target="_blank" rel="noopener">Learning Center | InsureShield</a></td></tr>
+          <tr><td><span class="variant">teal-head</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/enhanced-declared-value" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-5">
+          <tr class="group"><td class="block" rowspan="2">roi-calculator<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense/learning-center" target="_blank" rel="noopener">Learning Center | InsureShield</a></td></tr>
+          <tr><td><span class="variant">blank-3</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/delivery-defense-mockup" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a></td></tr>
+          <tr class="group"><td class="block">stats<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/" target="_blank" rel="noopener">UPS® Secure Commerce | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/securecommerce" target="_blank" rel="noopener">UPS® Secure Commerce | InsureShield</a></td></tr>
+          <tr class="group"><td class="block">logo-strip<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/" target="_blank" rel="noopener">UPS® Secure Commerce | InsureShield</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/securecommerce" target="_blank" rel="noopener">UPS® Secure Commerce | InsureShield</a></td></tr>
+          <tr class="group"><td class="block">sh-band<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance" target="_blank" rel="noopener">Shipping Insurance for Businesses | InsureShield®</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/insureshield-shipping-insurance" target="_blank" rel="noopener">Shipping Insurance for Businesses | InsureShield®</a></td></tr>
+          <tr class="group"><td class="block">sh-benefits<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance" target="_blank" rel="noopener">Shipping Insurance for Businesses | InsureShield®</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/insureshield-shipping-insurance" target="_blank" rel="noopener">Shipping Insurance for Businesses | InsureShield®</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-6">
+          <tr class="group"><td class="block">sh-compare<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance" target="_blank" rel="noopener">Shipping Insurance for Businesses | InsureShield®</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/insureshield-shipping-insurance" target="_blank" rel="noopener">Shipping Insurance for Businesses | InsureShield®</a></td></tr>
+          <tr class="group"><td class="block">sh-faq<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance" target="_blank" rel="noopener">Shipping Insurance for Businesses | InsureShield®</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/insureshield-shipping-insurance" target="_blank" rel="noopener">Shipping Insurance for Businesses | InsureShield®</a></td></tr>
+          <tr class="group"><td class="block">sh-hero<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance" target="_blank" rel="noopener">Shipping Insurance for Businesses | InsureShield®</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/insureshield-shipping-insurance" target="_blank" rel="noopener">Shipping Insurance for Businesses | InsureShield®</a></td></tr>
+          <tr class="group"><td class="block">sh-tiles<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance" target="_blank" rel="noopener">Shipping Insurance for Businesses | InsureShield®</a>, <a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/insureshield-shipping-insurance" target="_blank" rel="noopener">Shipping Insurance for Businesses | InsureShield®</a></td></tr>
+          <tr class="group"><td class="block">cards<span class="block-pages">1 page</span></td><td><span class="variant">pricing</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/commerceshield" target="_blank" rel="noopener">CommerceShield | InsureShield</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-7">
+          <tr class="group"><td class="block">check-card<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/3pl-partners" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></td></tr>
+          <tr class="group"><td class="block">office-list<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about/our-locations" target="_blank" rel="noopener">Product Availability | InsureShield</a></td></tr>
+          <tr class="group"><td class="block">region-selector<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--9ade650b--aemcoder.aem.page/us/en/global" target="_blank" rel="noopener">Global | InsureShield</a></td></tr>
+        </tbody>
+      </table>
+      <nav class="pager" aria-label="Pages of blocks"><span class="bp-range bp-range-1">Blocks 1–5 of 33</span><span class="bp-range bp-range-2">Blocks 6–10 of 33</span><span class="bp-range bp-range-3">Blocks 11–15 of 33</span><span class="bp-range bp-range-4">Blocks 16–20 of 33</span><span class="bp-range bp-range-5">Blocks 21–25 of 33</span><span class="bp-range bp-range-6">Blocks 26–30 of 33</span><span class="bp-range bp-range-7">Blocks 31–33 of 33</span><div class="labels"><label for="bp-1" class="spectrum-button spectrum-button--quiet">1</label><label for="bp-2" class="spectrum-button spectrum-button--quiet">2</label><label for="bp-3" class="spectrum-button spectrum-button--quiet">3</label><label for="bp-4" class="spectrum-button spectrum-button--quiet">4</label><label for="bp-5" class="spectrum-button spectrum-button--quiet">5</label><label for="bp-6" class="spectrum-button spectrum-button--quiet">6</label><label for="bp-7" class="spectrum-button spectrum-button--quiet">7</label></div></nav>
+      <div popover id="blocks-pages-0-0" class="blocks-popover" aria-labelledby="blocks-pages-0-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-0-title">breadcrumb <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 71 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims" target="_blank" rel="noopener">Effortless Claims Process | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments" target="_blank" rel="noopener">Multi-Carrier Coverage Solutions | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/ups-shipments" target="_blank" rel="noopener">Insure Your UPS Shipments | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/special-commodities" target="_blank" rel="noopener">Special Commodities | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/select-my-coverage" target="_blank" rel="noopener">Best shipping coverage options for your needs | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/get-a-quote" target="_blank" rel="noopener">Request a Quote with InsureShield Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/checkout-protection" target="_blank" rel="noopener">Checkout Protection by Insureshield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/consumer-electronics-and-technology" target="_blank" rel="noopener">Consumer Electronics and Technology | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/b2b" target="_blank" rel="noopener">B2B | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/retail" target="_blank" rel="noopener">Retail | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/commerceshield" target="_blank" rel="noopener">CommerceShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration" target="_blank" rel="noopener">Delivery Orchestration | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims/channel-partners-claims" target="_blank" rel="noopener">InsureShield® Partner Claims Portal | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims/insureshield-ups-claims-support" target="_blank" rel="noopener">Claims Made Easy | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/connect-with-a-partner" target="_blank" rel="noopener">Connect with a Partner | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/become-a-partner" target="_blank" rel="noopener">Become a Partner | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/3pl-partners" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/insights" target="_blank" rel="noopener">Insights to Help Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/whitepapers-and-guides" target="_blank" rel="noopener">Whitepapers &amp; Guides | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/customer-stories" target="_blank" rel="noopener">Customer Success Stories | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/help-and-support" target="_blank" rel="noopener">Help &amp; Support for InsureShield Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/webinars" target="_blank" rel="noopener">Webinars | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/the-logistics-lowdown" target="_blank" rel="noopener">The Logistics Lowdown | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about/announcements" target="_blank" rel="noopener">Announcements | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about/our-locations" target="_blank" rel="noopener">Product Availability | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about/contact-us" target="_blank" rel="noopener">Contact Us For Help and Services | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/technology-agreement" target="_blank" rel="noopener">Technology Agreement | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/product-disclosure" target="_blank" rel="noopener">Product Disclosure | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/terms-and-conditions-upscia" target="_blank" rel="noopener">UPSCIA Terms &amp;amp; Conditions | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/cookie-settings" target="_blank" rel="noopener">Cookie Settings | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/webinars" target="_blank" rel="noopener">Webinars | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/insureshield-benefits" target="_blank" rel="noopener">InsureShield Benefits | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/delivery-defense-mockup" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/prod-form-test" target="_blank" rel="noopener">Prod Form Test | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/updated-contact-information" target="_blank" rel="noopener">Update Contact Information | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/confirm-contact-information" target="_blank" rel="noopener">Update Contact Information | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/enhanced-declared-value" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-connect" target="_blank" rel="noopener">InsureShield Connect | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify" target="_blank" rel="noopener">InsureShield App for Shopify | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-complete" target="_blank" rel="noopener">InsureShield Complete | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense/learning-center" target="_blank" rel="noopener">Learning Center | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/delivery" target="_blank" rel="noopener">Delivery | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/pickup" target="_blank" rel="noopener">Pickup | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/returns" target="_blank" rel="noopener">Returns | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/claims" target="_blank" rel="noopener">File a Claim | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/cargo-insurance" target="_blank" rel="noopener">Assicurazione del carico | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/claims" target="_blank" rel="noopener">Reclami | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/resources" target="_blank" rel="noopener">Suggerimenti e approfondimenti per il tuo business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/about" target="_blank" rel="noopener">Scopri di più sulla nostra storia | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance Services | Freight Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/claims" target="_blank" rel="noopener">File a Cargo Insurance Claim | Online Claims Portal | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/resources" target="_blank" rel="noopener">Insurance Resources: Tips For Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences in the United Kingdom | InsureShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/shipping-insurance" target="_blank" rel="noopener">Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/claims" target="_blank" rel="noopener">File a Claim | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences in Canada | InsureShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/claims" target="_blank" rel="noopener">File a Claim | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/de/cargo-insurance" target="_blank" rel="noopener">Warentransportversicherung | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/de/claims" target="_blank" rel="noopener">Schadenforderungen | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-0" class="blocks-popover" aria-labelledby="blocks-pages-1-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-0-title">marketing-hero <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 52 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims" target="_blank" rel="noopener">Effortless Claims Process | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments" target="_blank" rel="noopener">Multi-Carrier Coverage Solutions | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/ups-shipments" target="_blank" rel="noopener">Insure Your UPS Shipments | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/special-commodities" target="_blank" rel="noopener">Special Commodities | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/select-my-coverage" target="_blank" rel="noopener">Best shipping coverage options for your needs | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/get-a-quote" target="_blank" rel="noopener">Request a Quote with InsureShield Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/checkout-protection" target="_blank" rel="noopener">Checkout Protection by Insureshield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/b2b" target="_blank" rel="noopener">B2B | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/commerceshield" target="_blank" rel="noopener">CommerceShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration" target="_blank" rel="noopener">Delivery Orchestration | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims/channel-partners-claims" target="_blank" rel="noopener">InsureShield® Partner Claims Portal | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims/insureshield-ups-claims-support" target="_blank" rel="noopener">Claims Made Easy | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/connect-with-a-partner" target="_blank" rel="noopener">Connect with a Partner | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/become-a-partner" target="_blank" rel="noopener">Become a Partner | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/insights" target="_blank" rel="noopener">Insights to Help Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/whitepapers-and-guides" target="_blank" rel="noopener">Whitepapers &amp; Guides | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/customer-stories" target="_blank" rel="noopener">Customer Success Stories | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/help-and-support" target="_blank" rel="noopener">Help &amp; Support for InsureShield Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about/announcements" target="_blank" rel="noopener">Announcements | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about/our-locations" target="_blank" rel="noopener">Product Availability | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about/contact-us" target="_blank" rel="noopener">Contact Us For Help and Services | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/confirm-contact-information" target="_blank" rel="noopener">Update Contact Information | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/risk-mitigation/risk-intelligence-smb2" target="_blank" rel="noopener">Risk Intelligence for SMB</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-connect" target="_blank" rel="noopener">InsureShield Connect | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify" target="_blank" rel="noopener">InsureShield App for Shopify | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-complete" target="_blank" rel="noopener">InsureShield Complete | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense/learning-center" target="_blank" rel="noopener">Learning Center | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/claims" target="_blank" rel="noopener">File a Claim | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/cargo-insurance" target="_blank" rel="noopener">Assicurazione del carico | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/claims" target="_blank" rel="noopener">Reclami | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/resources" target="_blank" rel="noopener">Suggerimenti e approfondimenti per il tuo business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/about" target="_blank" rel="noopener">Scopri di più sulla nostra storia | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance Services | Freight Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/claims" target="_blank" rel="noopener">File a Cargo Insurance Claim | Online Claims Portal | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/resources" target="_blank" rel="noopener">Insurance Resources: Tips For Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences in the United Kingdom | InsureShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/shipping-insurance" target="_blank" rel="noopener">Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/claims" target="_blank" rel="noopener">File a Claim | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences in Canada | InsureShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/claims" target="_blank" rel="noopener">File a Claim | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/de/cargo-insurance" target="_blank" rel="noopener">Warentransportversicherung | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/de/claims" target="_blank" rel="noopener">Schadenforderungen | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-1" class="blocks-popover" aria-labelledby="blocks-pages-1-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-1-title">marketing-hero <span class="variant-inline">title-h2</span></h3>
+            <p class="blocks-count">Used on 7 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/consumer-electronics-and-technology" target="_blank" rel="noopener">Consumer Electronics and Technology | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/retail" target="_blank" rel="noopener">Retail | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/the-logistics-lowdown" target="_blank" rel="noopener">The Logistics Lowdown | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/insureshield-benefits" target="_blank" rel="noopener">InsureShield Benefits | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/delivery" target="_blank" rel="noopener">Delivery | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/pickup" target="_blank" rel="noopener">Pickup | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/returns" target="_blank" rel="noopener">Returns | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-0" class="blocks-popover" aria-labelledby="blocks-pages-2-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-0-title">secondary-promo <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 33 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments" target="_blank" rel="noopener">Multi-Carrier Coverage Solutions | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/get-a-quote" target="_blank" rel="noopener">Request a Quote with InsureShield Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/checkout-protection" target="_blank" rel="noopener">Checkout Protection by Insureshield | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/consumer-electronics-and-technology" target="_blank" rel="noopener">Consumer Electronics and Technology | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/b2b" target="_blank" rel="noopener">B2B | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/retail" target="_blank" rel="noopener">Retail | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration" target="_blank" rel="noopener">Delivery Orchestration | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/connect-with-a-partner" target="_blank" rel="noopener">Connect with a Partner | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/the-logistics-lowdown" target="_blank" rel="noopener">The Logistics Lowdown | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/webinars" target="_blank" rel="noopener">Webinars | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/enhanced-declared-value" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense/learning-center" target="_blank" rel="noopener">Learning Center | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/delivery" target="_blank" rel="noopener">Delivery | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/pickup" target="_blank" rel="noopener">Pickup | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/returns" target="_blank" rel="noopener">Returns | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/cargo-insurance" target="_blank" rel="noopener">Assicurazione del carico | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/about" target="_blank" rel="noopener">Scopri di più sulla nostra storia | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/home" target="_blank" rel="noopener">Business Shipping Insurance | Cargo Insurance Services | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance Services | Freight Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences in the United Kingdom | InsureShield | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/shipping-insurance" target="_blank" rel="noopener">Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences in Canada | InsureShield | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/de/home" target="_blank" rel="noopener">InsureShield® Transport- versicherung | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/de/cargo-insurance" target="_blank" rel="noopener">Warentransportversicherung | InsureShield</a> <span class="blocks-count">×2</span></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-1" class="blocks-popover" aria-labelledby="blocks-pages-2-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-1-title">secondary-promo <span class="variant-inline">media-right</span></h3>
+            <p class="blocks-count">Used on 25 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims" target="_blank" rel="noopener">Effortless Claims Process | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments" target="_blank" rel="noopener">Multi-Carrier Coverage Solutions | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/get-a-quote" target="_blank" rel="noopener">Request a Quote with InsureShield Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/checkout-protection" target="_blank" rel="noopener">Checkout Protection by Insureshield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/consumer-electronics-and-technology" target="_blank" rel="noopener">Consumer Electronics and Technology | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/b2b" target="_blank" rel="noopener">B2B | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/become-a-partner" target="_blank" rel="noopener">Become a Partner | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/insureshield-benefits" target="_blank" rel="noopener">InsureShield Benefits | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-complete" target="_blank" rel="noopener">InsureShield Complete | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense/learning-center" target="_blank" rel="noopener">Learning Center | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/home" target="_blank" rel="noopener">Assicurazione sulla spedizione InsureShield® | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/cargo-insurance" target="_blank" rel="noopener">Assicurazione del carico | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/about" target="_blank" rel="noopener">Scopri di più sulla nostra storia | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance Services | Freight Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences in the United Kingdom | InsureShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/shipping-insurance" target="_blank" rel="noopener">Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences in Canada | InsureShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/de/cargo-insurance" target="_blank" rel="noopener">Warentransportversicherung | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-2" class="blocks-popover" aria-labelledby="blocks-pages-2-2-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-2-title">secondary-promo <span class="variant-inline">carousel video</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-2" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/insights" target="_blank" rel="noopener">Insights to Help Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/customer-stories" target="_blank" rel="noopener">Customer Success Stories | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/insureshield-benefits" target="_blank" rel="noopener">InsureShield Benefits | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense/learning-center" target="_blank" rel="noopener">Learning Center | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-3" class="blocks-popover" aria-labelledby="blocks-pages-2-3-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-3-title">secondary-promo <span class="variant-inline">featured</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-3" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/connect-with-a-partner" target="_blank" rel="noopener">Connect with a Partner | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/become-a-partner" target="_blank" rel="noopener">Become a Partner | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/whitepapers-and-guides" target="_blank" rel="noopener">Whitepapers &amp; Guides | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-3-0" class="blocks-popover" aria-labelledby="blocks-pages-3-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-3-0-title">promo-banner <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 35 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-3-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments" target="_blank" rel="noopener">Multi-Carrier Coverage Solutions | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/ups-shipments" target="_blank" rel="noopener">Insure Your UPS Shipments | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/special-commodities" target="_blank" rel="noopener">Special Commodities | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/select-my-coverage" target="_blank" rel="noopener">Best shipping coverage options for your needs | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/get-a-quote" target="_blank" rel="noopener">Request a Quote with InsureShield Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/checkout-protection" target="_blank" rel="noopener">Checkout Protection by Insureshield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/consumer-electronics-and-technology" target="_blank" rel="noopener">Consumer Electronics and Technology | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/b2b" target="_blank" rel="noopener">B2B | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/retail" target="_blank" rel="noopener">Retail | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/commerceshield" target="_blank" rel="noopener">CommerceShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims/insureshield-ups-claims-support" target="_blank" rel="noopener">Claims Made Easy | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/insights" target="_blank" rel="noopener">Insights to Help Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/whitepapers-and-guides" target="_blank" rel="noopener">Whitepapers &amp; Guides | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/customer-stories" target="_blank" rel="noopener">Customer Success Stories | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/help-and-support" target="_blank" rel="noopener">Help &amp; Support for InsureShield Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/the-logistics-lowdown" target="_blank" rel="noopener">The Logistics Lowdown | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/enhanced-declared-value" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-complete" target="_blank" rel="noopener">InsureShield Complete | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/resources" target="_blank" rel="noopener">Suggerimenti e approfondimenti per il tuo business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/about" target="_blank" rel="noopener">Scopri di più sulla nostra storia | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/home" target="_blank" rel="noopener">Business Shipping Insurance | Cargo Insurance Services | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance Services | Freight Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/resources" target="_blank" rel="noopener">Insurance Resources: Tips For Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences in the United Kingdom | InsureShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/shipping-insurance" target="_blank" rel="noopener">Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences in Canada | InsureShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-4-0" class="blocks-popover" aria-labelledby="blocks-pages-4-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-4-0-title">pathways-cards <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 19 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-4-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/" target="_blank" rel="noopener">UPS® Secure Commerce | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims" target="_blank" rel="noopener">Effortless Claims Process | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/securecommerce" target="_blank" rel="noopener">UPS® Secure Commerce | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments" target="_blank" rel="noopener">Multi-Carrier Coverage Solutions | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/whitepapers-and-guides" target="_blank" rel="noopener">Whitepapers &amp; Guides | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about/contact-us" target="_blank" rel="noopener">Contact Us For Help and Services | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/insureshield-benefits" target="_blank" rel="noopener">InsureShield Benefits | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/delivery" target="_blank" rel="noopener">Delivery | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/pickup" target="_blank" rel="noopener">Pickup | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/home" target="_blank" rel="noopener">Assicurazione sulla spedizione InsureShield® | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/cargo-insurance" target="_blank" rel="noopener">Assicurazione del carico | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/home" target="_blank" rel="noopener">Business Shipping Insurance | Cargo Insurance Services | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/shipping-insurance" target="_blank" rel="noopener">Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/de/cargo-insurance" target="_blank" rel="noopener">Warentransportversicherung | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-4-1" class="blocks-popover" aria-labelledby="blocks-pages-4-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-4-1-title">pathways-cards <span class="variant-inline">icon</span></h3>
+            <p class="blocks-count">Used on 21 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-4-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/" target="_blank" rel="noopener">UPS® Secure Commerce | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/securecommerce" target="_blank" rel="noopener">UPS® Secure Commerce | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/retail" target="_blank" rel="noopener">Retail | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/commerceshield" target="_blank" rel="noopener">CommerceShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/3pl-partners" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/help-and-support" target="_blank" rel="noopener">Help &amp; Support for InsureShield Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about/our-locations" target="_blank" rel="noopener">Product Availability | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about/contact-us" target="_blank" rel="noopener">Contact Us For Help and Services | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/enhanced-declared-value" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-connect" target="_blank" rel="noopener">InsureShield Connect | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify" target="_blank" rel="noopener">InsureShield App for Shopify | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/delivery" target="_blank" rel="noopener">Delivery | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/returns" target="_blank" rel="noopener">Returns | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/home" target="_blank" rel="noopener">Assicurazione sulla spedizione InsureShield® | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/home" target="_blank" rel="noopener">Business Shipping Insurance | Cargo Insurance Services | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/de/home" target="_blank" rel="noopener">InsureShield® Transport- versicherung | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-5-0" class="blocks-popover" aria-labelledby="blocks-pages-5-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-5-0-title">featured-list <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 15 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-5-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims/channel-partners-claims" target="_blank" rel="noopener">InsureShield® Partner Claims Portal | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/become-a-partner" target="_blank" rel="noopener">Become a Partner | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/enhanced-declared-value" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/risk-mitigation/risk-intelligence-smb2" target="_blank" rel="noopener">Risk Intelligence for SMB</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-connect" target="_blank" rel="noopener">InsureShield Connect | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-complete" target="_blank" rel="noopener">InsureShield Complete | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/claims" target="_blank" rel="noopener">File a Claim | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/claims" target="_blank" rel="noopener">Reclami | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/claims" target="_blank" rel="noopener">File a Cargo Insurance Claim | Online Claims Portal | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/claims" target="_blank" rel="noopener">File a Claim | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/claims" target="_blank" rel="noopener">File a Claim | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/de/home" target="_blank" rel="noopener">InsureShield® Transport- versicherung | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/de/claims" target="_blank" rel="noopener">Schadenforderungen | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-5-1" class="blocks-popover" aria-labelledby="blocks-pages-5-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-5-1-title">featured-list <span class="variant-inline">small-titles</span></h3>
+            <p class="blocks-count">Used on 9 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-5-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims" target="_blank" rel="noopener">Effortless Claims Process | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/ups-shipments" target="_blank" rel="noopener">Insure Your UPS Shipments | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/select-my-coverage" target="_blank" rel="noopener">Best shipping coverage options for your needs | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/commerceshield" target="_blank" rel="noopener">CommerceShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/become-a-partner" target="_blank" rel="noopener">Become a Partner | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/delivery-defense-mockup" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/home" target="_blank" rel="noopener">Business Shipping Insurance | Cargo Insurance Services | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance Services | Freight Insurance | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-5-2" class="blocks-popover" aria-labelledby="blocks-pages-5-2-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-5-2-title">featured-list <span class="variant-inline">image-right small-titles</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-5-2" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/special-commodities" target="_blank" rel="noopener">Special Commodities | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/commerceshield" target="_blank" rel="noopener">CommerceShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims/channel-partners-claims" target="_blank" rel="noopener">InsureShield® Partner Claims Portal | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-connect" target="_blank" rel="noopener">InsureShield Connect | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-6-0" class="blocks-popover" aria-labelledby="blocks-pages-6-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-6-0-title">form <span class="variant-inline">quote contact</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-6-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration" target="_blank" rel="noopener">Delivery Orchestration | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/insureshield-benefits" target="_blank" rel="noopener">InsureShield Benefits | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/enhanced-declared-value" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/returns" target="_blank" rel="noopener">Returns | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-6-1" class="blocks-popover" aria-labelledby="blocks-pages-6-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-6-1-title">form <span class="variant-inline">quote</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-6-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/special-commodities" target="_blank" rel="noopener">Special Commodities | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/consumer-electronics-and-technology" target="_blank" rel="noopener">Consumer Electronics and Technology | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/b2b" target="_blank" rel="noopener">B2B | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/retail" target="_blank" rel="noopener">Retail | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-7-0" class="blocks-popover" aria-labelledby="blocks-pages-7-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-7-0-title">form-toast <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 24 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-7-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments" target="_blank" rel="noopener">Multi-Carrier Coverage Solutions | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/special-commodities" target="_blank" rel="noopener">Special Commodities | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/select-my-coverage" target="_blank" rel="noopener">Best shipping coverage options for your needs | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/get-a-quote" target="_blank" rel="noopener">Request a Quote with InsureShield Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/consumer-electronics-and-technology" target="_blank" rel="noopener">Consumer Electronics and Technology | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/b2b" target="_blank" rel="noopener">B2B | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/retail" target="_blank" rel="noopener">Retail | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/commerceshield" target="_blank" rel="noopener">CommerceShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration" target="_blank" rel="noopener">Delivery Orchestration | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/become-a-partner" target="_blank" rel="noopener">Become a Partner | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners/3pl-partners" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about/contact-us" target="_blank" rel="noopener">Contact Us For Help and Services | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/delivery-defense-mockup" target="_blank" rel="noopener">DeliveryDefense | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/confirm-contact-information" target="_blank" rel="noopener">Update Contact Information | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/enhanced-declared-value" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/risk-mitigation/risk-intelligence-smb2" target="_blank" rel="noopener">Risk Intelligence for SMB</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-connect" target="_blank" rel="noopener">InsureShield Connect | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify" target="_blank" rel="noopener">InsureShield App for Shopify | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-complete" target="_blank" rel="noopener">InsureShield Complete | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/delivery" target="_blank" rel="noopener">Delivery | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/pickup" target="_blank" rel="noopener">Pickup | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/returns" target="_blank" rel="noopener">Returns | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-8-0" class="blocks-popover" aria-labelledby="blocks-pages-8-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-8-0-title">accordion <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 17 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-8-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims" target="_blank" rel="noopener">Effortless Claims Process | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/get-a-quote" target="_blank" rel="noopener">Request a Quote with InsureShield Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/commerceshield" target="_blank" rel="noopener">CommerceShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration" target="_blank" rel="noopener">Delivery Orchestration | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/claims/channel-partners-claims" target="_blank" rel="noopener">InsureShield® Partner Claims Portal | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/help-and-support" target="_blank" rel="noopener">Help &amp; Support for InsureShield Shipping Insurance | InsureShield</a> <span class="blocks-count">×4</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/risk-mitigation/risk-intelligence-smb2" target="_blank" rel="noopener">Risk Intelligence for SMB</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/delivery" target="_blank" rel="noopener">Delivery | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/pickup" target="_blank" rel="noopener">Pickup | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/returns" target="_blank" rel="noopener">Returns | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/claims" target="_blank" rel="noopener">File a Claim | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/claims" target="_blank" rel="noopener">Reclami | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance Services | Freight Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/claims" target="_blank" rel="noopener">File a Cargo Insurance Claim | Online Claims Portal | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/claims" target="_blank" rel="noopener">File a Claim | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/claims" target="_blank" rel="noopener">File a Claim | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/de/claims" target="_blank" rel="noopener">Schadenforderungen | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-9-0" class="blocks-popover" aria-labelledby="blocks-pages-9-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-9-0-title">story-card-grid <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 18 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-9-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/special-commodities" target="_blank" rel="noopener">Special Commodities | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/whitepapers-and-guides" target="_blank" rel="noopener">Whitepapers &amp; Guides | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/the-logistics-lowdown" target="_blank" rel="noopener">The Logistics Lowdown | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/home" target="_blank" rel="noopener">Assicurazione sulla spedizione InsureShield® | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/cargo-insurance" target="_blank" rel="noopener">Assicurazione del carico | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/about" target="_blank" rel="noopener">Scopri di più sulla nostra storia | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences in the United Kingdom | InsureShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/shipping-insurance" target="_blank" rel="noopener">Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences in Canada | InsureShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/de/home" target="_blank" rel="noopener">InsureShield® Transport- versicherung | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/de/cargo-insurance" target="_blank" rel="noopener">Warentransportversicherung | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-10-0" class="blocks-popover" aria-labelledby="blocks-pages-10-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-10-0-title">story-card-carousel <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 16 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-10-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/partners" target="_blank" rel="noopener">Learn About Our Partner Network | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments" target="_blank" rel="noopener">Multi-Carrier Coverage Solutions | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/ups-shipments" target="_blank" rel="noopener">Insure Your UPS Shipments | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/select-my-coverage" target="_blank" rel="noopener">Best shipping coverage options for your needs | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/consumer-electronics-and-technology" target="_blank" rel="noopener">Consumer Electronics and Technology | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/b2b" target="_blank" rel="noopener">B2B | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/retail" target="_blank" rel="noopener">Retail | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about/announcements" target="_blank" rel="noopener">Announcements | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/enhanced-declared-value" target="_blank" rel="noopener">Enhanced Declared Value | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense/learning-center" target="_blank" rel="noopener">Learning Center | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/resources" target="_blank" rel="noopener">Suggerimenti e approfondimenti per il tuo business | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/cargo-insurance" target="_blank" rel="noopener">Cargo Insurance Services | Freight Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/resources" target="_blank" rel="noopener">Insurance Resources: Tips For Your Business | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a> <span class="blocks-count">×2</span></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-11-0" class="blocks-popover" aria-labelledby="blocks-pages-11-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-11-0-title">sr-heading <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 14 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-11-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/" target="_blank" rel="noopener">UPS® Secure Commerce | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/test-deletion" target="_blank" rel="noopener">Page Test | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/test-deletion1" target="_blank" rel="noopener">Page Test | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/page-deletion" target="_blank" rel="noopener">Page Test | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications" target="_blank" rel="noopener">Customers Communications | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/securecommerce" target="_blank" rel="noopener">UPS® Secure Commerce | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/webinars" target="_blank" rel="noopener">Webinars | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/legal/cookie-settings" target="_blank" rel="noopener">Cookie Settings | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/prod-form-test" target="_blank" rel="noopener">Prod Form Test | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/alerts" target="_blank" rel="noopener">Alerts | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/alerts" target="_blank" rel="noopener">Alerts | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/other-ups-sites" target="_blank" rel="noopener">Other UPS Sites | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/alerts" target="_blank" rel="noopener">Alerts | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/alerts" target="_blank" rel="noopener">Alerts | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-12-1" class="blocks-popover" aria-labelledby="blocks-pages-12-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-12-1-title">featured-promo <span class="variant-inline">content-right</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-12-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/solutions/commerceshield" target="_blank" rel="noopener">CommerceShield | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/home" target="_blank" rel="noopener">Assicurazione sulla spedizione InsureShield® | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-12-2" class="blocks-popover" aria-labelledby="blocks-pages-12-2-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-12-2-title">featured-promo <span class="variant-inline">content-right with-title</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-12-2" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/insights" target="_blank" rel="noopener">Insights to Help Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-connect" target="_blank" rel="noopener">InsureShield Connect | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify" target="_blank" rel="noopener">InsureShield App for Shopify | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-complete" target="_blank" rel="noopener">InsureShield Complete | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-13-0" class="blocks-popover" aria-labelledby="blocks-pages-13-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-13-0-title">homepage-hero <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 7 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-13-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/" target="_blank" rel="noopener">UPS® Secure Commerce | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about" target="_blank" rel="noopener">Insuring Better Shipping Experiences | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/securecommerce" target="_blank" rel="noopener">UPS® Secure Commerce | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/home" target="_blank" rel="noopener">InsureShield® Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/de/home" target="_blank" rel="noopener">InsureShield® Transport- versicherung | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-15-0" class="blocks-popover" aria-labelledby="blocks-pages-15-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-15-0-title">form-anchor <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-15-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/resources/help-and-support" target="_blank" rel="noopener">Help &amp; Support for InsureShield Shipping Insurance | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/about/contact-us" target="_blank" rel="noopener">Contact Us For Help and Services | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/promotional/prod-form-test" target="_blank" rel="noopener">Prod Form Test | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/updated-contact-information" target="_blank" rel="noopener">Update Contact Information | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/confirm-contact-information" target="_blank" rel="noopener">Update Contact Information | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-16-0" class="blocks-popover" aria-labelledby="blocks-pages-16-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-16-0-title">search <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-16-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/it/it/resources" target="_blank" rel="noopener">Suggerimenti e approfondimenti per il tuo business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/gb/en/resources" target="_blank" rel="noopener">Insurance Resources: Tips For Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/ca/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/de/en/resources" target="_blank" rel="noopener">Tips &amp; Insights For Your Business | InsureShield</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-18-0" class="blocks-popover" aria-labelledby="blocks-pages-18-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-18-0-title">loss-calculator <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-18-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/special-commodities" target="_blank" rel="noopener">Special Commodities | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/consumer-electronics-and-technology" target="_blank" rel="noopener">Consumer Electronics and Technology | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/b2b" target="_blank" rel="noopener">B2B | InsureShield</a></li>
+          <li><a href="https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/retail" target="_blank" rel="noopener">Retail | InsureShield</a></li>
+        </ul>
+      </div>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Analytics and tags</h2><span class="spectrum-badge">Switched off</span></summary>
+    <div class="panel-body">
+      <p>We carried over 3 tags and OneTrust, <strong>switched off</strong>: nothing loads on the new site until you turn it on.</p>
+      <table>
+        <thead><tr><th>Found on www.insureshield.com</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Google Tag Manager</td><td><code>DC-16576656</code>, <code>AW-18025150379</code></td></tr>
+          <tr><td>Tealium</td><td><code>utag.js</code></td></tr>
+          <tr><td>Consent manager</td><td>OneTrust, 0 cookie categories</td></tr>
+          <tr><td>Data layers</td><td><code>adobeDataLayer</code>, <code>dataLayer</code>, <code>utag_data</code></td></tr>
+          <tr><td>Loaded by your tags</td><td>Google Analytics / Ads, Akamai mPulse, ad / retargeting pixel</td></tr>
+        </tbody>
+      </table>
+      <h3>Before you switch them on</h3>
+      <ol class="todo">
+        <li><strong>Switch on OneTrust together with the tags.</strong></li>
+        <li><strong>Share the setup of Google Tag Manager, Tealium.</strong> We could not read their rules.</li>
+      </ol>
+      <p class="meta">Full details for your developers: <code>stardust/martech-handoff.md</code> in the repository.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Journey</h2></summary>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </details>
+</main>
+</body>
+</html>

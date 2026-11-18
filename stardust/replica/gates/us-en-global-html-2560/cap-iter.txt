@@ -1,0 +1,14 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.insureshield.com/us/en/global.html
+  shell     1280px  max-width #ups-langSelect  (tier 3, holds 100% of the text)
+  modules  2 sections: capped 936 ×1, 312 ×1 · full-bleed ×0
+  contentMaxWidth 1280px (shell) · shellMaxWidth 1280px · root div.cmp-container > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid > div.cmp-container
+build  http://localhost:8791/us-en-global-html-proposed.html
+  shell     1280px  max-width body.tpl-region > div.page-root > main.page-main > div.container.rsel  (tier 1, holds 100% of the text)
+  modules  2 sections: capped 936 ×1, 312 ×1 · full-bleed ×0
+  contentMaxWidth 1280px (shell) · shellMaxWidth 1280px · root body.tpl-region > div.page-root > main.page-main
+rows
+  ✓ wrapper cap: live 1280px = build 1280px (±20)
+  ✓ module 1/2: 936px = 936px
+  ✓ module 2/2: 312px = 312px
+cap-probe: PASS at 2560 — 0 of 3 rows failed (evidence stardust/replica/gates/us-en-global-html-2560/cap-iter.json)

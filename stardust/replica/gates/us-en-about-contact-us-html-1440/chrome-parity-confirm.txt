@@ -1,0 +1,29 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.insureshield.com/us/en/about/contact-us.html (live side from cache stardust/replica/gates/us-en-about-contact-us-html-1440/chrome-live.json, probed 2026-11-17T21:54:58.411Z — delete the file to re-probe)
+  build: http://localhost:8791/us-en-about-contact-us-html-proposed.html
+
+■ header: ✓ parity — 10 paired of 10/10 texts, 1/1 icons
+
+■ footer: 20 delta(s) — 32 paired of 32/32 texts, 5/5 icons
+  REGION BOX   Δh -200px (1061→861)
+  PAIR         "Facebook"  Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "Instagram"  Δy -48px (2830→2782); Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "@UPSCapital"  Δy -96px (2918→2822); Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "LinkedIn"  Δy -144px (3006→2862); Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "YouTube"  Δy -191px (3094→2903); Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "Website Terms of Use"  Δy -199px (3228→3029)
+  PAIR         "Technology Agreement"  Δy -199px (3228→3029)
+  PAIR         "Product Disclosure"  Δy -199px (3228→3029)
+  PAIR         "Terms of Service"  Δy -199px (3228→3029)
+  PAIR         "Your California Privacy Rights"  Δy -199px (3228→3029)
+  PAIR         "Privacy Notice"  Δy -199px (3228→3029)
+  PAIR         "Cookie Settings"  Δy -199px (3228→3029)
+  PAIR         "Do Not Sell or Share My Personal Informa"  Δy -199px (3269→3070)
+  PAIR         "Copyright ©2023-2026 United Parcel Servi"  Δy -199px (3386→3187)
+  ICON         "Facebook"  icon #0 near "Facebook": Δh -48px (64→16); signature "" → "social-facebook"
+  ICON         "Instagram"  icon #1 near "Instagram": Δh -48px (64→16); signature "" → "social-instagram"
+  ICON         "@UPSCapital"  icon #2 near "@UPSCapital": Δh -48px (64→16); signature "" → "social-x"
+  ICON         "LinkedIn"  icon #3 near "LinkedIn": Δh -48px (64→16); signature "" → "social-linkedin"
+  ICON         "YouTube"  icon #4 near "YouTube": Δh -48px (64→16); signature "" → "social-youtube"
+
+✗ 20 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

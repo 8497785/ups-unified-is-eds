@@ -1,0 +1,177 @@
+/* home archetype — index (live /us/en/securecommerce.html)
+   Sections: homepage hero (animated GIF + floating card), centred h3 titles, pathways "services"
+   cards (image + icon variants), stats embed, logo bar, grey CTA band.
+   Values lifted from homepagehero.min.css, pathways.min.css, theme-insure-shield.min.css
+   (title / pathways / logos / cta-link), the page's inline stats <style>, and live computed
+   styles at 1440 and 360. Canon (tokens, chrome, .btn, .sec-title, .container/.row) is reused. */
+
+/* ---------- homepage hero (lifted: .ups-teaser.ups-teaser__homepagehero) ---------- */
+.hphero { position: relative; background: #fff; margin-bottom: 4px; }
+.hphero__media { position: relative; }
+.hphero__img {
+  display: inline; vertical-align: baseline;
+  width: 100%; max-width: 100%; height: auto; min-height: 144px; object-fit: cover; margin: 0;
+}
+.hphero__media::before, .hphero__media::after {
+  content: ""; position: absolute; left: 0; bottom: .5rem; width: 100%; height: auto;
+  margin-bottom: -5%; padding-top: 10%; padding-bottom: 0;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='1440'%20class='arc'%20height='128'%20viewBox='0%200%201440%20128'%20fill='none'%20aria-hidden='true'%20focusable='false'%3E%3Cpath%20d='M0%200%20H1440%20V69.8751%20C1028.42%2046.941%20139.222%2032.794%20-415%20232Z'%20fill='white'%3E%3C/path%3E%3C/svg%3E");
+  background-position: 0 100%; background-repeat: no-repeat; background-size: 100%;
+  transform: rotate(180deg);
+}
+.hphero__wrap { position: relative; top: -6rem; height: 100%; }
+.hphero__card {
+  position: relative; z-index: 4; text-align: left;
+  padding: 2rem 1.6rem 3.2rem;
+  background: #fff; border-radius: var(--is-radius);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.14), 0 4px 12px -3px rgba(0, 0, 0, 0.05);
+}
+.hphero__pretitle { font-size: 1.6rem; line-height: 1.5; }
+.hphero__title {
+  display: inline-block; position: relative;
+  margin-bottom: 1.6rem; padding-bottom: 1.6rem;
+  font-size: 3.2rem; line-height: 1.25;
+}
+.hphero__title::after {
+  content: ""; display: block; position: absolute; bottom: 0; left: 0; width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+.hphero__title h2 { font-size: 2.8rem; line-height: 1.28; }
+.hphero__desc { margin-bottom: 2.4rem; font-size: 1.6rem; line-height: 1.5; }
+.hphero__actions { margin-top: -16px; }
+.hphero__actions .btn { margin-top: 16px; }
+@media (min-width: 768px) {
+  .hphero__media::after { background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDQwIiBjbGFzcz0iYXJjIiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDE0NDAgMTI4IiBmaWxsPSJ3aGl0ZSIgYXJpYS1oaWRkZW49InRydWUiIGZvY3VzYWJsZT0iZmFsc2UiPjxwYXRoIGQ9Ik0wIDAgSDE0NDAgVjY5Ljg3NTEgQzEwMjguNDIgNDYuOTQxIDEzOS4yMjIgMzIuNzk0IC00MTUgMjMyWiIgZmlsbD0idXJsKCNsaW5lYXIpIi8+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXIiIHgxPSI4ODUiIHkxPSI4Mi41NDIxIiB4Mj0iODg0LjY0NSIgeTI9Ii03NC43OTM4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI0RGREJENyIvPjxzdG9wIG9mZnNldD0iMC40MzMzODYiIHN0b3AtY29sb3I9IiNGMkYxRUYiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjwvc3ZnPg=="); }
+  .hphero__img { min-height: 336px; }
+  .hphero__card { padding: 3.2rem 4.3rem 4rem; text-align: center; }
+  .hphero__title { padding-bottom: 2rem; font-size: 4rem; line-height: 1.2; }
+  .hphero__title::after { left: 50%; transform: translateX(-50%); }
+  .hphero__title h2 { font-size: 3.2rem; line-height: 1.25; }
+  .hphero__actions .btn:not(:last-child) { margin-right: 12px; }
+}
+@media (min-width: 992px) {
+  .hphero { margin-bottom: 64px; }
+  .hphero__img { max-height: 640px; }
+  .hphero__wrap { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+  .hphero__card {
+    position: absolute; top: 50%; left: 32px; transform: translateY(-50%);
+    max-width: 545px; padding: 4.8rem; text-align: left;
+  }
+  .hphero__title { margin-bottom: 2.4rem; font-size: 4.8rem; line-height: 1.17; }
+  .hphero__title::after { left: 0; transform: none; }
+  .hphero__title h2 { font-size: 4rem; line-height: 1.2; }
+  .hphero__desc { font-size: 2rem; line-height: 1.4; }
+}
+
+/* ---------- section titles: h3 size + 40px top pad (lifted: .title h3.cmp-title__text, .title-padding-top) ---------- */
+.sec-title--h3 .sec-title__text { font-size: 2rem; line-height: 1.4; }
+.sec-title--pad .sec-title__inner { padding-top: 40px; }
+@media (min-width: 768px) {
+  .sec-title--h3 .sec-title__text { font-size: 2.4rem; line-height: 1.33; }
+}
+@media (min-width: 992px) {
+  .sec-title--h3 .sec-title__text { font-size: 3.2rem; line-height: 1.25; }
+}
+
+/* ---------- pathways "services" cards (lifted: pathways.min.css + theme .pathways.services) ---------- */
+@media (min-width: 992px) { .row > .col-lg-4 { flex-basis: 33.3333%; max-width: 33.3333%; } }
+.paths { margin-bottom: 64px; }
+.paths__list { justify-content: center; }
+.paths__item:not(:first-child) { margin-top: 2rem; }
+.pcard {
+  display: flex; flex-direction: column; height: 100%;
+  background: #fff; border-radius: var(--is-radius);
+  box-shadow: var(--is-card-shadow); filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.14));
+}
+.pcard__image { flex-shrink: 0; width: 100%; }
+.pcard__image img {
+  display: inline; vertical-align: baseline;
+  width: 100%; aspect-ratio: 16 / 9; border-radius: 4px 4px 0 0;
+}
+.pcard__body {
+  display: flex; flex-direction: column; justify-content: space-between; flex: 1 1 auto;
+  margin: 0; padding: 2.4rem;
+}
+.pcard__title { font-size: 1.6rem; line-height: 1.5; font-weight: 500; }
+.pcard__text { margin-top: .8rem; font-size: 1.6rem; line-height: 1.5; }
+.pcard__link { margin-top: 1.6rem; text-align: left; }
+.pcard__link a {
+  display: inline-flex; align-items: center; justify-content: flex-start;
+  color: var(--is-blue); font-size: 1.6rem; font-weight: 500; line-height: 1.5; border-radius: 4rem;
+}
+.pcard__link a:hover { color: var(--is-blue-hover); text-decoration: none; }
+.pcard__link a span { margin-left: .2rem; }
+/* lifted: theme-insure-shield L235/L236 — `.pathways__list .description__link a` is width:100% below 768 */
+@media (max-width: 767.98px) { .pcard__link a { width: 100%; } }
+/* icon variant (lifted: .pathways.services.icon) */
+.paths--icon .pcard__image { width: 7.2rem; height: 7.2rem; margin: 2.4rem 0 0 2.4rem; }
+.paths--icon .pcard__image img { aspect-ratio: 1 / 1; border-radius: 0; width: 100%; height: 100%; }
+.paths--icon .pcard__body { padding-top: 1.6rem; }
+@media (min-width: 768px) {
+  .paths__item:not(:first-child) { margin-top: 0; }
+  .paths__item:nth-child(n + 3) { margin-top: 2.4rem; }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .paths__item:nth-child(odd) .pcard { padding-right: 0; }
+}
+@media (min-width: 992px) {
+  .paths__item:nth-child(n + 3) { margin-top: 0; }
+  .paths__item:nth-child(n + 4) { margin-top: 4.8rem; }
+  .pcard__body { padding: 3.2rem; }
+  .paths--icon .pcard__body { padding-top: 1.6rem; }
+  .pcard__title { font-size: 2rem; line-height: 1.4; }
+  .pcard__text { margin-top: 1.2rem; }
+  .paths--icon .pcard__image { margin: 3.2rem 0 0 3.2rem; }
+}
+
+/* ---------- grey bands (lifted: .cmp-container--bg-light-gray) ---------- */
+.band--grey { background: #f5f5f5; }
+.stats-band { padding-bottom: 64px; }
+
+/* ---------- stats embed (lifted: the page's inline <style> + inline styles) ---------- */
+.stats__row {
+  display: flex; justify-content: space-between; width: 100%;
+  padding: 12px 0; font-family: Arial, Helvetica, sans-serif;
+}
+.stats__item { width: 25%; text-align: center; padding: 5px; box-sizing: border-box; }
+.stats__number { color: #00857c; font-size: 48px; font-weight: 700; line-height: 1; }
+.stats__label { color: rgb(95, 87, 83); font-size: 18px; margin-top: 4px; }
+@media (max-width: 767px) {
+  .stats__row { flex-wrap: wrap; }
+  .stats__item { width: 100%; margin-bottom: 20px; }
+  .stats__number { font-size: 40px; }
+}
+
+/* ---------- logo bar (lifted: theme .logos__*) ---------- */
+.logos__strip { margin: 20px auto; max-width: 1286px; width: 100%; }
+.logos__row {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  width: 100%;
+}
+.logos__img {
+  display: block; flex-shrink: 0; width: 160px; height: 80px; aspect-ratio: 39 / 16;
+  object-fit: contain; padding: 16px 21px 16px 22px;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .logos__row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; justify-items: center; margin: 0 auto; }
+}
+@media (max-width: 767px) {
+  .logos__row {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; justify-items: center;
+    margin: 0 auto; max-width: 326px;
+  }
+  .logos__img { width: 90px; height: 45px; aspect-ratio: 90 / 37; padding: 9px 11.949px 9px 12.375px; }
+}
+
+/* ---------- grey CTA band (lifted: .text--rte h3 + .cta-link) ---------- */
+.cta-band__text { padding-top: 40px; text-align: center; }
+.cta-band__text h3 { font-size: 2rem; line-height: 1.4; }
+.cta-band__actions { margin-top: 48px; padding-bottom: 64px; text-align: center; }
+.cta-band__actions .btn { margin-top: 16px; }
+.cta-band__actions .btn span { margin-left: .2rem; }
+@media (min-width: 768px) { .cta-band__text h3 { font-size: 2.4rem; line-height: 1.33; } }
+@media (min-width: 992px) { .cta-band__text h3 { font-size: 3.2rem; line-height: 1.25; } }
+
+/* ---------- base sup (lifted: clientlib-site sub,sup reset) — canon back-port candidate ---------- */
+.page-main sup { position: relative; top: -.5em; vertical-align: baseline; font-size: .75em; line-height: 1.5; }

@@ -1,0 +1,56 @@
+{
+  "a": "stardust/replica/gates/all-1440/us-en-promotional-webinars-html/origin.png",
+  "b": "stardust/replica/gates/all-1440/us-en-promotional-webinars-html/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2916,
+    "mode": "overlap"
+  },
+  "heightDelta": -12,
+  "differingPixels": 134665,
+  "pct": 3.21,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/us-en-promotional-webinars-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 11.86,
+  "textBoxes": 94,
+  "textPixels": 458436,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 5.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 3.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 6.7
+    },
+    {
+      "y0": 2500,
+      "y1": 2916,
+      "pct": 2.5
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/promotional/webinars"
+  }
+}

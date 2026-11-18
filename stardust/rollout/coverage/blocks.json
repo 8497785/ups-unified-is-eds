@@ -1,0 +1,957 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-17T22:36:05.057Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-18T05:37:22.307Z",
+  "blocks": [
+    {
+      "id": "featured-list",
+      "label": "featured-list",
+      "kind": "module",
+      "signature": "module:featured-list",
+      "source": null,
+      "usedByTemplates": [
+        "de-en-home-html"
+      ],
+      "usedByPages": [
+        "ca-en-home-html",
+        "de-de-home-html",
+        "de-en-home-html",
+        "gb-en-home-html",
+        "it-en-home-html",
+        "it-it-home-html"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "featured-list",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "featured-promo",
+      "label": "featured-promo",
+      "kind": "module",
+      "signature": "module:featured-promo",
+      "source": null,
+      "usedByTemplates": [
+        "de-en-home-html"
+      ],
+      "usedByPages": [
+        "ca-en-home-html",
+        "de-de-home-html",
+        "de-en-home-html",
+        "gb-en-home-html",
+        "it-en-home-html",
+        "it-it-home-html"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "featured-promo",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "form",
+      "label": "form",
+      "kind": "module",
+      "signature": "module:form",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-about-contact-us-html",
+        "us-en-shipping-insurance-b2b-html"
+      ],
+      "usedByPages": [
+        "ca-en-about-html",
+        "ca-en-claims-html",
+        "ca-en-partners-html",
+        "ca-en-shipping-insurance-html",
+        "de-de-cargo-insurance-html",
+        "de-de-claims-html",
+        "de-en-about-html",
+        "de-en-cargo-insurance-html",
+        "de-en-claims-html",
+        "de-en-partners-html",
+        "gb-en-about-html",
+        "gb-en-cargo-insurance-html",
+        "gb-en-claims-html",
+        "it-en-about-html",
+        "it-en-cargo-insurance-html",
+        "it-en-claims-html",
+        "it-it-about-html",
+        "it-it-cargo-insurance-html",
+        "it-it-claims-html",
+        "us-en-about-contact-us-html",
+        "us-en-about-html",
+        "us-en-claims-channel-partners-claims-html",
+        "us-en-claims-html",
+        "us-en-claims-insureshield-ups-claims-support-html",
+        "us-en-customer-communications-confirm-contact-information-html",
+        "us-en-customer-communications-enhanced-declared-value-html",
+        "us-en-customer-communications-updated-contact-information-html",
+        "us-en-partners-3pl-partners-html",
+        "us-en-partners-become-a-partner-html",
+        "us-en-partners-connect-with-a-partner-html",
+        "us-en-partners-html",
+        "us-en-promotional-delivery-defense-mockup-html",
+        "us-en-promotional-insureshield-benefits-html",
+        "us-en-promotional-prod-form-test-html",
+        "us-en-promotional-webinars-html",
+        "us-en-resources-customer-stories-html",
+        "us-en-resources-help-and-support-html",
+        "us-en-resources-insights-html",
+        "us-en-resources-the-logistics-lowdown-html",
+        "us-en-risk-mitigation-risk-intelligence-smb-html",
+        "us-en-risk-mitigation-risk-intelligence-smb2-html",
+        "us-en-shipping-insurance-b2b-html",
+        "us-en-shipping-insurance-checkout-protection-html",
+        "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+        "us-en-shipping-insurance-get-a-quote-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+        "us-en-shipping-insurance-retail-html",
+        "us-en-shipping-insurance-select-my-coverage-html",
+        "us-en-shipping-insurance-special-commodities-html",
+        "us-en-shipping-insurance-ups-shipments-html",
+        "us-en-solutions-commerceshield-html",
+        "us-en-solutions-delivery-defense-html",
+        "us-en-solutions-delivery-defense-learning-center-html",
+        "us-en-solutions-delivery-orchestration-delivery-html",
+        "us-en-solutions-delivery-orchestration-html",
+        "us-en-solutions-delivery-orchestration-pickup-html",
+        "us-en-solutions-delivery-orchestration-returns-html"
+      ],
+      "instanceCount": 60,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "form",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "form-toast",
+      "label": "form-toast",
+      "kind": "module",
+      "signature": "module:form-toast",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-about-contact-us-html",
+        "us-en-shipping-insurance-b2b-html"
+      ],
+      "usedByPages": [
+        "ca-en-about-html",
+        "ca-en-claims-html",
+        "ca-en-partners-html",
+        "ca-en-shipping-insurance-html",
+        "de-de-cargo-insurance-html",
+        "de-de-claims-html",
+        "de-en-about-html",
+        "de-en-cargo-insurance-html",
+        "de-en-claims-html",
+        "de-en-partners-html",
+        "gb-en-about-html",
+        "gb-en-cargo-insurance-html",
+        "gb-en-claims-html",
+        "it-en-about-html",
+        "it-en-cargo-insurance-html",
+        "it-en-claims-html",
+        "it-it-about-html",
+        "it-it-cargo-insurance-html",
+        "it-it-claims-html",
+        "us-en-about-contact-us-html",
+        "us-en-about-html",
+        "us-en-claims-channel-partners-claims-html",
+        "us-en-claims-html",
+        "us-en-claims-insureshield-ups-claims-support-html",
+        "us-en-customer-communications-confirm-contact-information-html",
+        "us-en-customer-communications-enhanced-declared-value-html",
+        "us-en-customer-communications-updated-contact-information-html",
+        "us-en-partners-3pl-partners-html",
+        "us-en-partners-become-a-partner-html",
+        "us-en-partners-connect-with-a-partner-html",
+        "us-en-partners-html",
+        "us-en-promotional-delivery-defense-mockup-html",
+        "us-en-promotional-insureshield-benefits-html",
+        "us-en-promotional-prod-form-test-html",
+        "us-en-promotional-webinars-html",
+        "us-en-resources-customer-stories-html",
+        "us-en-resources-help-and-support-html",
+        "us-en-resources-insights-html",
+        "us-en-resources-the-logistics-lowdown-html",
+        "us-en-risk-mitigation-risk-intelligence-smb-html",
+        "us-en-risk-mitigation-risk-intelligence-smb2-html",
+        "us-en-shipping-insurance-b2b-html",
+        "us-en-shipping-insurance-checkout-protection-html",
+        "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+        "us-en-shipping-insurance-get-a-quote-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+        "us-en-shipping-insurance-retail-html",
+        "us-en-shipping-insurance-select-my-coverage-html",
+        "us-en-shipping-insurance-special-commodities-html",
+        "us-en-shipping-insurance-ups-shipments-html",
+        "us-en-solutions-commerceshield-html",
+        "us-en-solutions-delivery-defense-html",
+        "us-en-solutions-delivery-defense-learning-center-html",
+        "us-en-solutions-delivery-orchestration-delivery-html",
+        "us-en-solutions-delivery-orchestration-html",
+        "us-en-solutions-delivery-orchestration-pickup-html",
+        "us-en-solutions-delivery-orchestration-returns-html"
+      ],
+      "instanceCount": 60,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "form-toast",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "homepage-hero",
+      "label": "homepage-hero",
+      "kind": "module",
+      "signature": "module:homepage-hero",
+      "source": null,
+      "usedByTemplates": [
+        "de-en-home-html",
+        "index"
+      ],
+      "usedByPages": [
+        "ca-en-home-html",
+        "de-de-home-html",
+        "de-en-home-html",
+        "gb-en-home-html",
+        "index",
+        "it-en-home-html",
+        "it-it-home-html",
+        "us-en-securecommerce-html"
+      ],
+      "instanceCount": 8,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "homepage-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "logo-strip",
+      "label": "logo-strip",
+      "kind": "module",
+      "signature": "module:logo-strip",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index",
+        "us-en-securecommerce-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "logo-strip",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "loss-calculator",
+      "label": "loss-calculator",
+      "kind": "module",
+      "signature": "module:loss-calculator",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-shipping-insurance-b2b-html"
+      ],
+      "usedByPages": [
+        "ca-en-about-html",
+        "ca-en-claims-html",
+        "ca-en-partners-html",
+        "ca-en-shipping-insurance-html",
+        "de-de-cargo-insurance-html",
+        "de-de-claims-html",
+        "de-en-about-html",
+        "de-en-cargo-insurance-html",
+        "de-en-claims-html",
+        "de-en-partners-html",
+        "gb-en-about-html",
+        "gb-en-cargo-insurance-html",
+        "gb-en-claims-html",
+        "it-en-about-html",
+        "it-en-cargo-insurance-html",
+        "it-en-claims-html",
+        "it-it-about-html",
+        "it-it-cargo-insurance-html",
+        "it-it-claims-html",
+        "us-en-about-html",
+        "us-en-claims-channel-partners-claims-html",
+        "us-en-claims-html",
+        "us-en-claims-insureshield-ups-claims-support-html",
+        "us-en-customer-communications-enhanced-declared-value-html",
+        "us-en-partners-3pl-partners-html",
+        "us-en-partners-become-a-partner-html",
+        "us-en-partners-connect-with-a-partner-html",
+        "us-en-partners-html",
+        "us-en-promotional-delivery-defense-mockup-html",
+        "us-en-promotional-insureshield-benefits-html",
+        "us-en-promotional-webinars-html",
+        "us-en-resources-customer-stories-html",
+        "us-en-resources-insights-html",
+        "us-en-resources-the-logistics-lowdown-html",
+        "us-en-risk-mitigation-risk-intelligence-smb-html",
+        "us-en-risk-mitigation-risk-intelligence-smb2-html",
+        "us-en-shipping-insurance-b2b-html",
+        "us-en-shipping-insurance-checkout-protection-html",
+        "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+        "us-en-shipping-insurance-get-a-quote-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+        "us-en-shipping-insurance-retail-html",
+        "us-en-shipping-insurance-select-my-coverage-html",
+        "us-en-shipping-insurance-special-commodities-html",
+        "us-en-shipping-insurance-ups-shipments-html",
+        "us-en-solutions-commerceshield-html",
+        "us-en-solutions-delivery-defense-html",
+        "us-en-solutions-delivery-defense-learning-center-html",
+        "us-en-solutions-delivery-orchestration-delivery-html",
+        "us-en-solutions-delivery-orchestration-html",
+        "us-en-solutions-delivery-orchestration-pickup-html",
+        "us-en-solutions-delivery-orchestration-returns-html"
+      ],
+      "instanceCount": 55,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "loss-calculator",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "marketing-hero",
+      "label": "marketing-hero",
+      "kind": "module",
+      "signature": "module:marketing-hero",
+      "source": null,
+      "usedByTemplates": [
+        "gb-en-resources-html",
+        "us-en-about-contact-us-html",
+        "us-en-shipping-insurance-b2b-html"
+      ],
+      "usedByPages": [
+        "ca-en-about-html",
+        "ca-en-claims-html",
+        "ca-en-partners-html",
+        "ca-en-resources-html",
+        "ca-en-shipping-insurance-html",
+        "de-de-cargo-insurance-html",
+        "de-de-claims-html",
+        "de-en-about-html",
+        "de-en-cargo-insurance-html",
+        "de-en-claims-html",
+        "de-en-partners-html",
+        "de-en-resources-html",
+        "gb-en-about-html",
+        "gb-en-cargo-insurance-html",
+        "gb-en-claims-html",
+        "gb-en-resources-html",
+        "it-en-about-html",
+        "it-en-cargo-insurance-html",
+        "it-en-claims-html",
+        "it-en-resources-html",
+        "it-it-about-html",
+        "it-it-cargo-insurance-html",
+        "it-it-claims-html",
+        "it-it-resources-html",
+        "us-en-about-announcements-html",
+        "us-en-about-contact-us-html",
+        "us-en-about-html",
+        "us-en-claims-channel-partners-claims-html",
+        "us-en-claims-html",
+        "us-en-claims-insureshield-ups-claims-support-html",
+        "us-en-customer-communications-confirm-contact-information-html",
+        "us-en-customer-communications-enhanced-declared-value-html",
+        "us-en-customer-communications-updated-contact-information-html",
+        "us-en-partners-3pl-partners-html",
+        "us-en-partners-become-a-partner-html",
+        "us-en-partners-connect-with-a-partner-html",
+        "us-en-partners-html",
+        "us-en-promotional-delivery-defense-mockup-html",
+        "us-en-promotional-insureshield-benefits-html",
+        "us-en-promotional-prod-form-test-html",
+        "us-en-promotional-webinars-html",
+        "us-en-resources-customer-stories-html",
+        "us-en-resources-help-and-support-html",
+        "us-en-resources-insights-html",
+        "us-en-resources-the-logistics-lowdown-html",
+        "us-en-resources-whitepapers-and-guides-html",
+        "us-en-risk-mitigation-risk-intelligence-smb-html",
+        "us-en-risk-mitigation-risk-intelligence-smb2-html",
+        "us-en-shipping-insurance-b2b-html",
+        "us-en-shipping-insurance-checkout-protection-html",
+        "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+        "us-en-shipping-insurance-get-a-quote-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+        "us-en-shipping-insurance-retail-html",
+        "us-en-shipping-insurance-select-my-coverage-html",
+        "us-en-shipping-insurance-special-commodities-html",
+        "us-en-shipping-insurance-ups-shipments-html",
+        "us-en-solutions-commerceshield-html",
+        "us-en-solutions-delivery-defense-html",
+        "us-en-solutions-delivery-defense-learning-center-html",
+        "us-en-solutions-delivery-orchestration-delivery-html",
+        "us-en-solutions-delivery-orchestration-html",
+        "us-en-solutions-delivery-orchestration-pickup-html",
+        "us-en-solutions-delivery-orchestration-returns-html"
+      ],
+      "instanceCount": 67,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "marketing-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "pathways-cards",
+      "label": "pathways-cards",
+      "kind": "module",
+      "signature": "module:pathways-cards",
+      "source": null,
+      "usedByTemplates": [
+        "de-en-home-html",
+        "index",
+        "us-en-about-contact-us-html"
+      ],
+      "usedByPages": [
+        "ca-en-home-html",
+        "de-de-home-html",
+        "de-en-home-html",
+        "gb-en-home-html",
+        "index",
+        "it-en-home-html",
+        "it-it-home-html",
+        "us-en-about-contact-us-html",
+        "us-en-customer-communications-confirm-contact-information-html",
+        "us-en-customer-communications-updated-contact-information-html",
+        "us-en-promotional-prod-form-test-html",
+        "us-en-resources-help-and-support-html",
+        "us-en-securecommerce-html"
+      ],
+      "instanceCount": 13,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "pathways-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "promo-banner",
+      "label": "promo-banner",
+      "kind": "module",
+      "signature": "module:promo-banner",
+      "source": null,
+      "usedByTemplates": [
+        "gb-en-resources-html",
+        "us-en-shipping-insurance-b2b-html"
+      ],
+      "usedByPages": [
+        "ca-en-about-html",
+        "ca-en-claims-html",
+        "ca-en-partners-html",
+        "ca-en-resources-html",
+        "ca-en-shipping-insurance-html",
+        "de-de-cargo-insurance-html",
+        "de-de-claims-html",
+        "de-en-about-html",
+        "de-en-cargo-insurance-html",
+        "de-en-claims-html",
+        "de-en-partners-html",
+        "de-en-resources-html",
+        "gb-en-about-html",
+        "gb-en-cargo-insurance-html",
+        "gb-en-claims-html",
+        "gb-en-resources-html",
+        "it-en-about-html",
+        "it-en-cargo-insurance-html",
+        "it-en-claims-html",
+        "it-en-resources-html",
+        "it-it-about-html",
+        "it-it-cargo-insurance-html",
+        "it-it-claims-html",
+        "it-it-resources-html",
+        "us-en-about-announcements-html",
+        "us-en-about-html",
+        "us-en-claims-channel-partners-claims-html",
+        "us-en-claims-html",
+        "us-en-claims-insureshield-ups-claims-support-html",
+        "us-en-customer-communications-enhanced-declared-value-html",
+        "us-en-partners-3pl-partners-html",
+        "us-en-partners-become-a-partner-html",
+        "us-en-partners-connect-with-a-partner-html",
+        "us-en-partners-html",
+        "us-en-promotional-delivery-defense-mockup-html",
+        "us-en-promotional-insureshield-benefits-html",
+        "us-en-promotional-webinars-html",
+        "us-en-resources-customer-stories-html",
+        "us-en-resources-insights-html",
+        "us-en-resources-the-logistics-lowdown-html",
+        "us-en-resources-whitepapers-and-guides-html",
+        "us-en-risk-mitigation-risk-intelligence-smb-html",
+        "us-en-risk-mitigation-risk-intelligence-smb2-html",
+        "us-en-shipping-insurance-b2b-html",
+        "us-en-shipping-insurance-checkout-protection-html",
+        "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+        "us-en-shipping-insurance-get-a-quote-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+        "us-en-shipping-insurance-retail-html",
+        "us-en-shipping-insurance-select-my-coverage-html",
+        "us-en-shipping-insurance-special-commodities-html",
+        "us-en-shipping-insurance-ups-shipments-html",
+        "us-en-solutions-commerceshield-html",
+        "us-en-solutions-delivery-defense-html",
+        "us-en-solutions-delivery-defense-learning-center-html",
+        "us-en-solutions-delivery-orchestration-delivery-html",
+        "us-en-solutions-delivery-orchestration-html",
+        "us-en-solutions-delivery-orchestration-pickup-html",
+        "us-en-solutions-delivery-orchestration-returns-html"
+      ],
+      "instanceCount": 62,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "promo-banner",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "region-selector",
+      "label": "region-selector",
+      "kind": "module",
+      "signature": "module:region-selector",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-global-html"
+      ],
+      "usedByPages": [
+        "us-en-global-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "region-selector",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "search",
+      "label": "search",
+      "kind": "module",
+      "signature": "module:search",
+      "source": null,
+      "usedByTemplates": [
+        "gb-en-resources-html"
+      ],
+      "usedByPages": [
+        "ca-en-resources-html",
+        "de-en-resources-html",
+        "gb-en-resources-html",
+        "it-en-resources-html",
+        "it-it-resources-html",
+        "us-en-about-announcements-html",
+        "us-en-resources-whitepapers-and-guides-html"
+      ],
+      "instanceCount": 7,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "search",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "secondary-promo",
+      "label": "secondary-promo",
+      "kind": "module",
+      "signature": "module:secondary-promo",
+      "source": null,
+      "usedByTemplates": [
+        "de-en-home-html",
+        "us-en-shipping-insurance-b2b-html"
+      ],
+      "usedByPages": [
+        "ca-en-about-html",
+        "ca-en-claims-html",
+        "ca-en-home-html",
+        "ca-en-partners-html",
+        "ca-en-shipping-insurance-html",
+        "de-de-cargo-insurance-html",
+        "de-de-claims-html",
+        "de-de-home-html",
+        "de-en-about-html",
+        "de-en-cargo-insurance-html",
+        "de-en-claims-html",
+        "de-en-home-html",
+        "de-en-partners-html",
+        "gb-en-about-html",
+        "gb-en-cargo-insurance-html",
+        "gb-en-claims-html",
+        "gb-en-home-html",
+        "it-en-about-html",
+        "it-en-cargo-insurance-html",
+        "it-en-claims-html",
+        "it-en-home-html",
+        "it-it-about-html",
+        "it-it-cargo-insurance-html",
+        "it-it-claims-html",
+        "it-it-home-html",
+        "us-en-about-html",
+        "us-en-claims-channel-partners-claims-html",
+        "us-en-claims-html",
+        "us-en-claims-insureshield-ups-claims-support-html",
+        "us-en-customer-communications-enhanced-declared-value-html",
+        "us-en-partners-3pl-partners-html",
+        "us-en-partners-become-a-partner-html",
+        "us-en-partners-connect-with-a-partner-html",
+        "us-en-partners-html",
+        "us-en-promotional-delivery-defense-mockup-html",
+        "us-en-promotional-insureshield-benefits-html",
+        "us-en-promotional-webinars-html",
+        "us-en-resources-customer-stories-html",
+        "us-en-resources-insights-html",
+        "us-en-resources-the-logistics-lowdown-html",
+        "us-en-risk-mitigation-risk-intelligence-smb-html",
+        "us-en-risk-mitigation-risk-intelligence-smb2-html",
+        "us-en-shipping-insurance-b2b-html",
+        "us-en-shipping-insurance-checkout-protection-html",
+        "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+        "us-en-shipping-insurance-get-a-quote-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+        "us-en-shipping-insurance-retail-html",
+        "us-en-shipping-insurance-select-my-coverage-html",
+        "us-en-shipping-insurance-special-commodities-html",
+        "us-en-shipping-insurance-ups-shipments-html",
+        "us-en-solutions-commerceshield-html",
+        "us-en-solutions-delivery-defense-html",
+        "us-en-solutions-delivery-defense-learning-center-html",
+        "us-en-solutions-delivery-orchestration-delivery-html",
+        "us-en-solutions-delivery-orchestration-html",
+        "us-en-solutions-delivery-orchestration-pickup-html",
+        "us-en-solutions-delivery-orchestration-returns-html"
+      ],
+      "instanceCount": 61,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "secondary-promo",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "sh-band",
+      "label": "sh-band",
+      "kind": "module",
+      "signature": "module:sh-band",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-shipping-insurance-html"
+      ],
+      "usedByPages": [
+        "us-en-shipping-insurance-html",
+        "us-en-solutions-insureshield-shipping-insurance-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "sh-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "sh-benefits",
+      "label": "sh-benefits",
+      "kind": "module",
+      "signature": "module:sh-benefits",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-shipping-insurance-html"
+      ],
+      "usedByPages": [
+        "us-en-shipping-insurance-html",
+        "us-en-solutions-insureshield-shipping-insurance-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "sh-benefits",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "sh-compare",
+      "label": "sh-compare",
+      "kind": "module",
+      "signature": "module:sh-compare",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-shipping-insurance-html"
+      ],
+      "usedByPages": [
+        "us-en-shipping-insurance-html",
+        "us-en-solutions-insureshield-shipping-insurance-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "sh-compare",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "sh-faq",
+      "label": "sh-faq",
+      "kind": "module",
+      "signature": "module:sh-faq",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-shipping-insurance-html"
+      ],
+      "usedByPages": [
+        "us-en-shipping-insurance-html",
+        "us-en-solutions-insureshield-shipping-insurance-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "sh-faq",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "sh-hero",
+      "label": "sh-hero",
+      "kind": "module",
+      "signature": "module:sh-hero",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-shipping-insurance-html"
+      ],
+      "usedByPages": [
+        "us-en-shipping-insurance-html",
+        "us-en-solutions-insureshield-shipping-insurance-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "sh-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "sh-tiles",
+      "label": "sh-tiles",
+      "kind": "module",
+      "signature": "module:sh-tiles",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-shipping-insurance-html"
+      ],
+      "usedByPages": [
+        "us-en-shipping-insurance-html",
+        "us-en-solutions-insureshield-shipping-insurance-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "sh-tiles",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "stats",
+      "label": "stats",
+      "kind": "module",
+      "signature": "module:stats",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index",
+        "us-en-securecommerce-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "stats",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "story-card-carousel",
+      "label": "story-card-carousel",
+      "kind": "module",
+      "signature": "module:story-card-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "gb-en-resources-html",
+        "us-en-shipping-insurance-b2b-html"
+      ],
+      "usedByPages": [
+        "ca-en-about-html",
+        "ca-en-claims-html",
+        "ca-en-partners-html",
+        "ca-en-resources-html",
+        "ca-en-shipping-insurance-html",
+        "de-de-cargo-insurance-html",
+        "de-de-claims-html",
+        "de-en-about-html",
+        "de-en-cargo-insurance-html",
+        "de-en-claims-html",
+        "de-en-partners-html",
+        "de-en-resources-html",
+        "gb-en-about-html",
+        "gb-en-cargo-insurance-html",
+        "gb-en-claims-html",
+        "gb-en-resources-html",
+        "it-en-about-html",
+        "it-en-cargo-insurance-html",
+        "it-en-claims-html",
+        "it-en-resources-html",
+        "it-it-about-html",
+        "it-it-cargo-insurance-html",
+        "it-it-claims-html",
+        "it-it-resources-html",
+        "us-en-about-announcements-html",
+        "us-en-about-html",
+        "us-en-claims-channel-partners-claims-html",
+        "us-en-claims-html",
+        "us-en-claims-insureshield-ups-claims-support-html",
+        "us-en-customer-communications-enhanced-declared-value-html",
+        "us-en-partners-3pl-partners-html",
+        "us-en-partners-become-a-partner-html",
+        "us-en-partners-connect-with-a-partner-html",
+        "us-en-partners-html",
+        "us-en-promotional-delivery-defense-mockup-html",
+        "us-en-promotional-insureshield-benefits-html",
+        "us-en-promotional-webinars-html",
+        "us-en-resources-customer-stories-html",
+        "us-en-resources-insights-html",
+        "us-en-resources-the-logistics-lowdown-html",
+        "us-en-resources-whitepapers-and-guides-html",
+        "us-en-risk-mitigation-risk-intelligence-smb-html",
+        "us-en-risk-mitigation-risk-intelligence-smb2-html",
+        "us-en-shipping-insurance-b2b-html",
+        "us-en-shipping-insurance-checkout-protection-html",
+        "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+        "us-en-shipping-insurance-get-a-quote-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+        "us-en-shipping-insurance-retail-html",
+        "us-en-shipping-insurance-select-my-coverage-html",
+        "us-en-shipping-insurance-special-commodities-html",
+        "us-en-shipping-insurance-ups-shipments-html",
+        "us-en-solutions-commerceshield-html",
+        "us-en-solutions-delivery-defense-html",
+        "us-en-solutions-delivery-defense-learning-center-html",
+        "us-en-solutions-delivery-orchestration-delivery-html",
+        "us-en-solutions-delivery-orchestration-html",
+        "us-en-solutions-delivery-orchestration-pickup-html",
+        "us-en-solutions-delivery-orchestration-returns-html"
+      ],
+      "instanceCount": 62,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "story-card-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "story-card-grid",
+      "label": "story-card-grid",
+      "kind": "module",
+      "signature": "module:story-card-grid",
+      "source": null,
+      "usedByTemplates": [
+        "de-en-home-html"
+      ],
+      "usedByPages": [
+        "ca-en-home-html",
+        "de-de-home-html",
+        "de-en-home-html",
+        "gb-en-home-html",
+        "it-en-home-html",
+        "it-it-home-html"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "story-card-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "transition-hero",
+      "label": "transition-hero",
+      "kind": "module",
+      "signature": "module:transition-hero",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-legal-terms-and-conditions-upscia-html"
+      ],
+      "usedByPages": [
+        "us-en-about-our-locations-html",
+        "us-en-legal-product-disclosure-html",
+        "us-en-legal-technology-agreement-html",
+        "us-en-legal-terms-and-conditions-gallagher-affinity-html",
+        "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-html",
+        "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-users-html",
+        "us-en-legal-terms-and-conditions-upscia-html"
+      ],
+      "instanceCount": 7,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "transition-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+ "url": "https://main--9ade650b--aemcoder.aem.page/de/en/resources",
+ "at": "2026-11-18T10:55:38.865Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 10,
+  "offPage": 20,
+  "textNodes": 100,
+  "controls": 59,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 6,
+   "clipper": "div.stories-viewport",
+   "path": "div.story-body > div.story-top > div.story-eyebrow > p",
+   "text": "customer stories",
+   "cutMin": 29,
+   "cutMax": 258
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.stories-viewport",
+   "path": "div.stories-viewport > div.stories-track > div.stories-slide > a.story",
+   "text": "customer storiesaftership amplifies the post-purchase experi",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.stories-viewport",
+   "path": "div.story-top > div.story-title > h3#aftership-amplifies-the-post-purchase-experience > strong",
+   "text": "aftership amplifies the post-purchase experience",
+   "cutMin": 45,
+   "cutMax": 212
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 6,
+   "horizontal": 10,
+   "offPage": 20,
+   "textNodes": 99,
+   "controls": 52,
+   "total": 0
+  }
+ }
+}

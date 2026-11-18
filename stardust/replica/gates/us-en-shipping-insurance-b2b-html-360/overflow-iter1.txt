@@ -1,0 +1,9 @@
+measure: http://localhost:8791/us-en-shipping-insurance-b2b-html-proposed.html @360: horizontal overflow +360px (scrollWidth 720 > viewport 360)
+measure  http://localhost:8791/us-en-shipping-insurance-b2b-html-proposed.html
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   720  viewport 360  scrollHeight   5556  ◄◄ OVERFLOW +360px
+  html
+       x     0  y      0  w   360  h  5556  vis  "1 of 1 Introducing a fresh take on prot…"
+      display: block

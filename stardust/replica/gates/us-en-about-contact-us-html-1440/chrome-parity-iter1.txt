@@ -1,0 +1,47 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.insureshield.com/us/en/about/contact-us.html
+  build: http://localhost:8791/us-en-about-contact-us-html-proposed.html
+
+■ header: ✓ parity — 10 paired of 10/10 texts, 1/1 icons
+
+■ footer: 38 delta(s) — 32 paired of 32/32 texts, 5/5 icons
+  REGION BOX   Δy -7px (2402→2395), Δh -200px (1061→861)
+  PAIR         "*Expedited reshipping reimbursement prov"  Δy -7px (2485→2478)
+  PAIR         "Insurance coverage is underwritten by an"  Δy -7px (2509→2502)
+  PAIR         "Unless otherwise noted, all statistics u"  Δy -7px (2557→2550)
+  PAIR         "Statistics in our social media advertisi"  Δy -7px (2605→2598)
+  PAIR         "This Site"  Δy -7px (2669→2662)
+  PAIR         "Shipping Insurance"  Δy -7px (2730→2723)
+  PAIR         "Solutions"  Δy -7px (2770→2763)
+  PAIR         "Claims"  Δy -7px (2810→2803)
+  PAIR         "Partners"  Δy -7px (2850→2843)
+  PAIR         "Resources"  Δy -7px (2891→2884)
+  PAIR         "About"  Δy -7px (2931→2924)
+  PAIR         "Other UPS Sites"  Δy -7px (2669→2662)
+  PAIR         "UPS Capital"  Δy -7px (2730→2723)
+  PAIR         "Parcel Pro"  Δy -7px (2770→2763)
+  PAIR         "UPS"  Δy -7px (2810→2803)
+  PAIR         "UPS Supply Chain Solutions"  Δy -7px (2850→2843)
+  PAIR         "About UPS"  Δy -7px (2891→2884)
+  PAIR         "Connect with Us"  Δy -7px (2669→2662)
+  PAIR         "Facebook"  Δy -7px (2742→2735); Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "Instagram"  Δy -55px (2830→2775); Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "@UPSCapital"  Δy -103px (2918→2815); Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "LinkedIn"  Δy -151px (3006→2855); Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "YouTube"  Δy -198px (3094→2896); Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "Website Terms of Use"  Δy -206px (3228→3022)
+  PAIR         "Technology Agreement"  Δy -206px (3228→3022)
+  PAIR         "Product Disclosure"  Δy -206px (3228→3022)
+  PAIR         "Terms of Service"  Δy -206px (3228→3022)
+  PAIR         "Your California Privacy Rights"  Δy -206px (3228→3022)
+  PAIR         "Privacy Notice"  Δy -206px (3228→3022)
+  PAIR         "Cookie Settings"  Δy -206px (3228→3022)
+  PAIR         "Do Not Sell or Share My Personal Informa"  Δy -206px (3269→3063)
+  PAIR         "Copyright ©2023-2026 United Parcel Servi"  Δy -206px (3386→3180)
+  ICON         "Facebook"  icon #0 near "Facebook": Δh -48px (64→16); signature "" → "social-facebook"
+  ICON         "Instagram"  icon #1 near "Instagram": Δh -48px (64→16); signature "" → "social-instagram"
+  ICON         "@UPSCapital"  icon #2 near "@UPSCapital": Δh -48px (64→16); signature "" → "social-x"
+  ICON         "LinkedIn"  icon #3 near "LinkedIn": Δh -48px (64→16); signature "" → "social-linkedin"
+  ICON         "YouTube"  icon #4 near "YouTube": Δh -48px (64→16); signature "" → "social-youtube"
+
+✗ 38 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

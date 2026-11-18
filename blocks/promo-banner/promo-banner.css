@@ -1,0 +1,222 @@
+/* promo-banner — lifted: secondarypromo insureshieldteal + theme-insure-shield */
+.promo-banner {
+  margin-bottom: 64px;
+}
+
+.promo-banner .promo-banner-card {
+  position: relative;
+  z-index: 0;
+  padding: 2.4rem;
+  text-align: left;
+  background: var(--is-teal);
+  color: #fff;
+}
+
+.promo-banner .promo-banner-card::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 1px 0 4px;
+  background: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='256'%20height='321'%20viewBox='0%200%20256%20321'%20fill='none'%3E%3Cpath%20d='M0%200H256V301.775C256%20301.775%20198.489%20316.149%20130.578%20319.682C73.6%20322.647%200%20319.682%200%20319.682L0%200Z'%20fill='url(%23g)'/%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='92.0889'%20y1='75.0163'%20x2='335.179'%20y2='218.976'%20gradientUnits='userSpaceOnUse'%3E%3Cstop%20stop-color='%233FA29D'/%3E%3Cstop%20offset='1'%20stop-color='%235DACA8'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E") 0 100% / 100% auto no-repeat;
+}
+
+.promo-banner .teaser-title {
+  position: relative;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.promo-banner .teaser-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-yellow);
+}
+
+.promo-banner .teaser-title :is(h1, h2, h3) {
+  font-size: 2.8rem;
+  line-height: 1.28;
+  color: inherit;
+}
+
+/* an h3 banner title (source .cmp-teaser__title h3: 20/28, 24/32 ≥768, 32/40 ≥992) */
+.promo-banner .teaser-title h3 {
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+/* outline CTA on the teal card (source insureshieldteal .secondary-btn: white border + text) */
+.promo-banner .teaser-actions a.button.secondary {
+  border-color: #fff;
+  color: #fff;
+}
+
+.promo-banner .teaser-actions a.button.secondary:hover {
+  background: rgb(255 255 255 / 20%);
+}
+
+.promo-banner .teaser-desc {
+  margin-bottom: 24px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.promo-banner .teaser-desc :is(p, ul, ol) + :is(p, ul, ol) {
+  margin-top: 12px;
+}
+
+.promo-banner .teaser-actions {
+  display: flex;
+  flex-direction: column;
+  margin-top: -16px;
+}
+
+.promo-banner .teaser-actions p {
+  margin: 16px 0 0;
+}
+
+.promo-banner .teaser-note {
+  margin-top: 20px;
+  text-align: center; /* every width: source .secondarybannerpromo .cmp-teaser__additionalText */
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.promo-banner .teaser-note a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.promo-banner .teaser-actions a.button::after {
+  content: "chevron_right";
+  margin-left: 0.2rem;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: upspricons;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1;
+  font-feature-settings: "liga";
+}
+
+@media (width >= 768px) {
+  .promo-banner .promo-banner-card {
+    padding: 4.8rem;
+    text-align: center;
+  }
+
+  .promo-banner .teaser-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .promo-banner .teaser-title :is(h1, h2, h3) {
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+
+  .promo-banner .teaser-title h3 {
+    font-size: 2.4rem;
+    line-height: 1.33;
+  }
+
+  .promo-banner .teaser-actions {
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 12px;
+  }
+}
+
+@media (width >= 992px) {
+  .promo-banner .promo-banner-card {
+    padding: 78px 48px;
+  }
+
+  .promo-banner .promo-banner-card::after {
+    inset: 0 0 8px;
+  }
+
+  .promo-banner .teaser-title {
+    padding-bottom: 20px;
+  }
+
+  .promo-banner .teaser-title :is(h1, h2, h3) {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .promo-banner .teaser-title h3 {
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+
+  .promo-banner .teaser-desc {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}
+
+/* section head (h2 + lede) authored as default content before the block — styled in place */
+.promo-banner-container .default-content-wrapper:has(+ .promo-banner-wrapper) {
+  margin-bottom: 24px;
+}
+
+.promo-banner-container .default-content-wrapper:has(+ .promo-banner-wrapper) :is(h2, h3) {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 16px;
+  font-size: 2.8rem;
+  line-height: 1.28;
+}
+
+.promo-banner-container .default-content-wrapper:has(+ .promo-banner-wrapper) :is(h2, h3)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+.promo-banner-container .default-content-wrapper:has(+ .promo-banner-wrapper) p {
+  margin-top: 16px;
+}
+
+@media (width >= 768px) {
+  .promo-banner-container .default-content-wrapper:has(+ .promo-banner-wrapper) {
+    text-align: center;
+    padding: 0 16.5%; /* source .sec-title--center .sec-title__inner */
+  }
+
+  .promo-banner-container .default-content-wrapper:has(+ .promo-banner-wrapper) :is(h2, h3)::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (width >= 992px) {
+  .promo-banner-container .default-content-wrapper:has(+ .promo-banner-wrapper) {
+    margin-bottom: 48px;
+  }
+
+  .promo-banner-container .default-content-wrapper:has(+ .promo-banner-wrapper) :is(h2, h3) {
+    padding-bottom: 20px;
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .promo-banner-container .default-content-wrapper:has(+ .promo-banner-wrapper) p {
+    margin: 20px 0 0;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}
+
+/* variant `spacer-above`: the source places an empty embed (one 24px <br> line + its 64px
+   component margin) right before the banner — 88px above it at every width
+   (/us/en/partners/3pl-partners "Want to hear how another partner approached it?") */
+.promo-banner.spacer-above {
+  margin-top: 88px;
+}

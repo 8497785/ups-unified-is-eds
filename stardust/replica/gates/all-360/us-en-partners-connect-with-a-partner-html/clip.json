@@ -1,0 +1,97 @@
+{
+ "url": "https://main--9ade650b--aemcoder.aem.page/us/en/partners/connect-with-a-partner",
+ "at": "2026-11-18T13:04:08.123Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 9,
+  "horizontal": 2,
+  "offPage": 10,
+  "textNodes": 65,
+  "controls": 45,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "n": 4,
+   "clipper": "div#accordion-tabpanel-1",
+   "path": "div.accordion.tabs > div.accordion-panels > div#accordion-tabpanel-1 > p",
+   "text": "for over 30 years, unishippers has been the trusted advisor ",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div#accordion-tabpanel-1",
+   "path": "div.accordion-panels > div#accordion-tabpanel-1 > p.button-wrapper > a.button.primary",
+   "text": "unishippers",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div#accordion-tabpanel-1",
+   "path": "div.accordion-panels > div#accordion-tabpanel-1 > p.button-wrapper > a.button.primary",
+   "text": "unishippers",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.accordion-tablist",
+   "path": "div.accordion-wrapper > div.accordion.tabs > div.accordion-tablist > div#accordion-tab-2",
+   "text": "association administration",
+   "cutMin": 95,
+   "cutMax": 95
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.accordion-tablist",
+   "path": "div.accordion.tabs > div.accordion-tablist > div#accordion-tab-2 > p",
+   "text": "association administration",
+   "cutMin": 79,
+   "cutMax": 79
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div#accordion-tabpanel-1",
+   "path": "div.accordion.tabs > div.accordion-panels > div#accordion-tabpanel-1 > h3#worldwide-express",
+   "text": "worldwide express",
+   "cutMin": null,
+   "cutMax": null
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 9,
+   "horizontal": 2,
+   "offPage": 30,
+   "textNodes": 75,
+   "controls": 52,
+   "total": 0
+  }
+ }
+}

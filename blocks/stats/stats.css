@@ -1,0 +1,248 @@
+/* stats — lifted from the index prototype (.stats-band / .stats, the source's inline stats style) */
+
+/* the section is the grey band (lifted: .cmp-container--bg-light-gray + .stats-band) */
+main > .section.stats-container {
+  padding-bottom: 64px;
+  background: #f5f5f5;
+}
+
+.stats-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.stats-item {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.stats-number {
+  color: #00857c;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.stats-number :is(p, h2, h3, h4, strong) {
+  font: inherit;
+}
+
+.stats-label {
+  margin-top: 4px;
+  color: rgb(95 87 83);
+  font-size: 18px;
+}
+
+.stats-label p {
+  font: inherit;
+}
+
+@media (width >= 768px) {
+  .stats-row {
+    flex-wrap: nowrap;
+  }
+
+  .stats-item {
+    width: 25%;
+    margin-bottom: 0;
+  }
+
+  .stats-number {
+    font-size: 48px;
+  }
+}
+
+/*
+ * Home section heads (foundation request filed: default-content section titles). The home
+ * template's centred h3 titles (+ optional lede) are default content before stats,
+ * pathways-cards and logo-strip; styled here because every home page carries this block.
+ * Lifted: canon .sec-title + index .sec-title--h3 / --pad.
+ */
+main > .section:is(.stats-container, .pathways-cards-container, .logo-strip-container)
+  > .default-content-wrapper:has(> h3:first-child) {
+  margin-bottom: 24px;
+}
+
+main > .section:is(.stats-container, .pathways-cards-container)
+  > .default-content-wrapper:has(> h3:first-child) {
+  padding-top: 40px;
+}
+
+main > .section:is(.stats-container, .pathways-cards-container, .logo-strip-container)
+  > .default-content-wrapper > h3:first-child {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding-bottom: 16px;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+main > .section:is(.stats-container, .pathways-cards-container, .logo-strip-container)
+  > .default-content-wrapper > h3:first-child::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+main > .section:is(.stats-container, .pathways-cards-container)
+  > .default-content-wrapper:has(> h3:first-child) p {
+  margin-top: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+@media (width >= 768px) {
+  main > .section:is(.stats-container, .pathways-cards-container, .logo-strip-container)
+    > .default-content-wrapper:has(> h3:first-child) {
+    text-align: center;
+  }
+
+  main > .section:is(.stats-container, .pathways-cards-container, .logo-strip-container)
+    > .default-content-wrapper > h3:first-child {
+    font-size: 2.4rem;
+    line-height: 1.33;
+  }
+
+  main > .section:is(.stats-container, .pathways-cards-container, .logo-strip-container)
+    > .default-content-wrapper > h3:first-child::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (width >= 992px) {
+  main > .section:is(.stats-container, .pathways-cards-container, .logo-strip-container)
+    > .default-content-wrapper:has(> h3:first-child) {
+    margin-bottom: 48px;
+  }
+
+  main > .section:is(.stats-container, .pathways-cards-container, .logo-strip-container)
+    > .default-content-wrapper:has(> h3:first-child) > :is(h3, p) {
+    margin-right: 16.5%;
+    margin-left: 16.5%;
+  }
+
+  main > .section:is(.stats-container, .pathways-cards-container, .logo-strip-container)
+    > .default-content-wrapper > h3:first-child {
+    padding-bottom: 20px;
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+
+  main > .section:is(.stats-container, .pathways-cards-container)
+    > .default-content-wrapper:has(> h3:first-child) p {
+    margin-top: 20px;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}
+
+/* stylelint-disable no-descending-specificity -- the program layout follows the home heads */
+
+/* program layout: stats under a section head h2 (/us/en/about — the home template's heads are
+   h3, untouched). The source band is a white columncontrol: centred 40px title, three 1/3
+   columns, an empty 24px line + 16px over each 48px teal figure (Roboto), 16px label */
+main > .section.stats-container:has(> .default-content-wrapper > h2) {
+  background: none;
+}
+
+main > .section.stats-container > .default-content-wrapper:has(> h2) {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+main > .section.stats-container > .default-content-wrapper > h2 {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 20px;
+  font-size: 2.8rem;
+  line-height: 1.28;
+}
+
+main > .section.stats-container > .default-content-wrapper > h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+  transform: translateX(-50%);
+}
+
+main > .section.stats-container:has(> .default-content-wrapper > h2) .stats-row {
+  padding: 0;
+  font-family: inherit;
+}
+
+main > .section.stats-container:has(> .default-content-wrapper > h2) .stats-item {
+  padding: 40px 0 0;
+}
+
+main > .section.stats-container:has(> .default-content-wrapper > h2) .stats-number {
+  margin-bottom: 16px;
+  color: var(--is-teal);
+  line-height: 1.17;
+}
+
+main > .section.stats-container:has(> .default-content-wrapper > h2) .stats-label {
+  margin-top: 0;
+  color: var(--is-grey-dark); /* source inline h6 style rgb(95 87 83) */
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* below 768 the source title is left-aligned (title.text-center only centres from 768) with
+   16px under it and 24px to the columns; each column is a 32/40 figure, a #5f5753 label and
+   42px to the next (h1 / inline h6 style — measured on /us/en/about at 360) */
+@media (width < 768px) {
+  main > .section.stats-container > .default-content-wrapper:has(> h2) {
+    margin-bottom: 24px;
+    text-align: left;
+  }
+
+  main > .section.stats-container > .default-content-wrapper > h2 {
+    padding-bottom: 16px;
+  }
+
+  main > .section.stats-container > .default-content-wrapper > h2::after {
+    left: 0;
+    transform: none;
+  }
+
+  main > .section.stats-container:has(> .default-content-wrapper > h2) .stats-item {
+    margin-bottom: 42px;
+  }
+
+  main > .section.stats-container:has(> .default-content-wrapper > h2) .stats-item:last-child {
+    margin-bottom: 0;
+  }
+
+  main > .section.stats-container:has(> .default-content-wrapper > h2) .stats-number {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media (width >= 768px) {
+  main > .section.stats-container:has(> .default-content-wrapper > h2) .stats-item {
+    width: 33.3333%;
+  }
+}
+
+@media (width >= 992px) {
+  main > .section.stats-container > .default-content-wrapper > h2 {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+}

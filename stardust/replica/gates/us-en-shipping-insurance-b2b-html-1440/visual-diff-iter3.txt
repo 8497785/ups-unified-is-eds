@@ -1,0 +1,613 @@
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/us-en-shipping-insurance-b2b-html-1440/vdiff-iter3/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4318,
+  "textLen": 2105,
+  "images": [
+   {
+    "src": "InsureShield_horizontal_UPSC",
+    "natural": "300x112",
+    "rendered": "165x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "GettyImages-516156807-1?$UPSer_Preset$&wid=592&hei=333&fmt=png-alpha&fit=constrain",
+    "natural": "592x333",
+    "rendered": "592x332",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_1023035515_digital_02062023?$UPSer_Preset$&wid=592&hei=333&fit=constrain",
+    "natural": "592x333",
+    "rendered": "592x333",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_1476944906_Digital_12202022?$UPSer_Preset$&wid=592&hei=333&fit=constrain",
+    "natural": "592x333",
+    "rendered": "592x333",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Zenith_iStock-518040857?$UPSer_Preset$&wid=384&hei=216&fit=constrain",
+    "natural": "384x216",
+    "rendered": "384x216",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Argus_iStock_000009996595?$UPSer_Preset$&wid=384&hei=216&fit=constrain",
+    "natural": "384x216",
+    "rendered": "384x216",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AfterShip_1178068?$UPSer_Preset$&wid=384&hei=216&fit=constrain",
+    "natural": "384x216",
+    "rendered": "384x216",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "B2B%20Loss%20Calculator%20-%20White%20bg?$Image_Preset_Desktop$",
+    "natural": "1219x1280",
+    "rendered": "592x622",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-facebook",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-instagram",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-x",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-linkedin",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-youtube",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1187733~UPS_Flat_Shield_2Color_RGB.original.png",
+    "natural": "425x480",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "464526.gif",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=187194318&Ver=2&mid=7774827a-a3ff-4964-9b95-06a100571d45&bo=2&sid=5e79b050e2c011f1836949d77ef27f00&vid=5e799730e2c011f19d691d813d056856&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=B2B%20%7C%20InsureShield&p=https%3A%2F%2Fwww.insureshield.com%2Fus%2Fen%2Fshipping-insurance%2Fb2b.html&r=&lt=3502&evt=pageLoad&sv=2&asc=G&cdb=AQER&rn=588011",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Your Supply Chain is Only as Str",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "48px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Your Supply Chain is Only as Str",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "48px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The Cost of One Failed Shipment",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The Cost of One Failed Shipment",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "How InsureShield® Protection Wor",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "How InsureShield® Protection Wor",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Don't Just Take Our Word For It",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Precious Cargo",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "When Bad Things Happen to Good C",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "AfterShip Amplifies the Post-Pur",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Build a More Resilient Supply Ch",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Trusted Protection. Proven Perfo",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "14px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Recent search results",
+    "color": "rgb(18, 18, 18)"
+   },
+   {
+    "text": "Customer Success Stories",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Customer Success Stories",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Customer Success Stories",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "row",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "row",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "row",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "cmp-title",
+    "width": 1216,
+    "left": 112
+   },
+   {
+    "sel": "slick-track",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "cmp-title",
+    "width": 1216,
+    "left": 112
+   },
+   {
+    "sel": "cmp-teaser__title",
+    "width": 1120,
+    "left": 160
+   },
+   {
+    "sel": "cmp-teaser__description",
+    "width": 1120,
+    "left": 160
+   },
+   {
+    "sel": "popover-ups__container",
+    "width": 1216,
+    "left": 112
+   },
+   {
+    "sel": "cmp-text",
+    "width": 1216,
+    "left": 112
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 3851,
+  "textLen": 2104,
+  "images": [
+   {
+    "src": "InsureShield_horizontal_UPSC",
+    "natural": "300x112",
+    "rendered": "165x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "GettyImages-516156807-1?$UPSer_Preset$&wid=592&hei=333&fmt=png-alpha&fit=constrain",
+    "natural": "592x333",
+    "rendered": "592x332",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_1023035515_digital_02062023?$UPSer_Preset$&wid=592&hei=333&fit=constrain",
+    "natural": "592x333",
+    "rendered": "592x333",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_1476944906_Digital_12202022?$UPSer_Preset$&wid=592&hei=333&fit=constrain",
+    "natural": "592x333",
+    "rendered": "592x333",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Zenith_iStock-518040857?$UPSer_Preset$&wid=384&hei=216&fit=constrain",
+    "natural": "384x216",
+    "rendered": "384x216",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Argus_iStock_000009996595?$UPSer_Preset$&wid=384&hei=216&fit=constrain",
+    "natural": "384x216",
+    "rendered": "384x216",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AfterShip_1178068?$UPSer_Preset$&wid=384&hei=216&fit=constrain",
+    "natural": "384x216",
+    "rendered": "384x216",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "B2B%20Loss%20Calculator%20-%20White%20bg?$Image_Preset_Desktop$",
+    "natural": "1219x1280",
+    "rendered": "592x622",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-facebook",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-instagram",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-x",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-linkedin",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-youtube",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Your Supply Chain is Only as Str",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "48px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Your Supply Chain is Only as Str",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "48px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The Cost of One Failed Shipment",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The Cost of One Failed Shipment",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "How InsureShield® Protection Wor",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "How InsureShield® Protection Wor",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Don't Just Take Our Word For It",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Precious Cargo",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "When Bad Things Happen to Good C",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "AfterShip Amplifies the Post-Pur",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Build a More Resilient Supply Ch",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Trusted Protection. Proven Perfo",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Recent search results",
+    "color": "rgb(18, 18, 18)"
+   },
+   {
+    "text": "Customer Success Stories",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Customer Success Stories",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Customer Success Stories",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "row",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "row",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "row",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "sec-title__inner",
+    "width": 1216,
+    "left": 112
+   },
+   {
+    "sel": "stories__track",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "sec-title__inner",
+    "width": 1216,
+    "left": 112
+   },
+   {
+    "sel": "teaser-title",
+    "width": 1120,
+    "left": 160
+   },
+   {
+    "sel": "teaser-desc",
+    "width": 1120,
+    "left": 160
+   },
+   {
+    "sel": "container",
+    "width": 1280,
+    "left": 80
+   }
+  ]
+ }
+}

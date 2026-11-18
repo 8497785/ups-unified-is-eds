@@ -1,0 +1,3533 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-18T10:53:02.881Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.insureshield.com/de/de/claims.html",
+  "at": "2026-11-18T10:52:46.376Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2819,
+  "root": null,
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.image > div#image-2fdf62ade2 > a.cmp-image__link",
+    "x": 112,
+    "y": 22,
+    "w": 165,
+    "h": 71,
+    "text": "insureshield",
+    "href": "/de/de/home.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "a.cmp-image__link > picture > img.cmp-image__image",
+    "x": 112,
+    "y": 27,
+    "w": 165,
+    "h": 62,
+    "text": "insureshield",
+    "file": "InsureShield_horizontal_UPSC"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.nav-item > a.ups-link",
+    "x": 910,
+    "y": 14,
+    "w": 63,
+    "h": 16,
+    "text": "anmelden",
+    "href": "/login/de-de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.nav-item > a.ups-link",
+    "x": 1005,
+    "y": 14,
+    "w": 128,
+    "h": 16,
+    "text": "kontaktieren sie uns",
+    "href": "/de/de/about/contact-us.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.nav-item.ups-language-selector > p.ups-language",
+    "x": 1164,
+    "y": 12,
+    "w": 164,
+    "h": 21,
+    "text": "deutschland - deutsch"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.nav-item.ups-language-selector > p.ups-language",
+    "x": 1164,
+    "y": 12,
+    "w": 164,
+    "h": 21,
+    "label": "trigger",
+    "value": "deutschland - deutsch",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 317,
+    "y": 38,
+    "w": 208,
+    "h": 40,
+    "text": "warentransportversicherung",
+    "href": "/de/de/cargo-insurance.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link.main-link",
+    "x": 558,
+    "y": 38,
+    "w": 154,
+    "h": 40,
+    "text": "schadenforderungen",
+    "href": "/de/de/claims.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link.main-link",
+    "x": 743,
+    "y": 38,
+    "w": 57,
+    "h": 40,
+    "text": "partner",
+    "href": "/de/de/partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 833,
+    "y": 38,
+    "w": 88,
+    "h": 40,
+    "text": "ressourcen",
+    "href": "/de/de/resources.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 953,
+    "y": 38,
+    "w": 32,
+    "h": 40,
+    "text": "info",
+    "href": "/de/de/about.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.cmp-search > div#upser-header-search > button.header-search-btn",
+    "x": 1284,
+    "y": 49,
+    "w": 44,
+    "h": 44,
+    "text": "search toggle"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.cmp-search > div#upser-header-search > button.header-search-btn",
+    "x": 1284,
+    "y": 49,
+    "w": 44,
+    "h": 44,
+    "label": "search toggle",
+    "value": "search toggle",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ol.cmp-breadcrumb__list > li.cmp-breadcrumb__item.cmp-breadcrumb__item--active > span",
+    "x": 112,
+    "y": 139,
+    "w": 130,
+    "h": 20,
+    "text": "Schadenforderungen"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#image-bc19d68765 > picture > img.cmp-image__image",
+    "x": 736,
+    "y": 231,
+    "w": 592,
+    "h": 332,
+    "text": "male pulling out the contents out of an opened package",
+    "file": "shutterstock_1714665769_digital_01092023"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__title > h1",
+    "x": 112,
+    "y": 223,
+    "w": 488,
+    "h": 56,
+    "level": 1,
+    "text": "schadenforderungen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__description > p",
+    "x": 112,
+    "y": 323,
+    "w": 488,
+    "h": 112,
+    "text": "Haben Sie ein Problem mit einem Paket? Melden Sie sich beim Online-Portal an, ge"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__action-container > a#teaser-bc19d68765-cta-1316909b8e",
+    "x": 112,
+    "y": 459,
+    "w": 142,
+    "h": 44,
+    "text": "anmelden",
+    "href": "/login/de-de"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 313,
+    "y": 683,
+    "w": 815,
+    "h": 116,
+    "level": 2,
+    "text": "wie funktioniert das verfahren der schadenforderung?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > p.cmp-title__description",
+    "x": 313,
+    "y": 819,
+    "w": 815,
+    "h": 56,
+    "text": "Das schnelle Melden von Schadenforderungen kann dazu beitragen, die Suche nach v"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-12.col-lg-6 > picture > img.img-fluid.ups-list_image",
+    "x": 112,
+    "y": 923,
+    "w": 592,
+    "h": 333,
+    "text": "female placing an item wrapped in white tissue paper into a ",
+    "file": "shutterstock_1832128345_digital_01092023"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > span.feature-lists__item__image > img.feature_img.lazyloaded",
+    "x": 776,
+    "y": 923,
+    "w": 24,
+    "h": 24,
+    "text": "checkmark icon",
+    "file": "checkmark"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.feature-lists__item__content > div.list__title > h6",
+    "x": 816,
+    "y": 923,
+    "w": 496,
+    "h": 28,
+    "level": 6,
+    "text": "beim insureshield ® -online-portal anmelden"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.list__title > h6 > b",
+    "x": 816,
+    "y": 925,
+    "w": 392,
+    "h": 24,
+    "text": "Beim InsureShield -Online-Portal anmelden"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.feature-lists__item__content > div.list_desc > p",
+    "x": 816,
+    "y": 963,
+    "w": 496,
+    "h": 48,
+    "text": "Melden Sie sich mit der Nummer Ihrer Police beim Portal an und befolgen Sie die "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > span.feature-lists__item__image > img.feature_img.lazyloaded",
+    "x": 776,
+    "y": 1027,
+    "w": 24,
+    "h": 24,
+    "text": "checkmark icon",
+    "file": "checkmark"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.feature-lists__item__content > div.list__title > h6",
+    "x": 816,
+    "y": 1027,
+    "w": 495,
+    "h": 28,
+    "level": 6,
+    "text": "zahlungsempfänger der schadenforderung hinzufügen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.list__title > h6 > b",
+    "x": 816,
+    "y": 1029,
+    "w": 495,
+    "h": 24,
+    "text": "Zahlungsempfänger der Schadenforderung hinzufügen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.feature-lists__item__content > div.list_desc > p",
+    "x": 816,
+    "y": 1067,
+    "w": 495,
+    "h": 24,
+    "text": "Geben Sie an, wer die Zahlung für die Schadenforderung erhalten soll."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > span.feature-lists__item__image > img.feature_img.lazyloaded",
+    "x": 776,
+    "y": 1107,
+    "w": 24,
+    "h": 24,
+    "text": "checkmark icon",
+    "file": "checkmark"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.feature-lists__item__content > div.list__title > h6",
+    "x": 816,
+    "y": 1107,
+    "w": 496,
+    "h": 28,
+    "level": 6,
+    "text": "details zur sendung angeben"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.list__title > h6 > b",
+    "x": 816,
+    "y": 1109,
+    "w": 261,
+    "h": 24,
+    "text": "Details zur Sendung angeben"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.feature-lists__item__content > div.list_desc > p",
+    "x": 816,
+    "y": 1147,
+    "w": 496,
+    "h": 72,
+    "text": "Geben Sie Informationen über das Paket an, einschließlich der Sendungsverfolgung"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > span.feature-lists__item__image > img.feature_img.lazyloaded",
+    "x": 776,
+    "y": 1235,
+    "w": 24,
+    "h": 24,
+    "text": "checkmark icon",
+    "file": "checkmark"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.feature-lists__item__content > div.list__title > h6",
+    "x": 816,
+    "y": 1235,
+    "w": 496,
+    "h": 56,
+    "level": 6,
+    "text": "schadenanspruch mit zusätzlichen unterlagen belegen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.list__title > h6 > b",
+    "x": 816,
+    "y": 1237,
+    "w": 415,
+    "h": 52,
+    "text": "Schadenanspruch mit zusätzlichen Unterlagen belegen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.feature-lists__item__content > div.list_desc > p",
+    "x": 816,
+    "y": 1303,
+    "w": 496,
+    "h": 96,
+    "text": "Laden Sie Belege hoch, einschließlich einer Rechnung und eines Frachtbriefs, um "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > span.feature-lists__item__image > img.feature_img.ls-is-cached",
+    "x": 776,
+    "y": 1415,
+    "w": 24,
+    "h": 24,
+    "text": "checkmark icon",
+    "file": "checkmark"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.feature-lists__item__content > div.list__title > h6",
+    "x": 816,
+    "y": 1415,
+    "w": 496,
+    "h": 28,
+    "level": 6,
+    "text": "schadenforderung einreichen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.list__title > h6 > b",
+    "x": 816,
+    "y": 1417,
+    "w": 264,
+    "h": 24,
+    "text": "Schadenforderung einreichen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.feature-lists__item__content > div.list_desc > p",
+    "x": 816,
+    "y": 1455,
+    "w": 496,
+    "h": 48,
+    "text": "Reichen Sie Ihre Schadenforderung ein und unser Team wird sich umgehend darum kü"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.featured-list__content > div.featured-list__action-container > a.primary-btn.featured-list__action-link",
+    "x": 776,
+    "y": 1535,
+    "w": 315,
+    "h": 44,
+    "text": "eine schadenforderung einreichen",
+    "href": "/login/de-de"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 684,
+    "y": 1667,
+    "w": 72,
+    "h": 68,
+    "level": 2,
+    "text": "faq"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-3822be5bc6 > div#accordion-3822be5bc6-item-0a6bdbad67 > h3.cmp-accordion__header",
+    "x": 336,
+    "y": 1803,
+    "w": 768,
+    "h": 24,
+    "level": 3,
+    "text": "wie lange dauert das verfahren der schadenregulierung?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-3822be5bc6-item-0a6bdbad67 > h3.cmp-accordion__header > button#accordion-3822be5bc6-item-0a6bdbad67-button",
+    "x": 336,
+    "y": 1803,
+    "w": 768,
+    "h": 24,
+    "text": "wie lange dauert das verfahren der schadenregulierung?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-3822be5bc6-item-0a6bdbad67 > h3.cmp-accordion__header > button#accordion-3822be5bc6-item-0a6bdbad67-button",
+    "x": 336,
+    "y": 1803,
+    "w": 768,
+    "h": 24,
+    "label": "trigger",
+    "value": "wie lange dauert das verfahren der schadenregulierung?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-3822be5bc6 > div#accordion-3822be5bc6-item-9263638169 > h3.cmp-accordion__header",
+    "x": 336,
+    "y": 1883,
+    "w": 768,
+    "h": 24,
+    "level": 3,
+    "text": "welche unterlagen werden benötigt, um meinen anspruch zu belegen?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-3822be5bc6-item-9263638169 > h3.cmp-accordion__header > button#accordion-3822be5bc6-item-9263638169-button",
+    "x": 336,
+    "y": 1883,
+    "w": 768,
+    "h": 24,
+    "text": "welche unterlagen werden benötigt, um meinen anspruch zu belegen?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-3822be5bc6-item-9263638169 > h3.cmp-accordion__header > button#accordion-3822be5bc6-item-9263638169-button",
+    "x": 336,
+    "y": 1883,
+    "w": 768,
+    "h": 24,
+    "label": "trigger",
+    "value": "welche unterlagen werden benötigt, um meinen anspruch zu bel",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-3822be5bc6 > div#accordion-3822be5bc6-item-a05851cc1f > h3.cmp-accordion__header",
+    "x": 336,
+    "y": 1963,
+    "w": 768,
+    "h": 24,
+    "level": 3,
+    "text": "wann sollte ich einen schaden melden?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-3822be5bc6-item-a05851cc1f > h3.cmp-accordion__header > button#accordion-3822be5bc6-item-a05851cc1f-button",
+    "x": 336,
+    "y": 1963,
+    "w": 768,
+    "h": 24,
+    "text": "wann sollte ich einen schaden melden?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-3822be5bc6-item-a05851cc1f > h3.cmp-accordion__header > button#accordion-3822be5bc6-item-a05851cc1f-button",
+    "x": 336,
+    "y": 1963,
+    "w": 768,
+    "h": 24,
+    "label": "trigger",
+    "value": "wann sollte ich einen schaden melden?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-3822be5bc6 > div#accordion-3822be5bc6-item-e991fb93d7 > h3.cmp-accordion__header",
+    "x": 336,
+    "y": 2043,
+    "w": 768,
+    "h": 24,
+    "level": 3,
+    "text": "muss ich die verpackung aufbewahren?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-3822be5bc6-item-e991fb93d7 > h3.cmp-accordion__header > button#accordion-3822be5bc6-item-e991fb93d7-button",
+    "x": 336,
+    "y": 2043,
+    "w": 768,
+    "h": 24,
+    "text": "muss ich die verpackung aufbewahren?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-3822be5bc6-item-e991fb93d7 > h3.cmp-accordion__header > button#accordion-3822be5bc6-item-e991fb93d7-button",
+    "x": 336,
+    "y": 2043,
+    "w": 768,
+    "h": 24,
+    "label": "trigger",
+    "value": "muss ich die verpackung aufbewahren?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-3822be5bc6 > div#accordion-3822be5bc6-item-65533dedcf > h3.cmp-accordion__header",
+    "x": 336,
+    "y": 2123,
+    "w": 768,
+    "h": 24,
+    "level": 3,
+    "text": "an wen kann ich mich wenden, wenn ich fragen habe?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-3822be5bc6-item-65533dedcf > h3.cmp-accordion__header > button#accordion-3822be5bc6-item-65533dedcf-button",
+    "x": 336,
+    "y": 2123,
+    "w": 768,
+    "h": 24,
+    "text": "an wen kann ich mich wenden, wenn ich fragen habe?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-3822be5bc6-item-65533dedcf > h3.cmp-accordion__header > button#accordion-3822be5bc6-item-65533dedcf-button",
+    "x": 336,
+    "y": 2123,
+    "w": 768,
+    "h": 24,
+    "label": "trigger",
+    "value": "an wen kann ich mich wenden, wenn ich fragen habe?",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-372d246b07 > p",
+    "x": 112,
+    "y": 2306,
+    "w": 272,
+    "h": 23,
+    "text": "Diese Webseite"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 120,
+    "y": 2367,
+    "w": 177,
+    "h": 40,
+    "text": "warentransportversicherung",
+    "href": "/de/de/cargo-insurance.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 120,
+    "y": 2407,
+    "w": 130,
+    "h": 40,
+    "text": "schadenforderungen",
+    "href": "/de/de/claims.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 120,
+    "y": 2447,
+    "w": 46,
+    "h": 40,
+    "text": "partner",
+    "href": "/de/de/partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 120,
+    "y": 2488,
+    "w": 73,
+    "h": 40,
+    "text": "ressourcen",
+    "href": "/de/de/resources.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 120,
+    "y": 2528,
+    "w": 24,
+    "h": 40,
+    "text": "info",
+    "href": "/de/de/about.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-103725c08a > p",
+    "x": 416,
+    "y": 2306,
+    "w": 576,
+    "h": 23,
+    "text": "Andere UPS Webseiten"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 424,
+    "y": 2367,
+    "w": 99,
+    "h": 40,
+    "text": "ups capital",
+    "href": "/de-de/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 424,
+    "y": 2407,
+    "w": 90,
+    "h": 40,
+    "text": "parcel pro",
+    "href": "/de/de/home.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 424,
+    "y": 2447,
+    "w": 52,
+    "h": 40,
+    "text": "ups",
+    "href": "/de/de/Home.page"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 424,
+    "y": 2488,
+    "w": 198,
+    "h": 40,
+    "text": "ups supply chain solutions",
+    "href": "/de/de/supplychain/Home.page"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 424,
+    "y": 2528,
+    "w": 84,
+    "h": 40,
+    "text": "über ups",
+    "href": "/de/de/home.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-1ab496ebf9 > p",
+    "x": 1024,
+    "y": 2306,
+    "w": 304,
+    "h": 23,
+    "text": "Treten Sie mit uns in Kontakt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.socialmedia > div.ups-social-media > a.ups-social-icon",
+    "x": 1024,
+    "y": 2367,
+    "w": 136,
+    "h": 40,
+    "text": "facebook",
+    "href": "/UPSCapitalInsuranceAgency"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.ups-social-media > a.ups-social-icon > img.ups-social-icon__img.lazyloaded",
+    "x": 1032,
+    "y": 2379,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.socialmedia > div.ups-social-media > a.ups-social-icon",
+    "x": 1024,
+    "y": 2407,
+    "w": 136,
+    "h": 40,
+    "text": "social icon",
+    "href": "/insureshield/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.ups-social-media > a.ups-social-icon > img.ups-social-icon__img.lazyloaded",
+    "x": 1032,
+    "y": 2419,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "social-instagram"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.socialmedia > div.ups-social-media > a.ups-social-icon",
+    "x": 1024,
+    "y": 2447,
+    "w": 136,
+    "h": 40,
+    "text": "@upscapital",
+    "href": "/upscapital"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.ups-social-media > a.ups-social-icon > img.ups-social-icon__img.lazyloaded",
+    "x": 1032,
+    "y": 2459,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.socialmedia > div.ups-social-media > a.ups-social-icon",
+    "x": 1024,
+    "y": 2487,
+    "w": 136,
+    "h": 40,
+    "text": "linkedin",
+    "href": "/company/ups-capital"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.ups-social-media > a.ups-social-icon > img.ups-social-icon__img.lazyloaded",
+    "x": 1032,
+    "y": 2499,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.socialmedia > div.ups-social-media > a.ups-social-icon",
+    "x": 1024,
+    "y": 2528,
+    "w": 136,
+    "h": 40,
+    "text": "youtube",
+    "href": "/@insureshield"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.ups-social-media > a.ups-social-icon > img.ups-social-icon__img.lazyloaded",
+    "x": 1032,
+    "y": 2540,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "social-youtube"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 112,
+    "y": 2626,
+    "w": 252,
+    "h": 41,
+    "text": "nutzungsbedingungen der webseite",
+    "href": "/de/de/support/shipping-support/legal-terms-conditions.page"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 384,
+    "y": 2626,
+    "w": 159,
+    "h": 41,
+    "text": "technologievereinbarung",
+    "href": "/de/de/legal/technology-agreement.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 563,
+    "y": 2626,
+    "w": 138,
+    "h": 41,
+    "text": "produktinformationen",
+    "href": "/de/de/legal/product-disclosure.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 720,
+    "y": 2626,
+    "w": 85,
+    "h": 41,
+    "text": "beschwerden",
+    "href": "/de/de/legal/complaints.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 825,
+    "y": 2626,
+    "w": 71,
+    "h": 41,
+    "text": "impressum",
+    "href": "/de/de/legal/impressum.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 916,
+    "y": 2626,
+    "w": 126,
+    "h": 41,
+    "text": "datenschutzhinweis",
+    "href": "/de/de/legal/privacy-notice.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 1062,
+    "y": 2626,
+    "w": 133,
+    "h": 41,
+    "text": "cookie-einstellungen",
+    "href": "window.OneTrust.ToggleInfoDisplay();window(scrollTo(0,0))"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.copy-right > div#text-2b10ec6b3b > h4",
+    "x": 112,
+    "y": 2743,
+    "w": 1216,
+    "h": 20,
+    "level": 4,
+    "text": "copyright ©2023-2026 united parcel service of america, inc. all rights reserved."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 6,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 58,
+    "controls": 39,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div#container-90cb6bf8b7",
+     "path": "nav.navbar.util-nav > ul.navbar-nav > li.nav-item > a.ups-link",
+     "text": "anmelden",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div#container-90cb6bf8b7",
+     "path": "nav.navbar.util-nav > ul.navbar-nav > li.nav-item > a.ups-link",
+     "text": "anmelden",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#container-90cb6bf8b7",
+     "path": "nav.navbar.util-nav > ul.navbar-nav > li.nav-item.ups-language-selector > p.ups-language",
+     "text": "deutschland - deutsch",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#container-90cb6bf8b7",
+     "path": "nav.navbar.util-nav > ul.navbar-nav > li.nav-item.ups-language-selector > p.ups-language",
+     "text": "deutschland - deutsch",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--9ade650b--aemcoder.aem.page/de/de/claims",
+  "at": "2026-11-18T10:53:02.759Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2791,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-logo > p > a",
+    "x": 112,
+    "y": 22,
+    "w": 165,
+    "h": 71,
+    "text": "insureshield",
+    "href": "/de/de/home"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 112,
+    "y": 27,
+    "w": 165,
+    "h": 62,
+    "text": "insureshield",
+    "file": "media_1e13fd7b8c723c94791c8f8ac6c80eaf75"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 910,
+    "y": 14,
+    "w": 63,
+    "h": 16,
+    "text": "anmelden",
+    "href": "/login/de-de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1005,
+    "y": 14,
+    "w": 128,
+    "h": 16,
+    "text": "kontaktieren sie uns",
+    "href": "/de/de/about/contact-us"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.hdr-lang > button.hdr-lang-btn",
+    "x": 1164,
+    "y": 12,
+    "w": 164,
+    "h": 21,
+    "text": "deutschland - deutsch"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.hdr-lang > button.hdr-lang-btn",
+    "x": 1164,
+    "y": 12,
+    "w": 164,
+    "h": 21,
+    "label": "trigger",
+    "value": "deutschland - deutsch",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.hdr-nav-list > li.hdr-nav-item > a.hdr-nav-link",
+    "x": 317,
+    "y": 38,
+    "w": 208,
+    "h": 40,
+    "text": "warentransportversicherung",
+    "href": "/de/de/cargo-insurance"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.hdr-nav-list > li.hdr-nav-item > a.hdr-nav-link",
+    "x": 558,
+    "y": 38,
+    "w": 154,
+    "h": 40,
+    "text": "schadenforderungen",
+    "href": "/de/de/claims"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.hdr-nav-list > li.hdr-nav-item > a.hdr-nav-link",
+    "x": 743,
+    "y": 38,
+    "w": 57,
+    "h": 40,
+    "text": "partner",
+    "href": "/de/de/partners"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.hdr-nav-list > li.hdr-nav-item > a.hdr-nav-link",
+    "x": 833,
+    "y": 38,
+    "w": 88,
+    "h": 40,
+    "text": "ressourcen",
+    "href": "/de/de/resources"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.hdr-nav-list > li.hdr-nav-item > a.hdr-nav-link",
+    "x": 953,
+    "y": 38,
+    "w": 32,
+    "h": 40,
+    "text": "info",
+    "href": "/de/de/about"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-actions > div.hdr-search > button.hdr-search-btn",
+    "x": 1284,
+    "y": 49,
+    "w": 44,
+    "h": 44,
+    "text": "search toggle"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-actions > div.hdr-search > button.hdr-search-btn",
+    "x": 1284,
+    "y": 49,
+    "w": 44,
+    "h": 44,
+    "label": "search toggle",
+    "value": "search toggle",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > span",
+    "x": 112,
+    "y": 139,
+    "w": 130,
+    "h": 20,
+    "text": "Schadenforderungen"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-content > div.teaser-title > h1#schadenforderungen",
+    "x": 112,
+    "y": 223,
+    "w": 488,
+    "h": 56,
+    "level": 1,
+    "text": "schadenforderungen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-content > div.teaser-desc > p",
+    "x": 112,
+    "y": 323,
+    "w": 488,
+    "h": 112,
+    "text": "Haben Sie ein Problem mit einem Paket? Melden Sie sich beim Online-Portal an, ge"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-actions > p.button-wrapper > a.button.primary",
+    "x": 112,
+    "y": 459,
+    "w": 146,
+    "h": 44,
+    "text": "anmelden",
+    "href": "/login/de-de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-media > picture > img",
+    "x": 736,
+    "y": 231,
+    "w": 592,
+    "h": 332,
+    "text": "male pulling out the contents out of an opened package",
+    "file": "media_1d7ada1277282a3157dd0cea007360ea62"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.featured-list-container > div.default-content-wrapper > h2#wie-funktioniert-das-verfahren-der-schadenforderung",
+    "x": 313,
+    "y": 683,
+    "w": 815,
+    "h": 116,
+    "level": 2,
+    "text": "wie funktioniert das verfahren der schadenforderung?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.featured-list-container > div.default-content-wrapper > p",
+    "x": 313,
+    "y": 819,
+    "w": 815,
+    "h": 56,
+    "text": "Das schnelle Melden von Schadenforderungen kann dazu beitragen, die Suche nach v"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-media > picture > img",
+    "x": 112,
+    "y": 923,
+    "w": 592,
+    "h": 333,
+    "text": "female placing an item wrapped in white tissue paper into a ",
+    "file": "media_1a5fe03fd99dd39313e918020fa8118018"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-title > p > strong",
+    "x": 816,
+    "y": 925,
+    "w": 392,
+    "h": 24,
+    "text": "Beim InsureShield -Online-Portal anmelden"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-content > div.featured-list-desc > p",
+    "x": 816,
+    "y": 963,
+    "w": 496,
+    "h": 48,
+    "text": "Melden Sie sich mit der Nummer Ihrer Police beim Portal an und befolgen Sie die "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-title > p > strong",
+    "x": 816,
+    "y": 1029,
+    "w": 490,
+    "h": 24,
+    "text": "Zahlungsempfänger der Schadenforderung hinzufügen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-content > div.featured-list-desc > p",
+    "x": 816,
+    "y": 1067,
+    "w": 493,
+    "h": 24,
+    "text": "Geben Sie an, wer die Zahlung für die Schadenforderung erhalten soll."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-title > p > strong",
+    "x": 816,
+    "y": 1109,
+    "w": 261,
+    "h": 24,
+    "text": "Details zur Sendung angeben"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-content > div.featured-list-desc > p",
+    "x": 816,
+    "y": 1147,
+    "w": 496,
+    "h": 72,
+    "text": "Geben Sie Informationen über das Paket an, einschließlich der Sendungsverfolgung"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-title > p > strong",
+    "x": 816,
+    "y": 1237,
+    "w": 491,
+    "h": 24,
+    "text": "Schadenanspruch mit zusätzlichen Unterlagen belegen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-content > div.featured-list-desc > p",
+    "x": 816,
+    "y": 1275,
+    "w": 496,
+    "h": 96,
+    "text": "Laden Sie Belege hoch, einschließlich einer Rechnung und eines Frachtbriefs, um "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-title > p > strong",
+    "x": 816,
+    "y": 1389,
+    "w": 264,
+    "h": 24,
+    "text": "Schadenforderung einreichen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-content > div.featured-list-desc > p",
+    "x": 816,
+    "y": 1427,
+    "w": 496,
+    "h": 48,
+    "text": "Reichen Sie Ihre Schadenforderung ein und unser Team wird sich umgehend darum kü"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-actions > p.button-wrapper > a.button.primary",
+    "x": 776,
+    "y": 1507,
+    "w": 319,
+    "h": 44,
+    "text": "eine schadenforderung einreichen",
+    "href": "/login/de-de"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.accordion-container > div.default-content-wrapper > h2#faq",
+    "x": 684,
+    "y": 1639,
+    "w": 72,
+    "h": 68,
+    "level": 2,
+    "text": "faq"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#wie-lange-dauert-das-verfahren-der-schadenregulierung",
+    "x": 336,
+    "y": 1775,
+    "w": 403,
+    "h": 24,
+    "level": 3,
+    "text": "wie lange dauert das verfahren der schadenregulierung?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 1080,
+    "y": 1775,
+    "w": 24,
+    "h": 24,
+    "text": "wie lange dauert das verfahren der schadenregulierung?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 1080,
+    "y": 1775,
+    "w": 24,
+    "h": 24,
+    "label": "wie lange dauert das verfahren der schadenregulierung?",
+    "value": "wie lange dauert das verfahren der schadenregulierung?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#welche-unterlagen-werden-benötigt-um-meinen-anspruch-zu-belegen",
+    "x": 336,
+    "y": 1855,
+    "w": 499,
+    "h": 24,
+    "level": 3,
+    "text": "welche unterlagen werden benötigt, um meinen anspruch zu belegen?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 1080,
+    "y": 1855,
+    "w": 24,
+    "h": 24,
+    "text": "welche unterlagen werden benötigt, um meinen anspruch zu belegen?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 1080,
+    "y": 1855,
+    "w": 24,
+    "h": 24,
+    "label": "welche unterlagen werden benötigt, um meinen anspruch zu belegen?",
+    "value": "welche unterlagen werden benötigt, um meinen anspruch zu bel",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#wann-sollte-ich-einen-schaden-melden",
+    "x": 336,
+    "y": 1935,
+    "w": 281,
+    "h": 24,
+    "level": 3,
+    "text": "wann sollte ich einen schaden melden?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 1080,
+    "y": 1935,
+    "w": 24,
+    "h": 24,
+    "text": "wann sollte ich einen schaden melden?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 1080,
+    "y": 1935,
+    "w": 24,
+    "h": 24,
+    "label": "wann sollte ich einen schaden melden?",
+    "value": "wann sollte ich einen schaden melden?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#muss-ich-die-verpackung-aufbewahren",
+    "x": 336,
+    "y": 2015,
+    "w": 282,
+    "h": 24,
+    "level": 3,
+    "text": "muss ich die verpackung aufbewahren?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 1080,
+    "y": 2015,
+    "w": 24,
+    "h": 24,
+    "text": "muss ich die verpackung aufbewahren?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 1080,
+    "y": 2015,
+    "w": 24,
+    "h": 24,
+    "label": "muss ich die verpackung aufbewahren?",
+    "value": "muss ich die verpackung aufbewahren?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#an-wen-kann-ich-mich-wenden-wenn-ich-fragen-habe",
+    "x": 336,
+    "y": 2095,
+    "w": 384,
+    "h": 24,
+    "level": 3,
+    "text": "an wen kann ich mich wenden, wenn ich fragen habe?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 1080,
+    "y": 2095,
+    "w": 24,
+    "h": 24,
+    "text": "an wen kann ich mich wenden, wenn ich fragen habe?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 1080,
+    "y": 2095,
+    "w": 24,
+    "h": 24,
+    "label": "an wen kann ich mich wenden, wenn ich fragen habe?",
+    "value": "an wen kann ich mich wenden, wenn ich fragen habe?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col > div.ftr-heading",
+    "x": 112,
+    "y": 2278,
+    "w": 272,
+    "h": 23,
+    "text": "diese webseite"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col > div.ftr-heading",
+    "x": 112,
+    "y": 2278,
+    "w": 272,
+    "h": 23,
+    "label": "trigger",
+    "value": "diese webseite",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 120,
+    "y": 2339,
+    "w": 177,
+    "h": 40,
+    "text": "warentransportversicherung",
+    "href": "/de/de/cargo-insurance"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 120,
+    "y": 2379,
+    "w": 130,
+    "h": 40,
+    "text": "schadenforderungen",
+    "href": "/de/de/claims"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 120,
+    "y": 2419,
+    "w": 46,
+    "h": 40,
+    "text": "partner",
+    "href": "/de/de/partners"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 120,
+    "y": 2460,
+    "w": 73,
+    "h": 40,
+    "text": "ressourcen",
+    "href": "/de/de/resources"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 120,
+    "y": 2500,
+    "w": 24,
+    "h": 40,
+    "text": "info",
+    "href": "/de/de/about"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col.ftr-col-wide > div.ftr-heading",
+    "x": 416,
+    "y": 2278,
+    "w": 576,
+    "h": 23,
+    "text": "andere ups webseiten"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col.ftr-col-wide > div.ftr-heading",
+    "x": 416,
+    "y": 2278,
+    "w": 576,
+    "h": 23,
+    "label": "trigger",
+    "value": "andere ups webseiten",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 424,
+    "y": 2339,
+    "w": 99,
+    "h": 40,
+    "text": "ups capital",
+    "href": "/de-de/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 424,
+    "y": 2379,
+    "w": 90,
+    "h": 40,
+    "text": "parcel pro",
+    "href": "/de/de/home.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 424,
+    "y": 2419,
+    "w": 52,
+    "h": 40,
+    "text": "ups",
+    "href": "/de/de/Home.page"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 424,
+    "y": 2460,
+    "w": 198,
+    "h": 40,
+    "text": "ups supply chain solutions",
+    "href": "/de/de/supplychain/Home.page"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 424,
+    "y": 2500,
+    "w": 84,
+    "h": 40,
+    "text": "über ups",
+    "href": "/de/de/home.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col > div.ftr-heading",
+    "x": 1024,
+    "y": 2278,
+    "w": 304,
+    "h": 23,
+    "text": "treten sie mit uns in kontakt"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col > div.ftr-heading",
+    "x": 1024,
+    "y": 2278,
+    "w": 304,
+    "h": 23,
+    "label": "trigger",
+    "value": "treten sie mit uns in kontakt",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-social > li > a",
+    "x": 1024,
+    "y": 2339,
+    "w": 136,
+    "h": 40,
+    "text": "facebook",
+    "href": "/UPSCapitalInsuranceAgency"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 1032,
+    "y": 2351,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "media_186a4c32e2404e6a40161a7830c0f08f2f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-social > li > a",
+    "x": 1024,
+    "y": 2379,
+    "w": 136,
+    "h": 40,
+    "text": "social icon",
+    "href": "/insureshield/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 1032,
+    "y": 2391,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "media_1ee7f692453422773464d809da109464b9"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-social > li > a",
+    "x": 1024,
+    "y": 2419,
+    "w": 136,
+    "h": 40,
+    "text": "@upscapital",
+    "href": "/upscapital"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 1032,
+    "y": 2431,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "media_1fa955b7f35dd1707335223cf77c8ebda7"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-social > li > a",
+    "x": 1024,
+    "y": 2459,
+    "w": 136,
+    "h": 40,
+    "text": "linkedin",
+    "href": "/company/ups-capital"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 1032,
+    "y": 2471,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "media_1452cdb45d95b6a428dc65e7f217fad667"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-social > li > a",
+    "x": 1024,
+    "y": 2500,
+    "w": 136,
+    "h": 40,
+    "text": "youtube",
+    "href": "/@insureshield"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 1032,
+    "y": 2512,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "media_145779c1bd16de96d7b11ed2a584f5678f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-legal > li > a",
+    "x": 112,
+    "y": 2598,
+    "w": 252,
+    "h": 41,
+    "text": "nutzungsbedingungen der webseite",
+    "href": "/de/de/support/shipping-support/legal-terms-conditions.page"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-legal > li > a",
+    "x": 384,
+    "y": 2598,
+    "w": 159,
+    "h": 41,
+    "text": "technologievereinbarung",
+    "href": "/de/de/legal/technology-agreement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-legal > li > a",
+    "x": 563,
+    "y": 2598,
+    "w": 138,
+    "h": 41,
+    "text": "produktinformationen",
+    "href": "/de/de/legal/product-disclosure"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-legal > li > a",
+    "x": 720,
+    "y": 2598,
+    "w": 85,
+    "h": 41,
+    "text": "beschwerden",
+    "href": "/de/de/legal/complaints"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-legal > li > a",
+    "x": 825,
+    "y": 2598,
+    "w": 71,
+    "h": 41,
+    "text": "impressum",
+    "href": "/de/de/legal/impressum"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-legal > li > a",
+    "x": 916,
+    "y": 2598,
+    "w": 126,
+    "h": 41,
+    "text": "datenschutzhinweis",
+    "href": "/de/de/legal/privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-legal > li > a",
+    "x": 1062,
+    "y": 2598,
+    "w": 133,
+    "h": 41,
+    "text": "cookie-einstellungen",
+    "href": "/de/de/claims"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-inner > div.ftr-copy > p",
+    "x": 112,
+    "y": 2715,
+    "w": 1216,
+    "h": 20,
+    "text": "Copyright ©2023-2026 United Parcel Service of America, Inc. All rights reserved."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 58,
+    "controls": 42,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "schadenforderungen",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "wie funktioniert das verfahren der schadenforderung?",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 11,
+    "image": 6
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 11,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT IMAGES"
+   ]
+  },
+  {
+   "index": 3,
+   "heading": "faq",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "wie lange dauert das verfahren der schadenregulierung?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "welche unterlagen werden benötigt, um meinen anspruch zu belegen?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "wann sollte ich einen schaden melden?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "muss ich die verpackung aufbewahren?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "an wen kann ich mich wenden, wenn ich fragen habe?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"wie funktioniert das verfahren der schadenforderung?\": 6 origin → 1 served visible",
+   "band": 2,
+   "origin": 6,
+   "eds": 1,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 319,
+    "y": 48,
+    "w": 204,
+    "h": 19
+   },
+   {
+    "x": 560,
+    "y": 48,
+    "w": 150,
+    "h": 19
+   },
+   {
+    "x": 745,
+    "y": 48,
+    "w": 53,
+    "h": 19
+   },
+   {
+    "x": 835,
+    "y": 48,
+    "w": 84,
+    "h": 19
+   },
+   {
+    "x": 955,
+    "y": 48,
+    "w": 28,
+    "h": 19
+   },
+   {
+    "x": 112,
+    "y": 140,
+    "w": 130,
+    "h": 16
+   },
+   {
+    "x": 112,
+    "y": 222,
+    "w": 446,
+    "h": 57
+   },
+   {
+    "x": 112,
+    "y": 325,
+    "w": 468,
+    "h": 24
+   },
+   {
+    "x": 112,
+    "y": 353,
+    "w": 458,
+    "h": 24
+   },
+   {
+    "x": 112,
+    "y": 381,
+    "w": 352,
+    "h": 24
+   },
+   {
+    "x": 112,
+    "y": 409,
+    "w": 176,
+    "h": 24
+   },
+   {
+    "x": 136,
+    "y": 471,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 417,
+    "y": 683,
+    "w": 607,
+    "h": 47
+   },
+   {
+    "x": 546,
+    "y": 731,
+    "w": 347,
+    "h": 47
+   },
+   {
+    "x": 350,
+    "y": 821,
+    "w": 740,
+    "h": 24
+   },
+   {
+    "x": 461,
+    "y": 849,
+    "w": 517,
+    "h": 24
+   },
+   {
+    "x": 816,
+    "y": 925,
+    "w": 162,
+    "h": 24
+   },
+   {
+    "x": 978,
+    "y": 922,
+    "w": 12,
+    "h": 18
+   },
+   {
+    "x": 990,
+    "y": 925,
+    "w": 218,
+    "h": 24
+   },
+   {
+    "x": 816,
+    "y": 965,
+    "w": 454,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 989,
+    "w": 462,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1029,
+    "w": 495,
+    "h": 24
+   },
+   {
+    "x": 816,
+    "y": 1069,
+    "w": 493,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1109,
+    "w": 261,
+    "h": 24
+   },
+   {
+    "x": 816,
+    "y": 1149,
+    "w": 439,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1173,
+    "w": 444,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1197,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1237,
+    "w": 415,
+    "h": 24
+   },
+   {
+    "x": 816,
+    "y": 1265,
+    "w": 76,
+    "h": 24
+   },
+   {
+    "x": 816,
+    "y": 1305,
+    "w": 452,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1329,
+    "w": 486,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1353,
+    "w": 481,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1377,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1417,
+    "w": 264,
+    "h": 24
+   },
+   {
+    "x": 816,
+    "y": 1457,
+    "w": 459,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1481,
+    "w": 201,
+    "h": 19
+   },
+   {
+    "x": 800,
+    "y": 1547,
+    "w": 245,
+    "h": 19
+   },
+   {
+    "x": 684,
+    "y": 1667,
+    "w": 72,
+    "h": 47
+   },
+   {
+    "x": 336,
+    "y": 1805,
+    "w": 403,
+    "h": 19
+   },
+   {
+    "x": 336,
+    "y": 1885,
+    "w": 499,
+    "h": 19
+   },
+   {
+    "x": 336,
+    "y": 1965,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 336,
+    "y": 2045,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 336,
+    "y": 2125,
+    "w": 384,
+    "h": 19
+   },
+   {
+    "x": 112,
+    "y": 2305,
+    "w": 138,
+    "h": 24
+   },
+   {
+    "x": 120,
+    "y": 2379,
+    "w": 177,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2419,
+    "w": 130,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2459,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2500,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2540,
+    "w": 24,
+    "h": 16
+   },
+   {
+    "x": 416,
+    "y": 2305,
+    "w": 206,
+    "h": 24
+   },
+   {
+    "x": 424,
+    "y": 2379,
+    "w": 77,
+    "h": 16
+   },
+   {
+    "x": 424,
+    "y": 2419,
+    "w": 68,
+    "h": 16
+   },
+   {
+    "x": 424,
+    "y": 2459,
+    "w": 30,
+    "h": 16
+   },
+   {
+    "x": 424,
+    "y": 2500,
+    "w": 176,
+    "h": 16
+   },
+   {
+    "x": 424,
+    "y": 2540,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 1024,
+    "y": 2305,
+    "w": 258,
+    "h": 24
+   },
+   {
+    "x": 1056,
+    "y": 2379,
+    "w": 61,
+    "h": 16
+   },
+   {
+    "x": 1056,
+    "y": 2459,
+    "w": 82,
+    "h": 16
+   },
+   {
+    "x": 1056,
+    "y": 2499,
+    "w": 53,
+    "h": 16
+   },
+   {
+    "x": 1056,
+    "y": 2540,
+    "w": 54,
+    "h": 16
+   },
+   {
+    "x": 112,
+    "y": 2639,
+    "w": 230,
+    "h": 16
+   },
+   {
+    "x": 384,
+    "y": 2638,
+    "w": 159,
+    "h": 16
+   },
+   {
+    "x": 563,
+    "y": 2638,
+    "w": 138,
+    "h": 16
+   },
+   {
+    "x": 720,
+    "y": 2638,
+    "w": 85,
+    "h": 16
+   },
+   {
+    "x": 825,
+    "y": 2638,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 916,
+    "y": 2638,
+    "w": 126,
+    "h": 16
+   },
+   {
+    "x": 1062,
+    "y": 2638,
+    "w": 133,
+    "h": 16
+   },
+   {
+    "x": 112,
+    "y": 2745,
+    "w": 503,
+    "h": 16
+   }
+  ],
+  "eds": [
+   {
+    "x": 910,
+    "y": 14,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 1005,
+    "y": 14,
+    "w": 128,
+    "h": 16
+   },
+   {
+    "x": 1164,
+    "y": 14,
+    "w": 140,
+    "h": 16
+   },
+   {
+    "x": 319,
+    "y": 48,
+    "w": 204,
+    "h": 19
+   },
+   {
+    "x": 560,
+    "y": 48,
+    "w": 150,
+    "h": 19
+   },
+   {
+    "x": 745,
+    "y": 48,
+    "w": 53,
+    "h": 19
+   },
+   {
+    "x": 835,
+    "y": 48,
+    "w": 84,
+    "h": 19
+   },
+   {
+    "x": 955,
+    "y": 48,
+    "w": 28,
+    "h": 19
+   },
+   {
+    "x": 112,
+    "y": 140,
+    "w": 130,
+    "h": 16
+   },
+   {
+    "x": 112,
+    "y": 222,
+    "w": 446,
+    "h": 57
+   },
+   {
+    "x": 112,
+    "y": 325,
+    "w": 463,
+    "h": 24
+   },
+   {
+    "x": 112,
+    "y": 353,
+    "w": 458,
+    "h": 24
+   },
+   {
+    "x": 112,
+    "y": 381,
+    "w": 352,
+    "h": 24
+   },
+   {
+    "x": 112,
+    "y": 409,
+    "w": 176,
+    "h": 24
+   },
+   {
+    "x": 136,
+    "y": 471,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 417,
+    "y": 683,
+    "w": 607,
+    "h": 47
+   },
+   {
+    "x": 546,
+    "y": 731,
+    "w": 347,
+    "h": 47
+   },
+   {
+    "x": 350,
+    "y": 821,
+    "w": 740,
+    "h": 24
+   },
+   {
+    "x": 461,
+    "y": 849,
+    "w": 517,
+    "h": 24
+   },
+   {
+    "x": 816,
+    "y": 925,
+    "w": 162,
+    "h": 24
+   },
+   {
+    "x": 978,
+    "y": 922,
+    "w": 12,
+    "h": 18
+   },
+   {
+    "x": 990,
+    "y": 925,
+    "w": 218,
+    "h": 24
+   },
+   {
+    "x": 816,
+    "y": 965,
+    "w": 454,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 989,
+    "w": 462,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1029,
+    "w": 490,
+    "h": 24
+   },
+   {
+    "x": 816,
+    "y": 1069,
+    "w": 493,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1109,
+    "w": 261,
+    "h": 24
+   },
+   {
+    "x": 816,
+    "y": 1149,
+    "w": 439,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1173,
+    "w": 444,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1197,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1237,
+    "w": 491,
+    "h": 24
+   },
+   {
+    "x": 816,
+    "y": 1277,
+    "w": 452,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1301,
+    "w": 482,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1325,
+    "w": 481,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1349,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1389,
+    "w": 264,
+    "h": 24
+   },
+   {
+    "x": 816,
+    "y": 1429,
+    "w": 459,
+    "h": 19
+   },
+   {
+    "x": 816,
+    "y": 1453,
+    "w": 201,
+    "h": 19
+   },
+   {
+    "x": 800,
+    "y": 1519,
+    "w": 245,
+    "h": 19
+   },
+   {
+    "x": 684,
+    "y": 1639,
+    "w": 72,
+    "h": 47
+   },
+   {
+    "x": 336,
+    "y": 1777,
+    "w": 403,
+    "h": 19
+   },
+   {
+    "x": 336,
+    "y": 1857,
+    "w": 499,
+    "h": 19
+   },
+   {
+    "x": 336,
+    "y": 1937,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 336,
+    "y": 2017,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 336,
+    "y": 2097,
+    "w": 384,
+    "h": 19
+   },
+   {
+    "x": 112,
+    "y": 2277,
+    "w": 138,
+    "h": 24
+   },
+   {
+    "x": 120,
+    "y": 2351,
+    "w": 177,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2391,
+    "w": 130,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2431,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2472,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2512,
+    "w": 24,
+    "h": 16
+   },
+   {
+    "x": 416,
+    "y": 2277,
+    "w": 206,
+    "h": 24
+   },
+   {
+    "x": 424,
+    "y": 2351,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 424,
+    "y": 2391,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 424,
+    "y": 2431,
+    "w": 26,
+    "h": 16
+   },
+   {
+    "x": 424,
+    "y": 2472,
+    "w": 172,
+    "h": 16
+   },
+   {
+    "x": 424,
+    "y": 2512,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 1024,
+    "y": 2277,
+    "w": 258,
+    "h": 24
+   },
+   {
+    "x": 1056,
+    "y": 2351,
+    "w": 61,
+    "h": 16
+   },
+   {
+    "x": 1056,
+    "y": 2431,
+    "w": 82,
+    "h": 16
+   },
+   {
+    "x": 1056,
+    "y": 2471,
+    "w": 53,
+    "h": 16
+   },
+   {
+    "x": 1056,
+    "y": 2512,
+    "w": 54,
+    "h": 16
+   },
+   {
+    "x": 112,
+    "y": 2611,
+    "w": 227,
+    "h": 16
+   },
+   {
+    "x": 384,
+    "y": 2610,
+    "w": 159,
+    "h": 16
+   },
+   {
+    "x": 563,
+    "y": 2610,
+    "w": 138,
+    "h": 16
+   },
+   {
+    "x": 720,
+    "y": 2610,
+    "w": 85,
+    "h": 16
+   },
+   {
+    "x": 825,
+    "y": 2610,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 916,
+    "y": 2610,
+    "w": 126,
+    "h": 16
+   },
+   {
+    "x": 1062,
+    "y": 2610,
+    "w": 133,
+    "h": 16
+   },
+   {
+    "x": 112,
+    "y": 2717,
+    "w": 503,
+    "h": 16
+   }
+  ]
+ }
+}

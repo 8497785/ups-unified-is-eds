@@ -1,0 +1,61 @@
+{
+  "a": "stardust/replica/gates/all-360/us-en-customer-communications-confirm-contact-information-html/origin.png",
+  "b": "stardust/replica/gates/all-360/us-en-customer-communications-confirm-contact-information-html/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3365,
+    "mode": "overlap"
+  },
+  "heightDelta": 20,
+  "differingPixels": 73868,
+  "pct": 6.1,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/us-en-customer-communications-confirm-contact-information-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 18.48,
+  "textBoxes": 51,
+  "textPixels": 172290,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 4.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 7.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 4.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 4.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 16.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3365,
+      "pct": 5.7
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/confirm-contact-information"
+  }
+}

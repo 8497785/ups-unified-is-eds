@@ -1,0 +1,9 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.insureshield.com/us/en/customer-communications.html (live side from cache stardust/replica/gates/us-en-customer-communications-html-1440/chrome-live.json, probed 2026-11-17T21:59:29.040Z — delete the file to re-probe)
+  build: http://localhost:8791/us-en-customer-communications-html-proposed.html
+
+■ header: ✓ parity — 10 paired of 10/10 texts, 1/1 icons
+
+■ footer: ✓ parity — 32 paired of 32/32 texts, 5/5 icons
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

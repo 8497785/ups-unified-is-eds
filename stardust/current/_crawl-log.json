@@ -1,0 +1,5052 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 100,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.insureshield.com/content/dam/ups-assets/insureshield/logo/InsureShield_favicon.png",
+    "file": "assets/favicon.png"
+  },
+  "crawl": {
+    "failures": [
+      {
+        "url": "https://www.insureshield.com/it.html",
+        "slug": "it-html",
+        "errorClass": "HTTPError",
+        "message": "HTTP 404",
+        "at": "2026-11-17T19:56:14.158Z"
+      },
+      {
+        "url": "https://www.insureshield.com/gb.html",
+        "slug": "gb-html",
+        "errorClass": "HTTPError",
+        "message": "HTTP 404",
+        "at": "2026-11-17T19:56:16.987Z"
+      },
+      {
+        "url": "https://www.insureshield.com/ca.html",
+        "slug": "ca-html",
+        "errorClass": "HTTPError",
+        "message": "HTTP 404",
+        "at": "2026-11-17T19:56:18.900Z"
+      },
+      {
+        "url": "https://www.insureshield.com/fr.html",
+        "slug": "fr-html",
+        "errorClass": "HTTPError",
+        "message": "HTTP 404",
+        "at": "2026-11-17T19:56:20.897Z"
+      }
+    ],
+    "degraded": [],
+    "pageTimeoutMs": 90000
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 96,
+    "pagesWithSameSiteData": 96,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 94,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/0198f20a-0fdf-7c44-bed8-4121c32fc8d1/0198f20a-0fdf-7c44-bed8-4121c32fc8d1.json",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c.go-mpulse.net",
+        "path": "/api/config.json",
+        "query": [
+          "acao",
+          "ak.ai",
+          "d",
+          "key",
+          "plugins",
+          "si",
+          "sl",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://c.go-mpulse.net/api/config.json",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202608.1.0/assets/otFloatingRounded.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202608.1.0/assets/otFloatingRounded.json",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202608.1.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202608.1.0/assets/v2/otPcCenter.json",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202608.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202608.1.0/assets/otCommonStyles.css",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ups.tt.omtrdc.net",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://ups.tt.omtrdc.net/rest/v1/delivery",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "pixel-config.reddit.com",
+        "path": "/pixels/t2_a6518c68/config",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://pixel-config.reddit.com/pixels/t2_a6518c68/config",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api.company-target.com",
+        "path": "/api/v3/ip.json",
+        "query": [
+          "page",
+          "page_title",
+          "referrer"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://api.company-target.com/api/v3/ip.json",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "alb.reddit.com",
+        "path": "/rp",
+        "query": [
+          "event",
+          "id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://alb.reddit.com/rp",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_gsid",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gdid",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "aap-p.insureshield.com",
+        "path": "/DG/DEFAULT/rest/rpc/{n}",
+        "query": [
+          "bcsessionid",
+          "bctempid",
+          "overruleReferrer",
+          "referer",
+          "time",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://aap-p.insureshield.com/DG/DEFAULT/rest/rpc/392",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "insight.adsrvr.org",
+        "path": "/track/realtimeconversion",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://insight.adsrvr.org/track/realtimeconversion",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "did",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gdid",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/18025150379/",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/0198f20a-0fdf-7c44-bed8-4121c32fc8d1/019fb31b-1361-71b9-b81f-b1c6e879622e/en.json",
+        "pages": 74,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api.salemove.com",
+        "path": "/visitor_config",
+        "query": [
+          "max_touch_points",
+          "referrer"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.salemove.com/visitor_config",
+        "pages": 65,
+        "examples": [
+          "index",
+          "us-en-claims-html",
+          "us-en-partners-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/conversions/c/r",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://bat.bing.com/p/conversions/c/r",
+        "pages": 29,
+        "examples": [
+          "index",
+          "us-en-partners-html",
+          "us-en-test-deletion-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/conversions/c/i",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://bat.bing.com/p/conversions/c/i",
+        "pages": 29,
+        "examples": [
+          "us-en-shipping-insurance-html",
+          "us-en-about-html",
+          "us-en-test-deletion1-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/libs/granite/csrf/token.json",
+        "pages": 29,
+        "examples": [
+          "us-en-about-html",
+          "us-en-shipping-insurance-special-commodities-html",
+          "us-en-shipping-insurance-select-my-coverage-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/etc.clientlibs/toggles.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/etc.clientlibs/toggles.json",
+        "pages": 29,
+        "examples": [
+          "us-en-about-html",
+          "us-en-shipping-insurance-special-commodities-html",
+          "us-en-shipping-insurance-select-my-coverage-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/conversions/c/l",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://bat.bing.com/p/conversions/c/l",
+        "pages": 25,
+        "examples": [
+          "us-en-claims-html",
+          "us-en-global-html",
+          "us-en-page-deletion-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/libs/dam/components/scene7/common/clientlibs/i18n.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/javascript",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/libs/dam/components/scene7/common/clientlibs/i18n.js",
+        "pages": 19,
+        "examples": [
+          "us-en-about-html",
+          "us-en-shipping-insurance-select-my-coverage-html",
+          "us-en-shipping-insurance-multi-carrier-shipments-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/form-data/{n}",
+        "query": [
+          "auid",
+          "did",
+          "dma",
+          "ec_f",
+          "ec_mode",
+          "ecsid",
+          "ecsid2",
+          "em",
+          "emd",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gdid",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "tag_exp",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/form-data/18025150379",
+        "pages": 17,
+        "examples": [
+          "us-en-claims-html",
+          "us-en-claims-channel-partners-claims-html",
+          "us-en-resources-help-and-support-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/pagead/form-data/{n}",
+        "query": [
+          "auid",
+          "did",
+          "dma",
+          "ec_f",
+          "ec_mode",
+          "ecsid",
+          "ecsid2",
+          "em",
+          "emd",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gdid",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "tag_exp",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/pagead/form-data/18025150379",
+        "pages": 17,
+        "examples": [
+          "us-en-claims-html",
+          "us-en-claims-channel-partners-claims-html",
+          "us-en-resources-help-and-support-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/Video",
+        "query": [
+          "handler",
+          "id",
+          "locale",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/Video",
+        "pages": 17,
+        "examples": [
+          "us-en-about-html",
+          "us-en-shipping-insurance-select-my-coverage-html",
+          "us-en-shipping-insurance-multi-carrier-shipments-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "_gsid",
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "pages": 15,
+        "examples": [
+          "us-en-shipping-insurance-special-commodities-html",
+          "us-en-shipping-insurance-checkout-protection-html",
+          "us-en-shipping-insurance-consumer-electronics-and-technology-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.salemove.com",
+        "path": "/visitor_app/9fc1435c/sites/{uuid}/custom_locales/engagement.choose_media1/e3f2bbdf68d003",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.salemove.com/visitor_app/9fc1435c/sites/1e6048b9-acec-4e61-8d71-ad17306951b0/custom_locales/engagement.choose_media1/e3f2bbdf68d003",
+        "pages": 13,
+        "examples": [
+          "us-en-partners-html",
+          "us-en-shipping-insurance-special-commodities-html",
+          "us-en-shipping-insurance-select-my-coverage-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api.salemove.com",
+        "path": "/overseer/sources_triggered",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.salemove.com/overseer/sources_triggered",
+        "pages": 13,
+        "examples": [
+          "us-en-partners-html",
+          "us-en-shipping-insurance-special-commodities-html",
+          "us-en-shipping-insurance-select-my-coverage-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "client-logger.salemove.com",
+        "path": "/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://client-logger.salemove.com/",
+        "pages": 13,
+        "examples": [
+          "us-en-partners-html",
+          "us-en-shipping-insurance-special-commodities-html",
+          "us-en-shipping-insurance-select-my-coverage-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/get-a-quote/get-a-quote---us-crm-shipping/jcr:content/guideContainer.analyticsconfigparser.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/get-a-quote/get-a-quote---us-crm-shipping/jcr:content/guideContainer.analyticsconfigparser.json",
+        "pages": 8,
+        "examples": [
+          "us-en-shipping-insurance-special-commodities-html",
+          "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+          "us-en-shipping-insurance-b2b-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en-gb.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/0198f20a-0fdf-7c44-bed8-4121c32fc8d1/019fb31b-1361-71b9-b81f-b1c6e879622e/en-gb.json",
+        "pages": 7,
+        "examples": [
+          "gb-en-home-html",
+          "gb-en-cargo-insurance-html",
+          "gb-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/it.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/0198f20a-0fdf-7c44-bed8-4121c32fc8d1/019fb31b-1361-71b9-b81f-b1c6e879622e/it.json",
+        "pages": 6,
+        "examples": [
+          "it-it-home-html",
+          "it-it-cargo-insurance-html",
+          "it-it-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en-ca.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/0198f20a-0fdf-7c44-bed8-4121c32fc8d1/019fb31b-1361-71b9-b81f-b1c6e879622e/en-ca.json",
+        "pages": 6,
+        "examples": [
+          "ca-en-home-html",
+          "ca-en-shipping-insurance-html",
+          "ca-en-partners-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/get-a-quote/get-a-quote---us-crm-shipping/jcr:content/guideContainer.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/get-a-quote/get-a-quote---us-crm-shipping/jcr:content/guideContainer.af.prefilldata.json",
+        "pages": 4,
+        "examples": [
+          "us-en-shipping-insurance-special-commodities-html",
+          "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+          "us-en-shipping-insurance-b2b-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "trial-eum-clientnsv4-s.akamaihd.net",
+        "path": "/eum/getdns.txt",
+        "query": [
+          "c"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://trial-eum-clientnsv4-s.akamaihd.net/eum/getdns.txt",
+        "pages": 3,
+        "examples": [
+          "us-en-shipping-insurance-html",
+          "us-en-page-deletion-html",
+          "us-en-test-deletion-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "trial-eum-clienttons-s.akamaihd.net",
+        "path": "/eum/getdns.txt",
+        "query": [
+          "c"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://trial-eum-clienttons-s.akamaihd.net/eum/getdns.txt",
+        "pages": 3,
+        "examples": [
+          "us-en-shipping-insurance-html",
+          "us-en-page-deletion-html",
+          "us-en-test-deletion-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/gaq-quiz/jcr:content/guideContainer.analyticsconfigparser.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/gaq-quiz/jcr:content/guideContainer.analyticsconfigparser.json",
+        "pages": 3,
+        "examples": [
+          "us-en-about-html",
+          "us-en-shipping-insurance-select-my-coverage-html",
+          "us-en-shipping-insurance-multi-carrier-shipments-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/questionnaire-form/jcr:content/guideContainer.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/questionnaire-form/jcr:content/guideContainer.af.prefilldata.json",
+        "pages": 3,
+        "examples": [
+          "us-en-about-html",
+          "us-en-shipping-insurance-select-my-coverage-html",
+          "us-en-shipping-insurance-multi-carrier-shipments-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/gad-quiz/jcr:content/guideContainer.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/gad-quiz/jcr:content/guideContainer.af.prefilldata.json",
+        "pages": 3,
+        "examples": [
+          "us-en-about-html",
+          "us-en-shipping-insurance-select-my-coverage-html",
+          "us-en-shipping-insurance-multi-carrier-shipments-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/gad-quiz/jcr:content/guideContainer.analyticsconfigparser.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/gad-quiz/jcr:content/guideContainer.analyticsconfigparser.json",
+        "pages": 3,
+        "examples": [
+          "us-en-about-html",
+          "us-en-shipping-insurance-select-my-coverage-html",
+          "us-en-shipping-insurance-multi-carrier-shipments-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/etc/acs-commons/lists/upsglobal/Insure-Shield/components/volumeRange/jcr:content.list.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/etc/acs-commons/lists/upsglobal/Insure-Shield/components/volumeRange/jcr:content.list.json",
+        "pages": 3,
+        "examples": [
+          "us-en-about-html",
+          "us-en-shipping-insurance-select-my-coverage-html",
+          "us-en-shipping-insurance-multi-carrier-shipments-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/{n}/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/359/35904580-1c33-4a01-8a7f-3853eb03fbc8-audio.mp4",
+        "pages": 3,
+        "examples": [
+          "us-en-resources-insights-html",
+          "us-en-resources-the-logistics-lowdown-html",
+          "us-en-solutions-delivery-defense-learning-center-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/gaq/jcr:content/guideContainer.analyticsconfigparser.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/gaq/jcr:content/guideContainer.analyticsconfigparser.json",
+        "pages": 3,
+        "examples": [
+          "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+          "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+          "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/experience-fragments/insureshield/us/en/forms/get-a-quote/get-a-quote11/jcr:content/root/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/experience-fragments/insureshield/us/en/forms/get-a-quote/get-a-quote11/jcr:content/root/aemform.af.prefilldata.json",
+        "pages": 3,
+        "examples": [
+          "us-en-solutions-delivery-orchestration-delivery-html",
+          "us-en-solutions-delivery-orchestration-pickup-html",
+          "us-en-solutions-delivery-orchestration-returns-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/de.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/0198f20a-0fdf-7c44-bed8-4121c32fc8d1/019fb31b-1361-71b9-b81f-b1c6e879622e/de.json",
+        "pages": 3,
+        "examples": [
+          "de-de-home-html",
+          "de-de-cargo-insurance-html",
+          "de-de-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/securecommerce/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/securecommerce/_jcr_content.getNameInitial.json",
+        "pages": 2,
+        "examples": [
+          "index",
+          "us-en-securecommerce-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "aap-p.insureshield.com",
+        "path": "/DG/DEFAULT/rest/rpc/{n}/LB-Zone-2",
+        "query": [
+          "bcsessionid",
+          "bctempid",
+          "overruleReferrer",
+          "referer",
+          "time",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://aap-p.insureshield.com/DG/DEFAULT/rest/rpc/392/LB-Zone-2",
+        "pages": 2,
+        "examples": [
+          "index",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/gaq-quiz/jcr:content/guideContainer.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/gaq-quiz/jcr:content/guideContainer.af.prefilldata.json",
+        "pages": 2,
+        "examples": [
+          "us-en-about-html",
+          "us-en-shipping-insurance-multi-carrier-shipments-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/get-a-quote/get-a-quote-product-na/jcr:content/guideContainer.analyticsconfigparser.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/get-a-quote/get-a-quote-product-na/jcr:content/guideContainer.analyticsconfigparser.json",
+        "pages": 2,
+        "examples": [
+          "us-en-shipping-insurance-get-a-quote-html",
+          "us-en-promotional-prod-form-test-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/libs/cq/i18n/dict.en_us.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/libs/cq/i18n/dict.en_us.json",
+        "pages": 2,
+        "examples": [
+          "us-en-shipping-insurance-retail-html",
+          "us-en-resources-the-logistics-lowdown-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/VideoGalleryViewer",
+        "query": [
+          "handler",
+          "id",
+          "locale",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/VideoGalleryViewer",
+        "pages": 2,
+        "examples": [
+          "us-en-shipping-insurance-retail-html",
+          "us-en-resources-the-logistics-lowdown-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/USPC%20Proof_30_ONLINE_07-15_2-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/USPC%20Proof_30_ONLINE_07-15_2-AVS",
+        "pages": 2,
+        "examples": [
+          "us-en-shipping-insurance-retail-html",
+          "us-en-resources-customer-stories-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/Bridal_s%20by%20Lori_%20Final-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/Bridal_s%20by%20Lori_%20Final-AVS",
+        "pages": 2,
+        "examples": [
+          "us-en-shipping-insurance-retail-html",
+          "us-en-resources-customer-stories-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/Bridal_s%20by%20Lori_%20Final-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/Bridal_s%20by%20Lori_%20Final-AVS.mpd",
+        "pages": 2,
+        "examples": [
+          "us-en-shipping-insurance-retail-html",
+          "us-en-resources-customer-stories-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/USPC%20Proof_30_ONLINE_07-15_2-AVS.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/USPC%20Proof_30_ONLINE_07-15_2-AVS.m3u8",
+        "pages": 2,
+        "examples": [
+          "us-en-shipping-insurance-retail-html",
+          "us-en-resources-customer-stories-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/hls-vod/upsprod/_media_/3a3/{uuid}.mp4.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/hls-vod/upsprod/_media_/3a3/3a3447ef-20ac-4bd3-aa5c-70eef4ed0a13.mp4.m3u8",
+        "pages": 2,
+        "examples": [
+          "us-en-shipping-insurance-retail-html",
+          "us-en-resources-customer-stories-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/40e/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/40e/40e235ed-ec2c-4c68-a5e8-45b8c792337d-stream.mp4",
+        "pages": 2,
+        "examples": [
+          "us-en-shipping-insurance-retail-html",
+          "us-en-resources-customer-stories-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/hls-vod/upsprod/_media_/3a3/{uuid}.mp4Frag1Num0.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/hls-vod/upsprod/_media_/3a3/3a3447ef-20ac-4bd3-aa5c-70eef4ed0a13.mp4Frag1Num0.ts",
+        "pages": 2,
+        "examples": [
+          "us-en-shipping-insurance-retail-html",
+          "us-en-resources-customer-stories-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/8c3/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/8c3/8c358338-92dd-4319-b7fa-ffd146dfdfe4-audio.mp4",
+        "pages": 2,
+        "examples": [
+          "us-en-shipping-insurance-retail-html",
+          "us-en-resources-customer-stories-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/solutions/commerceshield/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/solutions/commerceshield/_jcr_content.getNameInitial.json",
+        "pages": 2,
+        "examples": [
+          "us-en-solutions-commerceshield-html",
+          "us-en-risk-mitigation-risk-intelligence-smb-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/CommerceShield%20-%20Video%20-%201080p%20with%20Thumbnail%20-%20Updated-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/CommerceShield%20-%20Video%20-%201080p%20with%20Thumbnail%20-%20Updated-AVS",
+        "pages": 2,
+        "examples": [
+          "us-en-solutions-commerceshield-html",
+          "us-en-risk-mitigation-risk-intelligence-smb-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/insureshield/us/en/solutions/commerceshield/jcr:content/root/container/containerbackgroundc_81823551/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/insureshield/us/en/solutions/commerceshield/jcr:content/root/container/containerbackgroundc_81823551/aemform.af.prefilldata.json",
+        "pages": 2,
+        "examples": [
+          "us-en-solutions-commerceshield-html",
+          "us-en-risk-mitigation-risk-intelligence-smb-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/solutions/commerceshield/jcr:content/root/container/containerbackgroundc_81823551/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/solutions/commerceshield/jcr:content/root/container/containerbackgroundc_81823551/aemform.af.prefilldata.json",
+        "pages": 2,
+        "examples": [
+          "us-en-solutions-commerceshield-html",
+          "us-en-risk-mitigation-risk-intelligence-smb-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/CommerceShield%20-%20Video%20-%201080p%20with%20Thumbnail%20-%20Updated-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/CommerceShield%20-%20Video%20-%201080p%20with%20Thumbnail%20-%20Updated-AVS.mpd",
+        "pages": 2,
+        "examples": [
+          "us-en-solutions-commerceshield-html",
+          "us-en-risk-mitigation-risk-intelligence-smb-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/get-a-demo/get-a-demo-product/jcr:content/guideContainer.analyticsconfigparser.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/get-a-demo/get-a-demo-product/jcr:content/guideContainer.analyticsconfigparser.json",
+        "pages": 2,
+        "examples": [
+          "us-en-solutions-commerceshield-html",
+          "us-en-risk-mitigation-risk-intelligence-smb-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/64b/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/64b/64b65165-0945-41db-b4bd-6cce49087058-stream.mp4",
+        "pages": 2,
+        "examples": [
+          "us-en-solutions-commerceshield-html",
+          "us-en-risk-mitigation-risk-intelligence-smb-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/e2a/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/e2a/e2a394d3-d888-4f05-8832-9b6c8e0165cb-audio.mp4",
+        "pages": 2,
+        "examples": [
+          "us-en-solutions-commerceshield-html",
+          "us-en-risk-mitigation-risk-intelligence-smb-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/experience-fragments/insureshield/us/en/forms/deliverydefense/master1/jcr:content/root/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/experience-fragments/insureshield/us/en/forms/deliverydefense/master1/jcr:content/root/aemform.af.prefilldata.json",
+        "pages": 2,
+        "examples": [
+          "us-en-solutions-delivery-defense-html",
+          "us-en-promotional-delivery-defense-mockup-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/delivery-defense-sign-up/jcr:content/guideContainer.analyticsconfigparser.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/delivery-defense-sign-up/jcr:content/guideContainer.analyticsconfigparser.json",
+        "pages": 2,
+        "examples": [
+          "us-en-solutions-delivery-defense-html",
+          "us-en-promotional-delivery-defense-mockup-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/DD_Address_Confidence-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/DD_Address_Confidence-AVS",
+        "pages": 2,
+        "examples": [
+          "us-en-solutions-delivery-defense-html",
+          "us-en-promotional-delivery-defense-mockup-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/DD_Address_Confidence-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/DD_Address_Confidence-AVS.mpd",
+        "pages": 2,
+        "examples": [
+          "us-en-solutions-delivery-defense-html",
+          "us-en-promotional-delivery-defense-mockup-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/d12/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/d12/d12af33a-be35-440a-bdfb-07ac092ef83f-stream.mp4",
+        "pages": 2,
+        "examples": [
+          "us-en-solutions-delivery-defense-html",
+          "us-en-promotional-delivery-defense-mockup-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/dcc/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/dcc/dcc3609d-6a72-4b80-b9f3-19b35838635e-audio.mp4",
+        "pages": 2,
+        "examples": [
+          "us-en-solutions-delivery-defense-html",
+          "us-en-promotional-delivery-defense-mockup-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/{n}/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/561/561b8eb3-f9a8-45ba-a197-5e0ccf429576-stream.mp4",
+        "pages": 2,
+        "examples": [
+          "us-en-claims-insureshield-ups-claims-support-html",
+          "us-en-solutions-delivery-orchestration-returns-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/LL_Megan_Tremblay_4.4-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/LL_Megan_Tremblay_4.4-AVS",
+        "pages": 2,
+        "examples": [
+          "us-en-resources-insights-html",
+          "us-en-resources-the-logistics-lowdown-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/LL_Megan_Tremblay_4.4-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/LL_Megan_Tremblay_4.4-AVS.mpd",
+        "pages": 2,
+        "examples": [
+          "us-en-resources-insights-html",
+          "us-en-resources-the-logistics-lowdown-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/ff4/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/ff4/ff415add-8467-442c-a70c-9f7f3fbfbc8c-stream.mp4",
+        "pages": 2,
+        "examples": [
+          "us-en-resources-insights-html",
+          "us-en-resources-the-logistics-lowdown-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/experience-fragments/insureshield/us/en/forms/get-a-quote/productgaq/jcr:content/root/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/experience-fragments/insureshield/us/en/forms/get-a-quote/productgaq/jcr:content/root/aemform.af.prefilldata.json",
+        "pages": 2,
+        "examples": [
+          "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+          "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "naokpdaxfwwre2x4wbsa-pp8wbx-23557619f-clientnsv4-s.akamaihd.net",
+        "path": "/eum/results.txt",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://naokpdaxfwwre2x4wbsa-pp8wbx-23557619f-clientnsv4-s.akamaihd.net/eum/results.txt",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fie3vqlw4anjqjqacqdlyaaairvpzmde-pp8wbx-7ac897ba2-clienttons-s.akamaihd.net",
+        "path": "/eum/results.txt",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://fie3vqlw4anjqjqacqdlyaaairvpzmde-pp8wbx-7ac897ba2-clienttons-s.akamaihd.net/eum/results.txt",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "aap-p.insureshield.com",
+        "path": "/DG/DEFAULT/rest/rpc/{n}/LB-Zone-1",
+        "query": [
+          "bcsessionid",
+          "bctempid",
+          "overruleReferrer",
+          "referer",
+          "time",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://aap-p.insureshield.com/DG/DEFAULT/rest/rpc/243/LB-Zone-1",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/claims/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/claims/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/partners/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/partners/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-partners-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/about/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/about/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-about-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/insureshield/us/en/about/jcr:content/root/container/popover_copy_copy/modalContainer/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/insureshield/us/en/about/jcr:content/root/container/popover_copy_copy/modalContainer/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-about-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/about/jcr:content/root/container/popover_copy_copy/modalContainer/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/about/jcr:content/root/container/popover_copy_copy/modalContainer/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-about-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/global/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/global/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-global-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/test-deletion1/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/test-deletion1/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-test-deletion1-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/page-deletion/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/page-deletion/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-page-deletion-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "naokpdaxfwwre2x4wb2q-puf6ff-2304dc8a2-clientnsv4-s.akamaihd.net",
+        "path": "/eum/results.txt",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://naokpdaxfwwre2x4wb2q-puf6ff-2304dc8a2-clientnsv4-s.akamaihd.net/eum/results.txt",
+        "pages": 1,
+        "examples": [
+          "us-en-page-deletion-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fie3vrlcja3s2jqacqdlyaaairvpzmdv-puf6ff-686fdf2b9-clienttons-s.akamaihd.net",
+        "path": "/eum/results.txt",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://fie3vrlcja3s2jqacqdlyaaairvpzmdv-puf6ff-686fdf2b9-clienttons-s.akamaihd.net/eum/results.txt",
+        "pages": 1,
+        "examples": [
+          "us-en-page-deletion-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/customer-communications/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/customer-communications/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-customer-communications-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/test-deletion/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/test-deletion/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-test-deletion-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fie3vrlcje3s2jqacqdlyaaairvpzmdt-pvbgen-0d71142e9-clienttons-s.akamaihd.net",
+        "path": "/eum/results.txt",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://fie3vrlcje3s2jqacqdlyaaairvpzmdt-pvbgen-0d71142e9-clienttons-s.akamaihd.net/eum/results.txt",
+        "pages": 1,
+        "examples": [
+          "us-en-test-deletion-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "naokpdaxfwwqm2x4wbzq-pvbgen-3fba8e60d-clientnsv4-s.akamaihd.net",
+        "path": "/eum/results.txt",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://naokpdaxfwwqm2x4wbzq-pvbgen-3fba8e60d-clientnsv4-s.akamaihd.net/eum/results.txt",
+        "pages": 1,
+        "examples": [
+          "us-en-test-deletion-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/shipping-insurance/special-commodities/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/shipping-insurance/special-commodities/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-special-commodities-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/shipping-insurance/select-my-coverage/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/shipping-insurance/select-my-coverage/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-select-my-coverage-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/insureshield/us/en/shipping-insurance/select-my-coverage/jcr:content/root/container/popover_copy/modalContainer/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/insureshield/us/en/shipping-insurance/select-my-coverage/jcr:content/root/container/popover_copy/modalContainer/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-select-my-coverage-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/shipping-insurance/select-my-coverage/jcr:content/root/container/popover_copy/modalContainer/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/shipping-insurance/select-my-coverage/jcr:content/root/container/popover_copy/modalContainer/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-select-my-coverage-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/shipping-insurance/ups-shipments/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/shipping-insurance/ups-shipments/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-ups-shipments-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/shipping-insurance/multi-carrier-shipments/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-multi-carrier-shipments-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/insureshield/us/en/shipping-insurance/multi-carrier-shipments/jcr:content/root/container/popover_copy_copy/modalContainer/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/insureshield/us/en/shipping-insurance/multi-carrier-shipments/jcr:content/root/container/popover_copy_copy/modalContainer/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-multi-carrier-shipments-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/shipping-insurance/multi-carrier-shipments/jcr:content/root/container/popover_copy_copy/modalContainer/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments/jcr:content/root/container/popover_copy_copy/modalContainer/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-multi-carrier-shipments-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/shipping-insurance/get-a-quote/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/shipping-insurance/get-a-quote/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-get-a-quote-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/experience-fragments/insureshield/us/en/forms/get-a-quote/master1/jcr:content/root/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/experience-fragments/insureshield/us/en/forms/get-a-quote/master1/jcr:content/root/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-get-a-quote-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/shipping-insurance/checkout-protection/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/shipping-insurance/checkout-protection/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-checkout-protection-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/experience-fragments/insureshield/us/en/forms/get-a-quote/get-a-quote111/jcr:content/root/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/experience-fragments/insureshield/us/en/forms/get-a-quote/get-a-quote111/jcr:content/root/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-checkout-protection-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/get-a-quote/get-a-quote---without-business-shipments/jcr:content/guideContainer.analyticsconfigparser.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/get-a-quote/get-a-quote---without-business-shipments/jcr:content/guideContainer.analyticsconfigparser.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-checkout-protection-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/AussieSelect_Promo-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/AussieSelect_Promo-AVS",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-checkout-protection-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/AussieSelect_Promo-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/AussieSelect_Promo-AVS.mpd",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-checkout-protection-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/d32/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/d32/d3255b8e-05dd-4069-9d38-a03ab94e5ac8-stream.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-checkout-protection-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/c09/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/c09/c09e2c3a-6671-4310-ab5f-2b2f4f4a42d1-audio.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-checkout-protection-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/shipping-insurance/consumer-electronics-and-technology/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/shipping-insurance/consumer-electronics-and-technology/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-consumer-electronics-and-technology-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/shipping-insurance/b2b/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/shipping-insurance/b2b/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-b2b-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/libs/cq/i18n/dict.en-US.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/libs/cq/i18n/dict.en-US.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-retail-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/shipping-insurance/retail/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/shipping-insurance/retail/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-retail-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/IOIA%2016-9%20v1-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/IOIA%2016-9%20v1-AVS",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-retail-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/IOIA%2016-9%20v1-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/IOIA%2016-9%20v1-AVS.mpd",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-retail-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/54b/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/54b/54b248fb-4c4b-47e9-a4f2-3641b7e348fa-stream.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-retail-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/70d/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/70d/70dbf74e-50b1-4217-8c9c-d5d8b4e38836-audio.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-retail-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/solutions/delivery-defense/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/solutions/delivery-defense/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-defense-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/solutions/delivery-orchestration/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/solutions/delivery-orchestration/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-orchestration-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/experience-fragments/insureshield/us/en/forms/get-a-quote/get-a-quote1/jcr:content/root/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/experience-fragments/insureshield/us/en/forms/get-a-quote/get-a-quote1/jcr:content/root/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-orchestration-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/claims/insureshield-ups-claims-support/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/claims/insureshield-ups-claims-support/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-claims-insureshield-ups-claims-support-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/InsureShield-Policy-How%20to%20Declare%20WorldShip-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/InsureShield-Policy-How%20to%20Declare%20WorldShip-AVS",
+        "pages": 1,
+        "examples": [
+          "us-en-claims-insureshield-ups-claims-support-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/InsureShield-Policy-How%20to%20Declare%20WorldShip-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/InsureShield-Policy-How%20to%20Declare%20WorldShip-AVS.mpd",
+        "pages": 1,
+        "examples": [
+          "us-en-claims-insureshield-ups-claims-support-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/c74/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/c74/c74af77c-5f25-4caf-af77-ab9314cfb240-audio.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-claims-insureshield-ups-claims-support-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/claims/channel-partners-claims/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/claims/channel-partners-claims/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-claims-channel-partners-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/partners/connect-with-a-partner/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/partners/connect-with-a-partner/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-partners-connect-with-a-partner-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/partners/become-a-partner/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/partners/become-a-partner/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-partners-become-a-partner-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/insureshield/us/en/partners/become-a-partner/jcr:content/root/container/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/insureshield/us/en/partners/become-a-partner/jcr:content/root/container/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-partners-become-a-partner-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/partners/become-a-partner/jcr:content/root/container/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/partners/become-a-partner/jcr:content/root/container/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-partners-become-a-partner-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/partners/become-a-partner/jcr:content/guideContainer.analyticsconfigparser.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/partners/become-a-partner/jcr:content/guideContainer.analyticsconfigparser.json",
+        "pages": 1,
+        "examples": [
+          "us-en-partners-become-a-partner-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/partners/3pl-partners/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/partners/3pl-partners/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-partners-3pl-partners-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/insureshield/us/en/partners/3pl-partners/jcr:content/root/container/containerbackgroundc_532696154/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/insureshield/us/en/partners/3pl-partners/jcr:content/root/container/containerbackgroundc_532696154/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-partners-3pl-partners-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/partners/3pl-partners/jcr:content/root/container/containerbackgroundc_532696154/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/partners/3pl-partners/jcr:content/root/container/containerbackgroundc_532696154/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-partners-3pl-partners-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/partners/start-a-partnership/jcr:content/guideContainer.analyticsconfigparser.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/partners/start-a-partnership/jcr:content/guideContainer.analyticsconfigparser.json",
+        "pages": 1,
+        "examples": [
+          "us-en-partners-3pl-partners-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/resources/whitepapers-and-guides/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/resources/whitepapers-and-guides/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-whitepapers-and-guides-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/resources/customer-stories/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/resources/customer-stories/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-customer-stories-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/resources/help-and-support/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/resources/help-and-support/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-help-and-support-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/insureshield/us/en/resources/help-and-support/jcr:content/root/container/container/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/insureshield/us/en/resources/help-and-support/jcr:content/root/container/container/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-help-and-support-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/resources/help-and-support/jcr:content/root/container/container/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/resources/help-and-support/jcr:content/root/container/container/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-help-and-support-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/contact-us-insureshield-na/jcr:content/guideContainer.analyticsconfigparser.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/contact-us-insureshield-na/jcr:content/guideContainer.analyticsconfigparser.json",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-help-and-support-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/resources/webinars/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/resources/webinars/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-webinars-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/about/announcements/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/about/announcements/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-about-announcements-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/about/our-locations/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/about/our-locations/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-about-our-locations-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/content/experience-fragments/insureshield/us/en/site/officeListing/master.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/experience-fragments/insureshield/us/en/site/officeListing/master.html",
+        "pages": 1,
+        "examples": [
+          "us-en-about-our-locations-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/resources/insights/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/resources/insights/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-insights-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/about/contact-us/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/about/contact-us/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-about-contact-us-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/insureshield/us/en/about/contact-us/jcr:content/root/container/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/insureshield/us/en/about/contact-us/jcr:content/root/container/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-about-contact-us-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/about/contact-us/jcr:content/root/container/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/about/contact-us/jcr:content/root/container/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-about-contact-us-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/contact-us-master/contact-us-us-only/jcr:content/guideContainer.analyticsconfigparser.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/contact-us-master/contact-us-us-only/jcr:content/guideContainer.analyticsconfigparser.json",
+        "pages": 1,
+        "examples": [
+          "us-en-about-contact-us-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/legal/technology-agreement/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/legal/technology-agreement/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-legal-technology-agreement-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/legal/product-disclosure/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/legal/product-disclosure/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-legal-product-disclosure-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/legal/terms-and-conditions-upscia/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-legal-terms-and-conditions-upscia-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/resources/the-logistics-lowdown/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/resources/the-logistics-lowdown/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-the-logistics-lowdown-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/Logistics_Lowdown_Final-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/Logistics_Lowdown_Final-AVS",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-the-logistics-lowdown-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/Trust%20at%20Checkout%20Why%20Consumer-Elected%20Shipping%20Protection%20Matters-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/Trust%20at%20Checkout%20Why%20Consumer-Elected%20Shipping%20Protection%20Matters-AVS",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-the-logistics-lowdown-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/holiday-shipping-survival-guide_LL-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/holiday-shipping-survival-guide_LL-AVS",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-the-logistics-lowdown-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/Trust%20at%20Checkout%20Why%20Consumer-Elected%20Shipping%20Protection%20Matters-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/Trust%20at%20Checkout%20Why%20Consumer-Elected%20Shipping%20Protection%20Matters-AVS.mpd",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-the-logistics-lowdown-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/Logistics_Lowdown_Final-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/Logistics_Lowdown_Final-AVS.mpd",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-the-logistics-lowdown-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/holiday-shipping-survival-guide_LL-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/holiday-shipping-survival-guide_LL-AVS.mpd",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-the-logistics-lowdown-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/81b/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/81b/81bd2f0a-13c0-4bcd-a503-9300bab85221-stream.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-the-logistics-lowdown-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/c1d/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/c1d/c1dd4893-062d-4f65-b6b4-e636d04e7c9a-stream.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-the-logistics-lowdown-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/63e/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/63e/63e481c0-9418-4529-babd-86bce43dad65-audio.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-the-logistics-lowdown-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/86a/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/86a/86affdfd-89e0-4941-b419-7ddd85296706-stream.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-the-logistics-lowdown-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/3b7/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/3b7/3b7583b6-1fb5-4f8c-b5ef-b1f25858c89e-audio.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-resources-the-logistics-lowdown-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/legal/terms-and-conditions-gallagher-affinity/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/legal/terms-and-conditions-gallagher-affinity/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-legal-terms-and-conditions-gallagher-affinity-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage-users/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage-users/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-users-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/promotional/webinars/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/promotional/webinars/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-promotional-webinars-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/promotional/insureshield-benefits/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/promotional/insureshield-benefits/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-promotional-insureshield-benefits-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/How%20to%20Declare%20Value%20in%20WorldShip-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/How%20to%20Declare%20Value%20in%20WorldShip-AVS",
+        "pages": 1,
+        "examples": [
+          "us-en-promotional-insureshield-benefits-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/insureshield/us/en/promotional/insureshield-benefits/jcr:content/root/container/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/insureshield/us/en/promotional/insureshield-benefits/jcr:content/root/container/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-promotional-insureshield-benefits-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/How%20to%20Declare%20Value%20in%20WorldShip-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/How%20to%20Declare%20Value%20in%20WorldShip-AVS.mpd",
+        "pages": 1,
+        "examples": [
+          "us-en-promotional-insureshield-benefits-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/promotional/insureshield-benefits/jcr:content/root/container/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/promotional/insureshield-benefits/jcr:content/root/container/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-promotional-insureshield-benefits-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/7ad/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/7ad/7add5d6e-4121-49ec-834a-d23a96dae54f-stream.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-promotional-insureshield-benefits-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/contact-us-master/contact-us-en-global/jcr:content/guideContainer.analyticsconfigparser.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/contact-us-master/contact-us-en-global/jcr:content/guideContainer.analyticsconfigparser.json",
+        "pages": 1,
+        "examples": [
+          "us-en-promotional-insureshield-benefits-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/6e4/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/6e4/6e423c29-cb58-4254-a6cf-54d01b14389f-audio.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-promotional-insureshield-benefits-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/promotional/prod-form-test/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/promotional/prod-form-test/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-promotional-prod-form-test-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/insureshield/us/en/promotional/prod-form-test/jcr:content/root/container/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/insureshield/us/en/promotional/prod-form-test/jcr:content/root/container/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-promotional-prod-form-test-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/promotional/prod-form-test/jcr:content/root/container/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/promotional/prod-form-test/jcr:content/root/container/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-promotional-prod-form-test-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/legal/cookie-settings/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/legal/cookie-settings/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-legal-cookie-settings-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/customer-communications/updated-contact-information/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/customer-communications/updated-contact-information/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-customer-communications-updated-contact-information-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/insureshield/us/en/customer-communications/updated-contact-information/jcr:content/root/container/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/insureshield/us/en/customer-communications/updated-contact-information/jcr:content/root/container/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-customer-communications-updated-contact-information-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/customer-communications/updated-contact-information/jcr:content/root/container/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/customer-communications/updated-contact-information/jcr:content/root/container/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-customer-communications-updated-contact-information-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/customer-communications/confirm-contact-information/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/customer-communications/confirm-contact-information/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-customer-communications-confirm-contact-information-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/insureshield/us/en/customer-communications/confirm-contact-information/jcr:content/root/container/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/insureshield/us/en/customer-communications/confirm-contact-information/jcr:content/root/container/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-customer-communications-confirm-contact-information-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/customer-communications/confirm-contact-information/jcr:content/root/container/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/customer-communications/confirm-contact-information/jcr:content/root/container/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-customer-communications-confirm-contact-information-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/risk-mitigation/risk-intelligence-smb2/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/risk-mitigation/risk-intelligence-smb2/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-risk-mitigation-risk-intelligence-smb2-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/promotional/delivery-defense-mockup/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/promotional/delivery-defense-mockup/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-promotional-delivery-defense-mockup-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/shipping-insurance/multi-carrier-shipments/insureShield-connect/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments/insureShield-connect/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/experience-fragments/insureshield/us/en/forms/get-a-quote/shopifygaq/jcr:content/root/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/experience-fragments/insureshield/us/en/forms/get-a-quote/shopifygaq/jcr:content/root/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/Shopify_Overview-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/Shopify_Overview-AVS",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/Shopify_Overview-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/Shopify_Overview-AVS.mpd",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/b29/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/b29/b295d2c2-df1d-4195-af20-a06b4332695d-stream.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/e23/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/e23/e238129b-c253-48f6-b22c-b3ebebc2d409-audio.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/shipping-insurance/multi-carrier-shipments/insureShield-complete/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments/insureShield-complete/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/solutions/delivery-defense/learning-center/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/solutions/delivery-defense/learning-center/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-defense-learning-center-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/TexMetals_DeliveryDefense-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/TexMetals_DeliveryDefense-AVS",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-defense-learning-center-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/DD%20Scoring%20Demo%20Video%201-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/DD%20Scoring%20Demo%20Video%201-AVS",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-defense-learning-center-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/DD%20Scoring%20Demo%20Video%20Practical%20Applications-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/DD%20Scoring%20Demo%20Video%20Practical%20Applications-AVS",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-defense-learning-center-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/DD%20Scoring%20Demo%20Video%201-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/DD%20Scoring%20Demo%20Video%201-AVS.mpd",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-defense-learning-center-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/TexMetals_DeliveryDefense-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/TexMetals_DeliveryDefense-AVS.mpd",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-defense-learning-center-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/DD%20Scoring%20Demo%20Video%20Practical%20Applications-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/DD%20Scoring%20Demo%20Video%20Practical%20Applications-AVS.mpd",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-defense-learning-center-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/71b/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/71b/71b79b67-9ad8-4233-a1f7-60e21d816c46-stream.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-defense-learning-center-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/c9b/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/c9b/c9b28df4-f4ac-4c98-9386-9f48716461e8-stream.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-defense-learning-center-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/35d/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/35d/35da3d00-2377-4cb6-b2d1-ab55cec33b3a-stream.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-defense-learning-center-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/28b/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/28b/28b99045-71e2-47f0-99a9-c4bdacf8c422-audio.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-defense-learning-center-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/customer-communications/enhanced-declared-value/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/customer-communications/enhanced-declared-value/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-customer-communications-enhanced-declared-value-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/insureshield/us/en/customer-communications/enhanced-declared-value/jcr:content/root/container/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/insureshield/us/en/customer-communications/enhanced-declared-value/jcr:content/root/container/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-customer-communications-enhanced-declared-value-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/customer-communications/enhanced-declared-value/jcr:content/root/container/aemform.af.prefilldata.json",
+        "query": [
+          "dataRef",
+          "wcmmode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/customer-communications/enhanced-declared-value/jcr:content/root/container/aemform.af.prefilldata.json",
+        "pages": 1,
+        "examples": [
+          "us-en-customer-communications-enhanced-declared-value-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.insureshield.com",
+        "path": "/content/forms/af/insure-shield/enhanced-declared-value-form/jcr:content/guideContainer.analyticsconfigparser.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/content/forms/af/insure-shield/enhanced-declared-value-form/jcr:content/guideContainer.analyticsconfigparser.json",
+        "pages": 1,
+        "examples": [
+          "us-en-customer-communications-enhanced-declared-value-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/solutions/delivery-orchestration/delivery/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/solutions/delivery-orchestration/delivery/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-orchestration-delivery-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/solutions/delivery-orchestration/pickup/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/solutions/delivery-orchestration/pickup/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-orchestration-pickup-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/us/en/solutions/delivery-orchestration/returns/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/us/en/solutions/delivery-orchestration/returns/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-orchestration-returns-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/DS_Returns-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/DS_Returns-AVS",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-orchestration-returns-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/DS_Returns-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/DS_Returns-AVS.mpd",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-orchestration-returns-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/0fa/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/0fa/0fa16288-7d86-4661-8051-89794e783378-audio.mp4",
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-orchestration-returns-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/it/en/home/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/it/en/home/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "it-en-home-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/it/en/cargo-insurance/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/it/en/cargo-insurance/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "it-en-cargo-insurance-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/it/en/claims/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/it/en/claims/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "it-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/it/en/resources/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/it/en/resources/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "it-en-resources-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/it/en/about/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/it/en/about/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "it-en-about-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/it/it/home/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/it/it/home/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "it-it-home-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/it/it/cargo-insurance/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/it/it/cargo-insurance/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "it-it-cargo-insurance-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/it/it/claims/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/it/it/claims/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "it-it-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/it/it/resources/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/it/it/resources/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "it-it-resources-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/it/it/about/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/it/it/about/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "it-it-about-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/it/it/alerts/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/it/it/alerts/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "it-it-alerts-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/it/en/alerts/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/it/en/alerts/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "it-en-alerts-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/gb/en/home/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/gb/en/home/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "gb-en-home-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/gb/en/cargo-insurance/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/gb/en/cargo-insurance/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "gb-en-cargo-insurance-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/gb/en/claims/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/gb/en/claims/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "gb-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/gb/en/resources/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/gb/en/resources/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "gb-en-resources-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/gb/en/about/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/gb/en/about/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "gb-en-about-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/gb/en/other-ups-sites/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/gb/en/other-ups-sites/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "gb-en-other-ups-sites-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/ca/en/home/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/ca/en/home/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "ca-en-home-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/ca/en/shipping-insurance/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/ca/en/shipping-insurance/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "ca-en-shipping-insurance-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/ca/en/partners/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/ca/en/partners/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "ca-en-partners-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/ca/en/resources/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/ca/en/resources/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "ca-en-resources-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/gb/en/alerts/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/gb/en/alerts/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "gb-en-alerts-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/ca/en/about/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/ca/en/about/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "ca-en-about-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/de/en/home/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/de/en/home/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "de-en-home-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/ca/en/claims/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/ca/en/claims/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "ca-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/image/upsprod/Canada%20Claims%20Portal%201.10-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/image/upsprod/Canada%20Claims%20Portal%201.10-AVS",
+        "pages": 1,
+        "examples": [
+          "ca-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ups.scene7.com",
+        "path": "/is/content/upsprod/Canada%20Claims%20Portal%201.10-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://ups.scene7.com/is/content/upsprod/Canada%20Claims%20Portal%201.10-AVS.mpd",
+        "pages": 1,
+        "examples": [
+          "ca-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/2ad/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/2ad/2adb9792-67a5-45c4-abdd-68c6112b5196-stream.mp4",
+        "pages": 1,
+        "examples": [
+          "ca-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream.scene7.com",
+        "path": "/is/content/upsprod/_media_/f1b/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream.scene7.com/is/content/upsprod/_media_/f1b/f1b7bc60-0ef5-4821-bf1f-d18dd04791d7-audio.mp4",
+        "pages": 1,
+        "examples": [
+          "ca-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/de/en/cargo-insurance/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/de/en/cargo-insurance/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "de-en-cargo-insurance-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/de/en/claims/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/de/en/claims/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "de-en-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/de/en/resources/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/de/en/resources/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "de-en-resources-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/de/en/partners/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/de/en/partners/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "de-en-partners-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/de/en/alerts/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/de/en/alerts/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "de-en-alerts-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/de/de/home/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/de/de/home/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "de-de-home-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/de/de/cargo-insurance/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/de/de/cargo-insurance/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "de-de-cargo-insurance-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/de/de/claims/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/de/de/claims/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "de-de-claims-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.insureshield.com",
+        "path": "/de/en/about/_jcr_content.getNameInitial.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.insureshield.com/de/en/about/_jcr_content.getNameInitial.json",
+        "pages": 1,
+        "examples": [
+          "de-en-about-html"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "tags.tiqcdn.com",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "host": "ups.blueconic.net",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "host": "js.adsrvr.org",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "host": "s.go-mpulse.net",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "host": "scripts.demandbase.com",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "host": "www.redditstatic.com",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "host": "bat.bing.com",
+        "pages": 84,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "host": "snap.licdn.com",
+        "pages": 81,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "host": "api.salemove.com",
+        "pages": 65,
+        "examples": [
+          "index",
+          "us-en-claims-html",
+          "us-en-partners-html"
+        ]
+      },
+      {
+        "host": "connect.facebook.net",
+        "pages": 61,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      },
+      {
+        "host": "www.gstatic.com",
+        "pages": 29,
+        "examples": [
+          "us-en-about-html",
+          "us-en-shipping-insurance-special-commodities-html",
+          "us-en-shipping-insurance-select-my-coverage-html"
+        ]
+      },
+      {
+        "host": "www.recaptcha.net",
+        "pages": 29,
+        "examples": [
+          "us-en-about-html",
+          "us-en-shipping-insurance-special-commodities-html",
+          "us-en-shipping-insurance-select-my-coverage-html"
+        ]
+      },
+      {
+        "host": "ups.scene7.com",
+        "pages": 19,
+        "examples": [
+          "us-en-about-html",
+          "us-en-shipping-insurance-select-my-coverage-html",
+          "us-en-shipping-insurance-multi-carrier-shipments-html"
+        ]
+      },
+      {
+        "host": "libs.salemove.com",
+        "pages": 13,
+        "examples": [
+          "us-en-partners-html",
+          "us-en-shipping-insurance-special-commodities-html",
+          "us-en-shipping-insurance-select-my-coverage-html"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "aem-sites",
+        "pages": 94,
+        "examples": [
+          "index",
+          "us-en-claims-html",
+          "us-en-partners-html"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 96,
+        "examples": [
+          "index",
+          "us-en-shipping-insurance-html",
+          "us-en-claims-html"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://www.insureshield.com/us/en/solutions/delivery-defense.html",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "orders",
+          "average value"
+        ],
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-defense-html"
+        ]
+      },
+      {
+        "action": "https://www.insureshield.com/us/en/promotional/delivery-defense-mockup.html",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "orders",
+          "average value"
+        ],
+        "pages": 1,
+        "examples": [
+          "us-en-promotional-delivery-defense-mockup-html"
+        ]
+      },
+      {
+        "action": "https://www.insureshield.com/us/en/solutions/delivery-defense/learning-center.html",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "orders",
+          "average value"
+        ],
+        "pages": 1,
+        "examples": [
+          "us-en-solutions-delivery-defense-learning-center-html"
+        ]
+      },
+      {
+        "action": "https://www.insureshield.com/it/en/resources.html",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "fulltext"
+        ],
+        "pages": 1,
+        "examples": [
+          "it-en-resources-html"
+        ]
+      },
+      {
+        "action": "https://www.insureshield.com/it/it/resources.html",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "fulltext"
+        ],
+        "pages": 1,
+        "examples": [
+          "it-it-resources-html"
+        ]
+      },
+      {
+        "action": "https://www.insureshield.com/gb/en/resources.html",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "fulltext"
+        ],
+        "pages": 1,
+        "examples": [
+          "gb-en-resources-html"
+        ]
+      },
+      {
+        "action": "https://www.insureshield.com/ca/en/resources.html",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "fulltext"
+        ],
+        "pages": 1,
+        "examples": [
+          "ca-en-resources-html"
+        ]
+      },
+      {
+        "action": "https://www.insureshield.com/de/en/resources.html",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "fulltext"
+        ],
+        "pages": 1,
+        "examples": [
+          "de-en-resources-html"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "ca-en-about-html",
+      "verdict": "ok",
+      "notes": "rendered; hero matches title; logo + imagery visible"
+    },
+    {
+      "slug": "ca-en-claims-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Claims\" hero; logo + imagery visible"
+    },
+    {
+      "slug": "ca-en-home-html",
+      "verdict": "ok",
+      "notes": "rendered; InsureShield Shipping Insurance hero; consent banner visible over hero bottom"
+    },
+    {
+      "slug": "ca-en-partners-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Partners\" hero; logo + imagery visible"
+    },
+    {
+      "slug": "ca-en-resources-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Resources\" hero; logo + imagery visible"
+    },
+    {
+      "slug": "ca-en-shipping-insurance-html",
+      "verdict": "ok",
+      "notes": "rendered; Shipping Insurance hero; logo + imagery visible"
+    },
+    {
+      "slug": "de-de-cargo-insurance-html",
+      "verdict": "ok",
+      "notes": "rendered; Warentransportversicherung hero; consent banner visible"
+    },
+    {
+      "slug": "de-de-claims-html",
+      "verdict": "ok",
+      "notes": "rendered; Schadenforderungen hero; logo + imagery visible"
+    },
+    {
+      "slug": "de-de-home-html",
+      "verdict": "ok",
+      "notes": "rendered; InsureShield Transportversicherung hero; consent banner visible"
+    },
+    {
+      "slug": "de-en-about-html",
+      "verdict": "ok",
+      "notes": "rendered; hero matches title; logo + imagery visible"
+    },
+    {
+      "slug": "de-en-alerts-html",
+      "verdict": "ok",
+      "notes": "chrome-only page"
+    },
+    {
+      "slug": "de-en-cargo-insurance-html",
+      "verdict": "ok",
+      "notes": "rendered; Cargo Insurance hero; logo + imagery visible"
+    },
+    {
+      "slug": "de-en-claims-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Claims\" hero; logo + imagery visible"
+    },
+    {
+      "slug": "de-en-home-html",
+      "verdict": "ok",
+      "notes": "rendered; InsureShield Shipping Insurance hero; logo + imagery visible"
+    },
+    {
+      "slug": "de-en-partners-html",
+      "verdict": "ok",
+      "notes": "rendered; hero \"Partner with Us\" (title Partner Network); consent banner visible"
+    },
+    {
+      "slug": "de-en-resources-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Resources\" hero; logo + imagery visible"
+    },
+    {
+      "slug": "gb-en-about-html",
+      "verdict": "ok",
+      "notes": "rendered; hero matches title; logo + imagery visible"
+    },
+    {
+      "slug": "gb-en-alerts-html",
+      "verdict": "ok",
+      "notes": "chrome-only page"
+    },
+    {
+      "slug": "gb-en-cargo-insurance-html",
+      "verdict": "ok",
+      "notes": "rendered; Cargo Insurance hero; logo + imagery visible"
+    },
+    {
+      "slug": "gb-en-claims-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Claims\" hero; logo + imagery visible"
+    },
+    {
+      "slug": "gb-en-home-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Insured Shipping for Your Business\" hero; consent banner visible"
+    },
+    {
+      "slug": "gb-en-other-ups-sites-html",
+      "verdict": "ok",
+      "notes": "chrome-only page; consent banner visible at bottom"
+    },
+    {
+      "slug": "gb-en-resources-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Resources\" hero; logo + imagery visible"
+    },
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "rendered; UPS Secure Commerce hero; logo + imagery visible"
+    },
+    {
+      "slug": "it-en-about-html",
+      "verdict": "ok",
+      "notes": "rendered; hero matches title; logo + imagery visible"
+    },
+    {
+      "slug": "it-en-alerts-html",
+      "verdict": "ok",
+      "notes": "chrome-only page"
+    },
+    {
+      "slug": "it-en-cargo-insurance-html",
+      "verdict": "ok",
+      "notes": "rendered; Cargo Insurance hero; logo + imagery visible"
+    },
+    {
+      "slug": "it-en-claims-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Claims\" hero; logo + imagery visible"
+    },
+    {
+      "slug": "it-en-home-html",
+      "verdict": "ok",
+      "notes": "rendered; InsureShield Shipping Insurance hero; logo + imagery visible"
+    },
+    {
+      "slug": "it-en-resources-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Resources\" hero; logo + imagery visible"
+    },
+    {
+      "slug": "it-it-about-html",
+      "verdict": "ok",
+      "notes": "rendered; Italian about page (EN hero text); logo + imagery visible"
+    },
+    {
+      "slug": "it-it-alerts-html",
+      "verdict": "ok",
+      "notes": "chrome-only page"
+    },
+    {
+      "slug": "it-it-cargo-insurance-html",
+      "verdict": "ok",
+      "notes": "rendered; hero \"Assicurazione sulla spedizione\"; logo + imagery visible"
+    },
+    {
+      "slug": "it-it-claims-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Reclami\" hero; logo + imagery visible"
+    },
+    {
+      "slug": "it-it-home-html",
+      "verdict": "ok",
+      "notes": "rendered; Assicurazione sulla spedizione InsureShield hero; consent banner visible"
+    },
+    {
+      "slug": "it-it-resources-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Risorse\" hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-about-announcements-html",
+      "verdict": "suspect",
+      "notes": "short page; consent banner visible covers left half of main announcement content"
+    },
+    {
+      "slug": "us-en-about-contact-us-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Contact Us\" hero + form; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-about-html",
+      "verdict": "ok",
+      "notes": "rendered; hero \"Shipping Insurance That Protects Every Shipment\" differs from title"
+    },
+    {
+      "slug": "us-en-about-our-locations-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Our Locations\" hero (title Product Availability); logo + image"
+    },
+    {
+      "slug": "us-en-claims-channel-partners-claims-html",
+      "verdict": "ok",
+      "notes": "rendered; Partner Claims Portal hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-claims-html",
+      "verdict": "ok",
+      "notes": "rendered; \"File a Claim\" hero; consent banner visible"
+    },
+    {
+      "slug": "us-en-claims-insureshield-ups-claims-support-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Claims Made Easy\" hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-customer-communications-confirm-contact-information-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Let's Get Reacquainted\" hero + form; logo + image"
+    },
+    {
+      "slug": "us-en-customer-communications-enhanced-declared-value-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Protect More Than Shipments\" hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-customer-communications-html",
+      "verdict": "ok",
+      "notes": "chrome-only page"
+    },
+    {
+      "slug": "us-en-customer-communications-updated-contact-information-html",
+      "verdict": "suspect",
+      "notes": "hero heading OK but hero image area blank (image not loaded?); form visible"
+    },
+    {
+      "slug": "us-en-global-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Select a Region\" map page; logo visible"
+    },
+    {
+      "slug": "us-en-legal-cookie-settings-html",
+      "verdict": "ok",
+      "notes": "chrome-only page (cookie-settings widget not rendered)"
+    },
+    {
+      "slug": "us-en-legal-product-disclosure-html",
+      "verdict": "ok",
+      "notes": "rendered; Product Disclosure text page; logo visible"
+    },
+    {
+      "slug": "us-en-legal-technology-agreement-html",
+      "verdict": "ok",
+      "notes": "rendered; Technology Agreement legal text; logo visible"
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-gallagher-affinity-html",
+      "verdict": "ok",
+      "notes": "rendered; T&C legal text; logo visible"
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-html",
+      "verdict": "ok",
+      "notes": "rendered; T&C legal text; logo visible"
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-users-html",
+      "verdict": "ok",
+      "notes": "rendered; T&C legal text; logo visible"
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-upscia-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Terms and Conditions\" legal text; logo visible"
+    },
+    {
+      "slug": "us-en-page-deletion-html",
+      "verdict": "ok",
+      "notes": "chrome-only page (test page)"
+    },
+    {
+      "slug": "us-en-partners-3pl-partners-html",
+      "verdict": "suspect",
+      "notes": "title 'Enhanced Declared Value' but hero is 3PL 'Protect your customers...'; consent banner"
+    },
+    {
+      "slug": "us-en-partners-become-a-partner-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Become a Partner\" hero; consent banner visible"
+    },
+    {
+      "slug": "us-en-partners-connect-with-a-partner-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Connect with a Partner\" hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-partners-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Partners\" hero; consent banner visible"
+    },
+    {
+      "slug": "us-en-promotional-delivery-defense-mockup-html",
+      "verdict": "ok",
+      "notes": "rendered; DeliveryDefense Technology hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-promotional-insureshield-benefits-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Maximize the benefits of InsureShield\" hero; logo + imagery"
+    },
+    {
+      "slug": "us-en-promotional-prod-form-test-html",
+      "verdict": "ok",
+      "notes": "test page; \"Get a Quote\" form rendered; consent banner visible overlaps form edge"
+    },
+    {
+      "slug": "us-en-promotional-webinars-html",
+      "verdict": "ok",
+      "notes": "rendered; returns-management webinar hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-resources-customer-stories-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Customer Stories\" hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-resources-help-and-support-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Help & Support\" hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-resources-insights-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Insights\" hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-resources-the-logistics-lowdown-html",
+      "verdict": "ok",
+      "notes": "rendered; Logistics Lowdown hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-resources-webinars-html",
+      "verdict": "suspect",
+      "notes": "chrome-only but title implies webinar listing; consent banner visible"
+    },
+    {
+      "slug": "us-en-resources-whitepapers-and-guides-html",
+      "verdict": "ok",
+      "notes": "rendered; Whitepapers & Guides hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-risk-mitigation-risk-intelligence-smb-html",
+      "verdict": "ok",
+      "notes": "rendered; CommerceShield page; large near-empty tab/animation panel mid-page"
+    },
+    {
+      "slug": "us-en-risk-mitigation-risk-intelligence-smb2-html",
+      "verdict": "ok",
+      "notes": "rendered; Risk Intelligence hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-securecommerce-html",
+      "verdict": "ok",
+      "notes": "rendered; UPS Secure Commerce hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-shipping-insurance-b2b-html",
+      "verdict": "ok",
+      "notes": "rendered; B2B supply-chain hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-shipping-insurance-checkout-protection-html",
+      "verdict": "ok",
+      "notes": "rendered; Checkout Protection hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Never Lose a Customer\" hero; consent banner visible"
+    },
+    {
+      "slug": "us-en-shipping-insurance-get-a-quote-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Get a Quote\" hero + form; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-shipping-insurance-html",
+      "verdict": "ok",
+      "notes": "rendered; redesigned shipping-insurance hero; consent banner visible"
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-html",
+      "verdict": "ok",
+      "notes": "rendered; Multi-carrier Coverage hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+      "verdict": "ok",
+      "notes": "rendered; App for Shopify hero; consent banner visible"
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+      "verdict": "ok",
+      "notes": "rendered; InsureShield Complete hero; consent banner visible"
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+      "verdict": "ok",
+      "notes": "rendered; InsureShield Connect hero; consent banner visible"
+    },
+    {
+      "slug": "us-en-shipping-insurance-retail-html",
+      "verdict": "ok",
+      "notes": "rendered; retail \"Keep Customers Coming Back\" hero; consent banner visible"
+    },
+    {
+      "slug": "us-en-shipping-insurance-select-my-coverage-html",
+      "verdict": "ok",
+      "notes": "rendered; Shipping Insurance For Your Business hero; consent banner visible"
+    },
+    {
+      "slug": "us-en-shipping-insurance-special-commodities-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Spoilage Happens\" hero; consent banner visible"
+    },
+    {
+      "slug": "us-en-shipping-insurance-ups-shipments-html",
+      "verdict": "ok",
+      "notes": "rendered; InsureShield for UPS Packages hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-solutions-commerceshield-html",
+      "verdict": "ok",
+      "notes": "rendered; CommerceShield hero; consent banner visible; near-empty panel mid-page"
+    },
+    {
+      "slug": "us-en-solutions-delivery-defense-html",
+      "verdict": "ok",
+      "notes": "rendered; DeliveryDefense Technology hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-solutions-delivery-defense-learning-center-html",
+      "verdict": "ok",
+      "notes": "rendered; learning-center hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-delivery-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Smarter, Faster, More Reliable Deliveries\" hero; logo + images"
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-html",
+      "verdict": "ok",
+      "notes": "rendered; Delivery Orchestration hero; logo + imagery visible"
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-pickup-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Revolutionize Your Pickup Experience\" hero; consent banner visible"
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-returns-html",
+      "verdict": "ok",
+      "notes": "rendered; \"Maximize Returns\" hero; consent banner visible"
+    },
+    {
+      "slug": "us-en-solutions-insureshield-shipping-insurance-html",
+      "verdict": "ok",
+      "notes": "rendered; same as us-en-shipping-insurance; consent banner visible"
+    },
+    {
+      "slug": "us-en-test-deletion-html",
+      "verdict": "ok",
+      "notes": "chrome-only page (test page)"
+    },
+    {
+      "slug": "us-en-test-deletion1-html",
+      "verdict": "ok",
+      "notes": "chrome-only page (test page)"
+    }
+  ],
+  "notCaptured": [
+    {
+      "url": "https://www.insureshield.com/it.html",
+      "reason": "HTTP 404 on source"
+    },
+    {
+      "url": "https://www.insureshield.com/gb.html",
+      "reason": "HTTP 404 on source"
+    },
+    {
+      "url": "https://www.insureshield.com/ca.html",
+      "reason": "HTTP 404 on source"
+    },
+    {
+      "url": "https://www.insureshield.com/fr.html",
+      "reason": "HTTP 404 on source"
+    }
+  ]
+}

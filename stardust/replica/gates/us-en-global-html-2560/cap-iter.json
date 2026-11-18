@@ -1,0 +1,177 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-17T22:08:45.700Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.insureshield.com/us/en/global.html",
+      "http://localhost:8791/us-en-global-html-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.insureshield.com/us/en/global.html",
+    "http://localhost:8791/us-en-global-html-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "div.cmp-container > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid > div.cmp-container",
+      "isBody": false,
+      "leaves": 3,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "#ups-langSelect",
+        "tier": 3,
+        "share": 1,
+        "section": -1,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 936,
+        "via": "fixed",
+        "selector": "#ups-langSelect > div.row > div.col-md-9",
+        "tier": 5,
+        "share": 0.33,
+        "section": 0,
+        "w1": 936,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 312,
+        "via": "fixed",
+        "selector": "#ups-langSelect > div.row > div.col-md-3.ups-accordion_wrapper",
+        "tier": 5,
+        "share": 0.67,
+        "section": 1,
+        "w1": 312,
+        "maxWidth": "100%"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#ups-langSelect > div.row > div.col-md-9",
+        "px": 936,
+        "capSelector": "#ups-langSelect > div.row > div.col-md-9"
+      },
+      {
+        "index": 1,
+        "selector": "#ups-langSelect > div.row > div.col-md-3.ups-accordion_wrapper",
+        "px": 312,
+        "capSelector": "#ups-langSelect > div.row > div.col-md-3.ups-accordion_wrapper"
+      }
+    ],
+    "shellMaxWidth": 1280,
+    "contentMaxWidth": 1280,
+    "contentFrom": "shell",
+    "maxCap": 1280,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 85
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "body.tpl-region > div.page-root > main.page-main",
+      "isBody": false,
+      "leaves": 3,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "body.tpl-region > div.page-root > main.page-main > div.container.rsel",
+        "tier": 1,
+        "share": 1,
+        "section": -1,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 936,
+        "via": "fixed",
+        "selector": "main.page-main > div.container.rsel > div.row > div.rsel__map-col",
+        "tier": 3,
+        "share": 0.33,
+        "section": 0,
+        "w1": 936,
+        "maxWidth": "75%"
+      },
+      {
+        "kind": "module",
+        "px": 312,
+        "via": "fixed",
+        "selector": "main.page-main > div.container.rsel > div.row > div.rsel__acc-col",
+        "tier": 3,
+        "share": 0.67,
+        "section": 1,
+        "w1": 312,
+        "maxWidth": "25%"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "main.page-main > div.container.rsel > div.row > div.rsel__map-col",
+        "px": 936,
+        "capSelector": "main.page-main > div.container.rsel > div.row > div.rsel__map-col"
+      },
+      {
+        "index": 1,
+        "selector": "main.page-main > div.container.rsel > div.row > div.rsel__acc-col",
+        "px": 312,
+        "capSelector": "main.page-main > div.container.rsel > div.row > div.rsel__acc-col"
+      }
+    ],
+    "shellMaxWidth": 1280,
+    "contentMaxWidth": 1280,
+    "contentFrom": "shell",
+    "maxCap": 1280,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 58
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "wrapper cap",
+        "detail": "live 1280px = build 1280px (±20)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/2",
+        "detail": "936px = 936px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/2",
+        "detail": "312px = 312px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/us-en-global-html-2560/cap-iter.json"
+}

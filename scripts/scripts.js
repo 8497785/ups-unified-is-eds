@@ -10,7 +10,41 @@ import {
   loadSections,
   loadCSS,
   buildBlock,
+  getMetadata,
 } from './aem.js';
+
+const DEFAULT_LOCALE = 'us/en';
+
+/**
+ * Returns the locale (`<cc>/<ll>`) of a path, or the default locale.
+ * @param {string} [path] The pathname
+ * @returns {string} The locale, e.g. `de/en`
+ */
+export function getLocale(path = window.location.pathname) {
+  const m = path.match(/^\/([a-z]{2})\/([a-z]{2})(\/|$)/);
+  return m ? `${m[1]}/${m[2]}` : DEFAULT_LOCALE;
+}
+
+/**
+ * Adds `locale-<cc>` to the body (the chrome reserves the alerts strip per locale).
+ */
+function decorateLocale() {
+  document.body.classList.add(`locale-${getLocale().split('/')[0]}`);
+}
+
+/**
+ * Candidate paths of a chrome document (`nav` / `footer`), most specific first:
+ * page metadata, then the locale's own document, then the site default.
+ * @param {string} name The chrome document name
+ * @returns {string[]} Paths to try in order
+ */
+export function getChromePaths(name) {
+  const meta = getMetadata(name);
+  if (meta) return [new URL(meta, window.location).pathname];
+  const locale = getLocale();
+  if (locale !== DEFAULT_LOCALE) return [`/${locale}/${name}`, `/${name}`];
+  return [`/${name}`];
+}
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
   const innerTT = window.trustedTypes.createPolicy('tt-inner', {
@@ -35,6 +69,19 @@ if (window.trustedTypes && window.trustedTypes.createPolicy) {
     createScriptURL: (input) => input,
     createScript: (input) => input,
   });
+}
+
+/** Templates that carry their own stylesheet (`/styles/templates/<template>.css`). */
+const TEMPLATE_STYLES = ['listing'];
+
+/**
+ * Loads the stylesheet of the page's template, if it has one.
+ * @returns {Promise} Resolves once the stylesheet has loaded
+ */
+function loadTemplateStyles() {
+  const template = TEMPLATE_STYLES.find((t) => document.body.classList.contains(t));
+  if (!template) return Promise.resolve();
+  return loadCSS(`${window.hlx.codeBasePath}/styles/templates/${template}.css`);
 }
 
 /**
@@ -160,11 +207,15 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
+  import('./martech.js').then((m) => m.loadConsent());
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
+  decorateLocale();
+  const templateStyles = loadTemplateStyles();
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);
+    await templateStyles;
     document.body.classList.add('appear');
     await loadSection(main.querySelector('.section'), waitForFirstImage);
   }

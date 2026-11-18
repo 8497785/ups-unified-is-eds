@@ -1,0 +1,41 @@
+{
+  "a": "stardust/replica/gates/prototypes-1440/us-en-customer-communications-html/origin.png",
+  "b": "stardust/replica/gates/prototypes-1440/us-en-customer-communications-html/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 1016,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 321,
+  "pct": 0.02,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/prototypes-1440/us-en-customer-communications-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1016,
+      "pct": 0
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "http://localhost:8791/us-en-customer-communications-html-proposed.html"
+  }
+}

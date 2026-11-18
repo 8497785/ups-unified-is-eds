@@ -1,0 +1,428 @@
+/* sh-header — compiled from the shipping-hub prototype (mobile-first, 1rem = 16px) */
+/* stylelint-disable no-duplicate-selectors, no-descending-specificity -- source cascade order kept */
+.sh-header {
+  --m-border-width-medium: 2px;
+  --m-border-width-thin: 1px;
+  --m-color-ink-default: #121212;
+  --m-color-ink-medium: #5f5753;
+  --m-color-outline-variant-low: #1a1a1f1f;
+  --m-color-surface-bright: #fff;
+  --m-color-surface-container-low: #efeff2;
+  --m-duration-base: .2s;
+  --m-duration-fast: .1s;
+  --m-easing-enter: cubic-bezier(0, 0, 0, 1);
+  --m-easing-standard: cubic-bezier(.2, 0, 0, 1);
+  --m-font-family-base: inter, system-ui, sans-serif;
+  --m-font-letter-spacing-none: 0;
+  --m-radius-pill: 999px;
+  --m-radius-sm: 4px;
+  --m-size-icon-md: 20px;
+  --m-space-1: 4px;
+  --m-space-2: 8px;
+  --m-space-3: 12px;
+  --m-space-4: 16px;
+  --m-space-5: 24px;
+  --m-space-6: 32px;
+  --m-space-7: 48px;
+  --m-space-8: 64px;
+  --m-space-9: 96px;
+  --m-typography-body-md: 400 16px/20px var(--m-font-family-base);
+  --m-typography-body-xs: 400 16px/16px var(--m-font-family-base);
+  --m-typography-label-md: 500 16px/20px var(--m-font-family-base);
+  --m-z-index-sticky: 100;
+}
+
+@media (width >= 768px) {
+  .sh-header {
+    --m-typography-body-md: 400 16px/24px inter, system-ui, sans-serif;
+    --m-typography-body-xs: 400 12px/14px inter, system-ui, sans-serif;
+    --m-typography-label-md: 500 14px/20px inter, system-ui, sans-serif;
+  }
+}
+
+.sh-header .sh-icon {
+  inline-size: var(--sh-icon,var(--m-size-icon-md));
+  block-size: var(--sh-icon,var(--m-size-icon-md));
+  vertical-align: middle;
+  flex: none;
+  display: inline-block;
+  fill: currentcolor;
+}
+
+.sh-header .sh-icon-16 {
+  --sh-icon: var(--m-space-4);
+}
+
+.sh-header {
+  box-sizing: border-box;
+  border-block-end: var(--m-border-width-thin) solid var(--m-color-outline-variant-low);
+  background-color: var(--m-color-surface-bright);
+  inline-size: 100%;
+  color: var(--m-color-ink-default);
+  font-family: var(--m-font-family-base);
+  z-index: var(--m-z-index-sticky);
+  position: sticky;
+  inset-block-start: 0;
+  transition: opacity var(--m-duration-base) var(--m-easing-enter);
+}
+
+.sh-header .sh-utility {
+  border-block-end: var(--m-border-width-thin) solid var(--m-color-outline-variant-low);
+}
+
+.sh-header .sh-utility-list {
+  box-sizing: border-box;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: var(--m-space-5);
+  max-inline-size: calc(var(--m-space-9) * 13);
+  min-block-size: var(--m-space-6);
+  padding: 0 var(--m-space-6);
+  flex-wrap: wrap;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+}
+
+.sh-header .sh-navlink {
+  min-block-size: var(--m-space-5);
+  border-radius: var(--m-radius-sm);
+  font: var(--m-typography-label-md);
+  color: var(--m-color-ink-medium);
+  text-decoration: none;
+  text-decoration-thickness: var(--m-border-width-thin);
+  text-underline-offset: var(--m-space-1);
+  cursor: pointer;
+  transition: color var(--m-duration-fast) var(--m-easing-standard);
+  align-items: center;
+  display: inline-flex;
+}
+
+.sh-header .sh-navlink:hover {
+  color: var(--m-color-ink-default);
+  text-decoration-line: underline;
+}
+
+.sh-header .sh-navlink[aria-expanded="true"] {
+  color: var(--m-color-ink-default);
+  text-decoration-line: underline;
+}
+
+.sh-header .sh-utility .sh-navlink {
+  gap: var(--m-space-1);
+  font: var(--m-typography-body-xs);
+  letter-spacing: var(--m-font-letter-spacing-none);
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.sh-header .sh-header-inner {
+  box-sizing: border-box;
+  align-items: center;
+  max-inline-size: calc(var(--m-space-9) * 13);
+  min-block-size: var(--m-space-8);
+  margin-inline: auto;
+  display: flex;
+}
+
+.sh-header .sh-home {
+  border-radius: var(--m-radius-sm);
+  flex: none;
+  align-items: center;
+  display: inline-flex;
+}
+
+.sh-header .sh-lockup {
+  block-size: var(--m-space-7);
+  inline-size: auto;
+  display: block;
+}
+
+.sh-header .sh-nav {
+  flex: auto;
+  min-inline-size: 0;
+}
+
+.sh-header .sh-nav-list {
+  align-items: center;
+  gap: var(--m-space-5);
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sh-header .sh-nav-trigger {
+  gap: var(--m-space-1);
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font: var(--m-typography-label-md);
+}
+
+.sh-header .sh-nav-chev {
+  transition: rotate var(--m-duration-fast) var(--m-easing-standard);
+  flex: none;
+}
+
+.sh-header .sh-nav-trigger[aria-expanded="true"] .sh-nav-chev {
+  rotate: 180deg;
+}
+
+.sh-header .sh-menu-btn {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  inline-size: var(--m-space-6);
+  block-size: var(--m-space-6);
+  border: var(--m-border-width-thin) solid transparent;
+  border-radius: var(--m-radius-pill);
+  color: var(--m-color-ink-medium);
+  cursor: pointer;
+  background-color: #0000;
+  flex: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  position: relative;
+}
+
+.sh-header .sh-menu-btn:hover {
+  border-color: var(--m-color-ink-default);
+  background-color: var(--m-color-surface-container-low);
+  color: var(--m-color-ink-default);
+}
+
+.sh-header .sh-menu-glyph {
+  inline-size: calc(var(--m-space-3) + var(--m-border-width-medium));
+  block-size: calc(var(--m-space-3) + var(--m-border-width-medium));
+  display: inline-flex;
+}
+
+.sh-header .sh-menu-glyph svg {
+  fill: currentcolor;
+  block-size: 100%;
+  inline-size: 100%;
+}
+
+.sh-header .sh-header-end {
+  align-items: center;
+  flex: none;
+  margin-inline-start: auto;
+  display: flex;
+}
+
+.sh-header .sh-nav {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.sh-header .sh-nav-list {
+  display: none;
+}
+
+.sh-header .sh-menu {
+  display: flex;
+}
+
+.sh-header .sh-utility {
+  display: none;
+}
+
+.sh-header .sh-header-inner {
+  gap: var(--m-space-3);
+  padding-inline: var(--m-space-4);
+}
+
+.sh-header .sh-header-end {
+  gap: var(--m-space-2);
+}
+
+/* authored-element adapters and section shell */
+.sh-header {
+  font: var(--m-typography-body-md);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* the hub header is sticky for the whole page: stick the chrome element itself */
+body > header:has(.sh-header) {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: opacity 0.2s cubic-bezier(0, 0, 0, 1);
+}
+
+body > header:has(.sh-header)[data-hidden]:not(:focus-within) {
+  opacity: 0;
+  pointer-events: none;
+  translate: 0 -100%;
+  transition: translate 0.32s cubic-bezier(0.3, 0, 1, 1) 0s, opacity 0s cubic-bezier(0.3, 0, 1, 1) 0.32s;
+}
+
+.sh-header .sh-home img {
+  display: block;
+}
+
+@media (width >= 768px) {
+  .sh-header .sh-icon {
+    display: inline-block;
+  }
+
+  .sh-header .sh-utility-list {
+    column-gap: var(--m-space-5);
+    padding: 0 var(--m-space-6);
+    display: flex;
+  }
+
+  .sh-header .sh-navlink {
+    display: inline-flex;
+  }
+
+  .sh-header .sh-utility .sh-navlink {
+    gap: var(--m-space-1);
+    padding: 0;
+  }
+
+  .sh-header .sh-header-inner {
+    gap: var(--m-space-6);
+    padding-inline: var(--m-space-6);
+    display: flex;
+  }
+
+  .sh-header .sh-home {
+    display: inline-flex;
+  }
+
+  .sh-header .sh-lockup {
+    display: block;
+  }
+
+  .sh-header .sh-nav-list {
+    gap: var(--m-space-5);
+    padding: 0;
+  }
+
+  .sh-header .sh-nav-trigger {
+    gap: var(--m-space-1);
+    padding: 0;
+  }
+
+  .sh-header .sh-menu-btn {
+    padding: 0;
+    display: inline-flex;
+  }
+
+  .sh-header .sh-menu-glyph {
+    display: inline-flex;
+  }
+
+  .sh-header .sh-header-end {
+    gap: var(--m-space-3);
+    display: flex;
+  }
+
+  .sh-header .sh-nav {
+    display: flex;
+  }
+
+  .sh-header .sh-nav-list {
+    display: none;
+  }
+
+  .sh-header .sh-menu {
+    display: flex;
+  }
+
+  .sh-header .sh-utility {
+    display: block;
+  }
+}
+
+@media (width >= 1024px) {
+  .sh-header .sh-icon {
+    display: inline-block;
+  }
+
+  .sh-header .sh-utility-list {
+    justify-content: flex-end;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .sh-header .sh-navlink {
+    display: inline-flex;
+  }
+
+  .sh-header .sh-utility .sh-navlink {
+    margin: 0;
+  }
+
+  .sh-header .sh-header-inner {
+    margin-inline: auto;
+  }
+
+  .sh-header .sh-home {
+    display: inline-flex;
+  }
+
+  .sh-header .sh-lockup {
+    display: block;
+  }
+
+  .sh-header .sh-nav-list {
+    margin: 0;
+    display: flex;
+  }
+
+  .sh-header .sh-nav-trigger {
+    margin: 0;
+  }
+
+  .sh-header .sh-menu {
+    display: none;
+  }
+
+  .sh-header .sh-menu-btn {
+    justify-content: center;
+    margin: 0;
+    display: inline-flex;
+  }
+
+  .sh-header .sh-menu-glyph {
+    display: inline-flex;
+  }
+
+  .sh-header .sh-header-end {
+    display: flex;
+  }
+
+  .sh-header .sh-header-inner {
+    grid-template-columns: minmax(max-content,1fr) auto minmax(max-content,1fr);
+    display: grid;
+  }
+
+  .sh-header .sh-home {
+    grid-column: 1;
+    justify-self: start;
+  }
+
+  .sh-header .sh-nav {
+    grid-column: 2;
+    justify-self: center;
+  }
+
+  .sh-header .sh-header-end {
+    grid-column: 3;
+    justify-self: end;
+    margin-inline-start: 0;
+  }
+
+  .sh-header .sh-nav {
+    justify-content: normal;
+    display: block;
+  }
+}
+

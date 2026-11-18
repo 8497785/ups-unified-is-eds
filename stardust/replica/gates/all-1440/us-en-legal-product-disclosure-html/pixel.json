@@ -1,0 +1,46 @@
+{
+  "a": "stardust/replica/gates/all-1440/us-en-legal-product-disclosure-html/origin.png",
+  "b": "stardust/replica/gates/all-1440/us-en-legal-product-disclosure-html/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 1760,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 164926,
+  "pct": 6.51,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/us-en-legal-product-disclosure-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 1.77,
+  "textBoxes": 59,
+  "textPixels": 399404,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.1
+    },
+    {
+      "y0": 1500,
+      "y1": 1760,
+      "pct": 43.8
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/legal/product-disclosure"
+  }
+}

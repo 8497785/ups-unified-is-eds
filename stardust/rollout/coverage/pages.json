@@ -1,0 +1,4610 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-17T22:35:28.005Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/.work/rollout/state-with-representative.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-18T14:07:40.763Z",
+  "pages": [
+    {
+      "slug": "ca-en-about-html",
+      "path": "/ca/en/about",
+      "title": "Insuring Better Shipping Experiences in Canada | InsureShield | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:2f0e4e9020f514e99a69e300076a381141fe6fea09ea01aabd4aab69fee8708d",
+        "currentStatePath": "stardust/current/pages/ca-en-about-html.json",
+        "sourceUrl": "https://www.insureshield.com/ca/en/about.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/ca/en/about",
+        "deployedAt": "2026-11-18T05:37:18.231Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.44,
+          "heightDelta": 25,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-en-claims-html",
+      "path": "/ca/en/claims",
+      "title": "File a Claim | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:cdeecab388e2324d9a776e53f4faa4f1d8c61696aaf2ac3d4bb0cb80b8f0357a",
+        "currentStatePath": "stardust/current/pages/ca-en-claims-html.json",
+        "sourceUrl": "https://www.insureshield.com/ca/en/claims.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/ca/en/claims",
+        "deployedAt": "2026-11-18T05:37:18.312Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.5,
+          "heightDelta": -26,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-en-home-html",
+      "path": "/ca/en/home",
+      "title": "InsureShield® Shipping Insurance | InsureShield",
+      "templateId": "de-en-home-html",
+      "representative": "de-en-home-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:805de628aebd4274b584eb663954f0f5aa981daa2d5228071377c7ff5977d7fb",
+        "currentStatePath": "stardust/current/pages/ca-en-home-html.json",
+        "sourceUrl": "https://www.insureshield.com/ca/en/home.html"
+      },
+      "blocks": [
+        "homepage-hero",
+        "pathways-cards",
+        "featured-list",
+        "featured-promo",
+        "story-card-grid",
+        "secondary-promo"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/ca/en/home",
+        "deployedAt": "2026-11-18T01:32:31.578Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.53,
+          "heightDelta": 33,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-en-partners-html",
+      "path": "/ca/en/partners",
+      "title": "Learn About Our Partner Network | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:11d08eabf7486f7d831b71e8a58d6b4f3c520739b7c4c9127e287bcc11702031",
+        "currentStatePath": "stardust/current/pages/ca-en-partners-html.json",
+        "sourceUrl": "https://www.insureshield.com/ca/en/partners.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/ca/en/partners",
+        "deployedAt": "2026-11-18T05:37:18.374Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.17,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-en-resources-html",
+      "path": "/ca/en/resources",
+      "title": "Tips & Insights For Your Business | InsureShield",
+      "templateId": "gb-en-resources-html",
+      "representative": "gb-en-resources-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:19e85f70dabf0a2b7f2925651ff1a38687ffc96648918048e7857681a995682b",
+        "currentStatePath": "stardust/current/pages/ca-en-resources-html.json",
+        "sourceUrl": "https://www.insureshield.com/ca/en/resources.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "search",
+        "story-card-carousel",
+        "promo-banner"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/ca/en/resources",
+        "deployedAt": "2026-11-18T02:23:39.087Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.71,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-en-shipping-insurance-html",
+      "path": "/ca/en/shipping-insurance",
+      "title": "Shipping Insurance | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:adc411cfe137000687b932452b194029b7b53d4272bc65f3aa15af95313acdcd",
+        "currentStatePath": "stardust/current/pages/ca-en-shipping-insurance-html.json",
+        "sourceUrl": "https://www.insureshield.com/ca/en/shipping-insurance.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/ca/en/shipping-insurance",
+        "deployedAt": "2026-11-18T05:37:18.440Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.88,
+          "heightDelta": 16,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "de-de-cargo-insurance-html",
+      "path": "/de/de/cargo-insurance",
+      "title": "Warentransportversicherung | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:56943a4a040ade07ed0283e2733da6214378e4ac17de5c413de274ee862e9462",
+        "currentStatePath": "stardust/current/pages/de-de-cargo-insurance-html.json",
+        "sourceUrl": "https://www.insureshield.com/de/de/cargo-insurance.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/de/de/cargo-insurance",
+        "deployedAt": "2026-11-18T05:37:18.516Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.12,
+          "heightDelta": 17,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "de-de-claims-html",
+      "path": "/de/de/claims",
+      "title": "Schadenforderungen | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d3de7e2ccbefebd3287c8d2c7ab66537de6a213a1bcbef3302a988db73e988f3",
+        "currentStatePath": "stardust/current/pages/de-de-claims-html.json",
+        "sourceUrl": "https://www.insureshield.com/de/de/claims.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/de/de/claims",
+        "deployedAt": "2026-11-18T05:37:18.605Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.69,
+          "heightDelta": -16,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "de-de-home-html",
+      "path": "/de/de/home",
+      "title": "InsureShield® Transport- versicherung | InsureShield",
+      "templateId": "de-en-home-html",
+      "representative": "de-en-home-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a958c738a364521abef1c5517d08e4f01cb947f7e61eab7c05c461a2ffc17f33",
+        "currentStatePath": "stardust/current/pages/de-de-home-html.json",
+        "sourceUrl": "https://www.insureshield.com/de/de/home.html"
+      },
+      "blocks": [
+        "homepage-hero",
+        "pathways-cards",
+        "featured-list",
+        "featured-promo",
+        "story-card-grid",
+        "secondary-promo"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/de/de/home",
+        "deployedAt": "2026-11-18T01:32:31.661Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.2,
+          "heightDelta": 16,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "de-en-about-html",
+      "path": "/de/en/about",
+      "title": "Insuring Better Shipping Experiences | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:b043fe137d1a8371ede498c19bed95c0cf8349d028c679ad8a951402c3582d83",
+        "currentStatePath": "stardust/current/pages/de-en-about-html.json",
+        "sourceUrl": "https://www.insureshield.com/de/en/about.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/de/en/about",
+        "deployedAt": "2026-11-18T05:37:18.699Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.32,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "de-en-alerts-html",
+      "path": "/de/en/alerts",
+      "title": "Alerts | InsureShield",
+      "templateId": "us-en-customer-communications-html",
+      "representative": "us-en-customer-communications-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4854c9414a69ccb43f4b949f7674f64db7c0519af452b6091a7dd87bb99c7459",
+        "currentStatePath": "stardust/current/pages/de-en-alerts-html.json",
+        "sourceUrl": "https://www.insureshield.com/de/en/alerts.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/de/en/alerts",
+        "deployedAt": "2026-11-18T04:16:40.877Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T14-00-52-155Z-us-en-test-deletion-html.json",
+          "at": "2026-11-18T14:07:40.545Z"
+        }
+      }
+    },
+    {
+      "slug": "de-en-cargo-insurance-html",
+      "path": "/de/en/cargo-insurance",
+      "title": "Cargo Insurance | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6dc24282ecf08d6ab653c18071403339e99adc172562d18ef9d3b33fa1caf962",
+        "currentStatePath": "stardust/current/pages/de-en-cargo-insurance-html.json",
+        "sourceUrl": "https://www.insureshield.com/de/en/cargo-insurance.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/de/en/cargo-insurance",
+        "deployedAt": "2026-11-18T05:37:18.758Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.93,
+          "heightDelta": 17,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "de-en-claims-html",
+      "path": "/de/en/claims",
+      "title": "File a Claim | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9f4cbd99f73ffd85a548d2c7ad967b5297efd1aed5ed882753d016f692d46afd",
+        "currentStatePath": "stardust/current/pages/de-en-claims-html.json",
+        "sourceUrl": "https://www.insureshield.com/de/en/claims.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/de/en/claims",
+        "deployedAt": "2026-11-18T05:37:18.823Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.87,
+          "heightDelta": -40,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "de-en-home-html",
+      "path": "/de/en/home",
+      "title": "InsureShield® Shipping Insurance | InsureShield",
+      "templateId": "de-en-home-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/de/en/home.html",
+        "metaJson": "stardust/migrated/de/en/home._meta.json",
+        "sourceHash": "sha256:024cc8a55fa52fa3307249a56502be6576bb535078a656a6afa407b8b3a65882",
+        "sourceUrl": "https://www.insureshield.com/de/en/home.html"
+      },
+      "blocks": [
+        "homepage-hero",
+        "pathways-cards",
+        "featured-list",
+        "featured-promo",
+        "story-card-grid",
+        "secondary-promo"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/de/en/home",
+        "deployedAt": "2026-11-18T00:17:44.789Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.59,
+          "heightDelta": 17,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "de-en-partners-html",
+      "path": "/de/en/partners",
+      "title": "Learn About Our Partner Network | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:973877f894b7650101e8771f3ab45530958ffc74650ef980dd44c63e5b449431",
+        "currentStatePath": "stardust/current/pages/de-en-partners-html.json",
+        "sourceUrl": "https://www.insureshield.com/de/en/partners.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/de/en/partners",
+        "deployedAt": "2026-11-18T05:37:18.891Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.01,
+          "heightDelta": 10,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "de-en-resources-html",
+      "path": "/de/en/resources",
+      "title": "Tips & Insights For Your Business | InsureShield",
+      "templateId": "gb-en-resources-html",
+      "representative": "gb-en-resources-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d5c72836aaac0d65e3ca8640a3060ee82b4140d35ad75eb47e269cc3bca07bea",
+        "currentStatePath": "stardust/current/pages/de-en-resources-html.json",
+        "sourceUrl": "https://www.insureshield.com/de/en/resources.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "search",
+        "story-card-carousel",
+        "promo-banner"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/de/en/resources",
+        "deployedAt": "2026-11-18T02:23:39.370Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.24,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "gb-en-about-html",
+      "path": "/gb/en/about",
+      "title": "Insuring Better Shipping Experiences in the United Kingdom | InsureShield | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:92b0949ee0db6e74b3651babc3bf4e729f8350801abb906c4096bd733060d803",
+        "currentStatePath": "stardust/current/pages/gb-en-about-html.json",
+        "sourceUrl": "https://www.insureshield.com/gb/en/about.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/gb/en/about",
+        "deployedAt": "2026-11-18T05:37:18.962Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.65,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "gb-en-alerts-html",
+      "path": "/gb/en/alerts",
+      "title": "Alerts | InsureShield",
+      "templateId": "us-en-customer-communications-html",
+      "representative": "us-en-customer-communications-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:11b37c1b232d92704f731a1179a12810e3ffe090e30710b92cf825921bc319ac",
+        "currentStatePath": "stardust/current/pages/gb-en-alerts-html.json",
+        "sourceUrl": "https://www.insureshield.com/gb/en/alerts.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/gb/en/alerts",
+        "deployedAt": "2026-11-18T04:16:40.974Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T14-00-52-155Z-us-en-test-deletion-html.json",
+          "at": "2026-11-18T14:07:40.545Z"
+        }
+      }
+    },
+    {
+      "slug": "gb-en-cargo-insurance-html",
+      "path": "/gb/en/cargo-insurance",
+      "title": "Cargo Insurance Services | Freight Insurance | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:cdbcb8d7015e7332b8ab6607230ca922670674f837b0064d28cb611a7036ac5d",
+        "currentStatePath": "stardust/current/pages/gb-en-cargo-insurance-html.json",
+        "sourceUrl": "https://www.insureshield.com/gb/en/cargo-insurance.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/gb/en/cargo-insurance",
+        "deployedAt": "2026-11-18T05:37:19.041Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.36,
+          "heightDelta": -8,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "gb-en-claims-html",
+      "path": "/gb/en/claims",
+      "title": "File a Cargo Insurance Claim | Online Claims Portal | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a5b3cdc9a61957a7ee09eb49c0451fa58198d32ce6b32ceebab5394eb4370638",
+        "currentStatePath": "stardust/current/pages/gb-en-claims-html.json",
+        "sourceUrl": "https://www.insureshield.com/gb/en/claims.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/gb/en/claims",
+        "deployedAt": "2026-11-18T05:37:19.109Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.87,
+          "heightDelta": -40,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "gb-en-home-html",
+      "path": "/gb/en/home",
+      "title": "Business Shipping Insurance | Cargo Insurance Services | InsureShield",
+      "templateId": "de-en-home-html",
+      "representative": "de-en-home-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d9ce55bfe3fff21aca2f23c7ea3deea5ac391ddebce6c391c7100b776a0cd26b",
+        "currentStatePath": "stardust/current/pages/gb-en-home-html.json",
+        "sourceUrl": "https://www.insureshield.com/gb/en/home.html"
+      },
+      "blocks": [
+        "homepage-hero",
+        "pathways-cards",
+        "featured-list",
+        "featured-promo",
+        "story-card-grid",
+        "secondary-promo"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/gb/en/home",
+        "deployedAt": "2026-11-18T01:32:31.745Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.43,
+          "heightDelta": 13,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "gb-en-other-ups-sites-html",
+      "path": "/gb/en/other-ups-sites",
+      "title": "Other UPS Sites | InsureShield",
+      "templateId": "us-en-customer-communications-html",
+      "representative": "us-en-customer-communications-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0eaee437488eea5af28a4d9473e709c84f8c9921252372335c21b8d264106908",
+        "currentStatePath": "stardust/current/pages/gb-en-other-ups-sites-html.json",
+        "sourceUrl": "https://www.insureshield.com/gb/en/other-ups-sites.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/gb/en/other-ups-sites",
+        "deployedAt": "2026-11-18T04:16:41.075Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T14-00-52-155Z-us-en-test-deletion-html.json",
+          "at": "2026-11-18T14:07:40.545Z"
+        }
+      }
+    },
+    {
+      "slug": "gb-en-resources-html",
+      "path": "/gb/en/resources",
+      "title": "Insurance Resources: Tips For Your Business | InsureShield",
+      "templateId": "gb-en-resources-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/gb/en/resources.html",
+        "metaJson": "stardust/migrated/gb/en/resources._meta.json",
+        "sourceHash": "sha256:863bda46bc343d5905330d388e1fea3d7af1e1deb04f5e9a52110460477e1dfc",
+        "sourceUrl": "https://www.insureshield.com/gb/en/resources.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "search",
+        "story-card-carousel",
+        "promo-banner"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/gb/en/resources",
+        "deployedAt": "2026-11-18T01:55:53.687Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.97,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "UPS® Secure Commerce | InsureShield",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:524fd5ecaf49556a850d67dd3076ccbd73cf042205799492975723363d62fcb2",
+        "sourceUrl": "https://www.insureshield.com/"
+      },
+      "blocks": [
+        "homepage-hero",
+        "pathways-cards",
+        "stats",
+        "logo-strip"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/",
+        "deployedAt": "2026-11-18T01:21:35.228Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.33,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T14-00-52-155Z-us-en-test-deletion-html.json",
+          "at": "2026-11-18T14:07:40.545Z"
+        }
+      }
+    },
+    {
+      "slug": "it-en-about-html",
+      "path": "/it/en/about",
+      "title": "Insuring Better Shipping Experiences | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4ed3e7fe3c25ba4a331a6a9d351355f2fbd873bc8f28aeb85c4c052a05cefe09",
+        "currentStatePath": "stardust/current/pages/it-en-about-html.json",
+        "sourceUrl": "https://www.insureshield.com/it/en/about.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/it/en/about",
+        "deployedAt": "2026-11-18T05:37:19.181Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.38,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "it-en-alerts-html",
+      "path": "/it/en/alerts",
+      "title": "Alerts | InsureShield",
+      "templateId": "us-en-customer-communications-html",
+      "representative": "us-en-customer-communications-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:7d0f39901d4e18fe46fdc3efed35757645c4601d9ad49b6e8551126a90d54c07",
+        "currentStatePath": "stardust/current/pages/it-en-alerts-html.json",
+        "sourceUrl": "https://www.insureshield.com/it/en/alerts.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/it/en/alerts",
+        "deployedAt": "2026-11-18T04:16:41.159Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T14-00-52-155Z-us-en-test-deletion-html.json",
+          "at": "2026-11-18T14:07:40.545Z"
+        }
+      }
+    },
+    {
+      "slug": "it-en-cargo-insurance-html",
+      "path": "/it/en/cargo-insurance",
+      "title": "Cargo Insurance | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:5574fc6f5ac149a30a373b9e569e8bb0172ef63ff26bfc62d22f30ab736b18c3",
+        "currentStatePath": "stardust/current/pages/it-en-cargo-insurance-html.json",
+        "sourceUrl": "https://www.insureshield.com/it/en/cargo-insurance.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/it/en/cargo-insurance",
+        "deployedAt": "2026-11-18T05:37:19.257Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.89,
+          "heightDelta": 17,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "it-en-claims-html",
+      "path": "/it/en/claims",
+      "title": "File a Claim | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:abe0005380b385d6c3a5f2ae800016d35b622bf3967f1b68f6e4b9378a0b6424",
+        "currentStatePath": "stardust/current/pages/it-en-claims-html.json",
+        "sourceUrl": "https://www.insureshield.com/it/en/claims.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/it/en/claims",
+        "deployedAt": "2026-11-18T05:37:19.343Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.87,
+          "heightDelta": -40,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "it-en-home-html",
+      "path": "/it/en/home",
+      "title": "InsureShield® Shipping Insurance | InsureShield",
+      "templateId": "de-en-home-html",
+      "representative": "de-en-home-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d7b4fb4f929c489fd9175a689fcf48d04a2f5c14bc6494b89e2589b8a1beac61",
+        "currentStatePath": "stardust/current/pages/it-en-home-html.json",
+        "sourceUrl": "https://www.insureshield.com/it/en/home.html"
+      },
+      "blocks": [
+        "homepage-hero",
+        "pathways-cards",
+        "featured-list",
+        "featured-promo",
+        "story-card-grid",
+        "secondary-promo"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/it/en/home",
+        "deployedAt": "2026-11-18T01:32:31.849Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.26,
+          "heightDelta": 33,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "it-en-resources-html",
+      "path": "/it/en/resources",
+      "title": "Tips & Insights For Your Business | InsureShield",
+      "templateId": "gb-en-resources-html",
+      "representative": "gb-en-resources-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:dbc8f24baab9d8ed2b55b41dcc4a49d55b73c5001a739512f695883956cb6d43",
+        "currentStatePath": "stardust/current/pages/it-en-resources-html.json",
+        "sourceUrl": "https://www.insureshield.com/it/en/resources.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "search",
+        "story-card-carousel",
+        "promo-banner"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/it/en/resources",
+        "deployedAt": "2026-11-18T02:23:39.653Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.24,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "it-it-about-html",
+      "path": "/it/it/about",
+      "title": "Scopri di più sulla nostra storia | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:63c884c2eac8f383887a860fb0e72b33ad7f7e589246edbb06d7b9b1c410ad52",
+        "currentStatePath": "stardust/current/pages/it-it-about-html.json",
+        "sourceUrl": "https://www.insureshield.com/it/it/about.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/it/it/about",
+        "deployedAt": "2026-11-18T05:37:19.405Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.39,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "it-it-alerts-html",
+      "path": "/it/it/alerts",
+      "title": "Alerts | InsureShield",
+      "templateId": "us-en-customer-communications-html",
+      "representative": "us-en-customer-communications-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a0d27ff6cc952e4c546970561de8f2aa400f37d7b9585daceb3cc029c0eb5726",
+        "currentStatePath": "stardust/current/pages/it-it-alerts-html.json",
+        "sourceUrl": "https://www.insureshield.com/it/it/alerts.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/it/it/alerts",
+        "deployedAt": "2026-11-18T04:16:41.235Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T14-00-52-155Z-us-en-test-deletion-html.json",
+          "at": "2026-11-18T14:07:40.545Z"
+        }
+      }
+    },
+    {
+      "slug": "it-it-cargo-insurance-html",
+      "path": "/it/it/cargo-insurance",
+      "title": "Assicurazione del carico | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:902e024ed39690a1be0c35c423d607fe5491646addc2973b35824441cf9ba7b2",
+        "currentStatePath": "stardust/current/pages/it-it-cargo-insurance-html.json",
+        "sourceUrl": "https://www.insureshield.com/it/it/cargo-insurance.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/it/it/cargo-insurance",
+        "deployedAt": "2026-11-18T05:37:19.473Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.92,
+          "heightDelta": 17,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "it-it-claims-html",
+      "path": "/it/it/claims",
+      "title": "Reclami | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e95fa295dc1a13ae95195e4097e32186aa971df32d370bfe00bde8f985e49c84",
+        "currentStatePath": "stardust/current/pages/it-it-claims-html.json",
+        "sourceUrl": "https://www.insureshield.com/it/it/claims.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/it/it/claims",
+        "deployedAt": "2026-11-18T05:37:19.537Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.71,
+          "heightDelta": -64,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "it-it-home-html",
+      "path": "/it/it/home",
+      "title": "Assicurazione sulla spedizione InsureShield® | InsureShield",
+      "templateId": "de-en-home-html",
+      "representative": "de-en-home-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:625f44a929d8cca47c433a5f6a8dc7a26386fe5438059cef38527af4b58bb288",
+        "currentStatePath": "stardust/current/pages/it-it-home-html.json",
+        "sourceUrl": "https://www.insureshield.com/it/it/home.html"
+      },
+      "blocks": [
+        "homepage-hero",
+        "pathways-cards",
+        "featured-list",
+        "featured-promo",
+        "story-card-grid",
+        "secondary-promo"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/it/it/home",
+        "deployedAt": "2026-11-18T01:32:31.947Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.86,
+          "heightDelta": 32,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "it-it-resources-html",
+      "path": "/it/it/resources",
+      "title": "Suggerimenti e approfondimenti per il tuo business | InsureShield",
+      "templateId": "gb-en-resources-html",
+      "representative": "gb-en-resources-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:2c727e8a5a6425d3b612d1b33dadab9a9a95f96cd893dd2e040df491a67f09f3",
+        "currentStatePath": "stardust/current/pages/it-it-resources-html.json",
+        "sourceUrl": "https://www.insureshield.com/it/it/resources.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "search",
+        "story-card-carousel",
+        "promo-banner"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/it/it/resources",
+        "deployedAt": "2026-11-18T02:23:39.913Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.8,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-about-announcements-html",
+      "path": "/us/en/about/announcements",
+      "title": "Announcements | InsureShield",
+      "templateId": "gb-en-resources-html",
+      "representative": "gb-en-resources-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:453fc8c5c9368b6d0be005272fa66199cccc664105d012a6361bed5361de6987",
+        "currentStatePath": "stardust/current/pages/us-en-about-announcements-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/about/announcements.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "search",
+        "story-card-carousel",
+        "promo-banner"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/about/announcements",
+        "deployedAt": "2026-11-18T02:23:40.215Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.3,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-about-contact-us-html",
+      "path": "/us/en/about/contact-us",
+      "title": "Contact Us For Help and Services | InsureShield",
+      "templateId": "us-en-about-contact-us-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/about/contact-us.html",
+        "metaJson": "stardust/migrated/us/en/about/contact-us._meta.json",
+        "sourceHash": "sha256:d722aef234c7e8ed90bbdeff5a0094781a7fdb2f41bb19ca12f8d10fc87c2d5e",
+        "sourceUrl": "https://www.insureshield.com/us/en/about/contact-us.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "form",
+        "form-toast",
+        "pathways-cards"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/about/contact-us",
+        "deployedAt": "2026-11-18T03:24:43.365Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.28,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-about-html",
+      "path": "/us/en/about",
+      "title": "Insuring Better Shipping Experiences | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:66f5e71995ec0b2deda3893d26be54e7efe7ff2ed9c3aa2985e07944857ca456",
+        "currentStatePath": "stardust/current/pages/us-en-about-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/about.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/about",
+        "deployedAt": "2026-11-18T05:37:19.604Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.28,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-about-our-locations-html",
+      "path": "/us/en/about/our-locations",
+      "title": "Product Availability | InsureShield",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "representative": "us-en-legal-terms-and-conditions-upscia-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:de3b72d64c5ceb5f970a4115939f8d1752dc9eb21f5933b00cd6aec47adf878f",
+        "currentStatePath": "stardust/current/pages/us-en-about-our-locations-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/about/our-locations.html"
+      },
+      "blocks": [
+        "transition-hero"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/about/our-locations",
+        "deployedAt": "2026-11-18T03:00:41.915Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.08,
+          "heightDelta": 50,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-claims-channel-partners-claims-html",
+      "path": "/us/en/claims/channel-partners-claims",
+      "title": "InsureShield® Partner Claims Portal | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9f47e57e1759eae5e96ffe411dc87c2c2baa732eca68d3ccbd18bee54e668cb6",
+        "currentStatePath": "stardust/current/pages/us-en-claims-channel-partners-claims-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/claims/channel-partners-claims.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/claims/channel-partners-claims",
+        "deployedAt": "2026-11-18T05:37:19.671Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.05,
+          "heightDelta": 12,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-claims-html",
+      "path": "/us/en/claims",
+      "title": "Effortless Claims Process | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6199ba9c44c49f5ffc5828e0333018dda798901177d4a0820f529439f7ac0ce8",
+        "currentStatePath": "stardust/current/pages/us-en-claims-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/claims.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/claims",
+        "deployedAt": "2026-11-18T05:37:19.740Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.79,
+          "heightDelta": 20,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-claims-insureshield-ups-claims-support-html",
+      "path": "/us/en/claims/insureshield-ups-claims-support",
+      "title": "Claims Made Easy | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9aa67cde2fbb047a7e3a1c5945e3a41e211c9bffcd2e3a8ef413eb8652dbe651",
+        "currentStatePath": "stardust/current/pages/us-en-claims-insureshield-ups-claims-support-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/claims/insureshield-ups-claims-support.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/claims/insureshield-ups-claims-support",
+        "deployedAt": "2026-11-18T05:37:19.839Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.05,
+          "heightDelta": -4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-customer-communications-confirm-contact-information-html",
+      "path": "/us/en/customer-communications/confirm-contact-information",
+      "title": "Update Contact Information | InsureShield",
+      "templateId": "us-en-about-contact-us-html",
+      "representative": "us-en-about-contact-us-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a915c778cb2582e62503b7f6b4dd3c1b371cf2ebce45c855fa1cadefc777f2bc",
+        "currentStatePath": "stardust/current/pages/us-en-customer-communications-confirm-contact-information-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/customer-communications/confirm-contact-information.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "form",
+        "form-toast",
+        "pathways-cards"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/confirm-contact-information",
+        "deployedAt": "2026-11-18T03:56:14.923Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.1,
+          "heightDelta": 20,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-customer-communications-enhanced-declared-value-html",
+      "path": "/us/en/customer-communications/enhanced-declared-value",
+      "title": "Enhanced Declared Value | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:96ef849519aaa24cef50072d21b947190442a3fe03e5c3a7ec6c87f3d411dab1",
+        "currentStatePath": "stardust/current/pages/us-en-customer-communications-enhanced-declared-value-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/customer-communications/enhanced-declared-value.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/enhanced-declared-value",
+        "deployedAt": "2026-11-18T05:37:19.907Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.42,
+          "heightDelta": 40,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-customer-communications-html",
+      "path": "/us/en/customer-communications",
+      "title": "Customers Communications | InsureShield",
+      "templateId": "us-en-customer-communications-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/customer-communications.html",
+        "metaJson": "stardust/migrated/us/en/customer-communications._meta.json",
+        "sourceHash": "sha256:dc5fa08f0490f40e6914483816cbcd47157c8ad10623b735b6025614de4ffd0b",
+        "sourceUrl": "https://www.insureshield.com/us/en/customer-communications.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications",
+        "deployedAt": "2026-11-18T03:18:41.967Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.15,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T14-07-32-780Z-us-en-customer-communications-html.json",
+          "at": "2026-11-18T14:07:40.671Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-customer-communications-updated-contact-information-html",
+      "path": "/us/en/customer-communications/updated-contact-information",
+      "title": "Update Contact Information | InsureShield",
+      "templateId": "us-en-about-contact-us-html",
+      "representative": "us-en-about-contact-us-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:35cff45a9f562a4ce40c138da987c6294de8841ac45d02e3f14335c7036da1d0",
+        "currentStatePath": "stardust/current/pages/us-en-customer-communications-updated-contact-information-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/customer-communications/updated-contact-information.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "form",
+        "form-toast",
+        "pathways-cards"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/updated-contact-information",
+        "deployedAt": "2026-11-18T03:56:15.013Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.71,
+          "heightDelta": 7,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-global-html",
+      "path": "/us/en/global",
+      "title": "Global | InsureShield",
+      "templateId": "us-en-global-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/global.html",
+        "metaJson": "stardust/migrated/us/en/global._meta.json",
+        "sourceHash": "sha256:fab93173d0c6b6978d5bfd0d4d6b9eb747fe6236fc6c08ff1fe5e86ddd844b1d",
+        "sourceUrl": "https://www.insureshield.com/us/en/global.html"
+      },
+      "blocks": [
+        "region-selector"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/global",
+        "deployedAt": "2026-11-18T03:28:01.983Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.32,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-legal-cookie-settings-html",
+      "path": "/us/en/legal/cookie-settings",
+      "title": "Cookie Settings | InsureShield",
+      "templateId": "us-en-customer-communications-html",
+      "representative": "us-en-customer-communications-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e1f9354559ad93b0ec4ce1a638fca23ae028c5253434cde4dda92c27dd01a9a7",
+        "currentStatePath": "stardust/current/pages/us-en-legal-cookie-settings-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/legal/cookie-settings.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/legal/cookie-settings",
+        "deployedAt": "2026-11-18T04:16:41.305Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.15,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T14-07-32-780Z-us-en-customer-communications-html.json",
+          "at": "2026-11-18T14:07:40.671Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-legal-product-disclosure-html",
+      "path": "/us/en/legal/product-disclosure",
+      "title": "Product Disclosure | InsureShield",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "representative": "us-en-legal-terms-and-conditions-upscia-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:00dd736a72835bfa4fea374961e3d9165add8cac2b50f7b084c6661eed00f72b",
+        "currentStatePath": "stardust/current/pages/us-en-legal-product-disclosure-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/legal/product-disclosure.html"
+      },
+      "blocks": [
+        "transition-hero"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/legal/product-disclosure",
+        "deployedAt": "2026-11-18T03:00:41.982Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.07,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-legal-technology-agreement-html",
+      "path": "/us/en/legal/technology-agreement",
+      "title": "Technology Agreement | InsureShield",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "representative": "us-en-legal-terms-and-conditions-upscia-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0853a1dbbca26121ac9ee789d7947baeb5b6c54cae8bf3ae519736de564db1a6",
+        "currentStatePath": "stardust/current/pages/us-en-legal-technology-agreement-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/legal/technology-agreement.html"
+      },
+      "blocks": [
+        "transition-hero"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/legal/technology-agreement",
+        "deployedAt": "2026-11-18T03:00:42.049Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.16,
+          "heightDelta": -24,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-gallagher-affinity-html",
+      "path": "/us/en/legal/terms-and-conditions-gallagher-affinity",
+      "title": "Terms and Conditions of Service of Gallagher Affinity | InsureShield",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "representative": "us-en-legal-terms-and-conditions-upscia-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9938bd34c27361b6400d6d91ca5ff53ceda08d554807b59e8b63d0978f7315b6",
+        "currentStatePath": "stardust/current/pages/us-en-legal-terms-and-conditions-gallagher-affinity-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/legal/terms-and-conditions-gallagher-affinity.html"
+      },
+      "blocks": [
+        "transition-hero"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/legal/terms-and-conditions-gallagher-affinity",
+        "deployedAt": "2026-11-18T03:00:42.114Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.36,
+          "heightDelta": 122,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-html",
+      "path": "/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage",
+      "title": "Shopify Terms & Conditions | InsureShield",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "representative": "us-en-legal-terms-and-conditions-upscia-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:798f6a111a8e410dfb83b0fa2480b1b1c96bdc27e6e4bee1a1548cacd02dc736",
+        "currentStatePath": "stardust/current/pages/us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage.html"
+      },
+      "blocks": [
+        "transition-hero"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage",
+        "deployedAt": "2026-11-18T03:00:42.180Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.74,
+          "heightDelta": 50,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-users-html",
+      "path": "/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage-users",
+      "title": "Shopify Terms & Conditions | InsureShield",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "representative": "us-en-legal-terms-and-conditions-upscia-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d7b3ebc5683f3ab11bd84ce91e78e06e673626a704b660a614de55fa1116d08e",
+        "currentStatePath": "stardust/current/pages/us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-users-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage-users.html"
+      },
+      "blocks": [
+        "transition-hero"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage-users",
+        "deployedAt": "2026-11-18T03:00:42.244Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.79,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-upscia-html",
+      "path": "/us/en/legal/terms-and-conditions-upscia",
+      "title": "UPSCIA Terms &amp; Conditions | InsureShield",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/legal/terms-and-conditions-upscia.html",
+        "metaJson": "stardust/migrated/us/en/legal/terms-and-conditions-upscia._meta.json",
+        "sourceHash": "sha256:e6616c6e8df5533ac8a7d8c5ec4c2f368d6d3d0a3589a8057f3f85eac89e7130",
+        "sourceUrl": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html"
+      },
+      "blocks": [
+        "transition-hero"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/legal/terms-and-conditions-upscia",
+        "deployedAt": "2026-11-18T01:56:38.342Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.1,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-page-deletion-html",
+      "path": "/us/en/page-deletion",
+      "title": "Page Test | InsureShield",
+      "templateId": "us-en-customer-communications-html",
+      "representative": "us-en-customer-communications-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:45ce001d86d9bd3952e3806227dfda539a3d20ebbc7da9a413f141d56d084d2c",
+        "currentStatePath": "stardust/current/pages/us-en-page-deletion-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/page-deletion.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/page-deletion",
+        "deployedAt": "2026-11-18T04:16:41.387Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.15,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T14-07-32-780Z-us-en-customer-communications-html.json",
+          "at": "2026-11-18T14:07:40.671Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-partners-3pl-partners-html",
+      "path": "/us/en/partners/3pl-partners",
+      "title": "Enhanced Declared Value | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3084524a5c4a72130aff76d651e2cbf3d6aa9b19bb5b0aacf6d15a3ebbe6013f",
+        "currentStatePath": "stardust/current/pages/us-en-partners-3pl-partners-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/partners/3pl-partners.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/partners/3pl-partners",
+        "deployedAt": "2026-11-18T05:37:19.975Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.96,
+          "heightDelta": -3,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-27-02-588Z-us-en-partners-3pl-partners-html.json",
+          "at": "2026-11-18T13:34:59.779Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-partners-become-a-partner-html",
+      "path": "/us/en/partners/become-a-partner",
+      "title": "Become a Partner | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9fdc412af91abd1f9d3026cad7d7e67d56637ebe37635c76c363163dc878bee0",
+        "currentStatePath": "stardust/current/pages/us-en-partners-become-a-partner-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/partners/become-a-partner.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/partners/become-a-partner",
+        "deployedAt": "2026-11-18T05:37:20.056Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.03,
+          "heightDelta": 19,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-partners-connect-with-a-partner-html",
+      "path": "/us/en/partners/connect-with-a-partner",
+      "title": "Connect with a Partner | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4600810ac1347ee82d9027084e18e30ca19e22a375aabdf34097216fbc73ce0a",
+        "currentStatePath": "stardust/current/pages/us-en-partners-connect-with-a-partner-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/partners/connect-with-a-partner.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/partners/connect-with-a-partner",
+        "deployedAt": "2026-11-18T05:37:20.139Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.96,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-partners-html",
+      "path": "/us/en/partners",
+      "title": "Learn About Our Partner Network | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e00034a62897cf0c65e0c3a3f49fac6aacd472bcfb762e93c99884688f414f15",
+        "currentStatePath": "stardust/current/pages/us-en-partners-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/partners.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/partners",
+        "deployedAt": "2026-11-18T05:37:20.216Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.38,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-promotional-delivery-defense-mockup-html",
+      "path": "/us/en/promotional/delivery-defense-mockup",
+      "title": "DeliveryDefense | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e55fa36997e42fdbc3ea2a3de908344b9368b77696bd424f0a1c3fa4232cacde",
+        "currentStatePath": "stardust/current/pages/us-en-promotional-delivery-defense-mockup-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/promotional/delivery-defense-mockup.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/promotional/delivery-defense-mockup",
+        "deployedAt": "2026-11-18T05:37:20.287Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.87,
+          "heightDelta": 13,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-promotional-insureshield-benefits-html",
+      "path": "/us/en/promotional/insureshield-benefits",
+      "title": "InsureShield Benefits | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d2f3d672d3b2506cb46a354118f4d22d1ba404d31988b8b66dbaf0ae88ab037e",
+        "currentStatePath": "stardust/current/pages/us-en-promotional-insureshield-benefits-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/promotional/insureshield-benefits.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/promotional/insureshield-benefits",
+        "deployedAt": "2026-11-18T05:37:20.360Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.4,
+          "heightDelta": 128,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-promotional-prod-form-test-html",
+      "path": "/us/en/promotional/prod-form-test",
+      "title": "Prod Form Test | InsureShield",
+      "templateId": "us-en-about-contact-us-html",
+      "representative": "us-en-about-contact-us-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9ac1a9d116a59d6ba33ac9c6beaa7a1f3b357e66626f46e8677e044e8e799216",
+        "currentStatePath": "stardust/current/pages/us-en-promotional-prod-form-test-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/promotional/prod-form-test.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "form",
+        "form-toast",
+        "pathways-cards"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/promotional/prod-form-test",
+        "deployedAt": "2026-11-18T03:56:15.097Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.01,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T14-00-52-155Z-us-en-test-deletion-html.json",
+          "at": "2026-11-18T14:07:40.545Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-promotional-webinars-html",
+      "path": "/us/en/promotional/webinars",
+      "title": "Webinars | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:73f4704395467592013c2b0c2188e868380331bb3686aa0cd2c8e0dc2f706444",
+        "currentStatePath": "stardust/current/pages/us-en-promotional-webinars-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/promotional/webinars.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/promotional/webinars",
+        "deployedAt": "2026-11-18T05:37:20.425Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.22,
+          "heightDelta": -16,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-resources-customer-stories-html",
+      "path": "/us/en/resources/customer-stories",
+      "title": "Customer Success Stories | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ade3879979fc257dee3443eb1f49c674ae9e172ec8e7386d7cdcdb8319107746",
+        "currentStatePath": "stardust/current/pages/us-en-resources-customer-stories-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/resources/customer-stories.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/resources/customer-stories",
+        "deployedAt": "2026-11-18T05:37:20.493Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.16,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-resources-help-and-support-html",
+      "path": "/us/en/resources/help-and-support",
+      "title": "Help & Support for InsureShield Shipping Insurance | InsureShield",
+      "templateId": "us-en-about-contact-us-html",
+      "representative": "us-en-about-contact-us-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c32b85b43b13482b44ebdc6168e4ab43edbead303dd85f80ecb699e6889a3411",
+        "currentStatePath": "stardust/current/pages/us-en-resources-help-and-support-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/resources/help-and-support.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "form",
+        "form-toast",
+        "pathways-cards"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/resources/help-and-support",
+        "deployedAt": "2026-11-18T03:56:15.171Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.32,
+          "heightDelta": -40,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 13,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-resources-insights-html",
+      "path": "/us/en/resources/insights",
+      "title": "Insights to Help Your Business | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:25894e97049bcf8f56bb9e9e7f869a9f476f0c0a0bf97c733cb8ef38a6ba8c13",
+        "currentStatePath": "stardust/current/pages/us-en-resources-insights-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/resources/insights.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/resources/insights",
+        "deployedAt": "2026-11-18T05:37:20.564Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.42,
+          "heightDelta": 25,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-30-41-702Z-us-en-resources-insights-html.json",
+          "at": "2026-11-18T13:35:00.008Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-resources-the-logistics-lowdown-html",
+      "path": "/us/en/resources/the-logistics-lowdown",
+      "title": "The Logistics Lowdown | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:eca58243c93993644357d9d49ad6da6a3b53aefe8bda4a81aeae5bb7b4f65f6e",
+        "currentStatePath": "stardust/current/pages/us-en-resources-the-logistics-lowdown-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/resources/the-logistics-lowdown.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/resources/the-logistics-lowdown",
+        "deployedAt": "2026-11-18T05:37:20.629Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.41,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 4,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-30-41-702Z-us-en-resources-insights-html.json",
+          "at": "2026-11-18T13:35:00.008Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-resources-webinars-html",
+      "path": "/us/en/resources/webinars",
+      "title": "Webinars | InsureShield",
+      "templateId": "us-en-customer-communications-html",
+      "representative": "us-en-customer-communications-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:684e604ac82cf420f7f8bb64fa1c14b5f87bfca5b26caae74a7ac23a35f451e1",
+        "currentStatePath": "stardust/current/pages/us-en-resources-webinars-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/resources/webinars.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/resources/webinars",
+        "deployedAt": "2026-11-18T04:16:41.465Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.15,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T14-07-32-780Z-us-en-customer-communications-html.json",
+          "at": "2026-11-18T14:07:40.671Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-resources-whitepapers-and-guides-html",
+      "path": "/us/en/resources/whitepapers-and-guides",
+      "title": "Whitepapers & Guides | InsureShield",
+      "templateId": "gb-en-resources-html",
+      "representative": "gb-en-resources-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:81eb181d5332cb5ef592856ed2337d546dbbfab4ff0d7a13c5083770edadae85",
+        "currentStatePath": "stardust/current/pages/us-en-resources-whitepapers-and-guides-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/resources/whitepapers-and-guides.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "search",
+        "story-card-carousel",
+        "promo-banner"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/resources/whitepapers-and-guides",
+        "deployedAt": "2026-11-18T02:23:40.501Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.26,
+          "heightDelta": 7,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-risk-mitigation-risk-intelligence-smb-html",
+      "path": "/us/en/solutions/commerceshield",
+      "title": "CommerceShield | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:56376ea788017b2c3c4792b8884a70f7b832023b5579b77d420a4b7f9f5adc9b",
+        "currentStatePath": "stardust/current/pages/us-en-risk-mitigation-risk-intelligence-smb-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/risk-mitigation/risk-intelligence-smb.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/solutions/commerceshield",
+        "deployedAt": "2026-11-18T05:37:20.692Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.49,
+          "heightDelta": -4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/replica/cs-only-1440.json",
+          "at": "2026-11-18T13:35:13.646Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-risk-mitigation-risk-intelligence-smb2-html",
+      "path": "/us/en/risk-mitigation/risk-intelligence-smb2",
+      "title": "Risk Intelligence for SMB",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6152ad4b4a3dbf9ab88b283ca81a0c89a497d903cdc344a91b885ec8fac81e3f",
+        "currentStatePath": "stardust/current/pages/us-en-risk-mitigation-risk-intelligence-smb2-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/risk-mitigation/risk-intelligence-smb2.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/risk-mitigation/risk-intelligence-smb2",
+        "deployedAt": "2026-11-18T05:37:20.763Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.21,
+          "heightDelta": -3,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-securecommerce-html",
+      "path": "/us/en/securecommerce",
+      "title": "UPS® Secure Commerce | InsureShield",
+      "templateId": "index",
+      "representative": "index",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e103ae637c7b5b8295c839789f8fe7cb7fb664788e0f445d0e7f83669221e231",
+        "currentStatePath": "stardust/current/pages/us-en-securecommerce-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/securecommerce.html"
+      },
+      "blocks": [
+        "homepage-hero",
+        "pathways-cards",
+        "stats",
+        "logo-strip"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/securecommerce",
+        "deployedAt": "2026-11-18T01:27:22.872Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.37,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T14-00-52-155Z-us-en-test-deletion-html.json",
+          "at": "2026-11-18T14:07:40.545Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-shipping-insurance-b2b-html",
+      "path": "/us/en/shipping-insurance/b2b",
+      "title": "B2B | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/shipping-insurance/b2b.html",
+        "metaJson": "stardust/migrated/us/en/shipping-insurance/b2b._meta.json",
+        "sourceHash": "sha256:952c0d145ab9e5f9fccff1fde94622d4748615e08169d350999dbe62753ce119",
+        "sourceUrl": "https://www.insureshield.com/us/en/shipping-insurance/b2b.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/b2b",
+        "deployedAt": "2026-11-17T23:58:51.603Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.22,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-shipping-insurance-checkout-protection-html",
+      "path": "/us/en/shipping-insurance/checkout-protection",
+      "title": "Checkout Protection by Insureshield | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4bbc4c7df2ee47e06b0874fb8583048a2b7db4a4b62a90e1e324a9b8e068ff76",
+        "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-checkout-protection-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/shipping-insurance/checkout-protection.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/checkout-protection",
+        "deployedAt": "2026-11-18T05:37:20.828Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.16,
+          "heightDelta": 74,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+      "path": "/us/en/shipping-insurance/consumer-electronics-and-technology",
+      "title": "Consumer Electronics and Technology | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9842e8e101fd274e2f2de13de55a4e91a9de31ea9fdec17ab1a8fbf8b4ebb1a3",
+        "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-consumer-electronics-and-technology-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/shipping-insurance/consumer-electronics-and-technology.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/consumer-electronics-and-technology",
+        "deployedAt": "2026-11-18T05:37:20.890Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.96,
+          "heightDelta": 18,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-shipping-insurance-get-a-quote-html",
+      "path": "/us/en/shipping-insurance/get-a-quote",
+      "title": "Request a Quote with InsureShield Shipping Insurance | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c8f9bd0b4ba59b0b432f8684730e952afcf6af1d8d387cddc9a3dbee5346a469",
+        "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-get-a-quote-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/shipping-insurance/get-a-quote.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/get-a-quote",
+        "deployedAt": "2026-11-18T05:37:20.960Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.81,
+          "heightDelta": -8,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-shipping-insurance-html",
+      "path": "/us/en/shipping-insurance",
+      "title": "Shipping Insurance for Businesses | InsureShield®",
+      "templateId": "us-en-shipping-insurance-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/shipping-insurance.html",
+        "metaJson": "stardust/migrated/us/en/shipping-insurance._meta.json",
+        "sourceHash": "sha256:093a3a2dfdf4c003358795d6294f89495c0fb7b561bc9e6c01fd34243b094c4b",
+        "sourceUrl": "https://www.insureshield.com/us/en/shipping-insurance.html"
+      },
+      "blocks": [
+        "sh-hero",
+        "sh-compare",
+        "sh-tiles",
+        "sh-benefits",
+        "sh-band",
+        "sh-faq"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance",
+        "deployedAt": "2026-11-18T00:05:43.349Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.33,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 5,
+            "missingButtons": 9,
+            "hiddenButtons": 0,
+            "findings": 22,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-html",
+      "path": "/us/en/shipping-insurance/multi-carrier-shipments",
+      "title": "Multi-Carrier Coverage Solutions | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a9bd14b78cbfb4c20031397ff2c948154d09cf842f0d7bf2d89cf66b713fd2b0",
+        "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-multi-carrier-shipments-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments",
+        "deployedAt": "2026-11-18T05:37:21.029Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.82,
+          "heightDelta": 40,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+      "path": "/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify",
+      "title": "InsureShield App for Shopify | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:07c4be2261bac53f3ec8408f911a8f70e98e42c23b849b926751cff8cd96af7c",
+        "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify",
+        "deployedAt": "2026-11-18T05:37:21.091Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.9,
+          "heightDelta": -40,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+      "path": "/us/en/shipping-insurance/multi-carrier-shipments/insureshield-complete",
+      "title": "InsureShield Complete | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:1b970b89d6b4d985105ac787fe9eafd8a0833b6b7c681720d12b023bd42b5db5",
+        "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments/insureShield-complete.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-complete",
+        "deployedAt": "2026-11-18T05:37:21.147Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.26,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+      "path": "/us/en/shipping-insurance/multi-carrier-shipments/insureshield-connect",
+      "title": "InsureShield Connect | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e96fa46b14d2adea80c82a365b0e43117437c4473404e3ec546027b116aaa45b",
+        "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments/insureShield-connect.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-connect",
+        "deployedAt": "2026-11-18T05:37:21.217Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.94,
+          "heightDelta": 16,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-shipping-insurance-retail-html",
+      "path": "/us/en/shipping-insurance/retail",
+      "title": "Retail | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:426de477f43b6c0bc236960af51fef21c6779fb5fdcca0afefc44bbaafbcf3ed",
+        "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-retail-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/shipping-insurance/retail.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/retail",
+        "deployedAt": "2026-11-18T05:37:21.287Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.09,
+          "heightDelta": 5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-shipping-insurance-select-my-coverage-html",
+      "path": "/us/en/shipping-insurance/select-my-coverage",
+      "title": "Best shipping coverage options for your needs | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:de3c00245f4479808641ac60cb41b90e700770b9f6a3a2e1559ad9e23a880b30",
+        "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-select-my-coverage-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/shipping-insurance/select-my-coverage.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/select-my-coverage",
+        "deployedAt": "2026-11-18T05:37:21.356Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.2,
+          "heightDelta": -18,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-shipping-insurance-special-commodities-html",
+      "path": "/us/en/shipping-insurance/special-commodities",
+      "title": "Special Commodities | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:68e6d3d74badc70a4a87254ed5da1a8fdc185f0d4b557694f02c71b26ac14fb3",
+        "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-special-commodities-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/shipping-insurance/special-commodities.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/special-commodities",
+        "deployedAt": "2026-11-18T05:37:21.418Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.76,
+          "heightDelta": 14,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-shipping-insurance-ups-shipments-html",
+      "path": "/us/en/shipping-insurance/ups-shipments",
+      "title": "Insure Your UPS Shipments | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c9ce837417ffc05f6ee8c809acc101b29aed10e9fc64ec9218c15989cb95fa65",
+        "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-ups-shipments-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/shipping-insurance/ups-shipments.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/ups-shipments",
+        "deployedAt": "2026-11-18T05:37:21.484Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.24,
+          "heightDelta": 48,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-solutions-commerceshield-html",
+      "path": "/us/en/solutions/commerceshield",
+      "title": "CommerceShield | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c9fe867447ea76160653c6786a5557c75e3c05757101041d59dcd35d66c90226",
+        "currentStatePath": "stardust/current/pages/us-en-solutions-commerceshield-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/solutions/commerceshield.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/solutions/commerceshield",
+        "deployedAt": "2026-11-18T05:37:22.030Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.49,
+          "heightDelta": -4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/replica/cs-only-1440.json",
+          "at": "2026-11-18T13:35:19.267Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-solutions-delivery-defense-html",
+      "path": "/us/en/solutions/delivery-defense",
+      "title": "DeliveryDefense | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:70521417a54f434c9a214f227e7e17748360568b83432bf88f8afb23c7e72465",
+        "currentStatePath": "stardust/current/pages/us-en-solutions-delivery-defense-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/solutions/delivery-defense.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense",
+        "deployedAt": "2026-11-18T05:37:21.610Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.34,
+          "heightDelta": 24,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-solutions-delivery-defense-learning-center-html",
+      "path": "/us/en/solutions/delivery-defense/learning-center",
+      "title": "Learning Center | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6359fce692591a3d2f7f3e0860e478117ea8e3c8da91a900f36bba0fd985c81f",
+        "currentStatePath": "stardust/current/pages/us-en-solutions-delivery-defense-learning-center-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/solutions/delivery-defense/learning-center.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense/learning-center",
+        "deployedAt": "2026-11-18T05:37:21.693Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.84,
+          "heightDelta": 12,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 3,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-delivery-html",
+      "path": "/us/en/solutions/delivery-orchestration/delivery",
+      "title": "Delivery | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:bb505abbdcf856b440df7e75def70ef7c75ce7312ed5b940699e2c8a7a71c161",
+        "currentStatePath": "stardust/current/pages/us-en-solutions-delivery-orchestration-delivery-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/solutions/delivery-orchestration/delivery.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/delivery",
+        "deployedAt": "2026-11-18T05:37:21.770Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.01,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-html",
+      "path": "/us/en/solutions/delivery-orchestration",
+      "title": "Delivery Orchestration | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:703b42aac0c1eaf02d3ee17026ee5f1f6a168a937aedc00f99a69874359febfd",
+        "currentStatePath": "stardust/current/pages/us-en-solutions-delivery-orchestration-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/solutions/delivery-orchestration.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration",
+        "deployedAt": "2026-11-18T05:37:21.840Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.65,
+          "heightDelta": 55,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-pickup-html",
+      "path": "/us/en/solutions/delivery-orchestration/pickup",
+      "title": "Pickup | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:19bc971ff0efdd74b494a28a34d8e69c041097ef27e33494b5df9edeb39f2cbf",
+        "currentStatePath": "stardust/current/pages/us-en-solutions-delivery-orchestration-pickup-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/solutions/delivery-orchestration/pickup.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/pickup",
+        "deployedAt": "2026-11-18T05:37:21.906Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.91,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-returns-html",
+      "path": "/us/en/solutions/delivery-orchestration/returns",
+      "title": "Returns | InsureShield",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "representative": "us-en-shipping-insurance-b2b-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a250f8d01f005471e8c1cd7bcd50d4ffd6f7fab21ab73061d6c44434dda15f60",
+        "currentStatePath": "stardust/current/pages/us-en-solutions-delivery-orchestration-returns-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/solutions/delivery-orchestration/returns.html"
+      },
+      "blocks": [
+        "marketing-hero",
+        "secondary-promo",
+        "story-card-carousel",
+        "loss-calculator",
+        "form",
+        "promo-banner",
+        "form-toast"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/returns",
+        "deployedAt": "2026-11-18T05:37:21.965Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.06,
+          "heightDelta": 21,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T13-11-40-120Z-us-en-about-html.json",
+          "at": "2026-11-18T13:11:53.225Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-solutions-insureshield-shipping-insurance-html",
+      "path": "/us/en/solutions/insureshield-shipping-insurance",
+      "title": "Shipping Insurance for Businesses | InsureShield®",
+      "templateId": "us-en-shipping-insurance-html",
+      "representative": "us-en-shipping-insurance-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:08ba9eff0c644583db18a3713c8972229969ad2d497e8a205b92027bda2678ed",
+        "currentStatePath": "stardust/current/pages/us-en-solutions-insureshield-shipping-insurance-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/solutions/insureshield-shipping-insurance.html"
+      },
+      "blocks": [
+        "sh-hero",
+        "sh-compare",
+        "sh-tiles",
+        "sh-benefits",
+        "sh-band",
+        "sh-faq"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/solutions/insureshield-shipping-insurance",
+        "deployedAt": "2026-11-18T00:33:41.954Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.33,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 5,
+            "missingButtons": 9,
+            "hiddenButtons": 0,
+            "findings": 22,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-18T11:29:39.712Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-test-deletion-html",
+      "path": "/us/en/test-deletion",
+      "title": "Page Test | InsureShield",
+      "templateId": "us-en-customer-communications-html",
+      "representative": "us-en-customer-communications-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8171036dc6682e424ed00f14530790c3be1999714a85be0fc7ad2664418818f7",
+        "currentStatePath": "stardust/current/pages/us-en-test-deletion-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/test-deletion.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/test-deletion",
+        "deployedAt": "2026-11-18T04:16:41.553Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.15,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T14-07-32-780Z-us-en-customer-communications-html.json",
+          "at": "2026-11-18T14:07:40.671Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-test-deletion1-html",
+      "path": "/us/en/test-deletion1",
+      "title": "Page Test | InsureShield",
+      "templateId": "us-en-customer-communications-html",
+      "representative": "us-en-customer-communications-html",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4f2f09eb3e3e13bfdb569a4a5b23b373a3c766cc63ace2b479e825e5d9984cd6",
+        "currentStatePath": "stardust/current/pages/us-en-test-deletion1-html.json",
+        "sourceUrl": "https://www.insureshield.com/us/en/test-deletion1.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/test-deletion1",
+        "deployedAt": "2026-11-18T04:16:41.648Z",
+        "verifiedAt": "2026-11-18T14:07:40.763Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.15,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-18T14-07-32-780Z-us-en-customer-communications-html.json",
+          "at": "2026-11-18T14:07:40.671Z"
+        }
+      }
+    }
+  ]
+}

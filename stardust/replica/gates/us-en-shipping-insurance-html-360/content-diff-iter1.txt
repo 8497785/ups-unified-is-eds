@@ -1,0 +1,38 @@
+[live-session] waiting to pace live navigations to www.insureshield.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 810 ms
+
+Content diff @ 360px (profile "generic", roots: #main, header, footer)
+root "#main"
+  source: 131 text nodes — 10 headings, 0 eyebrows, 8 CTAs, 113 body; 4 img
+  build: 131 text nodes — 10 headings, 0 eyebrows, 8 CTAs, 113 body; 17 img
+  editable texts (outermost h*/p/ul/ol): source 32 / build 32
+  attributes (placeholder/aria-label/title): source 21 / build 21; icons: source 33 / build 20
+root "header"
+  source: 10 text nodes — 0 headings, 0 eyebrows, 5 CTAs, 5 body; 0 img
+  build: 10 text nodes — 0 headings, 0 eyebrows, 5 CTAs, 5 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 3 / build 3; icons: source 9 / build 9
+root "footer"
+  source: 32 text nodes — 4 headings, 0 eyebrows, 23 CTAs, 5 body; 0 img
+  build: 32 text nodes — 4 headings, 0 eyebrows, 23 CTAs, 5 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 13 / build 13
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 14 / build 14
+
+Findings: 17 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 17
+  🟡 MISSING BODY [#main]: source body "$50,000 to $50,000 +"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "$400.00 to $525.00 +"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [#main]: build body "$50,000 to $50,000+" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "$400.00 to $525.00+" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 MISSING ICON [#main]: source inline svg 0 0 360 603 / 18 shape(s) (360×603) at "shipping insurance for lost , damaged , " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg 0 0 72 72 / 102 shape(s) (72×72) at "general shipping coverage" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg 0 0 72 72 / 55 shape(s) (72×72) at "porch piracy theft" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg 0 0 72 72 / 6 shape(s) (72×72) at "time-sensitive goods" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg 0 0 72 72 / 49 shape(s) (72×72) at "reshipment speed" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg 0 0 72 72 / 114 shape(s) (72×72) at "high-value shipments" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg 0 0 72 72 / 28 shape(s) (72×72) at "claims process" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg -132 -186.78453295106675 264 248.94500941672305 / 185 shape(s) (0×0) at "multi-carrier, multi-modal $85b global i" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg -106 -126.39217958663258 212 180.3548875414353 / 36 shape(s) (0×0) at "simpler insurance claims $132m in claims" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg 0 0 342 384 / 149 shape(s) (342×384) at "benefits of insureshield shipping insura" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg 0 0 360 3962 / 9 shape(s) (360×3962) at "connect insureshield to the platforms yo" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg -186.31222920256963 -214.69101978896526 372.62445840513925 277.54324727660514 / 226 shape(s) (326×96) at "protect ecommerce growth with commercesh" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg 0 0 326 96 / 153 shape(s) (326×96) at "protect high-value goods with parcel pro" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.

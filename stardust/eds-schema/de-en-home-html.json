@@ -1,0 +1,77 @@
+{
+ "source": "http://localhost:8791/de-en-home-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hph",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "InsureShield Shipping Insurance"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "®"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Save hours managing shipping claims, keep your customers happy and protect your reputation."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Get a Quote",
+     "href": "/de/en/cargo-insurance/get-a-quote.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "spromo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Ask an Expert"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Ask an Expert"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Questions? Let’s talk and we can discuss what’s best for your business."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Contact Us",
+     "href": "/de/en/about/contact-us.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col-md-6",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

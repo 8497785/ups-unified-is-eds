@@ -1,0 +1,103 @@
+{
+  "live": "stardust/replica/motion/us-en-global-html.json",
+  "build": "stardust/replica/motion/us-en-global-html-build.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 0,
+  "counts": {
+    "behaviors": 12,
+    "parity": 8,
+    "missing": 0,
+    "extra": 0,
+    "tolerance": 0,
+    "dead": 4,
+    "advisory": 0
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "parity",
+      "note": "Δheight 0px, restore at y≤0, n/a",
+      "line": "motion header scroll-morph: parity (Δheight 0px, restore at y≤0, n/a)"
+    },
+    {
+      "cls": "widget",
+      "name": "#ups-imagemap0",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget #ups-imagemap0: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": "#ups-imagemap1",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget #ups-imagemap1: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": ".ups-accordion_toggle → .rsel__toggle",
+      "state": "parity",
+      "note": "self.background, self.color, span.color; 150ms; paired by order",
+      "line": "motion hover .ups-accordion_toggle → .rsel__toggle: parity (self.background, self.color, span.color; 150ms; paired by order)"
+    },
+    {
+      "cls": "hover",
+      "name": "#ups-svg-europe",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover #ups-svg-europe: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".ups-accordion_expand a → .rsel__links a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .ups-accordion_expand a → .rsel__links a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "transition",
+      "name": "background-color",
+      "state": "parity",
+      "note": "7 event(s) on live, 5 on build, 150ms",
+      "line": "motion transition background-color: parity (7 event(s) on live, 5 on build, 150ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "color",
+      "state": "parity",
+      "note": "7 event(s) on live, 5 on build, 150ms",
+      "line": "motion transition color: parity (7 event(s) on live, 5 on build, 150ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "transform",
+      "state": "parity",
+      "note": "2 event(s) on live, 2 on build, 500ms",
+      "line": "motion transition transform: parity (2 event(s) on live, 2 on build, 500ms)"
+    },
+    {
+      "cls": "class",
+      "name": "sticky-nav",
+      "state": "parity",
+      "note": "added 2× on live, 2× on build",
+      "line": "motion class sticky-nav: parity (added 2× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "ups-active",
+      "state": "parity",
+      "note": "added 6× on live, 6× on build",
+      "line": "motion class ups-active: parity (added 6× on live, 6× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "ups-mousein",
+      "state": "parity",
+      "note": "added 2× on live, 2× on build",
+      "line": "motion class ups-mousein: parity (added 2× on live, 2× on build)"
+    }
+  ]
+}

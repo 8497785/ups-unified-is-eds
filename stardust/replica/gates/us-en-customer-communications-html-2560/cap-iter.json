@@ -1,0 +1,71 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-17T22:01:27.971Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.insureshield.com/us/en/customer-communications.html",
+      "http://localhost:8791/us-en-customer-communications-html-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.insureshield.com/us/en/customer-communications.html",
+    "http://localhost:8791/us-en-customer-communications-html-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid > div.cmp-container",
+      "isBody": false,
+      "leaves": 0,
+      "w2": 2560
+    },
+    "origins": [],
+    "modules": [],
+    "shellMaxWidth": null,
+    "contentMaxWidth": null,
+    "contentFrom": null,
+    "maxCap": 0,
+    "fluid": true,
+    "probeNote": "pinned",
+    "candidates": 75
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "body.tpl-shell > div.page-root > main.page-main",
+      "isBody": false,
+      "leaves": 0,
+      "w2": 2560
+    },
+    "origins": [],
+    "modules": [],
+    "shellMaxWidth": null,
+    "contentMaxWidth": null,
+    "contentFrom": null,
+    "maxCap": 0,
+    "fluid": true,
+    "probeNote": "pinned",
+    "candidates": 51
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "fluid on both sides — no wrapper, no shared module cap",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/us-en-customer-communications-html-2560/cap-iter.json"
+}

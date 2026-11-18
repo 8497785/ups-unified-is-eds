@@ -1,0 +1,173 @@
+/* office-list — lifted: office-listing.min.css + theme-insure-shield (.office-list, .officeListing) */
+.office-list {
+  margin-bottom: 64px;
+}
+
+.office-list .office-list-dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5.1rem 0 6.4rem;
+}
+
+.office-list .office-list-label p {
+  color: var(--is-grey-dark);
+  line-height: 1.19;
+}
+
+.office-list .office-list-picker {
+  position: relative;
+  width: 18.2rem;
+  margin-left: 2.5rem;
+  cursor: pointer;
+}
+
+.office-list .office-list-current {
+  position: relative;
+  display: inline-block;
+  width: inherit;
+  padding: 1.6rem 3.6rem 1.6rem 1.2rem;
+  border: 1px solid var(--is-grey-dark);
+  border-radius: 0.4rem;
+  color: var(--is-grey-dark);
+}
+
+.office-list .office-list-current .upspr-icon-chevrondown {
+  position: absolute;
+  right: 1.2rem;
+  margin-left: 1.2rem;
+  color: var(--is-grey-dark);
+}
+
+.office-list .office-list-picker.expanded .upspr-icon-chevrondown {
+  transform: rotate(180deg);
+}
+
+.office-list .office-list-picker ul {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  display: none;
+  width: inherit;
+  margin: 0;
+  padding: 1.6rem 1.2rem;
+  list-style: none;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 14%), 0 4px 12px -3px rgb(0 0 0 / 5%);
+}
+
+.office-list .office-list-picker.expanded ul {
+  display: block;
+}
+
+.office-list .office-list-picker li {
+  margin-bottom: 1.6rem;
+}
+
+.office-list .office-list-picker li:last-child {
+  margin-bottom: 0;
+}
+
+.office-list .office-list-picker li :is(strong, b) {
+  font-weight: inherit;
+}
+
+/* the office card (source .officeListing .cmp-text) */
+.office-list .office-list-office {
+  margin-bottom: 2.4rem;
+  padding-bottom: 2.4rem;
+  border-bottom: 1px solid #dfdbd7;
+  text-align: left;
+}
+
+.office-list .office-list-office h4 {
+  position: relative;
+  margin-bottom: 4.9rem;
+  padding-bottom: 1rem;
+  font-size: 2.8rem;
+  line-height: 1.28;
+}
+
+.office-list .office-list-office h4::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+.office-list .office-list-office h5 {
+  margin-bottom: 1.6rem;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.office-list .office-list-office a:any-link {
+  color: var(--is-blue);
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.office-list .office-list-office a [class^="upspr-icon-"] {
+  display: inline-block;
+  color: var(--is-text);
+  text-decoration: none;
+}
+
+/* phone: glyph + number on one line, 16px below the address (source .phone inline-flex) */
+.office-list .office-list-office a[href^="tel:"] {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 1.6rem;
+}
+
+/* email: the source's 87%-wide label wraps under the glyph, indented 16px */
+.office-list .office-list-office a[href^="mailto:"] {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1.6rem;
+  padding-left: 1.6rem;
+}
+
+.office-list .office-list-office a[href^="mailto:"] [class^="upspr-icon-"] {
+  flex: 0 0 100%;
+  margin-left: -1.6rem;
+}
+
+@media (width >= 768px) {
+  .office-list .office-list-dropdown {
+    justify-content: flex-end;
+    margin: 4.2rem 0 5.6rem;
+  }
+
+  .office-list .office-list-picker {
+    width: 17.6rem;
+    margin-left: 2.4rem;
+  }
+
+  .office-list .office-list-office h4 {
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+}
+
+@media (width >= 992px) {
+  main .section .office-list-wrapper {
+    padding: 0 13.6rem;
+  }
+
+  .office-list .office-list-office h4 {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .office-list .office-list-office h5 {
+    font-size: 2.4rem;
+    line-height: 1.33;
+  }
+}

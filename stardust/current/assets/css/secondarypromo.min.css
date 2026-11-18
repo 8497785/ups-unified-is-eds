@@ -1,0 +1,190 @@
+.secondarypromo.secondarybannerpromo .cmp-teaser {
+  padding: 2.4rem;
+  position: relative;
+  text-align: center;
+  text-align: left;
+  z-index: 0;
+}
+@media (min-width: 768px) {
+  .secondarypromo.secondarybannerpromo .cmp-teaser {
+    padding: 4.8rem;
+    text-align: center;
+  }
+}
+.secondarypromo.secondarybannerpromo .cmp-teaser__title {
+  margin-bottom: 1.6rem;
+  padding-bottom: 1.6rem;
+  position: relative;
+}
+@media (min-width: 992px) {
+  .secondarypromo.secondarybannerpromo .cmp-teaser__title {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+.secondarypromo.secondarybannerpromo .cmp-teaser__title:after {
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+  position: absolute;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  width: 7.2rem;
+}
+@media (min-width: 768px) {
+  .secondarypromo.secondarybannerpromo .cmp-teaser__title:after {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+.secondarypromo.secondarybannerpromo .cmp-teaser__description {
+  margin-bottom: 2.4rem;
+}
+.secondarypromo.secondarybannerpromo .cmp-teaser__description a {
+  text-decoration: underline;
+}
+.secondarypromo.secondarybannerpromo
+  .cmp-teaser__action-container:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+.secondarypromo.secondarybannerpromo .cmp-teaser__action-container a {
+  text-align: center;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .secondarypromo.secondarybannerpromo .cmp-teaser__action-container a {
+    width: auto;
+  }
+}
+.secondarypromo.secondarybannerpromo .cmp-teaser__additionalText {
+  text-align: center;
+}
+.secondarypromo.secondarybannerpromo .cmp-teaser__additionalText a {
+  text-decoration: underline;
+}
+.secondaryfeaturepromo.secondarypromo .cmp-teaser {
+  background: linear-gradient(318.8deg, #dfdbd7 -11.42%, #f2f1ef 58.01%);
+  padding: 2.4rem;
+}
+@media (min-width: 768px) {
+  .secondaryfeaturepromo.secondarypromo .cmp-teaser {
+    padding: 3.2rem 4rem;
+  }
+}
+@media (min-width: 992px) {
+  .secondaryfeaturepromo.secondarypromo .cmp-teaser {
+    padding: 4rem 6.4rem;
+  }
+}
+.secondaryfeaturepromo.secondarypromo .cmp-teaser__content {
+  display: grid;
+  grid-template-areas: "bannerTitle" "bannerDescription" "bannerAddText" "actionContainer";
+  grid-template-columns: auto;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  .secondaryfeaturepromo.secondarypromo .cmp-teaser__content {
+    -webkit-column-gap: 2.4rem;
+    -moz-column-gap: 2.4rem;
+    column-gap: 2.4rem;
+    grid-template-areas: "bannerTitle actionContainer" "bannerDescription actionContainer" "bannerAddText actionContainer";
+    grid-template-columns: auto fit-content(100%);
+  }
+}
+@media (min-width: 992px) {
+  .secondaryfeaturepromo.secondarypromo .cmp-teaser__content {
+    -webkit-column-gap: 5.6rem;
+    -moz-column-gap: 5.6rem;
+    column-gap: 5.6rem;
+  }
+}
+.secondaryfeaturepromo.secondarypromo .cmp-teaser__pretitle {
+  display: none;
+}
+.secondaryfeaturepromo.secondarypromo .cmp-teaser__title {
+  grid-area: bannerTitle;
+  margin-bottom: 1.2rem;
+}
+.secondaryfeaturepromo.secondarypromo .cmp-teaser__title::after {
+  content: none;
+}
+.secondaryfeaturepromo.secondarypromo .cmp-teaser__description {
+  grid-area: bannerDescription;
+  margin-bottom: 0.8rem;
+}
+.secondaryfeaturepromo.secondarypromo .cmp-teaser__description a {
+  text-decoration: underline;
+}
+.secondaryfeaturepromo.secondarypromo .cmp-teaser__additionalText {
+  grid-area: bannerAddText;
+  margin-bottom: 2.4rem;
+}
+@media (min-width: 768px) {
+  .secondaryfeaturepromo.secondarypromo .cmp-teaser__additionalText {
+    margin-bottom: 0;
+  }
+}
+.secondaryfeaturepromo.secondarypromo .cmp-teaser__additionalText a {
+  text-decoration: underline;
+}
+.secondaryfeaturepromo.secondarypromo .cmp-teaser__action-container {
+  align-self: center;
+  grid-area: actionContainer;
+}
+.secondaryfeaturepromo.secondarypromo .cmp-teaser__action-container a:after,
+.secondaryfeaturepromo.secondarypromo
+  .cmp-teaser__action-container
+  a:not(.primary-btn) {
+  display: none;
+}
+.secondaryfeaturepromo.secondarypromo .cmp-teaser__action-container a span {
+  font-size: 1.2rem;
+  margin-left: 0.8rem;
+}
+.secondaryfeaturepromo.secondarypromo .cmp-teaser__action-container a {
+  text-align: center;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .secondaryfeaturepromo.secondarypromo .cmp-teaser__action-container a {
+    text-align: left;
+    width: auto;
+  }
+}
+.secondaryfeaturepromo.secondarypromo.secondarypromoteal .cmp-teaser {
+  background: linear-gradient(126.6deg, #0a8080 30.6%, #097272 104.21%);
+}
+.secondaryfeaturepromo.secondarypromo.secondarypromoblue .cmp-teaser {
+  background: linear-gradient(304.78deg, #326a9f -12.16%, #397ab7 61.1%);
+}
+.secondaryfeaturepromo.secondarypromo.ups-store-yellow .cmp-teaser {
+  background: #ffd100;
+  border-radius: 1.5rem;
+  color: #121212;
+}
+.secondaryfeaturepromo.secondarypromo.ups-store-yellow .cmp-teaser__title h3 {
+  font-weight: 800;
+}
+.secondaryfeaturepromo.secondarypromo.ups-store-yellow
+  .cmp-teaser__additionalText
+  a,
+.secondaryfeaturepromo.secondarypromo.ups-store-yellow
+  .cmp-teaser__additionalText
+  p,
+.secondaryfeaturepromo.secondarypromo.ups-store-yellow
+  .cmp-teaser__description
+  a,
+.secondaryfeaturepromo.secondarypromo.ups-store-yellow
+  .cmp-teaser__description
+  p {
+  color: #121212;
+  font-weight: 500;
+}
+.secondaryfeaturepromo.secondarypromo.ups-store-yellow
+  .cmp-teaser__action-container
+  .primary-btn {
+  background-color: #000;
+  font-weight: 700;
+}

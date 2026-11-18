@@ -1,0 +1,26 @@
+
+Content diff @ 1440px (profile "generic", roots: #container-ec87763e92, header, footer)
+root "#container-ec87763e92"
+  source: 75 text nodes — 8 headings, 12 eyebrows, 3 CTAs, 52 body; 13 img
+  build: 75 text nodes — 8 headings, 12 eyebrows, 3 CTAs, 52 body; 13 img
+  editable texts (outermost h*/p/ul/ol): source 51 / build 51
+  attributes (placeholder/aria-label/title): source 20 / build 24; icons: source 22 / build 22
+root "header"
+  source: 29 text nodes — 0 headings, 4 eyebrows, 15 CTAs, 10 body; 1 img
+  build: 29 text nodes — 0 headings, 4 eyebrows, 15 CTAs, 10 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 10 / build 11; icons: source 11 / build 11
+root "footer"
+  source: 25 text nodes — 1 headings, 0 eyebrows, 20 CTAs, 4 body; 5 img
+  build: 25 text nodes — 1 headings, 0 eyebrows, 20 CTAs, 4 body; 5 img
+  editable texts (outermost h*/p/ul/ol): source 8 / build 8
+  attributes (placeholder/aria-label/title): source 2 / build 3; icons: source 16 / build 16
+
+Findings: 6 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 6
+  🟡 EXTRA ARIA-LABEL [#container-ec87763e92]: build <button> aria-label="Previous" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#container-ec87763e92]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#container-ec87763e92]: build <button> aria-label="Previous" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#container-ec87763e92]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <nav> aria-label="Legal" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

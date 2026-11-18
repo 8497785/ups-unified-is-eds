@@ -1,0 +1,277 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-17T22:35:28.005Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/.work/rollout/state-with-representative.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-18T14:07:40.763Z",
+  "templates": [
+    {
+      "id": "de-en-home-html",
+      "representativeSlug": "de-en-home-html",
+      "pages": [
+        "ca-en-home-html",
+        "de-de-home-html",
+        "de-en-home-html",
+        "gb-en-home-html",
+        "it-en-home-html",
+        "it-it-home-html"
+      ],
+      "pageCount": 6,
+      "blocks": [
+        "featured-list",
+        "featured-promo",
+        "homepage-hero",
+        "pathways-cards",
+        "secondary-promo",
+        "story-card-grid"
+      ],
+      "delivery": {
+        "verified": 6,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "gb-en-resources-html",
+      "representativeSlug": "gb-en-resources-html",
+      "pages": [
+        "ca-en-resources-html",
+        "de-en-resources-html",
+        "gb-en-resources-html",
+        "it-en-resources-html",
+        "it-it-resources-html",
+        "us-en-about-announcements-html",
+        "us-en-resources-whitepapers-and-guides-html"
+      ],
+      "pageCount": 7,
+      "blocks": [
+        "marketing-hero",
+        "promo-banner",
+        "search",
+        "story-card-carousel"
+      ],
+      "delivery": {
+        "verified": 7,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index",
+        "us-en-securecommerce-html"
+      ],
+      "pageCount": 2,
+      "blocks": [
+        "homepage-hero",
+        "logo-strip",
+        "pathways-cards",
+        "stats"
+      ],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "us-en-about-contact-us-html",
+      "representativeSlug": "us-en-about-contact-us-html",
+      "pages": [
+        "us-en-about-contact-us-html",
+        "us-en-customer-communications-confirm-contact-information-html",
+        "us-en-customer-communications-updated-contact-information-html",
+        "us-en-promotional-prod-form-test-html",
+        "us-en-resources-help-and-support-html"
+      ],
+      "pageCount": 5,
+      "blocks": [
+        "form",
+        "form-toast",
+        "marketing-hero",
+        "pathways-cards"
+      ],
+      "delivery": {
+        "verified": 5,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "us-en-customer-communications-html",
+      "representativeSlug": "us-en-customer-communications-html",
+      "pages": [
+        "de-en-alerts-html",
+        "gb-en-alerts-html",
+        "gb-en-other-ups-sites-html",
+        "it-en-alerts-html",
+        "it-it-alerts-html",
+        "us-en-customer-communications-html",
+        "us-en-legal-cookie-settings-html",
+        "us-en-page-deletion-html",
+        "us-en-resources-webinars-html",
+        "us-en-test-deletion-html",
+        "us-en-test-deletion1-html"
+      ],
+      "pageCount": 11,
+      "blocks": [],
+      "delivery": {
+        "verified": 11,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "us-en-global-html",
+      "representativeSlug": "us-en-global-html",
+      "pages": [
+        "us-en-global-html"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "region-selector"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "us-en-legal-terms-and-conditions-upscia-html",
+      "representativeSlug": "us-en-legal-terms-and-conditions-upscia-html",
+      "pages": [
+        "us-en-about-our-locations-html",
+        "us-en-legal-product-disclosure-html",
+        "us-en-legal-technology-agreement-html",
+        "us-en-legal-terms-and-conditions-gallagher-affinity-html",
+        "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-html",
+        "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-users-html",
+        "us-en-legal-terms-and-conditions-upscia-html"
+      ],
+      "pageCount": 7,
+      "blocks": [
+        "transition-hero"
+      ],
+      "delivery": {
+        "verified": 7,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "us-en-shipping-insurance-b2b-html",
+      "representativeSlug": "us-en-shipping-insurance-b2b-html",
+      "pages": [
+        "ca-en-about-html",
+        "ca-en-claims-html",
+        "ca-en-partners-html",
+        "ca-en-shipping-insurance-html",
+        "de-de-cargo-insurance-html",
+        "de-de-claims-html",
+        "de-en-about-html",
+        "de-en-cargo-insurance-html",
+        "de-en-claims-html",
+        "de-en-partners-html",
+        "gb-en-about-html",
+        "gb-en-cargo-insurance-html",
+        "gb-en-claims-html",
+        "it-en-about-html",
+        "it-en-cargo-insurance-html",
+        "it-en-claims-html",
+        "it-it-about-html",
+        "it-it-cargo-insurance-html",
+        "it-it-claims-html",
+        "us-en-about-html",
+        "us-en-claims-channel-partners-claims-html",
+        "us-en-claims-html",
+        "us-en-claims-insureshield-ups-claims-support-html",
+        "us-en-customer-communications-enhanced-declared-value-html",
+        "us-en-partners-3pl-partners-html",
+        "us-en-partners-become-a-partner-html",
+        "us-en-partners-connect-with-a-partner-html",
+        "us-en-partners-html",
+        "us-en-promotional-delivery-defense-mockup-html",
+        "us-en-promotional-insureshield-benefits-html",
+        "us-en-promotional-webinars-html",
+        "us-en-resources-customer-stories-html",
+        "us-en-resources-insights-html",
+        "us-en-resources-the-logistics-lowdown-html",
+        "us-en-risk-mitigation-risk-intelligence-smb-html",
+        "us-en-risk-mitigation-risk-intelligence-smb2-html",
+        "us-en-shipping-insurance-b2b-html",
+        "us-en-shipping-insurance-checkout-protection-html",
+        "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+        "us-en-shipping-insurance-get-a-quote-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+        "us-en-shipping-insurance-retail-html",
+        "us-en-shipping-insurance-select-my-coverage-html",
+        "us-en-shipping-insurance-special-commodities-html",
+        "us-en-shipping-insurance-ups-shipments-html",
+        "us-en-solutions-commerceshield-html",
+        "us-en-solutions-delivery-defense-html",
+        "us-en-solutions-delivery-defense-learning-center-html",
+        "us-en-solutions-delivery-orchestration-delivery-html",
+        "us-en-solutions-delivery-orchestration-html",
+        "us-en-solutions-delivery-orchestration-pickup-html",
+        "us-en-solutions-delivery-orchestration-returns-html"
+      ],
+      "pageCount": 55,
+      "blocks": [
+        "form",
+        "form-toast",
+        "loss-calculator",
+        "marketing-hero",
+        "promo-banner",
+        "secondary-promo",
+        "story-card-carousel"
+      ],
+      "delivery": {
+        "verified": 55,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "us-en-shipping-insurance-html",
+      "representativeSlug": "us-en-shipping-insurance-html",
+      "pages": [
+        "us-en-shipping-insurance-html",
+        "us-en-solutions-insureshield-shipping-insurance-html"
+      ],
+      "pageCount": 2,
+      "blocks": [
+        "sh-band",
+        "sh-benefits",
+        "sh-compare",
+        "sh-faq",
+        "sh-hero",
+        "sh-tiles"
+      ],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "a": "stardust/replica/gates/all-1440/us-en-partners-connect-with-a-partner-html/origin.png",
+  "b": "stardust/replica/gates/all-1440/us-en-partners-connect-with-a-partner-html/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2908,
+    "mode": "overlap"
+  },
+  "heightDelta": -8,
+  "differingPixels": 181129,
+  "pct": 4.33,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/us-en-partners-connect-with-a-partner-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 16.07,
+  "textBoxes": 80,
+  "textPixels": 424758,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 11.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 6
+    },
+    {
+      "y0": 2500,
+      "y1": 2908,
+      "pct": 2.6
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/partners/connect-with-a-partner"
+  }
+}

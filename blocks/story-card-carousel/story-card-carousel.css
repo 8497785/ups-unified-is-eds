@@ -1,0 +1,346 @@
+/* story-card-carousel — lifted: story-card + slick theme (ups-global), theme-insure-shield */
+
+/* section head authored as default content before the block (source: .title centred) */
+.story-card-carousel-container .default-content-wrapper {
+  margin-bottom: 24px;
+}
+
+.story-card-carousel-container .default-content-wrapper :is(h2, h3) {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 16px;
+  font-size: 2.8rem;
+  line-height: 1.28;
+}
+
+.story-card-carousel-container .default-content-wrapper :is(h2, h3)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+.story-card-carousel-container .default-content-wrapper p {
+  margin-top: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.story-card-carousel {
+  margin-bottom: 64px;
+}
+
+.story-card-carousel .stories-viewport {
+  overflow: hidden;
+  margin: 0 calc(var(--is-gutter) / -2);
+}
+
+.story-card-carousel .stories-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.story-card-carousel .stories-slide {
+  display: flex;
+  flex: 0 0 calc(100% - 20px);
+  margin: 0 10px 10px;
+}
+
+.story-card-carousel .story {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #fff;
+  color: var(--is-text);
+  border-radius: var(--is-radius);
+  box-shadow: var(--is-card-shadow);
+  text-decoration: none;
+}
+
+.story-card-carousel .story-image {
+  line-height: 0;
+}
+
+.story-card-carousel .story-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+}
+
+.story-card-carousel .story-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+.story-card-carousel .story-eyebrow {
+  margin-bottom: 16px;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+/* the eyebrow text's own element is the full-width flex row (bar as its ::before; a long label
+   wraps under the bar) */
+.story-card-carousel .story-eyebrow > * {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.story-card-carousel .story-eyebrow > *::before {
+  content: "";
+  flex: none;
+  width: 32px;
+  height: 3px;
+  margin-right: 6px;
+  background: var(--is-teal);
+  border-radius: 8px;
+}
+
+.story-card-carousel .story-title :is(h2, h3, h4) {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* a body-<p> card title (source description__title <p>, e.g. ca/en insights, announcements)
+   keeps the body leading; heading titles (source h1) take the heading leading above */
+.story-card-carousel .story-title:has(> p) {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+/* the bold run fills the title line box like the source's bare <p> text */
+.story-card-carousel .story-title > p > :is(strong, b):only-child {
+  display: block;
+}
+
+.story-card-carousel .story-text {
+  margin-top: 12px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.story-card-carousel .story-link {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  color: var(--is-blue);
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.story-card-carousel .story-link p {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+}
+
+.story-card-carousel .story-link p::after {
+  content: "chevron_right";
+  margin-left: 2px;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: upspricons;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1;
+  font-feature-settings: "liga";
+}
+
+.story-card-carousel .story:hover .story-link p {
+  text-decoration: underline;
+}
+
+.story-card-carousel .stories-controls {
+  display: flex;
+  justify-content: center;
+  padding-top: 26px;
+  margin-bottom: 10px;
+}
+
+.story-card-carousel .stories-controls[hidden] {
+  display: none;
+}
+
+.story-card-carousel .stories-arrow {
+  display: block;
+  height: 31px;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--is-text);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.story-card-carousel .stories-arrow::before {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: upspricons;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1;
+  font-feature-settings: "liga";
+}
+
+.story-card-carousel .stories-arrow-prev::before {
+  content: "chevron_left";
+  margin-right: 3rem;
+}
+
+.story-card-carousel .stories-arrow-next::before {
+  content: "chevron_right";
+  margin-left: 3rem;
+}
+
+.story-card-carousel .stories-arrow:disabled {
+  pointer-events: none;
+}
+
+.story-card-carousel .stories-dots {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  column-gap: 3rem;
+}
+
+.story-card-carousel .stories-dots li {
+  display: inline-block;
+  height: 29px;
+  line-height: 0;
+}
+
+.story-card-carousel .stories-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-top: 5px;
+  padding: 0;
+  background: #fff;
+  border: 2px solid var(--is-grey-mid);
+  border-radius: 50%;
+}
+
+.story-card-carousel .stories-dots .is-active .stories-dot {
+  width: 22px;
+  height: 22px;
+  margin-top: 0;
+  border: 4px solid var(--is-teal);
+}
+
+@media (width >= 768px) {
+  .story-card-carousel-container .default-content-wrapper {
+    text-align: center;
+  }
+
+  .story-card-carousel-container .default-content-wrapper :is(h2, h3)::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .story-card-carousel .stories-slide {
+    flex-basis: calc(50% - 32px);
+    margin: 0 16px 10px;
+  }
+}
+
+@media (width >= 992px) {
+  .story-card-carousel-container .default-content-wrapper {
+    margin-bottom: 48px;
+  }
+
+  .story-card-carousel-container .default-content-wrapper :is(h2, h3) {
+    max-width: 67%;
+    padding-bottom: 20px;
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .story-card-carousel-container .default-content-wrapper p {
+    margin: 20px 16.5% 0;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  .story-card-carousel .stories-slide {
+    flex-basis: calc(33.333% - 32px);
+  }
+
+  .story-card-carousel .stories-controls {
+    padding-top: 22px;
+  }
+
+  .story-card-carousel .story-title :is(h2, h3, h4) {
+    font-size: 2rem;
+  }
+
+  .story-card-carousel .story-title:has(> p) {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}
+
+/* an h3 section head (source h3.cmp-title__text: 20/28 < 768, 32/40 from 992 — measured on
+   /us/en/shipping-insurance/select-my-coverage) */
+.story-card-carousel-container .default-content-wrapper h3 {
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+@media (width >= 768px) {
+  .story-card-carousel-container .default-content-wrapper h3 {
+    font-size: 2.4rem;
+    line-height: 1.33;
+  }
+}
+
+@media (width >= 992px) {
+  .story-card-carousel-container .default-content-wrapper h3 {
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+}
+
+/* variant `stack` (source video-gallery, /us/en/resources/the-logistics-lowdown): below 768
+   every card shows, stacked full width 20px apart, without carousel controls; the carousel
+   from 768 */
+@media (width < 768px) {
+  .story-card-carousel.stack .stories-track {
+    flex-direction: column;
+  }
+
+  .story-card-carousel.stack .stories-slide {
+    flex: none;
+    width: calc(100% - var(--is-gutter));
+    margin: 0 calc(var(--is-gutter) / 2) 20px;
+  }
+
+  /* 20px between cards only: the list ends at the last card (360 stitch: last card text to
+     the next section title 107px source vs 127px build) */
+  .story-card-carousel.stack .stories-slide:last-child {
+    margin-bottom: 0;
+  }
+
+  .story-card-carousel.stack .stories-controls {
+    display: none;
+  }
+}
+
+/* `stack`: the source's "Recent Episodes" title sits 8px closer to the teaser above than the
+   generic section head, at every width (360 stitch: underline y1517 source vs y1525 build;
+   1440: source h2 y1185 vs build head y1193) */
+.story-card-carousel-container:has(.story-card-carousel.stack) .default-content-wrapper {
+  margin-top: -8px;
+}

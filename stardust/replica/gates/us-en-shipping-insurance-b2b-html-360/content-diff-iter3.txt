@@ -1,0 +1,24 @@
+
+Content diff @ 360px (profile "generic", roots: #container-5b9b496b44, header, footer)
+root "#container-5b9b496b44"
+  source: 45 text nodes — 9 headings, 3 eyebrows, 4 CTAs, 29 body; 7 img
+  build: 45 text nodes — 9 headings, 3 eyebrows, 4 CTAs, 29 body; 7 img
+  editable texts (outermost h*/p/ul/ol): source 29 / build 29
+  attributes (placeholder/aria-label/title): source 6 / build 8; icons: source 10 / build 10
+root "header"
+  source: 43 text nodes — 0 headings, 1 eyebrows, 33 CTAs, 9 body; 1 img
+  build: 43 text nodes — 0 headings, 1 eyebrows, 33 CTAs, 9 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 9 / build 10; icons: source 10 / build 10
+root "footer"
+  source: 33 text nodes — 1 headings, 0 eyebrows, 24 CTAs, 8 body; 5 img
+  build: 33 text nodes — 1 headings, 0 eyebrows, 24 CTAs, 8 body; 5 img
+  editable texts (outermost h*/p/ul/ol): source 12 / build 12
+  attributes (placeholder/aria-label/title): source 2 / build 3; icons: source 19 / build 19
+
+Findings: 4 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 4
+  🟡 EXTRA ARIA-LABEL [#container-5b9b496b44]: build <button> aria-label="Previous" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#container-5b9b496b44]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <nav> aria-label="Legal" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

@@ -1,0 +1,40 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-18T11:08:33.958Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.insureshield.com/us/en/customer-communications/updated-contact-information.html",
+  "at": "2026-11-18T07:52:03.084Z",
+  "docH": 2223
+ },
+ "eds": {
+  "url": "https://main--9ade650b--aemcoder.aem.page/us/en/customer-communications/updated-contact-information",
+  "at": "2026-11-18T11:08:33.843Z",
+  "docH": 2216
+ },
+ "results": [
+  {
+   "sel": ".pathways__list__item__card=.paths__item",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  }
+ ],
+ "verdict": {
+  "units": 0,
+  "within": 0,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 1,
+  "requiredOff": 0
+ }
+}

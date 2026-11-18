@@ -1,0 +1,19 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.insureshield.com/us/en/shipping-insurance/b2b.html (live side from cache stardust/replica/gates/us-en-shipping-insurance-b2b-html-360/chrome-live.json, probed 2026-11-17T21:18:44.993Z — delete the file to re-probe)
+  build: http://localhost:8791/us-en-shipping-insurance-b2b-html-proposed.html
+
+■ header: ✓ parity — 10 paired of 10/10 texts, 1/1 icons
+
+■ footer: 10 delta(s) — 33 paired of 33/33 texts, 5/5 icons
+  PAIR         "Facebook"  Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "Instagram"  Δy -48px (5417→5369); Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "@UPSCapital"  Δy -96px (5505→5409); Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "LinkedIn"  Δy -144px (5593→5449); Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "YouTube"  Δy -192px (5681→5489); Δh -48px (64→16); <a> box 136×88 → 136×40
+  ICON         "Facebook"  icon #0 near "Facebook": Δh -48px (64→16); signature "" → "social-facebook"
+  ICON         "Instagram"  icon #1 near "Instagram": Δh -48px (64→16); signature "" → "social-instagram"
+  ICON         "@UPSCapital"  icon #2 near "@UPSCapital": Δh -48px (64→16); signature "" → "social-x"
+  ICON         "LinkedIn"  icon #3 near "LinkedIn": Δh -48px (64→16); signature "" → "social-linkedin"
+  ICON         "YouTube"  icon #4 near "YouTube": Δh -48px (64→16); signature "" → "social-youtube"
+
+✗ 10 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

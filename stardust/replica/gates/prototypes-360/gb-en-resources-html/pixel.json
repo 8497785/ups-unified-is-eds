@@ -1,0 +1,61 @@
+{
+  "a": "stardust/replica/gates/prototypes-360/gb-en-resources-html/origin.png",
+  "b": "stardust/replica/gates/prototypes-360/gb-en-resources-html/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3301,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 16524,
+  "pct": 1.39,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/prototypes-360/gb-en-resources-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 3
+    },
+    {
+      "y0": 3000,
+      "y1": 3301,
+      "pct": 0.8
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "http://localhost:8791/gb-en-resources-html-proposed.html"
+  }
+}

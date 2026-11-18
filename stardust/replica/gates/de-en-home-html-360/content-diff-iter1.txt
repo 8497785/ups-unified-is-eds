@@ -1,0 +1,59 @@
+[live-session] waiting to pace live navigations to www.insureshield.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 911 ms
+
+Content diff @ 360px (profile "generic", roots: #container-b10391c006, header, footer)
+root "#container-b10391c006"
+  source: 81 text nodes — 5 headings, 8 eyebrows, 8 CTAs, 60 body; 20 img
+  build: 78 text nodes — 5 headings, 8 eyebrows, 7 CTAs, 58 body; 20 img
+  editable texts (outermost h*/p/ul/ol): source 52 / build 52
+  attributes (placeholder/aria-label/title): source 19 / build 9; icons: source 22 / build 17
+root "header"
+  source: 31 text nodes — 0 headings, 1 eyebrows, 17 CTAs, 13 body; 1 img
+  build: 25 text nodes — 0 headings, 1 eyebrows, 17 CTAs, 7 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 10 / build 10; icons: source 11 / build 8
+root "footer"
+  source: 27 text nodes — 1 headings, 0 eyebrows, 22 CTAs, 4 body; 5 img
+  build: 27 text nodes — 1 headings, 0 eyebrows, 22 CTAs, 4 body; 5 img
+  editable texts (outermost h*/p/ul/ol): source 8 / build 8
+  attributes (placeholder/aria-label/title): source 2 / build 3; icons: source 16 / build 16
+
+Findings: 38 (6 structural 🔴)
+Tiers: looks-same 🔴 6 · nothing-lost 🟡 14 · accepted 🟢 0 (owner 0, auto 0) · advisory 18
+  🔴 MISSING CTA [#container-b10391c006]: source cta "Load More" → javascript:void(0) has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING ICON [#container-b10391c006]: source empty icon box (0×0) at "pause" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#container-b10391c006]: source empty icon box (0×0) at "play" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph chevron_left (upspricons, 0×0) at "previous" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph chevron_right (upspricons, 0×0) at "next" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph close (upspricons, 0×0) at "close" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING BODY [#container-b10391c006]: source body "Pause"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#container-b10391c006]: source body "Play"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING ARIA-LABEL [#container-b10391c006]: source <button> aria-label="Pause" has no build <button> with that aria-label (build <button> aria-labels: "Previous", "Next"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#container-b10391c006]: source <button> aria-label="Play" has no build <button> with that aria-label (build <button> aria-labels: "Previous", "Next"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#container-b10391c006]: source <a> aria-label="<h1><b>What Is Shipping Insurance?</b></h1>" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#container-b10391c006]: source <a> aria-label="<h1><b>What are Incoterms and Why Do They Matter" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#container-b10391c006]: source <a> aria-label="<h1><b>How Much Does Cargo Insurance Cost?</b></" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#container-b10391c006]: source <a> aria-label="<h1><b>Out to Sea</b></h1>" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#container-b10391c006]: source <a> aria-label="<h1><b>Protect Your Greatest Investment</b></h1>" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#container-b10391c006]: source <a> aria-label="<h1><b>Stay Ahead of the Claims Game</b></h1>" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#container-b10391c006]: source <a> aria-label="<h1><b>Picture Perfect</b></h1>" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#container-b10391c006]: source <a> aria-label="<h1><b>Supply Chain Risk</b></h1>" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ICON [#container-b10391c006]: source image checkmark.svg (24×24) at "multi-carrier, multi-modal coverage easi" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#container-b10391c006]: source image checkmark.svg (24×24) at "90 days to report concealed damage time " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#container-b10391c006]: source image checkmark.svg (24×24) at "24/7 access to manage claims simplify cl" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 ICON MOVED [#container-b10391c006]: source icon-font glyph chevron_right (upspricons, 24×24) at "<h1><b>what is shipping insurance?</b></" is at "insights to help your business what is s" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#container-b10391c006]: source icon-font glyph chevron_right (upspricons, 24×24) at "<h1><b>what are incoterms and why do the" is at "insights to help your business what are " in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#container-b10391c006]: source icon-font glyph chevron_right (upspricons, 24×24) at "<h1><b>how much does cargo insurance cos" is at "insights to help your business how much " in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#container-b10391c006]: source icon-font glyph chevron_right (upspricons, 0×0) at "<h1><b>out to sea</b></h1>" is at "insights to help your business out to se" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#container-b10391c006]: source icon-font glyph chevron_right (upspricons, 0×0) at "<h1><b>protect your greatest investment<" is at "insights to help your business protect y" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#container-b10391c006]: source icon-font glyph chevron_right (upspricons, 0×0) at "<h1><b>stay ahead of the claims game</b>" is at "insights to help your business stay ahea" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#container-b10391c006]: source icon-font glyph chevron_right (upspricons, 0×0) at "<h1><b>picture perfect</b></h1>" is at "insights to help your business picture p" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#container-b10391c006]: source icon-font glyph chevron_right (upspricons, 0×0) at "<h1><b>supply chain risk</b></h1>" is at "insights to help your business supply ch" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 MISSING BODY [header]: source body "of"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING SR-ONLY TEXT [header]: source body "Previous" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 MISSING BODY [header]: source body "1"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "2"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING SR-ONLY TEXT [header]: source body "Next" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 MISSING SR-ONLY TEXT [header]: source body "close" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 MISSING ARIA-LABEL [header]: source <div> aria-label="Time Sensitive Information from UPS" has no build <div> with that aria-label (build <div> aria-labels: "Search suggestions", "Recent search results"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <nav> aria-label="Legal" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

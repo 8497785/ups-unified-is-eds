@@ -1,0 +1,107 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-11-18T12:26:03.409Z",
+  "origin": "https://main--9ade650b--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "site query index (header search source)",
+   "id": "query-index",
+   "class": "S",
+   "status": "done",
+   "type": "fetch-json",
+   "pass": true,
+   "detail": "200 · 95 rows · keys total,offset,limit,data,columns,:type",
+   "thirdParty": "",
+   "ms": 2202,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header search overlay + typeahead",
+   "id": "header-search",
+   "class": "S",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × header .hdr-search-form input[name=q] (min 1)",
+   "thirdParty": "",
+   "ms": 2160,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header mega-menu, drawer, locale menu",
+   "id": "header-chrome",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "37 × header nav li (min 5)",
+   "thirdParty": "",
+   "ms": 2824,
+   "environmentLimit": null
+  },
+  {
+   "feature": "shipping loss calculator (source AEM form frame)",
+   "id": "loss-calculator",
+   "class": "F",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .loss-calculator (min 1)",
+   "thirdParty": "",
+   "ms": 2516,
+   "environmentLimit": null
+  },
+  {
+   "feature": "story card carousels",
+   "id": "story-card-carousel",
+   "class": "V",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "12 × .story-card-carousel .story (min 3)",
+   "thirdParty": "",
+   "ms": 2808,
+   "environmentLimit": null
+  },
+  {
+   "feature": "archetype pages run without uncaught errors",
+   "id": "no-errors",
+   "class": "A",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 9 page(s)",
+   "thirdParty": "",
+   "ms": 20408,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Delivery Defense ROI savings calculator",
+   "id": "roi-calculator",
+   "class": "F",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "2 × .roi-calculator input (min 1)",
+   "thirdParty": "",
+   "ms": 2253,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (3 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6186,
+   "environmentLimit": null
+  }
+ ]
+}

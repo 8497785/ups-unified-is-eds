@@ -1,0 +1,33 @@
+
+Content diff @ 1440px (profile "generic", roots: #container-5b9b496b44, header, footer)
+root "#container-5b9b496b44"
+  source: 45 text nodes — 9 headings, 3 eyebrows, 4 CTAs, 29 body; 7 img
+  build: 42 text nodes — 6 headings, 3 eyebrows, 4 CTAs, 29 body; 7 img
+  editable texts (outermost h*/p/ul/ol): source 29 / build 26
+  attributes (placeholder/aria-label/title): source 4 / build 8; icons: source 10 / build 12
+root "header"
+  source: 43 text nodes — 0 headings, 6 eyebrows, 33 CTAs, 4 body; 1 img
+  build: 43 text nodes — 0 headings, 6 eyebrows, 33 CTAs, 4 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 9 / build 10; icons: source 10 / build 10
+root "footer"
+  source: 33 text nodes — 1 headings, 0 eyebrows, 24 CTAs, 8 body; 5 img
+  build: 33 text nodes — 1 headings, 0 eyebrows, 24 CTAs, 8 body; 5 img
+  editable texts (outermost h*/p/ul/ol): source 12 / build 12
+  attributes (placeholder/aria-label/title): source 2 / build 3; icons: source 19 / build 19
+
+Findings: 13 (3 structural 🔴)
+Tiers: looks-same 🔴 3 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 10
+  🔴 MISSING HEADING [#container-5b9b496b44]: source heading "Your Supply Chain is Only as Strong as Your Last" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING HEADING [#container-5b9b496b44]: source heading "The Cost of One Failed Shipment" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING HEADING [#container-5b9b496b44]: source heading "How InsureShield® Protection Works for Your Busi" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🟡 EDITABLE COUNT [#container-5b9b496b44]: build has 26 outermost editable element(s) vs 29 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 EXTRA ARIA-LABEL [#container-5b9b496b44]: build <button> aria-label="Previous" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#container-5b9b496b44]: build <button> aria-label="Go to slide" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#container-5b9b496b44]: build <button> aria-label="Go to slide" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#container-5b9b496b44]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON DIFF [#container-5b9b496b44]: source icon-font glyph check_circle (upspricons, 0×0) vs build empty icon box (0×0) at "success thank you for your information. ". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 EXTRA ICON [#container-5b9b496b44]: build icon-font glyph chevron_left (upspricons, 0×0) at "previous" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#container-5b9b496b44]: build icon-font glyph chevron_right (upspricons, 0×0) at "next" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <nav> aria-label="Legal" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

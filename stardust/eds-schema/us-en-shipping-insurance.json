@@ -1,0 +1,918 @@
+{
+ "source": "http://127.0.0.1:3107/stardust/prototypes/us-en-shipping-insurance-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "sh-hero",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Shipping insurance for"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "or"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": ", ,"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "lost"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "damaged"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "shipments"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "stolen"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "InsureShield® Shipping Insurance helps businesses recover faster after covered loss or damage to a shipment. Explore options for UPS packages, multi-carrier shipments, LTL freight, and international freight."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Talk to an expert"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "What’s your average package value?"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Package value"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "$50,000 to $50,000+"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "$100 to $1,000"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Handles can pass one another. Drag the selected band to move the whole range. Focus it and use arrow keys, Page Up or Page Down, Home or End."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "$100"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "$1,000"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Estimated premium per package"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "$400.00 to $525.00+"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "$0.80 to $10.50"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Estimate monthly premium"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Estimate only. Actual pricing and availability depend on the shipment, customer, coverage option, and applicable policy terms."
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "SPAN.sh-hero__line",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.sh-slider__group",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "sh-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Carrier declared value and shipping insurance work differently"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "What’s covered?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "What’s covered?"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Carrier liability"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Shipping insurance"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "General shipping coverage"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Carrier liability"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Carrier liability depends on the carrier’s governing terms and circumstances"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Shipping insurance"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Full declared invoice value, shipping costs included"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Porch piracy theft"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Carrier liability"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Typically coverage ends at the delivery scan"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Shipping insurance"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Protection beyond the delivery scan"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Time-sensitive goods"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Carrier liability"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Delay, spoilage, and temperature damage are commonly excluded"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Shipping insurance"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Coverage customized for eligible delay, spoilage, and temperature damage"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Reshipment speed"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Carrier liability"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Expedited replacement shipping costs are generally not included"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Shipping insurance"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Helps cover expedited reshipment so customers receive replacements sooner*"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "High-value shipments"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Carrier liability"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Declared value limits and commodity exclusions"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Shipping insurance"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Coverage built for high-value and specialty goods"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Claims process"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Carrier liability"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Individual carrier claims processes that can take weeks"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Shipping insurance"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "97% of claims processed within 5 days*"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "TH.sh-compare__head",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "TR.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 5
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "TD.sh-compare__value",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "TD.sh-compare__value",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "TD.sh-compare__value",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "TD.sh-compare__value",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "TD.sh-compare__value",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "TD.sh-compare__value",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "sh-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "What makes us stand out against competitors"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "1M"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Packages"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Trusted insurance provider"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "62M"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "packages insured in 2025*"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "As a trusted insurance provider, UPS Capital Insurance Agency, Inc. is backed by AA-rated insurance capacity from one of the world's leading global insurers"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Multi-carrier, multi-modal"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "$85B"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "global insured value in 2025*"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Insure eligible shipments across all parcel, ocean, and freight carriers, including UPS, FedEx, DHL, and USPS."
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Simpler insurance claims"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "$132M"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "in claims paid in 2025*"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "File insurance claims online across carriers, check their status anytime, and keep recovery moving. Most claims are paid in days, not weeks."
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.sh-tile",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 8
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "sh-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Benefits of InsureShield shipping insurance"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Comprehensive protection"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Coverage for insured shipments, including loss, damage, and porch piracy."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Financial recovery"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Reimbursement up to the full sales value, including shipping costs."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Peace of mind"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Apply, review or add protection where it matters most."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Reliable recovery"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Coverage for expedited reshipping when shipping mishaps occur.*"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Carrier liability vs shipping insurance",
+     "href": "https://www.insureshield.com/us/en/resources/insights/carrier-liability-versus-insurance.html?utm_source=onsite&utm_medium=shippinginsurancev2&utm_content=benefits"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "sh-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Connect InsureShield to the platforms you already ship with"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Turn on shipping insurance from the tools you use today. Connect through a marketplace app, or build it in with our API and webhooks."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Integrations"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.sh-tile",
+     "count": 6,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "sh-section",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Related solutions"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Protect ecommerce growth with CommerceShield™",
+     "href": "https://www.insureshield.com/us/en/solutions/commerceshield.html?utm_source=onsite&utm_medium=shippinginsurancev2&utm_content=card"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Use order risk signals and UPS delivery intelligence to make better-informed fulfillment decisions and address eligible chargeback exposure. API-ready, real-time risk scoring."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Fraud prevention"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Dispute evidence"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Risk scoring"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Learn more"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Protect high-value goods with Parcel Pro®",
+     "href": "https://www.parcelpro.com/us/en/home.html?utm_source=onsite&utm_medium=shippinginsurancev2&utm_content=card"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Ship valuable goods with specialized shipping, embedded insurance, risk controls, monitoring, and claims support in one Parcel Pro web application."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "High-value goods"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Embedded insurance"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Risk controls"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Learn more"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.sh-tile",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 6
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "sh-section",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Stories and resources"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "See how InsureShield shipping insurance works and how it enables a better customer experience."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "See all resources",
+     "href": "https://www.insureshield.com/us/en/resources/insights.html?utm_source=onsite&utm_medium=shippinginsurancev2"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Customer story"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "RAE Solutions, LLC grows customer satisfaction",
+     "href": "https://www.insureshield.com/us/en/resources/customer-stories/RAE-Solutions.html?utm_source=onsite&utm_medium=shippinginsurancev2&utm_content=card"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Consumer-elected protection provides peace of mind for company and its growing customer base."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Read the story"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Customer story"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Proof keeps ice cream frozen & customers happy with InsureShield protection",
+     "href": "https://www.insureshield.com/us/en/resources/customer-stories/Proof.html?utm_source=onsite&utm_medium=shippinginsurancev2&utm_content=card"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "How Proof protects alcohol-infused ice cream shipments with shipping insurance designed for perishables."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Read the story"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Article"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "What is shipping insurance?",
+     "href": "https://www.insureshield.com/us/en/resources/insights/what-is-shipping-insurance.html?utm_source=onsite&utm_medium=shippinginsurancev2&utm_content=card"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "What it covers, what it costs, and when a business needs it."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Read the article"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Article"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Carrier liability vs shipping insurance",
+     "href": "https://www.insureshield.com/us/en/resources/insights/carrier-liability-versus-insurance.html?utm_source=onsite&utm_medium=shippinginsurancev2&utm_content=card"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Why a carrier’s liability is not the same as insuring the value of what you ship."
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Read the article"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.sh-tile",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 4
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "sh-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Common questions about shipping insurance"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Learn how shipping insurance works, what may be covered, and which option could fit your business."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "What is InsureShield® shipping insurance?"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "InsureShield® is a shipping insurance program underwritten through UPS Capital Insurance Agency, Inc. It covers the full insured value of your shipments against loss, damage, and porch pirated theft (across UPS®, FedEx®, DHL®, USPS®, and other LTL and multimodal carriers) with most claims resolved within 5 business days."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "What does InsureShield® shipping insurance cover?"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "InsureShield® covers loss, damage, and porch piracy up to the full sales value of your shipment, including original shipping costs. Expedited reshipping reimbursement is also available for qualifying shipments. Coverage is available for domestic and international shipments depending on jurisdiction."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "How is InsureShield® different from carrier liability?"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Carrier liability, such as UPS® or FedEx® declared value, is not insurance. It is governed by each carrier’s published terms, limits, and exclusions. InsureShield® is shipping insurance that provides broader protection for eligible shipments and can be customized to meet your business’s needs, including specialty coverage options. Most claims are paid in days, not weeks. Coverage and claim payments are subject to the applicable policy terms."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Can I offer InsureShield® protection at checkout?"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Yes. Customers can opt into InsureShield® shipping protection when they complete their purchase. The cost of coverage is presented separately at checkout and paid by the customer, while your business gains another way to address eligible lost or damaged shipments. It integrates easily with Shopify carts and other ecommerce platforms via API."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "How do I file a claim?"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Claims can be filed online through the InsureShield® claims portal. You will need the shipment tracking number, the insured value, and documentation of the loss or damage (photos, carrier notification, etc.). Most claims are processed in a matter of days. InsureShield® customers have access to direct communication with a claims specialist."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Is coverage available internationally?"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Yes, InsureShield® shipping insurance supports eligible domestic and international shipments. InsureShield® shipping insurance may be available to eligible businesses in Ontario, with availability in additional Canadian provinces planned for 2027. Options are also available in select international markets, including the United Kingdom, France, Germany, and Hong Kong. Availability varies by jurisdiction, shipping route, shipment type, and applicable policy terms."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 14,
+   "repeats": [
+    {
+     "unitSelector": "DIV.sh-faq__item",
+     "count": 6,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

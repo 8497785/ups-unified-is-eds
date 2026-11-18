@@ -1,0 +1,567 @@
+[live-session] waiting to pace live navigations to www.insureshield.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/index-360/vdiff-confirm/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 4554,
+  "textLen": 1771,
+  "images": [
+   {
+    "src": "logo_shield?$Image_Preset_Mobile$",
+    "natural": "62x62",
+    "rendered": "56x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Secure%20Commerce%20-%20Hero%20Animation",
+    "natural": "720x312",
+    "rendered": "360x156",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "packagedashboard?$UPSer_Preset$&wid=256&hei=144&fmt=png-alpha&fit=constrain",
+    "natural": "254x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "packagetruck?$UPSer_Preset$&wid=256&hei=144&fmt=png-alpha&fit=constrain",
+    "natural": "254x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "packageshield?$UPSer_Preset$&wid=256&hei=144&fmt=png-alpha&fit=constrain",
+    "natural": "254x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo_shield?$UPSer_Preset$&wid=256&hei=144&fmt=png-alpha&fit=constrain",
+    "natural": "62x62",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ParcelPro_favicon?$UPSer_Preset$&wid=256&hei=144&fmt=png-alpha&fit=constrain",
+    "natural": "144x144",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo_shield?$UPSer_Preset$&wid=256&hei=144&fmt=png-alpha&fit=constrain",
+    "natural": "62x62",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1Aftership.png",
+    "natural": "60x12",
+    "rendered": "90x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2miva.png",
+    "natural": "450x250",
+    "rendered": "90x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "3buru.png",
+    "natural": "558x90",
+    "rendered": "90x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6Proof.png",
+    "natural": "58x24",
+    "rendered": "90x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-facebook",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-instagram",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-x",
+    "natural": "0x0",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "social-linkedin",
+    "natural": "0x0",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "social-youtube",
+    "natural": "0x0",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "1187733~UPS_Flat_Shield_2Color_RGB.original.png",
+    "natural": "425x480",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "464526.gif",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=187194318&Ver=2&mid=a370b306-59af-4c87-9b32-294ca1677591&bo=2&sid=5e79b050e2c011f1836949d77ef27f00&vid=5e799730e2c011f19d691d813d056856&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=UPS%C2%AE%20Secure%20Commerce%20%7C%20InsureShield&p=https%3A%2F%2Fwww.insureshield.com%2Fus%2Fen%2Fsecurecommerce.html&r=&lt=3781&evt=pageLoad&sv=2&asc=G&cdb=AQER&rn=95447",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "UPS®\nSecure Commerce",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Strengthen trust and make more c",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Why businesses trust UPS Secure ",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Protect orders, margins, and cus",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Trusted by businesses that ship,",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Not sure which solution fits you",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Recent search results",
+    "color": "rgb(18, 18, 18)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "cmp-teaser__title",
+    "width": 229,
+    "left": 48
+   },
+   {
+    "sel": "cmp-teaser__description",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "cmp-title",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "description",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "description",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "description",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "cmp-title",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "cmp-title",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "description",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "description",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "description",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "cmp-title",
+    "width": 296,
+    "left": 32
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 4554,
+  "textLen": 1767,
+  "images": [
+   {
+    "src": "logo_shield?$Image_Preset_Mobile$",
+    "natural": "62x62",
+    "rendered": "56x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Secure%20Commerce%20-%20Hero%20Animation",
+    "natural": "720x312",
+    "rendered": "360x156",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "packagedashboard?$UPSer_Preset$&wid=256&hei=144&fmt=png-alpha&fit=constrain",
+    "natural": "254x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "packagetruck?$UPSer_Preset$&wid=256&hei=144&fmt=png-alpha&fit=constrain",
+    "natural": "254x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "packageshield?$UPSer_Preset$&wid=256&hei=144&fmt=png-alpha&fit=constrain",
+    "natural": "254x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo_shield?$UPSer_Preset$&wid=256&hei=144&fmt=png-alpha&fit=constrain",
+    "natural": "62x62",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ParcelPro_favicon?$UPSer_Preset$&wid=256&hei=144&fmt=png-alpha&fit=constrain",
+    "natural": "144x144",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo_shield?$UPSer_Preset$&wid=256&hei=144&fmt=png-alpha&fit=constrain",
+    "natural": "62x62",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1Aftership.png",
+    "natural": "120x24",
+    "rendered": "90x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2miva.png",
+    "natural": "900x500",
+    "rendered": "90x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "3buru.png",
+    "natural": "1116x180",
+    "rendered": "90x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6Proof.png",
+    "natural": "117x48",
+    "rendered": "90x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-facebook",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-instagram",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-x",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-linkedin",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-youtube",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "UPS®Secure Commerce",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Strengthen trust and make more c",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Why businesses trust UPS Secure ",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Protect orders, margins, and cus",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Trusted by businesses that ship,",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Not sure which solution fits you",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Recent search results",
+    "color": "rgb(18, 18, 18)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "hphero__title",
+    "width": 229,
+    "left": 48
+   },
+   {
+    "sel": "hphero__desc",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "sec-title__inner",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "pcard__body",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "pcard__body",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "pcard__body",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "sec-title__inner",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "sec-title__inner",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "pcard__body",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "pcard__body",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "pcard__body",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "sec-title__inner",
+    "width": 296,
+    "left": 32
+   }
+  ]
+ }
+}

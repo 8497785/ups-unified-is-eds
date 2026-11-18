@@ -1,0 +1,658 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-17T22:30:05.600Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.insureshield.com/us/en/about/contact-us.html",
+  "at": "2026-11-17T22:21:11.545Z",
+  "docH": 4460
+ },
+ "eds": {
+  "url": "http://localhost:8791/us-en-about-contact-us-html-proposed.html",
+  "at": "2026-11-17T22:30:05.414Z",
+  "docH": 4460
+ },
+ "results": [
+  {
+   "sel": ".pathways__list__item__card=.paths__item",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.pathways__list.row > div.pathways__list__item.col-md-6 > div#pathways-"
+     },
+     "eds": {
+      "path": "section.container.paths > div.row.paths__list > div.col-md-6.col-lg-4"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "shield icon",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 81,
+        "w": 72,
+        "h": 19
+       },
+       "eds": {
+        "x": 32,
+        "y": 24,
+        "w": 72,
+        "h": 72,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 8,
+       "dy": -57,
+       "dw": 0,
+       "dh": 53,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:insureshield® shipping insurance solutio",
+       "role": "text",
+       "text": "insureshield® shipping insurance solutions",
+       "edsText": "insureshield® shipping insurance solutions",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 112,
+        "w": 248,
+        "h": 48
+       },
+       "eds": {
+        "x": 32,
+        "y": 112,
+        "w": 248,
+        "h": 48,
+        "sel": "p.pcard__title",
+        "role": "text"
+       },
+       "dx": 8,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      },
+      {
+       "key": "text:whether you ship packages, cargo, or per",
+       "role": "text",
+       "text": "whether you ship packages, cargo, or perishable goods, we've",
+       "edsText": "whether you ship packages, cargo, or perishable goods, we've",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 168,
+        "w": 248,
+        "h": 96
+       },
+       "eds": {
+        "x": 32,
+        "y": 168,
+        "w": 248,
+        "h": 96,
+        "sel": "p.pcard__text",
+        "role": "text"
+       },
+       "dx": 8,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:explore solutions",
+       "role": "link",
+       "text": "explore solutions",
+       "edsText": "explore solutions",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 280,
+        "w": 248,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 280,
+        "w": 151,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 8,
+       "dy": 0,
+       "dw": -97,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img.lazyloaded",
+       "text": "shield icon",
+       "boxed": false,
+       "x": 24,
+       "y": 24,
+       "w": 72,
+       "h": 72,
+       "absY": 2000,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(18, 18, 18)",
+       "bg": null,
+       "position": "static",
+       "key": "image:shield icon"
+      }
+     ],
+     "extra": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.pcard",
+       "text": "",
+       "boxed": true,
+       "x": 8,
+       "y": 0,
+       "w": 296,
+       "h": 328,
+       "absY": 1976,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(18, 18, 18)",
+       "bg": "rgb(255, 255, 255)",
+       "position": "static",
+       "key": "box:div.pcard#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 1976,
+       "w": 296,
+       "h": 328
+      },
+      "eds": {
+       "x": 24,
+       "y": 1976,
+       "w": 312,
+       "h": 328
+      },
+      "dx": -8,
+      "dy": 0,
+      "dw": 16,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 0,
+      "off": 4,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.pathways__list.row > div.pathways__list__item.col-md-6 > div#pathways-"
+     },
+     "eds": {
+      "path": "section.container.paths > div.row.paths__list > div.col-md-6.col-lg-4"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "laptop with a checkmark",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 81,
+        "w": 72,
+        "h": 19
+       },
+       "eds": {
+        "x": 32,
+        "y": 24,
+        "w": 72,
+        "h": 72,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 8,
+       "dy": -57,
+       "dw": 0,
+       "dh": 53,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:file a claim",
+       "role": "text",
+       "text": "file a claim",
+       "edsText": "file a claim",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 112,
+        "w": 248,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 112,
+        "w": 248,
+        "h": 24,
+        "sel": "p.pcard__title",
+        "role": "text"
+       },
+       "dx": 8,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      },
+      {
+       "key": "text:log into the insureshield® online portal",
+       "role": "text",
+       "text": "log into the insureshield® online portal, provide the detail",
+       "edsText": "log into the insureshield® online portal, provide the detail",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 144,
+        "w": 248,
+        "h": 72
+       },
+       "eds": {
+        "x": 32,
+        "y": 144,
+        "w": 248,
+        "h": 72,
+        "sel": "p.pcard__text",
+        "role": "text"
+       },
+       "dx": 8,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:file a claim",
+       "role": "link",
+       "text": "file a claim",
+       "edsText": "file a claim",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 232,
+        "w": 248,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 232,
+        "w": 109,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 8,
+       "dy": 0,
+       "dw": -139,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img.lazyloaded",
+       "text": "laptop with a checkmark",
+       "boxed": false,
+       "x": 24,
+       "y": 24,
+       "w": 72,
+       "h": 72,
+       "absY": 2348,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(18, 18, 18)",
+       "bg": null,
+       "position": "static",
+       "key": "image:laptop with a checkmark"
+      }
+     ],
+     "extra": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.pcard",
+       "text": "",
+       "boxed": true,
+       "x": 8,
+       "y": 0,
+       "w": 296,
+       "h": 280,
+       "absY": 2324,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(18, 18, 18)",
+       "bg": "rgb(255, 255, 255)",
+       "position": "static",
+       "key": "box:div.pcard#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 2324,
+       "w": 296,
+       "h": 280
+      },
+      "eds": {
+       "x": 24,
+       "y": 2324,
+       "w": 312,
+       "h": 280
+      },
+      "dx": -8,
+      "dy": 0,
+      "dw": 16,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 0,
+      "off": 4,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.pathways__list.row > div.pathways__list__item.col-md-6 > div#pathways-"
+     },
+     "eds": {
+      "path": "section.container.paths > div.row.paths__list > div.col-md-6.col-lg-4"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "line chart with stars",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 81,
+        "w": 72,
+        "h": 19
+       },
+       "eds": {
+        "x": 32,
+        "y": 24,
+        "w": 72,
+        "h": 72,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 8,
+       "dy": -57,
+       "dw": 0,
+       "dh": 53,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:help & support",
+       "role": "text",
+       "text": "help & support",
+       "edsText": "help & support",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 112,
+        "w": 248,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 112,
+        "w": 248,
+        "h": 24,
+        "sel": "p.pcard__title",
+        "role": "text"
+       },
+       "dx": 8,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      },
+      {
+       "key": "text:visit our frequently asked questions or ",
+       "role": "text",
+       "text": "visit our frequently asked questions or give us a call if yo",
+       "edsText": "visit our frequently asked questions or give us a call if yo",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 144,
+        "w": 248,
+        "h": 72
+       },
+       "eds": {
+        "x": 32,
+        "y": 144,
+        "w": 248,
+        "h": 72,
+        "sel": "p.pcard__text",
+        "role": "text"
+       },
+       "dx": 8,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:help & support",
+       "role": "link",
+       "text": "help & support",
+       "edsText": "help & support",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 232,
+        "w": 248,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 232,
+        "w": 134,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 8,
+       "dy": 0,
+       "dw": -114,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img.lazyloaded",
+       "text": "line chart with stars",
+       "boxed": false,
+       "x": 24,
+       "y": 24,
+       "w": 72,
+       "h": 72,
+       "absY": 2648,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(18, 18, 18)",
+       "bg": null,
+       "position": "static",
+       "key": "image:line chart with stars"
+      }
+     ],
+     "extra": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.pcard",
+       "text": "",
+       "boxed": true,
+       "x": 8,
+       "y": 0,
+       "w": 296,
+       "h": 280,
+       "absY": 2624,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(18, 18, 18)",
+       "bg": "rgb(255, 255, 255)",
+       "position": "static",
+       "key": "box:div.pcard#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 2624,
+       "w": 296,
+       "h": 280
+      },
+      "eds": {
+       "x": 24,
+       "y": 2624,
+       "w": 312,
+       "h": 280
+      },
+      "dx": -8,
+      "dy": 0,
+      "dw": 16,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 0,
+      "off": 4,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 1,
+      "unitOff": true
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 3,
+  "within": 0,
+  "off": 12,
+  "hidden": 0,
+  "missing": 3,
+  "errors": 0,
+  "requiredOff": 15
+ }
+}

@@ -1,0 +1,143 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-17T23:42:47.495Z",
+ "source": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html",
+ "build": "https://main--9ade650b--aemcoder.aem.page/us/en/legal/c0-chrome-shell",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 2,
+  "warn": 12,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "link-missing@390 link",
+   "width": 390,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /us/en/securecommerce not in the build header"
+  },
+  {
+   "key": "link-href@390 Toggle navigation Menu [click]",
+   "width": 390,
+   "path": "Toggle navigation Menu",
+   "action": "click",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "1 link(s) point elsewhere: Solutions: /us/en/legal/terms-and-conditions-upscia → /us/en/legal/c0-chrome-shell"
+  },
+  {
+   "key": "link-href@390 Toggle navigation Menu > United States - English [click]",
+   "width": 390,
+   "path": "Toggle navigation Menu > United States - English",
+   "action": "click",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "2 link(s) point elsewhere: United States - English: /us/en/legal/terms-and-conditions-upscia → /us/en/legal/c0-chrome-shell; Estados Unidos - Español: /us/es/legal/terms-and-conditions-upscia → /us/es/home"
+  },
+  {
+   "key": "motion@390 Search Toggle [click]",
+   "width": 390,
+   "path": "Search Toggle",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates slideDownLight; the build does not"
+  },
+  {
+   "key": "motion@390 Search Toggle > close [click]",
+   "width": 390,
+   "path": "Search Toggle > close",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates slideUpLight; the build does not"
+  },
+  {
+   "key": "state-missing@390 search [type]",
+   "width": 390,
+   "path": "search",
+   "id": "state-missing",
+   "action": "type",
+   "severity": "error",
+   "detail": "typing \"quote\" shows 5 suggestion(s) on the source, none on the build"
+  },
+  {
+   "key": "link-href@390 search [submit]",
+   "width": 390,
+   "path": "search",
+   "id": "link-href",
+   "action": "submit",
+   "severity": "warn",
+   "detail": "submits to /content/insureshield/us/en/site-search?q={q} on the source, /us/en/site-search?q={q} on the build"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /us/en/securecommerce not in the build header"
+  },
+  {
+   "key": "link-href@1440 United States - English [click]",
+   "width": 1440,
+   "path": "United States - English",
+   "action": "click",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "2 link(s) point elsewhere: United States - English: /us/en/legal/terms-and-conditions-upscia → /us/en/legal/c0-chrome-shell; Estados Unidos - Español: /us/es/legal/terms-and-conditions-upscia → /us/es/home"
+  },
+  {
+   "key": "motion@1440 Search Toggle [click]",
+   "width": 1440,
+   "path": "Search Toggle",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates slideInLight; the build does not"
+  },
+  {
+   "key": "link-href@1440 Search Toggle > close [click]",
+   "width": 1440,
+   "path": "Search Toggle > close",
+   "action": "click",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "1 link(s) point elsewhere: Solutions: /us/en/legal/terms-and-conditions-upscia → /us/en/legal/c0-chrome-shell"
+  },
+  {
+   "key": "motion@1440 Search Toggle > close [click]",
+   "width": 1440,
+   "path": "Search Toggle > close",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates slideOutLight; the build does not"
+  },
+  {
+   "key": "state-missing@1440 search [type]",
+   "width": 1440,
+   "path": "search",
+   "id": "state-missing",
+   "action": "type",
+   "severity": "error",
+   "detail": "typing \"quote\" shows 5 suggestion(s) on the source, none on the build"
+  },
+  {
+   "key": "link-href@1440 search [submit]",
+   "width": 1440,
+   "path": "search",
+   "id": "link-href",
+   "action": "submit",
+   "severity": "warn",
+   "detail": "submits to /content/insureshield/us/en/site-search?q={q} on the source, /us/en/site-search?q={q} on the build"
+  }
+ ]
+}

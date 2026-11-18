@@ -1,0 +1,2982 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-11-18T04:17:39Z",
+    "stardustVersion": "0.39.4"
+  },
+  "site": {
+    "originUrl": "https://www.insureshield.com",
+    "deployUrl": null,
+    "extractedAt": "2026-11-17T20:00:32.663Z",
+    "pageCap": null,
+    "totalDiscovered": 100,
+    "crawled": 96,
+    "captureGaps": [],
+    "notCaptured": [
+      {
+        "url": "https://www.insureshield.com/it.html",
+        "reason": "HTTP 404 on source"
+      },
+      {
+        "url": "https://www.insureshield.com/gb.html",
+        "reason": "HTTP 404 on source"
+      },
+      {
+        "url": "https://www.insureshield.com/ca.html",
+        "reason": "HTTP 404 on source"
+      },
+      {
+        "url": "https://www.insureshield.com/fr.html",
+        "reason": "HTTP 404 on source"
+      }
+    ]
+  },
+  "direction": {
+    "resolvedAt": "2026-11-17T20:57:57.868Z",
+    "phrase": "same-design migration (replica, hands-off)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim"
+  },
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-17T20:00:32.663Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "ca-en-about-html",
+      "url": "https://www.insureshield.com/ca/en/about.html",
+      "title": "Insuring Better Shipping Experiences in Canada | InsureShield | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:57:56.231Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-en-about-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-en-claims-html",
+      "url": "https://www.insureshield.com/ca/en/claims.html",
+      "title": "File a Claim | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:58:04.808Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-en-claims-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-en-home-html",
+      "url": "https://www.insureshield.com/ca/en/home.html",
+      "title": "InsureShield® Shipping Insurance | InsureShield",
+      "type": "locale-home",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:57:26.870Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-en-home-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-en-partners-html",
+      "url": "https://www.insureshield.com/ca/en/partners.html",
+      "title": "Learn About Our Partner Network | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:57:40.299Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-en-partners-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-en-resources-html",
+      "url": "https://www.insureshield.com/ca/en/resources.html",
+      "title": "Tips & Insights For Your Business | InsureShield",
+      "type": "listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:57:48.186Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-en-resources-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-en-shipping-insurance-html",
+      "url": "https://www.insureshield.com/ca/en/shipping-insurance.html",
+      "title": "Shipping Insurance | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:57:32.639Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-en-shipping-insurance-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-de-cargo-insurance-html",
+      "url": "https://www.insureshield.com/de/de/cargo-insurance.html",
+      "title": "Warentransportversicherung | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:58:29.727Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-de-cargo-insurance-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-de-claims-html",
+      "url": "https://www.insureshield.com/de/de/claims.html",
+      "title": "Schadenforderungen | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:58:30.170Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-de-claims-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-de-home-html",
+      "url": "https://www.insureshield.com/de/de/home.html",
+      "title": "InsureShield® Transport- versicherung | InsureShield",
+      "type": "locale-home",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:58:21.706Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-de-home-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-en-about-html",
+      "url": "https://www.insureshield.com/de/en/about.html",
+      "title": "Insuring Better Shipping Experiences | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:58:49.997Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-en-about-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-en-alerts-html",
+      "url": "https://www.insureshield.com/de/en/alerts.html",
+      "title": "Alerts | InsureShield",
+      "type": "shell",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:58:20.907Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T04:17:38Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-en-alerts-html.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/de/en/alerts.html"
+    },
+    {
+      "slug": "de-en-cargo-insurance-html",
+      "url": "https://www.insureshield.com/de/en/cargo-insurance.html",
+      "title": "Cargo Insurance | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:58:04.811Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-en-cargo-insurance-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-en-claims-html",
+      "url": "https://www.insureshield.com/de/en/claims.html",
+      "title": "File a Claim | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:58:11.710Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-en-claims-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-en-home-html",
+      "url": "https://www.insureshield.com/de/en/home.html",
+      "title": "InsureShield® Shipping Insurance | InsureShield",
+      "type": "locale-home",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:58:03.814Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-17T21:59:36Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-17T22:34:47Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-en-home-html.json",
+      "prototypePath": "stardust/prototypes/de-en-home-html-proposed.html",
+      "migratedPath": "stardust/migrated/de/en/home.html"
+    },
+    {
+      "slug": "de-en-partners-html",
+      "url": "https://www.insureshield.com/de/en/partners.html",
+      "title": "Learn About Our Partner Network | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:58:13.193Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-en-partners-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-en-resources-html",
+      "url": "https://www.insureshield.com/de/en/resources.html",
+      "title": "Tips & Insights For Your Business | InsureShield",
+      "type": "listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:58:12.681Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-en-resources-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "gb-en-about-html",
+      "url": "https://www.insureshield.com/gb/en/about.html",
+      "title": "Insuring Better Shipping Experiences in the United Kingdom | InsureShield | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:57:18.643Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/gb-en-about-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "gb-en-alerts-html",
+      "url": "https://www.insureshield.com/gb/en/alerts.html",
+      "title": "Alerts | InsureShield",
+      "type": "shell",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:57:55.448Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T04:17:38Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/gb-en-alerts-html.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/gb/en/alerts.html"
+    },
+    {
+      "slug": "gb-en-cargo-insurance-html",
+      "url": "https://www.insureshield.com/gb/en/cargo-insurance.html",
+      "title": "Cargo Insurance Services | Freight Insurance | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:57:09.924Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/gb-en-cargo-insurance-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "gb-en-claims-html",
+      "url": "https://www.insureshield.com/gb/en/claims.html",
+      "title": "File a Cargo Insurance Claim | Online Claims Portal | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:57:16.312Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/gb-en-claims-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "gb-en-home-html",
+      "url": "https://www.insureshield.com/gb/en/home.html",
+      "title": "Business Shipping Insurance | Cargo Insurance Services | InsureShield",
+      "type": "locale-home",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:57:09.005Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/gb-en-home-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "gb-en-other-ups-sites-html",
+      "url": "https://www.insureshield.com/gb/en/other-ups-sites.html",
+      "title": "Other UPS Sites | InsureShield",
+      "type": "shell",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:57:23.940Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T04:17:38Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/gb-en-other-ups-sites-html.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/gb/en/other-ups-sites.html"
+    },
+    {
+      "slug": "gb-en-resources-html",
+      "url": "https://www.insureshield.com/gb/en/resources.html",
+      "title": "Insurance Resources: Tips For Your Business | InsureShield",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:57:17.054Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-17T21:49:30Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-17T22:34:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/gb-en-resources-html.json",
+      "prototypePath": "stardust/prototypes/gb-en-resources-html-proposed.html",
+      "migratedPath": "stardust/migrated/gb/en/resources.html"
+    },
+    {
+      "slug": "index",
+      "url": "https://www.insureshield.com/",
+      "title": "UPS® Secure Commerce | InsureShield",
+      "type": "home",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:52:07.888Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-17T21:46:09Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-17T22:34:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": "stardust/migrated/index.html"
+    },
+    {
+      "slug": "it-en-about-html",
+      "url": "https://www.insureshield.com/it/en/about.html",
+      "title": "Insuring Better Shipping Experiences | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:56:37.499Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/it-en-about-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "it-en-alerts-html",
+      "url": "https://www.insureshield.com/it/en/alerts.html",
+      "title": "Alerts | InsureShield",
+      "type": "shell",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:57:08.168Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T04:17:38Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/it-en-alerts-html.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/it/en/alerts.html"
+    },
+    {
+      "slug": "it-en-cargo-insurance-html",
+      "url": "https://www.insureshield.com/it/en/cargo-insurance.html",
+      "title": "Cargo Insurance | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:56:29.860Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/it-en-cargo-insurance-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "it-en-claims-html",
+      "url": "https://www.insureshield.com/it/en/claims.html",
+      "title": "File a Claim | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:56:30.498Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/it-en-claims-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "it-en-home-html",
+      "url": "https://www.insureshield.com/it/en/home.html",
+      "title": "InsureShield® Shipping Insurance | InsureShield",
+      "type": "locale-home",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:56:27.899Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/it-en-home-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "it-en-resources-html",
+      "url": "https://www.insureshield.com/it/en/resources.html",
+      "title": "Tips & Insights For Your Business | InsureShield",
+      "type": "listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:56:37.497Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/it-en-resources-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "it-it-about-html",
+      "url": "https://www.insureshield.com/it/it/about.html",
+      "title": "Scopri di più sulla nostra storia | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:57:00.532Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/it-it-about-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "it-it-alerts-html",
+      "url": "https://www.insureshield.com/it/it/alerts.html",
+      "title": "Alerts | InsureShield",
+      "type": "shell",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:57:01.890Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T04:17:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/it-it-alerts-html.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/it/it/alerts.html"
+    },
+    {
+      "slug": "it-it-cargo-insurance-html",
+      "url": "https://www.insureshield.com/it/it/cargo-insurance.html",
+      "title": "Assicurazione del carico | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:56:46.873Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/it-it-cargo-insurance-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "it-it-claims-html",
+      "url": "https://www.insureshield.com/it/it/claims.html",
+      "title": "Reclami | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:56:53.019Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/it-it-claims-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "it-it-home-html",
+      "url": "https://www.insureshield.com/it/it/home.html",
+      "title": "Assicurazione sulla spedizione InsureShield® | InsureShield",
+      "type": "locale-home",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:56:44.859Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/it-it-home-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "it-it-resources-html",
+      "url": "https://www.insureshield.com/it/it/resources.html",
+      "title": "Suggerimenti e approfondimenti per il tuo business | InsureShield",
+      "type": "listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:56:54.952Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/it-it-resources-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-about-announcements-html",
+      "url": "https://www.insureshield.com/us/en/about/announcements.html",
+      "title": "Announcements | InsureShield",
+      "type": "listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:54:21.862Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-about-announcements-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-about-contact-us-html",
+      "url": "https://www.insureshield.com/us/en/about/contact-us.html",
+      "title": "Contact Us For Help and Services | InsureShield",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:54:37.414Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-17T22:02:05Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-17T22:34:47Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-about-contact-us-html.json",
+      "prototypePath": "stardust/prototypes/us-en-about-contact-us-html-proposed.html",
+      "migratedPath": "stardust/migrated/us/en/about/contact-us.html"
+    },
+    {
+      "slug": "us-en-about-html",
+      "url": "https://www.insureshield.com/us/en/about.html",
+      "title": "Insuring Better Shipping Experiences | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:52:18.360Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-about-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-about-our-locations-html",
+      "url": "https://www.insureshield.com/us/en/about/our-locations.html",
+      "title": "Product Availability | InsureShield",
+      "type": "legal",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:54:29.338Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-about-our-locations-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-claims-channel-partners-claims-html",
+      "url": "https://www.insureshield.com/us/en/claims/channel-partners-claims.html",
+      "title": "InsureShield® Partner Claims Portal | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:48.705Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-claims-channel-partners-claims-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-claims-html",
+      "url": "https://www.insureshield.com/us/en/claims.html",
+      "title": "Effortless Claims Process | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:52:10.785Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-claims-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-claims-insureshield-ups-claims-support-html",
+      "url": "https://www.insureshield.com/us/en/claims/insureshield-ups-claims-support.html",
+      "title": "Claims Made Easy | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:48.701Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-claims-insureshield-ups-claims-support-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-customer-communications-confirm-contact-information-html",
+      "url": "https://www.insureshield.com/us/en/customer-communications/confirm-contact-information.html",
+      "title": "Update Contact Information | InsureShield",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:55:28.768Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T03:56:57Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-customer-communications-confirm-contact-information-html.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/us/en/customer-communications/confirm-contact-information.html"
+    },
+    {
+      "slug": "us-en-customer-communications-enhanced-declared-value-html",
+      "url": "https://www.insureshield.com/us/en/customer-communications/enhanced-declared-value.html",
+      "title": "Enhanced Declared Value | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:56:06.073Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-customer-communications-enhanced-declared-value-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-customer-communications-html",
+      "url": "https://www.insureshield.com/us/en/customer-communications.html",
+      "title": "Customers Communications | InsureShield",
+      "type": "shell",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:52:33.366Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-17T22:02:33Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-17T22:34:47Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-customer-communications-html.json",
+      "prototypePath": "stardust/prototypes/us-en-customer-communications-html-proposed.html",
+      "migratedPath": "stardust/migrated/us/en/customer-communications.html"
+    },
+    {
+      "slug": "us-en-customer-communications-updated-contact-information-html",
+      "url": "https://www.insureshield.com/us/en/customer-communications/updated-contact-information.html",
+      "title": "Update Contact Information | InsureShield",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:55:26.161Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T03:56:57Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-customer-communications-updated-contact-information-html.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/us/en/customer-communications/updated-contact-information.html"
+    },
+    {
+      "slug": "us-en-global-html",
+      "url": "https://www.insureshield.com/us/en/global.html",
+      "title": "Global | InsureShield",
+      "type": "region-selector",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:52:18.712Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-17T22:09:43Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-17T22:34:47Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-global-html.json",
+      "prototypePath": "stardust/prototypes/us-en-global-html-proposed.html",
+      "migratedPath": "stardust/migrated/us/en/global.html"
+    },
+    {
+      "slug": "us-en-legal-cookie-settings-html",
+      "url": "https://www.insureshield.com/us/en/legal/cookie-settings.html",
+      "title": "Cookie Settings | InsureShield",
+      "type": "shell",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:55:21.525Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T04:17:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-legal-cookie-settings-html.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/us/en/legal/cookie-settings.html"
+    },
+    {
+      "slug": "us-en-legal-product-disclosure-html",
+      "url": "https://www.insureshield.com/us/en/legal/product-disclosure.html",
+      "title": "Product Disclosure | InsureShield",
+      "type": "legal",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:54:44.507Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-legal-product-disclosure-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-legal-technology-agreement-html",
+      "url": "https://www.insureshield.com/us/en/legal/technology-agreement.html",
+      "title": "Technology Agreement | InsureShield",
+      "type": "legal",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:54:38.521Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-legal-technology-agreement-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-gallagher-affinity-html",
+      "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-gallagher-affinity.html",
+      "title": "Terms and Conditions of Service of Gallagher Affinity | InsureShield",
+      "type": "legal",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:55:01.284Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-legal-terms-and-conditions-gallagher-affinity-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-html",
+      "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage.html",
+      "title": "Shopify Terms & Conditions | InsureShield",
+      "type": "legal",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:54:54.168Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-users-html",
+      "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage-users.html",
+      "title": "Shopify Terms & Conditions | InsureShield",
+      "type": "legal",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:55:02.361Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-users-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-upscia-html",
+      "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html",
+      "title": "UPSCIA Terms & Conditions | InsureShield",
+      "type": "legal",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:54:45.364Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-17T21:57:53Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-17T22:34:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-legal-terms-and-conditions-upscia-html.json",
+      "prototypePath": "stardust/prototypes/us-en-legal-terms-and-conditions-upscia-html-proposed.html",
+      "migratedPath": "stardust/migrated/us/en/legal/terms-and-conditions-upscia.html"
+    },
+    {
+      "slug": "us-en-page-deletion-html",
+      "url": "https://www.insureshield.com/us/en/page-deletion.html",
+      "title": "Page Test | InsureShield",
+      "type": "shell",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:52:26.790Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T04:17:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-page-deletion-html.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/us/en/page-deletion.html"
+    },
+    {
+      "slug": "us-en-partners-3pl-partners-html",
+      "url": "https://www.insureshield.com/us/en/partners/3pl-partners.html",
+      "title": "Enhanced Declared Value | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:58.715Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-partners-3pl-partners-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-partners-become-a-partner-html",
+      "url": "https://www.insureshield.com/us/en/partners/become-a-partner.html",
+      "title": "Become a Partner | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:57.749Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-partners-become-a-partner-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-partners-connect-with-a-partner-html",
+      "url": "https://www.insureshield.com/us/en/partners/connect-with-a-partner.html",
+      "title": "Connect with a Partner | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:50.843Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-partners-connect-with-a-partner-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-partners-html",
+      "url": "https://www.insureshield.com/us/en/partners.html",
+      "title": "Learn About Our Partner Network | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:52:17.142Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-partners-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-promotional-delivery-defense-mockup-html",
+      "url": "https://www.insureshield.com/us/en/promotional/delivery-defense-mockup.html",
+      "title": "DeliveryDefense | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:55:48.159Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-promotional-delivery-defense-mockup-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-promotional-insureshield-benefits-html",
+      "url": "https://www.insureshield.com/us/en/promotional/insureshield-benefits.html",
+      "title": "InsureShield Benefits | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:55:10.271Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-promotional-insureshield-benefits-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-promotional-prod-form-test-html",
+      "url": "https://www.insureshield.com/us/en/promotional/prod-form-test.html",
+      "title": "Prod Form Test | InsureShield",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:55:18.203Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T03:56:57Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-promotional-prod-form-test-html.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/us/en/promotional/prod-form-test.html"
+    },
+    {
+      "slug": "us-en-promotional-webinars-html",
+      "url": "https://www.insureshield.com/us/en/promotional/webinars.html",
+      "title": "Webinars | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:55:09.051Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-promotional-webinars-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-resources-customer-stories-html",
+      "url": "https://www.insureshield.com/us/en/resources/customer-stories.html",
+      "title": "Customer Success Stories | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:54:05.787Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-resources-customer-stories-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-resources-help-and-support-html",
+      "url": "https://www.insureshield.com/us/en/resources/help-and-support.html",
+      "title": "Help & Support for InsureShield Shipping Insurance | InsureShield",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:54:13.131Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T03:56:57Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-resources-help-and-support-html.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/us/en/resources/help-and-support.html"
+    },
+    {
+      "slug": "us-en-resources-insights-html",
+      "url": "https://www.insureshield.com/us/en/resources/insights.html",
+      "title": "Insights to Help Your Business | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:54:30.456Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-resources-insights-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-resources-the-logistics-lowdown-html",
+      "url": "https://www.insureshield.com/us/en/resources/the-logistics-lowdown.html",
+      "title": "The Logistics Lowdown | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:54:52.110Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-resources-the-logistics-lowdown-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-resources-webinars-html",
+      "url": "https://www.insureshield.com/us/en/resources/webinars.html",
+      "title": "Webinars | InsureShield",
+      "type": "shell",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:54:13.465Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T04:17:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-resources-webinars-html.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/us/en/resources/webinars.html"
+    },
+    {
+      "slug": "us-en-resources-whitepapers-and-guides-html",
+      "url": "https://www.insureshield.com/us/en/resources/whitepapers-and-guides.html",
+      "title": "Whitepapers & Guides | InsureShield",
+      "type": "listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:54:04.975Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-resources-whitepapers-and-guides-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-risk-mitigation-risk-intelligence-smb-html",
+      "url": "https://www.insureshield.com/us/en/risk-mitigation/risk-intelligence-smb.html",
+      "title": "CommerceShield | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:55:44.649Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-risk-mitigation-risk-intelligence-smb-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-risk-mitigation-risk-intelligence-smb2-html",
+      "url": "https://www.insureshield.com/us/en/risk-mitigation/risk-intelligence-smb2.html",
+      "title": "Risk Intelligence for SMB",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:55:36.869Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-risk-mitigation-risk-intelligence-smb2-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-securecommerce-html",
+      "url": "https://www.insureshield.com/us/en/securecommerce.html",
+      "title": "UPS® Secure Commerce | InsureShield",
+      "type": "home",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:52:33.709Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-securecommerce-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-shipping-insurance-b2b-html",
+      "url": "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+      "title": "B2B | InsureShield",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:29.398Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-17T21:29:16Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-17T21:30:02Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-17T22:34:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-b2b-html.json",
+      "prototypePath": "stardust/prototypes/us-en-shipping-insurance-b2b-html-proposed.html",
+      "migratedPath": "stardust/migrated/us/en/shipping-insurance/b2b.html"
+    },
+    {
+      "slug": "us-en-shipping-insurance-checkout-protection-html",
+      "url": "https://www.insureshield.com/us/en/shipping-insurance/checkout-protection.html",
+      "title": "Checkout Protection by Insureshield | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:21.185Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-checkout-protection-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+      "url": "https://www.insureshield.com/us/en/shipping-insurance/consumer-electronics-and-technology.html",
+      "title": "Consumer Electronics and Technology | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:22.758Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-consumer-electronics-and-technology-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-shipping-insurance-get-a-quote-html",
+      "url": "https://www.insureshield.com/us/en/shipping-insurance/get-a-quote.html",
+      "title": "Request a Quote with InsureShield Shipping Insurance | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:20.268Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-get-a-quote-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-shipping-insurance-html",
+      "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+      "title": "Shipping Insurance for Businesses | InsureShield®",
+      "type": "shipping-hub",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:52:09.825Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-17T22:18:52Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-17T22:34:47Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-html.json",
+      "prototypePath": "stardust/prototypes/us-en-shipping-insurance-html-proposed.html",
+      "migratedPath": "stardust/migrated/us/en/shipping-insurance.html"
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-html",
+      "url": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments.html",
+      "title": "Multi-Carrier Coverage Solutions | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:13.936Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-multi-carrier-shipments-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+      "url": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify.html",
+      "title": "InsureShield App for Shopify | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:55:55.964Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+      "url": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments/insureShield-complete.html",
+      "title": "InsureShield Complete | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:56:02.817Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+      "url": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments/insureShield-connect.html",
+      "title": "InsureShield Connect | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:55:54.168Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-shipping-insurance-retail-html",
+      "url": "https://www.insureshield.com/us/en/shipping-insurance/retail.html",
+      "title": "Retail | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:31.409Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-retail-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-shipping-insurance-select-my-coverage-html",
+      "url": "https://www.insureshield.com/us/en/shipping-insurance/select-my-coverage.html",
+      "title": "Best shipping coverage options for your needs | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:10.918Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-select-my-coverage-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-shipping-insurance-special-commodities-html",
+      "url": "https://www.insureshield.com/us/en/shipping-insurance/special-commodities.html",
+      "title": "Special Commodities | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:03.182Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-special-commodities-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-shipping-insurance-ups-shipments-html",
+      "url": "https://www.insureshield.com/us/en/shipping-insurance/ups-shipments.html",
+      "title": "Insure Your UPS Shipments | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:11.589Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-shipping-insurance-ups-shipments-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-solutions-commerceshield-html",
+      "url": "https://www.insureshield.com/us/en/solutions/commerceshield.html",
+      "title": "CommerceShield | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:32.913Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-solutions-commerceshield-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-solutions-delivery-defense-html",
+      "url": "https://www.insureshield.com/us/en/solutions/delivery-defense.html",
+      "title": "DeliveryDefense | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:39.779Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-solutions-delivery-defense-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-solutions-delivery-defense-learning-center-html",
+      "url": "https://www.insureshield.com/us/en/solutions/delivery-defense/learning-center.html",
+      "title": "Learning Center | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:56:04.992Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-solutions-delivery-defense-learning-center-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-delivery-html",
+      "url": "https://www.insureshield.com/us/en/solutions/delivery-orchestration/delivery.html",
+      "title": "Delivery | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:56:12.503Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-solutions-delivery-orchestration-delivery-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-html",
+      "url": "https://www.insureshield.com/us/en/solutions/delivery-orchestration.html",
+      "title": "Delivery Orchestration | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:40.410Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-solutions-delivery-orchestration-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-pickup-html",
+      "url": "https://www.insureshield.com/us/en/solutions/delivery-orchestration/pickup.html",
+      "title": "Pickup | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:56:13.977Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-solutions-delivery-orchestration-pickup-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-returns-html",
+      "url": "https://www.insureshield.com/us/en/solutions/delivery-orchestration/returns.html",
+      "title": "Returns | InsureShield",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:56:15.324Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-solutions-delivery-orchestration-returns-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-solutions-insureshield-shipping-insurance-html",
+      "url": "https://www.insureshield.com/us/en/solutions/insureshield-shipping-insurance.html",
+      "title": "Shipping Insurance for Businesses | InsureShield®",
+      "type": "shipping-hub",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:53:42.233Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-solutions-insureshield-shipping-insurance-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-test-deletion-html",
+      "url": "https://www.insureshield.com/us/en/test-deletion.html",
+      "title": "Page Test | InsureShield",
+      "type": "shell",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:52:54.861Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T04:17:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-test-deletion-html.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/us/en/test-deletion.html"
+    },
+    {
+      "slug": "us-en-test-deletion1-html",
+      "url": "https://www.insureshield.com/us/en/test-deletion1.html",
+      "title": "Page Test | InsureShield",
+      "type": "shell",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T19:52:25.919Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T04:17:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-test-deletion1-html.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/us/en/test-deletion1.html"
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-18T03:47:54Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/ca/en/about.html",
+        "outputPath": "ca/en/about.html",
+        "slug": "ca-en-about-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/claims.html",
+        "outputPath": "ca/en/claims.html",
+        "slug": "ca-en-claims-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/home.html",
+        "outputPath": "ca/en/home.html",
+        "slug": "ca-en-home-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/partners.html",
+        "outputPath": "ca/en/partners.html",
+        "slug": "ca-en-partners-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/resources.html",
+        "outputPath": "ca/en/resources.html",
+        "slug": "ca-en-resources-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/shipping-insurance.html",
+        "outputPath": "ca/en/shipping-insurance.html",
+        "slug": "ca-en-shipping-insurance-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/de/cargo-insurance.html",
+        "outputPath": "de/de/cargo-insurance.html",
+        "slug": "de-de-cargo-insurance-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/de/claims.html",
+        "outputPath": "de/de/claims.html",
+        "slug": "de-de-claims-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/de/home.html",
+        "outputPath": "de/de/home.html",
+        "slug": "de-de-home-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/en/about.html",
+        "outputPath": "de/en/about.html",
+        "slug": "de-en-about-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/en/alerts.html",
+        "outputPath": "de/en/alerts.html",
+        "slug": "de-en-alerts-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/en/cargo-insurance.html",
+        "outputPath": "de/en/cargo-insurance.html",
+        "slug": "de-en-cargo-insurance-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/en/claims.html",
+        "outputPath": "de/en/claims.html",
+        "slug": "de-en-claims-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/en/home.html",
+        "outputPath": "de/en/home.html",
+        "slug": "de-en-home-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/en/partners.html",
+        "outputPath": "de/en/partners.html",
+        "slug": "de-en-partners-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/en/resources.html",
+        "outputPath": "de/en/resources.html",
+        "slug": "de-en-resources-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/gb/en/about.html",
+        "outputPath": "gb/en/about.html",
+        "slug": "gb-en-about-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/gb/en/alerts.html",
+        "outputPath": "gb/en/alerts.html",
+        "slug": "gb-en-alerts-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/gb/en/cargo-insurance.html",
+        "outputPath": "gb/en/cargo-insurance.html",
+        "slug": "gb-en-cargo-insurance-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/gb/en/claims.html",
+        "outputPath": "gb/en/claims.html",
+        "slug": "gb-en-claims-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/gb/en/home.html",
+        "outputPath": "gb/en/home.html",
+        "slug": "gb-en-home-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/gb/en/other-ups-sites.html",
+        "outputPath": "gb/en/other-ups-sites.html",
+        "slug": "gb-en-other-ups-sites-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/gb/en/resources.html",
+        "outputPath": "gb/en/resources.html",
+        "slug": "gb-en-resources-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/it/en/about.html",
+        "outputPath": "it/en/about.html",
+        "slug": "it-en-about-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/it/en/alerts.html",
+        "outputPath": "it/en/alerts.html",
+        "slug": "it-en-alerts-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/it/en/cargo-insurance.html",
+        "outputPath": "it/en/cargo-insurance.html",
+        "slug": "it-en-cargo-insurance-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/it/en/claims.html",
+        "outputPath": "it/en/claims.html",
+        "slug": "it-en-claims-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/it/en/home.html",
+        "outputPath": "it/en/home.html",
+        "slug": "it-en-home-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/it/en/resources.html",
+        "outputPath": "it/en/resources.html",
+        "slug": "it-en-resources-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/it/it/about.html",
+        "outputPath": "it/it/about.html",
+        "slug": "it-it-about-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/it/it/alerts.html",
+        "outputPath": "it/it/alerts.html",
+        "slug": "it-it-alerts-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/it/it/cargo-insurance.html",
+        "outputPath": "it/it/cargo-insurance.html",
+        "slug": "it-it-cargo-insurance-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/it/it/claims.html",
+        "outputPath": "it/it/claims.html",
+        "slug": "it-it-claims-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/it/it/home.html",
+        "outputPath": "it/it/home.html",
+        "slug": "it-it-home-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/it/it/resources.html",
+        "outputPath": "it/it/resources.html",
+        "slug": "it-it-resources-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/about/announcements.html",
+        "outputPath": "us/en/about/announcements.html",
+        "slug": "us-en-about-announcements-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/about/contact-us.html",
+        "outputPath": "us/en/about/contact-us.html",
+        "slug": "us-en-about-contact-us-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/about.html",
+        "outputPath": "us/en/about.html",
+        "slug": "us-en-about-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/about/our-locations.html",
+        "outputPath": "us/en/about/our-locations.html",
+        "slug": "us-en-about-our-locations-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/claims/channel-partners-claims.html",
+        "outputPath": "us/en/claims/channel-partners-claims.html",
+        "slug": "us-en-claims-channel-partners-claims-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/claims.html",
+        "outputPath": "us/en/claims.html",
+        "slug": "us-en-claims-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/claims/insureshield-ups-claims-support.html",
+        "outputPath": "us/en/claims/insureshield-ups-claims-support.html",
+        "slug": "us-en-claims-insureshield-ups-claims-support-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/customer-communications/confirm-contact-information.html",
+        "outputPath": "us/en/customer-communications/confirm-contact-information.html",
+        "slug": "us-en-customer-communications-confirm-contact-information-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/customer-communications/enhanced-declared-value.html",
+        "outputPath": "us/en/customer-communications/enhanced-declared-value.html",
+        "slug": "us-en-customer-communications-enhanced-declared-value-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/customer-communications.html",
+        "outputPath": "us/en/customer-communications.html",
+        "slug": "us-en-customer-communications-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/customer-communications/updated-contact-information.html",
+        "outputPath": "us/en/customer-communications/updated-contact-information.html",
+        "slug": "us-en-customer-communications-updated-contact-information-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/global.html",
+        "outputPath": "us/en/global.html",
+        "slug": "us-en-global-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/legal/cookie-settings.html",
+        "outputPath": "us/en/legal/cookie-settings.html",
+        "slug": "us-en-legal-cookie-settings-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/legal/product-disclosure.html",
+        "outputPath": "us/en/legal/product-disclosure.html",
+        "slug": "us-en-legal-product-disclosure-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/legal/technology-agreement.html",
+        "outputPath": "us/en/legal/technology-agreement.html",
+        "slug": "us-en-legal-technology-agreement-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/legal/terms-and-conditions-gallagher-affinity.html",
+        "outputPath": "us/en/legal/terms-and-conditions-gallagher-affinity.html",
+        "slug": "us-en-legal-terms-and-conditions-gallagher-affinity-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage.html",
+        "outputPath": "us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage.html",
+        "slug": "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage-users.html",
+        "outputPath": "us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage-users.html",
+        "slug": "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-users-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/legal/terms-and-conditions-upscia.html",
+        "outputPath": "us/en/legal/terms-and-conditions-upscia.html",
+        "slug": "us-en-legal-terms-and-conditions-upscia-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/page-deletion.html",
+        "outputPath": "us/en/page-deletion.html",
+        "slug": "us-en-page-deletion-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/partners/3pl-partners.html",
+        "outputPath": "us/en/partners/3pl-partners.html",
+        "slug": "us-en-partners-3pl-partners-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/partners/become-a-partner.html",
+        "outputPath": "us/en/partners/become-a-partner.html",
+        "slug": "us-en-partners-become-a-partner-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/partners/connect-with-a-partner.html",
+        "outputPath": "us/en/partners/connect-with-a-partner.html",
+        "slug": "us-en-partners-connect-with-a-partner-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/partners.html",
+        "outputPath": "us/en/partners.html",
+        "slug": "us-en-partners-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/promotional/delivery-defense-mockup.html",
+        "outputPath": "us/en/promotional/delivery-defense-mockup.html",
+        "slug": "us-en-promotional-delivery-defense-mockup-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/promotional/insureshield-benefits.html",
+        "outputPath": "us/en/promotional/insureshield-benefits.html",
+        "slug": "us-en-promotional-insureshield-benefits-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/promotional/prod-form-test.html",
+        "outputPath": "us/en/promotional/prod-form-test.html",
+        "slug": "us-en-promotional-prod-form-test-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/promotional/webinars.html",
+        "outputPath": "us/en/promotional/webinars.html",
+        "slug": "us-en-promotional-webinars-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/resources/customer-stories.html",
+        "outputPath": "us/en/resources/customer-stories.html",
+        "slug": "us-en-resources-customer-stories-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/resources/help-and-support.html",
+        "outputPath": "us/en/resources/help-and-support.html",
+        "slug": "us-en-resources-help-and-support-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/resources/insights.html",
+        "outputPath": "us/en/resources/insights.html",
+        "slug": "us-en-resources-insights-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/resources/the-logistics-lowdown.html",
+        "outputPath": "us/en/resources/the-logistics-lowdown.html",
+        "slug": "us-en-resources-the-logistics-lowdown-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/resources/webinars.html",
+        "outputPath": "us/en/resources/webinars.html",
+        "slug": "us-en-resources-webinars-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/resources/whitepapers-and-guides.html",
+        "outputPath": "us/en/resources/whitepapers-and-guides.html",
+        "slug": "us-en-resources-whitepapers-and-guides-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/risk-mitigation/risk-intelligence-smb.html",
+        "outputPath": "us/en/risk-mitigation/risk-intelligence-smb.html",
+        "slug": "us-en-risk-mitigation-risk-intelligence-smb-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/risk-mitigation/risk-intelligence-smb2.html",
+        "outputPath": "us/en/risk-mitigation/risk-intelligence-smb2.html",
+        "slug": "us-en-risk-mitigation-risk-intelligence-smb2-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/securecommerce.html",
+        "outputPath": "us/en/securecommerce.html",
+        "slug": "us-en-securecommerce-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/shipping-insurance/b2b.html",
+        "outputPath": "us/en/shipping-insurance/b2b.html",
+        "slug": "us-en-shipping-insurance-b2b-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/shipping-insurance/checkout-protection.html",
+        "outputPath": "us/en/shipping-insurance/checkout-protection.html",
+        "slug": "us-en-shipping-insurance-checkout-protection-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/shipping-insurance/consumer-electronics-and-technology.html",
+        "outputPath": "us/en/shipping-insurance/consumer-electronics-and-technology.html",
+        "slug": "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/shipping-insurance/get-a-quote.html",
+        "outputPath": "us/en/shipping-insurance/get-a-quote.html",
+        "slug": "us-en-shipping-insurance-get-a-quote-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/shipping-insurance.html",
+        "outputPath": "us/en/shipping-insurance.html",
+        "slug": "us-en-shipping-insurance-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/shipping-insurance/multi-carrier-shipments.html",
+        "outputPath": "us/en/shipping-insurance/multi-carrier-shipments.html",
+        "slug": "us-en-shipping-insurance-multi-carrier-shipments-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify.html",
+        "outputPath": "us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify.html",
+        "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/shipping-insurance/multi-carrier-shipments/insureShield-complete.html",
+        "outputPath": "us/en/shipping-insurance/multi-carrier-shipments/insureShield-complete.html",
+        "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/shipping-insurance/multi-carrier-shipments/insureShield-connect.html",
+        "outputPath": "us/en/shipping-insurance/multi-carrier-shipments/insureShield-connect.html",
+        "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/shipping-insurance/retail.html",
+        "outputPath": "us/en/shipping-insurance/retail.html",
+        "slug": "us-en-shipping-insurance-retail-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/shipping-insurance/select-my-coverage.html",
+        "outputPath": "us/en/shipping-insurance/select-my-coverage.html",
+        "slug": "us-en-shipping-insurance-select-my-coverage-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/shipping-insurance/special-commodities.html",
+        "outputPath": "us/en/shipping-insurance/special-commodities.html",
+        "slug": "us-en-shipping-insurance-special-commodities-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/shipping-insurance/ups-shipments.html",
+        "outputPath": "us/en/shipping-insurance/ups-shipments.html",
+        "slug": "us-en-shipping-insurance-ups-shipments-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/solutions/commerceshield.html",
+        "outputPath": "us/en/solutions/commerceshield.html",
+        "slug": "us-en-solutions-commerceshield-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/solutions/delivery-defense.html",
+        "outputPath": "us/en/solutions/delivery-defense.html",
+        "slug": "us-en-solutions-delivery-defense-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/solutions/delivery-defense/learning-center.html",
+        "outputPath": "us/en/solutions/delivery-defense/learning-center.html",
+        "slug": "us-en-solutions-delivery-defense-learning-center-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/solutions/delivery-orchestration/delivery.html",
+        "outputPath": "us/en/solutions/delivery-orchestration/delivery.html",
+        "slug": "us-en-solutions-delivery-orchestration-delivery-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/solutions/delivery-orchestration.html",
+        "outputPath": "us/en/solutions/delivery-orchestration.html",
+        "slug": "us-en-solutions-delivery-orchestration-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/solutions/delivery-orchestration/pickup.html",
+        "outputPath": "us/en/solutions/delivery-orchestration/pickup.html",
+        "slug": "us-en-solutions-delivery-orchestration-pickup-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/solutions/delivery-orchestration/returns.html",
+        "outputPath": "us/en/solutions/delivery-orchestration/returns.html",
+        "slug": "us-en-solutions-delivery-orchestration-returns-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/solutions/insureshield-shipping-insurance.html",
+        "outputPath": "us/en/solutions/insureshield-shipping-insurance.html",
+        "slug": "us-en-solutions-insureshield-shipping-insurance-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/test-deletion.html",
+        "outputPath": "us/en/test-deletion.html",
+        "slug": "us-en-test-deletion-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/test-deletion1.html",
+        "outputPath": "us/en/test-deletion1.html",
+        "slug": "us-en-test-deletion1-html",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 38,
+    "bundledAssets": [
+      "canon/canon.css",
+      "canon/canon.js",
+      "canon/fonts/inter-latin-opsz-normal.woff2",
+      "canon/fonts/material-symbols-rounded.woff2",
+      "canon/fonts/roboto-latin-400.woff2",
+      "de-en-home-html.css",
+      "de-en-home-html.js",
+      "gb-en-resources-html.css",
+      "gb-en-resources-html.js",
+      "index.css",
+      "us-en-about-contact-us-html-form.html",
+      "us-en-about-contact-us-html.css",
+      "us-en-customer-communications-html.css",
+      "us-en-global-html.css",
+      "us-en-global-html.js",
+      "us-en-legal-terms-and-conditions-upscia-html.css",
+      "us-en-shipping-insurance-b2b-html.css",
+      "us-en-shipping-insurance-b2b-html.js",
+      "us-en-shipping-insurance-html-assets/aftership-duFfXxE8.svg",
+      "us-en-shipping-insurance-html-assets/band-signal-field.svg",
+      "us-en-shipping-insurance-html-assets/benefits.svg",
+      "us-en-shipping-insurance-html-assets/hero-lattice.svg",
+      "us-en-shipping-insurance-html-assets/shippo-D6PlM04S.svg",
+      "us-en-shipping-insurance-html-assets/shipstation-b6mFKFub.svg",
+      "us-en-shipping-insurance-html-assets/shopify-m40Qf4lq.svg",
+      "us-en-shipping-insurance-html-assets/solution-commerceshield.svg",
+      "us-en-shipping-insurance-html-assets/solution-parcelpro.svg",
+      "us-en-shipping-insurance-html-assets/standout-claims.svg",
+      "us-en-shipping-insurance-html-assets/standout-journey.svg",
+      "us-en-shipping-insurance-html-assets/topic-claims.svg",
+      "us-en-shipping-insurance-html-assets/topic-general.svg",
+      "us-en-shipping-insurance-html-assets/topic-highvalue.svg",
+      "us-en-shipping-insurance-html-assets/topic-porch.svg",
+      "us-en-shipping-insurance-html-assets/topic-reship.svg",
+      "us-en-shipping-insurance-html-assets/topic-time.svg",
+      "us-en-shipping-insurance-html-assets/woocommerce.svg",
+      "us-en-shipping-insurance-html.css",
+      "us-en-shipping-insurance-html.js"
+    ],
+    "pages": [
+      {
+        "slug": "us-en-shipping-insurance-b2b-html",
+        "file": "stardust/migrated/us/en/shipping-insurance/b2b.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "gb-en-resources-html",
+        "file": "stardust/migrated/gb/en/resources.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-legal-terms-and-conditions-upscia-html",
+        "file": "stardust/migrated/us/en/legal/terms-and-conditions-upscia.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "de-en-home-html",
+        "file": "stardust/migrated/de/en/home.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-about-contact-us-html",
+        "file": "stardust/migrated/us/en/about/contact-us.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-global-html",
+        "file": "stardust/migrated/us/en/global.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-shipping-insurance-html",
+        "file": "stardust/migrated/us/en/shipping-insurance.html",
+        "assetsBundled": 22
+      },
+      {
+        "slug": "us-en-customer-communications-html",
+        "file": "stardust/migrated/us/en/customer-communications.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "ca-en-about-html",
+        "file": "stardust/migrated/ca/en/about.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "ca-en-claims-html",
+        "file": "stardust/migrated/ca/en/claims.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "ca-en-partners-html",
+        "file": "stardust/migrated/ca/en/partners.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "ca-en-shipping-insurance-html",
+        "file": "stardust/migrated/ca/en/shipping-insurance.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "de-de-cargo-insurance-html",
+        "file": "stardust/migrated/de/de/cargo-insurance.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "de-de-claims-html",
+        "file": "stardust/migrated/de/de/claims.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "de-en-about-html",
+        "file": "stardust/migrated/de/en/about.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "de-en-cargo-insurance-html",
+        "file": "stardust/migrated/de/en/cargo-insurance.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "de-en-claims-html",
+        "file": "stardust/migrated/de/en/claims.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "de-en-partners-html",
+        "file": "stardust/migrated/de/en/partners.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "gb-en-about-html",
+        "file": "stardust/migrated/gb/en/about.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "gb-en-cargo-insurance-html",
+        "file": "stardust/migrated/gb/en/cargo-insurance.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "gb-en-claims-html",
+        "file": "stardust/migrated/gb/en/claims.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "it-en-about-html",
+        "file": "stardust/migrated/it/en/about.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "it-en-cargo-insurance-html",
+        "file": "stardust/migrated/it/en/cargo-insurance.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "it-en-claims-html",
+        "file": "stardust/migrated/it/en/claims.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "ca-en-home-html",
+        "file": "stardust/migrated/ca/en/home.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "de-de-home-html",
+        "file": "stardust/migrated/de/de/home.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "gb-en-home-html",
+        "file": "stardust/migrated/gb/en/home.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "it-en-home-html",
+        "file": "stardust/migrated/it/en/home.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "it-it-home-html",
+        "file": "stardust/migrated/it/it/home.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "it-it-about-html",
+        "file": "stardust/migrated/it/it/about.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "it-it-cargo-insurance-html",
+        "file": "stardust/migrated/it/it/cargo-insurance.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "it-it-claims-html",
+        "file": "stardust/migrated/it/it/claims.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-about-html",
+        "file": "stardust/migrated/us/en/about.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-claims-channel-partners-claims-html",
+        "file": "stardust/migrated/us/en/claims/channel-partners-claims.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-claims-html",
+        "file": "stardust/migrated/us/en/claims.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-claims-insureshield-ups-claims-support-html",
+        "file": "stardust/migrated/us/en/claims/insureshield-ups-claims-support.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-customer-communications-enhanced-declared-value-html",
+        "file": "stardust/migrated/us/en/customer-communications/enhanced-declared-value.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-partners-3pl-partners-html",
+        "file": "stardust/migrated/us/en/partners/3pl-partners.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-partners-become-a-partner-html",
+        "file": "stardust/migrated/us/en/partners/become-a-partner.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-partners-connect-with-a-partner-html",
+        "file": "stardust/migrated/us/en/partners/connect-with-a-partner.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-partners-html",
+        "file": "stardust/migrated/us/en/partners.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-promotional-delivery-defense-mockup-html",
+        "file": "stardust/migrated/us/en/promotional/delivery-defense-mockup.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-promotional-insureshield-benefits-html",
+        "file": "stardust/migrated/us/en/promotional/insureshield-benefits.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-promotional-webinars-html",
+        "file": "stardust/migrated/us/en/promotional/webinars.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-resources-customer-stories-html",
+        "file": "stardust/migrated/us/en/resources/customer-stories.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-resources-insights-html",
+        "file": "stardust/migrated/us/en/resources/insights.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-resources-the-logistics-lowdown-html",
+        "file": "stardust/migrated/us/en/resources/the-logistics-lowdown.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-risk-mitigation-risk-intelligence-smb-html",
+        "file": "stardust/migrated/us/en/risk-mitigation/risk-intelligence-smb.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-risk-mitigation-risk-intelligence-smb2-html",
+        "file": "stardust/migrated/us/en/risk-mitigation/risk-intelligence-smb2.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-shipping-insurance-checkout-protection-html",
+        "file": "stardust/migrated/us/en/shipping-insurance/checkout-protection.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+        "file": "stardust/migrated/us/en/shipping-insurance/consumer-electronics-and-technology.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-shipping-insurance-get-a-quote-html",
+        "file": "stardust/migrated/us/en/shipping-insurance/get-a-quote.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-shipping-insurance-multi-carrier-shipments-html",
+        "file": "stardust/migrated/us/en/shipping-insurance/multi-carrier-shipments.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+        "file": "stardust/migrated/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+        "file": "stardust/migrated/us/en/shipping-insurance/multi-carrier-shipments/insureShield-complete.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+        "file": "stardust/migrated/us/en/shipping-insurance/multi-carrier-shipments/insureShield-connect.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-shipping-insurance-retail-html",
+        "file": "stardust/migrated/us/en/shipping-insurance/retail.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-shipping-insurance-select-my-coverage-html",
+        "file": "stardust/migrated/us/en/shipping-insurance/select-my-coverage.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-shipping-insurance-special-commodities-html",
+        "file": "stardust/migrated/us/en/shipping-insurance/special-commodities.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-shipping-insurance-ups-shipments-html",
+        "file": "stardust/migrated/us/en/shipping-insurance/ups-shipments.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-solutions-commerceshield-html",
+        "file": "stardust/migrated/us/en/solutions/commerceshield.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-solutions-delivery-defense-html",
+        "file": "stardust/migrated/us/en/solutions/delivery-defense.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-solutions-delivery-defense-learning-center-html",
+        "file": "stardust/migrated/us/en/solutions/delivery-defense/learning-center.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-solutions-delivery-orchestration-delivery-html",
+        "file": "stardust/migrated/us/en/solutions/delivery-orchestration/delivery.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-solutions-delivery-orchestration-html",
+        "file": "stardust/migrated/us/en/solutions/delivery-orchestration.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-solutions-delivery-orchestration-pickup-html",
+        "file": "stardust/migrated/us/en/solutions/delivery-orchestration/pickup.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-solutions-delivery-orchestration-returns-html",
+        "file": "stardust/migrated/us/en/solutions/delivery-orchestration/returns.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-solutions-insureshield-shipping-insurance-html",
+        "file": "stardust/migrated/us/en/solutions/insureshield-shipping-insurance.html",
+        "assetsBundled": 24
+      },
+      {
+        "slug": "us-en-securecommerce-html",
+        "file": "stardust/migrated/us/en/securecommerce.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "ca-en-resources-html",
+        "file": "stardust/migrated/ca/en/resources.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "de-en-resources-html",
+        "file": "stardust/migrated/de/en/resources.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "it-en-resources-html",
+        "file": "stardust/migrated/it/en/resources.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "it-it-resources-html",
+        "file": "stardust/migrated/it/it/resources.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-about-announcements-html",
+        "file": "stardust/migrated/us/en/about/announcements.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-resources-whitepapers-and-guides-html",
+        "file": "stardust/migrated/us/en/resources/whitepapers-and-guides.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "us-en-about-our-locations-html",
+        "file": "stardust/migrated/us/en/about/our-locations.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "us-en-legal-product-disclosure-html",
+        "file": "stardust/migrated/us/en/legal/product-disclosure.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "us-en-legal-technology-agreement-html",
+        "file": "stardust/migrated/us/en/legal/technology-agreement.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "us-en-legal-terms-and-conditions-gallagher-affinity-html",
+        "file": "stardust/migrated/us/en/legal/terms-and-conditions-gallagher-affinity.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-html",
+        "file": "stardust/migrated/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-users-html",
+        "file": "stardust/migrated/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage-users.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "us-en-customer-communications-confirm-contact-information-html",
+        "file": "stardust/migrated/us/en/customer-communications/confirm-contact-information.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "us-en-customer-communications-updated-contact-information-html",
+        "file": "stardust/migrated/us/en/customer-communications/updated-contact-information.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "us-en-promotional-prod-form-test-html",
+        "file": "stardust/migrated/us/en/promotional/prod-form-test.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "us-en-resources-help-and-support-html",
+        "file": "stardust/migrated/us/en/resources/help-and-support.html",
+        "assetsBundled": 5
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-18T03:47:54Z",
+      "rendered": [],
+      "unchanged": [
+        "us-en-promotional-prod-form-test-html"
+      ],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

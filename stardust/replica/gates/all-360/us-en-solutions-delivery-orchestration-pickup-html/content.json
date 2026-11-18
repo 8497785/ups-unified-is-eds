@@ -1,0 +1,3099 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-18T13:11:14.043Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.insureshield.com/us/en/solutions/delivery-orchestration/pickup.html",
+  "at": "2026-11-18T13:10:53.326Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5618,
+  "root": null,
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "span.upser-alert__msg.slick-slide > div.upser-alert__wrapper > p.upser-alert__title",
+    "x": 32,
+    "y": 37,
+    "w": 296,
+    "h": 42,
+    "text": "Introducing a fresh take on protection for your shipments"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "span.upser-alert__msg.slick-slide > div.upser-alert__wrapper > a.upser-alert__more",
+    "x": 32,
+    "y": 84,
+    "w": 138,
+    "h": 21,
+    "text": "get started in minutes",
+    "href": "/en/sign-up"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.container > div.upser-alerts__container > button.upser-alerts__close",
+    "x": 292,
+    "y": 6,
+    "w": 36,
+    "h": 26,
+    "text": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.image > div#image-d17206185b > a.cmp-image__link",
+    "x": 32,
+    "y": 138,
+    "w": 149,
+    "h": 55,
+    "text": "insureshield",
+    "href": "/us/en/securecommerce.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "a.cmp-image__link > picture > img.cmp-image__image",
+    "x": 32,
+    "y": 138,
+    "w": 149,
+    "h": 56,
+    "text": "insureshield",
+    "file": "InsureShield_horizontal_UPSC"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.profile > div.hamburger > button.navbar-toggler.collapsed",
+    "x": 238,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "text": "toggle navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.profile > div.hamburger > button.navbar-toggler.collapsed",
+    "x": 238,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "label": "toggle navigation menu",
+    "value": "toggle navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.cmp-search > div#upser-header-search > button.header-search-btn",
+    "x": 284,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "text": "search toggle"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.cmp-search > div#upser-header-search > button.header-search-btn",
+    "x": 284,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "label": "search toggle",
+    "value": "search toggle",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ol.cmp-breadcrumb__list > li.cmp-breadcrumb__item > a.cmp-breadcrumb__item-link",
+    "x": 32,
+    "y": 236,
+    "w": 58,
+    "h": 21,
+    "text": "solutions",
+    "href": "/us/en/solutions/delivery-orchestration/pickup.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ol.cmp-breadcrumb__list > li.cmp-breadcrumb__item > a.cmp-breadcrumb__item-link",
+    "x": 107,
+    "y": 236,
+    "w": 137,
+    "h": 21,
+    "text": "delivery orchestration",
+    "href": "/us/en/solutions/delivery-orchestration.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ol.cmp-breadcrumb__list > li.cmp-breadcrumb__item.cmp-breadcrumb__item--active > span",
+    "x": 261,
+    "y": 236,
+    "w": 42,
+    "h": 20,
+    "text": "Pickup"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#image-b8664aace5 > picture > img.cmp-image__image",
+    "x": 32,
+    "y": 533,
+    "w": 296,
+    "h": 167,
+    "text": "female pulling a cream knit scarf out of a box",
+    "file": "shutterstock_1674330847_digital_02062023"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__title > h2",
+    "x": 32,
+    "y": 301,
+    "w": 296,
+    "h": 72,
+    "level": 2,
+    "text": "revolutionize your pickup experience"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__description > p",
+    "x": 32,
+    "y": 405,
+    "w": 296,
+    "h": 96,
+    "text": "In today’s fast-paced world, convenience is king. Our pickup solutions offer you"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 763,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "why choose our pickup solutions?"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > span.feature-lists__item__image > img.feature_img.ls-is-cached",
+    "x": 32,
+    "y": 1066,
+    "w": 24,
+    "h": 24,
+    "text": "checkmark icon",
+    "file": "checkmark"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.list__title > p > b",
+    "x": 72,
+    "y": 1068,
+    "w": 240,
+    "h": 19,
+    "text": "More Choices, More Convenience"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.feature-lists__item__content > div.list_desc > p",
+    "x": 72,
+    "y": 1098,
+    "w": 256,
+    "h": 48,
+    "text": "Let customers pick up orders their way, anytime, anywhere."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > span.feature-lists__item__image > img.feature_img.lazyloaded",
+    "x": 32,
+    "y": 1162,
+    "w": 24,
+    "h": 24,
+    "text": "checkmark icon",
+    "file": "checkmark"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.list__title > p > b",
+    "x": 72,
+    "y": 1164,
+    "w": 152,
+    "h": 19,
+    "text": "Seamless Integration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.feature-lists__item__content > div.list_desc > p",
+    "x": 72,
+    "y": 1194,
+    "w": 256,
+    "h": 48,
+    "text": "Easily connect with global carriers and delivery solutions."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > span.feature-lists__item__image > img.feature_img.ls-is-cached",
+    "x": 32,
+    "y": 1258,
+    "w": 24,
+    "h": 24,
+    "text": "checkmark icon",
+    "file": "checkmark"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.list__title > p > b",
+    "x": 72,
+    "y": 1260,
+    "w": 189,
+    "h": 19,
+    "text": "Faster, Smarter Fulfillment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.feature-lists__item__content > div.list_desc > p",
+    "x": 72,
+    "y": 1290,
+    "w": 256,
+    "h": 72,
+    "text": "Reduce wait times and increase efficiency with real-time orchestration."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 1458,
+    "w": 296,
+    "h": 123,
+    "level": 2,
+    "text": "pickup options that work for every business"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 32,
+    "y": 1605,
+    "w": 296,
+    "h": 167,
+    "text": "female preparing orders for shipment in a clothing store",
+    "file": "shutterstock_558988381_digital_02062023"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 1803,
+    "w": 248,
+    "h": 24,
+    "text": "BOPA/BOPIS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 1835,
+    "w": 248,
+    "h": 120,
+    "text": "“Buy Online and Pickup Anywhere” or “Buy Online Pickup In-Store” give customers "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 32,
+    "y": 1999,
+    "w": 296,
+    "h": 167,
+    "text": "female on her smartphone with shopping bags on her arms",
+    "file": "shutterstock_725897326_digital_11302022-"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 2196,
+    "w": 248,
+    "h": 24,
+    "text": "Curbside Pickup"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 2228,
+    "w": 248,
+    "h": 96,
+    "text": "A hassle-free, contactless solution that enhances customer satisfaction and puts"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 32,
+    "y": 2368,
+    "w": 296,
+    "h": 167,
+    "text": "woman working in warehouse",
+    "file": "shutterstock_1476944906_Digital_12202022"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 2566,
+    "w": 248,
+    "h": 24,
+    "text": "Locker Pickup/Access Points"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 2598,
+    "w": 248,
+    "h": 144,
+    "text": "Provide 24/7 self-service convenience, minimizing wait times and boosting effici"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 2830,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "let’s transform your pickup strategy"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 3736,
+    "w": 51,
+    "h": 52,
+    "level": 2,
+    "text": "faq"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-8f49951db1 > div#accordion-8f49951db1-item-a47510a326 > h3.cmp-accordion__header",
+    "x": 48,
+    "y": 3832,
+    "w": 264,
+    "h": 48,
+    "level": 3,
+    "text": "what is pickup management and how does it help retailers?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-8f49951db1-item-a47510a326 > h3.cmp-accordion__header > button#accordion-8f49951db1-item-a47510a326-button",
+    "x": 48,
+    "y": 3832,
+    "w": 264,
+    "h": 48,
+    "text": "what is pickup management and how does it help retailers?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-8f49951db1-item-a47510a326 > h3.cmp-accordion__header > button#accordion-8f49951db1-item-a47510a326-button",
+    "x": 48,
+    "y": 3832,
+    "w": 264,
+    "h": 48,
+    "label": "trigger",
+    "value": "what is pickup management and how does it help retailers?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-8f49951db1 > div#accordion-8f49951db1-item-c7f40d9d10 > h3.cmp-accordion__header",
+    "x": 48,
+    "y": 3932,
+    "w": 264,
+    "h": 48,
+    "level": 3,
+    "text": "how can businesses enhance curbside and in-store pick up?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-8f49951db1-item-c7f40d9d10 > h3.cmp-accordion__header > button#accordion-8f49951db1-item-c7f40d9d10-button",
+    "x": 48,
+    "y": 3932,
+    "w": 264,
+    "h": 48,
+    "text": "how can businesses enhance curbside and in-store pick up?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-8f49951db1-item-c7f40d9d10 > h3.cmp-accordion__header > button#accordion-8f49951db1-item-c7f40d9d10-button",
+    "x": 48,
+    "y": 3932,
+    "w": 264,
+    "h": 48,
+    "label": "trigger",
+    "value": "how can businesses enhance curbside and in-store pick up?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-8f49951db1 > div#accordion-8f49951db1-item-0ff6a6aebb > h3.cmp-accordion__header",
+    "x": 48,
+    "y": 4032,
+    "w": 264,
+    "h": 72,
+    "level": 3,
+    "text": "what are the benefits of using delivery logistics software for pickup management?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-8f49951db1-item-0ff6a6aebb > h3.cmp-accordion__header > button#accordion-8f49951db1-item-0ff6a6aebb-button",
+    "x": 48,
+    "y": 4032,
+    "w": 264,
+    "h": 72,
+    "text": "what are the benefits of using delivery logistics software for pickup management"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-8f49951db1-item-0ff6a6aebb > h3.cmp-accordion__header > button#accordion-8f49951db1-item-0ff6a6aebb-button",
+    "x": 48,
+    "y": 4032,
+    "w": 264,
+    "h": 72,
+    "label": "trigger",
+    "value": "what are the benefits of using delivery logistics software f",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__title > h2",
+    "x": 32,
+    "y": 4220,
+    "w": 296,
+    "h": 72,
+    "level": 2,
+    "text": "want package protection?"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#image-8f818bfb47 > picture > img.cmp-image__image",
+    "x": 32,
+    "y": 4328,
+    "w": 296,
+    "h": 167,
+    "text": "woman and man looking at tablet",
+    "file": "shutterstock_1237494658_1440x810"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__description > p",
+    "x": 32,
+    "y": 4518,
+    "w": 296,
+    "h": 144,
+    "text": "We've got you. We offer multimodel, multicarrier shipping coverage options, so y"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__action-container > a#teaser-8f818bfb47-cta-41fd2b4f94",
+    "x": 32,
+    "y": 4686,
+    "w": 296,
+    "h": 44,
+    "text": "explore options",
+    "href": "/us/en/shipping-insurance.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 0,
+    "y": 4794,
+    "w": 355,
+    "h": 35,
+    "text": "*Expedited reshipping reimbursement provided up to 20% of the insured value of t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 0,
+    "y": 4842,
+    "w": 358,
+    "h": 155,
+    "text": "Insurance coverage is underwritten by an authorized insurance company and issued"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 0,
+    "y": 5010,
+    "w": 352,
+    "h": 107,
+    "text": "Unless otherwise noted, all statistics used herein are derived from or based on "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 0,
+    "y": 5130,
+    "w": 358,
+    "h": 83,
+    "text": "Statistics in our social media advertising are based on aggregated insurance pro"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-97dfc0134a > p",
+    "x": 32,
+    "y": 5282,
+    "w": 296,
+    "h": 19,
+    "text": "This Site"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-c12bd6f8bb > p",
+    "x": 32,
+    "y": 5332,
+    "w": 296,
+    "h": 19,
+    "text": "Other UPS Sites"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-369e9a7e5a > p",
+    "x": 32,
+    "y": 5382,
+    "w": 296,
+    "h": 19,
+    "text": "Connect with Us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-d50c439374 > p",
+    "x": 32,
+    "y": 5432,
+    "w": 296,
+    "h": 19,
+    "text": "Legal"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.copy-right > div#text-b533edb835 > h4",
+    "x": 32,
+    "y": 5554,
+    "w": 296,
+    "h": 40,
+    "level": 4,
+    "text": "copyright ©2023-2026 united parcel service of america, inc. all rights reserved."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 20,
+    "textNodes": 75,
+    "controls": 45,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/pickup",
+  "at": "2026-11-18T13:11:13.936Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5616,
+  "root": "main",
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.alerts-list > div.alerts-msg > p",
+    "x": 32,
+    "y": 37,
+    "w": 296,
+    "h": 42,
+    "text": "Introducing a fresh take on protection for your shipments"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.alerts-list > div.alerts-msg > a.alerts-more",
+    "x": 32,
+    "y": 84,
+    "w": 138,
+    "h": 21,
+    "text": "get started in minutes",
+    "href": "/en/sign-up"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.alerts-inner > button.alerts-close",
+    "x": 292,
+    "y": 6,
+    "w": 36,
+    "h": 26,
+    "text": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-logo > p > a",
+    "x": 32,
+    "y": 138,
+    "w": 149,
+    "h": 55,
+    "text": "insureshield",
+    "href": "/us/en/securecommerce"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 32,
+    "y": 138,
+    "w": 149,
+    "h": 56,
+    "text": "insureshield",
+    "file": "media_1e13fd7b8c723c94791c8f8ac6c80eaf75"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-row > div.hdr-actions > button.hdr-burger",
+    "x": 238,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "text": "toggle navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-row > div.hdr-actions > button.hdr-burger",
+    "x": 238,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "label": "toggle navigation menu",
+    "value": "toggle navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-actions > div.hdr-search > button.hdr-search-btn",
+    "x": 284,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "text": "search toggle"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-actions > div.hdr-search > button.hdr-search-btn",
+    "x": 284,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "label": "search toggle",
+    "value": "search toggle",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a",
+    "x": 32,
+    "y": 236,
+    "w": 58,
+    "h": 21,
+    "text": "solutions",
+    "href": "/us/en/solutions/delivery-orchestration/pickup"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a",
+    "x": 107,
+    "y": 236,
+    "w": 137,
+    "h": 21,
+    "text": "delivery orchestration",
+    "href": "/us/en/solutions/delivery-orchestration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > span",
+    "x": 261,
+    "y": 236,
+    "w": 42,
+    "h": 20,
+    "text": "Pickup"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-content > div.teaser-title > h1#revolutionize-your-pickup-experience",
+    "x": 32,
+    "y": 301,
+    "w": 296,
+    "h": 72,
+    "level": 1,
+    "text": "revolutionize your pickup experience"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-content > div.teaser-desc > p",
+    "x": 32,
+    "y": 405,
+    "w": 296,
+    "h": 96,
+    "text": "In today’s fast-paced world, convenience is king. Our pickup solutions offer you"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-media > picture > img",
+    "x": 32,
+    "y": 533,
+    "w": 296,
+    "h": 167,
+    "text": "female pulling a cream knit scarf out of a box",
+    "file": "media_1548b0d85d175a3190682f2546279f24c8"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.featured-list-container > div.default-content-wrapper > h2#why-choose-our-pickup-solutions",
+    "x": 32,
+    "y": 763,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "why choose our pickup solutions?"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-media > picture > img",
+    "x": 32,
+    "y": 875,
+    "w": 296,
+    "h": 167,
+    "text": "pickup solutions video",
+    "file": "media_1fda7dafd927cbcc46250fd12766d538cf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-title > p > strong",
+    "x": 72,
+    "y": 1068,
+    "w": 240,
+    "h": 19,
+    "text": "More Choices, More Convenience"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-content > div.featured-list-desc > p",
+    "x": 72,
+    "y": 1098,
+    "w": 256,
+    "h": 48,
+    "text": "Let customers pick up orders their way, anytime, anywhere."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-title > p > strong",
+    "x": 72,
+    "y": 1164,
+    "w": 152,
+    "h": 19,
+    "text": "Seamless Integration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-content > div.featured-list-desc > p",
+    "x": 72,
+    "y": 1194,
+    "w": 256,
+    "h": 48,
+    "text": "Easily connect with global carriers and delivery solutions."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-title > p > strong",
+    "x": 72,
+    "y": 1260,
+    "w": 189,
+    "h": 19,
+    "text": "Faster, Smarter Fulfillment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-content > div.featured-list-desc > p",
+    "x": 72,
+    "y": 1290,
+    "w": 256,
+    "h": 72,
+    "text": "Reduce wait times and increase efficiency with real-time orchestration."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.pathways-cards-container > div.default-content-wrapper > h2#pickup-options-that-work-for-every-business",
+    "x": 32,
+    "y": 1458,
+    "w": 296,
+    "h": 123,
+    "level": 2,
+    "text": "pickup options that work for every business"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 32,
+    "y": 1605,
+    "w": 296,
+    "h": 167,
+    "text": "female preparing orders for shipment in a clothing store",
+    "file": "media_1a623de1ff35016c796c39142835f60a0c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 1803,
+    "w": 248,
+    "h": 24,
+    "text": "BOPA/BOPIS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 1835,
+    "w": 248,
+    "h": 120,
+    "text": "“Buy Online and Pickup Anywhere” or “Buy Online Pickup In-Store” give customers "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 32,
+    "y": 1999,
+    "w": 296,
+    "h": 167,
+    "text": "female on her smartphone with shopping bags on her arms",
+    "file": "media_17058399bff60afc0f4798b4cb1e1ce87e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 2196,
+    "w": 248,
+    "h": 24,
+    "text": "Curbside Pickup"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 2228,
+    "w": 248,
+    "h": 96,
+    "text": "A hassle-free, contactless solution that enhances customer satisfaction and puts"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 32,
+    "y": 2368,
+    "w": 296,
+    "h": 167,
+    "text": "woman working in warehouse",
+    "file": "media_14a8cc2b0effb23b9fdd04c51949f31161"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 2566,
+    "w": 248,
+    "h": 24,
+    "text": "Locker Pickup/Access Points"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 2598,
+    "w": 248,
+    "h": 144,
+    "text": "Provide 24/7 self-service convenience, minimizing wait times and boosting effici"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.form-container > div.default-content-wrapper > h2#lets-transform-your-pickup-strategy",
+    "x": 32,
+    "y": 2830,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "let’s transform your pickup strategy"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.form-grid > div.form-field.form-field-select > select#form-country-territory-4",
+    "x": 34,
+    "y": 3230,
+    "w": 292,
+    "h": 56,
+    "label": "country / territory",
+    "value": "country / territory",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.form-grid > div.form-field.form-field-checkbox > label.form-check",
+    "x": 34,
+    "y": 3446,
+    "w": 292,
+    "h": 39,
+    "text": "This is a business shipment"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form > div.form-actions > button.button.primary",
+    "x": 34,
+    "y": 3619,
+    "w": 125,
+    "h": 44,
+    "text": "submit"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.accordion-container > div.default-content-wrapper > h2#faq",
+    "x": 32,
+    "y": 3734,
+    "w": 51,
+    "h": 52,
+    "level": 2,
+    "text": "faq"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#what-is-pickup-management-and-how-does-it-help-retailers",
+    "x": 48,
+    "y": 3830,
+    "w": 251,
+    "h": 48,
+    "level": 3,
+    "text": "what is pickup management and how does it help retailers?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 3830,
+    "w": 24,
+    "h": 24,
+    "text": "what is pickup management and how does it help retailers?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 3830,
+    "w": 24,
+    "h": 24,
+    "label": "what is pickup management and how does it help retailers?",
+    "value": "what is pickup management and how does it help retailers?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#how-can-businesses-enhance-curbside-and-in-store-pick-up",
+    "x": 48,
+    "y": 3930,
+    "w": 251,
+    "h": 48,
+    "level": 3,
+    "text": "how can businesses enhance curbside and in-store pick up?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 3930,
+    "w": 24,
+    "h": 24,
+    "text": "how can businesses enhance curbside and in-store pick up?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 3930,
+    "w": 24,
+    "h": 24,
+    "label": "how can businesses enhance curbside and in-store pick up?",
+    "value": "how can businesses enhance curbside and in-store pick up?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#what-are-the-benefits-of-using-delivery-logistics-software-for-pickup-management",
+    "x": 48,
+    "y": 4030,
+    "w": 251,
+    "h": 72,
+    "level": 3,
+    "text": "what are the benefits of using delivery logistics software for pickup management?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 4030,
+    "w": 24,
+    "h": 24,
+    "text": "what are the benefits of using delivery logistics software for pickup management"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 4030,
+    "w": 24,
+    "h": 24,
+    "label": "what are the benefits of using delivery logistics software for pickup management?",
+    "value": "what are the benefits of using delivery logistics software f",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-media > picture > img",
+    "x": 32,
+    "y": 4326,
+    "w": 296,
+    "h": 167,
+    "text": "woman and man looking at tablet",
+    "file": "media_1bc346977cdb927db6ed328aa345c1bdf1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-grid > div.teaser-title > h2#want-package-protection",
+    "x": 32,
+    "y": 4218,
+    "w": 296,
+    "h": 72,
+    "level": 2,
+    "text": "want package protection?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-grid > div.teaser-desc > p",
+    "x": 32,
+    "y": 4516,
+    "w": 296,
+    "h": 144,
+    "text": "We've got you. We offer multimodel, multicarrier shipping coverage options, so y"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-actions > p.button-wrapper > a.button.primary",
+    "x": 32,
+    "y": 4684,
+    "w": 296,
+    "h": 44,
+    "text": "explore options",
+    "href": "/us/en/shipping-insurance"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 0,
+    "y": 4792,
+    "w": 355,
+    "h": 35,
+    "text": "*Expedited reshipping reimbursement provided up to 20% of the insured value of t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 0,
+    "y": 4840,
+    "w": 358,
+    "h": 155,
+    "text": "Insurance coverage is underwritten by an authorized insurance company and issued"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 0,
+    "y": 5008,
+    "w": 352,
+    "h": 107,
+    "text": "Unless otherwise noted, all statistics used herein are derived from or based on "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 0,
+    "y": 5128,
+    "w": 358,
+    "h": 83,
+    "text": "Statistics in our social media advertising are based on aggregated insurance pro"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 5264,
+    "w": 360,
+    "h": 50,
+    "text": "this site"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 5264,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "this site",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col.ftr-col-wide > div.ftr-heading",
+    "x": 0,
+    "y": 5314,
+    "w": 360,
+    "h": 50,
+    "text": "other ups sites"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col.ftr-col-wide > div.ftr-heading",
+    "x": 0,
+    "y": 5314,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "other ups sites",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 5364,
+    "w": 360,
+    "h": 50,
+    "text": "connect with us"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 5364,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "connect with us",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr > div.ftr-inner > div.ftr-heading.ftr-heading-legal",
+    "x": 0,
+    "y": 5414,
+    "w": 360,
+    "h": 51,
+    "text": "legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr > div.ftr-inner > div.ftr-heading.ftr-heading-legal",
+    "x": 0,
+    "y": 5414,
+    "w": 360,
+    "h": 51,
+    "label": "trigger",
+    "value": "legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-inner > div.ftr-copy > p",
+    "x": 32,
+    "y": 5552,
+    "w": 296,
+    "h": 40,
+    "text": "Copyright ©2023-2026 United Parcel Service of America, Inc. All rights reserved."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 67,
+    "controls": 41,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "revolutionize your pickup experience",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "why choose our pickup solutions?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "pickup options that work for every business",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "let’s transform your pickup strategy",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 5,
+   "heading": "faq",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "what is pickup management and how does it help retailers?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "how can businesses enhance curbside and in-store pick up?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "what are the benefits of using delivery logistics software for pickup management?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "want package protection?",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"submit\" served in band \"let’s transform your pickup strategy\", no origin link or button",
+   "band": 4,
+   "n": 1,
+   "text": "submit"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 32,
+    "y": 9,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 41,
+    "y": 9,
+    "w": 23,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 9,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 39,
+    "w": 285,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 60,
+    "w": 65,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 86,
+    "w": 138,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 237,
+    "w": 58,
+    "h": 16
+   },
+   {
+    "x": 107,
+    "y": 237,
+    "w": 137,
+    "h": 16
+   },
+   {
+    "x": 261,
+    "y": 237,
+    "w": 42,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 302,
+    "w": 230,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 338,
+    "w": 228,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 407,
+    "w": 287,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 431,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 455,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 479,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 764,
+    "w": 206,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 800,
+    "w": 221,
+    "h": 33
+   },
+   {
+    "x": 72,
+    "y": 1068,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1100,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1124,
+    "w": 171,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1164,
+    "w": 152,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1196,
+    "w": 242,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1220,
+    "w": 159,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1260,
+    "w": 189,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1292,
+    "w": 226,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1316,
+    "w": 168,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1340,
+    "w": 99,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1459,
+    "w": 251,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 1494,
+    "w": 180,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 1530,
+    "w": 113,
+    "h": 33
+   },
+   {
+    "x": 56,
+    "y": 1805,
+    "w": 93,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1837,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1861,
+    "w": 216,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1885,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1909,
+    "w": 216,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1933,
+    "w": 164,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2198,
+    "w": 117,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2230,
+    "w": 244,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2254,
+    "w": 172,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2278,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2302,
+    "w": 84,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2568,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2600,
+    "w": 176,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2624,
+    "w": 209,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2648,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2672,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2696,
+    "w": 179,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2720,
+    "w": 182,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2831,
+    "w": 257,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 2866,
+    "w": 194,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 3737,
+    "w": 51,
+    "h": 33
+   },
+   {
+    "x": 48,
+    "y": 3834,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3858,
+    "w": 185,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3934,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3958,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4034,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4058,
+    "w": 209,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4082,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4221,
+    "w": 179,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 4257,
+    "w": 142,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 4520,
+    "w": 254,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4544,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4568,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4592,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4616,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4640,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 111,
+    "y": 4698,
+    "w": 113,
+    "h": 19
+   },
+   {
+    "x": 0,
+    "y": 4794,
+    "w": 355,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4818,
+    "w": 47,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4842,
+    "w": 339,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4866,
+    "w": 344,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4890,
+    "w": 350,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4914,
+    "w": 356,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4938,
+    "w": 358,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4962,
+    "w": 344,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4986,
+    "w": 248,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5010,
+    "w": 346,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5034,
+    "w": 327,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5058,
+    "w": 352,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5082,
+    "w": 348,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5106,
+    "w": 118,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5130,
+    "w": 338,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5154,
+    "w": 358,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5178,
+    "w": 354,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5202,
+    "w": 42,
+    "h": 11
+   },
+   {
+    "x": 32,
+    "y": 5281,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5331,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5381,
+    "w": 116,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5431,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5556,
+    "w": 293,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 5576,
+    "w": 200,
+    "h": 16
+   }
+  ],
+  "eds": [
+   {
+    "x": 32,
+    "y": 9,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 41,
+    "y": 9,
+    "w": 23,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 9,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 39,
+    "w": 285,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 60,
+    "w": 65,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 86,
+    "w": 138,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 237,
+    "w": 58,
+    "h": 16
+   },
+   {
+    "x": 107,
+    "y": 237,
+    "w": 137,
+    "h": 16
+   },
+   {
+    "x": 261,
+    "y": 237,
+    "w": 42,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 302,
+    "w": 230,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 338,
+    "w": 228,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 407,
+    "w": 287,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 431,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 455,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 479,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 764,
+    "w": 206,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 800,
+    "w": 221,
+    "h": 33
+   },
+   {
+    "x": 72,
+    "y": 1068,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1100,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1124,
+    "w": 171,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1164,
+    "w": 152,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1196,
+    "w": 242,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1220,
+    "w": 159,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1260,
+    "w": 189,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1292,
+    "w": 226,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1316,
+    "w": 168,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1340,
+    "w": 99,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1459,
+    "w": 251,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 1494,
+    "w": 180,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 1530,
+    "w": 113,
+    "h": 33
+   },
+   {
+    "x": 56,
+    "y": 1805,
+    "w": 93,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1837,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1861,
+    "w": 216,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1885,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1909,
+    "w": 216,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1933,
+    "w": 164,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2198,
+    "w": 117,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2230,
+    "w": 244,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2254,
+    "w": 172,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2278,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2302,
+    "w": 84,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2568,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2600,
+    "w": 176,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2624,
+    "w": 209,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2648,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2672,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2696,
+    "w": 179,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2720,
+    "w": 182,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2831,
+    "w": 257,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 2866,
+    "w": 194,
+    "h": 33
+   },
+   {
+    "x": 72,
+    "y": 3452,
+    "w": 198,
+    "h": 19
+   },
+   {
+    "x": 58,
+    "y": 3631,
+    "w": 51,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3735,
+    "w": 51,
+    "h": 33
+   },
+   {
+    "x": 48,
+    "y": 3832,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3856,
+    "w": 185,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3932,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3956,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4032,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4056,
+    "w": 209,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4080,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4219,
+    "w": 179,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 4255,
+    "w": 142,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 4518,
+    "w": 254,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4542,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4566,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4590,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4614,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4638,
+    "w": 206,
+    "h": 19
+   },
+   {
+    "x": 111,
+    "y": 4696,
+    "w": 113,
+    "h": 19
+   },
+   {
+    "x": 0,
+    "y": 4792,
+    "w": 355,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4816,
+    "w": 47,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4840,
+    "w": 339,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4864,
+    "w": 344,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4888,
+    "w": 350,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4912,
+    "w": 356,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4936,
+    "w": 358,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4960,
+    "w": 344,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4984,
+    "w": 238,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5008,
+    "w": 346,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5032,
+    "w": 327,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5056,
+    "w": 352,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5080,
+    "w": 348,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5104,
+    "w": 118,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5128,
+    "w": 338,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5152,
+    "w": 358,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5176,
+    "w": 354,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5200,
+    "w": 42,
+    "h": 11
+   },
+   {
+    "x": 32,
+    "y": 5279,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5329,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5379,
+    "w": 116,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5429,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5554,
+    "w": 293,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 5574,
+    "w": 200,
+    "h": 16
+   }
+  ]
+ }
+}

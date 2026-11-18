@@ -1,0 +1,57 @@
+{
+ "url": "https://main--9ade650b--aemcoder.aem.page/us/en/solutions/commerceshield",
+ "at": "2026-11-18T13:32:41.528Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 4,
+  "textNodes": 146,
+  "controls": 64,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.accordion-tablist",
+   "path": "div.accordion-wrapper > div.accordion.tabs > div.accordion-tablist > div#accordion-tab-3",
+   "text": "set your rules",
+   "cutMin": 105,
+   "cutMax": 105
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.accordion-tablist",
+   "path": "div.accordion.tabs > div.accordion-tablist > div#accordion-tab-3 > p",
+   "text": "set your rules",
+   "cutMin": 89,
+   "cutMax": 89
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 2,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 24,
+   "textNodes": 155,
+   "controls": 68,
+   "total": 2
+  }
+ }
+}

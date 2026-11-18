@@ -1,0 +1,56 @@
+{
+  "a": "stardust/replica/gates/all-360/us-en-about-our-locations-html/origin.png",
+  "b": "stardust/replica/gates/all-360/us-en-about-our-locations-html/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 2933,
+    "mode": "overlap"
+  },
+  "heightDelta": 50,
+  "differingPixels": 64155,
+  "pct": 6.08,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/us-en-about-our-locations-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 16.7,
+  "textBoxes": 68,
+  "textPixels": 204578,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 5.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 20
+    },
+    {
+      "y0": 2500,
+      "y1": 2933,
+      "pct": 4.2
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/about/our-locations"
+  }
+}

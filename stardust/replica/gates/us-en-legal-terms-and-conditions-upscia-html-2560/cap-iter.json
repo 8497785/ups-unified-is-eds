@@ -1,0 +1,221 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-17T21:54:14.943Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html",
+      "http://localhost:8791/us-en-legal-terms-and-conditions-upscia-html-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html",
+    "http://localhost:8791/us-en-legal-terms-and-conditions-upscia-html-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid > div.cmp-container",
+      "isBody": false,
+      "leaves": 81,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.cmp-container > div.aem-Grid.aem-Grid--12 > div.marketinghero.marketinghero-personalization > div.container.content-dir",
+        "tier": 3,
+        "share": 0.02,
+        "section": 0,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "shell",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.text.container",
+        "tier": 2,
+        "share": 0.98,
+        "section": 1,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 1209,
+        "via": "fixed",
+        "selector": "div.text.container > div.cmp-text > p > b",
+        "tier": 5,
+        "share": 0.01,
+        "section": 1,
+        "w1": 1209,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1192,
+        "via": "fixed",
+        "selector": "div.text.container > div.cmp-text > p > b",
+        "tier": 5,
+        "share": 0.01,
+        "section": 1,
+        "w1": 1192,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1199,
+        "via": "fixed",
+        "selector": "div.text.container > div.cmp-text > p > b",
+        "tier": 5,
+        "share": 0.01,
+        "section": 1,
+        "w1": 1199,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.marketinghero.marketinghero-personalization",
+        "px": 1280,
+        "capSelector": "div.cmp-container > div.aem-Grid.aem-Grid--12 > div.marketinghero.marketinghero-personalization > div.container.content-dir"
+      },
+      {
+        "index": 1,
+        "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.text.container",
+        "px": 1209,
+        "capSelector": "div.text.container > div.cmp-text > p > b"
+      }
+    ],
+    "shellMaxWidth": 1280,
+    "contentMaxWidth": 1280,
+    "contentFrom": "shell",
+    "maxCap": 1280,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 129
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "body.tpl-legal > div.page-root > main.page-main",
+      "isBody": false,
+      "leaves": 81,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.page-root > main.page-main > section.thero > div.container",
+        "tier": 2,
+        "share": 0.02,
+        "section": 0,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "shell",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "body.tpl-legal > div.page-root > main.page-main > div.container.rte",
+        "tier": 1,
+        "share": 0.98,
+        "section": 1,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 1209,
+        "via": "fixed",
+        "selector": "div.container.rte > div.rte__body > p > b",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 1209,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1192,
+        "via": "fixed",
+        "selector": "div.container.rte > div.rte__body > p > b",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 1192,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1199,
+        "via": "fixed",
+        "selector": "div.container.rte > div.rte__body > p > b",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 1199,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "body.tpl-legal > div.page-root > main.page-main > section.thero",
+        "px": 1280,
+        "capSelector": "div.page-root > main.page-main > section.thero > div.container"
+      },
+      {
+        "index": 1,
+        "selector": "body.tpl-legal > div.page-root > main.page-main > div.container.rte",
+        "px": 1209,
+        "capSelector": "div.container.rte > div.rte__body > p > b"
+      }
+    ],
+    "shellMaxWidth": 1280,
+    "contentMaxWidth": 1280,
+    "contentFrom": "shell",
+    "maxCap": 1280,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 104
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "wrapper cap",
+        "detail": "live 1280px = build 1280px (±20)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/2",
+        "detail": "1280px = 1280px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/2",
+        "detail": "1209px = 1209px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/us-en-legal-terms-and-conditions-upscia-html-2560/cap-iter.json"
+}

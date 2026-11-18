@@ -1,0 +1,41 @@
+{
+  "pathways-services": {
+    "origin": ".pathways.services .pathways__list__item__card",
+    "build": ".paths .pcard, .pathways-cards .pathways-cards-card",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "home"
+    ]
+  },
+  "gb-resources-story-cards": {
+    "origin": ".slick-active > .story-card--list__item__card",
+    "build": ".stories__slide.is-active > .story, .story-card-carousel .stories-slide:not([aria-hidden]) > .story",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "gb-en-resources-html",
+      "de-en-resources-html",
+      "it-en-resources-html",
+      "it-it-resources-html",
+      "ca-en-resources-html",
+      "us-en-about-announcements-html"
+    ],
+    "note": "on-view slides only (slick .slick-active / prototype .is-active, set by gb-en-resources-html.js): at 360 the carousel is 1-per-view and the peeking 2nd slide is clipped identically on origin and build (instrument artefact), so off-view slides are excluded on both sides. No = in selectors: the family selector pair is joined with = | scope (C-final fix-a): the listing pages whose source renders the slick story-card carousel; whitepapers-and-guides renders its story cards as a static grid (0 .slick-active matches on the origin) so the family does not apply to it."
+  },
+  "contact-pathways": {
+    "origin": ".pathways__list__item__card",
+    "build": ".paths__item",
+    "n": 3,
+    "required": false,
+    "pages": [
+      "us-en-about-contact-us-html"
+    ],
+    "templates": [
+      "form"
+    ]
+  }
+}

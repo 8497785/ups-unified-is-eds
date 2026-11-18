@@ -1,0 +1,46 @@
+{
+  "a": "stardust/replica/gates/all-1440/us-en-global-html/origin.png",
+  "b": "stardust/replica/gates/all-1440/us-en-global-html/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 1608,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 165123,
+  "pct": 7.13,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/us-en-global-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 5.89,
+  "textBoxes": 37,
+  "textPixels": 123663,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.4
+    },
+    {
+      "y0": 1500,
+      "y1": 1608,
+      "pct": 98.9
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/global"
+  }
+}

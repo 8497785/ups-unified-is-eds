@@ -1,0 +1,205 @@
+{
+ "source": "file:///workspace/9ade650b/stardust/prototypes/us-en-about-contact-us-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "mhero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Contact Us"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Whether you have an inquiry about your account or shipping insurance, we're here to help."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Submit Inquiry",
+     "href": "/us/en/about/contact-us.html?#form"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Visit our for frequently asked questions"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Help & Support",
+     "href": "/us/en/resources/help-and-support.html"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Contact Us"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col-md-6",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "container",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "InsureShield® Shipping Insurance Solutions"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Whether you ship packages, cargo, or perishable goods, we've got shipping insurance options to choose from."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Explore Solutions",
+     "href": "/us/en/shipping-insurance/select-my-coverage.html?int_cu"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "File a Claim"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Log into the InsureShield® online portal, provide the details and then track the status of your claim."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "File a Claim",
+     "href": "/us/en/claims.html"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Help & Support"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Visit our frequently asked questions or give us a call if you don’t find what you need."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Help & Support",
+     "href": "/us/en/resources/help-and-support.html?int_cu"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Load More"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col-md-6",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "container",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "UPS® Claims"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Submit or manage a UPS® claim."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "File UPS Claim",
+     "href": "https://www.ups.com/us/en/support/file-a-claim.page"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "UPS® Package Status"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Details on shipping, tracking and delivery."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Track Package",
+     "href": "https://www.ups.com/track?loc=en_US&requester=ST/"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "UPS® Billing & Payment"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Questions about your UPS invoice or UPS account."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "UPS Billing Center",
+     "href": "https://www.ups.com/us/en/business-solutions/ups-billing.page?"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Load More"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col-md-6",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

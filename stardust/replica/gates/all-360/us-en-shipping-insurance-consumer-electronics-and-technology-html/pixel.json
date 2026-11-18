@@ -1,0 +1,81 @@
+{
+  "a": "stardust/replica/gates/all-360/us-en-shipping-insurance-consumer-electronics-and-technology-html/origin.png",
+  "b": "stardust/replica/gates/all-360/us-en-shipping-insurance-consumer-electronics-and-technology-html/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 5436,
+    "mode": "overlap"
+  },
+  "heightDelta": 18,
+  "differingPixels": 155851,
+  "pct": 7.96,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/us-en-shipping-insurance-consumer-electronics-and-technology-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 13.57,
+  "textBoxes": 102,
+  "textPixels": 351682,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 12.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 14.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 12.3
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 6.3
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 18.1
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 17.3
+    },
+    {
+      "y0": 5000,
+      "y1": 5436,
+      "pct": 6
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/consumer-electronics-and-technology"
+  }
+}

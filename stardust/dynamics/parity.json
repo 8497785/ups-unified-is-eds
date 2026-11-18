@@ -1,0 +1,206 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-11-18T11:46:00.149Z"
+  },
+  "method": "document-first rebuild: chrome per header contract (chrome-compare), block JS for carousels/accordions/calculators, query index from helix-query.yaml, martech carried over disabled",
+  "features": [
+    {
+      "id": "query-index",
+      "feature": "site query index (header search source)",
+      "class": "S",
+      "pages": 95,
+      "disposition": "search-index-backed",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "query-index.json total 95; text on 86 (9 empty-main notice pages)",
+      "checks": [
+        {
+          "type": "fetch-json",
+          "url": "/query-index.json?limit=500",
+          "minRows": 90,
+          "expectKeys": [
+            "data",
+            "total"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "header-search",
+      "feature": "header search overlay + typeahead",
+      "class": "S",
+      "pages": 95,
+      "disposition": "search-index-backed",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "typeahead: 5 suggestions for \"quote\" on /us/en (21 index matches)",
+      "owner": "the source results page (/content/insureshield/us/en/site-search) is outside the migrated page set: submit stays on the source search until a results page is in scope",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/us/en/about",
+          "selector": "header .hdr-search-form input[name=q]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "header-chrome",
+      "feature": "header mega-menu, drawer, locale menu",
+      "class": "M",
+      "pages": 95,
+      "disposition": "chrome-interaction",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "chrome-compare replica profile (stardust/chrome/header-parity.json)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/us/en/about",
+          "selector": "header nav li",
+          "min": 5
+        }
+      ]
+    },
+    {
+      "id": "loss-calculator",
+      "feature": "shipping loss calculator (source AEM form frame)",
+      "class": "F",
+      "pages": 3,
+      "disposition": "client-compute",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "block keeps the source frame slot (157px mount) on b2b, retail, special-commodities; the calculator itself is an AEM adaptive form",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/us/en/shipping-insurance/b2b",
+          "selector": ".loss-calculator",
+          "min": 1
+        }
+      ],
+      "owner": "name the production form endpoint (same decision as forms) to embed or rebuild the calculator"
+    },
+    {
+      "id": "story-card-carousel",
+      "feature": "story card carousels",
+      "class": "V",
+      "pages": 8,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "block JS, interaction parity per listing archetype",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/gb/en/resources",
+          "selector": ".story-card-carousel .story",
+          "min": 3
+        }
+      ]
+    },
+    {
+      "id": "forms",
+      "feature": "AEM adaptive forms (quote, contact, partner) + reCAPTCHA",
+      "class": "F",
+      "pages": 20,
+      "disposition": "forms",
+      "reproducibility": "owner",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "form UI rebuilt; submit shows the no-backend notice",
+      "owner": "name the production form endpoint (AEM Forms or another backend) and the captcha site key",
+      "checks": []
+    },
+    {
+      "id": "martech",
+      "feature": "Tealium, GTM, Adobe Analytics/Target, OneTrust, mPulse, ad pixels",
+      "class": "T",
+      "pages": 95,
+      "disposition": "consent-gated-tags",
+      "reproducibility": "owner",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "scripts/martech.js from stardust/martech-contract.json, every part disabled",
+      "owner": "enable contract parts per stardust/martech-handoff.md",
+      "checks": []
+    },
+    {
+      "id": "locale-switcher",
+      "feature": "locale switcher",
+      "class": "I18N",
+      "pages": 95,
+      "disposition": "locale-tree",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "switcher keeps the source locale links; only planned locale pages delivered",
+      "checks": []
+    },
+    {
+      "id": "aem-internals",
+      "feature": "AEM csrf token, toggles.json, CQ/dataLayer settings objects, RPC beacons",
+      "class": "A",
+      "pages": 95,
+      "disposition": "decided-out",
+      "reproducibility": "self",
+      "status": "decided-out",
+      "verifiedBy": "platform internals of the source CMS; no visible content depends on them (data layers ride the martech contract)",
+      "checks": []
+    },
+    {
+      "id": "login",
+      "feature": "Log In link",
+      "class": "X",
+      "pages": 95,
+      "disposition": "decided-out",
+      "reproducibility": "self",
+      "status": "decided-out",
+      "verifiedBy": "stays a link to https://online.upscapital.com/login",
+      "checks": []
+    },
+    {
+      "id": "no-errors",
+      "feature": "archetype pages run without uncaught errors",
+      "class": "A",
+      "pages": 9,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "9 archetypes",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/",
+            "/us/en/shipping-insurance",
+            "/us/en/shipping-insurance/b2b",
+            "/gb/en/resources",
+            "/de/en/home",
+            "/us/en/legal/terms-and-conditions-upscia",
+            "/us/en/about/contact-us",
+            "/us/en/customer-communications",
+            "/us/en/global"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roi-calculator",
+      "feature": "Delivery Defense ROI savings calculator",
+      "class": "F",
+      "pages": 3,
+      "disposition": "client-compute",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "roi-calculator block rebuilt from the source; the source computes on an AEM service, so submit shows the source error line",
+      "owner": "name the ROI service endpoint",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/us/en/solutions/delivery-defense",
+          "selector": ".roi-calculator input",
+          "min": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "slug": "us-en-about-announcements-html",
+  "type": "listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "marketing-hero",
+    "story-card-carousel"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "container",
+    "container"
+  ],
+  "canonShas": {
+    "header": "e0cc8fc1523a",
+    "footer": "36c0e02d3e04",
+    "css": "481e893f2500"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Announcements | InsureShield",
+    "description": "Find the resources you need, including relevant research, articles, information about claims, shipping tips for your business, and FAQs,all in one place.",
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Announcements | InsureShield",
+    "description": "Find the resources you need, including relevant research, articles, information about claims, shipping tips for your business, and FAQs,all in one place.",
+    "url": "https://www.insureshield.com/us/en/about/announcements.html"
+  },
+  "migratedAt": "2026-11-18T02:01:11Z",
+  "designMdSha": "3a53c3d58678",
+  "designJsonSha": "d5b1e78b9da2",
+  "sourceCurrentSha": "d48b5d151083",
+  "sourceProposedSha": "1371773780df",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance vs gb-en-resources-html 1440: exit 2 — deltas budgeted as reused blocks (story-card-grid, secondary-promo, pathways-cards), no per-page fork",
+    "delivery-lint": "listing cluster chain 2026-11-18",
+    "media-reconcile": "listing cluster chain 2026-11-18",
+    "content-fidelity": "listing cluster chain 2026-11-18",
+    "pixel-gate-1440": "gate-all --only, preview host, 2026-11-18",
+    "pixel-gate-360": "gate-all --only, preview host, 2026-11-18"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/gb/en/about/contact-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/global.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/cargo-insurance/get-a-quote.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/cargo-insurance/connectivity-tools.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/help-and-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/about/product-availability.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/about/contact-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Made-PC.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/JCR-Distributors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Data-Vision.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/aftership-customer-story.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/Proof.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories/BikeFlights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/customer-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/introduction-to-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/how-to-prevent-return-fraud.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-is-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/what-are-incoterms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/photos-to-support-claim.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights/ocean-limits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/resources/help-and-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/about/announcements/ups-capital-launches-its-commerceshield-technology",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/legal/technology-agreement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/legal/product-disclosure.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/legal/complaints.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gb/en/legal/privacy-notice.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "us/en/about/announcements.html",
+  "outputPathDefault": null,
+  "sidecar": "us/en/about/announcements._meta.json",
+  "driverVersion": "1"
+}

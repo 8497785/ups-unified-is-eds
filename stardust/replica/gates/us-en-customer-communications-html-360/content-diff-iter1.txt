@@ -1,0 +1,25 @@
+[live-session] waiting to pace live navigations to www.insureshield.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 360px (profile "generic", roots: #container-a3cb952865, header, footer)
+root "#container-a3cb952865"
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "header"
+  source: 43 text nodes — 0 headings, 1 eyebrows, 33 CTAs, 9 body; 1 img
+  build: 43 text nodes — 0 headings, 1 eyebrows, 33 CTAs, 9 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 9 / build 10; icons: source 10 / build 10
+root "footer"
+  source: 33 text nodes — 1 headings, 0 eyebrows, 24 CTAs, 8 body; 5 img
+  build: 33 text nodes — 1 headings, 0 eyebrows, 24 CTAs, 8 body; 5 img
+  editable texts (outermost h*/p/ul/ol): source 12 / build 12
+  attributes (placeholder/aria-label/title): source 2 / build 3; icons: source 19 / build 19
+
+⚠ one side has almost no content — a blank/failed render; fix that before trusting the diff.
+
+Findings: 2 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 2
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <nav> aria-label="Legal" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

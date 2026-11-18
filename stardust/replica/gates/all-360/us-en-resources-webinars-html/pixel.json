@@ -1,0 +1,41 @@
+{
+  "a": "stardust/replica/gates/all-360/us-en-resources-webinars-html/origin.png",
+  "b": "stardust/replica/gates/all-360/us-en-resources-webinars-html/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 1300,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 687,
+  "pct": 0.15,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/us-en-resources-webinars-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0.83,
+  "textBoxes": 31,
+  "textPixels": 82403,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1300,
+      "pct": 0
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/resources/webinars"
+  }
+}

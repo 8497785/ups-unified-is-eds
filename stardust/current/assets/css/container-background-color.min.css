@@ -1,0 +1,49 @@
+.cmp-container--bg-white {
+  background-color: #fff;
+}
+.cmp-container--bg-light-gray {
+  background-color: #f5f5f5;
+}
+.ups-container-bg-override {
+  padding: 24px 16px;
+}
+.ups-container-bg-override > .aem-Grid > .aem-GridColumn,
+.ups-container-bg-override > .aem-Grid > .aem-GridColumn > * {
+  background-color: inherit !important;
+}
+.containerBackgroundColor.pt-bg-container {
+  padding-top: 4.8rem;
+}
+.containerBackgroundColor.pb-bg-container {
+  padding-bottom: 4.8rem;
+}
+.containerBackgroundColor .story-card {
+  margin-bottom: 0;
+}
+.containerBackgroundColor.ups-store-blue-bg {
+  background-color: #009cbd;
+}
+.containerBackgroundColor.ups-store-blue-bg .title .cmp-title p,
+.containerBackgroundColor.ups-store-blue-bg .title h3.cmp-title__text {
+  color: #fff;
+}
+.containerBackgroundColor.ups-store-blue-bg .story-card--list__item__card {
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+.containerBackgroundColor.ups-store-blue-white-gradient-bg {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(55%, #009cbd),
+    color-stop(95%, #ffffff)
+  );
+  background: linear-gradient(180deg, #009cbd 55%, #ffffff 95%);
+}
+.containerBackgroundColor.ups-store-blue-white-gradient-bg .title .cmp-title p,
+.containerBackgroundColor.ups-store-blue-white-gradient-bg
+  .title
+  h3.cmp-title__text {
+  color: #fff;
+}

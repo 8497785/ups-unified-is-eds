@@ -1,0 +1,57 @@
+{
+ "url": "https://main--9ade650b--aemcoder.aem.page/us/en/risk-mitigation/risk-intelligence-smb2",
+ "at": "2026-11-18T13:07:07.814Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 2,
+  "textNodes": 80,
+  "controls": 48,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.accordion-tablist",
+   "path": "div.accordion-wrapper > div.accordion.tabs > div.accordion-tablist > div#accordion-tab-4",
+   "text": "step 4",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.accordion-tablist",
+   "path": "div.accordion.tabs > div.accordion-tablist > div#accordion-tab-4 > p",
+   "text": "step 4",
+   "cutMin": 0,
+   "cutMax": 0
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 22,
+   "textNodes": 90,
+   "controls": 54,
+   "total": 0
+  }
+ }
+}

@@ -1,0 +1,487 @@
+[live-session] waiting to pace live navigations to www.insureshield.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 743 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/us-en-about-contact-us-html-360/vdiff-confirm/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 3351,
+  "textLen": 977,
+  "images": [
+   {
+    "src": "InsureShield_horizontal_UPSC",
+    "natural": "300x112",
+    "rendered": "149x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_2225224027_1440x810?$UPSer_Preset$&wid=256&hei=144&fmt=png-alpha&fit=constrain",
+    "natural": "256x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Shield_72x72_Teal?$UPSer_Preset$&wid=72&hei=72&fmt=png-alpha",
+    "natural": "72x72",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Sync_Saved_Locally_72x72_Teal?$UPSer_Preset$&wid=72&hei=72&fmt=png-alpha",
+    "natural": "72x72",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Insights_72x72_Teal?$UPSer_Preset$&wid=256&hei=144&fmt=png-alpha&fit=constrain",
+    "natural": "186x144",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-facebook",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-instagram",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "16x64",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "16x64",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "16x64",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "1187733~UPS_Flat_Shield_2Color_RGB.original.png",
+    "natural": "425x480",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "464526.gif",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=187194318&Ver=2&mid=89d07686-e6fa-49da-a67b-98fadeaff0c4&bo=2&sid=5e79b050e2c011f1836949d77ef27f00&vid=5e799730e2c011f19d691d813d056856&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=Contact%20Us%20For%20Help%20and%20Services%20%7C%20InsureShield&p=https%3A%2F%2Fwww.insureshield.com%2Fus%2Fen%2Fabout%2Fcontact-us.html&r=&lt=1600&evt=pageLoad&sv=2&asc=G&cdb=AQER&rn=31160",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Contact Us",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "32px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Contact Us",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "32px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "14px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "16px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Support When You Need It",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Have a UPS Question?",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Recent search results",
+    "color": "rgb(18, 18, 18)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "col-md-6",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "cmp-teaser__title",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "cmp-teaser__description",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "cmp-teaser__additionalText",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "popover-ups__container",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "cmp-title",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "description",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "description",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "description",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "cmp-title",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "description",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "description",
+    "width": 296,
+    "left": 32
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 3287,
+  "textLen": 977,
+  "images": [
+   {
+    "src": "InsureShield_horizontal_UPSC",
+    "natural": "300x112",
+    "rendered": "149x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_2225224027_1440x810?$UPSer_Preset$&wid=256&hei=144&fmt=png-alpha&fit=constrain",
+    "natural": "256x144",
+    "rendered": "296x167",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Shield_72x72_Teal?$UPSer_Preset$&wid=72&hei=72&fmt=png-alpha",
+    "natural": "72x72",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Sync_Saved_Locally_72x72_Teal?$UPSer_Preset$&wid=72&hei=72&fmt=png-alpha",
+    "natural": "72x72",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Insights_72x72_Teal?$UPSer_Preset$&wid=384&hei=216&fmt=png-alpha&fit=constrain",
+    "natural": "278x216",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "Description_72x72_Teal?$UPSer_Preset$&wid=72&hei=72&fmt=png-alpha",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Package_72x72_Teal?$UPSer_Preset$&wid=72&hei=72&fmt=png-alpha",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "CreditCard_72x72_Teal?$UPSer_Preset$&wid=72&hei=72&fmt=png-alpha",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-facebook",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-instagram",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-x",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-linkedin",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social-youtube",
+    "natural": "150x150",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Contact Us",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "32px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Contact Us",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "32px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Support When You Need It",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Have a UPS Question?",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Roboto Fallback",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Recent search results",
+    "color": "rgb(18, 18, 18)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "teaser-title",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "teaser-desc",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "teaser-extra",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "col-md-6",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "sec-title__inner",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "pcard__body",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "pcard__body",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "pcard__body",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "sec-title__inner",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "pcard__body",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "pcard__body",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "pcard__body",
+    "width": 296,
+    "left": 32
+   }
+  ]
+ }
+}

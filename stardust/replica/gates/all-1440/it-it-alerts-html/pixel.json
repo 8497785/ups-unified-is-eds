@@ -1,0 +1,36 @@
+{
+  "a": "stardust/replica/gates/all-1440/it-it-alerts-html/origin.png",
+  "b": "stardust/replica/gates/all-1440/it-it-alerts-html/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 900,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 3701,
+  "pct": 0.29,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/it-it-alerts-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 5.04,
+  "textBoxes": 28,
+  "textPixels": 56734,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 900,
+      "pct": 0.6
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--9ade650b--aemcoder.aem.page/it/it/alerts"
+  }
+}

@@ -25,3 +25,167 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+/* ---------- variant `pricing` (source: two text--rte bootstrap .card boxes in a col-lg-6 column
+   control, /us/en/solutions/commerceshield "No seats. No minimums.") — lifted: card border 1px
+   rgb(217 217 217), radius .375rem, height 450px, overflow hidden; card-header py-3 px-3 bold
+   uppercase on rgb(185 214 213) / rgb(0 123 130); card-body p-3; h5 mb-2; price h3 in
+   rgb(0 123 130), mb-1; note fst-italic text-secondary small mb-4; badge p-1 me-2 mt-1
+   rounded-1 on rgb(31 191 63), .75em bold, lh 1 (root 10px: 1rem = 10px). Cards 42px apart
+   stacked, two 592px columns 32px apart from 992, 64px to the next band ---------- */
+.cards.pricing {
+  margin-bottom: 64px;
+}
+
+.cards.pricing > ul {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 42px;
+}
+
+/* below 992 the source card (fixed 450px, overflow hidden) cuts its last feature line off; the
+   recreation lets the card grow past 450px so no authored text is hidden */
+.cards.pricing > ul > li {
+  min-height: 450px;
+  overflow: hidden;
+  border: 1px solid rgb(217 217 217);
+  border-radius: 0.375rem;
+}
+
+.cards.pricing .cards-card-label {
+  padding: 1rem;
+  background-color: rgb(185 214 213);
+  color: rgb(0 123 130);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+}
+
+.cards.pricing .cards-card-body {
+  margin: 0;
+  padding: 1rem;
+}
+
+.cards.pricing .cards-card-body h5 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.cards.pricing .cards-card-body h3 {
+  margin-bottom: 0.25rem;
+  color: rgb(0 123 130);
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.cards.pricing .cards-card-body p {
+  margin-bottom: 1.6rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.cards.pricing .cards-card-body p.cards-card-note {
+  margin-bottom: 1.5rem;
+  color: #6c757d;
+  font-size: 1.4rem;
+  font-style: italic;
+  line-height: 1.8rem;
+}
+
+.cards.pricing .cards-card-check {
+  display: inline-block;
+  margin: 0.25rem 0.5rem 0 0;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: rgb(31 191 63);
+  color: #fff;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* section head before the cards (source cmp-title: h3 20/28 + 16px teal bar, 16/24 description
+   16px under it, left < 768, centred from 768; 32/40 + 20px, 20/28 in a 67 % measure from 992;
+   the cards 24px under it, 48px from 992) */
+main > .section.cards-container:has(.cards.pricing) > .default-content-wrapper {
+  margin-bottom: 24px;
+}
+
+main > .section.cards-container:has(.cards.pricing) > .default-content-wrapper > h3 {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 16px;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+main > .section.cards-container:has(.cards.pricing) > .default-content-wrapper > h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+main > .section.cards-container:has(.cards.pricing) > .default-content-wrapper > p {
+  margin-top: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+@media (width >= 768px) {
+  main > .section.cards-container:has(.cards.pricing) > .default-content-wrapper {
+    text-align: center;
+  }
+
+  main > .section.cards-container:has(.cards.pricing) > .default-content-wrapper > h3::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (width >= 992px) {
+  main > .section.cards-container:has(.cards.pricing) > .default-content-wrapper {
+    margin-bottom: 48px;
+  }
+
+  main > .section.cards-container:has(.cards.pricing) > .default-content-wrapper > h3 {
+    max-width: 67%;
+    padding-bottom: 20px;
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+
+  main > .section.cards-container:has(.cards.pricing) > .default-content-wrapper > p {
+    margin: 20px 16.5% 0;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  .cards.pricing > ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+  }
+
+  .cards.pricing > ul > li {
+    height: 450px;
+  }
+
+  .cards.pricing .cards-card-body h5 {
+    font-size: 2.4rem;
+    line-height: 1.33;
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  .cards.pricing .cards-card-body h3 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+  }
+}
+
+/* the grown card (below 992) ends on its body padding, not the last feature's 16px gap */
+.cards.pricing .cards-card-body > :last-child {
+  margin-bottom: 0;
+}

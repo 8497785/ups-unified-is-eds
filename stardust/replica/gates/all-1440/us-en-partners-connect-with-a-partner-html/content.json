@@ -1,0 +1,3726 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-18T12:47:12.384Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.insureshield.com/us/en/partners/connect-with-a-partner.html",
+  "at": "2026-11-18T12:46:55.506Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2908,
+  "root": null,
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "span.upser-alert__msg.slick-slide > div.upser-alert__wrapper > p.upser-alert__title",
+    "x": 169,
+    "y": 10,
+    "w": 354,
+    "h": 21,
+    "text": "Introducing a fresh take on protection for your shipments"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "span.upser-alert__msg.slick-slide > div.upser-alert__wrapper > a.upser-alert__more",
+    "x": 527,
+    "y": 10,
+    "w": 138,
+    "h": 21,
+    "text": "get started in minutes",
+    "href": "/en/sign-up"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.container > div.upser-alerts__container > button.upser-alerts__close",
+    "x": 1292,
+    "y": 7,
+    "w": 36,
+    "h": 26,
+    "text": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.image > div#image-d17206185b > a.cmp-image__link",
+    "x": 112,
+    "y": 62,
+    "w": 165,
+    "h": 71,
+    "text": "insureshield",
+    "href": "/us/en/securecommerce.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "a.cmp-image__link > picture > img.cmp-image__image",
+    "x": 112,
+    "y": 67,
+    "w": 165,
+    "h": 62,
+    "text": "insureshield",
+    "file": "InsureShield_horizontal_UPSC"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.nav-item > a.ups-link",
+    "x": 888,
+    "y": 54,
+    "w": 38,
+    "h": 16,
+    "text": "log in",
+    "href": "/login"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.nav-item > a.ups-link",
+    "x": 958,
+    "y": 54,
+    "w": 73,
+    "h": 16,
+    "text": "get a quote",
+    "href": "/us/en/shipping-insurance/get-a-quote.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.nav-item > a.ups-link",
+    "x": 1064,
+    "y": 54,
+    "w": 69,
+    "h": 16,
+    "text": "contact us",
+    "href": "/us/en/about/contact-us.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.nav-item.ups-language-selector > p.ups-language",
+    "x": 1165,
+    "y": 52,
+    "w": 163,
+    "h": 21,
+    "text": "united states - english"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.nav-item.ups-language-selector > p.ups-language",
+    "x": 1165,
+    "y": 52,
+    "w": 163,
+    "h": 21,
+    "label": "trigger",
+    "value": "united states - english",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 317,
+    "y": 78,
+    "w": 141,
+    "h": 40,
+    "text": "shipping insurance",
+    "href": "/us/en/shipping-insurance.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 491,
+    "y": 78,
+    "w": 71,
+    "h": 40,
+    "text": "solutions",
+    "href": "/us/en/partners/connect-with-a-partner.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link.main-link",
+    "x": 594,
+    "y": 78,
+    "w": 53,
+    "h": 40,
+    "text": "claims",
+    "href": "/us/en/claims.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 679,
+    "y": 78,
+    "w": 66,
+    "h": 40,
+    "text": "partners",
+    "href": "/us/en/partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 777,
+    "y": 78,
+    "w": 80,
+    "h": 40,
+    "text": "resources",
+    "href": "/us/en/resources.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 888,
+    "y": 78,
+    "w": 47,
+    "h": 40,
+    "text": "about",
+    "href": "/us/en/about.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.cmp-search > div#upser-header-search > button.header-search-btn",
+    "x": 1284,
+    "y": 89,
+    "w": 44,
+    "h": 44,
+    "text": "search toggle"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.cmp-search > div#upser-header-search > button.header-search-btn",
+    "x": 1284,
+    "y": 89,
+    "w": 44,
+    "h": 44,
+    "label": "search toggle",
+    "value": "search toggle",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ol.cmp-breadcrumb__list > li.cmp-breadcrumb__item > a.cmp-breadcrumb__item-link",
+    "x": 112,
+    "y": 184,
+    "w": 53,
+    "h": 21,
+    "text": "partners",
+    "href": "/us/en/partners.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ol.cmp-breadcrumb__list > li.cmp-breadcrumb__item.cmp-breadcrumb__item--active > span",
+    "x": 182,
+    "y": 184,
+    "w": 142,
+    "h": 20,
+    "text": "Connect with a Partner"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#image-6b617bd466 > picture > img.cmp-image__image",
+    "x": 736,
+    "y": 281,
+    "w": 592,
+    "h": 332,
+    "text": "male holding a box in front of a delivery van full of boxes",
+    "file": "shutterstock_1245922846_digital_02062023"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__title > h1",
+    "x": 112,
+    "y": 273,
+    "w": 488,
+    "h": 56,
+    "level": 1,
+    "text": "connect with a partner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__description > p",
+    "x": 112,
+    "y": 373,
+    "w": 488,
+    "h": 56,
+    "text": "Choose from one of our many partners to get your shipments covered quickly and e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 421,
+    "y": 805,
+    "w": 598,
+    "h": 68,
+    "level": 2,
+    "text": "options for how you do business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#tabs-1219372196 > ol.cmp-tabs__tablist > li#tabs-1219372196-item-2eda23f0cd-tab",
+    "x": 112,
+    "y": 921,
+    "w": 313,
+    "h": 72,
+    "label": "tab selected",
+    "value": "3rd party logistics",
+    "via": "aria-selected"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#image-5a983f4205 > picture > img.cmp-image__image",
+    "x": 522,
+    "y": 921,
+    "w": 79,
+    "h": 44,
+    "text": "fort systems logo",
+    "file": "FORT_green_shield_700"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__title > p",
+    "x": 613,
+    "y": 921,
+    "w": 155,
+    "h": 32,
+    "text": "FORT Systems"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__description > p",
+    "x": 522,
+    "y": 981,
+    "w": 806,
+    "h": 72,
+    "text": "FORT is a cloud-based software solution providing scalable, enterprise class ful"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__description > p",
+    "x": 522,
+    "y": 1065,
+    "w": 806,
+    "h": 72,
+    "text": "Our applications were developed to meet the exacting reporting and compliance re"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__action-container > a#teaser-5a983f4205-cta-c2a3f3faf9",
+    "x": 522,
+    "y": 1153,
+    "w": 175,
+    "h": 44,
+    "text": "fort systems",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#image-172af3e609 > picture > img.cmp-image__image",
+    "x": 522,
+    "y": 1221,
+    "w": 79,
+    "h": 44,
+    "text": "unishippers logo with red circle and big u in it",
+    "file": "Unishipper%20Logo%20592x333"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__title > p",
+    "x": 613,
+    "y": 1221,
+    "w": 126,
+    "h": 32,
+    "text": "Unishippers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__description > p",
+    "x": 522,
+    "y": 1281,
+    "w": 806,
+    "h": 72,
+    "text": "For over 30 years, Unishippers has been the trusted advisor for small and mid-si"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__description > p",
+    "x": 522,
+    "y": 1365,
+    "w": 806,
+    "h": 48,
+    "text": "Through our partnership with UPS Capital, Unishippers helps keep your small pack"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__action-container > a#teaser-172af3e609-cta-86d05aa5bf",
+    "x": 522,
+    "y": 1429,
+    "w": 155,
+    "h": 44,
+    "text": "unishippers",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#image-dfb07b0f73 > picture > img.cmp-image__image",
+    "x": 522,
+    "y": 1497,
+    "w": 79,
+    "h": 44,
+    "text": "worldwide express logo in blue font with white background",
+    "file": "WWE%20Logo%20650x333"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__title > p",
+    "x": 613,
+    "y": 1497,
+    "w": 203,
+    "h": 32,
+    "text": "Worldwide Express"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__description > p",
+    "x": 522,
+    "y": 1557,
+    "w": 806,
+    "h": 48,
+    "text": "Worldwide Express, LLC is a full-service, non-asset-based logistics provider off"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__description > p",
+    "x": 522,
+    "y": 1617,
+    "w": 806,
+    "h": 72,
+    "text": "As the largest authorized UPS non-retail reseller in the U.S., our company is a "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__action-container > a#teaser-dfb07b0f73-cta-5a4d294bd7",
+    "x": 522,
+    "y": 1705,
+    "w": 208,
+    "h": 44,
+    "text": "worldwide express",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#image-7cb400146b > picture > img.cmp-image__image",
+    "x": 112,
+    "y": 1585,
+    "w": 592,
+    "h": 333,
+    "text": "female checking a box while surrounded by multiple boxes in ",
+    "file": "shutterstock_144468517_digital_02062023"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row > div.col-md-6.col-12 > div.cmp-teaser__title",
+    "x": 840,
+    "y": 1622,
+    "w": 488,
+    "h": 116,
+    "text": "Interested in Becoming a Partner?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__description > p",
+    "x": 840,
+    "y": 1758,
+    "w": 488,
+    "h": 56,
+    "text": "Speak with an expert to develop a program that serves you and your customers."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__action-container > a#teaser-7cb400146b-cta-e2250ec2eb",
+    "x": 840,
+    "y": 1838,
+    "w": 153,
+    "h": 44,
+    "text": "contact us",
+    "href": "/us/en/partners/become-a-partner.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 112,
+    "y": 2129,
+    "w": 405,
+    "h": 11,
+    "text": "*Expedited reshipping reimbursement provided up to 20% of the insured value of t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 112,
+    "y": 2153,
+    "w": 1193,
+    "h": 35,
+    "text": "Insurance coverage is underwritten by an authorized insurance company and issued"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 112,
+    "y": 2201,
+    "w": 1192,
+    "h": 35,
+    "text": "Unless otherwise noted, all statistics used herein are derived from or based on "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 112,
+    "y": 2249,
+    "w": 1100,
+    "h": 11,
+    "text": "Statistics in our social media advertising are based on aggregated insurance pro"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-97dfc0134a > p",
+    "x": 112,
+    "y": 2313,
+    "w": 272,
+    "h": 23,
+    "text": "This Site"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 120,
+    "y": 2375,
+    "w": 119,
+    "h": 40,
+    "text": "shipping insurance",
+    "href": "/us/en/shipping-insurance.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 120,
+    "y": 2415,
+    "w": 58,
+    "h": 40,
+    "text": "solutions",
+    "href": "/us/en/partners/connect-with-a-partner.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 120,
+    "y": 2455,
+    "w": 43,
+    "h": 40,
+    "text": "claims",
+    "href": "/us/en/claims.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 120,
+    "y": 2495,
+    "w": 53,
+    "h": 40,
+    "text": "partners",
+    "href": "/us/en/partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 120,
+    "y": 2535,
+    "w": 66,
+    "h": 40,
+    "text": "resources",
+    "href": "/us/en/resources.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 120,
+    "y": 2575,
+    "w": 37,
+    "h": 40,
+    "text": "about",
+    "href": "/us/en/about.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-c12bd6f8bb > p",
+    "x": 416,
+    "y": 2313,
+    "w": 475,
+    "h": 23,
+    "text": "Other UPS Sites"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 424,
+    "y": 2375,
+    "w": 99,
+    "h": 40,
+    "text": "ups capital",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 424,
+    "y": 2415,
+    "w": 90,
+    "h": 40,
+    "text": "parcel pro",
+    "href": "/us/en/home.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 424,
+    "y": 2455,
+    "w": 52,
+    "h": 40,
+    "text": "ups",
+    "href": "/us/en/Home.page"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 424,
+    "y": 2495,
+    "w": 198,
+    "h": 40,
+    "text": "ups supply chain solutions",
+    "href": "/us/en/supplychain/Home.page"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 424,
+    "y": 2535,
+    "w": 92,
+    "h": 40,
+    "text": "about ups",
+    "href": "/us/en/home.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-369e9a7e5a > p",
+    "x": 923,
+    "y": 2313,
+    "w": 304,
+    "h": 23,
+    "text": "Connect with Us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.socialmedia > div.ups-social-media > a.ups-social-icon",
+    "x": 923,
+    "y": 2375,
+    "w": 136,
+    "h": 40,
+    "text": "facebook",
+    "href": "/InsureShield/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.ups-social-media > a.ups-social-icon > img.ups-social-icon__img.lazyloaded",
+    "x": 931,
+    "y": 2387,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.socialmedia > div.ups-social-media > a.ups-social-icon",
+    "x": 923,
+    "y": 2415,
+    "w": 136,
+    "h": 40,
+    "text": "instagram",
+    "href": "/insureshield/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.ups-social-media > a.ups-social-icon > img.ups-social-icon__img.lazyloaded",
+    "x": 931,
+    "y": 2427,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "social-instagram"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.socialmedia > div.ups-social-media > a.ups-social-icon",
+    "x": 923,
+    "y": 2455,
+    "w": 136,
+    "h": 40,
+    "text": "@upscapital",
+    "href": "/upscapital"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.ups-social-media > a.ups-social-icon > img.ups-social-icon__img.lazyloaded",
+    "x": 931,
+    "y": 2467,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "social-x"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.socialmedia > div.ups-social-media > a.ups-social-icon",
+    "x": 923,
+    "y": 2495,
+    "w": 136,
+    "h": 40,
+    "text": "linkedin",
+    "href": "/company/insureshield"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.ups-social-media > a.ups-social-icon > img.ups-social-icon__img.lazyloaded",
+    "x": 931,
+    "y": 2507,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.socialmedia > div.ups-social-media > a.ups-social-icon",
+    "x": 923,
+    "y": 2535,
+    "w": 136,
+    "h": 40,
+    "text": "youtube",
+    "href": "/@InsureShield"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.ups-social-media > a.ups-social-icon > img.ups-social-icon__img.lazyloaded",
+    "x": 931,
+    "y": 2547,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "social-youtube"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 112,
+    "y": 2673,
+    "w": 163,
+    "h": 41,
+    "text": "website terms of use",
+    "href": "/us/en/support/shipping-support/legal-terms-conditions.page"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 295,
+    "y": 2673,
+    "w": 145,
+    "h": 41,
+    "text": "technology agreement",
+    "href": "/us/en/legal/technology-agreement.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 460,
+    "y": 2673,
+    "w": 119,
+    "h": 41,
+    "text": "product disclosure",
+    "href": "/us/en/legal/product-disclosure.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 599,
+    "y": 2673,
+    "w": 106,
+    "h": 41,
+    "text": "terms of service",
+    "href": "/us/en/legal/terms-and-conditions-upscia.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 724,
+    "y": 2673,
+    "w": 211,
+    "h": 41,
+    "text": "your california privacy rights",
+    "href": "/california-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 956,
+    "y": 2673,
+    "w": 116,
+    "h": 41,
+    "text": "privacy notice",
+    "href": "/privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 1092,
+    "y": 2673,
+    "w": 99,
+    "h": 41,
+    "text": "cookie settings",
+    "href": "window.OneTrust.ToggleInfoDisplay();window(scrollTo(0,0))"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul.cmp-navigation__group > li.cmp-navigation__item.cmp-navigation__item--level-0 > a.cmp-navigation__item-link",
+    "x": 112,
+    "y": 2714,
+    "w": 309,
+    "h": 41,
+    "text": "do not sell or share my personal information",
+    "href": "/opt-out"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.copy-right > div#text-b533edb835 > h4",
+    "x": 112,
+    "y": 2832,
+    "w": 1216,
+    "h": 20,
+    "level": 4,
+    "text": "copyright ©2023-2026 united parcel service of america, inc. all rights reserved."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.sm-reactive-interface > span > div.sm-reactive-tab.sm-reactive-tab-undefined",
+    "x": 1089,
+    "y": 810,
+    "w": 321,
+    "h": 60,
+    "text": "chat with a live representative!"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.sm-reactive-interface > span > div.sm-reactive-tab.sm-reactive-tab-undefined",
+    "x": 1089,
+    "y": 810,
+    "w": 321,
+    "h": 60,
+    "label": "chat with a live representative!",
+    "value": "chat with a live representative!",
+    "via": "trigger"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 13,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 75,
+    "controls": 51,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 3,
+     "clipper": "div#container-e4ce5d48bc",
+     "path": "nav.navbar.util-nav > ul.navbar-nav > li.nav-item > a.ups-link",
+     "text": "log in",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 3,
+     "clipper": "div#container-e4ce5d48bc",
+     "path": "nav.navbar.util-nav > ul.navbar-nav > li.nav-item > a.ups-link",
+     "text": "log in",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 3,
+     "clipper": "div#container-2eda23f0cd",
+     "path": "div#teaser-dfb07b0f73 > div.cmp-teaser__content > div.cmp-teaser__title > p",
+     "text": "worldwide express",
+     "cutMin": 5,
+     "cutMax": 5
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#container-e4ce5d48bc",
+     "path": "nav.navbar.util-nav > ul.navbar-nav > li.nav-item.ups-language-selector > p.ups-language",
+     "text": "united states - english",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#container-e4ce5d48bc",
+     "path": "nav.navbar.util-nav > ul.navbar-nav > li.nav-item.ups-language-selector > p.ups-language",
+     "text": "united states - english",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#container-2eda23f0cd",
+     "path": "div#teaser-dfb07b0f73 > div.cmp-teaser__content > div.cmp-teaser__action-container > a#teaser-dfb07b0f73-cta-5a4d294bd7",
+     "text": "worldwide express",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#container-2eda23f0cd",
+     "path": "div#teaser-dfb07b0f73 > div.cmp-teaser__content > div.cmp-teaser__action-container > a#teaser-dfb07b0f73-cta-5a4d294bd7",
+     "text": "worldwide express",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--9ade650b--aemcoder.aem.page/us/en/partners/connect-with-a-partner",
+  "at": "2026-11-18T12:47:12.283Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2916,
+  "root": "main",
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.alerts-list > div.alerts-msg > p",
+    "x": 169,
+    "y": 10,
+    "w": 354,
+    "h": 21,
+    "text": "Introducing a fresh take on protection for your shipments"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.alerts-list > div.alerts-msg > a.alerts-more",
+    "x": 527,
+    "y": 10,
+    "w": 138,
+    "h": 21,
+    "text": "get started in minutes",
+    "href": "/en/sign-up"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.alerts-inner > button.alerts-close",
+    "x": 1292,
+    "y": 7,
+    "w": 36,
+    "h": 26,
+    "text": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-logo > p > a",
+    "x": 112,
+    "y": 62,
+    "w": 165,
+    "h": 71,
+    "text": "insureshield",
+    "href": "/us/en/securecommerce"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 112,
+    "y": 67,
+    "w": 165,
+    "h": 62,
+    "text": "insureshield",
+    "file": "media_1e13fd7b8c723c94791c8f8ac6c80eaf75"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 888,
+    "y": 54,
+    "w": 38,
+    "h": 16,
+    "text": "log in",
+    "href": "/login"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 958,
+    "y": 54,
+    "w": 73,
+    "h": 16,
+    "text": "get a quote",
+    "href": "/us/en/shipping-insurance/get-a-quote"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1064,
+    "y": 54,
+    "w": 69,
+    "h": 16,
+    "text": "contact us",
+    "href": "/us/en/about/contact-us"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.hdr-lang > button.hdr-lang-btn",
+    "x": 1165,
+    "y": 52,
+    "w": 163,
+    "h": 21,
+    "text": "united states - english"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.hdr-lang > button.hdr-lang-btn",
+    "x": 1165,
+    "y": 52,
+    "w": 163,
+    "h": 21,
+    "label": "trigger",
+    "value": "united states - english",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.hdr-nav-list > li.hdr-nav-item > a.hdr-nav-link",
+    "x": 317,
+    "y": 78,
+    "w": 141,
+    "h": 40,
+    "text": "shipping insurance",
+    "href": "/us/en/shipping-insurance"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.hdr-nav-list > li.hdr-nav-item > a.hdr-nav-link",
+    "x": 491,
+    "y": 78,
+    "w": 71,
+    "h": 40,
+    "text": "solutions",
+    "href": "/us/en/partners/connect-with-a-partner"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.hdr-nav-list > li.hdr-nav-item > a.hdr-nav-link",
+    "x": 594,
+    "y": 78,
+    "w": 53,
+    "h": 40,
+    "text": "claims",
+    "href": "/us/en/claims"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.hdr-nav-list > li.hdr-nav-item > a.hdr-nav-link",
+    "x": 679,
+    "y": 78,
+    "w": 66,
+    "h": 40,
+    "text": "partners",
+    "href": "/us/en/partners"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.hdr-nav-list > li.hdr-nav-item > a.hdr-nav-link",
+    "x": 777,
+    "y": 78,
+    "w": 80,
+    "h": 40,
+    "text": "resources",
+    "href": "/us/en/resources"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.hdr-nav-list > li.hdr-nav-item > a.hdr-nav-link",
+    "x": 888,
+    "y": 78,
+    "w": 47,
+    "h": 40,
+    "text": "about",
+    "href": "/us/en/about"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-actions > div.hdr-search > button.hdr-search-btn",
+    "x": 1284,
+    "y": 89,
+    "w": 44,
+    "h": 44,
+    "text": "search toggle"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-actions > div.hdr-search > button.hdr-search-btn",
+    "x": 1284,
+    "y": 89,
+    "w": 44,
+    "h": 44,
+    "label": "search toggle",
+    "value": "search toggle",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a",
+    "x": 112,
+    "y": 184,
+    "w": 53,
+    "h": 21,
+    "text": "partners",
+    "href": "/us/en/partners"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > span",
+    "x": 182,
+    "y": 184,
+    "w": 142,
+    "h": 20,
+    "text": "Connect with a Partner"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-content > div.teaser-title > h1#connect-with-a-partner",
+    "x": 112,
+    "y": 273,
+    "w": 488,
+    "h": 56,
+    "level": 1,
+    "text": "connect with a partner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-content > div.teaser-desc > p",
+    "x": 112,
+    "y": 373,
+    "w": 488,
+    "h": 56,
+    "text": "Choose from one of our many partners to get your shipments covered quickly and e"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-media > picture > img",
+    "x": 736,
+    "y": 281,
+    "w": 592,
+    "h": 332,
+    "text": "male holding a box in front of a delivery van full of boxes",
+    "file": "media_159ded80ee2683d7140fdd8d85605a7054"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.accordion-container > div.default-content-wrapper > h2#options-for-how-you-do-business",
+    "x": 421,
+    "y": 805,
+    "w": 598,
+    "h": 68,
+    "level": 2,
+    "text": "options for how you do business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.tabs > div.accordion-tablist > div#accordion-tab-1",
+    "x": 189,
+    "y": 945,
+    "w": 151,
+    "h": 74,
+    "label": "tab selected",
+    "value": "3rd party logistics",
+    "via": "aria-selected"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 523,
+    "y": 921,
+    "w": 67,
+    "h": 44,
+    "text": "fort systems logo",
+    "file": "media_14562fcc1638689584a6f20b5d63badfd2"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-panels > div#accordion-tabpanel-1 > h3#fort-systems",
+    "x": 606,
+    "y": 927,
+    "w": 155,
+    "h": 32,
+    "level": 3,
+    "text": "fort systems"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-panels > div#accordion-tabpanel-1 > p",
+    "x": 523,
+    "y": 981,
+    "w": 805,
+    "h": 72,
+    "text": "FORT is a cloud-based software solution providing scalable, enterprise class ful"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-panels > div#accordion-tabpanel-1 > p",
+    "x": 523,
+    "y": 1065,
+    "w": 805,
+    "h": 72,
+    "text": "Our applications were developed to meet the exacting reporting and compliance re"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#accordion-tabpanel-1 > p.button-wrapper > a.button.primary",
+    "x": 523,
+    "y": 1153,
+    "w": 153,
+    "h": 44,
+    "text": "fort systems",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 523,
+    "y": 1221,
+    "w": 78,
+    "h": 44,
+    "text": "unishippers logo with red circle and big u in it",
+    "file": "media_13d00344baf21d12ab2cbe8a45953235d4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-panels > div#accordion-tabpanel-1 > h3#unishippers",
+    "x": 617,
+    "y": 1227,
+    "w": 126,
+    "h": 32,
+    "level": 3,
+    "text": "unishippers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-panels > div#accordion-tabpanel-1 > p",
+    "x": 523,
+    "y": 1281,
+    "w": 805,
+    "h": 72,
+    "text": "For over 30 years, Unishippers has been the trusted advisor for small and mid-si"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-panels > div#accordion-tabpanel-1 > p",
+    "x": 523,
+    "y": 1365,
+    "w": 805,
+    "h": 48,
+    "text": "Through our partnership with UPS Capital, Unishippers helps keep your small pack"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#accordion-tabpanel-1 > p.button-wrapper > a.button.primary",
+    "x": 523,
+    "y": 1429,
+    "w": 133,
+    "h": 44,
+    "text": "unishippers",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 523,
+    "y": 1497,
+    "w": 86,
+    "h": 44,
+    "text": "worldwide express logo in blue font with white background",
+    "file": "media_1bd0264103f634f62305fa6a19b4ce45b4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-panels > div#accordion-tabpanel-1 > h3#worldwide-express",
+    "x": 625,
+    "y": 1503,
+    "w": 203,
+    "h": 32,
+    "level": 3,
+    "text": "worldwide express"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-panels > div#accordion-tabpanel-1 > p",
+    "x": 523,
+    "y": 1557,
+    "w": 805,
+    "h": 48,
+    "text": "Worldwide Express, LLC is a full-service, non-asset-based logistics provider off"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-panels > div#accordion-tabpanel-1 > p",
+    "x": 523,
+    "y": 1617,
+    "w": 805,
+    "h": 72,
+    "text": "As the largest authorized UPS non-retail reseller in the U.S., our company is a "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#accordion-tabpanel-1 > p.button-wrapper > a.button.primary",
+    "x": 523,
+    "y": 1705,
+    "w": 186,
+    "h": 44,
+    "text": "worldwide express",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-media > picture > img",
+    "x": 112,
+    "y": 1593,
+    "w": 592,
+    "h": 333,
+    "text": "female checking a box while surrounded by multiple boxes in ",
+    "file": "media_18643b58d12feb32fe572edb15b77b4091"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-grid > div.teaser-title > h2#interested-in-becoming-a-partner",
+    "x": 736,
+    "y": 1638,
+    "w": 592,
+    "h": 96,
+    "level": 2,
+    "text": "interested in becoming a partner?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-grid > div.teaser-desc > p",
+    "x": 736,
+    "y": 1774,
+    "w": 592,
+    "h": 56,
+    "text": "Speak with an expert to develop a program that serves you and your customers."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-actions > p.button-wrapper > a.button.primary",
+    "x": 736,
+    "y": 1838,
+    "w": 153,
+    "h": 44,
+    "text": "contact us",
+    "href": "/us/en/partners/become-a-partner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 112,
+    "y": 2137,
+    "w": 405,
+    "h": 11,
+    "text": "*Expedited reshipping reimbursement provided up to 20% of the insured value of t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 112,
+    "y": 2161,
+    "w": 1193,
+    "h": 35,
+    "text": "Insurance coverage is underwritten by an authorized insurance company and issued"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 112,
+    "y": 2209,
+    "w": 1192,
+    "h": 35,
+    "text": "Unless otherwise noted, all statistics used herein are derived from or based on "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 112,
+    "y": 2257,
+    "w": 1100,
+    "h": 11,
+    "text": "Statistics in our social media advertising are based on aggregated insurance pro"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 112,
+    "y": 2321,
+    "w": 272,
+    "h": 23,
+    "text": "this site"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 112,
+    "y": 2321,
+    "w": 272,
+    "h": 23,
+    "label": "trigger",
+    "value": "this site",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 120,
+    "y": 2383,
+    "w": 119,
+    "h": 40,
+    "text": "shipping insurance",
+    "href": "/us/en/shipping-insurance"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 120,
+    "y": 2423,
+    "w": 58,
+    "h": 40,
+    "text": "solutions",
+    "href": "/us/en/partners/connect-with-a-partner"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 120,
+    "y": 2463,
+    "w": 43,
+    "h": 40,
+    "text": "claims",
+    "href": "/us/en/claims"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 120,
+    "y": 2503,
+    "w": 53,
+    "h": 40,
+    "text": "partners",
+    "href": "/us/en/partners"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 120,
+    "y": 2543,
+    "w": 66,
+    "h": 40,
+    "text": "resources",
+    "href": "/us/en/resources"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 120,
+    "y": 2583,
+    "w": 37,
+    "h": 40,
+    "text": "about",
+    "href": "/us/en/about"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col.ftr-col-wide > div.ftr-heading",
+    "x": 416,
+    "y": 2321,
+    "w": 475,
+    "h": 23,
+    "text": "other ups sites"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col.ftr-col-wide > div.ftr-heading",
+    "x": 416,
+    "y": 2321,
+    "w": 475,
+    "h": 23,
+    "label": "trigger",
+    "value": "other ups sites",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 424,
+    "y": 2383,
+    "w": 99,
+    "h": 40,
+    "text": "ups capital",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 424,
+    "y": 2423,
+    "w": 90,
+    "h": 40,
+    "text": "parcel pro",
+    "href": "/us/en/home.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 424,
+    "y": 2463,
+    "w": 52,
+    "h": 40,
+    "text": "ups",
+    "href": "/us/en/Home.page"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 424,
+    "y": 2503,
+    "w": 198,
+    "h": 40,
+    "text": "ups supply chain solutions",
+    "href": "/us/en/supplychain/Home.page"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-list > li > a",
+    "x": 424,
+    "y": 2543,
+    "w": 92,
+    "h": 40,
+    "text": "about ups",
+    "href": "/us/en/home.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 923,
+    "y": 2321,
+    "w": 304,
+    "h": 23,
+    "text": "connect with us"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 923,
+    "y": 2321,
+    "w": 304,
+    "h": 23,
+    "label": "trigger",
+    "value": "connect with us",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-social > li > a",
+    "x": 923,
+    "y": 2383,
+    "w": 136,
+    "h": 40,
+    "text": "facebook",
+    "href": "/InsureShield/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 931,
+    "y": 2395,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "media_186a4c32e2404e6a40161a7830c0f08f2f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-social > li > a",
+    "x": 923,
+    "y": 2423,
+    "w": 136,
+    "h": 40,
+    "text": "instagram",
+    "href": "/insureshield/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 931,
+    "y": 2435,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "media_1ee7f692453422773464d809da109464b9"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-social > li > a",
+    "x": 923,
+    "y": 2463,
+    "w": 136,
+    "h": 40,
+    "text": "@upscapital",
+    "href": "/upscapital"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 931,
+    "y": 2475,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "media_1fa955b7f35dd1707335223cf77c8ebda7"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-social > li > a",
+    "x": 923,
+    "y": 2503,
+    "w": 136,
+    "h": 40,
+    "text": "linkedin",
+    "href": "/company/insureshield"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 931,
+    "y": 2515,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "media_1452cdb45d95b6a428dc65e7f217fad667"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-social > li > a",
+    "x": 923,
+    "y": 2543,
+    "w": 136,
+    "h": 40,
+    "text": "youtube",
+    "href": "/@InsureShield"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 931,
+    "y": 2555,
+    "w": 16,
+    "h": 16,
+    "text": "social icon",
+    "file": "media_145779c1bd16de96d7b11ed2a584f5678f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-legal > li > a",
+    "x": 112,
+    "y": 2681,
+    "w": 163,
+    "h": 41,
+    "text": "website terms of use",
+    "href": "/us/en/support/shipping-support/legal-terms-conditions.page"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-legal > li > a",
+    "x": 295,
+    "y": 2681,
+    "w": 145,
+    "h": 41,
+    "text": "technology agreement",
+    "href": "/us/en/legal/technology-agreement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-legal > li > a",
+    "x": 460,
+    "y": 2681,
+    "w": 119,
+    "h": 41,
+    "text": "product disclosure",
+    "href": "/us/en/legal/product-disclosure"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-legal > li > a",
+    "x": 599,
+    "y": 2681,
+    "w": 106,
+    "h": 41,
+    "text": "terms of service",
+    "href": "/us/en/legal/terms-and-conditions-upscia"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-legal > li > a",
+    "x": 724,
+    "y": 2681,
+    "w": 211,
+    "h": 41,
+    "text": "your california privacy rights",
+    "href": "/california-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-legal > li > a",
+    "x": 956,
+    "y": 2681,
+    "w": 116,
+    "h": 41,
+    "text": "privacy notice",
+    "href": "/privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-legal > li > a",
+    "x": 1092,
+    "y": 2681,
+    "w": 99,
+    "h": 41,
+    "text": "cookie settings",
+    "href": "/us/en/partners/connect-with-a-partner"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.ftr-legal > li > a",
+    "x": 112,
+    "y": 2722,
+    "w": 309,
+    "h": 41,
+    "text": "do not sell or share my personal information",
+    "href": "/opt-out"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-inner > div.ftr-copy > p",
+    "x": 112,
+    "y": 2840,
+    "w": 1216,
+    "h": 20,
+    "text": "Copyright ©2023-2026 United Parcel Service of America, Inc. All rights reserved."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 5,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 74,
+    "controls": 53,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div#accordion-tabpanel-1",
+     "path": "div.accordion.tabs > div.accordion-panels > div#accordion-tabpanel-1 > p",
+     "text": "worldwide express, llc is a full-service, non-asset-based lo",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#accordion-tabpanel-1",
+     "path": "div.accordion.tabs > div.accordion-panels > div#accordion-tabpanel-1 > h3#worldwide-express",
+     "text": "worldwide express",
+     "cutMin": 11,
+     "cutMax": 11
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#accordion-tabpanel-1",
+     "path": "div.accordion-panels > div#accordion-tabpanel-1 > p.button-wrapper > a.button.primary",
+     "text": "worldwide express",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#accordion-tabpanel-1",
+     "path": "div.accordion-panels > div#accordion-tabpanel-1 > p.button-wrapper > a.button.primary",
+     "text": "worldwide express",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "cut": 11,
+     "path": "div.accordion.tabs > div.accordion-panels > div#accordion-tabpanel-1 > h3#worldwide-express",
+     "text": "worldwide express",
+     "clipper": "div#accordion-tabpanel-1",
+     "rect": {
+      "l": 625,
+      "t": 1504,
+      "r": 827,
+      "b": 1532,
+      "w": 203,
+      "h": 28
+     },
+     "clip": {
+      "l": 523,
+      "t": 921,
+      "r": 1328,
+      "b": 1521,
+      "w": 805,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 2,
+     "path": "div.accordion.tabs > div.accordion-panels > div#accordion-tabpanel-1 > p",
+     "text": "worldwide express, llc is a full-service, non-asset-based lo",
+     "clipper": "div#accordion-tabpanel-1",
+     "rect": {
+      "l": 523,
+      "t": 1559,
+      "r": 1265,
+      "b": 1578,
+      "w": 742,
+      "h": 19
+     },
+     "clip": {
+      "l": 523,
+      "t": 921,
+      "r": 1328,
+      "b": 1521,
+      "w": 805,
+      "h": 600
+     },
+     "lines": 2
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 3,
+     "path": "div.accordion.tabs > div.accordion-panels > div#accordion-tabpanel-1 > p",
+     "text": "as the largest authorized ups non-retail reseller in the u.s",
+     "clipper": "div#accordion-tabpanel-1",
+     "rect": {
+      "l": 523,
+      "t": 1619,
+      "r": 1307,
+      "b": 1638,
+      "w": 784,
+      "h": 19
+     },
+     "clip": {
+      "l": 523,
+      "t": 921,
+      "r": 1328,
+      "b": 1521,
+      "w": 805,
+      "h": 600
+     },
+     "lines": 3
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "path": "div.accordion-panels > div#accordion-tabpanel-1 > p.button-wrapper > a.button.primary",
+     "text": "worldwide express",
+     "clipper": "div#accordion-tabpanel-1",
+     "rect": {
+      "l": 523,
+      "t": 1705,
+      "r": 709,
+      "b": 1749,
+      "w": 186,
+      "h": 44
+     },
+     "clip": {
+      "l": 523,
+      "t": 921,
+      "r": 1328,
+      "b": 1521,
+      "w": 805,
+      "h": 600
+     }
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.accordion-panels > div#accordion-tabpanel-1 > p.button-wrapper > a.button.primary",
+     "text": "worldwide express",
+     "clipper": "div#accordion-tabpanel-1",
+     "rect": {
+      "l": 547,
+      "t": 1717,
+      "r": 685,
+      "b": 1736,
+      "w": 138,
+      "h": 19
+     },
+     "clip": {
+      "l": 523,
+      "t": 921,
+      "r": 1328,
+      "b": 1521,
+      "w": 805,
+      "h": 600
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "connect with a partner",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "options for how you do business",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 1,
+    "text": 11,
+    "image": 4
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 4,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MISSING BUTTON",
+    "COUNT TEXT",
+    "CONTROL MISSING"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"chat with a live representative!\" in band \"options for how you do business\" (origin y 810) not on the served page",
+   "band": 2,
+   "n": 1,
+   "text": "chat with a live representative!"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"fort systems\" (y 927) has no origin heading",
+   "text": "fort systems"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"unishippers\" (y 1227) has no origin heading",
+   "text": "unishippers"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"worldwide express\" (y 1503) has no origin heading",
+   "text": "worldwide express"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"interested in becoming a partner?\" (y 1638) has no origin heading",
+   "text": "interested in becoming a partner?"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"options for how you do business\": 11 origin → 7 served visible",
+   "band": 2,
+   "origin": 11,
+   "eds": 7,
+   "hidden": 0
+  },
+  {
+   "sev": "🟡",
+   "kind": "CONTROL MISSING",
+   "msg": "chat with a live representative! = \"chat with a live representative!\" (band \"options for how you do business\") has no served counterpart",
+   "band": 2,
+   "label": "chat with a live representative!",
+   "value": "chat with a live representative!"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 4,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 1,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 7,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 112,
+    "y": 10,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 121,
+    "y": 10,
+    "w": 23,
+    "h": 19
+   },
+   {
+    "x": 144,
+    "y": 10,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 169,
+    "y": 12,
+    "w": 354,
+    "h": 16
+   },
+   {
+    "x": 527,
+    "y": 12,
+    "w": 138,
+    "h": 16
+   },
+   {
+    "x": 319,
+    "y": 88,
+    "w": 137,
+    "h": 19
+   },
+   {
+    "x": 493,
+    "y": 88,
+    "w": 67,
+    "h": 19
+   },
+   {
+    "x": 596,
+    "y": 88,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 681,
+    "y": 88,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 779,
+    "y": 88,
+    "w": 76,
+    "h": 19
+   },
+   {
+    "x": 890,
+    "y": 88,
+    "w": 43,
+    "h": 19
+   },
+   {
+    "x": 112,
+    "y": 185,
+    "w": 53,
+    "h": 16
+   },
+   {
+    "x": 182,
+    "y": 185,
+    "w": 142,
+    "h": 16
+   },
+   {
+    "x": 112,
+    "y": 272,
+    "w": 487,
+    "h": 57
+   },
+   {
+    "x": 112,
+    "y": 375,
+    "w": 444,
+    "h": 24
+   },
+   {
+    "x": 112,
+    "y": 403,
+    "w": 334,
+    "h": 24
+   },
+   {
+    "x": 421,
+    "y": 805,
+    "w": 598,
+    "h": 47
+   },
+   {
+    "x": 201,
+    "y": 947,
+    "w": 135,
+    "h": 19
+   },
+   {
+    "x": 172,
+    "y": 1019,
+    "w": 193,
+    "h": 19
+   },
+   {
+    "x": 172,
+    "y": 1091,
+    "w": 193,
+    "h": 19
+   },
+   {
+    "x": 224,
+    "y": 1163,
+    "w": 88,
+    "h": 19
+   },
+   {
+    "x": 216,
+    "y": 1235,
+    "w": 104,
+    "h": 19
+   },
+   {
+    "x": 248,
+    "y": 1307,
+    "w": 40,
+    "h": 19
+   },
+   {
+    "x": 252,
+    "y": 1379,
+    "w": 33,
+    "h": 19
+   },
+   {
+    "x": 613,
+    "y": 922,
+    "w": 155,
+    "h": 28
+   },
+   {
+    "x": 522,
+    "y": 983,
+    "w": 798,
+    "h": 19
+   },
+   {
+    "x": 522,
+    "y": 1007,
+    "w": 780,
+    "h": 19
+   },
+   {
+    "x": 522,
+    "y": 1031,
+    "w": 137,
+    "h": 19
+   },
+   {
+    "x": 522,
+    "y": 1067,
+    "w": 747,
+    "h": 19
+   },
+   {
+    "x": 522,
+    "y": 1091,
+    "w": 774,
+    "h": 19
+   },
+   {
+    "x": 522,
+    "y": 1115,
+    "w": 457,
+    "h": 19
+   },
+   {
+    "x": 546,
+    "y": 1165,
+    "w": 105,
+    "h": 19
+   },
+   {
+    "x": 613,
+    "y": 1222,
+    "w": 126,
+    "h": 28
+   },
+   {
+    "x": 522,
+    "y": 1283,
+    "w": 804,
+    "h": 19
+   },
+   {
+    "x": 522,
+    "y": 1307,
+    "w": 756,
+    "h": 19
+   },
+   {
+    "x": 522,
+    "y": 1331,
+    "w": 705,
+    "h": 19
+   },
+   {
+    "x": 522,
+    "y": 1367,
+    "w": 751,
+    "h": 19
+   },
+   {
+    "x": 522,
+    "y": 1391,
+    "w": 351,
+    "h": 19
+   },
+   {
+    "x": 546,
+    "y": 1441,
+    "w": 85,
+    "h": 19
+   },
+   {
+    "x": 613,
+    "y": 1498,
+    "w": 203,
+    "h": 28
+   },
+   {
+    "x": 840,
+    "y": 1622,
+    "w": 442,
+    "h": 47
+   },
+   {
+    "x": 840,
+    "y": 1670,
+    "w": 150,
+    "h": 47
+   },
+   {
+    "x": 840,
+    "y": 1760,
+    "w": 482,
+    "h": 24
+   },
+   {
+    "x": 840,
+    "y": 1788,
+    "w": 223,
+    "h": 24
+   },
+   {
+    "x": 864,
+    "y": 1850,
+    "w": 79,
+    "h": 19
+   },
+   {
+    "x": 112,
+    "y": 2129,
+    "w": 405,
+    "h": 11
+   },
+   {
+    "x": 112,
+    "y": 2153,
+    "w": 1193,
+    "h": 11
+   },
+   {
+    "x": 112,
+    "y": 2177,
+    "w": 1158,
+    "h": 11
+   },
+   {
+    "x": 112,
+    "y": 2201,
+    "w": 1192,
+    "h": 11
+   },
+   {
+    "x": 112,
+    "y": 2225,
+    "w": 307,
+    "h": 11
+   },
+   {
+    "x": 112,
+    "y": 2249,
+    "w": 1100,
+    "h": 11
+   },
+   {
+    "x": 112,
+    "y": 2312,
+    "w": 78,
+    "h": 24
+   },
+   {
+    "x": 120,
+    "y": 2387,
+    "w": 119,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2427,
+    "w": 58,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2467,
+    "w": 43,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2507,
+    "w": 53,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2547,
+    "w": 66,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2587,
+    "w": 37,
+    "h": 16
+   },
+   {
+    "x": 416,
+    "y": 2312,
+    "w": 142,
+    "h": 24
+   },
+   {
+    "x": 424,
+    "y": 2387,
+    "w": 77,
+    "h": 16
+   },
+   {
+    "x": 424,
+    "y": 2427,
+    "w": 68,
+    "h": 16
+   },
+   {
+    "x": 424,
+    "y": 2467,
+    "w": 30,
+    "h": 16
+   },
+   {
+    "x": 424,
+    "y": 2507,
+    "w": 176,
+    "h": 16
+   },
+   {
+    "x": 424,
+    "y": 2547,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 923,
+    "y": 2312,
+    "w": 146,
+    "h": 24
+   },
+   {
+    "x": 955,
+    "y": 2387,
+    "w": 61,
+    "h": 16
+   },
+   {
+    "x": 955,
+    "y": 2427,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 955,
+    "y": 2467,
+    "w": 82,
+    "h": 16
+   },
+   {
+    "x": 955,
+    "y": 2507,
+    "w": 53,
+    "h": 16
+   },
+   {
+    "x": 955,
+    "y": 2547,
+    "w": 54,
+    "h": 16
+   },
+   {
+    "x": 112,
+    "y": 2686,
+    "w": 141,
+    "h": 16
+   },
+   {
+    "x": 295,
+    "y": 2685,
+    "w": 145,
+    "h": 16
+   },
+   {
+    "x": 460,
+    "y": 2685,
+    "w": 119,
+    "h": 16
+   },
+   {
+    "x": 599,
+    "y": 2685,
+    "w": 106,
+    "h": 16
+   },
+   {
+    "x": 724,
+    "y": 2686,
+    "w": 189,
+    "h": 16
+   },
+   {
+    "x": 956,
+    "y": 2686,
+    "w": 94,
+    "h": 16
+   },
+   {
+    "x": 1092,
+    "y": 2685,
+    "w": 99,
+    "h": 16
+   },
+   {
+    "x": 112,
+    "y": 2727,
+    "w": 287,
+    "h": 16
+   },
+   {
+    "x": 112,
+    "y": 2834,
+    "w": 503,
+    "h": 16
+   },
+   {
+    "x": 1147,
+    "y": 830,
+    "w": 243,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 112,
+    "y": 10,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 121,
+    "y": 10,
+    "w": 23,
+    "h": 19
+   },
+   {
+    "x": 144,
+    "y": 10,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 169,
+    "y": 12,
+    "w": 354,
+    "h": 16
+   },
+   {
+    "x": 527,
+    "y": 12,
+    "w": 138,
+    "h": 16
+   },
+   {
+    "x": 888,
+    "y": 54,
+    "w": 38,
+    "h": 16
+   },
+   {
+    "x": 958,
+    "y": 54,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 1064,
+    "y": 54,
+    "w": 69,
+    "h": 16
+   },
+   {
+    "x": 1165,
+    "y": 54,
+    "w": 139,
+    "h": 16
+   },
+   {
+    "x": 319,
+    "y": 88,
+    "w": 137,
+    "h": 19
+   },
+   {
+    "x": 493,
+    "y": 88,
+    "w": 67,
+    "h": 19
+   },
+   {
+    "x": 596,
+    "y": 88,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 681,
+    "y": 88,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 779,
+    "y": 88,
+    "w": 76,
+    "h": 19
+   },
+   {
+    "x": 890,
+    "y": 88,
+    "w": 43,
+    "h": 19
+   },
+   {
+    "x": 112,
+    "y": 185,
+    "w": 53,
+    "h": 16
+   },
+   {
+    "x": 182,
+    "y": 185,
+    "w": 142,
+    "h": 16
+   },
+   {
+    "x": 112,
+    "y": 272,
+    "w": 487,
+    "h": 57
+   },
+   {
+    "x": 112,
+    "y": 375,
+    "w": 444,
+    "h": 24
+   },
+   {
+    "x": 112,
+    "y": 403,
+    "w": 334,
+    "h": 24
+   },
+   {
+    "x": 421,
+    "y": 805,
+    "w": 598,
+    "h": 47
+   },
+   {
+    "x": 197,
+    "y": 947,
+    "w": 135,
+    "h": 19
+   },
+   {
+    "x": 168,
+    "y": 1021,
+    "w": 193,
+    "h": 19
+   },
+   {
+    "x": 167,
+    "y": 1095,
+    "w": 193,
+    "h": 19
+   },
+   {
+    "x": 220,
+    "y": 1169,
+    "w": 88,
+    "h": 19
+   },
+   {
+    "x": 212,
+    "y": 1243,
+    "w": 104,
+    "h": 19
+   },
+   {
+    "x": 244,
+    "y": 1317,
+    "w": 40,
+    "h": 19
+   },
+   {
+    "x": 247,
+    "y": 1391,
+    "w": 33,
+    "h": 19
+   },
+   {
+    "x": 606,
+    "y": 928,
+    "w": 155,
+    "h": 28
+   },
+   {
+    "x": 523,
+    "y": 983,
+    "w": 798,
+    "h": 19
+   },
+   {
+    "x": 523,
+    "y": 1007,
+    "w": 780,
+    "h": 19
+   },
+   {
+    "x": 523,
+    "y": 1031,
+    "w": 133,
+    "h": 19
+   },
+   {
+    "x": 523,
+    "y": 1067,
+    "w": 747,
+    "h": 19
+   },
+   {
+    "x": 523,
+    "y": 1091,
+    "w": 774,
+    "h": 19
+   },
+   {
+    "x": 523,
+    "y": 1115,
+    "w": 457,
+    "h": 19
+   },
+   {
+    "x": 547,
+    "y": 1165,
+    "w": 105,
+    "h": 19
+   },
+   {
+    "x": 617,
+    "y": 1228,
+    "w": 126,
+    "h": 28
+   },
+   {
+    "x": 523,
+    "y": 1283,
+    "w": 804,
+    "h": 19
+   },
+   {
+    "x": 523,
+    "y": 1307,
+    "w": 756,
+    "h": 19
+   },
+   {
+    "x": 523,
+    "y": 1331,
+    "w": 705,
+    "h": 19
+   },
+   {
+    "x": 523,
+    "y": 1367,
+    "w": 751,
+    "h": 19
+   },
+   {
+    "x": 523,
+    "y": 1391,
+    "w": 351,
+    "h": 19
+   },
+   {
+    "x": 547,
+    "y": 1441,
+    "w": 85,
+    "h": 19
+   },
+   {
+    "x": 625,
+    "y": 1504,
+    "w": 203,
+    "h": 28
+   },
+   {
+    "x": 736,
+    "y": 1638,
+    "w": 442,
+    "h": 47
+   },
+   {
+    "x": 736,
+    "y": 1686,
+    "w": 150,
+    "h": 47
+   },
+   {
+    "x": 736,
+    "y": 1776,
+    "w": 556,
+    "h": 24
+   },
+   {
+    "x": 736,
+    "y": 1804,
+    "w": 144,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 1850,
+    "w": 79,
+    "h": 19
+   },
+   {
+    "x": 112,
+    "y": 2137,
+    "w": 405,
+    "h": 11
+   },
+   {
+    "x": 112,
+    "y": 2161,
+    "w": 1193,
+    "h": 11
+   },
+   {
+    "x": 112,
+    "y": 2185,
+    "w": 1149,
+    "h": 11
+   },
+   {
+    "x": 112,
+    "y": 2209,
+    "w": 1192,
+    "h": 11
+   },
+   {
+    "x": 112,
+    "y": 2233,
+    "w": 307,
+    "h": 11
+   },
+   {
+    "x": 112,
+    "y": 2257,
+    "w": 1100,
+    "h": 11
+   },
+   {
+    "x": 112,
+    "y": 2320,
+    "w": 78,
+    "h": 24
+   },
+   {
+    "x": 120,
+    "y": 2395,
+    "w": 119,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2435,
+    "w": 58,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2475,
+    "w": 43,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2515,
+    "w": 53,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2555,
+    "w": 66,
+    "h": 16
+   },
+   {
+    "x": 120,
+    "y": 2595,
+    "w": 37,
+    "h": 16
+   },
+   {
+    "x": 416,
+    "y": 2320,
+    "w": 142,
+    "h": 24
+   },
+   {
+    "x": 424,
+    "y": 2395,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 424,
+    "y": 2435,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 424,
+    "y": 2475,
+    "w": 26,
+    "h": 16
+   },
+   {
+    "x": 424,
+    "y": 2515,
+    "w": 172,
+    "h": 16
+   },
+   {
+    "x": 424,
+    "y": 2555,
+    "w": 67,
+    "h": 16
+   },
+   {
+    "x": 923,
+    "y": 2320,
+    "w": 146,
+    "h": 24
+   },
+   {
+    "x": 955,
+    "y": 2395,
+    "w": 61,
+    "h": 16
+   },
+   {
+    "x": 955,
+    "y": 2435,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 955,
+    "y": 2475,
+    "w": 82,
+    "h": 16
+   },
+   {
+    "x": 955,
+    "y": 2515,
+    "w": 53,
+    "h": 16
+   },
+   {
+    "x": 955,
+    "y": 2555,
+    "w": 54,
+    "h": 16
+   },
+   {
+    "x": 112,
+    "y": 2694,
+    "w": 137,
+    "h": 16
+   },
+   {
+    "x": 295,
+    "y": 2693,
+    "w": 145,
+    "h": 16
+   },
+   {
+    "x": 460,
+    "y": 2693,
+    "w": 119,
+    "h": 16
+   },
+   {
+    "x": 599,
+    "y": 2693,
+    "w": 106,
+    "h": 16
+   },
+   {
+    "x": 724,
+    "y": 2694,
+    "w": 186,
+    "h": 16
+   },
+   {
+    "x": 956,
+    "y": 2694,
+    "w": 90,
+    "h": 16
+   },
+   {
+    "x": 1092,
+    "y": 2693,
+    "w": 99,
+    "h": 16
+   },
+   {
+    "x": 112,
+    "y": 2735,
+    "w": 284,
+    "h": 16
+   },
+   {
+    "x": 112,
+    "y": 2842,
+    "w": 503,
+    "h": 16
+   }
+  ]
+ }
+}

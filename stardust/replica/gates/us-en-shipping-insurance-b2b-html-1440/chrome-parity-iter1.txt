@@ -1,0 +1,54 @@
+[live-session] waiting to pace live navigations to www.insureshield.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.insureshield.com/us/en/shipping-insurance/b2b.html
+  build: http://localhost:8791/us-en-shipping-insurance-b2b-html-proposed.html
+
+■ header: 6 delta(s) — 10 paired of 10/10 texts, 1/1 icons
+  PAIR         "Shipping Insurance"  Δw +5px (141→146)
+  PAIR         "Solutions"  Δx +4px (491→495)
+  PAIR         "Claims"  Δx +6px (594→600); Δw +2px (53→55)
+  PAIR         "Partners"  Δx +7px (679→686)
+  PAIR         "Resources"  Δx +8px (777→785); Δw +3px (80→83)
+  PAIR         "About"  Δx +13px (888→901)
+
+■ footer: 38 delta(s) — 32 paired of 32/32 texts, 5/5 icons
+  REGION BOX   Δy -403px (4542→4139), Δh -196px (1061→865)
+  PAIR         "*Expedited reshipping reimbursement prov"  tag <i> → <span>; Δy -403px (4625→4222)
+  PAIR         "Insurance coverage is underwritten by an"  tag <i> → <span>; Δy -403px (4649→4246)
+  PAIR         "Unless otherwise noted, all statistics u"  tag <i> → <span>; Δy -403px (4697→4294)
+  PAIR         "Statistics in our social media advertisi"  tag <i> → <span>; Δy -403px (4745→4342)
+  PAIR         "This Site"  Δy -403px (4809→4406)
+  PAIR         "Shipping Insurance"  Δy -403px (4870→4467)
+  PAIR         "Solutions"  Δy -403px (4910→4507)
+  PAIR         "Claims"  Δy -403px (4950→4547)
+  PAIR         "Partners"  Δy -403px (4990→4587)
+  PAIR         "Resources"  Δy -403px (5030→4627)
+  PAIR         "About"  Δy -404px (5071→4667)
+  PAIR         "Other UPS Sites"  Δy -403px (4809→4406)
+  PAIR         "UPS Capital"  Δy -403px (4870→4467); Δw -4px (99→95)
+  PAIR         "Parcel Pro"  Δy -403px (4910→4507); Δw -4px (90→86)
+  PAIR         "UPS"  Δy -403px (4950→4547); Δw -4px (52→48)
+  PAIR         "UPS Supply Chain Solutions"  Δy -403px (4990→4587); Δw -4px (198→194)
+  PAIR         "About UPS"  Δy -403px (5030→4627); Δw -3px (92→89)
+  PAIR         "Connect with Us"  Δy -403px (4809→4406)
+  PAIR         "Facebook"  Δy -403px (4882→4479); Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "Instagram"  Δy -451px (4970→4519); Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "@UPSCapital"  Δy -499px (5058→4559); Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "LinkedIn"  Δy -547px (5146→4599); Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "YouTube"  Δy -595px (5234→4639); Δh -48px (64→16); <a> box 136×88 → 136×40
+  PAIR         "Website Terms of Use"  Δy -602px (5368→4766); Δw -3px (163→160)
+  PAIR         "Technology Agreement"  Δx -3px (295→292); Δy -602px (5368→4766); Δw +3px (145→148)
+  PAIR         "Product Disclosure"  Δy -602px (5368→4766); Δw +3px (119→122)
+  PAIR         "Terms of Service"  Δx +3px (599→602); Δy -602px (5368→4766)
+  PAIR         "Your California Privacy Rights"  Δx +5px (724→729); Δy -602px (5368→4766)
+  PAIR         "Privacy Notice"  Δx +4px (956→960); Δy -602px (5368→4766); Δw -4px (116→112)
+  PAIR         "Cookie Settings"  Δy -602px (5368→4766); Δw +2px (99→101)
+  PAIR         "Do Not Sell or Share My Personal Informa"  Δy -602px (5409→4807); Δw +2px (309→311)
+  PAIR         "Copyright ©2023-2026 United Parcel Servi"  fontSize 14px → 16px; fontWeight 500 → 400; lineHeight 20.02px → 24px; Δy -602px (5526→4924); Δh +4px (20→24)
+  ICON         "Facebook"  icon #0 near "Facebook": Δh -48px (64→16); signature "" → "social-facebook"
+  ICON         "Instagram"  icon #1 near "Instagram": Δh -48px (64→16); signature "" → "social-instagram"
+  ICON         "@UPSCapital"  icon #2 near "@UPSCapital": Δh -48px (64→16); signature "" → "social-x"
+  ICON         "LinkedIn"  icon #3 near "LinkedIn": Δh -48px (64→16); signature "" → "social-linkedin"
+  ICON         "YouTube"  icon #4 near "YouTube": Δh -48px (64→16); signature "" → "social-youtube"
+
+✗ 44 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

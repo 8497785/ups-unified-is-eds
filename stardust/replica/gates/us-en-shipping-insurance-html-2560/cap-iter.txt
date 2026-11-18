@@ -1,0 +1,16 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.insureshield.com/us/en/shipping-insurance.html
+  modules  6 sections: capped 1248 ×6 · full-bleed ×0
+  contentMaxWidth 1248px (module) · shellMaxWidth fluid · root #main
+build  http://localhost:8791/us-en-shipping-insurance-html-proposed.html
+  modules  6 sections: capped 1248 ×6 · full-bleed ×0
+  contentMaxWidth 1248px (module) · shellMaxWidth fluid · root #main
+rows
+  ✓ content cap: live 1248px = build 1248px (±20, shared module cap)
+  ✓ module 1/6: 1248px = 1248px
+  ✓ module 2/6: 1248px = 1248px
+  ✓ module 3/6: 1248px = 1248px
+  ✓ module 4/6: 1248px = 1248px
+  ✓ module 5/6: 1248px = 1248px
+  ✓ module 6/6: 1248px = 1248px
+cap-probe: PASS at 2560 — 0 of 7 rows failed (evidence stardust/replica/gates/us-en-shipping-insurance-html-2560/cap-iter.json)

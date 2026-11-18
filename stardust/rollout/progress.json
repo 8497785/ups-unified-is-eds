@@ -1,0 +1,430 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "program",
+        "home",
+        "listing",
+        "legal",
+        "locale-home",
+        "form",
+        "shell",
+        "region-selector",
+        "shipping-hub"
+      ],
+      "pages": 0,
+      "blocks": 2,
+      "startedAt": "2026-11-17T22:40:43.149Z",
+      "endedAt": "2026-11-17T23:43:07.131Z",
+      "gates": {
+        "360": {
+          "headerBand": "100%",
+          "footerBand": "99.77%"
+        },
+        "1440": {
+          "headerBand": "100%",
+          "footerBand": "99.89%"
+        },
+        "chrome": "chrome-compare: 0 crop errors; 2 open = search typeahead (needs D2 /query-index.json search, dynamics plan) — re-run after D2"
+      },
+      "verdict": "foundation: styles/fonts/head/header/footer live (HEAD 1a3ccc8); 9 chrome docs published; header band 100% both widths; chrome-compare 2 typeahead rows deferred to D2"
+    },
+    "archetype-program": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "program"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-17T23:45:15.798Z",
+      "endedAt": "2026-11-18T00:13:11.079Z",
+      "verdict": "program archetype: live /us/en/shipping-insurance/b2b, blocks 8, gate 1440 0.33% Δh 0 / 360 0.57% Δh 0, clipped 0, missing 0, requests 4",
+      "gates": {
+        "360": {
+          "pixel": "0.57%",
+          "dh": 0
+        },
+        "1440": {
+          "pixel": "0.33%",
+          "dh": 0
+        },
+        "clipped": 0,
+        "missing": 0,
+        "residual": "live quote-form iframe nondeterministic (0 vs 444px)"
+      },
+      "blocks": 8
+    },
+    "archetype-home": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "home"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-18T01:04:57.125Z",
+      "endedAt": "2026-11-18T01:27:43.091Z",
+      "verdict": "home archetype: live /index, blocks 2 (stats, logo-strip), gate 1440 0.64% Δh 0 / 360 0.35% Δh 0, clipped 0, missing 0, requests 3",
+      "gates": {
+        "360": {
+          "archetype": 0.35
+        },
+        "1440": {
+          "archetype": 0.64
+        }
+      },
+      "blocks": 2
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-18T01:28:05.251Z",
+      "endedAt": "2026-11-18T02:24:41.157Z",
+      "verdict": "listing archetype: live /gb/en/resources, blocks 1 (search), gate 1440 0.09% Δh 0 / 360 0.98% Δh 0, clipped 0, missing 0, requests 3",
+      "gates": {
+        "360": {
+          "archetype": 0.98
+        },
+        "1440": {
+          "archetype": 0.09
+        }
+      },
+      "blocks": 1
+    },
+    "archetype-legal": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "legal"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-18T01:47:31.604Z",
+      "endedAt": "2026-11-18T03:01:14.636Z",
+      "verdict": "legal archetype: live /us/en/legal/terms-and-conditions-upscia, blocks 1, gate 1440 0.08% Δh 0 / 360 0.10% Δh 0, clipped 0, missing 0, requests 1",
+      "gates": {
+        "360": {
+          "archetype": 0.1
+        },
+        "1440": {
+          "archetype": 0.08
+        }
+      },
+      "blocks": 1
+    },
+    "archetype-locale-home": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "locale-home"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-17T23:45:15.842Z",
+      "endedAt": "2026-11-18T00:18:18.164Z",
+      "verdict": "locale-home archetype: live /de/en/home, blocks 5, gate 1440 3.72% Δh 17 / 360 3.70% Δh 33, clipped 0, missing 0, requests 1",
+      "gates": {
+        "360": {
+          "pixel": "3.70%",
+          "dh": 33
+        },
+        "1440": {
+          "pixel": "3.72%",
+          "dh": 17
+        },
+        "clipped": 0,
+        "missing": 0,
+        "residual": "carousel pinned to slide 1 for gate, ships rotating 5s; secondary-promo 17px short at 360"
+      },
+      "blocks": 5
+    },
+    "archetype-form": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "form"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-18T03:10:22.669Z",
+      "endedAt": "2026-11-18T03:25:23.718Z",
+      "verdict": "form archetype: live /us/en/about/contact-us, blocks 1, gate 1440 0.2% Δh 0 / 360 4.3% Δh 1, clipped 0, missing 0, requests 2",
+      "gates": {
+        "360": {
+          "archetype": "4.3%",
+          "dh": 1
+        },
+        "1440": {
+          "archetype": "0.2%",
+          "dh": 0
+        }
+      },
+      "blocks": 1
+    },
+    "archetype-shell": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "shell"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-18T03:10:22.721Z",
+      "endedAt": "2026-11-18T03:28:49.927Z",
+      "verdict": "shell archetype: live /us/en/customer-communications, blocks 0, gate 1440 0.06% Δh 0 / 360 0.65% Δh 1, clipped 0, missing 0, requests 0 (one-piece capture --vh on short page)",
+      "gates": {
+        "360": {
+          "archetype": "0.65%",
+          "dh": 1
+        },
+        "1440": {
+          "archetype": "0.06%",
+          "dh": 0
+        }
+      },
+      "blocks": 0
+    },
+    "archetype-region-selector": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "region-selector"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-18T03:10:22.770Z",
+      "endedAt": "2026-11-18T03:28:59.548Z",
+      "verdict": "region-selector archetype: live /us/en/global, blocks 1, gate 1440 0.05% Δh 0 / 360 0.19% Δh 0, clipped 0, missing 0, requests 0; motion all observed behaviours implemented",
+      "gates": {
+        "360": {
+          "archetype": "0.19%",
+          "dh": 0
+        },
+        "1440": {
+          "archetype": "0.05%",
+          "dh": 0
+        }
+      },
+      "blocks": 1
+    },
+    "archetype-shipping-hub": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "shipping-hub"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-17T23:45:15.886Z",
+      "endedAt": "2026-11-18T00:32:46.464Z",
+      "verdict": "shipping-hub archetype: live /us/en/shipping-insurance, blocks 6 (+ hub chrome sh-header/sh-footer), gate 1440 0.34% Δh 0 / 360 1.33% Δh 0, clipped 0, missing/hidden 0, requests 0",
+      "gates": {
+        "360": {
+          "pixel": "1.33%",
+          "dh": 0
+        },
+        "1440": {
+          "pixel": "0.34%",
+          "dh": 0
+        },
+        "clipped": 0,
+        "missing": 0,
+        "residual": "quote drawer → get-a-quote link; calculator static; popovers/mega-menus inert"
+      },
+      "blocks": 8
+    },
+    "cluster-program": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "program"
+      ],
+      "startedAt": "2026-11-18T00:13:23.671Z",
+      "pages": 55,
+      "blocks": 10,
+      "verdict": "program: pages 55/55 live, blocks 10, gate 1440 32/55 pass (worst 31.26%) / 360 7/55 pass (worst 40.16%), requests 9 — failing rows → C-final (foundation requests: marketing-hero 360 image offset, section spacing, locale header icon order; bespoke layouts select-my-coverage, commerceshield, 3pl-partners)",
+      "endedAt": "2026-11-18T06:11:56.542Z",
+      "gates": {
+        "360": {
+          "pass": "7/55",
+          "worst": "40.16%",
+          "run": "stardust/replica/gates/all-360/runs/2026-11-18T06-10-36-794Z-us-en-shipping-insurance-b2b-html.json"
+        },
+        "1440": {
+          "pass": "32/55",
+          "worst": "31.26%",
+          "run": "stardust/replica/gates/all-1440/runs/2026-11-18T05-33-46-078Z-us-en-shipping-insurance-b2b-html.json"
+        },
+        "archetype": "b2b 1440 0.33% / 360 0.57%"
+      }
+    },
+    "cluster-home": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "home"
+      ],
+      "endedAt": "2026-11-18T01:27:51.668Z",
+      "startedAt": "2026-11-18T01:27:51.668Z",
+      "verdict": "home: pages 2/2 live, blocks 2, gate 1440 0.64% / 360 0.38%, requests 0",
+      "gates": {
+        "360": {
+          "worst": 0.38
+        },
+        "1440": {
+          "worst": 0.64
+        }
+      },
+      "blocks": 2,
+      "pages": 2
+    },
+    "cluster-listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "endedAt": "2026-11-18T02:24:54.013Z",
+      "startedAt": "2026-11-18T02:24:54.013Z",
+      "verdict": "listing: pages 7/7 live, blocks 1, gate 1440 0.09–3.9% / 360 0.82–19.03%, requests 6 — whitepapers-and-guides 360 19.03% Δh +75 fails (reused blocks lack listing CSS) → C-final",
+      "gates": {
+        "360": {
+          "worst": 19.03,
+          "pass": "6/7"
+        },
+        "1440": {
+          "worst": 3.9,
+          "pass": "7/7"
+        }
+      },
+      "blocks": 1,
+      "pages": 7
+    },
+    "cluster-legal": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "legal"
+      ],
+      "endedAt": "2026-11-18T03:01:27.835Z",
+      "startedAt": "2026-11-18T03:01:27.835Z",
+      "verdict": "legal: pages 7/7 live, blocks 2, gate 1440 9.46% / 360 12.31%, requests 2 — 360 fails: terms-and-conditions-of-service-and-explanation-of-coverage 12.09% Δh 54, …-coverage-users 12.31% Δh −14 (long-text drift, 3 rounds used) → C-final",
+      "gates": {
+        "360": {
+          "worst": 12.31,
+          "pass": "5/7"
+        },
+        "1440": {
+          "worst": 9.46,
+          "pass": "7/7"
+        }
+      },
+      "blocks": 2,
+      "pages": 7
+    },
+    "cluster-locale-home": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "locale-home"
+      ],
+      "startedAt": "2026-11-18T00:18:27.619Z",
+      "endedAt": "2026-11-18T01:33:24.171Z",
+      "verdict": "locale-home: pages 6/6 live, blocks 5, gate 1440 19.56% / 360 35.66%, requests 2 — gb-en 1440 passes; ca-en/de-de/it-en/it-it fail on missing locale nav/footer docs (US chrome fallback), body 1.1–4.6%; re-gate after chrome docs | after locale chrome docs: 1440 4/4 pass (worst 4.78%), 360 ca-en pass, de-de 14.95%/it-en 13.02%/it-it 12.84% body drift (hero title spacing, legal-note band) → C-final",
+      "gates": {
+        "360": {
+          "worst": 14.95,
+          "pass": "1/4+gb-en 14.4"
+        },
+        "1440": {
+          "worst": 4.78,
+          "pass": "5/5"
+        }
+      },
+      "blocks": 5,
+      "pages": 6
+    },
+    "cluster-form": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "form"
+      ],
+      "startedAt": "2026-11-18T03:25:32.947Z",
+      "endedAt": "2026-11-18T03:56:57.862Z",
+      "verdict": "form: pages 4/4 live, blocks 8, gate 1440 8.98% / 360 7.34%, requests 1",
+      "gates": {
+        "360": {
+          "pass": "4/4",
+          "worst": "7.34%"
+        },
+        "1440": {
+          "pass": "4/4",
+          "worst": "8.98%"
+        }
+      },
+      "blocks": 8,
+      "pages": 4
+    },
+    "cluster-shell": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "shell"
+      ],
+      "startedAt": "2026-11-18T03:29:05.779Z",
+      "endedAt": "2026-11-18T04:17:39.700Z",
+      "verdict": "shell: pages 10/10 live, blocks 0, gate 1440 2.93% / 360 8.64%, requests 2",
+      "gates": {
+        "360": {
+          "pass": "10/10",
+          "worst": "8.64%"
+        },
+        "1440": {
+          "pass": "10/10",
+          "worst": "2.93%"
+        }
+      },
+      "blocks": 0,
+      "pages": 10
+    },
+    "cluster-shipping-hub": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "shipping-hub"
+      ],
+      "startedAt": "2026-11-18T00:32:55.259Z",
+      "endedAt": "2026-11-18T00:37:08.052Z",
+      "verdict": "shipping-hub: pages 2/2 live, blocks 6, gate 1440 0.34% / 360 1.33%, requests 0",
+      "blocks": 6,
+      "pages": 2
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-18T10:50:12.558Z",
+      "endedAt": "2026-11-18T11:29:48.993Z",
+      "verdict": "gate-all: roster 96, 1440 84/96 pass, 360 73/96 pass; 23 pages failed (program 22, legal 1) → coverage failed",
+      "gates": {
+        "360": {
+          "pass": 73,
+          "fail": 23
+        },
+        "1440": {
+          "pass": 84,
+          "fail": 12
+        }
+      }
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "all"
+      ],
+      "startedAt": "2026-11-18T06:33:21.916Z",
+      "endedAt": "2026-11-18T11:29:49.031Z",
+      "verdict": "final: freeze check clean (17 files), request queue applied (25/28), archetypes 9/9 both widths, b2b 1440 capture-state flip re-measured 0.22%; 23 failing rows recorded failed"
+    }
+  }
+}

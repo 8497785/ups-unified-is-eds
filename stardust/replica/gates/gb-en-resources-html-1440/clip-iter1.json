@@ -1,0 +1,908 @@
+{
+ "url": "http://localhost:8791/gb-en-resources-html-proposed.html",
+ "at": "2026-11-17T21:39:05.008Z",
+ "width": 1440,
+ "status": 200,
+ "settlePasses": 2,
+ "docH": 3890,
+ "pageW": 1440,
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 10,
+  "offPage": 22,
+  "textNodes": 99,
+  "controls": 56,
+  "total": 0
+ },
+ "findings": [
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "path": "div.stories__viewport > div.stories__track > div.stories__slide > a.story",
+   "text": "customer stories aftership amplifies the post-purchase exper",
+   "clipper": "div.stories__viewport",
+   "rect": {
+    "l": 1360,
+    "t": 1225,
+    "r": 1744,
+    "b": 1705,
+    "w": 384,
+    "h": 480
+   },
+   "clip": {
+    "l": 96,
+    "t": 1225,
+    "r": 1344,
+    "b": 1715,
+    "w": 1248,
+    "h": 490
+   }
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 109,
+   "path": "a.story > div.story__body > div > p.story__eyebrow",
+   "text": "customer stories",
+   "clipper": "div.stories__viewport",
+   "rect": {
+    "l": 1430,
+    "t": 1473,
+    "r": 1549,
+    "b": 1484,
+    "w": 119,
+    "h": 11
+   },
+   "clip": {
+    "l": 96,
+    "t": 1225,
+    "r": 1344,
+    "b": 1715,
+    "w": 1248,
+    "h": 490
+   },
+   "lines": 1
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 212,
+   "path": "div > div.story__title > h1 > b",
+   "text": "aftership amplifies the post-purchase experience",
+   "clipper": "div.stories__viewport",
+   "rect": {
+    "l": 1392,
+    "t": 1501,
+    "r": 1652,
+    "b": 1525,
+    "w": 260,
+    "h": 24
+   },
+   "clip": {
+    "l": 96,
+    "t": 1225,
+    "r": 1344,
+    "b": 1715,
+    "w": 1248,
+    "h": 490
+   },
+   "lines": 2
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 251,
+   "path": "div.story__body > div > div.story__text > p",
+   "text": "ups capital helps aftership’s retailers and dtc brands recov",
+   "clipper": "div.stories__viewport",
+   "rect": {
+    "l": 1392,
+    "t": 1563,
+    "r": 1691,
+    "b": 1582,
+    "w": 299,
+    "h": 19
+   },
+   "clip": {
+    "l": 96,
+    "t": 1225,
+    "r": 1344,
+    "b": 1715,
+    "w": 1248,
+    "h": 490
+   },
+   "lines": 3
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 29,
+   "path": "div.stories__slide > a.story > div.story__body > div.story__link",
+   "text": "read more",
+   "clipper": "div.stories__viewport",
+   "rect": {
+    "l": 1392,
+    "t": 1651,
+    "r": 1469,
+    "b": 1670,
+    "w": 77,
+    "h": 19
+   },
+   "clip": {
+    "l": 96,
+    "t": 1225,
+    "r": 1344,
+    "b": 1715,
+    "w": 1248,
+    "h": 490
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "path": "div.stories__viewport > div.stories__track > div.stories__slide > a.story",
+   "text": "insights to help your business what are incoterms and why do",
+   "clipper": "div.stories__viewport",
+   "rect": {
+    "l": 1360,
+    "t": 2104,
+    "r": 1744,
+    "b": 2584,
+    "w": 384,
+    "h": 480
+   },
+   "clip": {
+    "l": 96,
+    "t": 2104,
+    "r": 1344,
+    "b": 2594,
+    "w": 1248,
+    "h": 490
+   }
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 199,
+   "path": "a.story > div.story__body > div > p.story__eyebrow",
+   "text": "insights to help your business",
+   "clipper": "div.stories__viewport",
+   "rect": {
+    "l": 1430,
+    "t": 2352,
+    "r": 1639,
+    "b": 2363,
+    "w": 209,
+    "h": 11
+   },
+   "clip": {
+    "l": 96,
+    "t": 2104,
+    "r": 1344,
+    "b": 2594,
+    "w": 1248,
+    "h": 490
+   },
+   "lines": 1
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 238,
+   "path": "div > div.story__title > h1 > b",
+   "text": "what are incoterms and why do they matter?",
+   "clipper": "div.stories__viewport",
+   "rect": {
+    "l": 1392,
+    "t": 2380,
+    "r": 1678,
+    "b": 2404,
+    "w": 286,
+    "h": 24
+   },
+   "clip": {
+    "l": 96,
+    "t": 2104,
+    "r": 1344,
+    "b": 2594,
+    "w": 1248,
+    "h": 490
+   },
+   "lines": 2
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 258,
+   "path": "div.story__body > div > div.story__text > p",
+   "text": "understand what terms you are agreeing to before finalizing ",
+   "clipper": "div.stories__viewport",
+   "rect": {
+    "l": 1392,
+    "t": 2442,
+    "r": 1698,
+    "b": 2461,
+    "w": 306,
+    "h": 19
+   },
+   "clip": {
+    "l": 96,
+    "t": 2104,
+    "r": 1344,
+    "b": 2594,
+    "w": 1248,
+    "h": 490
+   },
+   "lines": 2
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 29,
+   "path": "div.stories__slide > a.story > div.story__body > div.story__link",
+   "text": "read more",
+   "clipper": "div.stories__viewport",
+   "rect": {
+    "l": 1392,
+    "t": 2530,
+    "r": 1469,
+    "b": 2549,
+    "w": 77,
+    "h": 19
+   },
+   "clip": {
+    "l": 96,
+    "t": 2104,
+    "r": 1344,
+    "b": 2594,
+    "w": 1248,
+    "h": 490
+   },
+   "lines": 1
+  }
+ ],
+ "textBoxes": [
+  {
+   "x": 977,
+   "y": 14,
+   "w": 38,
+   "h": 16
+  },
+  {
+   "x": 1048,
+   "y": 14,
+   "w": 69,
+   "h": 16
+  },
+  {
+   "x": 1148,
+   "y": 14,
+   "w": 156,
+   "h": 16
+  },
+  {
+   "x": 319,
+   "y": 48,
+   "w": 182,
+   "h": 19
+  },
+  {
+   "x": 538,
+   "y": 48,
+   "w": 49,
+   "h": 19
+  },
+  {
+   "x": 623,
+   "y": 48,
+   "w": 76,
+   "h": 19
+  },
+  {
+   "x": 735,
+   "y": 48,
+   "w": 43,
+   "h": 19
+  },
+  {
+   "x": 112,
+   "y": 141,
+   "w": 75,
+   "h": 19
+  },
+  {
+   "x": 112,
+   "y": 226,
+   "w": 225,
+   "h": 57
+  },
+  {
+   "x": 112,
+   "y": 329,
+   "w": 346,
+   "h": 24
+  },
+  {
+   "x": 736,
+   "y": 234,
+   "w": 225,
+   "h": 57
+  },
+  {
+   "x": 531,
+   "y": 835,
+   "w": 377,
+   "h": 47
+  },
+  {
+   "x": 1228,
+   "y": 964,
+   "w": 50,
+   "h": 19
+  },
+  {
+   "x": 566,
+   "y": 1061,
+   "w": 308,
+   "h": 47
+  },
+  {
+   "x": 331,
+   "y": 1151,
+   "w": 777,
+   "h": 24
+  },
+  {
+   "x": 182,
+   "y": 1473,
+   "w": 119,
+   "h": 11
+  },
+  {
+   "x": 144,
+   "y": 1501,
+   "w": 138,
+   "h": 24
+  },
+  {
+   "x": 144,
+   "y": 1539,
+   "w": 282,
+   "h": 19
+  },
+  {
+   "x": 144,
+   "y": 1563,
+   "w": 260,
+   "h": 19
+  },
+  {
+   "x": 144,
+   "y": 1587,
+   "w": 146,
+   "h": 19
+  },
+  {
+   "x": 144,
+   "y": 1651,
+   "w": 77,
+   "h": 19
+  },
+  {
+   "x": 598,
+   "y": 1473,
+   "w": 119,
+   "h": 11
+  },
+  {
+   "x": 560,
+   "y": 1501,
+   "w": 247,
+   "h": 24
+  },
+  {
+   "x": 560,
+   "y": 1542,
+   "w": 88,
+   "h": 19
+  },
+  {
+   "x": 648,
+   "y": 1539,
+   "w": 10,
+   "h": 15
+  },
+  {
+   "x": 658,
+   "y": 1542,
+   "w": 195,
+   "h": 19
+  },
+  {
+   "x": 560,
+   "y": 1566,
+   "w": 275,
+   "h": 19
+  },
+  {
+   "x": 560,
+   "y": 1590,
+   "w": 96,
+   "h": 19
+  },
+  {
+   "x": 560,
+   "y": 1651,
+   "w": 77,
+   "h": 19
+  },
+  {
+   "x": 1014,
+   "y": 1473,
+   "w": 119,
+   "h": 11
+  },
+  {
+   "x": 976,
+   "y": 1501,
+   "w": 232,
+   "h": 24
+  },
+  {
+   "x": 976,
+   "y": 1539,
+   "w": 256,
+   "h": 19
+  },
+  {
+   "x": 976,
+   "y": 1563,
+   "w": 318,
+   "h": 19
+  },
+  {
+   "x": 976,
+   "y": 1651,
+   "w": 77,
+   "h": 19
+  },
+  {
+   "x": 1430,
+   "y": 1473,
+   "w": 119,
+   "h": 11
+  },
+  {
+   "x": 1392,
+   "y": 1501,
+   "w": 260,
+   "h": 24
+  },
+  {
+   "x": 1392,
+   "y": 1525,
+   "w": 188,
+   "h": 24
+  },
+  {
+   "x": 1392,
+   "y": 1563,
+   "w": 299,
+   "h": 19
+  },
+  {
+   "x": 1392,
+   "y": 1587,
+   "w": 297,
+   "h": 19
+  },
+  {
+   "x": 1392,
+   "y": 1611,
+   "w": 62,
+   "h": 19
+  },
+  {
+   "x": 1392,
+   "y": 1651,
+   "w": 77,
+   "h": 19
+  },
+  {
+   "x": 641,
+   "y": 1844,
+   "w": 132,
+   "h": 19
+  },
+  {
+   "x": 649,
+   "y": 1940,
+   "w": 142,
+   "h": 47
+  },
+  {
+   "x": 318,
+   "y": 2030,
+   "w": 803,
+   "h": 24
+  },
+  {
+   "x": 182,
+   "y": 2352,
+   "w": 209,
+   "h": 11
+  },
+  {
+   "x": 144,
+   "y": 2380,
+   "w": 308,
+   "h": 24
+  },
+  {
+   "x": 144,
+   "y": 2418,
+   "w": 301,
+   "h": 19
+  },
+  {
+   "x": 144,
+   "y": 2442,
+   "w": 299,
+   "h": 19
+  },
+  {
+   "x": 144,
+   "y": 2466,
+   "w": 287,
+   "h": 19
+  },
+  {
+   "x": 144,
+   "y": 2490,
+   "w": 172,
+   "h": 19
+  },
+  {
+   "x": 144,
+   "y": 2530,
+   "w": 77,
+   "h": 19
+  },
+  {
+   "x": 598,
+   "y": 2352,
+   "w": 209,
+   "h": 11
+  },
+  {
+   "x": 560,
+   "y": 2380,
+   "w": 257,
+   "h": 24
+  },
+  {
+   "x": 560,
+   "y": 2418,
+   "w": 307,
+   "h": 19
+  },
+  {
+   "x": 560,
+   "y": 2442,
+   "w": 320,
+   "h": 19
+  },
+  {
+   "x": 560,
+   "y": 2466,
+   "w": 301,
+   "h": 19
+  },
+  {
+   "x": 560,
+   "y": 2490,
+   "w": 164,
+   "h": 19
+  },
+  {
+   "x": 560,
+   "y": 2530,
+   "w": 77,
+   "h": 19
+  },
+  {
+   "x": 1014,
+   "y": 2352,
+   "w": 209,
+   "h": 11
+  },
+  {
+   "x": 976,
+   "y": 2380,
+   "w": 253,
+   "h": 24
+  },
+  {
+   "x": 976,
+   "y": 2418,
+   "w": 276,
+   "h": 19
+  },
+  {
+   "x": 976,
+   "y": 2530,
+   "w": 77,
+   "h": 19
+  },
+  {
+   "x": 1430,
+   "y": 2352,
+   "w": 209,
+   "h": 11
+  },
+  {
+   "x": 1392,
+   "y": 2380,
+   "w": 286,
+   "h": 24
+  },
+  {
+   "x": 1392,
+   "y": 2404,
+   "w": 118,
+   "h": 24
+  },
+  {
+   "x": 1392,
+   "y": 2442,
+   "w": 306,
+   "h": 19
+  },
+  {
+   "x": 1392,
+   "y": 2466,
+   "w": 194,
+   "h": 19
+  },
+  {
+   "x": 1392,
+   "y": 2530,
+   "w": 77,
+   "h": 19
+  },
+  {
+   "x": 658,
+   "y": 2723,
+   "w": 98,
+   "h": 19
+  },
+  {
+   "x": 586,
+   "y": 2897,
+   "w": 268,
+   "h": 47
+  },
+  {
+   "x": 528,
+   "y": 2987,
+   "w": 383,
+   "h": 24
+  },
+  {
+   "x": 669,
+   "y": 3049,
+   "w": 76,
+   "h": 19
+  },
+  {
+   "x": 112,
+   "y": 3225,
+   "w": 1088,
+   "h": 14
+  },
+  {
+   "x": 112,
+   "y": 3377,
+   "w": 78,
+   "h": 24
+  },
+  {
+   "x": 120,
+   "y": 3451,
+   "w": 158,
+   "h": 16
+  },
+  {
+   "x": 120,
+   "y": 3491,
+   "w": 43,
+   "h": 16
+  },
+  {
+   "x": 120,
+   "y": 3531,
+   "w": 66,
+   "h": 16
+  },
+  {
+   "x": 120,
+   "y": 3571,
+   "w": 37,
+   "h": 16
+  },
+  {
+   "x": 416,
+   "y": 3377,
+   "w": 142,
+   "h": 24
+  },
+  {
+   "x": 424,
+   "y": 3451,
+   "w": 77,
+   "h": 16
+  },
+  {
+   "x": 424,
+   "y": 3491,
+   "w": 68,
+   "h": 16
+  },
+  {
+   "x": 424,
+   "y": 3531,
+   "w": 30,
+   "h": 16
+  },
+  {
+   "x": 424,
+   "y": 3571,
+   "w": 176,
+   "h": 16
+  },
+  {
+   "x": 424,
+   "y": 3611,
+   "w": 70,
+   "h": 16
+  },
+  {
+   "x": 1024,
+   "y": 3377,
+   "w": 146,
+   "h": 24
+  },
+  {
+   "x": 1056,
+   "y": 3451,
+   "w": 61,
+   "h": 16
+  },
+  {
+   "x": 1056,
+   "y": 3491,
+   "w": 63,
+   "h": 16
+  },
+  {
+   "x": 1056,
+   "y": 3531,
+   "w": 82,
+   "h": 16
+  },
+  {
+   "x": 1056,
+   "y": 3571,
+   "w": 53,
+   "h": 16
+  },
+  {
+   "x": 1056,
+   "y": 3611,
+   "w": 54,
+   "h": 16
+  },
+  {
+   "x": 112,
+   "y": 3710,
+   "w": 141,
+   "h": 16
+  },
+  {
+   "x": 295,
+   "y": 3709,
+   "w": 145,
+   "h": 16
+  },
+  {
+   "x": 460,
+   "y": 3709,
+   "w": 119,
+   "h": 16
+  },
+  {
+   "x": 599,
+   "y": 3709,
+   "w": 72,
+   "h": 16
+  },
+  {
+   "x": 690,
+   "y": 3709,
+   "w": 90,
+   "h": 16
+  },
+  {
+   "x": 800,
+   "y": 3709,
+   "w": 99,
+   "h": 16
+  },
+  {
+   "x": 112,
+   "y": 3816,
+   "w": 503,
+   "h": 16
+  }
+ ],
+ "groups": [
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.stories__viewport",
+   "path": "div.stories__viewport > div.stories__track > div.stories__slide > a.story",
+   "text": "customer stories aftership amplifies the post-purchase exper",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.stories__viewport",
+   "path": "a.story > div.story__body > div > p.story__eyebrow",
+   "text": "customer stories",
+   "cutMin": 109,
+   "cutMax": 199
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.stories__viewport",
+   "path": "div > div.story__title > h1 > b",
+   "text": "aftership amplifies the post-purchase experience",
+   "cutMin": 212,
+   "cutMax": 238
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.stories__viewport",
+   "path": "div.story__body > div > div.story__text > p",
+   "text": "ups capital helps aftership’s retailers and dtc brands recov",
+   "cutMin": 251,
+   "cutMax": 258
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.stories__viewport",
+   "path": "div.stories__slide > a.story > div.story__body > div.story__link",
+   "text": "read more",
+   "cutMin": 29,
+   "cutMax": 29
+  }
+ ],
+ "tier": "chrome"
+}

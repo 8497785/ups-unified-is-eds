@@ -1,0 +1,389 @@
+/* data-table — lifted: source .table-wrapper table.table (fixed layout, grey rules, teal
+   header links) */
+.data-table {
+  margin: 24px 0;
+}
+
+.data-table .data-table-scroll {
+  overflow-x: auto;
+}
+
+.data-table table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.data-table :is(th, td) {
+  padding: 12px 16px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  vertical-align: top;
+}
+
+.data-table :is(th, td):first-child {
+  border-right: 1px solid #ccc;
+  text-align: left;
+}
+
+.data-table th {
+  font-weight: 400;
+}
+
+.data-table th a:any-link {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.data-table :is(th, td) p + p {
+  margin-top: 8px;
+}
+
+@media (width >= 992px) {
+  .data-table table {
+    font-size: 1.6rem;
+  }
+}
+
+/* ---------- variant `compare`: the source's fixed comparison table of teasers (.table-wrapper
+   table.fixed — /us/en/shipping-insurance/select-my-coverage): auto column widths (148px min,
+   200px from 992), centred grey copy, row rules, a sticky first column with its 13px shade,
+   icons 48px / 72px; lifted from table.min.css + measured at 360 / 1440 ---------- */
+.data-table.compare {
+  margin: 0 0 64px;
+}
+
+.data-table.compare table {
+  min-width: 0;
+  table-layout: auto;
+  color: #58595b;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.data-table.compare tr {
+  position: relative;
+  border-bottom: 1px solid #dfdbd7;
+}
+
+.data-table.compare :is(th, td) {
+  width: 148px;
+  min-width: 14.8rem;
+  padding: 1.2rem;
+  border: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: top;
+}
+
+.data-table.compare :is(th, td):first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  border-right: 0;
+  background: #fff;
+  text-align: center;
+}
+
+.data-table.compare :is(th, td):first-child::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -8px;
+  width: 13px;
+  height: 100%;
+  background: linear-gradient(90deg, #121212, rgb(18 18 18 / 0%));
+  opacity: 0.1;
+}
+
+.data-table.compare :is(h5, h6) {
+  color: inherit;
+  font-weight: 400;
+}
+
+.data-table.compare h5 {
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.data-table.compare h6 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.data-table.compare th a:any-link {
+  display: inline;
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.data-table.compare :is(th, td) p:has(img) {
+  width: 4.8rem;
+  margin: 0 auto 0.8rem;
+}
+
+.data-table.compare :is(th, td) :is(picture, img) {
+  width: 100%;
+  vertical-align: baseline;
+}
+
+/* the section head before the table (source h3.cmp-title__text + description, centred from 768) */
+.data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .compare) {
+  margin-bottom: 24px;
+}
+
+.data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .compare) :is(h2, h3) {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 16px;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .compare) :is(h2, h3)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+.data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .compare) p {
+  margin-top: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+@media (width >= 768px) {
+  .data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .compare) {
+    padding: 0 16.5%;
+    text-align: center;
+  }
+
+  .data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .compare) :is(h2, h3)::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (width >= 992px) {
+  .data-table.compare :is(th, td) {
+    width: 200px;
+    min-width: 20rem;
+    padding: 2.4rem;
+  }
+
+  .data-table.compare h5 {
+    font-size: 2.4rem;
+    line-height: 1.33;
+  }
+
+  .data-table.compare h6 {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  .data-table.compare :is(th, td) p:has(img) {
+    width: 7.2rem;
+  }
+
+  .data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .compare) {
+    margin-bottom: 48px;
+  }
+
+  .data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .compare) :is(h2, h3) {
+    padding-bottom: 20px;
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+
+  .data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .compare) p {
+    margin-top: 20px;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}
+
+/* compare table headed by h4 teasers (/us/en/solutions/delivery-defense/learning-center score
+   recommendations): black 20/28 header titles (28/35.84 from 992, 16px cell padding there),
+   500-weight row titles, a 174px first column below 992 — measured at 360 and 1440 */
+.data-table.compare:has(th h4) h4 {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.data-table.compare:has(th h4) :is(td, th) strong {
+  font-weight: 500;
+}
+
+/* each source cell teaser ends in an empty action row pulled up 16px (cell 16px shorter); the
+   body copy sits 1px lower (13px / 25px from the cell top) */
+.data-table.compare:has(th h4) :is(th, td) > :last-child {
+  margin-bottom: -16px;
+}
+
+.data-table.compare:has(th h4) td {
+  padding-top: 13px;
+}
+
+@media (width < 992px) {
+  .data-table.compare:has(th h4) :is(th, td):first-child {
+    width: 174px;
+    min-width: 17.4rem;
+  }
+}
+
+@media (width >= 992px) {
+  .data-table.compare:has(th h4) th {
+    padding: 1.6rem;
+  }
+
+  .data-table.compare:has(th h4) td {
+    padding-top: 25px;
+  }
+
+  .data-table.compare:has(th h4) h4 {
+    font-size: 2.8rem;
+    line-height: 1.28;
+  }
+}
+
+/* ---------- variant `teal-head` (source RTE table, /us/en/customer-communications/
+   enhanced-declared-value "Which Solution Is Right for You?"): Arial, 1px #d9d9d9 frame, a
+   teal (#007a7a) header row of white 16px bold cells (14/18 padding), body rows of 16/18
+   padded cells ruled #bfb8af; the first column bold 600 on #dbe3e3, the others centred 28px
+   bold marks — <strong> marks teal, plain ones #666; at least 700px wide (scrolls below);
+   40px below the head copy, 64px under it. Section head: the program sec-title (28/35.84 →
+   40/48 h2, centred from 768) ---------- */
+.data-table.teal-head {
+  margin: 40px 0 64px;
+}
+
+.data-table.teal-head table {
+  min-width: 700px;
+  table-layout: auto;
+  border: 1px solid #d9d9d9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.data-table.teal-head :is(th, td) {
+  padding: 16px;
+  border: 0;
+  border-right: 1px solid #bfb8af;
+  border-bottom: 1px solid #bfb8af;
+  color: #666;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: baseline;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.data-table.teal-head :is(th, td) strong {
+  color: #007a7a;
+}
+
+.data-table.teal-head thead :is(th, td) {
+  padding: 14px 18px;
+  border: 1px solid #bfb8af;
+  background: #007a7a;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.data-table.teal-head :is(th, td):first-child {
+  padding: 16px 18px;
+  border-right: 1px solid #bfb8af;
+  background: #dbe3e3;
+  color: #121212;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.data-table.teal-head thead :is(th, td):first-child {
+  padding: 14px 18px;
+  background: #007a7a;
+  color: #fff;
+  font-weight: 700;
+}
+
+.data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .teal-head) h2 {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 16px;
+  font-size: 2.8rem;
+  line-height: 1.28;
+}
+
+.data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .teal-head) h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+.data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .teal-head) p {
+  margin-top: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+@media (width >= 768px) {
+  .data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .teal-head) {
+    text-align: center;
+  }
+
+  .data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .teal-head)
+  h2::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (width >= 992px) {
+  .data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .teal-head) {
+    margin-bottom: 48px;
+  }
+
+  .data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .teal-head) h2 {
+    padding-bottom: 20px;
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .teal-head) p {
+    margin: 20px 16.5% 0;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}
+
+/* variant `compare head-h2`: the section head is an h2 (source h2.cmp-title__text: 28/35.84,
+   40/48 from 992 — learning-center) */
+.data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .head-h2) h2 {
+  font-size: 2.8rem;
+  line-height: 1.28;
+}
+
+@media (width >= 992px) {
+  .data-table-container .default-content-wrapper:has(+ .data-table-wrapper > .head-h2) h2 {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+}

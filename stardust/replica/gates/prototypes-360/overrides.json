@@ -1,0 +1,10 @@
+{
+  "de-en-home-html": {
+    "verdict": "PASS",
+    "reason": "capture-state: live testimonial carousel autoplays (5 s) and is on a later, shorter slide by capture time; gate.sh round with the slide pinned to 1 on both sides (--dismiss .cmp-carousel__indicator:first-child) measures 2.06% Δh +1 — stardust/replica/gates/de-en-home-html-360/, progress.json types.locale-home.gates.360",
+    "waives": [
+      "pixel",
+      "height"
+    ]
+  }
+}

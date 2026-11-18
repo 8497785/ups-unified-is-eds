@@ -31,3 +31,128 @@
     order: unset;
   }
 }
+
+/* variant `table`: the source's borderless two-cell RTE layout table (legal bodies) — never
+   stacks, unlike the boilerplate columns */
+
+/* the source cells carry width="330": the table keeps 660px and shrinks below it */
+.columns.table {
+  max-width: 660px;
+}
+
+.columns.table > div {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0;
+}
+
+.columns.table > div > div {
+  flex: 1 1 0;
+  order: unset;
+  min-width: 0;
+}
+
+.columns.table :is(p, ul, ol) {
+  margin: 0 0 1.6rem;
+}
+
+.columns.table ul {
+  padding-left: 3.2rem;
+  list-style: disc;
+}
+
+.columns.table > div > div > :last-child {
+  margin-bottom: 0;
+}
+
+/* stylelint-disable no-descending-specificity -- variants are independent of each other */
+
+/* variant `titled`: the source's 50/50 column control of a centred title + RTE list per column
+   (/us/en/promotional/webinars "Why Attend?" / "Speakers"). Lifted title.min / theme h3 and
+   measured at 360 / 1440: an h3 (20/28, 24/32 >= 768, 32/40 >= 992) over a 72px teal bar,
+   left below 768 and centred from it, 32px over the list; the list sits 32px in with a 32px
+   disc indent; columns stack below 992 with 42px between them, 64px under the block */
+.columns.titled {
+  margin-bottom: 64px;
+}
+
+.columns.titled > div {
+  display: block;
+}
+
+.columns.titled > div > div + div {
+  margin-top: 42px;
+}
+
+.columns.titled :is(h2, h3) {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.columns.titled :is(h2, h3)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+.columns.titled ul {
+  margin: 0;
+  padding: 0 32px 0 64px;
+  list-style: disc;
+}
+
+.columns.titled li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+@media (width >= 768px) {
+  .columns.titled > div > div {
+    text-align: center;
+  }
+
+  .columns.titled :is(h2, h3) {
+    font-size: 2.4rem;
+    line-height: 1.33;
+  }
+
+  .columns.titled :is(h2, h3)::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .columns.titled ul {
+    text-align: left;
+  }
+}
+
+@media (width >= 992px) {
+  .columns.titled > div {
+    display: flex;
+    align-items: flex-start;
+    gap: 0;
+    margin: 0 -16px;
+  }
+
+  .columns.titled > div > div {
+    flex: 1 1 50%;
+    padding: 0 16px;
+  }
+
+  .columns.titled > div > div + div {
+    margin-top: 0;
+  }
+
+  .columns.titled :is(h2, h3) {
+    padding-bottom: 20px;
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+}

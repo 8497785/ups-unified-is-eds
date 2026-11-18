@@ -1,0 +1,2263 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-17T20:49:09.351Z",
+    "stardustVersion": "0.39.4",
+    "source": "stardust/current/_computed-styles.json (93 pages × 1440,360) + stardust/current/assets/css/theme-insure-shield.min.css"
+  },
+  "name": "InsureShield (current state)",
+  "colors": {
+    "background": {
+      "value": "#ffffff",
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/solutions/commerceshield.html",
+          "selector": "div > div:nth-of-type(1) > div > div > div > div > div > div:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments.html",
+          "selector": "div > div:nth-of-type(1) > div > div > div > div > div > div:nth-of-type(1)",
+          "prop": "text"
+        }
+      ]
+    },
+    "text": {
+      "value": "#121212",
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage.html",
+          "selector": "nav > ul > li:nth-of-type(2) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-gallagher-affinity.html",
+          "selector": "nav > ul > li:nth-of-type(2) > a",
+          "prop": "text"
+        }
+      ]
+    },
+    "primary": {
+      "value": "#3fa29d",
+      "note": "teal — buttons, accent bands",
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments.html",
+          "selector": "#container-85bdea07a5 > div > div:nth-of-type(1) > div > div > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.insureshield.com/ca/en/home.html",
+          "selector": "#container-85bdea07a5 > div > div:nth-of-type(1) > div > div > div",
+          "prop": "background"
+        }
+      ]
+    },
+    "primary-dark": {
+      "value": "#007a7a",
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/customer-communications/enhanced-declared-value.html",
+          "selector": "div > div > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(2)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/solutions/commerceshield.html",
+          "selector": "div:nth-of-type(13) > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(1)",
+          "prop": "text"
+        }
+      ]
+    },
+    "accent": {
+      "value": "#2f67ac",
+      "note": "links / secondary buttons",
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/about.html",
+          "selector": "#container-f70c8dbfba > div > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(3) > a:nth-of-type(2)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/resources/whitepapers-and-guides.html",
+          "selector": "div > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div:nth-of-type(3) > a:nth-of-type(2)",
+          "prop": "text"
+        }
+      ]
+    },
+    "link": {
+      "value": "#0662bb",
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/legal/technology-agreement.html",
+          "selector": "div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div > p:nth-of-type(12) > a",
+          "prop": "link"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-gallagher-affinity.html",
+          "selector": "#container-d75af85fb7 > div > div:nth-of-type(2) > div > p:nth-of-type(5) > a:nth-of-type(1)",
+          "prop": "link"
+        }
+      ]
+    },
+    "secondary": {
+      "value": "#ffc400",
+      "note": "yellow CTA",
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+          "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(9) > div > div > div:nth-of-type(3) > a:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance/consumer-electronics-and-technology.html",
+          "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(9) > div > div > div:nth-of-type(3) > a:nth-of-type(1)",
+          "prop": "background"
+        }
+      ]
+    },
+    "surface-footer": {
+      "value": "#4a4a4c",
+      "note": "footer background",
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/promotional/delivery-defense-mockup.html",
+          "selector": "#slider-range-min > span",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/solutions/delivery-defense.html",
+          "selector": "#slider-range-min > span",
+          "prop": "background"
+        }
+      ]
+    },
+    "muted": {
+      "value": "#5f5753",
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+          "selector": "nav > ul > li:nth-of-type(1) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+          "selector": "#hero-section > section > div:nth-of-type(2) > div:nth-of-type(1) > p",
+          "prop": "text"
+        }
+      ]
+    },
+    "border": {
+      "value": "#bfb8af",
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/customer-communications/enhanced-declared-value.html",
+          "selector": "nav > ul > li:nth-of-type(1) > a",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-gallagher-affinity.html",
+          "selector": "nav > ul > li:nth-of-type(1) > a",
+          "prop": "border"
+        }
+      ]
+    },
+    "surface-warm": {
+      "value": "#f0ede9",
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+          "selector": "footer > div > div:nth-of-type(1) > p:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+          "selector": "footer > div > div:nth-of-type(3) > ul > li:nth-of-type(2)",
+          "prop": "border"
+        }
+      ]
+    },
+    "hero-gradient": {
+      "value": "linear-gradient(350.94deg, rgb(220, 232, 231) 8%, rgb(243, 243, 243) 55.74%)",
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/ca/en/about.html",
+          "selector": "#container-85bdea07a5 > div > div:nth-of-type(3) > div > div > div:nth-of-type(1)"
+        },
+        {
+          "url": "https://www.insureshield.com/ca/en/claims.html",
+          "selector": "#container-85bdea07a5 > div > div:nth-of-type(3) > div > div > div:nth-of-type(1)"
+        }
+      ]
+    }
+  },
+  "typography": {
+    "families": {
+      "heading": "Roboto",
+      "body": "Roboto",
+      "hub": "Inter (shipping-insurance hub only)",
+      "icons": "upspricons (= Material Symbols Rounded)"
+    },
+    "levels": {
+      "h1": {
+        "fontSize": 48,
+        "fontWeight": "400",
+        "count": 74,
+        "score": 412.91
+      },
+      "h2": {
+        "fontSize": 40,
+        "fontWeight": "400",
+        "count": 266,
+        "score": 652.38
+      },
+      "h3": {
+        "fontSize": 16,
+        "fontWeight": "400",
+        "count": 188,
+        "score": 219.38
+      },
+      "h4": {
+        "fontSize": 14,
+        "fontWeight": "500",
+        "count": 92,
+        "score": 167.85
+      },
+      "h5": {
+        "fontSize": 24,
+        "fontWeight": "400",
+        "count": 17,
+        "score": 98.95
+      },
+      "h6": {
+        "fontSize": 20,
+        "fontWeight": "400",
+        "count": 54,
+        "score": 146.97
+      }
+    },
+    "sizes": [
+      {
+        "px": 48,
+        "count": 78
+      },
+      {
+        "px": 40,
+        "count": 270
+      },
+      {
+        "px": 32,
+        "count": 116
+      },
+      {
+        "px": 28,
+        "count": 283
+      },
+      {
+        "px": 24,
+        "count": 23
+      },
+      {
+        "px": 20,
+        "count": 565
+      },
+      {
+        "px": 16,
+        "count": 2109
+      },
+      {
+        "px": 14,
+        "count": 409
+      },
+      {
+        "px": 12,
+        "count": 1
+      },
+      {
+        "px": 10,
+        "count": 105
+      }
+    ],
+    "weights": [
+      {
+        "weight": "400",
+        "count": 2808
+      },
+      {
+        "weight": "500",
+        "count": 1130
+      },
+      {
+        "weight": "700",
+        "count": 11
+      },
+      {
+        "weight": "600",
+        "count": 10
+      }
+    ]
+  },
+  "rounded": {
+    "default": "4px",
+    "pill": "50%"
+  },
+  "shadows": [
+    "rgba(0, 0, 0, 0.05) 0px 4px 12px -3px",
+    "rgba(0, 0, 0, 0.14) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 4px 12px -3px",
+    "rgba(18, 18, 18, 0.2) 0px 4px 10px 0px"
+  ],
+  "components": {},
+  "extensions": {
+    "componentStyle": {
+      "hover": [
+        {
+          "kind": "button",
+          "from": {
+            "boxShadow": "none"
+          },
+          "to": {
+            "boxShadow": "rgba(0, 0, 0, 0.06) 0px 2px 6px 0px, rgba(0, 0, 0, 0.08) 0px 4px 12px -2px, rgba(0, 0, 0, 0.08) 0px 15px 32px -3px"
+          },
+          "count": 207
+        },
+        {
+          "kind": "button",
+          "from": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none"
+          },
+          "to": {
+            "backgroundColor": "rgb(230, 239, 248)",
+            "boxShadow": "rgba(0, 0, 0, 0.06) 0px 2px 6px 0px, rgba(0, 0, 0, 0.08) 0px 4px 12px -2px, rgba(0, 0, 0, 0.08) 0px 15px 32px -3px"
+          },
+          "count": 48
+        },
+        {
+          "kind": "button",
+          "from": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none"
+          },
+          "to": {
+            "backgroundColor": "rgb(63, 162, 157)",
+            "boxShadow": "rgba(0, 0, 0, 0.06) 0px 2px 6px 0px, rgba(0, 0, 0, 0.08) 0px 4px 12px -2px, rgba(0, 0, 0, 0.08) 0px 15px 32px -3px"
+          },
+          "count": 10
+        },
+        {
+          "kind": "button",
+          "from": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(18, 18, 18)",
+            "borderColor": "rgb(18, 18, 18)"
+          },
+          "to": {
+            "backgroundColor": "rgb(119, 194, 194)",
+            "color": "rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)"
+          },
+          "count": 2
+        },
+        {
+          "kind": "button",
+          "from": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(133, 133, 142)",
+            "boxShadow": "none"
+          },
+          "to": {
+            "backgroundColor": "rgb(239, 239, 242)",
+            "borderColor": "rgb(18, 18, 18)",
+            "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+          },
+          "count": 2
+        },
+        {
+          "kind": "link",
+          "from": {
+            "color": "rgb(6, 98, 187)"
+          },
+          "to": {
+            "color": "rgb(6, 77, 147)"
+          },
+          "count": 2
+        }
+      ]
+    },
+    "motifs": {
+      "gradients": [
+        "linear-gradient(350.94deg, rgb(220, 232, 231) 8%, rgb(243, 243, 243) 55.74%)",
+        "linear-gradient(350.94deg, rgb(220, 232, 231) 8%, rgb(255, 255, 255) 55.74%)",
+        "linear-gradient(rgb(95, 87, 83), rgb(95, 87, 83))"
+      ],
+      "radius": "4px"
+    },
+    "voice": {
+      "heroHeadline": "UPS® Secure Commerce",
+      "lede": "Manage risk across the entire supply chain with data-driven intelligence, proactive risk management, and decades of UPS expertise.",
+      "ctas": [
+        "Get a Quote",
+        "Explore Solutions",
+        "Speak with an expert"
+      ]
+    },
+    "modules": [
+      {
+        "id": "marketing-hero",
+        "sourceClass": "ups-teaser__marketinghero",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "ca-en-about-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "ca-en-claims-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "ca-en-partners-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "ca-en-resources-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "ca-en-shipping-insurance-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "de-de-cargo-insurance-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "de-de-claims-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "de-en-about-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "de-en-cargo-insurance-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "de-en-claims-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "de-en-partners-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "de-en-resources-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "gb-en-about-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "gb-en-cargo-insurance-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "gb-en-claims-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "gb-en-resources-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "it-en-about-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "it-en-cargo-insurance-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "it-en-claims-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "it-en-resources-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "it-it-about-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "it-it-cargo-insurance-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "it-it-claims-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "it-it-resources-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-about-announcements-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-about-contact-us-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-about-our-locations-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-claims-channel-partners-claims-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-claims-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-claims-insureshield-ups-claims-support-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-customer-communications-confirm-contact-information-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-customer-communications-updated-contact-information-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-legal-product-disclosure-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-legal-technology-agreement-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-partners-become-a-partner-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-partners-connect-with-a-partner-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-partners-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-promotional-delivery-defense-mockup-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-promotional-insureshield-benefits-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-promotional-webinars-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-resources-customer-stories-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-resources-help-and-support-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-resources-insights-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-resources-the-logistics-lowdown-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-resources-whitepapers-and-guides-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-risk-mitigation-risk-intelligence-smb-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-risk-mitigation-risk-intelligence-smb2-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-shipping-insurance-b2b-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-shipping-insurance-checkout-protection-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-shipping-insurance-get-a-quote-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-shipping-insurance-retail-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-shipping-insurance-select-my-coverage-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-shipping-insurance-special-commodities-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-shipping-insurance-ups-shipments-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-solutions-commerceshield-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-solutions-delivery-defense-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-solutions-delivery-defense-learning-center-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-solutions-delivery-orchestration-delivery-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-solutions-delivery-orchestration-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-solutions-delivery-orchestration-pickup-html",
+            "selector": ".ups-teaser__marketinghero"
+          },
+          {
+            "slug": "us-en-solutions-delivery-orchestration-returns-html",
+            "selector": ".ups-teaser__marketinghero"
+          }
+        ],
+        "count": 66,
+        "status": "candidate"
+      },
+      {
+        "id": "homepage-hero",
+        "sourceClass": "ups-teaser__homepagehero",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "ca-en-home-html",
+            "selector": ".ups-teaser__homepagehero"
+          },
+          {
+            "slug": "de-de-home-html",
+            "selector": ".ups-teaser__homepagehero"
+          },
+          {
+            "slug": "de-en-home-html",
+            "selector": ".ups-teaser__homepagehero"
+          },
+          {
+            "slug": "gb-en-home-html",
+            "selector": ".ups-teaser__homepagehero"
+          },
+          {
+            "slug": "index",
+            "selector": ".ups-teaser__homepagehero"
+          },
+          {
+            "slug": "it-en-home-html",
+            "selector": ".ups-teaser__homepagehero"
+          },
+          {
+            "slug": "it-it-home-html",
+            "selector": ".ups-teaser__homepagehero"
+          },
+          {
+            "slug": "us-en-about-html",
+            "selector": ".ups-teaser__homepagehero"
+          },
+          {
+            "slug": "us-en-customer-communications-enhanced-declared-value-html",
+            "selector": ".ups-teaser__homepagehero"
+          },
+          {
+            "slug": "us-en-partners-3pl-partners-html",
+            "selector": ".ups-teaser__homepagehero"
+          },
+          {
+            "slug": "us-en-securecommerce-html",
+            "selector": ".ups-teaser__homepagehero"
+          }
+        ],
+        "count": 11,
+        "status": "candidate"
+      },
+      {
+        "id": "transition-hero",
+        "sourceClass": "ups-teaser__transitionhero",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "us-en-legal-terms-and-conditions-gallagher-affinity-html",
+            "selector": ".ups-teaser__transitionhero"
+          },
+          {
+            "slug": "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-html",
+            "selector": ".ups-teaser__transitionhero"
+          },
+          {
+            "slug": "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-users-html",
+            "selector": ".ups-teaser__transitionhero"
+          },
+          {
+            "slug": "us-en-legal-terms-and-conditions-upscia-html",
+            "selector": ".ups-teaser__transitionhero"
+          }
+        ],
+        "count": 4,
+        "status": "candidate"
+      },
+      {
+        "id": "secondary-promo",
+        "sourceClass": "ups-teaser__secondarypromo",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "ca-en-about-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "ca-en-home-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "ca-en-partners-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "ca-en-shipping-insurance-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "de-de-cargo-insurance-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "de-de-home-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "de-en-about-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "de-en-cargo-insurance-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "de-en-home-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "de-en-partners-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "gb-en-about-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "gb-en-cargo-insurance-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "gb-en-home-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "it-en-about-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "it-en-cargo-insurance-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "it-en-home-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "it-it-about-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "it-it-cargo-insurance-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "it-it-home-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-claims-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-customer-communications-enhanced-declared-value-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-partners-become-a-partner-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-partners-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-promotional-insureshield-benefits-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-promotional-webinars-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-resources-customer-stories-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-resources-insights-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-resources-the-logistics-lowdown-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-shipping-insurance-b2b-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-shipping-insurance-checkout-protection-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-shipping-insurance-get-a-quote-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-shipping-insurance-retail-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-solutions-delivery-defense-learning-center-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-solutions-delivery-orchestration-delivery-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-solutions-delivery-orchestration-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-solutions-delivery-orchestration-pickup-html",
+            "selector": ".ups-teaser__secondarypromo"
+          },
+          {
+            "slug": "us-en-solutions-delivery-orchestration-returns-html",
+            "selector": ".ups-teaser__secondarypromo"
+          }
+        ],
+        "count": 40,
+        "status": "candidate"
+      },
+      {
+        "id": "featured-promo",
+        "sourceClass": "ups-teaser__featuredpromo",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "ca-en-home-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "de-de-home-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "de-en-home-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "gb-en-home-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "it-en-home-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "it-it-home-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "us-en-about-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "us-en-partners-become-a-partner-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "us-en-partners-connect-with-a-partner-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "us-en-promotional-delivery-defense-mockup-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "us-en-resources-customer-stories-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "us-en-resources-insights-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "us-en-resources-whitepapers-and-guides-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "us-en-risk-mitigation-risk-intelligence-smb-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "us-en-solutions-commerceshield-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "us-en-solutions-delivery-defense-html",
+            "selector": ".ups-teaser__featuredpromo"
+          },
+          {
+            "slug": "us-en-solutions-delivery-defense-learning-center-html",
+            "selector": ".ups-teaser__featuredpromo"
+          }
+        ],
+        "count": 20,
+        "status": "candidate"
+      },
+      {
+        "id": "featured-list",
+        "sourceClass": "ups-featured-list",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "ca-en-claims-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "ca-en-home-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "de-de-claims-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "de-de-home-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "de-en-claims-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "de-en-home-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "de-en-partners-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "gb-en-cargo-insurance-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "gb-en-claims-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "gb-en-home-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "it-en-claims-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "it-it-claims-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "us-en-claims-channel-partners-claims-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "us-en-claims-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "us-en-claims-insureshield-ups-claims-support-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "us-en-customer-communications-enhanced-declared-value-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "us-en-partners-become-a-partner-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "us-en-promotional-delivery-defense-mockup-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "us-en-risk-mitigation-risk-intelligence-smb-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "us-en-risk-mitigation-risk-intelligence-smb2-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "us-en-shipping-insurance-select-my-coverage-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "us-en-shipping-insurance-special-commodities-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "us-en-shipping-insurance-ups-shipments-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "us-en-solutions-commerceshield-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "us-en-solutions-delivery-defense-html",
+            "selector": ".ups-featured-list"
+          },
+          {
+            "slug": "us-en-solutions-delivery-orchestration-pickup-html",
+            "selector": ".ups-featured-list"
+          }
+        ],
+        "count": 28,
+        "status": "candidate"
+      },
+      {
+        "id": "story-card-carousel",
+        "sourceClass": "story-card",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "ca-en-about-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "ca-en-home-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "ca-en-resources-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "ca-en-shipping-insurance-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "de-de-cargo-insurance-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "de-de-home-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "de-en-about-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "de-en-cargo-insurance-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "de-en-home-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "de-en-resources-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "gb-en-about-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "gb-en-cargo-insurance-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "gb-en-resources-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "it-en-about-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "it-en-cargo-insurance-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "it-en-home-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "it-en-resources-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "it-it-about-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "it-it-cargo-insurance-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "it-it-home-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "it-it-resources-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "us-en-about-announcements-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "us-en-customer-communications-enhanced-declared-value-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "us-en-partners-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "us-en-resources-customer-stories-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "us-en-resources-insights-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "us-en-resources-the-logistics-lowdown-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "us-en-resources-whitepapers-and-guides-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "us-en-shipping-insurance-b2b-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "us-en-shipping-insurance-select-my-coverage-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "us-en-shipping-insurance-special-commodities-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "us-en-shipping-insurance-ups-shipments-html",
+            "selector": ".story-card"
+          },
+          {
+            "slug": "us-en-solutions-delivery-defense-learning-center-html",
+            "selector": ".story-card"
+          }
+        ],
+        "count": 35,
+        "status": "candidate"
+      },
+      {
+        "id": "accordion",
+        "sourceClass": "ups-accordion",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "ca-en-claims-html",
+            "selector": ".ups-accordion"
+          },
+          {
+            "slug": "de-de-claims-html",
+            "selector": ".ups-accordion"
+          },
+          {
+            "slug": "de-en-claims-html",
+            "selector": ".ups-accordion"
+          },
+          {
+            "slug": "gb-en-cargo-insurance-html",
+            "selector": ".ups-accordion"
+          },
+          {
+            "slug": "gb-en-claims-html",
+            "selector": ".ups-accordion"
+          },
+          {
+            "slug": "it-en-claims-html",
+            "selector": ".ups-accordion"
+          },
+          {
+            "slug": "it-it-claims-html",
+            "selector": ".ups-accordion"
+          },
+          {
+            "slug": "us-en-claims-channel-partners-claims-html",
+            "selector": ".ups-accordion"
+          },
+          {
+            "slug": "us-en-claims-html",
+            "selector": ".ups-accordion"
+          },
+          {
+            "slug": "us-en-resources-help-and-support-html",
+            "selector": ".ups-accordion"
+          },
+          {
+            "slug": "us-en-risk-mitigation-risk-intelligence-smb-html",
+            "selector": ".ups-accordion"
+          },
+          {
+            "slug": "us-en-risk-mitigation-risk-intelligence-smb2-html",
+            "selector": ".ups-accordion"
+          },
+          {
+            "slug": "us-en-shipping-insurance-get-a-quote-html",
+            "selector": ".ups-accordion"
+          },
+          {
+            "slug": "us-en-solutions-commerceshield-html",
+            "selector": ".ups-accordion"
+          },
+          {
+            "slug": "us-en-solutions-delivery-orchestration-delivery-html",
+            "selector": ".ups-accordion"
+          },
+          {
+            "slug": "us-en-solutions-delivery-orchestration-html",
+            "selector": ".ups-accordion"
+          },
+          {
+            "slug": "us-en-solutions-delivery-orchestration-pickup-html",
+            "selector": ".ups-accordion"
+          },
+          {
+            "slug": "us-en-solutions-delivery-orchestration-returns-html",
+            "selector": ".ups-accordion"
+          }
+        ],
+        "count": 18,
+        "status": "candidate"
+      },
+      {
+        "id": "tabs",
+        "sourceClass": "ups-tabs",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "us-en-partners-connect-with-a-partner-html",
+            "selector": ".ups-tabs"
+          },
+          {
+            "slug": "us-en-promotional-delivery-defense-mockup-html",
+            "selector": ".ups-tabs"
+          },
+          {
+            "slug": "us-en-risk-mitigation-risk-intelligence-smb-html",
+            "selector": ".ups-tabs"
+          },
+          {
+            "slug": "us-en-risk-mitigation-risk-intelligence-smb2-html",
+            "selector": ".ups-tabs"
+          },
+          {
+            "slug": "us-en-solutions-commerceshield-html",
+            "selector": ".ups-tabs"
+          },
+          {
+            "slug": "us-en-solutions-delivery-defense-html",
+            "selector": ".ups-tabs"
+          },
+          {
+            "slug": "us-en-solutions-delivery-orchestration-html",
+            "selector": ".ups-tabs"
+          }
+        ],
+        "count": 7,
+        "status": "candidate"
+      },
+      {
+        "id": "text-and-image",
+        "sourceClass": "ups-textandimage",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "us-en-partners-connect-with-a-partner-html",
+            "selector": ".ups-textandimage"
+          },
+          {
+            "slug": "us-en-promotional-delivery-defense-mockup-html",
+            "selector": ".ups-textandimage"
+          },
+          {
+            "slug": "us-en-risk-mitigation-risk-intelligence-smb2-html",
+            "selector": ".ups-textandimage"
+          },
+          {
+            "slug": "us-en-solutions-delivery-defense-html",
+            "selector": ".ups-textandimage"
+          },
+          {
+            "slug": "us-en-solutions-delivery-orchestration-html",
+            "selector": ".ups-textandimage"
+          }
+        ],
+        "count": 5,
+        "status": "candidate"
+      },
+      {
+        "id": "video",
+        "sourceClass": "ups-video-container",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "ca-en-claims-html",
+            "selector": ".ups-video-container"
+          },
+          {
+            "slug": "us-en-claims-insureshield-ups-claims-support-html",
+            "selector": ".ups-video-container"
+          },
+          {
+            "slug": "us-en-promotional-delivery-defense-mockup-html",
+            "selector": ".ups-video-container"
+          },
+          {
+            "slug": "us-en-promotional-insureshield-benefits-html",
+            "selector": ".ups-video-container"
+          },
+          {
+            "slug": "us-en-resources-customer-stories-html",
+            "selector": ".ups-video-container"
+          },
+          {
+            "slug": "us-en-resources-insights-html",
+            "selector": ".ups-video-container"
+          },
+          {
+            "slug": "us-en-resources-the-logistics-lowdown-html",
+            "selector": ".ups-video-container"
+          },
+          {
+            "slug": "us-en-risk-mitigation-risk-intelligence-smb-html",
+            "selector": ".ups-video-container"
+          },
+          {
+            "slug": "us-en-shipping-insurance-checkout-protection-html",
+            "selector": ".ups-video-container"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+            "selector": ".ups-video-container"
+          },
+          {
+            "slug": "us-en-shipping-insurance-retail-html",
+            "selector": ".ups-video-container"
+          },
+          {
+            "slug": "us-en-solutions-commerceshield-html",
+            "selector": ".ups-video-container"
+          },
+          {
+            "slug": "us-en-solutions-delivery-defense-html",
+            "selector": ".ups-video-container"
+          },
+          {
+            "slug": "us-en-solutions-delivery-defense-learning-center-html",
+            "selector": ".ups-video-container"
+          },
+          {
+            "slug": "us-en-solutions-delivery-orchestration-pickup-html",
+            "selector": ".ups-video-container"
+          },
+          {
+            "slug": "us-en-solutions-delivery-orchestration-returns-html",
+            "selector": ".ups-video-container"
+          }
+        ],
+        "count": 16,
+        "status": "candidate"
+      },
+      {
+        "id": "carousel",
+        "sourceClass": "carousel",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "ca-en-home-html",
+            "selector": ".carousel"
+          },
+          {
+            "slug": "de-de-home-html",
+            "selector": ".carousel"
+          },
+          {
+            "slug": "de-en-home-html",
+            "selector": ".carousel"
+          },
+          {
+            "slug": "gb-en-home-html",
+            "selector": ".carousel"
+          },
+          {
+            "slug": "it-en-home-html",
+            "selector": ".carousel"
+          },
+          {
+            "slug": "it-it-home-html",
+            "selector": ".carousel"
+          },
+          {
+            "slug": "us-en-promotional-insureshield-benefits-html",
+            "selector": ".carousel"
+          },
+          {
+            "slug": "us-en-resources-customer-stories-html",
+            "selector": ".carousel"
+          },
+          {
+            "slug": "us-en-resources-insights-html",
+            "selector": ".carousel"
+          },
+          {
+            "slug": "us-en-risk-mitigation-risk-intelligence-smb-html",
+            "selector": ".carousel"
+          },
+          {
+            "slug": "us-en-shipping-insurance-checkout-protection-html",
+            "selector": ".carousel"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+            "selector": ".carousel"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+            "selector": ".carousel"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+            "selector": ".carousel"
+          },
+          {
+            "slug": "us-en-solutions-commerceshield-html",
+            "selector": ".carousel"
+          },
+          {
+            "slug": "us-en-solutions-delivery-defense-learning-center-html",
+            "selector": ".carousel"
+          }
+        ],
+        "count": 16,
+        "status": "candidate"
+      },
+      {
+        "id": "column-control",
+        "sourceClass": "ups-columncontrol",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "us-en-about-html",
+            "selector": ".ups-columncontrol"
+          },
+          {
+            "slug": "us-en-customer-communications-enhanced-declared-value-html",
+            "selector": ".ups-columncontrol"
+          },
+          {
+            "slug": "us-en-partners-3pl-partners-html",
+            "selector": ".ups-columncontrol"
+          },
+          {
+            "slug": "us-en-promotional-webinars-html",
+            "selector": ".ups-columncontrol"
+          },
+          {
+            "slug": "us-en-risk-mitigation-risk-intelligence-smb-html",
+            "selector": ".ups-columncontrol"
+          },
+          {
+            "slug": "us-en-risk-mitigation-risk-intelligence-smb2-html",
+            "selector": ".ups-columncontrol"
+          },
+          {
+            "slug": "us-en-shipping-insurance-b2b-html",
+            "selector": ".ups-columncontrol"
+          },
+          {
+            "slug": "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+            "selector": ".ups-columncontrol"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+            "selector": ".ups-columncontrol"
+          },
+          {
+            "slug": "us-en-shipping-insurance-retail-html",
+            "selector": ".ups-columncontrol"
+          },
+          {
+            "slug": "us-en-shipping-insurance-special-commodities-html",
+            "selector": ".ups-columncontrol"
+          },
+          {
+            "slug": "us-en-solutions-commerceshield-html",
+            "selector": ".ups-columncontrol"
+          }
+        ],
+        "count": 12,
+        "status": "candidate"
+      },
+      {
+        "id": "form",
+        "sourceClass": "aemform",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "us-en-about-contact-us-html",
+            "selector": ".aemform"
+          },
+          {
+            "slug": "us-en-about-html",
+            "selector": ".aemform"
+          },
+          {
+            "slug": "us-en-customer-communications-confirm-contact-information-html",
+            "selector": ".aemform"
+          },
+          {
+            "slug": "us-en-customer-communications-enhanced-declared-value-html",
+            "selector": ".aemform"
+          },
+          {
+            "slug": "us-en-customer-communications-updated-contact-information-html",
+            "selector": ".aemform"
+          },
+          {
+            "slug": "us-en-partners-3pl-partners-html",
+            "selector": ".aemform"
+          },
+          {
+            "slug": "us-en-partners-become-a-partner-html",
+            "selector": ".aemform"
+          },
+          {
+            "slug": "us-en-promotional-insureshield-benefits-html",
+            "selector": ".aemform"
+          },
+          {
+            "slug": "us-en-promotional-prod-form-test-html",
+            "selector": ".aemform"
+          },
+          {
+            "slug": "us-en-resources-help-and-support-html",
+            "selector": ".aemform"
+          },
+          {
+            "slug": "us-en-risk-mitigation-risk-intelligence-smb-html",
+            "selector": ".aemform"
+          },
+          {
+            "slug": "us-en-shipping-insurance-multi-carrier-shipments-html",
+            "selector": ".aemform"
+          },
+          {
+            "slug": "us-en-shipping-insurance-select-my-coverage-html",
+            "selector": ".aemform"
+          },
+          {
+            "slug": "us-en-solutions-commerceshield-html",
+            "selector": ".aemform"
+          }
+        ],
+        "count": 14,
+        "status": "candidate"
+      },
+      {
+        "id": "embed",
+        "sourceClass": "embed",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".embed"
+          },
+          {
+            "slug": "us-en-partners-3pl-partners-html",
+            "selector": ".embed"
+          },
+          {
+            "slug": "us-en-resources-customer-stories-html",
+            "selector": ".embed"
+          },
+          {
+            "slug": "us-en-securecommerce-html",
+            "selector": ".embed"
+          }
+        ],
+        "count": 4,
+        "status": "candidate"
+      },
+      {
+        "id": "table",
+        "sourceClass": "table",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "us-en-shipping-insurance-select-my-coverage-html",
+            "selector": ".table"
+          },
+          {
+            "slug": "us-en-solutions-delivery-defense-learning-center-html",
+            "selector": ".table"
+          }
+        ],
+        "count": 2,
+        "status": "candidate"
+      },
+      {
+        "id": "search",
+        "sourceClass": "search",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "ca-en-resources-html",
+            "selector": ".search"
+          },
+          {
+            "slug": "de-en-resources-html",
+            "selector": ".search"
+          },
+          {
+            "slug": "gb-en-resources-html",
+            "selector": ".search"
+          },
+          {
+            "slug": "it-en-resources-html",
+            "selector": ".search"
+          },
+          {
+            "slug": "it-it-resources-html",
+            "selector": ".search"
+          }
+        ],
+        "count": 5,
+        "status": "candidate"
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1286px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1280,
+          "via": "max-width",
+          "selector": "div.aem-Grid.aem-Grid--12 > div.alerts.aem-GridColumn > div.upser-alerts > div.container",
+          "pages": [
+            "https://www.insureshield.com/us/en/securecommerce.html",
+            "https://www.insureshield.com/de/en/home.html",
+            "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+            "https://www.insureshield.com/gb/en/resources.html",
+            "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html",
+            "https://www.insureshield.com/us/en/about/contact-us.html",
+            "https://www.insureshield.com/us/en/customer-communications.html",
+            "https://www.insureshield.com/us/en/global.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1248,
+          "via": "max-width",
+          "selector": "#hero-section > section.m-hero-RZrYvQ > div.m-inner-1mxtwS",
+          "pages": [
+            "https://www.insureshield.com/us/en/shipping-insurance.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1189,
+          "via": "fixed",
+          "selector": "div.text.container > div.cmp-text > p > span.small",
+          "pages": [
+            "https://www.insureshield.com/de/en/home.html",
+            "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 936,
+          "via": "fixed",
+          "selector": "#ups-langSelect > div.row > div.col-md-9",
+          "pages": [
+            "https://www.insureshield.com/us/en/global.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 757,
+          "via": "fixed",
+          "selector": "#faq > div > div.m-faq-ON5fp8 > div.m-list-1i41Cu",
+          "pages": [
+            "https://www.insureshield.com/us/en/shipping-insurance.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 704,
+          "via": "max-width",
+          "selector": "div.m-disclosure-WME8SS.m-item-EAtlyu > div.m-panel-heR-bQ > div.m-panelInner-cdDnyK > div.m-answer-SrlVkw",
+          "pages": [
+            "https://www.insureshield.com/us/en/shipping-insurance.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 663,
+          "via": "fixed",
+          "selector": "#benefits > div > div",
+          "pages": [
+            "https://www.insureshield.com/us/en/shipping-insurance.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 642,
+          "via": "fixed",
+          "selector": "div.aem-Grid.aem-Grid--12 > div.title.container > div.cmp-title > h3.cmp-title__text",
+          "pages": [
+            "https://www.insureshield.com/us/en/securecommerce.html",
+            "https://www.insureshield.com/de/en/home.html",
+            "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+            "https://www.insureshield.com/gb/en/resources.html",
+            "https://www.insureshield.com/us/en/about/contact-us.html",
+            "https://www.insureshield.com/us/en/shipping-insurance.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 617,
+          "via": "fixed",
+          "selector": "div.aem-Grid.aem-Grid--12 > div.title.container > div.cmp-title > h3.cmp-title__text",
+          "pages": [
+            "https://www.insureshield.com/us/en/securecommerce.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 592,
+          "via": "fixed",
+          "selector": "#integrations > div > div.m-grid-K14g0T > div.m-intro-DO5l6J",
+          "pages": [
+            "https://www.insureshield.com/us/en/shipping-insurance.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 567,
+          "via": "fixed",
+          "selector": "div.aem-Grid.aem-Grid--12 > div.title.container > div.cmp-title > h2.cmp-title__text",
+          "pages": [
+            "https://www.insureshield.com/de/en/home.html",
+            "https://www.insureshield.com/us/en/shipping-insurance.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 545,
+          "via": "max-width",
+          "selector": "div.aem-Grid.aem-Grid--12 > div.homepagehero.homepagehero-personalization > div.container.cmp-teaser > div.cmp-teaser__content",
+          "pages": [
+            "https://www.insureshield.com/us/en/securecommerce.html",
+            "https://www.insureshield.com/de/en/home.html",
+            "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+            "https://www.insureshield.com/us/en/shipping-insurance.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 496,
+          "via": "fixed",
+          "selector": "div.col-md-12.col-lg > ul.row.feature-lists > li.col-md-6.col-lg-4 > div.feature-lists__item__content",
+          "pages": [
+            "https://www.insureshield.com/de/en/home.html",
+            "https://www.insureshield.com/us/en/shipping-insurance.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 467,
+          "via": "fixed",
+          "selector": "div.aem-Grid.aem-Grid--12 > div.title.container > div.cmp-title > h2.cmp-title__text",
+          "pages": [
+            "https://www.insureshield.com/us/en/about/contact-us.html",
+            "https://www.insureshield.com/us/en/shipping-insurance.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 440,
+          "via": "fixed",
+          "selector": "div > ul.m-list-5bXEj9 > li.m-item-aAfW4q > span.m-text-2egIj6",
+          "pages": [
+            "https://www.insureshield.com/us/en/shipping-insurance.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 416,
+          "via": "fixed",
+          "selector": "div.pathways.container > div.pathways__container > div.pathways__list.row > div.pathways__list__item.col-md-6",
+          "pages": [
+            "https://www.insureshield.com/us/en/securecommerce.html",
+            "https://www.insureshield.com/de/en/home.html",
+            "https://www.insureshield.com/us/en/about/contact-us.html",
+            "https://www.insureshield.com/us/en/shipping-insurance.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 395,
+          "via": "fixed",
+          "selector": "div.aem-Grid.aem-Grid--12 > div.title.container > div.cmp-title > h2.cmp-title__text",
+          "pages": [
+            "https://www.insureshield.com/us/en/about/contact-us.html",
+            "https://www.insureshield.com/us/en/shipping-insurance.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 365,
+          "via": "fixed",
+          "selector": "div.aem-Grid.aem-Grid--12 > div.title.container > div.cmp-title > h2.cmp-title__text",
+          "pages": [
+            "https://www.insureshield.com/de/en/home.html",
+            "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+            "https://www.insureshield.com/gb/en/resources.html",
+            "https://www.insureshield.com/us/en/shipping-insurance.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 328,
+          "via": "fixed",
+          "selector": "div.homepagehero.homepagehero-personalization > div.container.cmp-teaser > div.cmp-teaser__content > div.cmp-teaser__title",
+          "pages": [
+            "https://www.insureshield.com/us/en/securecommerce.html",
+            "https://www.insureshield.com/de/en/home.html",
+            "https://www.insureshield.com/gb/en/resources.html",
+            "https://www.insureshield.com/us/en/shipping-insurance.html",
+            "https://www.insureshield.com/us/en/global.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 303,
+          "via": "fixed",
+          "selector": "#pathways- > div.description > div.description__link > a",
+          "pages": [
+            "https://www.insureshield.com/us/en/securecommerce.html",
+            "https://www.insureshield.com/de/en/home.html",
+            "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+            "https://www.insureshield.com/gb/en/resources.html",
+            "https://www.insureshield.com/us/en/shipping-insurance.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 263,
+          "via": "fixed",
+          "selector": "#pathways- > div.description > div.description__link > a",
+          "pages": [
+            "https://www.insureshield.com/us/en/securecommerce.html",
+            "https://www.insureshield.com/de/en/home.html",
+            "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+            "https://www.insureshield.com/gb/en/resources.html",
+            "https://www.insureshield.com/us/en/shipping-insurance.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 242,
+          "via": "fixed",
+          "selector": "thead.m-head-2CHl1M > tr.m-headRow-cnsd-6 > th.m-headCell-uu98Yb > span",
+          "pages": [
+            "https://www.insureshield.com/us/en/shipping-insurance.html"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.insureshield.com/us/en/securecommerce.html",
+          "section": 0,
+          "selector": "div.root.container > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.alerts.aem-GridColumn",
+          "px": 1280
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/securecommerce.html",
+          "section": 1,
+          "selector": "div.root.container > div.cmp-container > div.aem-Grid.aem-Grid--12 > header.experiencefragment.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/securecommerce.html",
+          "section": 2,
+          "selector": "div.root.container > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1286
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/securecommerce.html",
+          "section": 3,
+          "selector": "div.root.container > div.cmp-container > div.aem-Grid.aem-Grid--12 > footer.experiencefragment.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.insureshield.com/de/en/home.html",
+          "section": 0,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > header.experiencefragment.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.insureshield.com/de/en/home.html",
+          "section": 1,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1280
+        },
+        {
+          "url": "https://www.insureshield.com/de/en/home.html",
+          "section": 2,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > footer.experiencefragment.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+          "section": 0,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1280
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+          "section": 1,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > header.experiencefragment.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+          "section": 2,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.breadcrumb.aem-GridColumn",
+          "px": 1280
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+          "section": 3,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1280
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+          "section": 4,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > footer.experiencefragment.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.insureshield.com/gb/en/resources.html",
+          "section": 0,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > header.experiencefragment.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.insureshield.com/gb/en/resources.html",
+          "section": 1,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.breadcrumb.aem-GridColumn",
+          "px": 1280
+        },
+        {
+          "url": "https://www.insureshield.com/gb/en/resources.html",
+          "section": 2,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1280
+        },
+        {
+          "url": "https://www.insureshield.com/gb/en/resources.html",
+          "section": 3,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > footer.experiencefragment.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html",
+          "section": 0,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1280
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html",
+          "section": 1,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > header.experiencefragment.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html",
+          "section": 2,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.breadcrumb.aem-GridColumn",
+          "px": 1280
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html",
+          "section": 3,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1280
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html",
+          "section": 4,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > footer.experiencefragment.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/about/contact-us.html",
+          "section": 0,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1280
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/about/contact-us.html",
+          "section": 1,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > header.experiencefragment.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/about/contact-us.html",
+          "section": 2,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.breadcrumb.aem-GridColumn",
+          "px": 1280
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/about/contact-us.html",
+          "section": 3,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1280
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/about/contact-us.html",
+          "section": 4,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > footer.experiencefragment.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/customer-communications.html",
+          "section": 0,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1280
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/customer-communications.html",
+          "section": 1,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > header.experiencefragment.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/customer-communications.html",
+          "section": 2,
+          "selector": "#container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > footer.experiencefragment.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+          "section": 0,
+          "selector": "#hero-section",
+          "px": 1248
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+          "section": 1,
+          "selector": "#difference",
+          "px": 1248
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+          "section": 2,
+          "selector": "#standout",
+          "px": 1248
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+          "section": 3,
+          "selector": "#benefits",
+          "px": 1248
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+          "section": 4,
+          "selector": "#main > div.m-patternBand-ymYEmd",
+          "px": 1248
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+          "section": 5,
+          "selector": "#faq",
+          "px": 1248
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/global.html",
+          "section": 0,
+          "selector": "div.root.container > div.cmp-container > div.aem-Grid.aem-Grid--12 > header.experiencefragment.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/global.html",
+          "section": 1,
+          "selector": "div.root.container > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1280
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/global.html",
+          "section": 2,
+          "selector": "div.root.container > div.cmp-container > div.aem-Grid.aem-Grid--12 > footer.experiencefragment.aem-GridColumn",
+          "px": null
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: 1286 (https://www.insureshield.com/us/en/securecommerce.html), 1280 (https://www.insureshield.com/de/en/home.html), 1280 (https://www.insureshield.com/us/en/shipping-insurance/b2b.html), 1280 (https://www.insureshield.com/gb/en/resources.html), 1280 (https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html), 1280 (https://www.insureshield.com/us/en/about/contact-us.html), 1280 (https://www.insureshield.com/us/en/customer-communications.html), 1248 (https://www.insureshield.com/us/en/shipping-insurance.html), 1280 (https://www.insureshield.com/us/en/global.html) — decide per template in the inconsistency register"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-17T20:55:02.573Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.insureshield.com/us/en/securecommerce.html",
+          "https://www.insureshield.com/de/en/home.html",
+          "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+          "https://www.insureshield.com/gb/en/resources.html",
+          "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html",
+          "https://www.insureshield.com/us/en/about/contact-us.html",
+          "https://www.insureshield.com/us/en/customer-communications.html",
+          "https://www.insureshield.com/us/en/shipping-insurance.html",
+          "https://www.insureshield.com/us/en/global.html"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+[live-session] waiting to pace live navigations to www.insureshield.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 952 ms
+
+Content diff @ 360px (profile "generic", roots: #container-ec87763e92, header, footer)
+root "#container-ec87763e92"
+  source: 75 text nodes — 8 headings, 12 eyebrows, 3 CTAs, 52 body; 13 img
+  build: 65 text nodes — 7 headings, 12 eyebrows, 3 CTAs, 43 body; 13 img
+  editable texts (outermost h*/p/ul/ol): source 51 / build 46
+  attributes (placeholder/aria-label/title): source 28 / build 31; icons: source 22 / build 16
+root "header"
+  source: 29 text nodes — 0 headings, 1 eyebrows, 15 CTAs, 13 body; 1 img
+  build: 23 text nodes — 0 headings, 1 eyebrows, 15 CTAs, 7 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 10 / build 10; icons: source 11 / build 8
+root "footer"
+  source: 25 text nodes — 1 headings, 0 eyebrows, 20 CTAs, 4 body; 5 img
+  build: 25 text nodes — 1 headings, 0 eyebrows, 20 CTAs, 4 body; 5 img
+  editable texts (outermost h*/p/ul/ol): source 8 / build 8
+  attributes (placeholder/aria-label/title): source 2 / build 3; icons: source 16 / build 16
+
+Findings: 39 (12 structural 🔴)
+Tiers: looks-same 🔴 12 · nothing-lost 🟡 5 · accepted 🟢 0 (owner 0, auto 0) · advisory 22
+  🔴 MISSING HEADING [#container-ec87763e92]: source heading "Oops, no results found for " "" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING ICON [#container-ec87763e92]: source icon-font glyph close (upspricons, 0×0) at "button#1" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#container-ec87763e92]: source icon-font glyph chevron_left (upspricons, 0×0) at "button#2" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#container-ec87763e92]: source icon-font glyph chevron_right (upspricons, 0×0) at "button#3" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph chevron_left (upspricons, 0×0) at "previous" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph chevron_right (upspricons, 0×0) at "next" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph close (upspricons, 0×0) at "close" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 ICON DIFF [footer]: source image (no src) (16×64) vs build image social-facebook (16×16) at "facebook". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [footer]: source image (no src) (16×64) vs build image social-instagram (16×16) at "instagram". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [footer]: source image (no src) (16×64) vs build image social-twitter (16×16) at "@upscapital". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [footer]: source image (no src) (16×64) vs build image social-linkedin (16×16) at "linkedin". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [footer]: source image (no src) (16×64) vs build image social-youtube (16×16) at "youtube". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 MISSING BODY [#container-ec87763e92]: source body "Filter By"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#container-ec87763e92]: source body "displaying of for " ""… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#container-ec87763e92]: source body "Sort By"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#container-ec87763e92]: source body "Most Recent"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#container-ec87763e92]: source body "Oldest"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#container-ec87763e92]: source body "of"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#container-ec87763e92]: source body "Filter By"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#container-ec87763e92]: source body "Apply"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#container-ec87763e92]: source body "Sorry we couldn't find what you're looking for."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EDITABLE COUNT [#container-ec87763e92]: build has 46 outermost editable element(s) vs 51 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 MISSING ARIA-LABEL [#container-ec87763e92]: source <div> aria-label="Search suggestions" has no build <div> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [#container-ec87763e92]: build <button> aria-label="Previous" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#container-ec87763e92]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#container-ec87763e92]: build <button> aria-label="Previous" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#container-ec87763e92]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 MISSING ICON [#container-ec87763e92]: source icon-font glyph filter_alt (upspricons, 0×0) at "filter by" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#container-ec87763e92]: source icon-font glyph expand_more (upspricons, 0×0) at "most recent oldest" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#container-ec87763e92]: source icon-font glyph close (upspricons, 0×0) at "filter by" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING BODY [header]: source body "of"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING SR-ONLY TEXT [header]: source body "Previous" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 MISSING BODY [header]: source body "1"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "2"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING SR-ONLY TEXT [header]: source body "Next" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 MISSING SR-ONLY TEXT [header]: source body "close" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 MISSING ARIA-LABEL [header]: source <div> aria-label="Time Sensitive Information from UPS" has no build <div> with that aria-label (build <div> aria-labels: "Search suggestions", "Recent search results"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <nav> aria-label="Legal" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

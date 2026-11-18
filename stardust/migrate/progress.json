@@ -1,0 +1,311 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "program",
+        "home",
+        "listing",
+        "legal",
+        "locale-home",
+        "form",
+        "shell",
+        "region-selector",
+        "shipping-hub"
+      ],
+      "pages": 9,
+      "startedAt": "2026-11-17T22:32:47Z",
+      "endedAt": "2026-11-17T22:34:33.553Z",
+      "verdict": "archetypes rendered 9 (branch A), refused 0; modules recorded (stardust/migrate/module-map.md); sibling render clusters planned below, each runs after its template archetype unit is done in C-deliver"
+    },
+    "program-1": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "pages": 8,
+      "slugs": [
+        "ca-en-about-html",
+        "ca-en-claims-html",
+        "ca-en-partners-html",
+        "ca-en-shipping-insurance-html",
+        "de-de-cargo-insurance-html",
+        "de-de-claims-html",
+        "de-en-about-html",
+        "de-en-cargo-insurance-html"
+      ],
+      "startedAt": "2026-11-18T00:13:23.711Z",
+      "endedAt": "2026-11-18T01:04:21.222Z",
+      "verdict": "render program-1: 8/8 rendered, refused 0"
+    },
+    "program-2": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "pages": 8,
+      "slugs": [
+        "de-en-claims-html",
+        "de-en-partners-html",
+        "gb-en-about-html",
+        "gb-en-cargo-insurance-html",
+        "gb-en-claims-html",
+        "it-en-about-html",
+        "it-en-cargo-insurance-html",
+        "it-en-claims-html"
+      ],
+      "startedAt": "2026-11-18T00:13:23.756Z",
+      "endedAt": "2026-11-18T01:04:21.332Z",
+      "verdict": "render program-2: 8/8 rendered, refused 0"
+    },
+    "program-3": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "pages": 8,
+      "slugs": [
+        "it-it-about-html",
+        "it-it-cargo-insurance-html",
+        "it-it-claims-html",
+        "us-en-about-html",
+        "us-en-claims-channel-partners-claims-html",
+        "us-en-claims-html",
+        "us-en-claims-insureshield-ups-claims-support-html",
+        "us-en-customer-communications-enhanced-declared-value-html"
+      ],
+      "startedAt": "2026-11-18T00:13:23.800Z",
+      "endedAt": "2026-11-18T01:04:21.492Z",
+      "verdict": "render program-3: 8/8 rendered, refused 0"
+    },
+    "program-4": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "pages": 8,
+      "slugs": [
+        "us-en-partners-3pl-partners-html",
+        "us-en-partners-become-a-partner-html",
+        "us-en-partners-connect-with-a-partner-html",
+        "us-en-partners-html",
+        "us-en-promotional-delivery-defense-mockup-html",
+        "us-en-promotional-insureshield-benefits-html",
+        "us-en-promotional-webinars-html",
+        "us-en-resources-customer-stories-html"
+      ],
+      "startedAt": "2026-11-18T00:13:23.842Z",
+      "endedAt": "2026-11-18T01:04:21.581Z",
+      "verdict": "render program-4: 8/8 rendered, refused 0"
+    },
+    "program-5": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "pages": 8,
+      "slugs": [
+        "us-en-resources-insights-html",
+        "us-en-resources-the-logistics-lowdown-html",
+        "us-en-risk-mitigation-risk-intelligence-smb-html",
+        "us-en-risk-mitigation-risk-intelligence-smb2-html",
+        "us-en-shipping-insurance-checkout-protection-html",
+        "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+        "us-en-shipping-insurance-get-a-quote-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-html"
+      ],
+      "startedAt": "2026-11-18T00:13:23.881Z",
+      "endedAt": "2026-11-18T01:04:21.668Z",
+      "verdict": "render program-5: 8/8 rendered, refused 0"
+    },
+    "program-6": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "pages": 8,
+      "slugs": [
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+        "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+        "us-en-shipping-insurance-retail-html",
+        "us-en-shipping-insurance-select-my-coverage-html",
+        "us-en-shipping-insurance-special-commodities-html",
+        "us-en-shipping-insurance-ups-shipments-html",
+        "us-en-solutions-commerceshield-html"
+      ],
+      "startedAt": "2026-11-18T00:13:23.917Z",
+      "endedAt": "2026-11-18T01:04:21.761Z",
+      "verdict": "render program-6: 8/8 rendered, refused 0"
+    },
+    "program-7": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "pages": 6,
+      "slugs": [
+        "us-en-solutions-delivery-defense-html",
+        "us-en-solutions-delivery-defense-learning-center-html",
+        "us-en-solutions-delivery-orchestration-delivery-html",
+        "us-en-solutions-delivery-orchestration-html",
+        "us-en-solutions-delivery-orchestration-pickup-html",
+        "us-en-solutions-delivery-orchestration-returns-html"
+      ],
+      "startedAt": "2026-11-18T00:13:23.958Z",
+      "endedAt": "2026-11-18T01:04:21.865Z",
+      "verdict": "render program-7: 6/6 rendered, refused 0"
+    },
+    "locale-home": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "locale-home"
+      ],
+      "pages": 5,
+      "slugs": [
+        "ca-en-home-html",
+        "de-de-home-html",
+        "gb-en-home-html",
+        "it-en-home-html",
+        "it-it-home-html"
+      ],
+      "startedAt": "2026-11-18T00:18:27.661Z",
+      "endedAt": "2026-11-18T01:04:21.921Z",
+      "verdict": "render locale-home: 5/5 rendered, refused 0"
+    },
+    "listing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "listing"
+      ],
+      "pages": 6,
+      "slugs": [
+        "ca-en-resources-html",
+        "de-en-resources-html",
+        "it-en-resources-html",
+        "it-it-resources-html",
+        "us-en-about-announcements-html",
+        "us-en-resources-whitepapers-and-guides-html"
+      ],
+      "startedAt": "2026-11-18T01:28:05.321Z",
+      "endedAt": "2026-11-18T02:24:53.966Z",
+      "verdict": "render listing: 6/6 rendered, refused 0"
+    },
+    "shell-1": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "shell"
+      ],
+      "pages": 5,
+      "slugs": [
+        "de-en-alerts-html",
+        "gb-en-alerts-html",
+        "gb-en-other-ups-sites-html",
+        "it-en-alerts-html",
+        "it-it-alerts-html"
+      ],
+      "startedAt": "2026-11-18T03:29:05.728Z",
+      "endedAt": "2026-11-18T04:17:39.564Z",
+      "verdict": "render shell-1: 5/5 rendered, refused 0"
+    },
+    "shell-2": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "shell"
+      ],
+      "pages": 5,
+      "slugs": [
+        "us-en-legal-cookie-settings-html",
+        "us-en-page-deletion-html",
+        "us-en-resources-webinars-html",
+        "us-en-test-deletion-html",
+        "us-en-test-deletion1-html"
+      ],
+      "endedAt": "2026-11-18T04:17:39.630Z",
+      "startedAt": "2026-11-18T04:17:39.630Z",
+      "verdict": "render shell-2: 5/5 rendered, refused 0"
+    },
+    "legal": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "legal"
+      ],
+      "pages": 6,
+      "slugs": [
+        "us-en-about-our-locations-html",
+        "us-en-legal-product-disclosure-html",
+        "us-en-legal-technology-agreement-html",
+        "us-en-legal-terms-and-conditions-gallagher-affinity-html",
+        "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-html",
+        "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-users-html"
+      ],
+      "startedAt": "2026-11-18T01:47:31.659Z",
+      "endedAt": "2026-11-18T03:01:27.794Z",
+      "verdict": "render legal: 6/6 rendered, refused 0"
+    },
+    "form": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "form"
+      ],
+      "pages": 4,
+      "slugs": [
+        "us-en-customer-communications-confirm-contact-information-html",
+        "us-en-customer-communications-updated-contact-information-html",
+        "us-en-promotional-prod-form-test-html",
+        "us-en-resources-help-and-support-html"
+      ],
+      "startedAt": "2026-11-18T03:25:32.905Z",
+      "endedAt": "2026-11-18T03:56:57.815Z",
+      "verdict": "render form: 4/4 rendered, refused 0"
+    },
+    "home": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "home"
+      ],
+      "pages": 1,
+      "slugs": [
+        "us-en-securecommerce-html"
+      ],
+      "startedAt": "2026-11-18T01:04:57.189Z",
+      "endedAt": "2026-11-18T01:27:51.624Z",
+      "verdict": "render home: 1/1 rendered, refused 0"
+    },
+    "shipping-hub": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "shipping-hub"
+      ],
+      "pages": 1,
+      "slugs": [
+        "us-en-solutions-insureshield-shipping-insurance-html"
+      ],
+      "startedAt": "2026-11-18T00:32:55.299Z",
+      "endedAt": "2026-11-18T00:37:08.007Z",
+      "verdict": "render shipping-hub: 1/1 rendered, refused 0 (redirect duplicate of archetype)"
+    },
+    "report": {
+      "status": "pending",
+      "kind": "report",
+      "templates": [],
+      "pages": 0
+    }
+  }
+}

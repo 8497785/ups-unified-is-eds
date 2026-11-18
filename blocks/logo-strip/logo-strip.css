@@ -1,0 +1,55 @@
+/* logo-strip — lifted from the index prototype (.logos__strip / .logos__row / .logos__img) */
+main > .section > .logo-strip-wrapper {
+  max-width: 1286px;
+  padding: 0;
+}
+
+.logo-strip {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.logo-strip-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  place-items: center center;
+  width: 100%;
+  max-width: 326px;
+  margin: 0 auto;
+}
+
+.logo-strip-item :is(picture, a) {
+  display: block;
+}
+
+.logo-strip-item img {
+  display: block;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 90px;
+  height: 45px;
+  padding: 9px 11.949px 9px 12.375px;
+  object-fit: contain;
+}
+
+@media (width >= 768px) {
+  .logo-strip-row {
+    max-width: none;
+  }
+
+  .logo-strip-item img {
+    width: 160px;
+    height: 80px;
+    padding: 16px 21px 16px 22px;
+  }
+}
+
+@media (width >= 992px) {
+  .logo-strip-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0;
+  }
+}

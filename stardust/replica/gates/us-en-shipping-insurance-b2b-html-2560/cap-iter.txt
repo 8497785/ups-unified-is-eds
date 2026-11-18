@@ -1,0 +1,19 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.insureshield.com/us/en/shipping-insurance/b2b.html
+  modules  9 sections: capped 1280 ×8 · full-bleed ×1
+  contentMaxWidth 1280px (module) · shellMaxWidth fluid · root #container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid > div.cmp-container
+build  http://localhost:8791/us-en-shipping-insurance-b2b-html-proposed.html
+  modules  9 sections: capped 1280 ×8 · full-bleed ×1
+  contentMaxWidth 1280px (module) · shellMaxWidth fluid · root body > main.page-main
+rows
+  ✓ content cap: live 1280px = build 1280px (±20, shared module cap)
+  ✓ module 1/9: 1280px = 1280px
+  ✓ module 2/9: 1280px = 1280px
+  ✓ module 3/9: 1280px = 1280px
+  ✓ module 4/9: 1280px = 1280px
+  ✓ module 5/9: 1280px = 1280px
+  ✓ module 6/9: 1280px = 1280px
+  ✓ module 7/9: 1280px = 1280px
+  ✓ module 8/9: 1280px = 1280px
+  ✓ module 9/9: full-bleed on both
+cap-probe: PASS at 2560 — 0 of 10 rows failed (evidence stardust/replica/gates/us-en-shipping-insurance-b2b-html-2560/cap-iter.json)

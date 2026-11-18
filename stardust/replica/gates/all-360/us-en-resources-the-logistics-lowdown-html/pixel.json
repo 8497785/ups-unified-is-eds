@@ -1,0 +1,118 @@
+{
+  "a": "stardust/replica/gates/all-360/us-en-resources-the-logistics-lowdown-html/origin.png",
+  "b": "stardust/replica/gates/all-360/us-en-resources-the-logistics-lowdown-html/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 6291,
+    "mode": "overlap"
+  },
+  "heightDelta": 2,
+  "differingPixels": 89222,
+  "pct": 4.41,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/us-en-resources-the-logistics-lowdown-html/diff.png",
+  "masks": [
+    {
+      "yA": 975,
+      "h": 167,
+      "yB": 975
+    },
+    {
+      "yA": 1545,
+      "h": 167,
+      "yB": 1545
+    },
+    {
+      "yA": 2292,
+      "h": 167,
+      "yB": 2291
+    },
+    {
+      "yA": 2750,
+      "h": 167,
+      "yB": 2749
+    }
+  ],
+  "maskedRows": 670,
+  "textPct": 14.7,
+  "textBoxes": 143,
+  "textPixels": 506708,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 2.5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 2.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 5.6
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 6
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 5.2
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 4.3
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 6.7
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 11.4
+    },
+    {
+      "y0": 6000,
+      "y1": 6291,
+      "pct": 4.7
+    }
+  ],
+  "maskReason": "capture state: the four Scene7 video players (hero teaser + 3 video-gallery cards, s7videoviewer, 296x167 at 360) paint their pre-load placeholder (teal backdrop + play button) in the source stitch, while the build shows each video's own Scene7 poster (the source poster attribute, e.g. Trust at Checkout…-AVS); boxes at source y975/1545/2292/2750 h167, build y975/1545/2291/2749. Inside the boxes 77.7 % of pixels differ, outside 6.8 % (diff.png count); gate 11.71 % unmasked → 4.41 % with these masks (fix-vid 2026-11-18).",
+  "capturesDropped": {
+    "masks": [
+      "975:167@975",
+      "1545:167@1545",
+      "2292:167@2291",
+      "2750:167@2749"
+    ],
+    "edsUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/resources/the-logistics-lowdown"
+  }
+}

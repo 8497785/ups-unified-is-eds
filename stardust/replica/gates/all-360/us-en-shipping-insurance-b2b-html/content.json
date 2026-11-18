@@ -1,0 +1,3083 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-18T13:07:50.109Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+  "at": "2026-11-18T13:07:29.954Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5520,
+  "root": null,
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "span.upser-alert__msg.slick-slide > div.upser-alert__wrapper > p.upser-alert__title",
+    "x": 32,
+    "y": 37,
+    "w": 296,
+    "h": 42,
+    "text": "Introducing a fresh take on protection for your shipments"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "span.upser-alert__msg.slick-slide > div.upser-alert__wrapper > a.upser-alert__more",
+    "x": 32,
+    "y": 84,
+    "w": 138,
+    "h": 21,
+    "text": "get started in minutes",
+    "href": "/en/sign-up"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.container > div.upser-alerts__container > button.upser-alerts__close",
+    "x": 292,
+    "y": 6,
+    "w": 36,
+    "h": 26,
+    "text": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.image > div#image-d17206185b > a.cmp-image__link",
+    "x": 32,
+    "y": 138,
+    "w": 149,
+    "h": 55,
+    "text": "insureshield",
+    "href": "/us/en/securecommerce.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "a.cmp-image__link > picture > img.cmp-image__image",
+    "x": 32,
+    "y": 138,
+    "w": 149,
+    "h": 56,
+    "text": "insureshield",
+    "file": "InsureShield_horizontal_UPSC"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.profile > div.hamburger > button.navbar-toggler.collapsed",
+    "x": 238,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "text": "toggle navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.profile > div.hamburger > button.navbar-toggler.collapsed",
+    "x": 238,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "label": "toggle navigation menu",
+    "value": "toggle navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.cmp-search > div#upser-header-search > button.header-search-btn",
+    "x": 284,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "text": "search toggle"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.cmp-search > div#upser-header-search > button.header-search-btn",
+    "x": 284,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "label": "search toggle",
+    "value": "search toggle",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ol.cmp-breadcrumb__list > li.cmp-breadcrumb__item > a.cmp-breadcrumb__item-link",
+    "x": 32,
+    "y": 231,
+    "w": 119,
+    "h": 21,
+    "text": "shipping insurance",
+    "href": "/us/en/shipping-insurance.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#image-4bd646e161 > picture > img.cmp-image__image",
+    "x": 32,
+    "y": 668,
+    "w": 296,
+    "h": 167,
+    "text": "semi-truck driving down an empty country road",
+    "file": "GettyImages-516156807-1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__title > h1",
+    "x": 32,
+    "y": 292,
+    "w": 296,
+    "h": 120,
+    "level": 1,
+    "text": "your supply chain is only as strong as your last shipment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__description > p",
+    "x": 32,
+    "y": 444,
+    "w": 296,
+    "h": 72,
+    "text": "73% of merchants absorb losses from shipping issues, often due to disputes or la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__action-container > a#teaser-4bd646e161-cta-2e96d414b6",
+    "x": 32,
+    "y": 540,
+    "w": 296,
+    "h": 44,
+    "text": "get a quote",
+    "href": "/us/en/shipping-insurance/get-a-quote.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__action-container > a#teaser-4bd646e161-cta-5d53171aaa",
+    "x": 32,
+    "y": 600,
+    "w": 296,
+    "h": 44,
+    "text": "learn how it works",
+    "href": "/us/en/shipping-insurance.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__title > h2",
+    "x": 32,
+    "y": 931,
+    "w": 296,
+    "h": 72,
+    "level": 2,
+    "text": "the cost of one failed shipment"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#image-882ee4695a > picture > img.cmp-image__image",
+    "x": 32,
+    "y": 1038,
+    "w": 296,
+    "h": 167,
+    "text": "male checking a box and holding a tablet in a warehouse",
+    "file": "shutterstock_1023035515_digital_02062023"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__description > p",
+    "x": 32,
+    "y": 1229,
+    "w": 296,
+    "h": 144,
+    "text": "Lost, damaged, or delayed shipments can directly impact your revenue, reputation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__description > ul > li",
+    "x": 64,
+    "y": 1385,
+    "w": 264,
+    "h": 48,
+    "text": "Missed delivery windows can jeopardize contracts."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__description > ul > li",
+    "x": 64,
+    "y": 1433,
+    "w": 264,
+    "h": 48,
+    "text": "Damaged goods can stall production lines."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__description > ul > li",
+    "x": 64,
+    "y": 1481,
+    "w": 264,
+    "h": 24,
+    "text": "Delays can erode customer trust."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__description > p",
+    "x": 32,
+    "y": 1517,
+    "w": 296,
+    "h": 96,
+    "text": "And with now holding merchants more accountable than carriers, the pressure is o"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__title > h2",
+    "x": 32,
+    "y": 1709,
+    "w": 296,
+    "h": 107,
+    "level": 2,
+    "text": "how insureshield® protection works for your business"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#image-59ae141b02 > picture > img.cmp-image__image",
+    "x": 32,
+    "y": 1852,
+    "w": 296,
+    "h": 167,
+    "text": "female sitting on a stool and is preparing an order surround",
+    "file": "shutterstock_1476944906_Digital_12202022"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__description > ol > li",
+    "x": 46,
+    "y": 2043,
+    "w": 282,
+    "h": 96,
+    "text": ": From small parcels to large freight, protect against loss, damage, concealed d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__description > ol > li",
+    "x": 46,
+    "y": 2139,
+    "w": 282,
+    "h": 120,
+    "text": "File a claim in minutes through our online portal. With the highest-rated NPS sc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__description > ol > li",
+    "x": 46,
+    "y": 2259,
+    "w": 282,
+    "h": 96,
+    "text": "Recover up to the invoice value so you can reship immediately and keep your cust"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 2419,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "don't just take our word for it"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.slick-track > div#slick-slide00 > a.story-card--list__item__card",
+    "x": 34,
+    "y": 2531,
+    "w": 292,
+    "h": 442,
+    "text": "customer success stories precious cargo all-risk cargo insurance helps zenith av",
+    "href": "/us/en/resources/customer-stories/Zenith-Aviation.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 34,
+    "y": 2531,
+    "w": 292,
+    "h": 164,
+    "text": "airplane wing over land with the sunrise behind it",
+    "file": "Zenith_iStock-518040857"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div > div.description__title > h1",
+    "x": 66,
+    "y": 2755,
+    "w": 228,
+    "h": 19,
+    "level": 1,
+    "text": "precious cargo"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.slick-track > div#slick-slide01 > a.story-card--list__item__card",
+    "x": 346,
+    "y": 2531,
+    "w": 292,
+    "h": 442,
+    "text": "semi truck on fire on the side of the highway.",
+    "href": "/us/en/resources/customer-stories/argus-case-study.html"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 346,
+    "y": 2531,
+    "w": 292,
+    "h": 164,
+    "text": "semi truck on fire on the side of the highway.",
+    "file": "Argus_iStock_000009996595"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#image-79fc970a66 > picture > img.cmp-image__image",
+    "x": 32,
+    "y": 3104,
+    "w": 296,
+    "h": 311,
+    "text": "computer screen with text above it",
+    "file": "B2B%20Loss%20Calculator%20-%20White%20bg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 3749,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "build a more resilient supply chain"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > p.cmp-title__description",
+    "x": 32,
+    "y": 3853,
+    "w": 296,
+    "h": 48,
+    "text": "Connect with an expert to customize your protection plan."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__title > h2",
+    "x": 56,
+    "y": 4037,
+    "w": 248,
+    "h": 107,
+    "level": 2,
+    "text": "trusted protection. proven performance."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__description > p",
+    "x": 56,
+    "y": 4180,
+    "w": 248,
+    "h": 72,
+    "text": "With customizable coverage that goes beyond carrier liability and expert support"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__description > p",
+    "x": 56,
+    "y": 4264,
+    "w": 248,
+    "h": 48,
+    "text": "we're here to help your business deliver with confidence."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__action-container > a#teaser-fac5861ccd-cta-952304d395",
+    "x": 56,
+    "y": 4336,
+    "w": 248,
+    "h": 68,
+    "text": "read more customer stories",
+    "href": "/us/en/resources/customer-stories.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__action-container > a#teaser-fac5861ccd-cta-ccfef19789",
+    "x": 56,
+    "y": 4420,
+    "w": 248,
+    "h": 68,
+    "text": "discover the latest insights",
+    "href": "/us/en/resources/insights.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#text-956162af79 > p > span.small",
+    "x": 32,
+    "y": 4578,
+    "w": 288,
+    "h": 46,
+    "text": "Data is based on an August 2025 survey conducted by Dynata on behalf of UPS Capi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 0,
+    "y": 4696,
+    "w": 355,
+    "h": 35,
+    "text": "*Expedited reshipping reimbursement provided up to 20% of the insured value of t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 0,
+    "y": 4744,
+    "w": 358,
+    "h": 155,
+    "text": "Insurance coverage is underwritten by an authorized insurance company and issued"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 0,
+    "y": 4912,
+    "w": 352,
+    "h": 107,
+    "text": "Unless otherwise noted, all statistics used herein are derived from or based on "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 0,
+    "y": 5032,
+    "w": 358,
+    "h": 83,
+    "text": "Statistics in our social media advertising are based on aggregated insurance pro"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-97dfc0134a > p",
+    "x": 32,
+    "y": 5184,
+    "w": 296,
+    "h": 19,
+    "text": "This Site"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-c12bd6f8bb > p",
+    "x": 32,
+    "y": 5234,
+    "w": 296,
+    "h": 19,
+    "text": "Other UPS Sites"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-369e9a7e5a > p",
+    "x": 32,
+    "y": 5283,
+    "w": 296,
+    "h": 19,
+    "text": "Connect with Us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-d50c439374 > p",
+    "x": 32,
+    "y": 5333,
+    "w": 296,
+    "h": 19,
+    "text": "Legal"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.copy-right > div#text-b533edb835 > h4",
+    "x": 32,
+    "y": 5456,
+    "w": 296,
+    "h": 40,
+    "level": 4,
+    "text": "copyright ©2023-2026 united parcel service of america, inc. all rights reserved."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 29,
+    "textNodes": 89,
+    "controls": 50,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.slick-list.draggable > div.slick-track > div#slick-slide01 > a.story-card--list__item__card",
+     "text": "customer success stories when bad things happen to good carg",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/b2b",
+  "at": "2026-11-18T13:07:49.977Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5520,
+  "root": "main",
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.alerts-list > div.alerts-msg > p",
+    "x": 32,
+    "y": 37,
+    "w": 296,
+    "h": 42,
+    "text": "Introducing a fresh take on protection for your shipments"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.alerts-list > div.alerts-msg > a.alerts-more",
+    "x": 32,
+    "y": 84,
+    "w": 138,
+    "h": 21,
+    "text": "get started in minutes",
+    "href": "/en/sign-up"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.alerts-inner > button.alerts-close",
+    "x": 292,
+    "y": 6,
+    "w": 36,
+    "h": 26,
+    "text": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-logo > p > a",
+    "x": 32,
+    "y": 138,
+    "w": 149,
+    "h": 55,
+    "text": "insureshield",
+    "href": "/us/en/securecommerce"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 32,
+    "y": 138,
+    "w": 149,
+    "h": 56,
+    "text": "insureshield",
+    "file": "media_1e13fd7b8c723c94791c8f8ac6c80eaf75"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-row > div.hdr-actions > button.hdr-burger",
+    "x": 238,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "text": "toggle navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-row > div.hdr-actions > button.hdr-burger",
+    "x": 238,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "label": "toggle navigation menu",
+    "value": "toggle navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-actions > div.hdr-search > button.hdr-search-btn",
+    "x": 284,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "text": "search toggle"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-actions > div.hdr-search > button.hdr-search-btn",
+    "x": 284,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "label": "search toggle",
+    "value": "search toggle",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a",
+    "x": 32,
+    "y": 231,
+    "w": 119,
+    "h": 21,
+    "text": "shipping insurance",
+    "href": "/us/en/shipping-insurance"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-content > div.teaser-title > h1#your-supply-chain-is-only-as-strong-as-your-last-shipment",
+    "x": 32,
+    "y": 292,
+    "w": 296,
+    "h": 120,
+    "level": 1,
+    "text": "your supply chain is only as strong as your last shipment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-content > div.teaser-desc > p",
+    "x": 32,
+    "y": 444,
+    "w": 296,
+    "h": 72,
+    "text": "73% of merchants absorb losses from shipping issues, often due to disputes or la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-actions > p.button-wrapper > a.button.primary",
+    "x": 32,
+    "y": 540,
+    "w": 296,
+    "h": 44,
+    "text": "get a quote",
+    "href": "/us/en/shipping-insurance/get-a-quote"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-actions > p.button-wrapper > a.button.secondary",
+    "x": 32,
+    "y": 600,
+    "w": 296,
+    "h": 44,
+    "text": "learn how it works",
+    "href": "/us/en/shipping-insurance"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-media > picture > img",
+    "x": 32,
+    "y": 668,
+    "w": 296,
+    "h": 167,
+    "text": "semi-truck driving down an empty country road",
+    "file": "media_120c4dfe3ac40c42789df68c1fc9732e74"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-media > picture > img",
+    "x": 32,
+    "y": 1038,
+    "w": 296,
+    "h": 167,
+    "text": "male checking a box and holding a tablet in a warehouse",
+    "file": "media_1ae18c0f41e688ff519c1160818faef29d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-grid > div.teaser-title > h2#the-cost-of-one-failed-shipment",
+    "x": 32,
+    "y": 931,
+    "w": 296,
+    "h": 72,
+    "level": 2,
+    "text": "the cost of one failed shipment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-grid > div.teaser-desc > p",
+    "x": 32,
+    "y": 1229,
+    "w": 296,
+    "h": 144,
+    "text": "Lost, damaged, or delayed shipments can directly impact your revenue, reputation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-desc > ul > li",
+    "x": 64,
+    "y": 1385,
+    "w": 264,
+    "h": 48,
+    "text": "Missed delivery windows can jeopardize contracts."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-desc > ul > li",
+    "x": 64,
+    "y": 1433,
+    "w": 264,
+    "h": 48,
+    "text": "Damaged goods can stall production lines."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-desc > ul > li",
+    "x": 64,
+    "y": 1481,
+    "w": 264,
+    "h": 24,
+    "text": "Delays can erode customer trust."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-grid > div.teaser-desc > p",
+    "x": 32,
+    "y": 1517,
+    "w": 296,
+    "h": 96,
+    "text": "And with now holding merchants more accountable than carriers, the pressure is o"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-media > picture > img",
+    "x": 32,
+    "y": 1852,
+    "w": 296,
+    "h": 167,
+    "text": "female sitting on a stool and is preparing an order surround",
+    "file": "media_10e945373376df6f09b28592b8a227deb3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-grid > div.teaser-title > h2#how-insureshield-protection-works-for-your-business",
+    "x": 32,
+    "y": 1709,
+    "w": 296,
+    "h": 107,
+    "level": 2,
+    "text": "how insureshield® protection works for your business"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-desc > ol > li",
+    "x": 46,
+    "y": 2043,
+    "w": 282,
+    "h": 96,
+    "text": ": From small parcels to large freight, protect against loss, damage, concealed d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-desc > ol > li",
+    "x": 46,
+    "y": 2139,
+    "w": 282,
+    "h": 120,
+    "text": "File a claim in minutes through our online portal. With the highest-rated NPS sc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-desc > ol > li",
+    "x": 46,
+    "y": 2259,
+    "w": 282,
+    "h": 96,
+    "text": "Recover up to the invoice value so you can reship immediately and keep your cust"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.story-card-carousel-container > div.default-content-wrapper > h2#dont-just-take-our-word-for-it",
+    "x": 32,
+    "y": 2419,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "don't just take our word for it"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stories-track > div.stories-slide > a.story",
+    "x": 34,
+    "y": 2531,
+    "w": 292,
+    "h": 442,
+    "text": "customer success stories precious cargo all-risk cargo insurance helps zenith av",
+    "href": "/us/en/resources/customer-stories/zenith-aviation"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-image > picture > img",
+    "x": 34,
+    "y": 2531,
+    "w": 292,
+    "h": 164,
+    "text": "airplane wing over land with the sunrise behind it",
+    "file": "media_15610a0970f0b86834f6147bd01624e635"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-top > div.story-title > h3#precious-cargo",
+    "x": 66,
+    "y": 2755,
+    "w": 228,
+    "h": 19,
+    "level": 3,
+    "text": "precious cargo"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stories-track > div.stories-slide > a.story",
+    "x": 346,
+    "y": 2531,
+    "w": 292,
+    "h": 442,
+    "text": "semi truck on fire on the side of the highway.",
+    "href": "/us/en/resources/customer-stories/argus-case-study"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-image > picture > img",
+    "x": 346,
+    "y": 2531,
+    "w": 292,
+    "h": 164,
+    "text": "semi truck on fire on the side of the highway.",
+    "file": "media_107479a278f7eb46957050a635ff46d089"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-carousel.block > div.stories-controls > button.stories-arrow.stories-arrow-prev",
+    "x": 73,
+    "y": 3009,
+    "w": 54,
+    "h": 31,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.stories-dots > li.is-active > button.stories-dot",
+    "x": 127,
+    "y": 3009,
+    "w": 22,
+    "h": 22,
+    "text": "go to slide 1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.stories-dots > li > button.stories-dot",
+    "x": 179,
+    "y": 3014,
+    "w": 12,
+    "h": 12,
+    "text": "go to slide 2"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.stories-dots > li > button.stories-dot",
+    "x": 221,
+    "y": 3014,
+    "w": 12,
+    "h": 12,
+    "text": "go to slide 3"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-carousel.block > div.stories-controls > button.stories-arrow.stories-arrow-next",
+    "x": 233,
+    "y": 3009,
+    "w": 54,
+    "h": 31,
+    "text": "next"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-6.loss-calculator-media > picture > img",
+    "x": 32,
+    "y": 3104,
+    "w": 296,
+    "h": 311,
+    "text": "computer screen with text above it",
+    "file": "media_1360fdf5be26780b6eb40cba641324614c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.form-container > div.default-content-wrapper > h2#build-a-more-resilient-supply-chain",
+    "x": 32,
+    "y": 3749,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "build a more resilient supply chain"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.form-container > div.default-content-wrapper > p",
+    "x": 32,
+    "y": 3853,
+    "w": 296,
+    "h": 48,
+    "text": "Connect with an expert to customize your protection plan."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.promo-banner-card > div.teaser-title > h2#trusted-protection-proven-performance",
+    "x": 56,
+    "y": 4037,
+    "w": 248,
+    "h": 107,
+    "level": 2,
+    "text": "trusted protection. proven performance."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.promo-banner-card > div.teaser-desc > p",
+    "x": 56,
+    "y": 4180,
+    "w": 248,
+    "h": 72,
+    "text": "With customizable coverage that goes beyond carrier liability and expert support"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.promo-banner-card > div.teaser-desc > p",
+    "x": 56,
+    "y": 4264,
+    "w": 248,
+    "h": 48,
+    "text": "we're here to help your business deliver with confidence."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-actions > p.button-wrapper > a.button.accent",
+    "x": 56,
+    "y": 4336,
+    "w": 248,
+    "h": 68,
+    "text": "read more customer stories",
+    "href": "/us/en/resources/customer-stories"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-actions > p.button-wrapper > a.button.accent",
+    "x": 56,
+    "y": 4420,
+    "w": 248,
+    "h": 68,
+    "text": "discover the latest insights",
+    "href": "/us/en/resources/insights"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.form-toast-container > div.default-content-wrapper > p",
+    "x": 32,
+    "y": 4576,
+    "w": 296,
+    "h": 48,
+    "text": "Data is based on an August 2025 survey conducted by Dynata on behalf of UPS Capi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 0,
+    "y": 4696,
+    "w": 355,
+    "h": 35,
+    "text": "*Expedited reshipping reimbursement provided up to 20% of the insured value of t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 0,
+    "y": 4744,
+    "w": 358,
+    "h": 155,
+    "text": "Insurance coverage is underwritten by an authorized insurance company and issued"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 0,
+    "y": 4912,
+    "w": 352,
+    "h": 107,
+    "text": "Unless otherwise noted, all statistics used herein are derived from or based on "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 0,
+    "y": 5032,
+    "w": 358,
+    "h": 83,
+    "text": "Statistics in our social media advertising are based on aggregated insurance pro"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 5168,
+    "w": 360,
+    "h": 50,
+    "text": "this site"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 5168,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "this site",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col.ftr-col-wide > div.ftr-heading",
+    "x": 0,
+    "y": 5218,
+    "w": 360,
+    "h": 50,
+    "text": "other ups sites"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col.ftr-col-wide > div.ftr-heading",
+    "x": 0,
+    "y": 5218,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "other ups sites",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 5268,
+    "w": 360,
+    "h": 50,
+    "text": "connect with us"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 5268,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "connect with us",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr > div.ftr-inner > div.ftr-heading.ftr-heading-legal",
+    "x": 0,
+    "y": 5317,
+    "w": 360,
+    "h": 51,
+    "text": "legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr > div.ftr-inner > div.ftr-heading.ftr-heading-legal",
+    "x": 0,
+    "y": 5317,
+    "w": 360,
+    "h": 51,
+    "label": "trigger",
+    "value": "legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-inner > div.ftr-copy > p",
+    "x": 32,
+    "y": 5456,
+    "w": 296,
+    "h": 40,
+    "text": "Copyright ©2023-2026 United Parcel Service of America, Inc. All rights reserved."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 9,
+    "textNodes": 79,
+    "controls": 46,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.stories-viewport",
+     "path": "div.stories-viewport > div.stories-track > div.stories-slide > a.story",
+     "text": "customer success storieswhen bad things happen to good cargo",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-HIDDEN",
+     "advisory": true,
+     "path": "div.stories-viewport > div.stories-track > div.stories-slide > a.story",
+     "text": "customer success storieswhen bad things happen to good cargo",
+     "clipper": "div.stories-viewport",
+     "rect": {
+      "l": 346,
+      "t": 2531,
+      "r": 638,
+      "b": 2973,
+      "w": 292,
+      "h": 442
+     },
+     "clip": {
+      "l": 24,
+      "t": 2531,
+      "r": 336,
+      "b": 2983,
+      "w": 312,
+      "h": 452
+     }
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "your supply chain is only as strong as your last shipment",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "the cost of one failed shipment",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 5,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "how insureshield® protection works for your business",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 3,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "don't just take our word for it",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 1,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 1
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "precious cargo",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 5,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 6,
+   "heading": "build a more resilient supply chain",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "trusted protection. proven performance.",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"previous\" served in band \"precious cargo\", no origin link or button",
+   "band": 5,
+   "n": 1,
+   "text": "previous"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×3 \"go to slide 1\" served in band \"precious cargo\", no origin link or button",
+   "band": 5,
+   "n": 3,
+   "text": "go to slide 1"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"next\" served in band \"precious cargo\", no origin link or button",
+   "band": 5,
+   "n": 1,
+   "text": "next"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 5,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 3,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 32,
+    "y": 9,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 41,
+    "y": 9,
+    "w": 23,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 9,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 39,
+    "w": 285,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 60,
+    "w": 65,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 86,
+    "w": 138,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 232,
+    "w": 119,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 293,
+    "w": 290,
+    "h": 38
+   },
+   {
+    "x": 32,
+    "y": 333,
+    "w": 248,
+    "h": 38
+   },
+   {
+    "x": 32,
+    "y": 373,
+    "w": 278,
+    "h": 38
+   },
+   {
+    "x": 32,
+    "y": 446,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 470,
+    "w": 287,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 494,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 125,
+    "y": 552,
+    "w": 84,
+    "h": 19
+   },
+   {
+    "x": 97,
+    "y": 612,
+    "w": 139,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 932,
+    "w": 282,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 967,
+    "w": 119,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 1231,
+    "w": 295,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1255,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1279,
+    "w": 234,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1303,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1327,
+    "w": 288,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1351,
+    "w": 141,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 1387,
+    "w": 207,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 1411,
+    "w": 149,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 1435,
+    "w": 261,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 1459,
+    "w": 38,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 1483,
+    "w": 234,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1519,
+    "w": 66,
+    "h": 19
+   },
+   {
+    "x": 98,
+    "y": 1519,
+    "w": 133,
+    "h": 19
+   },
+   {
+    "x": 231,
+    "y": 1519,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1543,
+    "w": 244,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1567,
+    "w": 262,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1591,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1710,
+    "w": 239,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 1746,
+    "w": 257,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 1782,
+    "w": 177,
+    "h": 33
+   },
+   {
+    "x": 64,
+    "y": 2045,
+    "w": 183,
+    "h": 19
+   },
+   {
+    "x": 247,
+    "y": 2045,
+    "w": 45,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2069,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2093,
+    "w": 232,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2117,
+    "w": 133,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2141,
+    "w": 182,
+    "h": 19
+   },
+   {
+    "x": 246,
+    "y": 2141,
+    "w": 42,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2165,
+    "w": 251,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2189,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2213,
+    "w": 251,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2237,
+    "w": 258,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2261,
+    "w": 111,
+    "h": 19
+   },
+   {
+    "x": 175,
+    "y": 2261,
+    "w": 124,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2285,
+    "w": 220,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2309,
+    "w": 190,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2333,
+    "w": 126,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2420,
+    "w": 241,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 2456,
+    "w": 137,
+    "h": 33
+   },
+   {
+    "x": 104,
+    "y": 2727,
+    "w": 177,
+    "h": 11
+   },
+   {
+    "x": 66,
+    "y": 2755,
+    "w": 110,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 2788,
+    "w": 208,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 2812,
+    "w": 178,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 2919,
+    "w": 77,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3750,
+    "w": 269,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 3786,
+    "w": 162,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 3855,
+    "w": 294,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3879,
+    "w": 111,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4038,
+    "w": 238,
+    "h": 33
+   },
+   {
+    "x": 56,
+    "y": 4073,
+    "w": 86,
+    "h": 33
+   },
+   {
+    "x": 56,
+    "y": 4109,
+    "w": 176,
+    "h": 33
+   },
+   {
+    "x": 56,
+    "y": 4182,
+    "w": 232,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4206,
+    "w": 225,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4230,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4266,
+    "w": 227,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4290,
+    "w": 167,
+    "h": 19
+   },
+   {
+    "x": 91,
+    "y": 4348,
+    "w": 151,
+    "h": 19
+   },
+   {
+    "x": 142,
+    "y": 4372,
+    "w": 50,
+    "h": 19
+   },
+   {
+    "x": 100,
+    "y": 4432,
+    "w": 133,
+    "h": 19
+   },
+   {
+    "x": 138,
+    "y": 4456,
+    "w": 57,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4578,
+    "w": 288,
+    "h": 14
+   },
+   {
+    "x": 32,
+    "y": 4594,
+    "w": 240,
+    "h": 14
+   },
+   {
+    "x": 32,
+    "y": 4610,
+    "w": 116,
+    "h": 14
+   },
+   {
+    "x": 0,
+    "y": 4696,
+    "w": 355,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4720,
+    "w": 47,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4744,
+    "w": 339,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4768,
+    "w": 344,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4792,
+    "w": 350,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4816,
+    "w": 356,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4840,
+    "w": 358,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4864,
+    "w": 344,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4888,
+    "w": 248,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4912,
+    "w": 346,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4936,
+    "w": 327,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4960,
+    "w": 352,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4984,
+    "w": 348,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5008,
+    "w": 118,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5032,
+    "w": 338,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5056,
+    "w": 358,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5080,
+    "w": 354,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5104,
+    "w": 42,
+    "h": 11
+   },
+   {
+    "x": 32,
+    "y": 5183,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5233,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5282,
+    "w": 116,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5332,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5458,
+    "w": 293,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 5478,
+    "w": 200,
+    "h": 16
+   }
+  ],
+  "eds": [
+   {
+    "x": 32,
+    "y": 9,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 41,
+    "y": 9,
+    "w": 23,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 9,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 39,
+    "w": 285,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 60,
+    "w": 65,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 86,
+    "w": 138,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 232,
+    "w": 119,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 293,
+    "w": 290,
+    "h": 38
+   },
+   {
+    "x": 32,
+    "y": 333,
+    "w": 248,
+    "h": 38
+   },
+   {
+    "x": 32,
+    "y": 373,
+    "w": 278,
+    "h": 38
+   },
+   {
+    "x": 32,
+    "y": 446,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 470,
+    "w": 287,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 494,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 125,
+    "y": 552,
+    "w": 84,
+    "h": 19
+   },
+   {
+    "x": 97,
+    "y": 612,
+    "w": 139,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 932,
+    "w": 282,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 967,
+    "w": 119,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 1231,
+    "w": 295,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1255,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1279,
+    "w": 234,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1303,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1327,
+    "w": 288,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1351,
+    "w": 141,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 1387,
+    "w": 207,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 1411,
+    "w": 149,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 1435,
+    "w": 261,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 1459,
+    "w": 38,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 1483,
+    "w": 234,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1519,
+    "w": 66,
+    "h": 19
+   },
+   {
+    "x": 98,
+    "y": 1519,
+    "w": 133,
+    "h": 19
+   },
+   {
+    "x": 231,
+    "y": 1519,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1543,
+    "w": 244,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1567,
+    "w": 262,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1591,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1710,
+    "w": 239,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 1746,
+    "w": 257,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 1782,
+    "w": 177,
+    "h": 33
+   },
+   {
+    "x": 64,
+    "y": 2045,
+    "w": 183,
+    "h": 19
+   },
+   {
+    "x": 247,
+    "y": 2045,
+    "w": 45,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2069,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2093,
+    "w": 232,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2117,
+    "w": 133,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2141,
+    "w": 182,
+    "h": 19
+   },
+   {
+    "x": 246,
+    "y": 2141,
+    "w": 42,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2165,
+    "w": 251,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2189,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2213,
+    "w": 251,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2237,
+    "w": 258,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2261,
+    "w": 107,
+    "h": 19
+   },
+   {
+    "x": 171,
+    "y": 2261,
+    "w": 128,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2285,
+    "w": 220,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2309,
+    "w": 190,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 2333,
+    "w": 126,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2420,
+    "w": 241,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 2456,
+    "w": 137,
+    "h": 33
+   },
+   {
+    "x": 104,
+    "y": 2727,
+    "w": 177,
+    "h": 11
+   },
+   {
+    "x": 66,
+    "y": 2755,
+    "w": 110,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 2788,
+    "w": 208,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 2812,
+    "w": 178,
+    "h": 19
+   },
+   {
+    "x": 66,
+    "y": 2919,
+    "w": 77,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3750,
+    "w": 269,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 3786,
+    "w": 162,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 3855,
+    "w": 294,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3879,
+    "w": 111,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4038,
+    "w": 238,
+    "h": 33
+   },
+   {
+    "x": 56,
+    "y": 4074,
+    "w": 86,
+    "h": 33
+   },
+   {
+    "x": 56,
+    "y": 4109,
+    "w": 169,
+    "h": 33
+   },
+   {
+    "x": 56,
+    "y": 4182,
+    "w": 232,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4206,
+    "w": 225,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4230,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4266,
+    "w": 227,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 4290,
+    "w": 167,
+    "h": 19
+   },
+   {
+    "x": 91,
+    "y": 4348,
+    "w": 151,
+    "h": 19
+   },
+   {
+    "x": 142,
+    "y": 4372,
+    "w": 50,
+    "h": 19
+   },
+   {
+    "x": 100,
+    "y": 4432,
+    "w": 133,
+    "h": 19
+   },
+   {
+    "x": 138,
+    "y": 4456,
+    "w": 57,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4577,
+    "w": 288,
+    "h": 14
+   },
+   {
+    "x": 32,
+    "y": 4593,
+    "w": 240,
+    "h": 14
+   },
+   {
+    "x": 32,
+    "y": 4609,
+    "w": 116,
+    "h": 14
+   },
+   {
+    "x": 0,
+    "y": 4696,
+    "w": 355,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4720,
+    "w": 47,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4744,
+    "w": 339,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4768,
+    "w": 344,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4792,
+    "w": 350,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4816,
+    "w": 356,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4840,
+    "w": 358,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4864,
+    "w": 344,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4888,
+    "w": 238,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4912,
+    "w": 346,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4936,
+    "w": 327,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4960,
+    "w": 352,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 4984,
+    "w": 348,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5008,
+    "w": 118,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5032,
+    "w": 338,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5056,
+    "w": 358,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5080,
+    "w": 354,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5104,
+    "w": 42,
+    "h": 11
+   },
+   {
+    "x": 32,
+    "y": 5183,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5233,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5283,
+    "w": 116,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5332,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5458,
+    "w": 293,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 5478,
+    "w": 200,
+    "h": 16
+   }
+  ]
+ }
+}

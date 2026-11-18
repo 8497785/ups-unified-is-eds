@@ -1,0 +1,2316 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html",
+ "at": "2026-11-17T22:57:40.501Z",
+ "shots": "stardust/.work/chrome/header-contract-terms",
+ "widths": {
+  "390": {
+   "root": "#container-85bdea07a5>div>header",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#image-d17206185b>a",
+     "href": "https://www.insureshield.com/us/en/securecommerce.html",
+     "expanded": null,
+     "rect": [
+      32,
+      138,
+      149,
+      55
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Toggle navigation Menu",
+     "key": "toggle navigation menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "#container-6f9e9ead08>div:nth-of-type(1)>div>button",
+     "expanded": "false",
+     "rect": [
+      268,
+      144,
+      44,
+      44
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Log In",
+          "href": "https://online.upscapital.com/login"
+         },
+         {
+          "text": "Get a Quote",
+          "href": "https://www.insureshield.com/us/en/shipping-insurance/get-a-quote.html?int_snav"
+         },
+         {
+          "text": "Contact Us",
+          "href": "https://www.insureshield.com/us/en/about/contact-us.html?int_snav"
+         },
+         {
+          "text": "Shipping Insurance",
+          "href": "https://www.insureshield.com/us/en/shipping-insurance.html"
+         },
+         {
+          "text": "Solutions",
+          "href": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html#"
+         },
+         {
+          "text": "Claims",
+          "href": "https://www.insureshield.com/us/en/claims.html"
+         },
+         {
+          "text": "Partners",
+          "href": "https://www.insureshield.com/us/en/partners.html"
+         },
+         {
+          "text": "Resources",
+          "href": "https://www.insureshield.com/us/en/resources.html"
+         },
+         {
+          "text": "About",
+          "href": "https://www.insureshield.com/us/en/about.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "United States - English"
+        ],
+        "options": 0,
+        "rect": [
+         78,
+         215,
+         312,
+         629
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.container"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span.hamburger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hamburger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hamburger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "left",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hamburger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "top",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hamburger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "right",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.container"
+        },
+        {
+         "kind": "transition",
+         "prop": "height",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.container"
+        }
+       ],
+       "shot": "390-001-Toggle-navigation-Menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Log In",
+          "href": "https://online.upscapital.com/login"
+         },
+         {
+          "text": "Get a Quote",
+          "href": "https://www.insureshield.com/us/en/shipping-insurance/get-a-quote.html?int_snav"
+         },
+         {
+          "text": "Contact Us",
+          "href": "https://www.insureshield.com/us/en/about/contact-us.html?int_snav"
+         },
+         {
+          "text": "Shipping Insurance",
+          "href": "https://www.insureshield.com/us/en/shipping-insurance.html"
+         },
+         {
+          "text": "Solutions",
+          "href": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html#"
+         },
+         {
+          "text": "Claims",
+          "href": "https://www.insureshield.com/us/en/claims.html"
+         },
+         {
+          "text": "Partners",
+          "href": "https://www.insureshield.com/us/en/partners.html"
+         },
+         {
+          "text": "Resources",
+          "href": "https://www.insureshield.com/us/en/resources.html"
+         },
+         {
+          "text": "About",
+          "href": "https://www.insureshield.com/us/en/about.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "United States - English"
+        ],
+        "options": 0,
+        "rect": [
+         78,
+         215,
+         312,
+         629
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.container"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span.hamburger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hamburger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hamburger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "left",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hamburger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "top",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hamburger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "right",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.container"
+        }
+       ],
+       "shot": "390-002-Toggle-navigation-Menu-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "United States - English",
+       "key": "united states english",
+       "role": "toggle",
+       "kind": "locale",
+       "sel": "#container-e4ce5d48bc>div:nth-of-type(1)>nav>ul>li:nth-of-type(5)>p",
+       "expanded": "false",
+       "rect": [
+        118,
+        790,
+        183,
+        24
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "United States - English",
+            "href": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html"
+           },
+           {
+            "text": "Estados Unidos - Español",
+            "href": "https://www.insureshield.com/us/es/legal/terms-and-conditions-upscia.html"
+           },
+           {
+            "text": "Select Another Country or Territory",
+            "href": "https://www.insureshield.com/us/en/global.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           118,
+           826,
+           232,
+           18
+          ]
+         },
+         "expanded": "false",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "span.upspr-icon-chevrondown"
+          }
+         ],
+         "shot": "390-003-United-States---English-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "United States - English",
+            "href": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html"
+           },
+           {
+            "text": "Estados Unidos - Español",
+            "href": "https://www.insureshield.com/us/es/legal/terms-and-conditions-upscia.html"
+           },
+           {
+            "text": "Select Another Country or Territory",
+            "href": "https://www.insureshield.com/us/en/global.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           118,
+           710,
+           232,
+           133
+          ]
+         },
+         "expanded": "false",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "span.upspr-icon-chevrondown"
+          }
+         ],
+         "shot": "390-004-United-States---English-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": true,
+        "toggle": true
+       },
+       "children": [
+        {
+         "name": "United States - English",
+         "key": "united states english",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#container-e4ce5d48bc>div:nth-of-type(1)>nav>ul>li:nth-of-type(5)>div>ul>li:nth-of-type(1)>a",
+         "expanded": null,
+         "rect": [
+          118,
+          834,
+          232,
+          27
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "hides": 3
+          },
+          "key": {
+           "opened": false,
+           "navigates": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html"
+          }
+         }
+        },
+        {
+         "name": "Estados Unidos - Español",
+         "key": "estados unidos español",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#container-e4ce5d48bc>div:nth-of-type(1)>nav>ul>li:nth-of-type(5)>div>ul>li:nth-of-type(2)>a",
+         "expanded": null,
+         "rect": [
+          118,
+          861,
+          232,
+          27
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "hides": 3
+          },
+          "key": {
+           "opened": false,
+           "navigates": "https://www.insureshield.com/us/es/legal/terms-and-conditions-upscia.html"
+          }
+         }
+        },
+        {
+         "name": "Select Another Country or Territory",
+         "key": "select another country or territory",
+         "role": "toggle",
+         "kind": "locale",
+         "sel": "#container-e4ce5d48bc>div:nth-of-type(1)>nav>ul>li:nth-of-type(5)>div>div>a",
+         "expanded": null,
+         "rect": [
+          118,
+          896,
+          232,
+          54
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "hides": 3
+          },
+          "key": {
+           "opened": false,
+           "navigates": "https://www.insureshield.com/us/en/global.html"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "name": "Shipping Insurance",
+       "key": "shipping insurance",
+       "role": "link",
+       "kind": "link",
+       "sel": "#navigation-8044715f19>ul>li:nth-of-type(1)>a",
+       "href": "https://www.insureshield.com/us/en/shipping-insurance.html",
+       "expanded": null,
+       "rect": [
+        123,
+        255,
+        222,
+        57
+       ],
+       "actions": {}
+      },
+      {
+       "name": "Solutions",
+       "key": "solutions",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#navigation-8044715f19>ul>li:nth-of-type(2)>a",
+       "expanded": null,
+       "rect": [
+        123,
+        316,
+        222,
+        57
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Partners",
+       "key": "partners",
+       "role": "link",
+       "kind": "link",
+       "sel": "#navigation-8044715f19>ul>li:nth-of-type(4)>a",
+       "href": "https://www.insureshield.com/us/en/partners.html",
+       "expanded": null,
+       "rect": [
+        123,
+        438,
+        222,
+        57
+       ],
+       "actions": {}
+      },
+      {
+       "name": "Resources",
+       "key": "resources",
+       "role": "link",
+       "kind": "link",
+       "sel": "#navigation-8044715f19>ul>li:nth-of-type(5)>a",
+       "href": "https://www.insureshield.com/us/en/resources.html",
+       "expanded": null,
+       "rect": [
+        123,
+        499,
+        222,
+        57
+       ],
+       "actions": {}
+      },
+      {
+       "name": "About",
+       "key": "about",
+       "role": "link",
+       "kind": "link",
+       "sel": "#navigation-8044715f19>ul>li:nth-of-type(6)>a",
+       "href": "https://www.insureshield.com/us/en/about.html",
+       "expanded": null,
+       "rect": [
+        123,
+        560,
+        222,
+        56
+       ],
+       "actions": {}
+      }
+     ]
+    },
+    {
+     "name": "Search Toggle",
+     "key": "search toggle",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#upser-header-search>button",
+     "expanded": "false",
+     "rect": [
+      314,
+      144,
+      44,
+      44
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Search",
+         "close"
+        ],
+        "options": 0,
+        "rect": [
+         32,
+         153,
+         326,
+         176
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.cmp-search__input"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.cmp-search__input"
+        },
+        {
+         "kind": "animation",
+         "prop": "slideDownLight",
+         "ms": 500,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.cmp-search__group"
+        }
+       ],
+       "shot": "390-005-Search-Toggle-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Search",
+         "close"
+        ],
+        "options": 0,
+        "rect": [
+         32,
+         153,
+         326,
+         176
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.cmp-search__input"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.cmp-search__input"
+        },
+        {
+         "kind": "animation",
+         "prop": "slideDownLight",
+         "ms": 500,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.cmp-search__group"
+        }
+       ],
+       "shot": "390-006-Search-Toggle-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "input",
+       "kind": "search",
+       "sel": "#upser-header-search>form>div>div>div>input",
+       "expanded": null,
+       "rect": [
+        32,
+        220,
+        326,
+        44
+       ],
+       "actions": {},
+       "search": {
+        "probe": "quote",
+        "typeahead": {
+         "links": 5,
+         "options": 0
+        },
+        "submit": "https://www.insureshield.com/content/insureshield/us/en/site-search.html?q={q}"
+       }
+      },
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#upser-header-search>form>div>div>button",
+       "expanded": null,
+       "rect": [
+        32,
+        284,
+        326,
+        44
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "close",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#ups-header_search-close",
+       "expanded": null,
+       "rect": [
+        322,
+        153,
+        36,
+        26
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Toggle navigation Menu",
+           "Search Toggle"
+          ],
+          "options": 0,
+          "rect": [
+           266,
+           144,
+           92,
+           44
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.cmp-search__input"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.cmp-search__input"
+          },
+          {
+           "kind": "animation",
+           "prop": "slideUpLight",
+           "ms": 500,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.cmp-search__group"
+          }
+         ],
+         "shot": "390-007-close-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Toggle navigation Menu",
+           "Search Toggle"
+          ],
+          "options": 0,
+          "rect": [
+           266,
+           144,
+           92,
+           44
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.cmp-search__input"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.cmp-search__input"
+          },
+          {
+           "kind": "animation",
+           "prop": "slideUpLight",
+           "ms": 500,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.cmp-search__group"
+          }
+         ],
+         "shot": "390-008-close-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": []
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 116,
+     "height": 99,
+     "position": "relative",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 99,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 99,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 116,
+     "height": 99,
+     "position": "relative",
+     "inView": true
+    }
+   ],
+   "states": 8,
+   "truncated": null,
+   "loads": 10,
+   "requests": 475,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "#container-85bdea07a5>div>header",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#image-d17206185b>a",
+     "href": "https://www.insureshield.com/us/en/securecommerce.html",
+     "expanded": null,
+     "rect": [
+      112,
+      62,
+      165,
+      71
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Log In",
+     "key": "log in",
+     "role": "link",
+     "kind": "account",
+     "sel": "#container-e4ce5d48bc>div:nth-of-type(1)>nav>ul>li:nth-of-type(2)>a",
+     "href": "https://online.upscapital.com/login",
+     "expanded": null,
+     "rect": [
+      888,
+      54,
+      38,
+      16
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Get a Quote",
+     "key": "get a quote",
+     "role": "link",
+     "kind": "link",
+     "sel": "#container-e4ce5d48bc>div:nth-of-type(1)>nav>ul>li:nth-of-type(3)>a",
+     "href": "https://www.insureshield.com/us/en/shipping-insurance/get-a-quote.html?int_snav",
+     "expanded": null,
+     "rect": [
+      958,
+      54,
+      73,
+      16
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Contact Us",
+     "key": "contact us",
+     "role": "link",
+     "kind": "link",
+     "sel": "#container-e4ce5d48bc>div:nth-of-type(1)>nav>ul>li:nth-of-type(4)>a",
+     "href": "https://www.insureshield.com/us/en/about/contact-us.html?int_snav",
+     "expanded": null,
+     "rect": [
+      1064,
+      54,
+      69,
+      16
+     ],
+     "actions": {}
+    },
+    {
+     "name": "United States - English",
+     "key": "united states english",
+     "role": "toggle",
+     "kind": "locale",
+     "sel": "#container-e4ce5d48bc>div:nth-of-type(1)>nav>ul>li:nth-of-type(5)>p",
+     "expanded": "false",
+     "rect": [
+      1165,
+      52,
+      163,
+      21
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "United States - English",
+          "href": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html"
+         },
+         {
+          "text": "Estados Unidos - Español",
+          "href": "https://www.insureshield.com/us/es/legal/terms-and-conditions-upscia.html"
+         },
+         {
+          "text": "Select Another Country or Territory",
+          "href": "https://www.insureshield.com/us/en/global.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1108,
+         85,
+         220,
+         152
+        ]
+       },
+       "expanded": "false",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span.upspr-icon-chevrondown"
+        }
+       ],
+       "shot": "1440-001-United-States---English-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "United States - English",
+          "href": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html"
+         },
+         {
+          "text": "Estados Unidos - Español",
+          "href": "https://www.insureshield.com/us/es/legal/terms-and-conditions-upscia.html"
+         },
+         {
+          "text": "Select Another Country or Territory",
+          "href": "https://www.insureshield.com/us/en/global.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1108,
+         85,
+         220,
+         152
+        ]
+       },
+       "expanded": "false",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span.upspr-icon-chevrondown"
+        }
+       ],
+       "shot": "1440-002-United-States---English-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "United States - English",
+       "key": "united states english",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#container-e4ce5d48bc>div:nth-of-type(1)>nav>ul>li:nth-of-type(5)>div>ul>li:nth-of-type(1)>a",
+       "expanded": null,
+       "rect": [
+        1108,
+        93,
+        220,
+        27
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "navigates": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html"
+        }
+       }
+      },
+      {
+       "name": "Estados Unidos - Español",
+       "key": "estados unidos español",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#container-e4ce5d48bc>div:nth-of-type(1)>nav>ul>li:nth-of-type(5)>div>ul>li:nth-of-type(2)>a",
+       "expanded": null,
+       "rect": [
+        1108,
+        120,
+        220,
+        46
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "navigates": "https://www.insureshield.com/us/es/legal/terms-and-conditions-upscia.html"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://www.insureshield.com/us/es/legal/terms-and-conditions-upscia.html"
+        }
+       }
+      },
+      {
+       "name": "Select Another Country or Territory",
+       "key": "select another country or territory",
+       "role": "toggle",
+       "kind": "locale",
+       "sel": "#container-e4ce5d48bc>div:nth-of-type(1)>nav>ul>li:nth-of-type(5)>div>div>a",
+       "expanded": null,
+       "rect": [
+        1108,
+        175,
+        220,
+        54
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "navigates": "https://www.insureshield.com/us/en/global.html"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://www.insureshield.com/us/en/global.html"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "Shipping Insurance",
+     "key": "shipping insurance",
+     "role": "link",
+     "kind": "link",
+     "sel": "#navigation-8044715f19>ul>li:nth-of-type(1)>a",
+     "href": "https://www.insureshield.com/us/en/shipping-insurance.html",
+     "expanded": null,
+     "rect": [
+      317,
+      78,
+      141,
+      40
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Multi-Carrier Shipments",
+          "href": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments.html"
+         },
+         {
+          "text": "UPS Shipments",
+          "href": "https://www.insureshield.com/us/en/shipping-insurance/ups-shipments.html"
+         },
+         {
+          "text": "Special Commodities",
+          "href": "https://www.insureshield.com/us/en/shipping-insurance/special-commodities.html"
+         },
+         {
+          "text": "Select My Coverage",
+          "href": "https://www.insureshield.com/us/en/shipping-insurance/select-my-coverage.html"
+         },
+         {
+          "text": "Get a Quote",
+          "href": "https://www.insureshield.com/us/en/shipping-insurance/get-a-quote.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         155,
+         1440,
+         180
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        }
+       ],
+       "shot": "1440-003-Shipping-Insurance-hover.png"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": false
+     },
+     "children": []
+    },
+    {
+     "name": "Solutions",
+     "key": "solutions",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#navigation-8044715f19>ul>li:nth-of-type(2)>a",
+     "expanded": null,
+     "rect": [
+      491,
+      78,
+      71,
+      40
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "CommerceShield",
+          "href": "https://www.insureshield.com/us/en/solutions/commerceshield.html"
+         },
+         {
+          "text": "DeliveryDefense",
+          "href": "https://www.insureshield.com/us/en/solutions/delivery-defense.html"
+         },
+         {
+          "text": "Delivery Orchestration",
+          "href": "https://www.insureshield.com/us/en/solutions/delivery-orchestration.html"
+         },
+         {
+          "text": "InsureShield® Shipping Insurance",
+          "href": "https://www.insureshield.com/us/en/solutions/insureshield-shipping-insurance.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         155,
+         1440,
+         180
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        }
+       ],
+       "shot": "1440-004-Solutions-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "CommerceShield",
+          "href": "https://www.insureshield.com/us/en/solutions/commerceshield.html"
+         },
+         {
+          "text": "DeliveryDefense",
+          "href": "https://www.insureshield.com/us/en/solutions/delivery-defense.html"
+         },
+         {
+          "text": "Delivery Orchestration",
+          "href": "https://www.insureshield.com/us/en/solutions/delivery-orchestration.html"
+         },
+         {
+          "text": "InsureShield® Shipping Insurance",
+          "href": "https://www.insureshield.com/us/en/solutions/insureshield-shipping-insurance.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         155,
+         1440,
+         180
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        }
+       ],
+       "shot": "1440-005-Solutions-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "CommerceShield",
+          "href": "https://www.insureshield.com/us/en/solutions/commerceshield.html"
+         },
+         {
+          "text": "DeliveryDefense",
+          "href": "https://www.insureshield.com/us/en/solutions/delivery-defense.html"
+         },
+         {
+          "text": "Delivery Orchestration",
+          "href": "https://www.insureshield.com/us/en/solutions/delivery-orchestration.html"
+         },
+         {
+          "text": "InsureShield® Shipping Insurance",
+          "href": "https://www.insureshield.com/us/en/solutions/insureshield-shipping-insurance.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         155,
+         1440,
+         180
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        }
+       ],
+       "shot": "1440-006-Solutions-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Claims",
+     "key": "claims",
+     "role": "link",
+     "kind": "link",
+     "sel": "#navigation-8044715f19>ul>li:nth-of-type(3)>a",
+     "href": "https://www.insureshield.com/us/en/claims.html",
+     "expanded": null,
+     "rect": [
+      594,
+      78,
+      53,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Partners",
+     "key": "partners",
+     "role": "link",
+     "kind": "link",
+     "sel": "#navigation-8044715f19>ul>li:nth-of-type(4)>a",
+     "href": "https://www.insureshield.com/us/en/partners.html",
+     "expanded": null,
+     "rect": [
+      679,
+      78,
+      66,
+      40
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Connect with a Partner",
+          "href": "https://www.insureshield.com/us/en/partners/connect-with-a-partner.html"
+         },
+         {
+          "text": "Become a Partner",
+          "href": "https://www.insureshield.com/us/en/partners/become-a-partner.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         155,
+         1440,
+         136
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        }
+       ],
+       "shot": "1440-007-Partners-hover.png"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": false
+     },
+     "children": []
+    },
+    {
+     "name": "Resources",
+     "key": "resources",
+     "role": "link",
+     "kind": "link",
+     "sel": "#navigation-8044715f19>ul>li:nth-of-type(5)>a",
+     "href": "https://www.insureshield.com/us/en/resources.html",
+     "expanded": null,
+     "rect": [
+      777,
+      78,
+      80,
+      40
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Insights",
+          "href": "https://www.insureshield.com/us/en/resources/insights.html"
+         },
+         {
+          "text": "Whitepapers & Guides",
+          "href": "https://www.insureshield.com/us/en/resources/whitepapers-and-guides.html"
+         },
+         {
+          "text": "Customer Stories",
+          "href": "https://www.insureshield.com/us/en/resources/customer-stories.html"
+         },
+         {
+          "text": "Help & Support",
+          "href": "https://www.insureshield.com/us/en/resources/help-and-support.html"
+         },
+         {
+          "text": "The Logistics Lowdown",
+          "href": "https://www.insureshield.com/us/en/resources/the-logistics-lowdown.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         155,
+         1440,
+         180
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        }
+       ],
+       "shot": "1440-008-Resources-hover.png"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": false
+     },
+     "children": []
+    },
+    {
+     "name": "About",
+     "key": "about",
+     "role": "link",
+     "kind": "link",
+     "sel": "#navigation-8044715f19>ul>li:nth-of-type(6)>a",
+     "href": "https://www.insureshield.com/us/en/about.html",
+     "expanded": null,
+     "rect": [
+      888,
+      78,
+      47,
+      40
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Announcements",
+          "href": "https://www.insureshield.com/us/en/about/announcements.html"
+         },
+         {
+          "text": "In The News",
+          "href": "https://www.insureshield.com/us/en/about/newsroom.html"
+         },
+         {
+          "text": "Product Availability",
+          "href": "https://www.insureshield.com/us/en/about/our-locations.html"
+         },
+         {
+          "text": "Contact Us",
+          "href": "https://www.insureshield.com/us/en/about/contact-us.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         155,
+         1440,
+         180
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.cmp-navigation__group"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.cmp-navigation__item-link"
+        }
+       ],
+       "shot": "1440-009-About-hover.png"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": false
+     },
+     "children": []
+    },
+    {
+     "name": "Search Toggle",
+     "key": "search toggle",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#upser-header-search>button",
+     "expanded": "false",
+     "rect": [
+      1284,
+      89,
+      44,
+      44
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 7,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Search",
+         "close"
+        ],
+        "options": 0,
+        "rect": [
+         460,
+         71,
+         730,
+         52
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.cmp-search__input"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.cmp-search__input"
+        },
+        {
+         "kind": "animation",
+         "prop": "slideInLight",
+         "ms": 500,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.search-container"
+        }
+       ],
+       "shot": "1440-010-Search-Toggle-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 7,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Search",
+         "close"
+        ],
+        "options": 0,
+        "rect": [
+         460,
+         71,
+         730,
+         52
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.cmp-search__input"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.cmp-search__input"
+        },
+        {
+         "kind": "animation",
+         "prop": "slideInLight",
+         "ms": 500,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.search-container"
+        }
+       ],
+       "shot": "1440-011-Search-Toggle-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "input",
+       "kind": "search",
+       "sel": "#upser-header-search>form>div>div>div>input",
+       "expanded": null,
+       "rect": [
+        484,
+        75,
+        497,
+        44
+       ],
+       "actions": {},
+       "search": {
+        "probe": "quote",
+        "typeahead": {
+         "links": 5,
+         "options": 0
+        },
+        "submit": "https://www.insureshield.com/content/insureshield/us/en/site-search.html?q={q}"
+       }
+      },
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#upser-header-search>form>div>div>button",
+       "expanded": null,
+       "rect": [
+        997,
+        75,
+        124,
+        44
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "close",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#ups-header_search-close",
+       "expanded": null,
+       "rect": [
+        1123,
+        75,
+        43,
+        44
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Shipping Insurance",
+            "href": "https://www.insureshield.com/us/en/shipping-insurance.html"
+           },
+           {
+            "text": "Solutions",
+            "href": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html#"
+           },
+           {
+            "text": "Claims",
+            "href": "https://www.insureshield.com/us/en/claims.html"
+           },
+           {
+            "text": "Partners",
+            "href": "https://www.insureshield.com/us/en/partners.html"
+           },
+           {
+            "text": "Resources",
+            "href": "https://www.insureshield.com/us/en/resources.html"
+           },
+           {
+            "text": "About",
+            "href": "https://www.insureshield.com/us/en/about.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Search Toggle"
+          ],
+          "options": 0,
+          "rect": [
+           112,
+           62,
+           1216,
+           71
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.cmp-search__input"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.cmp-search__input"
+          },
+          {
+           "kind": "animation",
+           "prop": "slideOutLight",
+           "ms": 500,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.search-container"
+          }
+         ],
+         "shot": "1440-012-close-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Shipping Insurance",
+            "href": "https://www.insureshield.com/us/en/shipping-insurance.html"
+           },
+           {
+            "text": "Solutions",
+            "href": "https://www.insureshield.com/us/en/legal/terms-and-conditions-upscia.html#"
+           },
+           {
+            "text": "Claims",
+            "href": "https://www.insureshield.com/us/en/claims.html"
+           },
+           {
+            "text": "Partners",
+            "href": "https://www.insureshield.com/us/en/partners.html"
+           },
+           {
+            "text": "Resources",
+            "href": "https://www.insureshield.com/us/en/resources.html"
+           },
+           {
+            "text": "About",
+            "href": "https://www.insureshield.com/us/en/about.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Search Toggle"
+          ],
+          "options": 0,
+          "rect": [
+           112,
+           62,
+           1216,
+           71
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.cmp-search__input"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.cmp-search__input"
+          },
+          {
+           "kind": "animation",
+           "prop": "slideOutLight",
+           "ms": 500,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.search-container"
+          }
+         ],
+         "shot": "1440-013-close-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": []
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 40,
+     "height": 115,
+     "position": "relative",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 115,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 115,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 40,
+     "height": 115,
+     "position": "relative",
+     "inView": true
+    }
+   ],
+   "states": 13,
+   "truncated": null,
+   "loads": 12,
+   "requests": 569,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": "quote"
+}

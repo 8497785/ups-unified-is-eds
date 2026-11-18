@@ -1,0 +1,70 @@
+/* region-selector archetype — us-en-global-html
+   Module: language selector (language-selector.min.css #ups-langSelect + theme-insure-shield #ups-langSelect rules).
+   Chrome: header is logo-only on this page (no alerts / utility / nav / search) — markup omits them, canon rules apply. */
+
+/* live #container-713eed9db4 contains the module margins (measure: Δh -60 at 1440 and 360 before this) */
+.tpl-region .page-main { display: flow-root; }
+
+/* ---------- container (#ups-langSelect: margin-bottom 6rem; >=768 margin 30px auto) ---------- */
+.rsel { margin-bottom: 6rem; }
+@media (min-width: 768px) { .rsel { margin: 30px auto; } }
+
+/* bootstrap col-md-9 / col-md-3 */
+@media (min-width: 768px) {
+  .row > .rsel__map-col { flex-basis: 75%; max-width: 75%; }
+  .row > .rsel__acc-col { flex-basis: 25%; max-width: 25%; }
+}
+
+/* ---------- title (#ups-langSelect h1 + :before) ---------- */
+.rsel__title {
+  position: relative; font-size: 2rem; line-height: 1.2; font-weight: 400;
+  margin: 0 0 2rem; padding-bottom: .6rem;
+}
+.rsel__title::before { content: ""; position: absolute; left: 0; bottom: 0; width: 120px; height: 1px; background: #3fa29d; }
+@media (min-width: 768px) { .rsel__title { font-size: 3.2rem; margin-bottom: 3rem; } }
+
+/* ---------- map (.ups-langSelect_map, #ups-svg-countries) ---------- */
+.rsel__map { position: relative; width: 100%; height: 0; padding-top: 55%; }
+.rsel__map svg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.rsel__map svg g * { cursor: pointer; fill: #8c857e; }
+.rsel__map svg g.ups-svg_disabled *, .rsel__map svg g.ups-svg_disabled:hover * { cursor: default; fill: #dfdbd7; }
+.rsel__map svg g.ups-mousein *, .rsel__map svg g:hover * { fill: #77c2c2; }
+.rsel__map svg g.ups-active * { fill: #3fa29d; }
+.rsel__map svg g.ups-active:hover * { fill: #77c2c2; }
+.rsel__map svg g:focus { outline-width: 0; }
+
+/* ---------- accordion (.ups-langSelect_accordion) ---------- */
+.row > .rsel__acc-col { margin: 0 -3px; padding: 0 3px 0 10px; }
+@media (min-width: 768px) { .row > .rsel__acc-col { padding: 0 10px; } }
+@media (min-width: 992px) { .row > .rsel__acc-col { margin: 0 -5px; } }
+.rsel__acc { border: 1px solid #8c857e; }
+.rsel__item { position: relative; min-height: 4.5rem; border-top: 1px solid #8c857e; transition: all .5s; }
+.rsel__item:first-child { border: none; }
+.rsel__toggle {
+  position: relative; display: block; width: 100%; margin: 0; text-align: left;
+  background: #fff; border: 0; color: #121212;
+  font-family: var(--is-font); font-size: 1.6rem; line-height: 1.5; font-weight: 700;
+  padding: 2rem 4rem 1.6rem 1.6rem;
+  text-decoration: none; cursor: pointer;
+  transition: all .15s;
+}
+.rsel__toggle:focus { outline-color: #c67d30; outline-offset: -1px; }
+.rsel__toggle:hover, .rsel__toggle.ups-mousein { background-color: #77c2c2; color: #000; text-decoration: none; }
+.rsel__toggle.ups-active { background-color: #3fa29d; color: #fff; }
+.rsel__toggle.ups-active:hover, .rsel__toggle.ups-active.ups-mousein { background-color: #77c2c2; color: #000; }
+.rsel__toggle .upspr-icon-chevrondown {
+  position: absolute; right: 1rem; top: 50%;
+  font-size: 1.2rem; line-height: inherit; vertical-align: middle;
+  transform: translateY(-50%) rotate(0);
+}
+/* source sets the .5s transform transition only on the active item's chevron */
+.rsel__item.ups-active .rsel__toggle .upspr-icon-chevrondown { transform: translateY(-50%) rotate(180deg); transition: transform .5s; }
+
+.rsel__links {
+  display: none; max-height: 0; overflow: hidden auto;
+  margin: 0; padding: 3rem; list-style: none; background: #fff;
+  transition: max-height .3s;
+}
+.rsel__item.ups-active .rsel__links { display: block; max-height: 33rem; padding: 0 1.5rem; }
+.rsel__links a { display: block; padding: 15px 5px 15px 0; color: #000; text-decoration: none; }
+.rsel__links a:hover { color: #5f5656; text-decoration: underline; }

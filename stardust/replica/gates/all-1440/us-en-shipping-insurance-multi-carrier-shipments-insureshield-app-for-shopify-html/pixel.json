@@ -1,0 +1,66 @@
+{
+  "a": "stardust/replica/gates/all-1440/us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html/origin.png",
+  "b": "stardust/replica/gates/all-1440/us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3850,
+    "mode": "overlap"
+  },
+  "heightDelta": -6,
+  "differingPixels": 376540,
+  "pct": 6.79,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 14.55,
+  "textBoxes": 88,
+  "textPixels": 464145,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 17.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 10.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 2.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 4.9
+    },
+    {
+      "y0": 3500,
+      "y1": 3850,
+      "pct": 2.3
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify"
+  }
+}

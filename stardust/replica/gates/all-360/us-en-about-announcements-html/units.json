@@ -1,0 +1,204 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-18T11:04:48.161Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.insureshield.com/us/en/about/announcements.html",
+  "at": "2026-11-18T07:47:55.802Z",
+  "docH": 1949
+ },
+ "eds": {
+  "url": "https://main--9ade650b--aemcoder.aem.page/us/en/about/announcements",
+  "at": "2026-11-18T11:04:48.046Z",
+  "docH": 1949
+ },
+ "results": [
+  {
+   "sel": ".slick-active > .story-card--list__item__card=.stories__slide.is-active > .story, .story-card-carousel .stories-slide:not([aria-hidden]) > .story",
+   "family": null,
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.slick-track > div#slick-slide00 > a.story-card--list__item__card"
+     },
+     "eds": {
+      "path": "div.stories-track > div.stories-slide > a.story"
+     },
+     "rows": [
+      {
+       "key": "text:announcements",
+       "role": "text",
+       "text": "announcements",
+       "edsText": "announcements",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 228,
+        "h": 12
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 228,
+        "h": 12,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "10/12/500",
+        "eds": "10/12/500"
+       }
+      },
+      {
+       "key": "text:ups capital launches its commerceshield™",
+       "role": "text",
+       "text": "ups capital launches its commerceshield™ technology, an end-",
+       "edsText": "ups capital launches its commerceshield™ technology, an end-",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 60,
+        "w": 228,
+        "h": 96
+       },
+       "eds": {
+        "x": 32,
+        "y": 60,
+        "w": 228,
+        "h": 96,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      },
+      {
+       "key": "text:powered by predictive ai, the commercesh",
+       "role": "text",
+       "text": "powered by predictive ai, the commerceshield™ solution is de",
+       "edsText": "powered by predictive ai, the commerceshield™ solution is de",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 168,
+        "w": 228,
+        "h": 192
+       },
+       "eds": {
+        "x": 32,
+        "y": 168,
+        "w": 228,
+        "h": 192,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:read more",
+       "role": "text",
+       "text": "read more",
+       "edsText": "read more",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 376,
+        "w": 228,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 376,
+        "w": 228,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 34,
+       "y": 612,
+       "w": 292,
+       "h": 432
+      },
+      "eds": {
+       "x": 34,
+       "y": 612,
+       "w": 292,
+       "h": 432
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 1,
+  "within": 4,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

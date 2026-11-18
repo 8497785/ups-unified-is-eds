@@ -1,0 +1,101 @@
+{
+  "slug": "us-en-about-our-locations-html",
+  "type": "legal",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "breadcrumb",
+    "marketing-hero",
+    "office-list",
+    "pathways-cards"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "container",
+    "container",
+    "container",
+    "container"
+  ],
+  "canonShas": {
+    "header": "ff8ffe869d2c",
+    "footer": "79dfc8cc50c3",
+    "css": "481e893f2500"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Product Availability | InsureShield",
+    "description": "See which markets you can find InsureShield® services.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Product Availability | InsureShield",
+    "description": "See which markets you can find InsureShield® services.",
+    "url": "https://www.insureshield.com/us/en/about/our-locations.html"
+  },
+  "migratedAt": "2026-11-18T02:23:10Z",
+  "designMdSha": "3a53c3d58678",
+  "designJsonSha": "d5b1e78b9da2",
+  "sourceCurrentSha": "4fea852a7ab1",
+  "sourceProposedSha": "9505546cfe74",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [
+    "pathways-cards icon"
+  ],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/content/insureshield/us/en/press-releases",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/es/home.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/resources/help-and-support.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/about/newsroom.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/about",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/about/contact-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/shipping-insurance/select-my-coverage",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/shipping-insurance/get-a-quote",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/resources.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "us/en/about/our-locations.html",
+  "outputPathDefault": null,
+  "sidecar": "us/en/about/our-locations._meta.json",
+  "driverVersion": "1"
+}

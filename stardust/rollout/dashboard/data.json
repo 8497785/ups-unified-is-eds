@@ -1,0 +1,923 @@
+{
+  "generatedAt": "2026-11-18T14:25:41.862Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.insureshield.com/",
+    "liveHost": "main--9ade650b--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 96,
+    "prototyped": 96,
+    "deployed": 96,
+    "optimised": 0
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 96,
+    "optimised": 0
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "deployed",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 3
+    },
+    {
+      "slug": "ca-en-about-html",
+      "path": "/ca/en/about",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "ca-en-claims-html",
+      "path": "/ca/en/claims",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "ca-en-home-html",
+      "path": "/ca/en/home",
+      "stage": "deployed",
+      "templateId": "de-en-home-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "ca-en-partners-html",
+      "path": "/ca/en/partners",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "ca-en-resources-html",
+      "path": "/ca/en/resources",
+      "stage": "deployed",
+      "templateId": "gb-en-resources-html",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "ca-en-shipping-insurance-html",
+      "path": "/ca/en/shipping-insurance",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "de-de-cargo-insurance-html",
+      "path": "/de/de/cargo-insurance",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-de-claims-html",
+      "path": "/de/de/claims",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-de-home-html",
+      "path": "/de/de/home",
+      "stage": "deployed",
+      "templateId": "de-en-home-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-en-about-html",
+      "path": "/de/en/about",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "de-en-alerts-html",
+      "path": "/de/en/alerts",
+      "stage": "deployed",
+      "templateId": "us-en-customer-communications-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "de-en-cargo-insurance-html",
+      "path": "/de/en/cargo-insurance",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "de-en-claims-html",
+      "path": "/de/en/claims",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "de-en-home-html",
+      "path": "/de/en/home",
+      "stage": "deployed",
+      "templateId": "de-en-home-html",
+      "isTemplate": true,
+      "openFindings": 3
+    },
+    {
+      "slug": "de-en-partners-html",
+      "path": "/de/en/partners",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "de-en-resources-html",
+      "path": "/de/en/resources",
+      "stage": "deployed",
+      "templateId": "gb-en-resources-html",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "gb-en-about-html",
+      "path": "/gb/en/about",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "gb-en-alerts-html",
+      "path": "/gb/en/alerts",
+      "stage": "deployed",
+      "templateId": "us-en-customer-communications-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "gb-en-cargo-insurance-html",
+      "path": "/gb/en/cargo-insurance",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "gb-en-claims-html",
+      "path": "/gb/en/claims",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "gb-en-home-html",
+      "path": "/gb/en/home",
+      "stage": "deployed",
+      "templateId": "de-en-home-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "gb-en-other-ups-sites-html",
+      "path": "/gb/en/other-ups-sites",
+      "stage": "deployed",
+      "templateId": "us-en-customer-communications-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "gb-en-resources-html",
+      "path": "/gb/en/resources",
+      "stage": "deployed",
+      "templateId": "gb-en-resources-html",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "it-en-about-html",
+      "path": "/it/en/about",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "it-en-alerts-html",
+      "path": "/it/en/alerts",
+      "stage": "deployed",
+      "templateId": "us-en-customer-communications-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "it-en-cargo-insurance-html",
+      "path": "/it/en/cargo-insurance",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "it-en-claims-html",
+      "path": "/it/en/claims",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "it-en-home-html",
+      "path": "/it/en/home",
+      "stage": "deployed",
+      "templateId": "de-en-home-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "it-en-resources-html",
+      "path": "/it/en/resources",
+      "stage": "deployed",
+      "templateId": "gb-en-resources-html",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "it-it-about-html",
+      "path": "/it/it/about",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "it-it-alerts-html",
+      "path": "/it/it/alerts",
+      "stage": "deployed",
+      "templateId": "us-en-customer-communications-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "it-it-cargo-insurance-html",
+      "path": "/it/it/cargo-insurance",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "it-it-claims-html",
+      "path": "/it/it/claims",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "it-it-home-html",
+      "path": "/it/it/home",
+      "stage": "deployed",
+      "templateId": "de-en-home-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "it-it-resources-html",
+      "path": "/it/it/resources",
+      "stage": "deployed",
+      "templateId": "gb-en-resources-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-about-html",
+      "path": "/us/en/about",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "us-en-about-announcements-html",
+      "path": "/us/en/about/announcements",
+      "stage": "deployed",
+      "templateId": "gb-en-resources-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-about-contact-us-html",
+      "path": "/us/en/about/contact-us",
+      "stage": "deployed",
+      "templateId": "us-en-about-contact-us-html",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-about-our-locations-html",
+      "path": "/us/en/about/our-locations",
+      "stage": "deployed",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-claims-html",
+      "path": "/us/en/claims",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-claims-channel-partners-claims-html",
+      "path": "/us/en/claims/channel-partners-claims",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-claims-insureshield-ups-claims-support-html",
+      "path": "/us/en/claims/insureshield-ups-claims-support",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-customer-communications-html",
+      "path": "/us/en/customer-communications",
+      "stage": "deployed",
+      "templateId": "us-en-customer-communications-html",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-customer-communications-confirm-contact-information-html",
+      "path": "/us/en/customer-communications/confirm-contact-information",
+      "stage": "deployed",
+      "templateId": "us-en-about-contact-us-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "us-en-customer-communications-enhanced-declared-value-html",
+      "path": "/us/en/customer-communications/enhanced-declared-value",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "us-en-customer-communications-updated-contact-information-html",
+      "path": "/us/en/customer-communications/updated-contact-information",
+      "stage": "deployed",
+      "templateId": "us-en-about-contact-us-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "us-en-global-html",
+      "path": "/us/en/global",
+      "stage": "deployed",
+      "templateId": "us-en-global-html",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-legal-cookie-settings-html",
+      "path": "/us/en/legal/cookie-settings",
+      "stage": "deployed",
+      "templateId": "us-en-customer-communications-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-legal-product-disclosure-html",
+      "path": "/us/en/legal/product-disclosure",
+      "stage": "deployed",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-legal-technology-agreement-html",
+      "path": "/us/en/legal/technology-agreement",
+      "stage": "deployed",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-gallagher-affinity-html",
+      "path": "/us/en/legal/terms-and-conditions-gallagher-affinity",
+      "stage": "deployed",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-html",
+      "path": "/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage",
+      "stage": "deployed",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-of-service-and-explanation-of-coverage-users-html",
+      "path": "/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage-users",
+      "stage": "deployed",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "us-en-legal-terms-and-conditions-upscia-html",
+      "path": "/us/en/legal/terms-and-conditions-upscia",
+      "stage": "deployed",
+      "templateId": "us-en-legal-terms-and-conditions-upscia-html",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-page-deletion-html",
+      "path": "/us/en/page-deletion",
+      "stage": "deployed",
+      "templateId": "us-en-customer-communications-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "us-en-partners-html",
+      "path": "/us/en/partners",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "us-en-partners-3pl-partners-html",
+      "path": "/us/en/partners/3pl-partners",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "us-en-partners-become-a-partner-html",
+      "path": "/us/en/partners/become-a-partner",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-partners-connect-with-a-partner-html",
+      "path": "/us/en/partners/connect-with-a-partner",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-promotional-delivery-defense-mockup-html",
+      "path": "/us/en/promotional/delivery-defense-mockup",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "us-en-promotional-insureshield-benefits-html",
+      "path": "/us/en/promotional/insureshield-benefits",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-promotional-prod-form-test-html",
+      "path": "/us/en/promotional/prod-form-test",
+      "stage": "deployed",
+      "templateId": "us-en-about-contact-us-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-promotional-webinars-html",
+      "path": "/us/en/promotional/webinars",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "us-en-resources-customer-stories-html",
+      "path": "/us/en/resources/customer-stories",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-resources-help-and-support-html",
+      "path": "/us/en/resources/help-and-support",
+      "stage": "deployed",
+      "templateId": "us-en-about-contact-us-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-resources-insights-html",
+      "path": "/us/en/resources/insights",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-resources-the-logistics-lowdown-html",
+      "path": "/us/en/resources/the-logistics-lowdown",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-resources-webinars-html",
+      "path": "/us/en/resources/webinars",
+      "stage": "deployed",
+      "templateId": "us-en-customer-communications-html",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "us-en-resources-whitepapers-and-guides-html",
+      "path": "/us/en/resources/whitepapers-and-guides",
+      "stage": "deployed",
+      "templateId": "gb-en-resources-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-risk-mitigation-risk-intelligence-smb2-html",
+      "path": "/us/en/risk-mitigation/risk-intelligence-smb2",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-securecommerce-html",
+      "path": "/us/en/securecommerce",
+      "stage": "deployed",
+      "templateId": "index",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "us-en-shipping-insurance-html",
+      "path": "/us/en/shipping-insurance",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-html",
+      "isTemplate": true,
+      "openFindings": 3
+    },
+    {
+      "slug": "us-en-shipping-insurance-b2b-html",
+      "path": "/us/en/shipping-insurance/b2b",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-shipping-insurance-checkout-protection-html",
+      "path": "/us/en/shipping-insurance/checkout-protection",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-shipping-insurance-consumer-electronics-and-technology-html",
+      "path": "/us/en/shipping-insurance/consumer-electronics-and-technology",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-shipping-insurance-get-a-quote-html",
+      "path": "/us/en/shipping-insurance/get-a-quote",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-html",
+      "path": "/us/en/shipping-insurance/multi-carrier-shipments",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-app-for-shopify-html",
+      "path": "/us/en/shipping-insurance/multi-carrier-shipments/insureshield-app-for-shopify",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-complete-html",
+      "path": "/us/en/shipping-insurance/multi-carrier-shipments/insureshield-complete",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-shipping-insurance-multi-carrier-shipments-insureshield-connect-html",
+      "path": "/us/en/shipping-insurance/multi-carrier-shipments/insureshield-connect",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-shipping-insurance-retail-html",
+      "path": "/us/en/shipping-insurance/retail",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-shipping-insurance-select-my-coverage-html",
+      "path": "/us/en/shipping-insurance/select-my-coverage",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-shipping-insurance-special-commodities-html",
+      "path": "/us/en/shipping-insurance/special-commodities",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-shipping-insurance-ups-shipments-html",
+      "path": "/us/en/shipping-insurance/ups-shipments",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-risk-mitigation-risk-intelligence-smb-html",
+      "path": "/us/en/solutions/commerceshield",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "us-en-solutions-commerceshield-html",
+      "path": "/us/en/solutions/commerceshield",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "us-en-solutions-delivery-defense-html",
+      "path": "/us/en/solutions/delivery-defense",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "us-en-solutions-delivery-defense-learning-center-html",
+      "path": "/us/en/solutions/delivery-defense/learning-center",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-html",
+      "path": "/us/en/solutions/delivery-orchestration",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-delivery-html",
+      "path": "/us/en/solutions/delivery-orchestration/delivery",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-pickup-html",
+      "path": "/us/en/solutions/delivery-orchestration/pickup",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-solutions-delivery-orchestration-returns-html",
+      "path": "/us/en/solutions/delivery-orchestration/returns",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-b2b-html",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-solutions-insureshield-shipping-insurance-html",
+      "path": "/us/en/solutions/insureshield-shipping-insurance",
+      "stage": "deployed",
+      "templateId": "us-en-shipping-insurance-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "us-en-test-deletion-html",
+      "path": "/us/en/test-deletion",
+      "stage": "deployed",
+      "templateId": "us-en-customer-communications-html",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "us-en-test-deletion1-html",
+      "path": "/us/en/test-deletion1",
+      "stage": "deployed",
+      "templateId": "us-en-customer-communications-html",
+      "isTemplate": false,
+      "openFindings": 3
+    }
+  ],
+  "templates": [
+    {
+      "id": "de-en-home-html",
+      "archetype": "de-en-home-html",
+      "pageCount": 6,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 6,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "gb-en-resources-html",
+      "archetype": "gb-en-resources-html",
+      "pageCount": 7,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 7,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 2,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "us-en-about-contact-us-html",
+      "archetype": "us-en-about-contact-us-html",
+      "pageCount": 5,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 5,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "us-en-customer-communications-html",
+      "archetype": "us-en-customer-communications-html",
+      "pageCount": 11,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 11,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "us-en-global-html",
+      "archetype": "us-en-global-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "us-en-legal-terms-and-conditions-upscia-html",
+      "archetype": "us-en-legal-terms-and-conditions-upscia-html",
+      "pageCount": 7,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 7,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "us-en-shipping-insurance-b2b-html",
+      "archetype": "us-en-shipping-insurance-b2b-html",
+      "pageCount": 55,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 55,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "us-en-shipping-insurance-html",
+      "archetype": "us-en-shipping-insurance-html",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 2,
+        "optimised": 0
+      }
+    }
+  ],
+  "blocks": {
+    "total": 23,
+    "converted": 23
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": 100
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      59,
+      67,
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 127
+    },
+    "byAutofix": {}
+  }
+}

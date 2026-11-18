@@ -1,0 +1,66 @@
+{
+  "a": "stardust/replica/gates/all-1440/us-en-resources-whitepapers-and-guides-html/origin.png",
+  "b": "stardust/replica/gates/all-1440/us-en-resources-whitepapers-and-guides-html/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3746,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 42051,
+  "pct": 0.78,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/us-en-resources-whitepapers-and-guides-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 5.31,
+  "textBoxes": 115,
+  "textPixels": 567522,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 1.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.8
+    },
+    {
+      "y0": 3500,
+      "y1": 3746,
+      "pct": 0
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--9ade650b--aemcoder.aem.page/us/en/resources/whitepapers-and-guides"
+  }
+}

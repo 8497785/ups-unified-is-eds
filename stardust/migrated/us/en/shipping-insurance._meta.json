@@ -1,0 +1,123 @@
+{
+  "slug": "us-en-shipping-insurance-html",
+  "type": "shipping-hub",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "sh-hero",
+    "sh-compare",
+    "sh-tiles",
+    "sh-benefits",
+    "sh-band",
+    "sh-faq"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "div",
+    "sh-section",
+    "sh-section",
+    "sh-section",
+    "sh-band",
+    "sh-section"
+  ],
+  "canonShas": {
+    "header": "dc61bd9e4652",
+    "footer": "23da11401205",
+    "css": "481e893f2500"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Shipping Insurance for Businesses | InsureShield®",
+    "description": "Protect UPS, multi-carrier, LTL, and international freight shipments from covered loss, damage, and theft with InsureShield shipping insurance.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Shipping Insurance for Businesses | InsureShield®",
+    "description": "Protect UPS, multi-carrier, LTL, and international freight shipments from covered loss, damage, and theft with InsureShield shipping insurance.",
+    "url": "https://www.insureshield.com/us/en/shipping-insurance.html"
+  },
+  "migratedAt": "2026-11-17T22:32:50Z",
+  "designMdSha": "3a53c3d58678",
+  "designJsonSha": "d5b1e78b9da2",
+  "sourceCurrentSha": "fa63171bb78a",
+  "sourceProposedSha": "f624fdef6229",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 22,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.insureshield.com/us/en/site-search.html?utm_source=onsite&utm_medium=shippinginsurancev2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.insureshield.com/us/en/claims.html?utm_source=onsite&utm_medium=shippinginsurancev2",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.insureshield.com/us/en/resources/insights/carrier-liability-versus-insurance.html?utm_source=onsite&utm_medium=shippinginsurancev2&utm_content=benefits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.insureshield.com/us/en/solutions/commerceshield.html?utm_source=onsite&utm_medium=shippinginsurancev2&utm_content=card",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.insureshield.com/us/en/resources/insights.html?utm_source=onsite&utm_medium=shippinginsurancev2",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.insureshield.com/us/en/resources/customer-stories/RAE-Solutions.html?utm_source=onsite&utm_medium=shippinginsurancev2&utm_content=card",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.insureshield.com/us/en/resources/customer-stories/Proof.html?utm_source=onsite&utm_medium=shippinginsurancev2&utm_content=card",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.insureshield.com/us/en/resources/insights/what-is-shipping-insurance.html?utm_source=onsite&utm_medium=shippinginsurancev2&utm_content=card",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.insureshield.com/us/en/resources/insights/carrier-liability-versus-insurance.html?utm_source=onsite&utm_medium=shippinginsurancev2&utm_content=card",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.insureshield.com/us/en/claims.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.insureshield.com/us/en/partners.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.insureshield.com/us/en/resources/insights.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.insureshield.com/us/en/about.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.insureshield.com/us/en/legal/technology-agreement.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.insureshield.com/us/en/legal/product-disclosure.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "us/en/shipping-insurance.html",
+  "outputPathDefault": null,
+  "sidecar": "us/en/shipping-insurance._meta.json",
+  "driverVersion": "1"
+}

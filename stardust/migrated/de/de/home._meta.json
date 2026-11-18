@@ -1,0 +1,189 @@
+{
+  "slug": "de-de-home-html",
+  "type": "locale-home",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "homepage-hero",
+    "pathways-cards",
+    "featured-list",
+    "featured-promo",
+    "story-card-grid",
+    "secondary-promo"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "hph",
+    "container",
+    "container",
+    "container",
+    "container",
+    "container",
+    "container",
+    "fpromo",
+    "container",
+    "container",
+    "spromo",
+    "container"
+  ],
+  "canonShas": {
+    "header": "8a900c786783",
+    "footer": "ea4c8519cb12",
+    "css": "481e893f2500"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "InsureShield® Transport- versicherung | InsureShield",
+    "description": "Die Transportversicherung Insureshield® bietet umfassenden Schutz bei Verlust oder Beschädigung der Sendung.",
+    "canonical": null,
+    "lang": "en-DE"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "InsureShield® Transport- versicherung | InsureShield",
+    "description": "Die Transportversicherung Insureshield® bietet umfassenden Schutz bei Verlust oder Beschädigung der Sendung.",
+    "url": "https://www.insureshield.com/de/de/home.html"
+  },
+  "migratedAt": "2026-11-18T00:26:49Z",
+  "designMdSha": "3a53c3d58678",
+  "designJsonSha": "d5b1e78b9da2",
+  "sourceCurrentSha": "dda4bfa88a36",
+  "sourceProposedSha": "b68ed9caa0ad",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/en/about/contact-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/en/global.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/en/cargo-insurance/get-a-quote.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/en/cargo-insurance/connectivity-tools.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/en/resources.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/en/resources/customer-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/en/resources/insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/en/resources/help-and-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/en/about/product-availability.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/en/about/contact-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/de/cargo-insurance/get-a-quote.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/de/cargo-insurance/get-a-quote.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/de/resources/customer-stories/JCR-Distributors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/de/resources/customer-stories/BikeFlights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/de/resources/customer-stories/Data-Vision.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/de/resources/insights/what-is-shipping-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/de/resources/insights/what-are-incoterms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/de/resources/insights/cargo-insurance-cost.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/de/resources/insights/ocean-limits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/de/resources/insights/inventory-protection.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/de/resources/insights/photos-to-support-claim.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/de/resources/insights/claims-time-saving-tips.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/de/resources/insights/mitigate-supply-chain-risk.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/de/about/contact-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/en/resources.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/en/legal/technology-agreement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/en/legal/product-disclosure.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/en/legal/complaints.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/en/legal/impressum.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/en/legal/privacy-notice.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "de/de/home.html",
+  "outputPathDefault": null,
+  "sidecar": "de/de/home._meta.json",
+  "driverVersion": "1"
+}

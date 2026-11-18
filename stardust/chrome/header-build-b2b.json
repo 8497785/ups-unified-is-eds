@@ -1,0 +1,3384 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/b2b",
+ "at": "2026-11-18T14:17:13.460Z",
+ "shots": "stardust/.work/chrome/header-build-b2b",
+ "widths": {
+  "390": {
+   "root": "body>header>div>div>div",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div>div>div>div>div:nth-of-type(1)>p>a",
+     "href": "https://main--9ade650b--aemcoder.aem.live/us/en/securecommerce",
+     "expanded": null,
+     "rect": [
+      32,
+      138,
+      149,
+      55
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Toggle navigation Menu",
+     "key": "toggle navigation menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>header>div>div>div>div>div>div>div:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      268,
+      144,
+      44,
+      44
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Log In",
+          "href": "https://online.upscapital.com/login"
+         },
+         {
+          "text": "Get a Quote",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/get-a-quote?int_snav"
+         },
+         {
+          "text": "Contact Us",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/about/contact-us?int_snav"
+         },
+         {
+          "text": "Shipping Insurance",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance"
+         },
+         {
+          "text": "Solutions",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/b2b#solutions"
+         },
+         {
+          "text": "Claims",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/claims"
+         },
+         {
+          "text": "Partners",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/partners"
+         },
+         {
+          "text": "Resources",
+          "href": "https://www.insureshield.com/us/en/resources.html"
+         },
+         {
+          "text": "About",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/about"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "United States - English",
+         "Shipping Insurance menu",
+         "Solutions menu",
+         "Partners menu",
+         "Resources menu",
+         "About menu"
+        ],
+        "options": 0,
+        "rect": [
+         78,
+         215,
+         312,
+         629
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hdr-burger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span.hdr-burger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hdr-burger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "left",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hdr-burger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hdr-menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "right",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hdr-menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.hdr-nav-toggle"
+        },
+        {
+         "kind": "transition",
+         "prop": "top",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hdr-burger-icon"
+        }
+       ],
+       "shot": "390-001-Toggle-navigation-Menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Log In",
+          "href": "https://online.upscapital.com/login"
+         },
+         {
+          "text": "Get a Quote",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/get-a-quote?int_snav"
+         },
+         {
+          "text": "Contact Us",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/about/contact-us?int_snav"
+         },
+         {
+          "text": "Shipping Insurance",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance"
+         },
+         {
+          "text": "Solutions",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/b2b#solutions"
+         },
+         {
+          "text": "Claims",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/claims"
+         },
+         {
+          "text": "Partners",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/partners"
+         },
+         {
+          "text": "Resources",
+          "href": "https://www.insureshield.com/us/en/resources.html"
+         },
+         {
+          "text": "About",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/about"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "United States - English",
+         "Shipping Insurance menu",
+         "Solutions menu",
+         "Partners menu",
+         "Resources menu",
+         "About menu"
+        ],
+        "options": 0,
+        "rect": [
+         78,
+         215,
+         312,
+         629
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hdr-burger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span.hdr-burger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hdr-burger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "left",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hdr-burger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hdr-menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "right",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hdr-menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.hdr-nav-toggle"
+        },
+        {
+         "kind": "transition",
+         "prop": "top",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hdr-burger-icon"
+        }
+       ],
+       "shot": "390-002-Toggle-navigation-Menu-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "United States - English",
+       "key": "united states english",
+       "role": "toggle",
+       "kind": "locale",
+       "sel": "#hdr-menu>div>nav:nth-of-type(1)>ul>li:nth-of-type(4)>button",
+       "expanded": "false",
+       "rect": [
+        118,
+        790,
+        183,
+        24
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "United States - English",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/b2b"
+           },
+           {
+            "text": "Estados Unidos - Español",
+            "href": "https://www.insureshield.com/us/es/home.html"
+           },
+           {
+            "text": "Select Another Country or Territory",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/global"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           118,
+           826,
+           232,
+           18
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "span.upspr-icon-chevrondown"
+          }
+         ],
+         "shot": "390-003-United-States---English-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "United States - English",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/b2b"
+           },
+           {
+            "text": "Estados Unidos - Español",
+            "href": "https://www.insureshield.com/us/es/home.html"
+           },
+           {
+            "text": "Select Another Country or Territory",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/global"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           118,
+           826,
+           232,
+           18
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "span.upspr-icon-chevrondown"
+          }
+         ],
+         "shot": "390-004-United-States---English-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": true,
+        "toggle": true
+       },
+       "children": [
+        {
+         "name": "United States - English",
+         "key": "united states english",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#hdr-menu>div>nav:nth-of-type(1)>ul>li:nth-of-type(4)>div>ul>li:nth-of-type(1)>a",
+         "expanded": null,
+         "rect": [
+          118,
+          834,
+          232,
+          27
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/b2b"
+          },
+          "key": {
+           "opened": false,
+           "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/b2b"
+          }
+         }
+        },
+        {
+         "name": "Estados Unidos - Español",
+         "key": "estados unidos español",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#hdr-menu>div>nav:nth-of-type(1)>ul>li:nth-of-type(4)>div>ul>li:nth-of-type(2)>a",
+         "expanded": null,
+         "rect": [
+          118,
+          861,
+          232,
+          27
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "navigates": "https://www.insureshield.com/us/es/home.html"
+          },
+          "key": {
+           "opened": false,
+           "navigates": "https://www.insureshield.com/us/es/home.html"
+          }
+         }
+        },
+        {
+         "name": "Select Another Country or Territory",
+         "key": "select another country or territory",
+         "role": "toggle",
+         "kind": "locale",
+         "sel": "#hdr-menu>div>nav:nth-of-type(1)>ul>li:nth-of-type(4)>div>div>a",
+         "expanded": null,
+         "rect": [
+          118,
+          896,
+          232,
+          54
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/global"
+          },
+          "key": {
+           "opened": false,
+           "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/global"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "name": "Shipping Insurance",
+       "key": "shipping insurance",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#hdr-menu>div>nav:nth-of-type(2)>ul>li:nth-of-type(1)>a",
+       "expanded": "false",
+       "rect": [
+        123,
+        255,
+        222,
+        57
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance"
+        }
+       }
+      },
+      {
+       "name": "Shipping Insurance menu",
+       "key": "shipping insurance menu",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "#hdr-menu>div>nav:nth-of-type(2)>ul>li:nth-of-type(1)>button",
+       "expanded": "false",
+       "rect": [
+        301,
+        253,
+        44,
+        64
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Multi-Carrier Shipments",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/multi-carrier-shipments"
+           },
+           {
+            "text": "UPS Shipments",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/ups-shipments"
+           },
+           {
+            "text": "Special Commodities",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/special-commodities"
+           },
+           {
+            "text": "Select My Coverage",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/select-my-coverage"
+           },
+           {
+            "text": "Get a Quote",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/get-a-quote"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           123,
+           312,
+           222,
+           224
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "padding-top",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a"
+          }
+         ],
+         "shot": "390-005-Shipping-Insurance-menu-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Multi-Carrier Shipments",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/multi-carrier-shipments"
+           },
+           {
+            "text": "UPS Shipments",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/ups-shipments"
+           },
+           {
+            "text": "Special Commodities",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/special-commodities"
+           },
+           {
+            "text": "Select My Coverage",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/select-my-coverage"
+           },
+           {
+            "text": "Get a Quote",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/get-a-quote"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           123,
+           312,
+           222,
+           224
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "button.hdr-nav-toggle"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "button.hdr-nav-toggle"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "padding-top",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a"
+          }
+         ],
+         "shot": "390-006-Shipping-Insurance-menu-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Solutions",
+       "key": "solutions",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#hdr-menu>div>nav:nth-of-type(2)>ul>li:nth-of-type(2)>a",
+       "expanded": "false",
+       "rect": [
+        123,
+        316,
+        222,
+        57
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Solutions menu",
+       "key": "solutions menu",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "#hdr-menu>div>nav:nth-of-type(2)>ul>li:nth-of-type(2)>button",
+       "expanded": "false",
+       "rect": [
+        301,
+        314,
+        44,
+        64
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "CommerceShield",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/commerceshield"
+           },
+           {
+            "text": "DeliveryDefense",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/delivery-defense"
+           },
+           {
+            "text": "Delivery Orchestration",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/delivery-orchestration"
+           },
+           {
+            "text": "InsureShield® Shipping Insurance",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/insureshield-shipping-insurance"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           123,
+           373,
+           222,
+           204
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "padding-top",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a"
+          }
+         ],
+         "shot": "390-007-Solutions-menu-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "CommerceShield",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/commerceshield"
+           },
+           {
+            "text": "DeliveryDefense",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/delivery-defense"
+           },
+           {
+            "text": "Delivery Orchestration",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/delivery-orchestration"
+           },
+           {
+            "text": "InsureShield® Shipping Insurance",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/insureshield-shipping-insurance"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           123,
+           373,
+           222,
+           204
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "padding-top",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "button.hdr-nav-toggle"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "button.hdr-nav-toggle"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a"
+          }
+         ],
+         "shot": "390-008-Solutions-menu-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Partners",
+       "key": "partners",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#hdr-menu>div>nav:nth-of-type(2)>ul>li:nth-of-type(4)>a",
+       "expanded": "false",
+       "rect": [
+        123,
+        438,
+        222,
+        57
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/partners"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/partners"
+        }
+       }
+      },
+      {
+       "name": "Partners menu",
+       "key": "partners menu",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "#hdr-menu>div>nav:nth-of-type(2)>ul>li:nth-of-type(4)>button",
+       "expanded": "false",
+       "rect": [
+        301,
+        436,
+        44,
+        64
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Connect with a Partner",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/partners/connect-with-a-partner"
+           },
+           {
+            "text": "Become a Partner",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/partners/become-a-partner"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           123,
+           495,
+           222,
+           92
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "padding-top",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a"
+          }
+         ],
+         "shot": "390-009-Partners-menu-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Connect with a Partner",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/partners/connect-with-a-partner"
+           },
+           {
+            "text": "Become a Partner",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/partners/become-a-partner"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           123,
+           495,
+           222,
+           92
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "padding-top",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "button.hdr-nav-toggle"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "button.hdr-nav-toggle"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a"
+          }
+         ],
+         "shot": "390-010-Partners-menu-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Resources",
+       "key": "resources",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#hdr-menu>div>nav:nth-of-type(2)>ul>li:nth-of-type(5)>a",
+       "expanded": "false",
+       "rect": [
+        123,
+        499,
+        222,
+        57
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "navigates": "https://www.insureshield.com/us/en/resources.html"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://www.insureshield.com/us/en/resources.html"
+        }
+       }
+      },
+      {
+       "name": "Resources menu",
+       "key": "resources menu",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "#hdr-menu>div>nav:nth-of-type(2)>ul>li:nth-of-type(5)>button",
+       "expanded": "false",
+       "rect": [
+        301,
+        497,
+        44,
+        64
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Insights",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/resources/insights"
+           },
+           {
+            "text": "Whitepapers & Guides",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/resources/whitepapers-and-guides"
+           },
+           {
+            "text": "Customer Stories",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/resources/customer-stories"
+           },
+           {
+            "text": "Help & Support",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/resources/help-and-support"
+           },
+           {
+            "text": "The Logistics Lowdown",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/resources/the-logistics-lowdown"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           123,
+           556,
+           222,
+           224
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "padding-top",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a"
+          }
+         ],
+         "shot": "390-011-Resources-menu-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Insights",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/resources/insights"
+           },
+           {
+            "text": "Whitepapers & Guides",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/resources/whitepapers-and-guides"
+           },
+           {
+            "text": "Customer Stories",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/resources/customer-stories"
+           },
+           {
+            "text": "Help & Support",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/resources/help-and-support"
+           },
+           {
+            "text": "The Logistics Lowdown",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/resources/the-logistics-lowdown"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           123,
+           556,
+           222,
+           224
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "padding-top",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "button.hdr-nav-toggle"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "button.hdr-nav-toggle"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a"
+          }
+         ],
+         "shot": "390-012-Resources-menu-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "About",
+       "key": "about",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#hdr-menu>div>nav:nth-of-type(2)>ul>li:nth-of-type(6)>a",
+       "expanded": "false",
+       "rect": [
+        123,
+        560,
+        222,
+        56
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/about"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/about"
+        }
+       }
+      },
+      {
+       "name": "About menu",
+       "key": "about menu",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "#hdr-menu>div>nav:nth-of-type(2)>ul>li:nth-of-type(6)>button",
+       "expanded": "false",
+       "rect": [
+        301,
+        558,
+        44,
+        64
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Announcements",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/about/announcements"
+           },
+           {
+            "text": "In The News",
+            "href": "https://www.insureshield.com/us/en/about/newsroom.html"
+           },
+           {
+            "text": "Product Availability",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/about/our-locations"
+           },
+           {
+            "text": "Contact Us",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/about/contact-us"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           123,
+           616,
+           222,
+           180
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "padding-top",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a"
+          }
+         ],
+         "shot": "390-013-About-menu-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Announcements",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/about/announcements"
+           },
+           {
+            "text": "In The News",
+            "href": "https://www.insureshield.com/us/en/about/newsroom.html"
+           },
+           {
+            "text": "Product Availability",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/about/our-locations"
+           },
+           {
+            "text": "Contact Us",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/about/contact-us"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           123,
+           616,
+           222,
+           180
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "padding-top",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "ul.hdr-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "button.hdr-nav-toggle"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "button.hdr-nav-toggle"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a"
+          }
+         ],
+         "shot": "390-014-About-menu-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "toggle": true
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "Search Toggle",
+     "key": "search toggle",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>header>div>div>div>div>div>div>div:nth-of-type(3)>div>button",
+     "expanded": "false",
+     "rect": [
+      314,
+      144,
+      44,
+      44
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Search",
+         "close"
+        ],
+        "options": 0,
+        "rect": [
+         32,
+         153,
+         326,
+         176
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span.hdr-burger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.hdr-search-input"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.hdr-search-input"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.hdr-search-input"
+        },
+        {
+         "kind": "animation",
+         "prop": "slide-down-light",
+         "ms": 500,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.hdr-search-group"
+        }
+       ],
+       "shot": "390-015-Search-Toggle-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Search",
+         "close"
+        ],
+        "options": 0,
+        "rect": [
+         32,
+         153,
+         326,
+         176
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span.hdr-burger-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.hdr-search-input"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.hdr-search-input"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.hdr-search-input"
+        },
+        {
+         "kind": "animation",
+         "prop": "slide-down-light",
+         "ms": 500,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.hdr-search-group"
+        }
+       ],
+       "shot": "390-016-Search-Toggle-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "input",
+       "kind": "search",
+       "sel": "body>header>div>div>div>div>div>div>div:nth-of-type(3)>div>form>div>div>div>input",
+       "expanded": null,
+       "rect": [
+        32,
+        220,
+        326,
+        44
+       ],
+       "actions": {},
+       "search": {
+        "probe": "quote",
+        "typeahead": {
+         "links": 5,
+         "options": 5
+        },
+        "submit": "https://www.insureshield.com/us/en/site-search.html?q={q}"
+       }
+      },
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "body>header>div>div>div>div>div>div>div:nth-of-type(3)>div>form>div>div>button",
+       "expanded": null,
+       "rect": [
+        32,
+        284,
+        326,
+        44
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "navigates": "https://www.insureshield.com/us/en/site-search.html?q="
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://www.insureshield.com/us/en/site-search.html?q="
+        }
+       }
+      },
+      {
+       "name": "close",
+       "key": "close",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "body>header>div>div>div>div>div>div>div:nth-of-type(3)>div>form>div>button",
+       "expanded": null,
+       "rect": [
+        322,
+        153,
+        36,
+        26
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Toggle navigation Menu",
+           "Search Toggle"
+          ],
+          "options": 0,
+          "rect": [
+           266,
+           144,
+           92,
+           44
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.hdr-search-input"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.hdr-search-input"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.hdr-search-input"
+          },
+          {
+           "kind": "animation",
+           "prop": "slide-up-light",
+           "ms": 500,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.hdr-search-group"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "span.hdr-burger-icon"
+          }
+         ],
+         "shot": "390-017-close-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Toggle navigation Menu",
+           "Search Toggle"
+          ],
+          "options": 0,
+          "rect": [
+           266,
+           144,
+           92,
+           44
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.hdr-search-input"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.hdr-search-input"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.hdr-search-input"
+          },
+          {
+           "kind": "animation",
+           "prop": "slide-up-light",
+           "ms": 500,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.hdr-search-group"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "span.hdr-burger-icon"
+          }
+         ],
+         "shot": "390-018-close-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": []
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 116,
+     "height": 99,
+     "position": "relative",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 99,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 99,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 116,
+     "height": 99,
+     "position": "relative",
+     "inView": true
+    }
+   ],
+   "states": 18,
+   "truncated": null,
+   "loads": 2,
+   "requests": 90,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "body>header>div>div>div",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div>div>div>div>div:nth-of-type(1)>p>a",
+     "href": "https://main--9ade650b--aemcoder.aem.live/us/en/securecommerce",
+     "expanded": null,
+     "rect": [
+      112,
+      62,
+      165,
+      71
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Log In",
+     "key": "log in",
+     "role": "link",
+     "kind": "account",
+     "sel": "#hdr-menu>div>nav:nth-of-type(1)>ul>li:nth-of-type(1)>a",
+     "href": "https://online.upscapital.com/login",
+     "expanded": null,
+     "rect": [
+      888,
+      54,
+      38,
+      16
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Get a Quote",
+     "key": "get a quote",
+     "role": "link",
+     "kind": "link",
+     "sel": "#hdr-menu>div>nav:nth-of-type(1)>ul>li:nth-of-type(2)>a",
+     "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/get-a-quote?int_snav",
+     "expanded": null,
+     "rect": [
+      958,
+      54,
+      73,
+      16
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Contact Us",
+     "key": "contact us",
+     "role": "link",
+     "kind": "link",
+     "sel": "#hdr-menu>div>nav:nth-of-type(1)>ul>li:nth-of-type(3)>a",
+     "href": "https://main--9ade650b--aemcoder.aem.live/us/en/about/contact-us?int_snav",
+     "expanded": null,
+     "rect": [
+      1064,
+      54,
+      69,
+      16
+     ],
+     "actions": {}
+    },
+    {
+     "name": "United States - English",
+     "key": "united states english",
+     "role": "toggle",
+     "kind": "locale",
+     "sel": "#hdr-menu>div>nav:nth-of-type(1)>ul>li:nth-of-type(4)>button",
+     "expanded": "false",
+     "rect": [
+      1165,
+      52,
+      163,
+      21
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "United States - English",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/b2b"
+         },
+         {
+          "text": "Estados Unidos - Español",
+          "href": "https://www.insureshield.com/us/es/home.html"
+         },
+         {
+          "text": "Select Another Country or Territory",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/global"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1108,
+         85,
+         220,
+         152
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span.upspr-icon-chevrondown"
+        }
+       ],
+       "shot": "1440-001-United-States---English-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "United States - English",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/b2b"
+         },
+         {
+          "text": "Estados Unidos - Español",
+          "href": "https://www.insureshield.com/us/es/home.html"
+         },
+         {
+          "text": "Select Another Country or Territory",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/global"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1108,
+         85,
+         220,
+         152
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span.upspr-icon-chevrondown"
+        }
+       ],
+       "shot": "1440-002-United-States---English-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "United States - English",
+       "key": "united states english",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#hdr-menu>div>nav:nth-of-type(1)>ul>li:nth-of-type(4)>div>ul>li:nth-of-type(1)>a",
+       "expanded": null,
+       "rect": [
+        1108,
+        93,
+        220,
+        27
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/b2b"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/b2b"
+        }
+       }
+      },
+      {
+       "name": "Estados Unidos - Español",
+       "key": "estados unidos español",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#hdr-menu>div>nav:nth-of-type(1)>ul>li:nth-of-type(4)>div>ul>li:nth-of-type(2)>a",
+       "expanded": null,
+       "rect": [
+        1108,
+        120,
+        220,
+        46
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "navigates": "https://www.insureshield.com/us/es/home.html"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://www.insureshield.com/us/es/home.html"
+        }
+       }
+      },
+      {
+       "name": "Select Another Country or Territory",
+       "key": "select another country or territory",
+       "role": "toggle",
+       "kind": "locale",
+       "sel": "#hdr-menu>div>nav:nth-of-type(1)>ul>li:nth-of-type(4)>div>div>a",
+       "expanded": null,
+       "rect": [
+        1108,
+        175,
+        220,
+        54
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/global"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/global"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "Shipping Insurance",
+     "key": "shipping insurance",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#hdr-menu>div>nav:nth-of-type(2)>ul>li:nth-of-type(1)>a",
+     "expanded": "false",
+     "rect": [
+      317,
+      78,
+      141,
+      40
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Multi-Carrier Shipments",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/multi-carrier-shipments"
+         },
+         {
+          "text": "UPS Shipments",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/ups-shipments"
+         },
+         {
+          "text": "Special Commodities",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/special-commodities"
+         },
+         {
+          "text": "Select My Coverage",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/select-my-coverage"
+         },
+         {
+          "text": "Get a Quote",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/get-a-quote"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         155,
+         1440,
+         180
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.hdr-nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.hdr-nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a"
+        }
+       ],
+       "shot": "1440-003-Shipping-Insurance-hover.png"
+      },
+      "click": {
+       "opened": false,
+       "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": false
+     },
+     "children": []
+    },
+    {
+     "name": "Solutions",
+     "key": "solutions",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#hdr-menu>div>nav:nth-of-type(2)>ul>li:nth-of-type(2)>a",
+     "expanded": "false",
+     "rect": [
+      491,
+      78,
+      71,
+      40
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "CommerceShield",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/commerceshield"
+         },
+         {
+          "text": "DeliveryDefense",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/delivery-defense"
+         },
+         {
+          "text": "Delivery Orchestration",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/delivery-orchestration"
+         },
+         {
+          "text": "InsureShield® Shipping Insurance",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/insureshield-shipping-insurance"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         155,
+         1440,
+         180
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.hdr-nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.hdr-nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a"
+        }
+       ],
+       "shot": "1440-004-Solutions-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "CommerceShield",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/commerceshield"
+         },
+         {
+          "text": "DeliveryDefense",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/delivery-defense"
+         },
+         {
+          "text": "Delivery Orchestration",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/delivery-orchestration"
+         },
+         {
+          "text": "InsureShield® Shipping Insurance",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/insureshield-shipping-insurance"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         155,
+         1440,
+         180
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.hdr-nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.hdr-nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a"
+        }
+       ],
+       "shot": "1440-005-Solutions-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "CommerceShield",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/commerceshield"
+         },
+         {
+          "text": "DeliveryDefense",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/delivery-defense"
+         },
+         {
+          "text": "Delivery Orchestration",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/delivery-orchestration"
+         },
+         {
+          "text": "InsureShield® Shipping Insurance",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/solutions/insureshield-shipping-insurance"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         155,
+         1440,
+         180
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.hdr-nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.hdr-nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a"
+        }
+       ],
+       "shot": "1440-006-Solutions-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Claims",
+     "key": "claims",
+     "role": "link",
+     "kind": "link",
+     "sel": "#hdr-menu>div>nav:nth-of-type(2)>ul>li:nth-of-type(3)>a",
+     "href": "https://main--9ade650b--aemcoder.aem.live/us/en/claims",
+     "expanded": null,
+     "rect": [
+      594,
+      78,
+      53,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Partners",
+     "key": "partners",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#hdr-menu>div>nav:nth-of-type(2)>ul>li:nth-of-type(4)>a",
+     "expanded": "false",
+     "rect": [
+      679,
+      78,
+      66,
+      40
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Connect with a Partner",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/partners/connect-with-a-partner"
+         },
+         {
+          "text": "Become a Partner",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/partners/become-a-partner"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         155,
+         1440,
+         136
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.hdr-nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.hdr-nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a"
+        }
+       ],
+       "shot": "1440-007-Partners-hover.png"
+      },
+      "click": {
+       "opened": false,
+       "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/partners"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/partners"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": false
+     },
+     "children": []
+    },
+    {
+     "name": "Resources",
+     "key": "resources",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#hdr-menu>div>nav:nth-of-type(2)>ul>li:nth-of-type(5)>a",
+     "expanded": "false",
+     "rect": [
+      777,
+      78,
+      80,
+      40
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Insights",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/resources/insights"
+         },
+         {
+          "text": "Whitepapers & Guides",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/resources/whitepapers-and-guides"
+         },
+         {
+          "text": "Customer Stories",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/resources/customer-stories"
+         },
+         {
+          "text": "Help & Support",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/resources/help-and-support"
+         },
+         {
+          "text": "The Logistics Lowdown",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/resources/the-logistics-lowdown"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         155,
+         1440,
+         180
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.hdr-nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.hdr-nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a"
+        }
+       ],
+       "shot": "1440-008-Resources-hover.png"
+      },
+      "click": {
+       "opened": false,
+       "navigates": "https://www.insureshield.com/us/en/resources.html"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://www.insureshield.com/us/en/resources.html"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": false
+     },
+     "children": []
+    },
+    {
+     "name": "About",
+     "key": "about",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#hdr-menu>div>nav:nth-of-type(2)>ul>li:nth-of-type(6)>a",
+     "expanded": "false",
+     "rect": [
+      888,
+      78,
+      47,
+      40
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Announcements",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/about/announcements"
+         },
+         {
+          "text": "In The News",
+          "href": "https://www.insureshield.com/us/en/about/newsroom.html"
+         },
+         {
+          "text": "Product Availability",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/about/our-locations"
+         },
+         {
+          "text": "Contact Us",
+          "href": "https://main--9ade650b--aemcoder.aem.live/us/en/about/contact-us"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         155,
+         1440,
+         180
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.hdr-nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.hdr-nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "ul.hdr-sub"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a"
+        }
+       ],
+       "shot": "1440-009-About-hover.png"
+      },
+      "click": {
+       "opened": false,
+       "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/about"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://main--9ade650b--aemcoder.aem.live/us/en/about"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": false
+     },
+     "children": []
+    },
+    {
+     "name": "Search Toggle",
+     "key": "search toggle",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>header>div>div>div>div>div>div>div:nth-of-type(3)>div>button",
+     "expanded": "false",
+     "rect": [
+      1284,
+      89,
+      44,
+      44
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 7,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Search",
+         "close"
+        ],
+        "options": 0,
+        "rect": [
+         460,
+         71,
+         730,
+         52
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.hdr-nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.hdr-search-input"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.hdr-search-input"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.hdr-search-input"
+        },
+        {
+         "kind": "animation",
+         "prop": "slide-in-light",
+         "ms": 500,
+         "delay": 0,
+         "easing": "linear",
+         "target": "form.hdr-search-form"
+        }
+       ],
+       "shot": "1440-010-Search-Toggle-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 7,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Search",
+         "close"
+        ],
+        "options": 0,
+        "rect": [
+         460,
+         71,
+         730,
+         52
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.hdr-nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.hdr-search-input"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.hdr-search-input"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.hdr-search-input"
+        },
+        {
+         "kind": "animation",
+         "prop": "slide-in-light",
+         "ms": 500,
+         "delay": 0,
+         "easing": "linear",
+         "target": "form.hdr-search-form"
+        }
+       ],
+       "shot": "1440-011-Search-Toggle-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "input",
+       "kind": "search",
+       "sel": "body>header>div>div>div>div>div>div>div:nth-of-type(3)>div>form>div>div>div>input",
+       "expanded": null,
+       "rect": [
+        484,
+        75,
+        497,
+        44
+       ],
+       "actions": {},
+       "search": {
+        "probe": "quote",
+        "typeahead": {
+         "links": 5,
+         "options": 5
+        },
+        "submit": "https://www.insureshield.com/us/en/site-search.html?q={q}"
+       }
+      },
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "body>header>div>div>div>div>div>div>div:nth-of-type(3)>div>form>div>div>button",
+       "expanded": null,
+       "rect": [
+        997,
+        75,
+        124,
+        44
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "navigates": "https://www.insureshield.com/us/en/site-search.html?q="
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://www.insureshield.com/us/en/site-search.html?q="
+        }
+       }
+      },
+      {
+       "name": "close",
+       "key": "close",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "body>header>div>div>div>div>div>div>div:nth-of-type(3)>div>form>div>button",
+       "expanded": null,
+       "rect": [
+        1123,
+        75,
+        43,
+        44
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Shipping Insurance",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance"
+           },
+           {
+            "text": "Solutions",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/b2b#solutions"
+           },
+           {
+            "text": "Claims",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/claims"
+           },
+           {
+            "text": "Partners",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/partners"
+           },
+           {
+            "text": "Resources",
+            "href": "https://www.insureshield.com/us/en/resources.html"
+           },
+           {
+            "text": "About",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/about"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Search Toggle"
+          ],
+          "options": 0,
+          "rect": [
+           112,
+           62,
+           1216,
+           71
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.hdr-search-input"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.hdr-search-input"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.hdr-search-input"
+          },
+          {
+           "kind": "animation",
+           "prop": "slide-out-light",
+           "ms": 500,
+           "delay": 0,
+           "easing": "linear",
+           "target": "form.hdr-search-form"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a.hdr-nav-link"
+          }
+         ],
+         "shot": "1440-012-close-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Shipping Insurance",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance"
+           },
+           {
+            "text": "Solutions",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/b2b#solutions"
+           },
+           {
+            "text": "Claims",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/claims"
+           },
+           {
+            "text": "Partners",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/partners"
+           },
+           {
+            "text": "Resources",
+            "href": "https://www.insureshield.com/us/en/resources.html"
+           },
+           {
+            "text": "About",
+            "href": "https://main--9ade650b--aemcoder.aem.live/us/en/about"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Search Toggle"
+          ],
+          "options": 0,
+          "rect": [
+           112,
+           62,
+           1216,
+           71
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.hdr-search-input"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.hdr-search-input"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "input.hdr-search-input"
+          },
+          {
+           "kind": "animation",
+           "prop": "slide-out-light",
+           "ms": 500,
+           "delay": 0,
+           "easing": "linear",
+           "target": "form.hdr-search-form"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a.hdr-nav-link"
+          }
+         ],
+         "shot": "1440-013-close-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": []
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 40,
+     "height": 115,
+     "position": "relative",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 115,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 115,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 40,
+     "height": 115,
+     "position": "relative",
+     "inView": true
+    }
+   ],
+   "states": 13,
+   "truncated": null,
+   "loads": 2,
+   "requests": 90,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": "quote"
+}

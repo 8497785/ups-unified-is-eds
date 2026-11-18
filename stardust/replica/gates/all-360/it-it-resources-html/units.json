@@ -1,0 +1,492 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-18T11:04:09.380Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.insureshield.com/it/it/resources.html",
+  "at": "2026-11-18T07:47:19.315Z",
+  "docH": 3341
+ },
+ "eds": {
+  "url": "https://main--9ade650b--aemcoder.aem.page/it/it/resources",
+  "at": "2026-11-18T11:04:09.258Z",
+  "docH": 3341
+ },
+ "results": [
+  {
+   "sel": ".slick-active > .story-card--list__item__card=.stories__slide.is-active > .story, .story-card-carousel .stories-slide:not([aria-hidden]) > .story",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.slick-track > div#slick-slide00 > a.story-card--list__item__card"
+     },
+     "eds": {
+      "path": "div.stories-track > div.stories-slide > a.story"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 164
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 164,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "image:semi truck on fire on the side of the hi",
+       "role": "image",
+       "text": "semi truck on fire on the side of the highway.",
+       "edsText": "semi truck on fire on the side of the highway.",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 164
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 164,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:storie dei clienti",
+       "role": "text",
+       "text": "storie dei clienti",
+       "edsText": "storie dei clienti",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 196,
+        "w": 228,
+        "h": 12
+       },
+       "eds": {
+        "x": 32,
+        "y": 196,
+        "w": 228,
+        "h": 12,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "10/12/500",
+        "eds": "10/12/500"
+       }
+      },
+      {
+       "key": "heading:quando accadono incidenti a un carico so",
+       "role": "heading",
+       "text": "quando accadono incidenti a un carico solido",
+       "edsText": "quando accadono incidenti a un carico solido",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 224,
+        "w": 228,
+        "h": 38
+       },
+       "eds": {
+        "x": 32,
+        "y": 224,
+        "w": 228,
+        "h": 38,
+        "sel": "h3#quando-accadono-incidenti-a-un-carico-solido",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/19/500",
+        "eds": "16/19/500"
+       }
+      },
+      {
+       "key": "text:l'assicurazione del carico salva argus g",
+       "role": "text",
+       "text": "l'assicurazione del carico salva argus group da una perdita ",
+       "edsText": "l'assicurazione del carico salva argus group da una perdita ",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 274,
+        "w": 228,
+        "h": 72
+       },
+       "eds": {
+        "x": 32,
+        "y": 274,
+        "w": 228,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:per saperne di più",
+       "role": "text",
+       "text": "per saperne di più",
+       "edsText": "per saperne di più",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 386,
+        "w": 228,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 386,
+        "w": 228,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 34,
+       "y": 968,
+       "w": 292,
+       "h": 442
+      },
+      "eds": {
+       "x": 34,
+       "y": 968,
+       "w": 292,
+       "h": 442
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.slick-track > div#slick-slide10 > a.story-card--list__item__card"
+     },
+     "eds": {
+      "path": "div.stories-track > div.stories-slide > a.story"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 164
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 164,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "image:close up of hands holding and placing a ",
+       "role": "image",
+       "text": "close up of hands holding and placing a shipping label on a ",
+       "edsText": "close up of hands holding and placing a shipping label on a ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 164
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 164,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:approfondimenti per aiutare la tua azien",
+       "role": "text",
+       "text": "approfondimenti per aiutare la tua azienda",
+       "edsText": "approfondimenti per aiutare la tua azienda",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 196,
+        "w": 228,
+        "h": 26
+       },
+       "eds": {
+        "x": 32,
+        "y": 196,
+        "w": 228,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "10/12/500",
+        "eds": "10/12/500"
+       }
+      },
+      {
+       "key": "heading:cos'è l'assicurazione sulla spedizione?",
+       "role": "heading",
+       "text": "cos'è l'assicurazione sulla spedizione?",
+       "edsText": "cos'è l'assicurazione sulla spedizione?",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 239,
+        "w": 228,
+        "h": 38
+       },
+       "eds": {
+        "x": 32,
+        "y": 239,
+        "w": 228,
+        "h": 38,
+        "sel": "h3#cosè-lassicurazione-sulla-spedizione",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/19/500",
+        "eds": "16/19/500"
+       }
+      },
+      {
+       "key": "text:scopri i vantaggi per la tua azienda.",
+       "role": "text",
+       "text": "scopri i vantaggi per la tua azienda.",
+       "edsText": "scopri i vantaggi per la tua azienda.",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 289,
+        "w": 228,
+        "h": 48
+       },
+       "eds": {
+        "x": 32,
+        "y": 289,
+        "w": 228,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:leggi il racconto",
+       "role": "text",
+       "text": "leggi il racconto",
+       "edsText": "leggi il racconto",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 377,
+        "w": 228,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 377,
+        "w": 228,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 34,
+       "y": 1813,
+       "w": 292,
+       "h": 433
+      },
+      "eds": {
+       "x": 34,
+       "y": 1813,
+       "w": 292,
+       "h": 433
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 2,
+  "within": 12,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

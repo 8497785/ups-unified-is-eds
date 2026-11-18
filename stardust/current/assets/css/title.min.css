@@ -1,0 +1,138 @@
+.title.title-padding-top .cmp-title {
+  padding-top: 4rem;
+}
+@media (min-width: 768px) {
+  .title.title-padding-top .cmp-title {
+    padding-top: 4rem;
+  }
+}
+@media (min-width: 992px) {
+  .title.title-padding-top .cmp-title {
+    padding-top: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  .title.title-padding-top.text-center .cmp-title {
+    padding: 4rem 12.5% 0;
+  }
+}
+@media (min-width: 992px) {
+  .title.title-padding-top.text-center .cmp-title {
+    padding: 4rem 16.5% 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .title.text-center {
+    text-align: left !important;
+  }
+}
+@media (min-width: 768px) {
+  .title.text-center .cmp-title {
+    padding: 0 12.5%;
+    text-align: center;
+  }
+  .title.text-center .cmp-title .eyebrow {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .title.text-center .cmp-title__text:after {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+@media (min-width: 992px) {
+  .title.text-center .cmp-title {
+    padding: 0 16.5%;
+  }
+}
+@media (min-width: 768px) {
+  .title .cmp-title {
+    padding: 0 25% 0 0;
+  }
+}
+@media (min-width: 992px) {
+  .title .cmp-title {
+    padding: 0 33% 0 0;
+  }
+}
+.title .cmp-title__text {
+  display: inline-block;
+  padding-bottom: 1.6rem;
+  position: relative;
+}
+@media (min-width: 992px) {
+  .title .cmp-title__text {
+    padding-bottom: 2rem;
+  }
+}
+.title .cmp-title__text:after {
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+  position: absolute;
+  width: 7.2rem;
+}
+.title .cmp-title__description,
+.title .cmp-title__subtitle {
+  margin-top: 1.6rem;
+}
+@media (min-width: 992px) {
+  .title .cmp-title__description,
+  .title .cmp-title__subtitle {
+    margin-top: 2rem;
+  }
+}
+.title .cmp-title.title--eyebrow .cmp-title__text {
+  margin: 0;
+  padding-bottom: 0;
+}
+@media (min-width: 992px) {
+  .title .cmp-title.title--eyebrow .cmp-title__text {
+    margin: 0;
+  }
+}
+.title .cmp-title.title--eyebrow .cmp-title__text:after {
+  display: none;
+}
+.title .cmp-title.title--eyebrow .cmp-title__description,
+.title .cmp-title.title--eyebrow .cmp-title__subtitle {
+  margin-top: 1.2rem;
+}
+@media (min-width: 992px) {
+  .title .cmp-title.title--eyebrow .cmp-title__description,
+  .title .cmp-title.title--eyebrow .cmp-title__subtitle {
+    margin-top: 2rem;
+  }
+}
+.title .cmp-title.title--eyebrow .eyebrow {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  line-height: 1.17;
+  margin-bottom: 1.2rem;
+  position: relative;
+  text-transform: uppercase;
+}
+@media (min-width: 992px) {
+  .title .cmp-title.title--eyebrow .eyebrow {
+    margin-bottom: 1.6rem;
+  }
+}
+.title .cmp-title.title--eyebrow .eyebrow:before {
+  border-radius: 8px;
+  content: "";
+  display: inline-block;
+  height: 0.3rem;
+  margin-right: 0.6rem;
+  width: 3.2rem;
+}

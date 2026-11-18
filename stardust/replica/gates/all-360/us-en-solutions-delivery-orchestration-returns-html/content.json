@@ -1,0 +1,3309 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-18T13:11:33.702Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.insureshield.com/us/en/solutions/delivery-orchestration/returns.html",
+  "at": "2026-11-18T13:11:13.072Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5866,
+  "root": null,
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "span.upser-alert__msg.slick-slide > div.upser-alert__wrapper > p.upser-alert__title",
+    "x": 32,
+    "y": 37,
+    "w": 296,
+    "h": 42,
+    "text": "Introducing a fresh take on protection for your shipments"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "span.upser-alert__msg.slick-slide > div.upser-alert__wrapper > a.upser-alert__more",
+    "x": 32,
+    "y": 84,
+    "w": 138,
+    "h": 21,
+    "text": "get started in minutes",
+    "href": "/en/sign-up"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.container > div.upser-alerts__container > button.upser-alerts__close",
+    "x": 292,
+    "y": 6,
+    "w": 36,
+    "h": 26,
+    "text": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.image > div#image-d17206185b > a.cmp-image__link",
+    "x": 32,
+    "y": 138,
+    "w": 149,
+    "h": 55,
+    "text": "insureshield",
+    "href": "/us/en/securecommerce.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "a.cmp-image__link > picture > img.cmp-image__image",
+    "x": 32,
+    "y": 138,
+    "w": 149,
+    "h": 56,
+    "text": "insureshield",
+    "file": "InsureShield_horizontal_UPSC"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.profile > div.hamburger > button.navbar-toggler.collapsed",
+    "x": 238,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "text": "toggle navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.profile > div.hamburger > button.navbar-toggler.collapsed",
+    "x": 238,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "label": "toggle navigation menu",
+    "value": "toggle navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.cmp-search > div#upser-header-search > button.header-search-btn",
+    "x": 284,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "text": "search toggle"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.cmp-search > div#upser-header-search > button.header-search-btn",
+    "x": 284,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "label": "search toggle",
+    "value": "search toggle",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ol.cmp-breadcrumb__list > li.cmp-breadcrumb__item > a.cmp-breadcrumb__item-link",
+    "x": 32,
+    "y": 236,
+    "w": 58,
+    "h": 21,
+    "text": "solutions",
+    "href": "/us/en/solutions/delivery-orchestration/returns.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ol.cmp-breadcrumb__list > li.cmp-breadcrumb__item > a.cmp-breadcrumb__item-link",
+    "x": 107,
+    "y": 236,
+    "w": 137,
+    "h": 21,
+    "text": "delivery orchestration",
+    "href": "/us/en/solutions/delivery-orchestration.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ol.cmp-breadcrumb__list > li.cmp-breadcrumb__item.cmp-breadcrumb__item--active > span",
+    "x": 261,
+    "y": 236,
+    "w": 48,
+    "h": 20,
+    "text": "Returns"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#dynamicmedia_267101904_container_inner > div#dynamicmedia_267101904_videoPlayer > div#IconEffect_s7classic_1B",
+    "x": 140,
+    "y": 615,
+    "w": 80,
+    "h": 80,
+    "text": "play or pause video"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__title > h2",
+    "x": 32,
+    "y": 301,
+    "w": 296,
+    "h": 72,
+    "level": 2,
+    "text": "maximize returns, minimize hassle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__description > p",
+    "x": 32,
+    "y": 405,
+    "w": 296,
+    "h": 120,
+    "text": "Returns don't have to be a headache. No matter what you ship, we can help stream"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 818,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "hassle-free returns start here"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 56,
+    "y": 953,
+    "w": 72,
+    "h": 72,
+    "text": "label tag with heart",
+    "file": "Loyalty_72x72_Teal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 1041,
+    "w": 248,
+    "h": 24,
+    "text": "Fully Branded UX"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 1073,
+    "w": 248,
+    "h": 168,
+    "text": "Brand colors and fonts set the stage, but true customization goes further. With "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 56,
+    "y": 1309,
+    "w": 72,
+    "h": 72,
+    "text": "conveyor belt with package",
+    "file": "ConveyorBelt_72x72_Teal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 1397,
+    "w": 248,
+    "h": 24,
+    "text": "Multi-SKU Returns"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 1429,
+    "w": 248,
+    "h": 168,
+    "text": "Simplify the return process for your customers by allowing them to handle multip"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.ls-is-cached.lazyloaded",
+    "x": 56,
+    "y": 1665,
+    "w": 72,
+    "h": 72,
+    "text": "arrow and dashed line circle around a star",
+    "file": "AutoMode_72x72_Teal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 1753,
+    "w": 248,
+    "h": 24,
+    "text": "Access Points"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 1785,
+    "w": 248,
+    "h": 144,
+    "text": "Smart location tracking and deep integrations help customers quickly find nearby"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 56,
+    "y": 1997,
+    "w": 72,
+    "h": 72,
+    "text": "storefront with awning",
+    "file": "Storefront_72x72_Teal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 2085,
+    "w": 248,
+    "h": 24,
+    "text": "Marketing & Upselling"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 2117,
+    "w": 248,
+    "h": 168,
+    "text": "Every interaction is an opportunity. With each return, our platform gathers insi"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 56,
+    "y": 2353,
+    "w": 72,
+    "h": 72,
+    "text": "two people connecting",
+    "file": "ConnectWithoutContact_72x72_Teal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 2441,
+    "w": 248,
+    "h": 24,
+    "text": "End-to-End Buyer Journey"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 2473,
+    "w": 248,
+    "h": 168,
+    "text": "Keep your customer experience seamless from purchase to return. Our integrated r"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.image > picture > img.lazyloaded",
+    "x": 56,
+    "y": 2709,
+    "w": 72,
+    "h": 72,
+    "text": "delivery truck",
+    "file": "LocalShipping_72x72_Teal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__title",
+    "x": 56,
+    "y": 2797,
+    "w": 248,
+    "h": 48,
+    "text": "Flexible Orchestration for Reverse Logistics"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.description > div > p.description__text",
+    "x": 56,
+    "y": 2853,
+    "w": 248,
+    "h": 144,
+    "text": "No two businesses or customers are alike. Our adaptable orchestration rules let "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 3085,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "ready to revamp your returns process?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > p.cmp-title__description",
+    "x": 32,
+    "y": 3189,
+    "w": 296,
+    "h": 48,
+    "text": "Speak to one of our team members to book a demo today!"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 4056,
+    "w": 51,
+    "h": 52,
+    "level": 2,
+    "text": "faq"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-b25e324d4e > div#accordion-b25e324d4e-item-ecc046a095 > h3.cmp-accordion__header",
+    "x": 48,
+    "y": 4152,
+    "w": 264,
+    "h": 48,
+    "level": 3,
+    "text": "why is reverse logistics tracking important?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-b25e324d4e-item-ecc046a095 > h3.cmp-accordion__header > button#accordion-b25e324d4e-item-ecc046a095-button",
+    "x": 48,
+    "y": 4152,
+    "w": 264,
+    "h": 48,
+    "text": "why is reverse logistics tracking important?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-b25e324d4e-item-ecc046a095 > h3.cmp-accordion__header > button#accordion-b25e324d4e-item-ecc046a095-button",
+    "x": 48,
+    "y": 4152,
+    "w": 264,
+    "h": 48,
+    "label": "trigger",
+    "value": "why is reverse logistics tracking important?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-b25e324d4e > div#accordion-b25e324d4e-item-4a88b11672 > h3.cmp-accordion__header",
+    "x": 48,
+    "y": 4252,
+    "w": 264,
+    "h": 48,
+    "level": 3,
+    "text": "how does a return management system help customers?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-b25e324d4e-item-4a88b11672 > h3.cmp-accordion__header > button#accordion-b25e324d4e-item-4a88b11672-button",
+    "x": 48,
+    "y": 4252,
+    "w": 264,
+    "h": 48,
+    "text": "how does a return management system help customers?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-b25e324d4e-item-4a88b11672 > h3.cmp-accordion__header > button#accordion-b25e324d4e-item-4a88b11672-button",
+    "x": 48,
+    "y": 4252,
+    "w": 264,
+    "h": 48,
+    "label": "trigger",
+    "value": "how does a return management system help customers?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-b25e324d4e > div#accordion-b25e324d4e-item-1aaf376e00 > h3.cmp-accordion__header",
+    "x": 48,
+    "y": 4352,
+    "w": 264,
+    "h": 48,
+    "level": 3,
+    "text": "how can businesses reduce the costs on returns?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-b25e324d4e-item-1aaf376e00 > h3.cmp-accordion__header > button#accordion-b25e324d4e-item-1aaf376e00-button",
+    "x": 48,
+    "y": 4352,
+    "w": 264,
+    "h": 48,
+    "text": "how can businesses reduce the costs on returns?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-b25e324d4e-item-1aaf376e00 > h3.cmp-accordion__header > button#accordion-b25e324d4e-item-1aaf376e00-button",
+    "x": 48,
+    "y": 4352,
+    "w": 264,
+    "h": 48,
+    "label": "trigger",
+    "value": "how can businesses reduce the costs on returns?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__title > h2",
+    "x": 32,
+    "y": 4516,
+    "w": 296,
+    "h": 72,
+    "level": 2,
+    "text": "want package protection?"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#image-cdcaafca36 > picture > img.cmp-image__image",
+    "x": 32,
+    "y": 4624,
+    "w": 296,
+    "h": 167,
+    "text": "woman and man looking at tablet",
+    "file": "shutterstock_1237494658_1440x810"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__description > p",
+    "x": 32,
+    "y": 4814,
+    "w": 296,
+    "h": 96,
+    "text": "We've got you. Explore our different shipping coverage options, and rest easy kn"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__action-container > a#teaser-cdcaafca36-cta-4ada5f545a",
+    "x": 32,
+    "y": 4934,
+    "w": 296,
+    "h": 44,
+    "text": "explore options",
+    "href": "/us/en/shipping-insurance.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 0,
+    "y": 5042,
+    "w": 355,
+    "h": 35,
+    "text": "*Expedited reshipping reimbursement provided up to 20% of the insured value of t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 0,
+    "y": 5090,
+    "w": 358,
+    "h": 155,
+    "text": "Insurance coverage is underwritten by an authorized insurance company and issued"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 0,
+    "y": 5258,
+    "w": 352,
+    "h": 107,
+    "text": "Unless otherwise noted, all statistics used herein are derived from or based on "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "p > span.small > i",
+    "x": 0,
+    "y": 5378,
+    "w": 358,
+    "h": 83,
+    "text": "Statistics in our social media advertising are based on aggregated insurance pro"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-97dfc0134a > p",
+    "x": 32,
+    "y": 5530,
+    "w": 296,
+    "h": 19,
+    "text": "This Site"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-c12bd6f8bb > p",
+    "x": 32,
+    "y": 5580,
+    "w": 296,
+    "h": 19,
+    "text": "Other UPS Sites"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-369e9a7e5a > p",
+    "x": 32,
+    "y": 5630,
+    "w": 296,
+    "h": 19,
+    "text": "Connect with Us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-d50c439374 > p",
+    "x": 32,
+    "y": 5679,
+    "w": 296,
+    "h": 19,
+    "text": "Legal"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.copy-right > div#text-b533edb835 > h4",
+    "x": 32,
+    "y": 5802,
+    "w": 296,
+    "h": 40,
+    "level": 4,
+    "text": "copyright ©2023-2026 united parcel service of america, inc. all rights reserved."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 20,
+    "textNodes": 75,
+    "controls": 46,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-orchestration/returns",
+  "at": "2026-11-18T13:11:33.563Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5845,
+  "root": "main",
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.alerts-list > div.alerts-msg > p",
+    "x": 32,
+    "y": 37,
+    "w": 296,
+    "h": 42,
+    "text": "Introducing a fresh take on protection for your shipments"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.alerts-list > div.alerts-msg > a.alerts-more",
+    "x": 32,
+    "y": 84,
+    "w": 138,
+    "h": 21,
+    "text": "get started in minutes",
+    "href": "/en/sign-up"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.alerts-inner > button.alerts-close",
+    "x": 292,
+    "y": 6,
+    "w": 36,
+    "h": 26,
+    "text": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-logo > p > a",
+    "x": 32,
+    "y": 138,
+    "w": 149,
+    "h": 55,
+    "text": "insureshield",
+    "href": "/us/en/securecommerce"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 32,
+    "y": 138,
+    "w": 149,
+    "h": 56,
+    "text": "insureshield",
+    "file": "media_1e13fd7b8c723c94791c8f8ac6c80eaf75"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-row > div.hdr-actions > button.hdr-burger",
+    "x": 238,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "text": "toggle navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-row > div.hdr-actions > button.hdr-burger",
+    "x": 238,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "label": "toggle navigation menu",
+    "value": "toggle navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-actions > div.hdr-search > button.hdr-search-btn",
+    "x": 284,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "text": "search toggle"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-actions > div.hdr-search > button.hdr-search-btn",
+    "x": 284,
+    "y": 144,
+    "w": 44,
+    "h": 44,
+    "label": "search toggle",
+    "value": "search toggle",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a",
+    "x": 32,
+    "y": 236,
+    "w": 58,
+    "h": 21,
+    "text": "solutions",
+    "href": "/us/en/solutions/delivery-orchestration/returns"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a",
+    "x": 107,
+    "y": 236,
+    "w": 137,
+    "h": 21,
+    "text": "delivery orchestration",
+    "href": "/us/en/solutions/delivery-orchestration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > span",
+    "x": 261,
+    "y": 236,
+    "w": 48,
+    "h": 20,
+    "text": "Returns"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-content > div.teaser-title > h1#maximize-returns-minimize-hassle",
+    "x": 32,
+    "y": 301,
+    "w": 296,
+    "h": 72,
+    "level": 1,
+    "text": "maximize returns, minimize hassle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-content > div.teaser-desc > p",
+    "x": 32,
+    "y": 405,
+    "w": 296,
+    "h": 120,
+    "text": "Returns don't have to be a headache. No matter what you ship, we can help stream"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-media > picture > img",
+    "x": 32,
+    "y": 557,
+    "w": 296,
+    "h": 167,
+    "text": "",
+    "file": "media_1cc6f6c3b0fbe6f0849a39a32c8d42fa6a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.pathways-cards-container > div.default-content-wrapper > h2#hassle-free-returns-start-here",
+    "x": 32,
+    "y": 787,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "hassle-free returns start here"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 56,
+    "y": 923,
+    "w": 72,
+    "h": 72,
+    "text": "label tag with heart",
+    "file": "media_102bce6d3ef5c407c3066602dd10e062de"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 1011,
+    "w": 248,
+    "h": 24,
+    "text": "Fully Branded UX"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 1043,
+    "w": 248,
+    "h": 168,
+    "text": "Brand colors and fonts set the stage, but true customization goes further. With "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 56,
+    "y": 1279,
+    "w": 72,
+    "h": 72,
+    "text": "conveyor belt with package",
+    "file": "media_16f158792b853fb09bbdfa021d52db3cf6"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 1367,
+    "w": 248,
+    "h": 24,
+    "text": "Multi-SKU Returns"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 1399,
+    "w": 248,
+    "h": 168,
+    "text": "Simplify the return process for your customers by allowing them to handle multip"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 56,
+    "y": 1635,
+    "w": 72,
+    "h": 72,
+    "text": "arrow and dashed line circle around a star",
+    "file": "media_105c876d85da16dfd2da1802179cf6bbe0"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 1723,
+    "w": 248,
+    "h": 24,
+    "text": "Access Points"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 1755,
+    "w": 248,
+    "h": 144,
+    "text": "Smart location tracking and deep integrations help customers quickly find nearby"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 56,
+    "y": 1967,
+    "w": 72,
+    "h": 72,
+    "text": "storefront with awning",
+    "file": "media_122c9b1f5a205e59b1ef663d9516daac24"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 2055,
+    "w": 248,
+    "h": 24,
+    "text": "Marketing & Upselling"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 2087,
+    "w": 248,
+    "h": 168,
+    "text": "Every interaction is an opportunity. With each return, our platform gathers insi"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 56,
+    "y": 2323,
+    "w": 72,
+    "h": 72,
+    "text": "two people connecting",
+    "file": "media_1ebfed5ea3dd0c9d3b37fd9d12223178cc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 2411,
+    "w": 248,
+    "h": 24,
+    "text": "End-to-End Buyer Journey"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 2443,
+    "w": 248,
+    "h": 168,
+    "text": "Keep your customer experience seamless from purchase to return. Our integrated r"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-image > picture > img",
+    "x": 56,
+    "y": 2679,
+    "w": 72,
+    "h": 72,
+    "text": "delivery truck",
+    "file": "media_19c8d93c20591aa2a9d9ca97a7c9d73fe3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-title > p",
+    "x": 56,
+    "y": 2767,
+    "w": 248,
+    "h": 48,
+    "text": "Flexible Orchestration for Reverse Logistics"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pathways-cards-main > div.pathways-cards-text > p",
+    "x": 56,
+    "y": 2823,
+    "w": 248,
+    "h": 144,
+    "text": "No two businesses or customers are alike. Our adaptable orchestration rules let "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.form-container > div.default-content-wrapper > h2#ready-to-revamp-your-returns-process",
+    "x": 32,
+    "y": 3055,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "ready to revamp your returns process?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.form-container > div.default-content-wrapper > p",
+    "x": 32,
+    "y": 3159,
+    "w": 296,
+    "h": 48,
+    "text": "Speak to one of our team members to book a demo today!"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.form-grid > div.form-field.form-field-select > select#form-country-territory-4",
+    "x": 32,
+    "y": 3551,
+    "w": 296,
+    "h": 56,
+    "label": "country / territory",
+    "value": "country / territory",
+    "via": "select"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.form-grid > div.form-field.form-field-select > select#form-state-6",
+    "x": 32,
+    "y": 3711,
+    "w": 296,
+    "h": 56,
+    "label": "state",
+    "value": "state",
+    "via": "select"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.form-grid > div.form-field.form-field-select > select#form-i-am-interested-in-8",
+    "x": 32,
+    "y": 3871,
+    "w": 296,
+    "h": 56,
+    "label": "i am interested in:",
+    "value": "i am interested in:",
+    "via": "select"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form > div.form-actions > button.button.primary",
+    "x": 32,
+    "y": 3951,
+    "w": 296,
+    "h": 44,
+    "text": "submit"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.accordion-container > div.default-content-wrapper > h2#faq",
+    "x": 32,
+    "y": 4059,
+    "w": 51,
+    "h": 52,
+    "level": 2,
+    "text": "faq"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#why-is-reverse-logistics-tracking-important",
+    "x": 48,
+    "y": 4155,
+    "w": 251,
+    "h": 48,
+    "level": 3,
+    "text": "why is reverse logistics tracking important?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 4155,
+    "w": 24,
+    "h": 24,
+    "text": "why is reverse logistics tracking important?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 4155,
+    "w": 24,
+    "h": 24,
+    "label": "why is reverse logistics tracking important?",
+    "value": "why is reverse logistics tracking important?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#how-does-a-return-management-system-help-customers",
+    "x": 48,
+    "y": 4255,
+    "w": 251,
+    "h": 48,
+    "level": 3,
+    "text": "how does a return management system help customers?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 4255,
+    "w": 24,
+    "h": 24,
+    "text": "how does a return management system help customers?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 4255,
+    "w": 24,
+    "h": 24,
+    "label": "how does a return management system help customers?",
+    "value": "how does a return management system help customers?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#how-can-businesses-reduce-the-costs-on-returns",
+    "x": 48,
+    "y": 4355,
+    "w": 251,
+    "h": 48,
+    "level": 3,
+    "text": "how can businesses reduce the costs on returns?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 4355,
+    "w": 24,
+    "h": 24,
+    "text": "how can businesses reduce the costs on returns?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 296,
+    "y": 4355,
+    "w": 24,
+    "h": 24,
+    "label": "how can businesses reduce the costs on returns?",
+    "value": "how can businesses reduce the costs on returns?",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-media > picture > img",
+    "x": 32,
+    "y": 4626,
+    "w": 296,
+    "h": 167,
+    "text": "woman and man looking at tablet",
+    "file": "media_1bc346977cdb927db6ed328aa345c1bdf1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-grid > div.teaser-title > h2#want-package-protection",
+    "x": 32,
+    "y": 4519,
+    "w": 296,
+    "h": 72,
+    "level": 2,
+    "text": "want package protection?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-promo-grid > div.teaser-desc > p",
+    "x": 32,
+    "y": 4817,
+    "w": 296,
+    "h": 72,
+    "text": "We've got you. Explore our different shipping coverage options, and rest easy kn"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-actions > p.button-wrapper > a.button.primary",
+    "x": 32,
+    "y": 4913,
+    "w": 296,
+    "h": 44,
+    "text": "explore options",
+    "href": "/us/en/shipping-insurance"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 0,
+    "y": 5021,
+    "w": 355,
+    "h": 35,
+    "text": "*Expedited reshipping reimbursement provided up to 20% of the insured value of t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 0,
+    "y": 5069,
+    "w": 358,
+    "h": 155,
+    "text": "Insurance coverage is underwritten by an authorized insurance company and issued"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 0,
+    "y": 5237,
+    "w": 352,
+    "h": 107,
+    "text": "Unless otherwise noted, all statistics used herein are derived from or based on "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-notes > p > em",
+    "x": 0,
+    "y": 5357,
+    "w": 358,
+    "h": 83,
+    "text": "Statistics in our social media advertising are based on aggregated insurance pro"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 5493,
+    "w": 360,
+    "h": 50,
+    "text": "this site"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 5493,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "this site",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col.ftr-col-wide > div.ftr-heading",
+    "x": 0,
+    "y": 5543,
+    "w": 360,
+    "h": 50,
+    "text": "other ups sites"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col.ftr-col-wide > div.ftr-heading",
+    "x": 0,
+    "y": 5543,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "other ups sites",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 5592,
+    "w": 360,
+    "h": 50,
+    "text": "connect with us"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 5592,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "connect with us",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr > div.ftr-inner > div.ftr-heading.ftr-heading-legal",
+    "x": 0,
+    "y": 5642,
+    "w": 360,
+    "h": 51,
+    "text": "legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr > div.ftr-inner > div.ftr-heading.ftr-heading-legal",
+    "x": 0,
+    "y": 5642,
+    "w": 360,
+    "h": 51,
+    "label": "trigger",
+    "value": "legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-inner > div.ftr-copy > p",
+    "x": 32,
+    "y": 5781,
+    "w": 296,
+    "h": 40,
+    "text": "Copyright ©2023-2026 United Parcel Service of America, Inc. All rights reserved."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 66,
+    "controls": 43,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "maximize returns, minimize hassle",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MISSING BUTTON"
+   ]
+  },
+  {
+   "index": 2,
+   "heading": "hassle-free returns start here",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 12,
+    "image": 6
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 12,
+    "textHidden": 0,
+    "image": 6,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "ready to revamp your returns process?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 4,
+   "heading": "faq",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "why is reverse logistics tracking important?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "how does a return management system help customers?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "how can businesses reduce the costs on returns?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "want package protection?",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"play or pause video\" in band \"maximize returns, minimize hassle\" (origin y 615) not on the served page",
+   "band": 1,
+   "n": 1,
+   "text": "play or pause video"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"submit\" served in band \"ready to revamp your returns process?\", no origin link or button",
+   "band": 3,
+   "n": 1,
+   "text": "submit"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 1,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 2,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 32,
+    "y": 9,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 41,
+    "y": 9,
+    "w": 23,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 9,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 39,
+    "w": 285,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 60,
+    "w": 65,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 86,
+    "w": 138,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 237,
+    "w": 58,
+    "h": 16
+   },
+   {
+    "x": 107,
+    "y": 237,
+    "w": 137,
+    "h": 16
+   },
+   {
+    "x": 261,
+    "y": 237,
+    "w": 48,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 302,
+    "w": 229,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 338,
+    "w": 213,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 407,
+    "w": 285,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 431,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 455,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 479,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 503,
+    "w": 82,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 819,
+    "w": 251,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 854,
+    "w": 126,
+    "h": 33
+   },
+   {
+    "x": 56,
+    "y": 1043,
+    "w": 122,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1075,
+    "w": 214,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1099,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1123,
+    "w": 245,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1147,
+    "w": 190,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1171,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1195,
+    "w": 242,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1219,
+    "w": 238,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1399,
+    "w": 132,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1431,
+    "w": 215,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1455,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1479,
+    "w": 244,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1503,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1527,
+    "w": 204,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1551,
+    "w": 219,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1575,
+    "w": 89,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1755,
+    "w": 102,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1787,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1811,
+    "w": 199,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1835,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1859,
+    "w": 192,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1883,
+    "w": 232,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1907,
+    "w": 202,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2087,
+    "w": 157,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2119,
+    "w": 244,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2143,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2167,
+    "w": 217,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2191,
+    "w": 238,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2215,
+    "w": 170,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2239,
+    "w": 218,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2263,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2443,
+    "w": 186,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2475,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2499,
+    "w": 244,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2523,
+    "w": 156,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2547,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2571,
+    "w": 202,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2595,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2619,
+    "w": 232,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2799,
+    "w": 242,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2823,
+    "w": 65,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2855,
+    "w": 234,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2879,
+    "w": 167,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2903,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2927,
+    "w": 236,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2951,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2975,
+    "w": 236,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3086,
+    "w": 280,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 3122,
+    "w": 218,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 3191,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3215,
+    "w": 140,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4057,
+    "w": 51,
+    "h": 33
+   },
+   {
+    "x": 48,
+    "y": 4154,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4178,
+    "w": 77,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4254,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4278,
+    "w": 173,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4354,
+    "w": 226,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4378,
+    "w": 123,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4517,
+    "w": 179,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 4553,
+    "w": 142,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 4816,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4840,
+    "w": 289,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4864,
+    "w": 229,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4888,
+    "w": 64,
+    "h": 19
+   },
+   {
+    "x": 111,
+    "y": 4946,
+    "w": 113,
+    "h": 19
+   },
+   {
+    "x": 0,
+    "y": 5042,
+    "w": 355,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5066,
+    "w": 47,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5090,
+    "w": 339,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5114,
+    "w": 344,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5138,
+    "w": 350,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5162,
+    "w": 356,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5186,
+    "w": 358,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5210,
+    "w": 344,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5234,
+    "w": 248,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5258,
+    "w": 346,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5282,
+    "w": 327,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5306,
+    "w": 352,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5330,
+    "w": 348,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5354,
+    "w": 118,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5378,
+    "w": 338,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5402,
+    "w": 358,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5426,
+    "w": 354,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5450,
+    "w": 42,
+    "h": 11
+   },
+   {
+    "x": 32,
+    "y": 5529,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5579,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5629,
+    "w": 116,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5678,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5804,
+    "w": 293,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 5824,
+    "w": 200,
+    "h": 16
+   }
+  ],
+  "eds": [
+   {
+    "x": 32,
+    "y": 9,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 41,
+    "y": 9,
+    "w": 23,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 9,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 39,
+    "w": 285,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 60,
+    "w": 65,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 86,
+    "w": 138,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 237,
+    "w": 58,
+    "h": 16
+   },
+   {
+    "x": 107,
+    "y": 237,
+    "w": 137,
+    "h": 16
+   },
+   {
+    "x": 261,
+    "y": 237,
+    "w": 48,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 302,
+    "w": 229,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 338,
+    "w": 206,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 407,
+    "w": 285,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 431,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 455,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 479,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 503,
+    "w": 78,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 788,
+    "w": 251,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 824,
+    "w": 126,
+    "h": 33
+   },
+   {
+    "x": 56,
+    "y": 1013,
+    "w": 122,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1045,
+    "w": 214,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1069,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1093,
+    "w": 245,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1117,
+    "w": 190,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1141,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1165,
+    "w": 242,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1189,
+    "w": 238,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1369,
+    "w": 132,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1401,
+    "w": 215,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1425,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1449,
+    "w": 244,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1473,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1497,
+    "w": 204,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1521,
+    "w": 219,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1545,
+    "w": 89,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1725,
+    "w": 102,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1757,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1781,
+    "w": 199,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1805,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1829,
+    "w": 192,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1853,
+    "w": 232,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1877,
+    "w": 202,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2057,
+    "w": 157,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2089,
+    "w": 244,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2113,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2137,
+    "w": 217,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2161,
+    "w": 238,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2185,
+    "w": 170,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2209,
+    "w": 218,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2233,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2413,
+    "w": 186,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2445,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2469,
+    "w": 244,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2493,
+    "w": 156,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2517,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2541,
+    "w": 202,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2565,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2589,
+    "w": 232,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2769,
+    "w": 242,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2793,
+    "w": 65,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2825,
+    "w": 234,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2849,
+    "w": 167,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2873,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2897,
+    "w": 236,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2921,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 2945,
+    "w": 236,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3056,
+    "w": 280,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 3092,
+    "w": 218,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 3161,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3185,
+    "w": 140,
+    "h": 19
+   },
+   {
+    "x": 155,
+    "y": 3963,
+    "w": 51,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4060,
+    "w": 51,
+    "h": 33
+   },
+   {
+    "x": 48,
+    "y": 4157,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4181,
+    "w": 77,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4257,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4281,
+    "w": 173,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4357,
+    "w": 226,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4381,
+    "w": 123,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4520,
+    "w": 179,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 4555,
+    "w": 142,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 4819,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4843,
+    "w": 289,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 4867,
+    "w": 294,
+    "h": 19
+   },
+   {
+    "x": 111,
+    "y": 4925,
+    "w": 113,
+    "h": 19
+   },
+   {
+    "x": 0,
+    "y": 5021,
+    "w": 355,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5045,
+    "w": 47,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5069,
+    "w": 339,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5093,
+    "w": 344,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5117,
+    "w": 350,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5141,
+    "w": 356,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5165,
+    "w": 358,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5189,
+    "w": 344,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5213,
+    "w": 238,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5237,
+    "w": 346,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5261,
+    "w": 327,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5285,
+    "w": 352,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5309,
+    "w": 348,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5333,
+    "w": 118,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5357,
+    "w": 338,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5381,
+    "w": 358,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5405,
+    "w": 354,
+    "h": 11
+   },
+   {
+    "x": 0,
+    "y": 5429,
+    "w": 42,
+    "h": 11
+   },
+   {
+    "x": 32,
+    "y": 5508,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5558,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5607,
+    "w": 116,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5657,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 5783,
+    "w": 293,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 5803,
+    "w": 200,
+    "h": 16
+   }
+  ]
+ }
+}

@@ -1,0 +1,171 @@
+/* search — lifted: site-search-filter + theme-insure-shield (/resources search bar) */
+
+/* section head authored as default content before the block (source: .title centred) */
+.search-container .default-content-wrapper {
+  margin-bottom: 24px;
+}
+
+.search-container .default-content-wrapper :is(h2, h3) {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 16px;
+  font-size: 2.8rem;
+  line-height: 1.28;
+}
+
+.search-container .default-content-wrapper :is(h2, h3)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+.search-container .default-content-wrapper p {
+  margin-top: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.search {
+  margin-bottom: 64px;
+}
+
+.search .search-form {
+  margin: 2rem 0 4.8rem;
+}
+
+.search .search-field {
+  position: relative;
+  width: 100%;
+  margin-bottom: 2.2rem;
+}
+
+.search .search-icon {
+  position: absolute;
+  left: 0.8rem;
+  top: calc(50% - 1.2rem);
+  z-index: 1;
+  color: var(--is-text);
+  font-family: upspricons, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.search .search-icon::before {
+  content: "search";
+}
+
+.search .search-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.search .search-input {
+  display: block;
+  width: 100%;
+  height: 4.1rem;
+  padding: 1rem 1.2rem 1rem 4rem;
+  border: 1px solid var(--is-grey-mid);
+  border-radius: 0.4rem;
+  background: transparent;
+  color: var(--is-grey-dark);
+  font: inherit;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.search .search-input::placeholder {
+  color: var(--is-grey-dark);
+  opacity: 1;
+}
+
+.search .search-submit p {
+  margin: 0;
+}
+
+.search a.search-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  white-space: nowrap;
+  padding: 1rem 2.4rem;
+  border: 0;
+  border-radius: 3.2rem;
+  background: var(--is-teal);
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.search a.search-button::after {
+  content: "chevron_right";
+  margin-left: 0.2rem;
+  font-family: upspricons, sans-serif;
+  font-size: 2.4rem;
+  line-height: 1;
+}
+
+.search a.search-button:hover {
+  border-radius: 3.6rem;
+  box-shadow: var(--is-btn-hover-shadow);
+}
+
+.search a.search-button:focus-visible {
+  outline: 1px solid var(--is-grey-dark);
+  outline-offset: 6px;
+  box-shadow: none;
+}
+
+/* ---------- listing template overrides of reused blocks (owner requests filed) ---------- */
+
+@media (width >= 768px) {
+  .search-container .default-content-wrapper {
+    text-align: center;
+  }
+
+  .search-container .default-content-wrapper :is(h2, h3)::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .search .search-form {
+    display: flex;
+    margin-bottom: 6.4rem;
+  }
+
+  .search .search-field {
+    margin-bottom: 0;
+  }
+
+  .search .search-input {
+    height: 100%;
+  }
+
+  .search a.search-button {
+    width: auto;
+    margin-left: 1.6rem;
+  }
+}
+
+@media (width >= 992px) {
+  .search-container .default-content-wrapper {
+    margin-bottom: 48px;
+  }
+
+  .search-container .default-content-wrapper :is(h2, h3) {
+    padding-bottom: 20px;
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+}

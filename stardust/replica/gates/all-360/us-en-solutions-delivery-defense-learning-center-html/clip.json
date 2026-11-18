@@ -1,0 +1,67 @@
+{
+ "url": "https://main--9ade650b--aemcoder.aem.page/us/en/solutions/delivery-defense/learning-center",
+ "at": "2026-11-18T13:10:09.017Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 6,
+  "offPage": 6,
+  "textNodes": 111,
+  "controls": 51,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 4,
+   "clipper": "div.data-table-scroll",
+   "path": "tbody > tr > td > p",
+   "text": "add shipping insurance to protect packages from loss, damage",
+   "cutMin": 10,
+   "cutMax": 14
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.data-table-scroll",
+   "path": "thead > tr > th > h4#how-does-it-work",
+   "text": "how does it work?",
+   "cutMin": 5,
+   "cutMax": 5
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.stories-viewport",
+   "path": "div.stories-viewport > div.stories-track > div.stories-slide > a.story",
+   "text": "insights to help your businessdeliverydefense™data transform",
+   "cutMin": null,
+   "cutMax": null
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 6,
+   "offPage": 26,
+   "textNodes": 121,
+   "controls": 62,
+   "total": 0
+  }
+ }
+}

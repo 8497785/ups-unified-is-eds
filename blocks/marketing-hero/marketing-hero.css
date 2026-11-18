@@ -1,0 +1,253 @@
+/* marketing-hero — lifted: teasernMarketHero + theme-insure-shield (ups-teaser__marketinghero) */
+main .section .marketing-hero-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.marketing-hero {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  background: linear-gradient(350.94deg, #dce8e7 8%, #f3f3f3 55.74%);
+  padding: 2.4rem 0 0;
+  margin-bottom: 64px;
+}
+
+.marketing-hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  bottom: -7.1rem;
+  height: auto;
+  padding-top: 50%;
+  background: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='320'%20height='120'%20viewBox='0%200%20320%20120'%20fill='none'%3E%3Cpath%20d='M-88.8887%2038.5569C30.9385%20-5.31392%20228.538%20-2.4186%20320%203.0034V181.444H-88.8887V38.5569Z'%20fill='white'/%3E%3C/svg%3E") 0 100% / 100% no-repeat;
+}
+
+.marketing-hero.no-media::after {
+  bottom: -12.1rem;
+}
+
+.marketing-hero .marketing-hero-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.marketing-hero .marketing-hero-media {
+  line-height: 0;
+}
+
+.marketing-hero .marketing-hero-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 87 / 49; /* source .ups-teaser .cmp-teaser__image .cmp-image__image */
+  border-radius: var(--is-radius);
+}
+
+/* teaser parts — eyebrow above the title (lifted .cmp-teaser__pretitle: 16/24, no margins) */
+.marketing-hero .teaser-pretitle p {
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.marketing-hero .teaser-title {
+  position: relative;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.marketing-hero .teaser-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+.marketing-hero .teaser-title :is(h1, h2) {
+  font-size: 3.2rem;
+  line-height: 1.25;
+}
+
+.marketing-hero .teaser-desc {
+  margin-bottom: 24px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* lifted: .ups-teaser .cmp-teaser__description a */
+.marketing-hero .teaser-desc a:any-link {
+  text-decoration: underline;
+}
+
+.marketing-hero .teaser-desc :is(p, ul, ol) + :is(p, ul, ol) {
+  margin-top: 12px;
+}
+
+.marketing-hero .teaser-actions {
+  display: flex;
+  flex-direction: column;
+  margin-top: -16px;
+}
+
+.marketing-hero.no-media .teaser-actions {
+  margin-bottom: 2.4rem;
+}
+
+.marketing-hero .teaser-actions p {
+  margin: 16px 0 0;
+}
+
+.marketing-hero .teaser-actions a.button::after {
+  content: "chevron_right";
+  margin-left: 0.2rem;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: upspricons;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1;
+  font-feature-settings: "liga";
+}
+
+@media (width >= 768px) {
+  .marketing-hero {
+    padding: 3.2rem 0 7.2rem;
+  }
+
+  .marketing-hero::after,
+  .marketing-hero.no-media::after {
+    bottom: 0;
+    height: 7.4rem;
+    padding-top: 0;
+  }
+
+  .marketing-hero .marketing-hero-content {
+    margin-bottom: 0;
+  }
+
+  .marketing-hero .teaser-title :is(h1, h2) {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .marketing-hero .teaser-actions {
+    flex-flow: row wrap;
+    column-gap: 12px;
+  }
+
+  .marketing-hero.no-media .teaser-actions {
+    margin-bottom: 0;
+  }
+}
+
+@media (width >= 992px) {
+  .marketing-hero {
+    padding: 4rem 0 10.4rem;
+  }
+
+  .marketing-hero::after,
+  .marketing-hero.no-media::after {
+    top: var(--arc-top, 0);
+    bottom: 0;
+    height: auto;
+    padding: 0 0 35.4rem;
+    background: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='3000'%20preserveAspectRatio='none'%20height='800'%20viewBox='0%200%201440%20300'%20fill='none'%3E%3Cpath%20d='M-730%20189C139.2-23.9%201028.4-10.9%201440%2013.5V1169L-730%201165Z'%20fill='white'/%3E%3C/svg%3E") 0 0 / 100% auto no-repeat;
+  }
+
+  .marketing-hero .teaser-title {
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+  }
+
+  .marketing-hero .teaser-title :is(h1, h2) {
+    font-size: 4.8rem;
+    line-height: 1.17;
+  }
+
+  .marketing-hero .teaser-desc {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  .marketing-hero .marketing-hero-content {
+    padding-right: 120px;
+  }
+
+  .marketing-hero .marketing-hero-media {
+    padding-top: 8px;
+  }
+
+  .marketing-hero .marketing-hero-media img {
+    max-height: 33.2rem;
+  }
+}
+
+@media (width >= 1400px) {
+  .marketing-hero::after,
+  .marketing-hero.no-media::after {
+    background-repeat: round;
+  }
+}
+
+/* source cmp-teaser__additionalText p: 14/19.88 #5f5753, 24px under the action row (measured
+   on /gb/en/cargo-insurance, /us/en/shipping-insurance/ups-shipments, get-a-quote at 360/1440) */
+.marketing-hero .teaser-note {
+  margin-top: 0;
+  color: #5f5753;
+  font-size: 1.4rem;
+  line-height: 1.42;
+}
+
+.marketing-hero .teaser-note a:any-link {
+  text-decoration: underline; /* source .ups-teaser .cmp-teaser__additionalText a */
+}
+
+.marketing-hero .teaser-actions:has(+ .teaser-note) {
+  margin-bottom: 24px;
+}
+
+/* variant `title-h2`: the source hero title is an h2 (28/35.84, 32/40 ≥768, 40/48 ≥992) — the
+   page's h1 keeps the source's h2 type size */
+.marketing-hero.title-h2 .teaser-title :is(h1, h2) {
+  font-size: 2.8rem;
+  line-height: 1.28;
+}
+
+@media (width >= 768px) {
+  .marketing-hero.title-h2 .teaser-title :is(h1, h2) {
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+}
+
+@media (width >= 992px) {
+  .marketing-hero.title-h2 .teaser-title :is(h1, h2) {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+}
+
+/* variant `copy-right`: an image-less teaser whose copy sits in the right half (source
+   content-dir row-reverse, e.g. /us/en/customer-communications/updated-contact-information) */
+@media (width >= 768px) {
+  .marketing-hero.copy-right .marketing-hero-content {
+    margin-left: 50%;
+  }
+}
+
+/* variant `desc-gap`: the source description ends in an empty <p>&nbsp;</p> (12px gap + a
+   24px line — measured on /us/en/promotional/webinars at 360) that delivery drops */
+.marketing-hero.desc-gap .teaser-desc {
+  padding-bottom: 36px;
+}
+
+/* variant `title-pair`: the source title is two h1 lines (delivery-defense "DeliveryDefense™ /
+   Technology"); the second (authored h2) takes the h1 scale, 12px under the first (measured) */
+.marketing-hero.title-pair .teaser-title h1 {
+  margin-bottom: 12px;
+}

@@ -1,0 +1,25 @@
+[live-session] waiting to pace live navigations to www.insureshield.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 979 ms
+
+Content diff @ 360px (profile "generic", roots: #container-b10391c006, header, footer)
+root "#container-b10391c006"
+  source: 81 text nodes — 5 headings, 8 eyebrows, 8 CTAs, 60 body; 20 img
+  build: 80 text nodes — 5 headings, 8 eyebrows, 8 CTAs, 59 body; 20 img
+  editable texts (outermost h*/p/ul/ol): source 52 / build 52
+  attributes (placeholder/aria-label/title): source 19 / build 19; icons: source 22 / build 22
+root "header"
+  source: 31 text nodes — 0 headings, 1 eyebrows, 17 CTAs, 13 body; 1 img
+  build: 31 text nodes — 0 headings, 1 eyebrows, 17 CTAs, 13 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 10 / build 11; icons: source 11 / build 11
+root "footer"
+  source: 27 text nodes — 1 headings, 0 eyebrows, 22 CTAs, 4 body; 5 img
+  build: 27 text nodes — 1 headings, 0 eyebrows, 22 CTAs, 4 body; 5 img
+  editable texts (outermost h*/p/ul/ol): source 8 / build 8
+  attributes (placeholder/aria-label/title): source 2 / build 3; icons: source 16 / build 16
+
+Findings: 4 (2 structural 🔴)
+Tiers: looks-same 🔴 2 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 2
+  🔴 ROLE SWAP [#container-b10391c006]: "Load More" is a body in the source but a cta in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA [#container-b10391c006]: source cta "Load More" → javascript:void(0) has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <nav> aria-label="Legal" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

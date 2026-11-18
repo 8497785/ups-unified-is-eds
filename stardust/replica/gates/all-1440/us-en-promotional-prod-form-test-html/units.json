@@ -1,0 +1,40 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-18T13:59:45.089Z",
+  "tol": 4,
+  "n": 3,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.insureshield.com/us/en/promotional/prod-form-test.html",
+  "at": "2026-11-18T08:02:36.161Z",
+  "docH": 1777
+ },
+ "eds": {
+  "url": "https://main--9ade650b--aemcoder.aem.page/us/en/promotional/prod-form-test",
+  "at": "2026-11-18T13:59:44.977Z",
+  "docH": 1777
+ },
+ "results": [
+  {
+   "sel": ".pathways__list__item__card=.paths__item",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  }
+ ],
+ "verdict": {
+  "units": 0,
+  "within": 0,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 1,
+  "requiredOff": 0
+ }
+}

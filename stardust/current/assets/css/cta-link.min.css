@@ -1,0 +1,10 @@
+.cta-link__container a {
+  text-align: center;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .cta-link__container a {
+    text-align: left;
+    width: auto;
+  }
+}

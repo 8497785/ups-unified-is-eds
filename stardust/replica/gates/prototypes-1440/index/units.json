@@ -1,0 +1,625 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-17T22:27:54.559Z",
+  "tol": 4,
+  "n": 3,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.insureshield.com/",
+  "at": "2026-11-17T22:20:31.299Z",
+  "docH": 3867
+ },
+ "eds": {
+  "url": "http://localhost:8791/index-proposed.html",
+  "at": "2026-11-17T22:27:54.397Z",
+  "docH": 3867
+ },
+ "results": [
+  {
+   "sel": ".pathways.services .pathways__list__item__card=.paths .pcard",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.pathways__list.row > div.pathways__list__item.col-md-6 > div#pathways-"
+     },
+     "eds": {
+      "path": "div.row.paths__list > div.col-md-6.col-lg-4 > div.pcard"
+     },
+     "rows": [
+      {
+       "key": "image:package and dashboard",
+       "role": "image",
+       "text": "package and dashboard",
+       "edsText": "package and dashboard",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 201,
+        "w": 384,
+        "h": 19
+       },
+       "eds": {
+        "x": 0,
+        "y": 201,
+        "w": 384,
+        "h": 19,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:decide",
+       "role": "text",
+       "text": "decide",
+       "edsText": "decide",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 255,
+        "w": 320,
+        "h": 28
+       },
+       "eds": {
+        "x": 32,
+        "y": 255,
+        "w": 320,
+        "h": 28,
+        "sel": "p.pcard__title",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/500",
+        "eds": "20/28/500"
+       }
+      },
+      {
+       "key": "text:know which orders need a closer look. us",
+       "role": "text",
+       "text": "know which orders need a closer look. use order-risk signals",
+       "edsText": "know which orders need a closer look. use order-risk signals",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 295,
+        "w": 320,
+        "h": 72
+       },
+       "eds": {
+        "x": 32,
+        "y": 295,
+        "w": 320,
+        "h": 72,
+        "sel": "p.pcard__text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:explore commerceshield™ technology",
+       "role": "link",
+       "text": "explore commerceshield™ technology",
+       "edsText": "explore commerceshield™ technology",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 383,
+        "w": 303,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 383,
+        "w": 303,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 112,
+       "y": 1038,
+       "w": 384,
+       "h": 439
+      },
+      "eds": {
+       "x": 112,
+       "y": 1038,
+       "w": 384,
+       "h": 439
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.pathways__list.row > div.pathways__list__item.col-md-6 > div#pathways-"
+     },
+     "eds": {
+      "path": "div.row.paths__list > div.col-md-6.col-lg-4 > div.pcard"
+     },
+     "rows": [
+      {
+       "key": "image:package and truck",
+       "role": "image",
+       "text": "package and truck",
+       "edsText": "package and truck",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 201,
+        "w": 384,
+        "h": 19
+       },
+       "eds": {
+        "x": 0,
+        "y": 201,
+        "w": 384,
+        "h": 19,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:deliver",
+       "role": "text",
+       "text": "deliver",
+       "edsText": "deliver",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 255,
+        "w": 320,
+        "h": 28
+       },
+       "eds": {
+        "x": 32,
+        "y": 255,
+        "w": 320,
+        "h": 28,
+        "sel": "p.pcard__title",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/500",
+        "eds": "20/28/500"
+       }
+      },
+      {
+       "key": "text:ship high-value orders with confidence. ",
+       "role": "text",
+       "text": "ship high-value orders with confidence. manage high-value sh",
+       "edsText": "ship high-value orders with confidence. manage high-value sh",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 295,
+        "w": 320,
+        "h": 72
+       },
+       "eds": {
+        "x": 32,
+        "y": 295,
+        "w": 320,
+        "h": 72,
+        "sel": "p.pcard__text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:explore parcel pro®",
+       "role": "link",
+       "text": "explore parcel pro®",
+       "edsText": "explore parcel pro®",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 383,
+        "w": 166,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 383,
+        "w": 166,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 528,
+       "y": 1038,
+       "w": 384,
+       "h": 439
+      },
+      "eds": {
+       "x": 528,
+       "y": 1038,
+       "w": 384,
+       "h": 439
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.pathways__list.row > div.pathways__list__item.col-md-6 > div#pathways-"
+     },
+     "eds": {
+      "path": "div.row.paths__list > div.col-md-6.col-lg-4 > div.pcard"
+     },
+     "rows": [
+      {
+       "key": "image:package with shield",
+       "role": "image",
+       "text": "package with shield",
+       "edsText": "package with shield",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 216,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 201,
+        "w": 384,
+        "h": 19
+       },
+       "eds": {
+        "x": 0,
+        "y": 201,
+        "w": 384,
+        "h": 19,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:protect",
+       "role": "text",
+       "text": "protect",
+       "edsText": "protect",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 255,
+        "w": 320,
+        "h": 28
+       },
+       "eds": {
+        "x": 32,
+        "y": 255,
+        "w": 320,
+        "h": 28,
+        "sel": "p.pcard__title",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/500",
+        "eds": "20/28/500"
+       }
+      },
+      {
+       "key": "text:be ready when shipments go wrong. add sh",
+       "role": "text",
+       "text": "be ready when shipments go wrong. add shipping insurance to ",
+       "edsText": "be ready when shipments go wrong. add shipping insurance to ",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 295,
+        "w": 320,
+        "h": 72
+       },
+       "eds": {
+        "x": 32,
+        "y": 295,
+        "w": 320,
+        "h": 72,
+        "sel": "p.pcard__text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:explore insureshield® protection",
+       "role": "link",
+       "text": "explore insureshield® protection",
+       "edsText": "explore insureshield® protection",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 383,
+        "w": 263,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 383,
+        "w": 263,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 944,
+       "y": 1038,
+       "w": 384,
+       "h": 439
+      },
+      "eds": {
+       "x": 944,
+       "y": 1038,
+       "w": 384,
+       "h": 439
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 3,
+  "within": 15,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

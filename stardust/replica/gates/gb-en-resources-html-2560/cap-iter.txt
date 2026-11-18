@@ -1,0 +1,20 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.insureshield.com/gb/en/resources.html
+  modules  11 sections: capped 1280 ×10 · full-bleed ×1
+  contentMaxWidth 1280px (module) · shellMaxWidth fluid · root #container-85bdea07a5 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid > div.cmp-container
+build  http://localhost:8791/gb-en-resources-html-proposed.html
+  modules  9 sections: capped 1280 ×8 · full-bleed ×1
+  contentMaxWidth 1280px (module) · shellMaxWidth fluid · root body.locale-gb > div.page-root > main.page-main
+rows
+  ✓ content cap: live 1280px = build 1280px (±20, shared module cap)
+  ⚠ sections: live 11 vs build 9 top-level sections — module rows compared by order up to the shorter side, advisory until the structure matches
+  ✓ module 1/11: 1280px = 1280px
+  ✓ module 2/11: 1280px = 1280px
+  ✓ module 3/11: 1280px = 1280px
+  ✓ module 4/11: 1280px = 1280px
+  ✓ module 5/11: 1280px = 1280px
+  ✓ module 6/11: 1280px = 1280px
+  ✓ module 7/11: 1280px = 1280px
+  ✓ module 8/11: 1280px = 1280px
+  ⚠ module 9/11: live 1280px (div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.cta-link.container) → build full-bleed (body.locale-gb > div.page-root > main.page-main > div.container.note)
+cap-probe: PASS at 2560 — 0 of 11 rows failed (evidence stardust/replica/gates/gb-en-resources-html-2560/cap-iter.json)

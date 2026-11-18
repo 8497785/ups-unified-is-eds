@@ -1,0 +1,40 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-18T08:05:59.494Z",
+  "tol": 4,
+  "n": 3,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.insureshield.com/us/en/resources/whitepapers-and-guides.html",
+  "at": "2026-11-18T08:05:41.263Z",
+  "docH": 3746
+ },
+ "eds": {
+  "url": "https://main--9ade650b--aemcoder.aem.page/us/en/resources/whitepapers-and-guides",
+  "at": "2026-11-18T08:05:59.373Z",
+  "docH": 3746
+ },
+ "results": [
+  {
+   "sel": ".slick-active > .story-card--list__item__card=.stories__slide.is-active > .story, .story-card-carousel .stories-slide:not([aria-hidden]) > .story",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  }
+ ],
+ "verdict": {
+  "units": 0,
+  "within": 0,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 1,
+  "requiredOff": 0
+ }
+}

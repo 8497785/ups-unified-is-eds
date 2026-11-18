@@ -1,0 +1,98 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-18T14:24:49.507Z",
+ "source": "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+ "build": "https://main--9ade650b--aemcoder.aem.live/us/en/shipping-insurance/b2b",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 0,
+  "warn": 9,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "link-missing@390 link",
+   "width": 390,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /us/en/securecommerce not in the build header"
+  },
+  {
+   "key": "motion@390 Toggle navigation Menu [click]",
+   "width": 390,
+   "path": "Toggle navigation Menu",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates height; the build does not"
+  },
+  {
+   "key": "motion@390 Search Toggle [click]",
+   "width": 390,
+   "path": "Search Toggle",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates slideDownLight; the build does not"
+  },
+  {
+   "key": "motion@390 Search Toggle > close [click]",
+   "width": 390,
+   "path": "Search Toggle > close",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates slideUpLight; the build does not"
+  },
+  {
+   "key": "link-href@390 search [submit]",
+   "width": 390,
+   "path": "search",
+   "id": "link-href",
+   "action": "submit",
+   "severity": "warn",
+   "detail": "submits to /content/insureshield/us/en/site-search?q={q} on the source, /us/en/site-search?q={q} on the build"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /us/en/securecommerce not in the build header"
+  },
+  {
+   "key": "motion@1440 Search Toggle [click]",
+   "width": 1440,
+   "path": "Search Toggle",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates slideInLight; the build does not"
+  },
+  {
+   "key": "motion@1440 Search Toggle > close [click]",
+   "width": 1440,
+   "path": "Search Toggle > close",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates slideOutLight; the build does not"
+  },
+  {
+   "key": "link-href@1440 search [submit]",
+   "width": 1440,
+   "path": "search",
+   "id": "link-href",
+   "action": "submit",
+   "severity": "warn",
+   "detail": "submits to /content/insureshield/us/en/site-search?q={q} on the source, /us/en/site-search?q={q} on the build"
+  }
+ ]
+}

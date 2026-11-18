@@ -1,0 +1,85 @@
+.socialmedia {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 0;
+  width: auto !important;
+}
+.socialmedia.article-page-social {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 22px;
+  margin-left: auto;
+  margin-top: -45px;
+  width: 100% !important;
+}
+@media (min-width: 768px) {
+  .socialmedia.article-page-social {
+    margin-bottom: 40px;
+    margin-top: -48px;
+  }
+}
+.ups-social-media {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  justify-content: center;
+}
+.ups-social-icon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.ups-social-icon__img {
+  margin-right: 1.6rem;
+  width: 3.8rem;
+}
+.ups-social-icon__text {
+  font-size: 1.4rem;
+  line-height: 1.15;
+}
+.ups-social-icon__text:hover {
+  text-decoration: underline;
+}
+.ups-social-icon .upspr {
+  font-size: 1.2rem;
+  margin-left: 0.8rem;
+}
+footer .ups-social-media {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+footer .ups-social-icon {
+  color: #dfdbd7;
+  padding: 1.2rem 0 1.2rem 0.8rem;
+}
+footer .ups-social-icon:hover {
+  opacity: 0.6;
+}
+footer .ups-social-icon__img {
+  aspect-ratio: 1/1;
+  margin-right: 0.8rem;
+  width: 1.6rem;
+}
+footer .ups-social-icon .upspr-icon-newwindow {
+  font-size: 1.4rem;
+  margin-left: 0.2rem;
+}

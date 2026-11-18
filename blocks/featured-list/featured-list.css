@@ -1,0 +1,369 @@
+/* featured-list — lifted from the de-en-home-html prototype (.flist) */
+.featured-list {
+  margin-bottom: 64px;
+}
+
+.featured-list-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 calc(var(--is-gutter) / -2);
+}
+
+.featured-list-media,
+.featured-list-main {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 calc(var(--is-gutter) / 2);
+}
+
+.featured-list-media {
+  display: inline-block;
+  margin-bottom: 2.4rem;
+}
+
+.featured-list-media img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  vertical-align: baseline;
+  border-radius: 4px;
+}
+
+.featured-list-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 calc(var(--is-gutter) / -2);
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.featured-list-item {
+  display: flex;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 1.6rem;
+  padding: 0 calc(var(--is-gutter) / 2);
+}
+
+.featured-list-item:last-child {
+  margin-bottom: 2.4rem;
+}
+
+/* a CTA-less list: the source still renders an empty featured-list__action-container
+   (margin -1.6rem top / 2.4rem bottom, collapsed to 8px) below the checklist */
+.featured-list-main > .featured-list-items:last-child {
+  margin-bottom: 0.8rem;
+}
+
+.featured-list-icon {
+  display: inline-block;
+  flex: none;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 1.6rem;
+  background: url("./checkmark.svg") center / 2.4rem 2.4rem no-repeat;
+}
+
+.featured-list-title {
+  margin-bottom: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.featured-list-title :is(h2, h3, h4, h5, h6, p) {
+  font: inherit;
+}
+
+.featured-list-desc {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.featured-list-desc + .featured-list-desc {
+  margin-top: 1.2rem;
+}
+
+.featured-list-actions {
+  margin-bottom: 2.4rem;
+  text-align: center;
+}
+
+.featured-list-actions .upspr-icon-chevronright {
+  margin-left: 0.2rem;
+}
+
+@media (width >= 768px) {
+  .featured-list-media {
+    margin-bottom: 4rem;
+    padding: 0 9.6rem;
+  }
+
+  .featured-list-items {
+    margin-bottom: 1.6rem;
+  }
+
+  .featured-list-item {
+    flex-basis: 50%;
+    max-width: 50%;
+    margin-bottom: 2.4rem;
+  }
+
+  .featured-list-item:last-child {
+    margin-bottom: 2.4rem;
+  }
+
+  .featured-list-main > .featured-list-items:last-child {
+    margin-bottom: 2.4rem;
+  }
+}
+
+@media (width >= 992px) {
+  .featured-list-media {
+    flex-basis: 50%;
+    max-width: 50%;
+    margin-bottom: 0;
+    padding: 0 calc(var(--is-gutter) / 2);
+  }
+
+  .featured-list-main {
+    flex: 1 0 0%;
+    max-width: none;
+  }
+
+  .featured-list-items {
+    flex-flow: column nowrap;
+    margin: 0;
+    padding-left: 4rem;
+  }
+
+  .featured-list-item {
+    flex: none;
+    width: auto;
+    max-width: none;
+    margin-bottom: 1.6rem;
+    padding: 0 1.6rem 0 0;
+  }
+
+  .featured-list-title {
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  /* variant small-titles: the source item title is a body <p> (gb/en), not an h6 */
+  .featured-list.small-titles .featured-list-title {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  .featured-list-item:last-child {
+    margin-bottom: 3.2rem;
+  }
+
+  .featured-list-actions {
+    padding-left: 4rem;
+    text-align: left;
+  }
+
+  .featured-list-main > .featured-list-items:last-child {
+    margin-bottom: 0.8rem;
+  }
+}
+
+/* variant `image-right` (source ups-featured-list__withImageright: image right, list left) and
+   the image-less layout (source withsideIcons without an image: a 3-column checklist with
+   16px titles); image-less keeps the base 2.4rem item gap below 992 (source L33, no
+   withImageLeft override) */
+.featured-list-row:not(:has(.featured-list-media)) .featured-list-item {
+  margin-bottom: 2.4rem;
+}
+
+@media (width >= 992px) {
+  .featured-list.image-right .featured-list-row {
+    flex-direction: row-reverse;
+  }
+
+  .featured-list.image-right .featured-list-items,
+  .featured-list.image-right .featured-list-actions {
+    padding-right: 4rem;
+    padding-left: 0;
+  }
+
+  .featured-list-row:not(:has(.featured-list-media)) .featured-list-items {
+    flex-flow: row wrap;
+    margin: 0 -1.6rem;
+    padding-left: 0;
+  }
+
+  .featured-list-row:not(:has(.featured-list-media)) .featured-list-item,
+  .featured-list-row:not(:has(.featured-list-media)) .featured-list-item:last-child {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    margin-bottom: 3.2rem;
+    padding: 0 1.6rem 0 0;
+  }
+
+  .featured-list-row:not(:has(.featured-list-media)) .featured-list-title {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+}
+
+/* section head (h2 + lede) authored as default content before the block — styled in place
+   (lifted: canon .sec-title / .sec-title--center) */
+.featured-list-container .default-content-wrapper:has(+ .featured-list-wrapper) {
+  margin-bottom: 24px;
+}
+
+.featured-list-container .default-content-wrapper:has(+ .featured-list-wrapper) h2 {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding-bottom: 16px;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.28;
+}
+
+.featured-list-container .default-content-wrapper:has(+ .featured-list-wrapper) h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+
+.featured-list-container .default-content-wrapper:has(+ .featured-list-wrapper) p {
+  margin-top: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+@media (width >= 768px) {
+  .featured-list-container .default-content-wrapper:has(+ .featured-list-wrapper) {
+    text-align: center;
+  }
+
+  .featured-list-container .default-content-wrapper:has(+ .featured-list-wrapper) h2::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (width >= 992px) {
+  .featured-list-container .default-content-wrapper:has(+ .featured-list-wrapper) {
+    margin-bottom: 48px;
+  }
+
+  .featured-list-container .default-content-wrapper:has(+ .featured-list-wrapper) :is(h2, p) {
+    margin-right: 16.5%;
+    margin-left: 16.5%;
+  }
+
+  .featured-list-container .default-content-wrapper:has(+ .featured-list-wrapper) h2 {
+    padding-bottom: 20px;
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .featured-list-container .default-content-wrapper:has(+ .featured-list-wrapper) p {
+    margin-top: 20px;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}
+
+/* a section head with an h4 subtitle and an h6 body (source title + cmp-title__description
+   pair, /us/en/customer-communications/enhanced-declared-value): h2 and h4 centred at every
+   width, h4 20/28 (24/31.92 >= 768, 28/35.84 >= 992), h6 body 16/24 (20/28 >= 992), 16px
+   apart, 64px above the list */
+.featured-list-container .default-content-wrapper:has(+ .featured-list-wrapper):has(> h4) {
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.featured-list-container
+  .default-content-wrapper:has(+ .featured-list-wrapper):has(> h4) h2::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.featured-list-container .default-content-wrapper:has(+ .featured-list-wrapper) h4 {
+  margin-top: 16px;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.featured-list-container .default-content-wrapper:has(+ .featured-list-wrapper) h6 {
+  margin-top: 16px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+
+@media (width >= 768px) {
+  .featured-list-container .default-content-wrapper:has(+ .featured-list-wrapper) h4 {
+    font-size: 2.4rem;
+    line-height: 1.33;
+  }
+
+  .featured-list-container .default-content-wrapper:has(+ .featured-list-wrapper) h6 {
+    text-align: center;
+  }
+}
+
+@media (width >= 992px) {
+  .featured-list-container .default-content-wrapper:has(+ .featured-list-wrapper) h4 {
+    margin-right: 16.5%;
+    margin-left: 16.5%;
+    font-size: 2.8rem;
+    line-height: 1.28;
+  }
+
+  .featured-list-container .default-content-wrapper:has(+ .featured-list-wrapper) h6 {
+    margin-right: 16.5%;
+    margin-left: 16.5%;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  /* an image-less pair of items is centred (source :first-child:nth-last-child(2) margin auto) */
+  .featured-list-main:only-child .featured-list-items:has(> :nth-child(2):last-child) {
+    justify-content: center;
+  }
+}
+
+/* variant h5-titles: the source item title is an h5 (list__title h5: 20/28, 24/31.92 from
+   992, weight 400 — measured on /us/en/claims/insureshield-ups-claims-support) */
+.featured-list.h5-titles .featured-list-title {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+@media (width >= 992px) {
+  .featured-list.h5-titles .featured-list-title {
+    font-size: 2.4rem;
+    line-height: 1.33;
+  }
+}
+
+/* section style `title-pad`: the source section title carries title-padding-top (title.min
+   .title.title-padding-top .cmp-title: padding-top 4rem at every width) — e.g.
+   /us/en/partners/become-a-partner "Partner Benefits" */
+main > .section.title-pad > .default-content-wrapper:first-child {
+  padding-top: 4rem;
+}
+
+/* variant `video` (source ups-list_video, /us/en/solutions/delivery-orchestration/pickup): the
+   media is a 16:9 video frame (the authored poster image), no inline-image baseline gap */
+.featured-list.video .featured-list-media img {
+  display: block;
+}

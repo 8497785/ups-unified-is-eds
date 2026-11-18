@@ -1,0 +1,10 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.insureshield.com/us/en/shipping-insurance.html (live side from cache stardust/replica/gates/us-en-shipping-insurance-html-1440/chrome-live.json, probed 2026-11-17T22:01:13.455Z — delete the file to re-probe)
+  build: http://localhost:8791/us-en-shipping-insurance-html-proposed.html
+
+■ header: ✓ parity — 10 paired of 10/10 texts, 8/8 icons
+
+■ footer: ✓ parity — 46 paired of 46/46 texts, 14/14 icons
+  OFFSET       the region and its 46 paired text(s) sit Δy -64px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

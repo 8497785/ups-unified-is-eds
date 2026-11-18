@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us form</title>
+<meta name="robots" content="noindex">
+<style>
+/* Static recreation of the AEM Forms "contact-us-us-only" frame as rendered in the capture.
+   Geometry from the captured screenshot (1440): 56px fields, 1px #5f5753 border, 24px row gap,
+   12px column gap, 20px radios, 44px teal pill "Send". No submission: behaviour is the dynamics plan's. */
+@font-face { font-family: Roboto; font-style: normal; font-weight: 100 900; font-display: swap; src: url(canon/fonts/roboto-latin-400.woff2) format("woff2"); }
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; background: #fff; }
+body { font-family: Roboto, Arial, sans-serif; color: #121212; font-size: 16px; line-height: 1.5; }
+.cf { max-width: 799px; margin: 0 auto; padding: 3px 0 0; }
+@media (min-width: 768px) { body { padding-right: 9px; } }
+.cf__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px 12px; }
+.cf__split { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.cf__field { position: relative; display: block; }
+.cf__field input {
+  display: block; width: 100%; height: 56px; margin: 0; padding: 0 11px;
+  border: 1px solid #5f5753; border-radius: 0; background: #fff;
+  font: inherit; color: #121212; outline: none;
+}
+.cf__field input::placeholder { color: #5f5753; opacity: 1; }
+.cf__radios { margin: 28px 0 0; padding: 0 0 0 5px; border: 0; }
+.cf__radios legend { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.cf__radio { display: flex; align-items: center; height: 25px; font-size: 16px; line-height: 1.5; }
+.cf__radio input {
+  appearance: none; width: 20px; height: 20px; margin: 0 8px 0 0; flex: none;
+  border: 1px solid #8c857e; border-radius: 50%; background: #fff;
+}
+.cf__radio input:checked { border: 6px solid #3fa29d; }
+.cf__actions { padding: 24px 0 0 506px; }
+/* reCAPTCHA slot (third-party widget on the source; geometry only: 302x76, #f9f9f9, 1px #d3d3d3) */
+.cf__captcha {
+  position: relative; width: 302px; height: 76px; margin-bottom: 26px;
+  background: #f9f9f9; border: 1px solid #d3d3d3; border-radius: 3px; box-shadow: 0 0 4px 1px rgba(0, 0, 0, .08);
+}
+.cf__captcha::before {
+  content: ""; position: absolute; left: 12px; top: 25px; width: 24px; height: 24px;
+  background: #fff; border: 2px solid #c1c1c1; border-radius: 2px;
+}
+.cf__send {
+  display: block; height: 44px; min-width: 85px; padding: 0 24px; border: 0; border-radius: 22px;
+  background: #3fa29d; color: #fff; font: inherit; font-weight: 500; cursor: pointer;
+}
+/* <768 (measured on the live 360 capture): single column, 13px top, 33px sides, State/Zip 26px apart,
+   radios 3px in, reCAPTCHA clipped to the column, full-width Send */
+@media (max-width: 767px) {
+  .cf { padding: 13px 33px 0; }
+  .cf__grid, .cf__split { grid-template-columns: 1fr; }
+  .cf__split { gap: 26px; }
+  .cf__radios { padding-left: 3px; }
+  .cf__actions { padding: 22px 0 0; }
+  .cf__captcha { max-width: 100%; }
+  .cf__send { width: calc(100% + 1px); margin-left: -1px; }
+}
+</style>
+</head>
+<body>
+<form class="cf" action="javascript:void(0)" novalidate>
+  <div class="cf__grid">
+    <label class="cf__field"><input type="text" name="firstName" placeholder="First Name" aria-label="First Name" autocomplete="given-name"></label>
+    <label class="cf__field"><input type="text" name="lastName" placeholder="Last Name" aria-label="Last Name" autocomplete="family-name"></label>
+    <label class="cf__field"><input type="tel" name="phone" placeholder="Phone" aria-label="Phone" autocomplete="tel"></label>
+    <label class="cf__field"><input type="email" name="email" placeholder="Business Email" aria-label="Business Email" autocomplete="email"></label>
+    <label class="cf__field"><input type="text" name="company" placeholder="Company" aria-label="Company" autocomplete="organization"></label>
+    <div class="cf__split">
+      <label class="cf__field"><input type="text" name="state" placeholder="State" aria-label="State" autocomplete="address-level1"></label>
+      <label class="cf__field"><input type="text" name="zip" placeholder="Zip Code" aria-label="Zip Code" autocomplete="postal-code"></label>
+    </div>
+  </div>
+  <fieldset class="cf__radios">
+    <legend>Inquiry type</legend>
+    <label class="cf__radio"><input type="radio" name="inquiry" value="service-inquiry">I have a service inquiry</label>
+    <label class="cf__radio"><input type="radio" name="inquiry" value="interested">I am interested in your service</label>
+  </fieldset>
+  <div class="cf__actions">
+    <div class="cf__captcha" aria-hidden="true"></div>
+    <button class="cf__send" type="button">Send</button></div>
+</form>
+</body>
+</html>

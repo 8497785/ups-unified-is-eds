@@ -1,0 +1,71 @@
+{
+  "slug": "us-en-test-deletion-html",
+  "type": "shell",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [],
+  "widgets": [],
+  "slotsFilled": [
+    "empty-grid"
+  ],
+  "canonShas": {
+    "header": "a45ee05ab3bf",
+    "footer": "79dfc8cc50c3",
+    "css": "481e893f2500"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Page Test | InsureShield",
+    "description": "Page Test ",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Page Test | InsureShield",
+    "description": "Page Test ",
+    "url": "https://www.insureshield.com/us/en/test-deletion.html"
+  },
+  "migratedAt": "2026-11-18T03:33:13Z",
+  "designMdSha": "3a53c3d58678",
+  "designJsonSha": "d5b1e78b9da2",
+  "sourceCurrentSha": "3609bc49557e",
+  "sourceProposedSha": "84652e4fb063",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/content/insureshield/us/en/press-releases",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/es/home.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/about/newsroom.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/resources.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "us/en/test-deletion.html",
+  "outputPathDefault": null,
+  "sidecar": "us/en/test-deletion._meta.json",
+  "driverVersion": "1"
+}

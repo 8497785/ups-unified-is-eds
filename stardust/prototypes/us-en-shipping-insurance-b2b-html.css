@@ -1,0 +1,170 @@
+/* program archetype — us-en-shipping-insurance-b2b-html
+   Sections: marketing hero, secondary promos (media left/right), story cards,
+   calculator column control, banner promo (insureshieldteal), small-print note.
+   Values lifted from theme-insure-shield / teasernMarketHero / secondarypromo /
+   story-card stylesheets and live computed styles at 1440 and 360. */
+
+/* ---------- shared teaser parts ---------- */
+.teaser-title { position: relative; padding-bottom: 16px; margin-bottom: 20px; }
+.teaser-title::after {
+  content: ""; position: absolute; bottom: 0; left: 0; width: 7.2rem;
+  border-top: 4px solid var(--is-teal);
+}
+.teaser-title h1 { font-size: 3.2rem; line-height: 1.25; }
+.teaser-title h2 { font-size: 2.8rem; line-height: 1.28; }
+.teaser-desc { margin-bottom: 24px; font-size: 1.6rem; line-height: 1.5; }
+.teaser-desc p:not(:last-child), .teaser-desc ul:not(:last-child) { margin-bottom: 12px; }
+.teaser-desc ul { list-style: disc; padding-left: 3.2rem; }
+.teaser-desc ol { counter-reset: item; list-style: none; padding-left: 1.4rem; }
+.teaser-desc ol > li { counter-increment: item; display: table-row; }
+.teaser-desc ol > li::before { content: counters(item, ".") ". "; display: table-cell; padding-right: .5rem; }
+.teaser-actions { margin-top: -16px; }
+.teaser-actions .btn { margin-top: 16px; }
+@media (min-width: 768px) {
+  .teaser-actions .btn:not(:last-child) { margin-right: 12px; }
+  .teaser-title h1 { font-size: 4rem; line-height: 1.2; }
+  .teaser-title h2 { font-size: 3.2rem; line-height: 1.25; }
+}
+@media (min-width: 992px) {
+  .teaser-title { padding-bottom: 20px; }
+  .teaser-title h1 { font-size: 4.8rem; line-height: 1.17; }
+  .teaser-title h2 { font-size: 4rem; line-height: 1.2; }
+  .teaser-desc { font-size: 2rem; line-height: 1.4; }
+}
+
+/* ---------- marketing hero ---------- */
+.mhero {
+  position: relative; z-index: 0; overflow: hidden;
+  background: linear-gradient(350.94deg, #dce8e7 8%, #f3f3f3 55.74%);
+  padding: 2.4rem 0 0; margin-bottom: 64px;
+}
+.mhero::after {
+  content: ""; position: absolute; left: 0; width: 100%; z-index: -1;
+  bottom: -7.1rem; height: auto; padding-top: 50%;
+  background: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='320'%20height='120'%20viewBox='0%200%20320%20120'%20fill='none'%3E%3Cpath%20d='M-88.8887%2038.5569C30.9385%20-5.31392%20228.538%20-2.4186%20320%203.0034V181.444H-88.8887V38.5569Z'%20fill='white'/%3E%3C/svg%3E") 0 100% / 100% no-repeat;
+}
+.mhero__content { display: flex; flex-direction: column; margin-bottom: 24px; }
+.mhero .teaser-title { margin-bottom: 16px; }
+.mhero__media img { display: block; width: 100%; height: auto; border-radius: var(--is-radius); }
+@media (min-width: 768px) {
+  .mhero { padding: 3.2rem 0 7.2rem; }
+  .mhero::after { bottom: 0; height: 7.4rem; padding-top: 0; }
+  .mhero__content { margin-bottom: 0; }
+}
+@media (min-width: 992px) {
+  .mhero { padding: 4rem 0 10.4rem; }
+  .mhero::after {
+    top: var(--arc-top, 0); bottom: 0; height: auto; padding: 0 0 35.4rem;
+    background: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='3000'%20preserveAspectRatio='none'%20height='800'%20viewBox='0%200%201440%20300'%20fill='none'%3E%3Cpath%20d='M-730%20189C139.2-23.9%201028.4-10.9%201440%2013.5V1169L-730%201165Z'%20fill='white'/%3E%3C/svg%3E") 0 0 / 100% auto no-repeat;
+  }
+  .mhero .teaser-title { margin-bottom: 24px; }
+  .mhero__content { padding-right: 120px; }
+  .mhero__media { padding-top: 8px; }
+  .mhero__media img { max-height: 33.2rem; }
+}
+@media (min-width: 1400px) {
+  .mhero::after { background-repeat: round; }
+}
+
+/* ---------- secondary promo (image + copy) ----------
+   The source renders the title twice: in the media column (shown below 768, above the image)
+   and in the copy column (shown from 768). Mirrored as authored; the hero keeps its media copy hidden. */
+.teaser-title--media { display: none; }
+.spromo { background: #fff; padding: 32px 0; }
+.spromo .teaser-title--media { display: block; }
+.spromo .teaser-title--content { display: none; }
+.spromo__media img { display: block; width: 100%; height: auto; border-radius: var(--is-radius); }
+.spromo__content { display: flex; flex-direction: column; justify-content: center; margin: 24px 0; }
+.spromo .teaser-desc { margin-bottom: 8px; }
+@media (min-width: 768px) {
+  .spromo .teaser-title--media { display: none; }
+  .spromo .teaser-title--content { display: block; }
+  .spromo__content { margin: 0; }
+  .spromo--media-right .spromo__media { order: 2; }
+}
+@media (min-width: 992px) {
+  .spromo { padding: 64px 0; }
+  .spromo--media-left .spromo__content { padding-left: 120px; }
+  .spromo--media-right .spromo__content { padding-right: 120px; }
+}
+
+/* ---------- story cards (carousel below 992) ---------- */
+.stories { margin-bottom: 64px; }
+.stories__viewport { overflow: hidden; margin: 0 calc(var(--is-gutter) / -2); }
+.stories__track { display: flex; transition: transform .5s ease; }
+.stories__slide { flex: 0 0 calc(100% - 20px); margin: 0 10px 10px; display: flex; }
+.story {
+  display: flex; flex-direction: column; width: 100%;
+  background: #fff; color: var(--is-text); border-radius: var(--is-radius); box-shadow: var(--is-card-shadow);
+}
+.story:hover { text-decoration: none; }
+.story__image img { display: block; width: 100%; height: auto; border-radius: 4px 4px 0 0; aspect-ratio: 16 / 9; }
+.story__body { flex: 1 1 auto; display: flex; flex-direction: column; justify-content: space-between; padding: 32px; }
+.story__eyebrow {
+  display: flex; align-items: center; position: relative; margin-bottom: 16px;
+  color: #000; font-size: 1rem; font-weight: 500; line-height: 1.17; letter-spacing: 1.5px; text-transform: uppercase;
+}
+.story__eyebrow::before { content: ""; width: 32px; height: 3px; margin-right: 6px; background: var(--is-teal); border-radius: 8px; flex: none; }
+.story__title h1 { font-size: 1.6rem; font-weight: 500; line-height: 1.2; }
+.story__text { margin-top: 12px; font-size: 1.6rem; line-height: 1.5; }
+.story__link { display: flex; align-items: center; margin-top: 16px; color: var(--is-blue); font-weight: 500; line-height: 1.5; }
+.story__link .upspr-icon-chevronright { margin-left: 2px; }
+.story:hover .story__link { text-decoration: underline; }
+.stories__controls { display: flex; justify-content: center; padding-top: 26px; margin-bottom: 10px; }
+.stories__controls[hidden] { display: none; }
+.stories__arrow { display: block; height: 31px; background: none; border: 0; padding: 0; color: var(--is-text); font-size: 1.6rem; line-height: 1.5; }
+.stories__arrow::before { font-family: upspricons; font-size: 2.4rem; font-weight: 500; line-height: 1; }
+.stories__arrow--prev::before { content: "chevron_left"; margin-right: 3rem; }
+.stories__arrow--next::before { content: "chevron_right"; margin-left: 3rem; }
+.stories__arrow:disabled { pointer-events: none; }
+.stories__dots { display: flex; list-style: none; margin: 0; padding: 0; }
+.stories__dots li { display: inline-block; height: 29px; line-height: 0; }
+.stories__dots li:not(:last-child) { margin-right: 3rem; }
+.stories__dot {
+  display: inline-block; width: 12px; height: 12px; margin-top: 5px; padding: 0;
+  background: #fff; border: 2px solid var(--is-grey-mid); border-radius: 50%;
+}
+.stories__dots .is-active .stories__dot { width: 22px; height: 22px; margin-top: 0; border: 4px solid var(--is-teal); }
+@media (min-width: 768px) {
+  .stories__slide { flex-basis: calc(50% - 32px); margin: 0 16px 10px; }
+}
+@media (min-width: 992px) {
+  .stories__slide { flex-basis: calc(33.333% - 32px); }
+  .stories__controls { padding-top: 22px; }
+  .story__title h1 { font-size: 2rem; }
+}
+
+/* ---------- calculator column control ---------- */
+.calc { margin-bottom: 64px; }
+.calc__media { margin-bottom: 42px; }
+.calc__media img { width: 100%; height: auto; vertical-align: baseline; }
+.form-mount--calculator { height: 157px; margin-bottom: 64px; }
+@media (min-width: 992px) { .calc__media { margin-bottom: 0; } }
+
+/* ---------- get-a-quote mount ---------- */
+.form-mount--quote { height: 24px; margin-bottom: 64px; }
+
+/* ---------- banner promo (secondarypromo insureshieldteal) ---------- */
+.bpromo { margin-bottom: 64px; }
+.bpromo__card {
+  position: relative; z-index: 0; padding: 2.4rem; text-align: left;
+  background: var(--is-teal); color: #fff;
+}
+.bpromo__card::after {
+  content: ""; position: absolute; z-index: -1; left: 0; right: 0; top: 1px; bottom: 4px;
+  background: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='256'%20height='321'%20viewBox='0%200%20256%20321'%20fill='none'%3E%3Cpath%20d='M0%200H256V301.775C256%20301.775%20198.489%20316.149%20130.578%20319.682C73.6%20322.647%200%20319.682%200%20319.682L0%200Z'%20fill='url(%23g)'/%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='92.0889'%20y1='75.0163'%20x2='335.179'%20y2='218.976'%20gradientUnits='userSpaceOnUse'%3E%3Cstop%20stop-color='%233FA29D'/%3E%3Cstop%20offset='1'%20stop-color='%235DACA8'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E") 0 100% / 100% auto no-repeat;
+}
+.bpromo .teaser-title::after { border-top-color: var(--is-yellow); }
+.bpromo .teaser-desc p:not(:last-child) { margin-bottom: 12px; }
+@media (min-width: 768px) {
+  .bpromo__card { padding: 4.8rem; text-align: center; }
+  .bpromo .teaser-title::after { left: 50%; transform: translateX(-50%); }
+}
+@media (min-width: 992px) {
+  .bpromo__card { padding: 78px 48px; }
+  .bpromo__card::after { top: 0; bottom: 8px; }
+}
+
+/* ---------- small print ---------- */
+.note p { font-size: 1.6rem; line-height: 1; margin-bottom: 64px; }
+.note .small { font-size: 1.2rem; line-height: 1; }

@@ -1,0 +1,69 @@
+/* form-toast — lifted: popover-ups toaster (theme-insure-shield); hidden at rest like the source */
+main .section .form-toast-wrapper {
+  display: none;
+}
+
+main .section .form-toast-wrapper.is-open {
+  display: block;
+}
+
+.form-toast .form-toast-panel {
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  width: min(480px, calc(100vw - 32px));
+  padding: 48px 32px 32px;
+  background: #fff;
+  box-shadow: 0 4px 24px rgb(0 0 0 / 20%);
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.form-toast .form-toast-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--is-text);
+}
+
+.form-toast .form-toast-close::before {
+  content: "close";
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: upspricons;
+  font-size: 2.4rem;
+  line-height: 1;
+  font-feature-settings: "liga";
+}
+
+.form-toast .form-toast-icon::before {
+  content: "check_circle";
+  color: #1b743a;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: upspricons;
+  font-size: 4.8rem;
+  line-height: 1;
+  font-feature-settings: "liga";
+}
+
+.form-toast .form-toast-status {
+  margin: 8px 0;
+  font-weight: 500;
+}
+
+/* small-print note authored after the toast in the same section (source: .text .small) */
+.form-toast-container .default-content-wrapper p {
+  margin-bottom: 64px;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+/* the small-print note in its own section after the toast (source .text--rte > div: 16px p gap,
+   64px band bottom — /us/en/solutions/commerceshield); the foundation legal-note's p margin
+   collapses into a 48px wrapper margin (interim, see stardust/rollout/foundation-requests.md) */
+main > .section.form-toast-container + .section.legal-note > .default-content-wrapper {
+  margin-bottom: 64px;
+}

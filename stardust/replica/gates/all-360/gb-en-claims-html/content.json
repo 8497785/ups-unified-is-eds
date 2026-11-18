@@ -1,0 +1,2351 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-18T10:57:49.595Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.insureshield.com/gb/en/claims.html",
+  "at": "2026-11-18T10:57:32.630Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2830,
+  "root": null,
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.image > div#image-077d3f2d6c > a.cmp-image__link",
+    "x": 32,
+    "y": 22,
+    "w": 149,
+    "h": 55,
+    "text": "insure shield",
+    "href": "/gb/en/home.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "a.cmp-image__link > picture > img.cmp-image__image",
+    "x": 32,
+    "y": 22,
+    "w": 149,
+    "h": 56,
+    "text": "insure shield",
+    "file": "InsureShield_horizontal_UPSC"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.cmp-search > div#upser-header-search > button.header-search-btn",
+    "x": 236,
+    "y": 28,
+    "w": 44,
+    "h": 44,
+    "text": "search toggle"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.cmp-search > div#upser-header-search > button.header-search-btn",
+    "x": 236,
+    "y": 28,
+    "w": 44,
+    "h": 44,
+    "label": "search toggle",
+    "value": "search toggle",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.profile > div.hamburger > button.navbar-toggler.collapsed",
+    "x": 282,
+    "y": 28,
+    "w": 44,
+    "h": 44,
+    "text": "toggle navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.profile > div.hamburger > button.navbar-toggler.collapsed",
+    "x": 282,
+    "y": 28,
+    "w": 44,
+    "h": 44,
+    "label": "toggle navigation menu",
+    "value": "toggle navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ol.cmp-breadcrumb__list > li.cmp-breadcrumb__item.cmp-breadcrumb__item--active > span",
+    "x": 32,
+    "y": 115,
+    "w": 43,
+    "h": 20,
+    "text": "Claims"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#image-9faf49ead0 > picture > img.cmp-image__image",
+    "x": 32,
+    "y": 411,
+    "w": 296,
+    "h": 167,
+    "text": "male pulling out the contents out of an opened package",
+    "file": "shutterstock_1714665769_digital_01092023"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__title > h1",
+    "x": 32,
+    "y": 175,
+    "w": 296,
+    "h": 40,
+    "level": 1,
+    "text": "claims"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__description > p",
+    "x": 32,
+    "y": 247,
+    "w": 296,
+    "h": 72,
+    "text": "Have a problem with a package? Log into the online portal, provide the details a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-6.col-12 > div.cmp-teaser__action-container > a#teaser-9faf49ead0-cta-f1de0239c4",
+    "x": 32,
+    "y": 343,
+    "w": 296,
+    "h": 44,
+    "text": "log in",
+    "href": "/login/en-GB"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 642,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "how does the claim process work?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > p.cmp-title__description",
+    "x": 32,
+    "y": 745,
+    "w": 296,
+    "h": 72,
+    "text": "Quickly reporting claims can help improve recovery of the items. Here’s how to d"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-12.col-lg-6 > picture > img.img-fluid.ups-list_image",
+    "x": 32,
+    "y": 841,
+    "w": 296,
+    "h": 167,
+    "text": "female placing an item wrapped in white tissue paper into a ",
+    "file": "shutterstock_1832128345_digital_01092023"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > span.feature-lists__item__image > img.feature_img.ls-is-cached",
+    "x": 32,
+    "y": 1039,
+    "w": 24,
+    "h": 24,
+    "text": "checkmark icon",
+    "file": "checkmark"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.feature-lists__item__content > div.list__title > h6",
+    "x": 72,
+    "y": 1039,
+    "w": 256,
+    "h": 48,
+    "level": 6,
+    "text": "log into the insureshield ® online portal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.list__title > h6 > b",
+    "x": 72,
+    "y": 1041,
+    "w": 237,
+    "h": 43,
+    "text": "Log into the InsureShield Online Portal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > div.feature-lists__item__content > div.list_desc",
+    "x": 72,
+    "y": 1095,
+    "w": 256,
+    "h": 72,
+    "text": "Using your policy number, log into the portal and follow the steps to submit you"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > span.feature-lists__item__image > img.feature_img.lazyloaded",
+    "x": 32,
+    "y": 1183,
+    "w": 24,
+    "h": 24,
+    "text": "checkmark icon",
+    "file": "checkmark"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > div.feature-lists__item__content > div.list__title",
+    "x": 72,
+    "y": 1183,
+    "w": 256,
+    "h": 24,
+    "text": "Add Claim Payment Recipient"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > div.feature-lists__item__content > div.list_desc",
+    "x": 72,
+    "y": 1215,
+    "w": 256,
+    "h": 48,
+    "text": "Identify who should receive payment for the claim."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > span.feature-lists__item__image > img.feature_img.ls-is-cached",
+    "x": 32,
+    "y": 1279,
+    "w": 24,
+    "h": 24,
+    "text": "checkmark icon",
+    "file": "checkmark"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > div.feature-lists__item__content > div.list__title",
+    "x": 72,
+    "y": 1279,
+    "w": 256,
+    "h": 48,
+    "text": "Provide Some Details About the Package"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > div.feature-lists__item__content > div.list_desc",
+    "x": 72,
+    "y": 1335,
+    "w": 256,
+    "h": 96,
+    "text": "Provide information about the package, including the tracking number, carrier, c"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > span.feature-lists__item__image > img.feature_img.ls-is-cached",
+    "x": 32,
+    "y": 1447,
+    "w": 24,
+    "h": 24,
+    "text": "checkmark icon",
+    "file": "checkmark"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > div.feature-lists__item__content > div.list__title",
+    "x": 72,
+    "y": 1447,
+    "w": 256,
+    "h": 48,
+    "text": "Support Your Claim with Additional Documentation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > div.feature-lists__item__content > div.list_desc",
+    "x": 72,
+    "y": 1503,
+    "w": 256,
+    "h": 144,
+    "text": "Upload supporting documents including an invoice and bill of lading to reflect y"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > span.feature-lists__item__image > img.feature_img.ls-is-cached",
+    "x": 32,
+    "y": 1663,
+    "w": 24,
+    "h": 24,
+    "text": "checkmark icon",
+    "file": "checkmark"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > div.feature-lists__item__content > div.list__title",
+    "x": 72,
+    "y": 1663,
+    "w": 256,
+    "h": 24,
+    "text": "Submit your Claim"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.col-md-6.col-lg-4 > div.feature-lists__item__content > div.list_desc",
+    "x": 72,
+    "y": 1695,
+    "w": 256,
+    "h": 48,
+    "text": "Submit your claim and the team will get to work."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.featured-list__content > div.featured-list__action-container > a.primary-btn.featured-list__action-link",
+    "x": 32,
+    "y": 1767,
+    "w": 296,
+    "h": 44,
+    "text": "file a claim",
+    "href": "/login/en-GB"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title.container > div.cmp-title > h2.cmp-title__text",
+    "x": 32,
+    "y": 1899,
+    "w": 51,
+    "h": 52,
+    "level": 2,
+    "text": "faq"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-c33eca6698 > div#accordion-c33eca6698-item-b7f806d945 > h3.cmp-accordion__header",
+    "x": 48,
+    "y": 1995,
+    "w": 264,
+    "h": 48,
+    "level": 3,
+    "text": "how long does the claim process take?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-c33eca6698-item-b7f806d945 > h3.cmp-accordion__header > button#accordion-c33eca6698-item-b7f806d945-button",
+    "x": 48,
+    "y": 1995,
+    "w": 264,
+    "h": 48,
+    "text": "how long does the claim process take?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-c33eca6698-item-b7f806d945 > h3.cmp-accordion__header > button#accordion-c33eca6698-item-b7f806d945-button",
+    "x": 48,
+    "y": 1995,
+    "w": 264,
+    "h": 48,
+    "label": "trigger",
+    "value": "how long does the claim process take?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-c33eca6698 > div#accordion-c33eca6698-item-dfb7b6c1e8 > h3.cmp-accordion__header",
+    "x": 48,
+    "y": 2095,
+    "w": 264,
+    "h": 48,
+    "level": 3,
+    "text": "what documents are needed to support my claim?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-c33eca6698-item-dfb7b6c1e8 > h3.cmp-accordion__header > button#accordion-c33eca6698-item-dfb7b6c1e8-button",
+    "x": 48,
+    "y": 2095,
+    "w": 264,
+    "h": 48,
+    "text": "what documents are needed to support my claim?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-c33eca6698-item-dfb7b6c1e8 > h3.cmp-accordion__header > button#accordion-c33eca6698-item-dfb7b6c1e8-button",
+    "x": 48,
+    "y": 2095,
+    "w": 264,
+    "h": 48,
+    "label": "trigger",
+    "value": "what documents are needed to support my claim?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-c33eca6698 > div#accordion-c33eca6698-item-2d4d6244ac > h3.cmp-accordion__header",
+    "x": 48,
+    "y": 2195,
+    "w": 264,
+    "h": 24,
+    "level": 3,
+    "text": "when should i report a claim?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-c33eca6698-item-2d4d6244ac > h3.cmp-accordion__header > button#accordion-c33eca6698-item-2d4d6244ac-button",
+    "x": 48,
+    "y": 2195,
+    "w": 264,
+    "h": 24,
+    "text": "when should i report a claim?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-c33eca6698-item-2d4d6244ac > h3.cmp-accordion__header > button#accordion-c33eca6698-item-2d4d6244ac-button",
+    "x": 48,
+    "y": 2195,
+    "w": 264,
+    "h": 24,
+    "label": "trigger",
+    "value": "when should i report a claim?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-c33eca6698 > div#accordion-c33eca6698-item-c12988db65 > h3.cmp-accordion__header",
+    "x": 48,
+    "y": 2271,
+    "w": 264,
+    "h": 24,
+    "level": 3,
+    "text": "do i need to retain the packaging?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-c33eca6698-item-c12988db65 > h3.cmp-accordion__header > button#accordion-c33eca6698-item-c12988db65-button",
+    "x": 48,
+    "y": 2271,
+    "w": 264,
+    "h": 24,
+    "text": "do i need to retain the packaging?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-c33eca6698-item-c12988db65 > h3.cmp-accordion__header > button#accordion-c33eca6698-item-c12988db65-button",
+    "x": 48,
+    "y": 2271,
+    "w": 264,
+    "h": 24,
+    "label": "trigger",
+    "value": "do i need to retain the packaging?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-c33eca6698 > div#accordion-c33eca6698-item-1ac2017f2e > h3.cmp-accordion__header",
+    "x": 48,
+    "y": 2347,
+    "w": 264,
+    "h": 48,
+    "level": 3,
+    "text": "who should i contact if i have a question?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-c33eca6698-item-1ac2017f2e > h3.cmp-accordion__header > button#accordion-c33eca6698-item-1ac2017f2e-button",
+    "x": 48,
+    "y": 2347,
+    "w": 264,
+    "h": 48,
+    "text": "who should i contact if i have a question?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#accordion-c33eca6698-item-1ac2017f2e > h3.cmp-accordion__header > button#accordion-c33eca6698-item-1ac2017f2e-button",
+    "x": 48,
+    "y": 2347,
+    "w": 264,
+    "h": 48,
+    "label": "trigger",
+    "value": "who should i contact if i have a question?",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-39da9add3e > p",
+    "x": 32,
+    "y": 2495,
+    "w": 296,
+    "h": 19,
+    "text": "This Site"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-e50344d4df > p",
+    "x": 32,
+    "y": 2544,
+    "w": 296,
+    "h": 19,
+    "text": "Other UPS Sites"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-592ebc077d > p",
+    "x": 32,
+    "y": 2594,
+    "w": 296,
+    "h": 19,
+    "text": "Connect with Us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.ups-commons-footer-heading > div#text-a416dae286 > p",
+    "x": 32,
+    "y": 2644,
+    "w": 296,
+    "h": 19,
+    "text": "Legal"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.text.copy-right > div#text-a335fd1304 > h4",
+    "x": 32,
+    "y": 2766,
+    "w": 296,
+    "h": 40,
+    "level": 4,
+    "text": "copyright ©2023-2026 united parcel service of america, inc. all rights reserved."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 14,
+    "textNodes": 57,
+    "controls": 37,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--9ade650b--aemcoder.aem.page/gb/en/claims",
+  "at": "2026-11-18T10:57:49.489Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2870,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-logo > p > a",
+    "x": 32,
+    "y": 22,
+    "w": 149,
+    "h": 55,
+    "text": "insureshield",
+    "href": "/gb/en/home"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 32,
+    "y": 22,
+    "w": 149,
+    "h": 56,
+    "text": "insureshield",
+    "file": "media_1e13fd7b8c723c94791c8f8ac6c80eaf75"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-row > div.hdr-actions > button.hdr-burger",
+    "x": 282,
+    "y": 28,
+    "w": 44,
+    "h": 44,
+    "text": "toggle navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-row > div.hdr-actions > button.hdr-burger",
+    "x": 282,
+    "y": 28,
+    "w": 44,
+    "h": 44,
+    "label": "toggle navigation menu",
+    "value": "toggle navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-actions > div.hdr-search > button.hdr-search-btn",
+    "x": 236,
+    "y": 28,
+    "w": 44,
+    "h": 44,
+    "text": "search toggle"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hdr-actions > div.hdr-search > button.hdr-search-btn",
+    "x": 236,
+    "y": 28,
+    "w": 44,
+    "h": 44,
+    "label": "search toggle",
+    "value": "search toggle",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > span",
+    "x": 32,
+    "y": 115,
+    "w": 43,
+    "h": 20,
+    "text": "Claims"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-content > div.teaser-title > h1#claims",
+    "x": 32,
+    "y": 175,
+    "w": 296,
+    "h": 40,
+    "level": 1,
+    "text": "claims"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-content > div.teaser-desc > p",
+    "x": 32,
+    "y": 247,
+    "w": 296,
+    "h": 72,
+    "text": "Have a problem with a package? Log into the online portal, provide the details a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-actions > p.button-wrapper > a.button.primary",
+    "x": 32,
+    "y": 343,
+    "w": 296,
+    "h": 44,
+    "text": "log in",
+    "href": "/login/en-GB"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6.marketing-hero-media > picture > img",
+    "x": 32,
+    "y": 411,
+    "w": 296,
+    "h": 167,
+    "text": "male pulling out the contents out of an opened package",
+    "file": "media_1d7ada1277282a3157dd0cea007360ea62"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.featured-list-container > div.default-content-wrapper > h2#how-does-the-claim-process-work",
+    "x": 32,
+    "y": 642,
+    "w": 296,
+    "h": 88,
+    "level": 2,
+    "text": "how does the claim process work?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.featured-list-container > div.default-content-wrapper > p",
+    "x": 32,
+    "y": 745,
+    "w": 296,
+    "h": 72,
+    "text": "Quickly reporting claims can help improve recovery of the items. Here’s how to d"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-media > picture > img",
+    "x": 32,
+    "y": 841,
+    "w": 296,
+    "h": 167,
+    "text": "female placing an item wrapped in white tissue paper into a ",
+    "file": "media_1a5fe03fd99dd39313e918020fa8118018"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-title > p > strong",
+    "x": 72,
+    "y": 1041,
+    "w": 237,
+    "h": 43,
+    "text": "Log into the InsureShield Online Portal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-content > div.featured-list-desc > p",
+    "x": 72,
+    "y": 1095,
+    "w": 256,
+    "h": 72,
+    "text": "Using your policy number, log into the portal and follow the steps to submit you"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-title > p > strong",
+    "x": 72,
+    "y": 1185,
+    "w": 212,
+    "h": 19,
+    "text": "Add Claim Payment Recipient"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-content > div.featured-list-desc > p",
+    "x": 72,
+    "y": 1215,
+    "w": 256,
+    "h": 48,
+    "text": "Identify who should receive payment for the claim."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-title > p > strong",
+    "x": 72,
+    "y": 1281,
+    "w": 226,
+    "h": 43,
+    "text": "Provide Some Details About the Package"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-content > div.featured-list-desc > p",
+    "x": 72,
+    "y": 1335,
+    "w": 256,
+    "h": 96,
+    "text": "Provide information about the package, including the tracking number, carrier, c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-title > p > strong",
+    "x": 72,
+    "y": 1449,
+    "w": 250,
+    "h": 43,
+    "text": "Support Your Claim with Additional Documentation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-content > div.featured-list-desc > p",
+    "x": 72,
+    "y": 1503,
+    "w": 256,
+    "h": 144,
+    "text": "Upload supporting documents including an invoice and bill of lading to reflect y"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-title > p > strong",
+    "x": 72,
+    "y": 1665,
+    "w": 131,
+    "h": 19,
+    "text": "Submit your Claim"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-content > div.featured-list-desc > p",
+    "x": 72,
+    "y": 1695,
+    "w": 256,
+    "h": 48,
+    "text": "Submit your claim and the team will get to work."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-list-actions > p.button-wrapper > a.button.primary",
+    "x": 32,
+    "y": 1767,
+    "w": 296,
+    "h": 44,
+    "text": "file a claim",
+    "href": "/login/en-GB"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.accordion-container > div.default-content-wrapper > h2#faq",
+    "x": 32,
+    "y": 1899,
+    "w": 51,
+    "h": 52,
+    "level": 2,
+    "text": "faq"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#how-long-does-the-claim-process-take",
+    "x": 48,
+    "y": 1995,
+    "w": 224,
+    "h": 48,
+    "level": 3,
+    "text": "how long does the claim process take?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 288,
+    "y": 1995,
+    "w": 24,
+    "h": 24,
+    "text": "how long does the claim process take?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 288,
+    "y": 1995,
+    "w": 24,
+    "h": 24,
+    "label": "how long does the claim process take?",
+    "value": "how long does the claim process take?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#what-documents-are-needed-to-support-my-claim",
+    "x": 48,
+    "y": 2099,
+    "w": 224,
+    "h": 48,
+    "level": 3,
+    "text": "what documents are needed to support my claim?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 288,
+    "y": 2099,
+    "w": 24,
+    "h": 24,
+    "text": "what documents are needed to support my claim?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 288,
+    "y": 2099,
+    "w": 24,
+    "h": 24,
+    "label": "what documents are needed to support my claim?",
+    "value": "what documents are needed to support my claim?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#when-should-i-report-a-claim",
+    "x": 48,
+    "y": 2203,
+    "w": 211,
+    "h": 24,
+    "level": 3,
+    "text": "when should i report a claim?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 288,
+    "y": 2203,
+    "w": 24,
+    "h": 24,
+    "text": "when should i report a claim?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 288,
+    "y": 2203,
+    "w": 24,
+    "h": 24,
+    "label": "when should i report a claim?",
+    "value": "when should i report a claim?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#do-i-need-to-retain-the-packaging",
+    "x": 48,
+    "y": 2283,
+    "w": 224,
+    "h": 48,
+    "level": 3,
+    "text": "do i need to retain the packaging?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 288,
+    "y": 2283,
+    "w": 24,
+    "h": 24,
+    "text": "do i need to retain the packaging?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 288,
+    "y": 2283,
+    "w": 24,
+    "h": 24,
+    "label": "do i need to retain the packaging?",
+    "value": "do i need to retain the packaging?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-head > div.accordion-title > h3#who-should-i-contact-if-i-have-a-question",
+    "x": 48,
+    "y": 2387,
+    "w": 224,
+    "h": 48,
+    "level": 3,
+    "text": "who should i contact if i have a question?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 288,
+    "y": 2387,
+    "w": 24,
+    "h": 24,
+    "text": "who should i contact if i have a question?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-item > div.accordion-head > button.accordion-toggle",
+    "x": 288,
+    "y": 2387,
+    "w": 24,
+    "h": 24,
+    "label": "who should i contact if i have a question?",
+    "value": "who should i contact if i have a question?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 2519,
+    "w": 360,
+    "h": 50,
+    "text": "this site"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 2519,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "this site",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col.ftr-col-wide > div.ftr-heading",
+    "x": 0,
+    "y": 2568,
+    "w": 360,
+    "h": 50,
+    "text": "other ups sites"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col.ftr-col-wide > div.ftr-heading",
+    "x": 0,
+    "y": 2568,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "other ups sites",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 2618,
+    "w": 360,
+    "h": 50,
+    "text": "connect with us"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-cols.ftr-cols-split > div.ftr-col > div.ftr-heading",
+    "x": 0,
+    "y": 2618,
+    "w": 360,
+    "h": 50,
+    "label": "trigger",
+    "value": "connect with us",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr > div.ftr-inner > div.ftr-heading.ftr-heading-legal",
+    "x": 0,
+    "y": 2668,
+    "w": 360,
+    "h": 51,
+    "text": "legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr > div.ftr-inner > div.ftr-heading.ftr-heading-legal",
+    "x": 0,
+    "y": 2668,
+    "w": 360,
+    "h": 51,
+    "label": "trigger",
+    "value": "legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.ftr-inner > div.ftr-copy > p",
+    "x": 32,
+    "y": 2806,
+    "w": 296,
+    "h": 40,
+    "text": "Copyright ©2023-2026 United Parcel Service of America, Inc. All rights reserved."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 50,
+    "controls": 34,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "claims",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "how does the claim process work?",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 11,
+    "image": 6
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 11,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT IMAGES"
+   ]
+  },
+  {
+   "index": 3,
+   "heading": "faq",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "how long does the claim process take?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "what documents are needed to support my claim?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "when should i report a claim?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "do i need to retain the packaging?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "who should i contact if i have a question?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"how does the claim process work?\": 6 origin → 1 served visible",
+   "band": 2,
+   "origin": 6,
+   "eds": 1,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 32,
+    "y": 116,
+    "w": 43,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 176,
+    "w": 98,
+    "h": 38
+   },
+   {
+    "x": 32,
+    "y": 249,
+    "w": 292,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 273,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 297,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 147,
+    "y": 355,
+    "w": 44,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 643,
+    "w": 253,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 678,
+    "w": 186,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 747,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 771,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 795,
+    "w": 87,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1041,
+    "w": 178,
+    "h": 19
+   },
+   {
+    "x": 250,
+    "y": 1039,
+    "w": 9,
+    "h": 14
+   },
+   {
+    "x": 259,
+    "y": 1041,
+    "w": 50,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1065,
+    "w": 43,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1097,
+    "w": 239,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1121,
+    "w": 234,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1145,
+    "w": 131,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1185,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1217,
+    "w": 193,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1241,
+    "w": 159,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1281,
+    "w": 226,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1305,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1337,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1361,
+    "w": 220,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1385,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1409,
+    "w": 135,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1449,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1473,
+    "w": 110,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1505,
+    "w": 215,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1529,
+    "w": 214,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1553,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1577,
+    "w": 214,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1601,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1625,
+    "w": 196,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1665,
+    "w": 131,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1697,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1721,
+    "w": 84,
+    "h": 19
+   },
+   {
+    "x": 127,
+    "y": 1779,
+    "w": 83,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1900,
+    "w": 51,
+    "h": 33
+   },
+   {
+    "x": 48,
+    "y": 1997,
+    "w": 236,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2021,
+    "w": 38,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2097,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2121,
+    "w": 131,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2197,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2273,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2349,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2373,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2494,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2543,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2593,
+    "w": 116,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2643,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2768,
+    "w": 293,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 2788,
+    "w": 200,
+    "h": 16
+   }
+  ],
+  "eds": [
+   {
+    "x": 32,
+    "y": 116,
+    "w": 43,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 176,
+    "w": 98,
+    "h": 38
+   },
+   {
+    "x": 32,
+    "y": 249,
+    "w": 292,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 273,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 297,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 145,
+    "y": 355,
+    "w": 44,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 643,
+    "w": 253,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 678,
+    "w": 186,
+    "h": 33
+   },
+   {
+    "x": 32,
+    "y": 747,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 771,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 795,
+    "w": 87,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1041,
+    "w": 178,
+    "h": 19
+   },
+   {
+    "x": 250,
+    "y": 1039,
+    "w": 9,
+    "h": 14
+   },
+   {
+    "x": 259,
+    "y": 1041,
+    "w": 50,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1065,
+    "w": 43,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1097,
+    "w": 239,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1121,
+    "w": 234,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1145,
+    "w": 131,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1185,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1217,
+    "w": 193,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1241,
+    "w": 159,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1281,
+    "w": 226,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1305,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1337,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1361,
+    "w": 220,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1385,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1409,
+    "w": 135,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1449,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1473,
+    "w": 110,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1505,
+    "w": 215,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1529,
+    "w": 214,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1553,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1577,
+    "w": 214,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1601,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1625,
+    "w": 196,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1665,
+    "w": 131,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1697,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 1721,
+    "w": 84,
+    "h": 19
+   },
+   {
+    "x": 125,
+    "y": 1779,
+    "w": 83,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1900,
+    "w": 51,
+    "h": 33
+   },
+   {
+    "x": 48,
+    "y": 1997,
+    "w": 176,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2021,
+    "w": 99,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2101,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2125,
+    "w": 131,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2205,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2285,
+    "w": 156,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2309,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2389,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2413,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2534,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2583,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2633,
+    "w": 116,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2683,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 2808,
+    "w": 293,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 2828,
+    "w": 200,
+    "h": 16
+   }
+  ]
+ }
+}

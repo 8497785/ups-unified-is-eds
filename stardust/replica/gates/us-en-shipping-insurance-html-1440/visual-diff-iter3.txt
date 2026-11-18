@@ -1,0 +1,741 @@
+[live-session] waiting to pace live navigations to www.insureshield.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 786 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/us-en-shipping-insurance-html-1440/vdiff-iter3/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 5071,
+  "textLen": 4647,
+  "images": [
+   {
+    "src": "RAE_JeepHeader?$UPSer_Preset$&wid=384&hei=216&fit=constrain",
+    "natural": "384x216",
+    "rendered": "295x221",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Proof?$UPSer_Preset$&wid=384&hei=216&fit=constrain",
+    "natural": "384x216",
+    "rendered": "295x221",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_1593134869_digital_02062023?$Image_Preset_Desktop$",
+    "natural": "1280x720",
+    "rendered": "295x221",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_2154981693_digital_02062023?$Image_Preset_Desktop$",
+    "natural": "1280x720",
+    "rendered": "295x221",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1187733~UPS_Flat_Shield_2Color_RGB.original.png",
+    "natural": "425x480",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "464526.gif",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=187194318&Ver=2&mid=38b8328b-3845-4159-b47c-f10e6f08e087&bo=2&sid=5e79b050e2c011f1836949d77ef27f00&vid=5e799730e2c011f19d691d813d056856&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=Shipping%20Insurance%20for%20Businesses%20%7C%20InsureShield%C2%AE&p=https%3A%2F%2Fwww.insureshield.com%2Fus%2Fen%2Fshipping-insurance.html&r=&lt=1932&evt=pageLoad&sv=2&asc=G&cdb=AQER&rn=960880",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Shipping insurance for lost, dam",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "48px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "What’s your average package valu",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Carrier declared value and shipp",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What’s covered?",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "18.72px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "What makes us stand out against ",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Trusted insurance provider",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Multi-carrier, multi-modal",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Simpler insurance claims",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Benefits of InsureShield shippin",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "32px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Connect InsureShield to the plat",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Integrations",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Related solutions",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Protect ecommerce growth with Co",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Protect high-value goods with Pa",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Stories and resources",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "RAE Solutions, LLC grows custome",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Proof keeps ice cream frozen & c",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What is shipping insurance?",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Carrier liability vs shipping in",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Common questions about shipping ",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "32px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What is InsureShield® shipping i",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What does InsureShield® shipping",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How is InsureShield® different f",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Can I offer InsureShield® protec",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How do I file a claim?",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Is coverage available internatio",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "m-inner-1mxtwS",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "m-comparison--jz65U",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "m-grid-K14g0T",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "_container_itksx_33",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "m-grid-K14g0T",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "m-grid-K14g0T",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "m-grid-K14g0T",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "m-faq-ON5fp8",
+    "width": 1184,
+    "left": 128
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 5071,
+  "textLen": 4647,
+  "images": [
+   {
+    "src": "hero-lattice.svg",
+    "natural": "300x131",
+    "rendered": "1440x631",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-lattice.svg",
+    "natural": "300x131",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "topic-general.svg",
+    "natural": "72x72",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "topic-porch.svg",
+    "natural": "72x72",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "topic-time.svg",
+    "natural": "72x72",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "topic-reship.svg",
+    "natural": "72x72",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "topic-highvalue.svg",
+    "natural": "72x72",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "topic-claims.svg",
+    "natural": "72x72",
+    "rendered": "72x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standout-journey.svg",
+    "natural": "160x151",
+    "rendered": "295x160",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standout-claims.svg",
+    "natural": "160x136",
+    "rendered": "295x160",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "benefits.svg",
+    "natural": "473x384",
+    "rendered": "473x384",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "band-signal-field.svg",
+    "natural": "114x150",
+    "rendered": "1440x1899",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "solution-commerceshield.svg",
+    "natural": "201x150",
+    "rendered": "591x160",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "solution-parcelpro.svg",
+    "natural": "591x160",
+    "rendered": "591x160",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "RAE_JeepHeader?$UPSer_Preset$&wid=384&hei=216&fit=constrain",
+    "natural": "384x216",
+    "rendered": "295x221",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Proof?$UPSer_Preset$&wid=384&hei=216&fit=constrain",
+    "natural": "384x216",
+    "rendered": "295x221",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_1593134869_digital_02062023?$Image_Preset_Desktop$",
+    "natural": "1280x720",
+    "rendered": "295x221",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shutterstock_2154981693_digital_02062023?$Image_Preset_Desktop$",
+    "natural": "1280x720",
+    "rendered": "295x221",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Shipping insurance for lost, dam",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "48px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "What’s your average package valu",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Carrier declared value and shipp",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What’s covered?",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "18.72px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "What makes us stand out against ",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Trusted insurance provider",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Multi-carrier, multi-modal",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Simpler insurance claims",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Benefits of InsureShield shippin",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "32px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Connect InsureShield to the plat",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "28px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Integrations",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Related solutions",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Protect ecommerce growth with Co",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Protect high-value goods with Pa",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Stories and resources",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "40px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "RAE Solutions, LLC grows custome",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Proof keeps ice cream frozen & c",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What is shipping insurance?",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Carrier liability vs shipping in",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Common questions about shipping ",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "32px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What is InsureShield® shipping i",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What does InsureShield® shipping",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How is InsureShield® different f",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Can I offer InsureShield® protec",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How do I file a claim?",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Is coverage available internatio",
+    "color": "rgb(18, 18, 18)",
+    "fontSize": "20px",
+    "family": "Inter",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "sh-hero__inner",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "sh-compare",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "sh-grid",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "sh-container",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "sh-grid",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "sh-grid",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "sh-grid",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "sh-faq",
+    "width": 1184,
+    "left": 128
+   }
+  ]
+ }
+}

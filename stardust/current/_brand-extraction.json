@@ -1,0 +1,950 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-17T20:49:44.696Z",
+    "stardustVersion": "0.39.4",
+    "source": "stardust/current/_computed-styles.json"
+  },
+  "origins": [
+    {
+      "origin": "https://www.insureshield.com",
+      "role": "primary",
+      "pages": 96
+    }
+  ],
+  "logo": {
+    "file": "stardust/current/assets/logo.svg",
+    "url": "https://s7d9.scene7.com/is/content/upsprod/InsureShield_horizontal_UPSC",
+    "selector": "header .cmp-image__image"
+  },
+  "favicon": {
+    "file": "stardust/current/assets/favicon.png"
+  },
+  "palette": [
+    {
+      "hex": "#ffffff",
+      "roles": [
+        "background",
+        "border"
+      ],
+      "weight": 14092,
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/solutions/commerceshield.html",
+          "selector": "div > div:nth-of-type(1) > div > div > div > div > div > div:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments.html",
+          "selector": "div > div:nth-of-type(1) > div > div > div > div > div > div:nth-of-type(1)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#121212",
+      "roles": [
+        "text",
+        "heading"
+      ],
+      "weight": 9959,
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-of-service-and-explanation-of-coverage.html",
+          "selector": "nav > ul > li:nth-of-type(2) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-gallagher-affinity.html",
+          "selector": "nav > ul > li:nth-of-type(2) > a",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#3fa29d",
+      "roles": [
+        "primary"
+      ],
+      "weight": 922,
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance/multi-carrier-shipments.html",
+          "selector": "#container-85bdea07a5 > div > div:nth-of-type(1) > div > div > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.insureshield.com/ca/en/home.html",
+          "selector": "#container-85bdea07a5 > div > div:nth-of-type(1) > div > div > div",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#2f67ac",
+      "roles": [
+        "accent"
+      ],
+      "weight": 572,
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/about.html",
+          "selector": "#container-f70c8dbfba > div > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(3) > a:nth-of-type(2)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/resources/whitepapers-and-guides.html",
+          "selector": "div > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div:nth-of-type(3) > a:nth-of-type(2)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#4a4a4c",
+      "roles": [
+        "surface"
+      ],
+      "weight": 217,
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/promotional/delivery-defense-mockup.html",
+          "selector": "#slider-range-min > span",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/solutions/delivery-defense.html",
+          "selector": "#slider-range-min > span",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#ffc400",
+      "roles": [
+        "secondary"
+      ],
+      "weight": 160,
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance/b2b.html",
+          "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(9) > div > div > div:nth-of-type(3) > a:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance/consumer-electronics-and-technology.html",
+          "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(9) > div > div > div:nth-of-type(3) > a:nth-of-type(1)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#5f5753",
+      "roles": [],
+      "weight": 632,
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+          "selector": "nav > ul > li:nth-of-type(1) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+          "selector": "#hero-section > section > div:nth-of-type(2) > div:nth-of-type(1) > p",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#000000",
+      "roles": [],
+      "weight": 460,
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/resources/help-and-support.html",
+          "selector": "#accordion-c27e95e1a7-item-c7a5abc63e > h3 > button > span:nth-of-type(2)",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/claims/channel-partners-claims.html",
+          "selector": "#container-de3b96f8a7 > div > div:nth-of-type(7) > div > div:nth-of-type(1) > h3 > button > span:nth-of-type(2)",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#bfb8af",
+      "roles": [],
+      "weight": 419,
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/customer-communications/enhanced-declared-value.html",
+          "selector": "nav > ul > li:nth-of-type(1) > a",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-gallagher-affinity.html",
+          "selector": "nav > ul > li:nth-of-type(1) > a",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#0662bb",
+      "roles": [],
+      "weight": 262,
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/legal/technology-agreement.html",
+          "selector": "div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div > p:nth-of-type(12) > a",
+          "prop": "link"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/legal/terms-and-conditions-gallagher-affinity.html",
+          "selector": "#container-d75af85fb7 > div > div:nth-of-type(2) > div > p:nth-of-type(5) > a:nth-of-type(1)",
+          "prop": "link"
+        }
+      ]
+    },
+    {
+      "hex": "#b2b2bb",
+      "roles": [],
+      "weight": 101,
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+          "selector": "#difference > div > div:nth-of-type(2) > table",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/promotional/delivery-defense-mockup.html",
+          "selector": "div > div > div:nth-of-type(5) > div > div > div > form > div:nth-of-type(3)",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#8c857e",
+      "roles": [],
+      "weight": 92,
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/ca/en/resources.html",
+          "selector": "div:nth-of-type(3) > div > div:nth-of-type(1) > div:nth-of-type(1) > form > div > div > input",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.insureshield.com/de/en/resources.html",
+          "selector": "div:nth-of-type(3) > div > div:nth-of-type(1) > div:nth-of-type(1) > form > div > div > input",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#f0ede9",
+      "roles": [],
+      "weight": 80,
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+          "selector": "footer > div > div:nth-of-type(1) > p:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+          "selector": "footer > div > div:nth-of-type(3) > ul > li:nth-of-type(2)",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#007a7a",
+      "roles": [],
+      "weight": 67,
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/customer-communications/enhanced-declared-value.html",
+          "selector": "div > div > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(2)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/solutions/commerceshield.html",
+          "selector": "div:nth-of-type(13) > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(1)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#e0e0e0",
+      "roles": [],
+      "weight": 64,
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/customer-communications/enhanced-declared-value.html",
+          "selector": "div > div > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(2)",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/shipping-insurance/select-my-coverage.html",
+          "selector": "div > div:nth-of-type(2) > div > div > div > table > tbody > tr:nth-of-type(1)",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#212529",
+      "roles": [],
+      "weight": 32,
+      "sources": [
+        {
+          "url": "https://www.insureshield.com/us/en/solutions/commerceshield.html",
+          "selector": "div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > h5",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.insureshield.com/us/en/partners/3pl-partners.html",
+          "selector": "#embed-e48b9c60fd > div > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(2)",
+          "prop": "text"
+        }
+      ]
+    }
+  ],
+  "type": {
+    "families": [
+      {
+        "family": "Roboto",
+        "count": 3875,
+        "headings": 1452,
+        "text": 1838,
+        "buttons": 585
+      },
+      {
+        "family": "Inter",
+        "count": 84,
+        "headings": 56,
+        "text": 24,
+        "buttons": 4
+      }
+    ],
+    "headingFamily": "Roboto",
+    "bodyFamily": "Roboto",
+    "levels": {
+      "h1": {
+        "fontSize": 48,
+        "fontWeight": "400",
+        "count": 74,
+        "score": 412.91
+      },
+      "h2": {
+        "fontSize": 40,
+        "fontWeight": "400",
+        "count": 266,
+        "score": 652.38
+      },
+      "h3": {
+        "fontSize": 16,
+        "fontWeight": "400",
+        "count": 188,
+        "score": 219.38
+      },
+      "h4": {
+        "fontSize": 14,
+        "fontWeight": "500",
+        "count": 92,
+        "score": 167.85
+      },
+      "h5": {
+        "fontSize": 24,
+        "fontWeight": "400",
+        "count": 17,
+        "score": 98.95
+      },
+      "h6": {
+        "fontSize": 20,
+        "fontWeight": "400",
+        "count": 54,
+        "score": 146.97
+      }
+    },
+    "files": [
+      {
+        "file": "stardust/current/assets/fonts/roboto-latin-400.woff2",
+        "family": "Roboto",
+        "license": "OFL (Google Fonts)"
+      },
+      {
+        "file": "stardust/current/assets/fonts/roboto-latin-500.woff2",
+        "family": "Roboto",
+        "license": "OFL (Google Fonts)"
+      },
+      {
+        "file": "stardust/current/assets/fonts/inter-latin-opsz-normal.woff2",
+        "family": "Inter",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/material-symbols-rounded.woff2",
+        "family": "upspricons (Material Symbols Rounded)",
+        "license": "Apache-2.0"
+      }
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc"
+    }
+  },
+  "motifs": {
+    "radius": {
+      "mode": "4px",
+      "areaMode": "4px",
+      "pill": "50%",
+      "values": [
+        {
+          "value": "4px",
+          "count": 1227,
+          "area": 130322304,
+          "sources": [
+            {
+              "url": "https://www.insureshield.com/ca/en/about.html",
+              "selector": "div > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > picture > img"
+            },
+            {
+              "url": "https://www.insureshield.com/ca/en/about.html",
+              "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > picture > img"
+            },
+            {
+              "url": "https://www.insureshield.com/ca/en/about.html",
+              "selector": "div > div:nth-of-type(3) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > picture > img"
+            },
+            {
+              "url": "https://www.insureshield.com/ca/en/claims.html",
+              "selector": "div > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > picture > img"
+            },
+            {
+              "url": "https://www.insureshield.com/ca/en/claims.html",
+              "selector": "div > div:nth-of-type(3) > div > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div"
+            }
+          ]
+        },
+        {
+          "value": "32px",
+          "count": 428,
+          "area": 4384726,
+          "sources": [
+            {
+              "url": "https://www.insureshield.com/ca/en/about.html",
+              "selector": "div > div:nth-of-type(3) > div > div > div:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(3) > a"
+            },
+            {
+              "url": "https://www.insureshield.com/ca/en/about.html",
+              "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(7) > div > div > div:nth-of-type(3) > a"
+            },
+            {
+              "url": "https://www.insureshield.com/ca/en/claims.html",
+              "selector": "div > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div:nth-of-type(3) > a"
+            },
+            {
+              "url": "https://www.insureshield.com/ca/en/claims.html",
+              "selector": "div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > a"
+            },
+            {
+              "url": "https://www.insureshield.com/ca/en/home.html",
+              "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(3) > a"
+            }
+          ]
+        },
+        {
+          "value": "4px 4px 0px 0px",
+          "count": 266,
+          "area": 15667257,
+          "sources": [
+            {
+              "url": "https://www.insureshield.com/ca/en/about.html",
+              "selector": "div:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a > div:nth-of-type(1) > picture > img"
+            },
+            {
+              "url": "https://www.insureshield.com/ca/en/about.html",
+              "selector": "div:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > a > div:nth-of-type(1) > picture > img"
+            },
+            {
+              "url": "https://www.insureshield.com/ca/en/home.html",
+              "selector": "div:nth-of-type(10) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a > div:nth-of-type(1) > picture > img"
+            },
+            {
+              "url": "https://www.insureshield.com/ca/en/home.html",
+              "selector": "div:nth-of-type(10) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > a > div:nth-of-type(1) > picture > img"
+            },
+            {
+              "url": "https://www.insureshield.com/ca/en/resources.html",
+              "selector": "#slick-slide00 > a > div:nth-of-type(1) > picture > img"
+            }
+          ]
+        },
+        {
+          "value": "50%",
+          "count": 208,
+          "area": 36376,
+          "sources": [
+            {
+              "url": "https://www.insureshield.com/ca/en/home.html",
+              "selector": "div > div:nth-of-type(8) > div > div > div:nth-of-type(4) > div > ol > li:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.insureshield.com/ca/en/home.html",
+              "selector": "div > div:nth-of-type(8) > div > div > div:nth-of-type(4) > div > ol > li:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.insureshield.com/ca/en/home.html",
+              "selector": "div > div:nth-of-type(8) > div > div > div:nth-of-type(4) > div > ol > li:nth-of-type(3)"
+            },
+            {
+              "url": "https://www.insureshield.com/ca/en/resources.html",
+              "selector": "div > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > span"
+            },
+            {
+              "url": "https://www.insureshield.com/ca/en/resources.html",
+              "selector": "div > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > span"
+            }
+          ]
+        },
+        {
+          "value": "40px",
+          "count": 140,
+          "area": 1051731,
+          "sources": [
+            {
+              "url": "https://www.insureshield.com/ca/en/shipping-insurance.html",
+              "selector": "div > div > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div:nth-of-type(3) > a:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.insureshield.com/de/de/cargo-insurance.html",
+              "selector": "div > div > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div:nth-of-type(3) > a:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.insureshield.com/de/en/cargo-insurance.html",
+              "selector": "div > div > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div:nth-of-type(3) > a:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.insureshield.com/gb/en/home.html",
+              "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(3) > a:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.insureshield.com/gb/en/home.html",
+              "selector": "#pathways- > div > div:nth-of-type(2) > a"
+            }
+          ]
+        },
+        {
+          "value": "30px",
+          "count": 78,
+          "area": 892320,
+          "sources": [
+            {
+              "url": "https://www.insureshield.com/us/en/partners.html",
+              "selector": "#sm-visitor-app-container > div:nth-of-type(1) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/partners.html",
+              "selector": "#sm-visitor-app-container > div:nth-of-type(1) > div:nth-of-type(1) > div > span > div > span > div"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/partners.html",
+              "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div > span > div > span > div > div"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/partners.html",
+              "selector": "#sm-visitor-app-container > div:nth-of-type(1) > div:nth-of-type(1) > div"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/partners/3pl-partners.html",
+              "selector": "#sm-visitor-app-container > div:nth-of-type(1) > div:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "2.5px",
+          "count": 16,
+          "area": 4624,
+          "sources": [
+            {
+              "url": "https://www.insureshield.com/us/en/solutions/commerceshield.html",
+              "selector": "div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > p:nth-of-type(1) > span"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/solutions/commerceshield.html",
+              "selector": "div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > p:nth-of-type(2) > span"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/solutions/commerceshield.html",
+              "selector": "div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > p:nth-of-type(3) > span"
+            }
+          ]
+        },
+        {
+          "value": "10px",
+          "count": 12,
+          "area": 101574,
+          "sources": [
+            {
+              "url": "https://www.insureshield.com/us/en/promotional/delivery-defense-mockup.html",
+              "selector": "#slider-range-min > div"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/promotional/delivery-defense-mockup.html",
+              "selector": "#slider-range-min > span"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/solutions/delivery-defense.html",
+              "selector": "#slider-range-min > div"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/solutions/delivery-defense.html",
+              "selector": "#slider-range-min > span"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/solutions/delivery-defense/learning-center.html",
+              "selector": "#slider-range-min > div"
+            }
+          ]
+        },
+        {
+          "value": "999px",
+          "count": 7,
+          "area": 75848,
+          "sources": [
+            {
+              "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+              "selector": "nav > div > button"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+              "selector": "#hero-section > section > div:nth-of-type(2) > div:nth-of-type(1) > div > button"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+              "selector": "section > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > button"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+              "selector": "#hero-section > section > div:nth-of-type(2) > div:nth-of-type(2) > div > button"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+              "selector": "#benefits > div > div:nth-of-type(2) > div:nth-of-type(2) > a"
+            }
+          ]
+        },
+        {
+          "value": "11px",
+          "count": 6,
+          "area": 114600,
+          "sources": [
+            {
+              "url": "https://www.insureshield.com/us/en/promotional/delivery-defense-mockup.html",
+              "selector": "#slider-range-min"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/solutions/delivery-defense.html",
+              "selector": "#slider-range-min"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/solutions/delivery-defense/learning-center.html",
+              "selector": "#slider-range-min"
+            }
+          ]
+        },
+        {
+          "value": "2.75px 2.75px 0px 0px",
+          "count": 4,
+          "area": 77792,
+          "sources": [
+            {
+              "url": "https://www.insureshield.com/us/en/solutions/commerceshield.html",
+              "selector": "div:nth-of-type(13) > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/solutions/commerceshield.html",
+              "selector": "div:nth-of-type(13) > div > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "3.75px",
+          "count": 4,
+          "area": 799200,
+          "sources": [
+            {
+              "url": "https://www.insureshield.com/us/en/solutions/commerceshield.html",
+              "selector": "div > div:nth-of-type(13) > div > div:nth-of-type(1) > div > div > div > div"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/solutions/commerceshield.html",
+              "selector": "div > div:nth-of-type(13) > div > div:nth-of-type(2) > div > div > div > div"
+            }
+          ]
+        },
+        {
+          "value": "0px 4px 4px 0px",
+          "count": 3,
+          "area": 22698,
+          "sources": [
+            {
+              "url": "https://www.insureshield.com/us/en/promotional/delivery-defense-mockup.html",
+              "selector": "div:nth-of-type(5) > div > div > div > form > div:nth-of-type(3) > div:nth-of-type(5) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/solutions/delivery-defense.html",
+              "selector": "div:nth-of-type(5) > div > div > div > form > div:nth-of-type(3) > div:nth-of-type(5) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/solutions/delivery-defense/learning-center.html",
+              "selector": "div:nth-of-type(6) > div > div > div > form > div:nth-of-type(3) > div:nth-of-type(5) > div:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "4px 0px 0px 4px",
+          "count": 3,
+          "area": 45396,
+          "sources": [
+            {
+              "url": "https://www.insureshield.com/us/en/promotional/delivery-defense-mockup.html",
+              "selector": "div:nth-of-type(5) > div > div > div > form > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/solutions/delivery-defense.html",
+              "selector": "div:nth-of-type(5) > div > div > div > form > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.insureshield.com/us/en/solutions/delivery-defense/learning-center.html",
+              "selector": "div:nth-of-type(6) > div > div > div > form > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1)"
+            }
+          ]
+        }
+      ]
+    },
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.05) 0px 4px 12px -3px",
+        "count": 482,
+        "sources": [
+          {
+            "url": "https://www.insureshield.com/ca/en/about.html",
+            "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a"
+          },
+          {
+            "url": "https://www.insureshield.com/ca/en/about.html",
+            "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a"
+          },
+          {
+            "url": "https://www.insureshield.com/ca/en/about.html",
+            "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > a"
+          },
+          {
+            "url": "https://www.insureshield.com/ca/en/home.html",
+            "selector": "#pathways-"
+          },
+          {
+            "url": "https://www.insureshield.com/ca/en/resources.html",
+            "selector": "#slick-slide00 > a"
+          }
+        ]
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.14) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 4px 12px -3px",
+        "count": 223,
+        "sources": [
+          {
+            "url": "https://www.insureshield.com/ca/en/claims.html",
+            "selector": "#container-85bdea07a5 > div > div:nth-of-type(3) > div > div > div:nth-of-type(5) > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.insureshield.com/ca/en/claims.html",
+            "selector": "#container-85bdea07a5 > div > div:nth-of-type(3) > div > div > div:nth-of-type(5) > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.insureshield.com/ca/en/claims.html",
+            "selector": "#container-85bdea07a5 > div > div:nth-of-type(3) > div > div > div:nth-of-type(5) > div > div:nth-of-type(3)"
+          },
+          {
+            "url": "https://www.insureshield.com/ca/en/home.html",
+            "selector": "#container-85bdea07a5 > div > div:nth-of-type(3) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div"
+          },
+          {
+            "url": "https://www.insureshield.com/de/de/claims.html",
+            "selector": "#container-85bdea07a5 > div > div:nth-of-type(2) > div > div > div:nth-of-type(5) > div > div:nth-of-type(1)"
+          }
+        ]
+      },
+      {
+        "value": "rgba(18, 18, 18, 0.2) 0px 4px 10px 0px",
+        "count": 91,
+        "sources": [
+          {
+            "url": "https://www.insureshield.com/ca/en/about.html",
+            "selector": "#container-cfa2a04f90 > div > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.insureshield.com/ca/en/claims.html",
+            "selector": "#container-cfa2a04f90 > div > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.insureshield.com/ca/en/home.html",
+            "selector": "#container-cfa2a04f90 > div > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.insureshield.com/ca/en/partners.html",
+            "selector": "#container-cfa2a04f90 > div > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.insureshield.com/ca/en/resources.html",
+            "selector": "#container-cfa2a04f90 > div > div > div:nth-of-type(2)"
+          }
+        ]
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(350.94deg, rgb(220, 232, 231) 8%, rgb(243, 243, 243) 55.74%)",
+        "count": 138,
+        "area": 55672604,
+        "sources": [
+          {
+            "url": "https://www.insureshield.com/ca/en/about.html",
+            "selector": "#container-85bdea07a5 > div > div:nth-of-type(3) > div > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.insureshield.com/ca/en/claims.html",
+            "selector": "#container-85bdea07a5 > div > div:nth-of-type(3) > div > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.insureshield.com/ca/en/partners.html",
+            "selector": "#container-5e63a57e98 > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.insureshield.com/ca/en/resources.html",
+            "selector": "#container-9cc8ce74ef > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.insureshield.com/ca/en/shipping-insurance.html",
+            "selector": "#container-85bdea07a5 > div > div:nth-of-type(3) > div > div > div:nth-of-type(1)"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(350.94deg, rgb(220, 232, 231) 8%, rgb(255, 255, 255) 55.74%)",
+        "count": 38,
+        "area": 13210987,
+        "sources": [
+          {
+            "url": "https://www.insureshield.com/ca/en/home.html",
+            "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(8) > div > div > div:nth-of-type(3) > div"
+          },
+          {
+            "url": "https://www.insureshield.com/ca/en/home.html",
+            "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(8) > div > div > div:nth-of-type(2) > div"
+          },
+          {
+            "url": "https://www.insureshield.com/de/de/home.html",
+            "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(8) > div > div > div:nth-of-type(2) > div"
+          },
+          {
+            "url": "https://www.insureshield.com/de/en/home.html",
+            "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(8) > div > div > div:nth-of-type(2) > div"
+          },
+          {
+            "url": "https://www.insureshield.com/gb/en/home.html",
+            "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(12) > div > div > div:nth-of-type(2) > div"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(rgb(95, 87, 83), rgb(95, 87, 83))",
+        "count": 10,
+        "area": 32448,
+        "sources": [
+          {
+            "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+            "selector": "div > ul > li > div > ul > li:nth-of-type(2) > h4 > span"
+          },
+          {
+            "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+            "selector": "div > ul > li > div > ul > li:nth-of-type(3) > h4 > span"
+          },
+          {
+            "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+            "selector": "div > ul > li > div > ul > li:nth-of-type(4) > h4 > span"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(90deg, rgb(246, 110, 110) 0px, rgb(246, 172, 104) 25%, rgb(241, 211, 103) 49.48%, rgb(225, 244, 109) 72.4%, rgb(151, 242, 108) 100%)",
+        "count": 6,
+        "area": 114600,
+        "sources": [
+          {
+            "url": "https://www.insureshield.com/us/en/promotional/delivery-defense-mockup.html",
+            "selector": "#slider-range-min"
+          },
+          {
+            "url": "https://www.insureshield.com/us/en/solutions/delivery-defense.html",
+            "selector": "#slider-range-min"
+          },
+          {
+            "url": "https://www.insureshield.com/us/en/solutions/delivery-defense/learning-center.html",
+            "selector": "#slider-range-min"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0))",
+        "count": 4,
+        "area": 34491,
+        "sources": [
+          {
+            "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+            "selector": "#hero-section > section > div:nth-of-type(2) > div:nth-of-type(1) > h1 > span:nth-of-type(2) > span"
+          },
+          {
+            "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+            "selector": "#hero-section > section > div:nth-of-type(2) > div:nth-of-type(1) > h1 > span:nth-of-type(3) > span"
+          },
+          {
+            "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+            "selector": "#hero-section > section > div:nth-of-type(2) > div:nth-of-type(2) > h1 > span:nth-of-type(2) > span"
+          },
+          {
+            "url": "https://www.insureshield.com/us/en/shipping-insurance.html",
+            "selector": "#hero-section > section > div:nth-of-type(2) > div:nth-of-type(2) > h1 > span:nth-of-type(3) > span"
+          }
+        ]
+      }
+    ]
+  },
+  "iconFont": {
+    "family": "upspricons",
+    "file": "stardust/current/assets/fonts/material-symbols-rounded.woff2",
+    "note": "class upspr-icon-* map to Material Symbols ligatures/codepoints (see theme-insure-shield.min.css)"
+  },
+  "voice": {
+    "heroHeadline": "UPS® Secure Commerce",
+    "lede": "Manage risk across the entire supply chain with data-driven intelligence, proactive risk management, and decades of UPS expertise.",
+    "ctas": [
+      "Get a Quote",
+      "Explore Solutions",
+      "Speak with an expert"
+    ]
+  },
+  "systemComponents": [
+    {
+      "id": "site-header",
+      "note": "logo, utility nav (Alerts, Log In, Get a Quote, Contact Us, language selector), main nav (Shipping Insurance, Solutions, Claims, Partners, Resources, About), search"
+    },
+    {
+      "id": "alert-bar",
+      "note": "top strip \"Introducing a fresh take on protection…\""
+    },
+    {
+      "id": "site-footer",
+      "note": "disclaimer text, three link columns (This Site, Other UPS Sites, Connect with Us), legal links row, copyright"
+    }
+  ]
+}

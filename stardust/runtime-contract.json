@@ -1,0 +1,16 @@
+{
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "sectionStyleRendering": "server-side (section-metadata style -> section class; verified on /nav.plain.html)",
+  "bodyClasses": "template + theme metadata (aem.js decorateTemplateAndTheme); locale-<cc> from the first path segment (scripts.js decorateLocale, '/' = locale-us)",
+  "chrome": {
+    "nav": "metadata nav, else /<cc>/<ll>/nav for non-us/en locale paths (falls back to /nav), else /nav",
+    "footer": "metadata footer, else /<cc>/<ll>/footer (falls back to /footer), else /footer",
+    "delegate": "metadata header-block / footer-block = name of a project block that renders the chrome instead (shipping-hub)"
+  },
+  "detectedFrom": "scripts/scripts.js decorateButtons + scripts/aem.js decorateBlock/loadHeader, 2026-11-17"
+}

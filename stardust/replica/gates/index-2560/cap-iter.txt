@@ -1,0 +1,19 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.insureshield.com/us/en/securecommerce.html
+  modules  9 sections: capped 1286 ×9 · full-bleed ×0
+  contentMaxWidth 1286px (module) · shellMaxWidth fluid · root div.cmp-container > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid > div.cmp-container
+build  http://localhost:8791/index-proposed.html
+  modules  9 sections: capped 1286 ×9 · full-bleed ×0
+  contentMaxWidth 1286px (module) · shellMaxWidth fluid · root body.page-home > div.page-root > main.page-main
+rows
+  ✓ content cap: live 1286px = build 1286px (±20, shared module cap)
+  ✓ module 1/9: 1280px = 1280px
+  ✓ module 2/9: 1280px = 1280px
+  ✓ module 3/9: 1280px = 1280px
+  ✓ module 4/9: 1280px = 1280px
+  ✓ module 5/9: 1280px = 1280px
+  ✓ module 6/9: 1280px = 1280px
+  ✓ module 7/9: 1280px = 1280px
+  ✓ module 8/9: 1286px = 1286px
+  ✓ module 9/9: 1280px = 1280px
+cap-probe: PASS at 2560 — 0 of 10 rows failed (evidence stardust/replica/gates/index-2560/cap-iter.json)

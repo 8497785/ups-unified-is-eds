@@ -1,0 +1,492 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-18T11:01:59.536Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.insureshield.com/it/en/resources.html",
+  "at": "2026-11-18T07:44:57.514Z",
+  "docH": 3229
+ },
+ "eds": {
+  "url": "https://main--9ade650b--aemcoder.aem.page/it/en/resources",
+  "at": "2026-11-18T11:01:59.434Z",
+  "docH": 3229
+ },
+ "results": [
+  {
+   "sel": ".slick-active > .story-card--list__item__card=.stories__slide.is-active > .story, .story-card-carousel .stories-slide:not([aria-hidden]) > .story",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.slick-track > div#slick-slide00 > a.story-card--list__item__card"
+     },
+     "eds": {
+      "path": "div.stories-track > div.stories-slide > a.story"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 164
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 164,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "image:someone's hand using a touchscreen lapto",
+       "role": "image",
+       "text": "someone's hand using a touchscreen laptop.",
+       "edsText": "someone's hand using a touchscreen laptop.",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 164
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 164,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:customer stories",
+       "role": "text",
+       "text": "customer stories",
+       "edsText": "customer stories",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 196,
+        "w": 228,
+        "h": 12
+       },
+       "eds": {
+        "x": 32,
+        "y": 196,
+        "w": 228,
+        "h": 12,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "10/12/500",
+        "eds": "10/12/500"
+       }
+      },
+      {
+       "key": "heading:high-tech help",
+       "role": "heading",
+       "text": "high-tech help",
+       "edsText": "high-tech help",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 224,
+        "w": 228,
+        "h": 19
+       },
+       "eds": {
+        "x": 32,
+        "y": 224,
+        "w": 228,
+        "h": 19,
+        "sel": "h3#high-tech-help",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/19/500",
+        "eds": "16/19/500"
+       }
+      },
+      {
+       "key": "text:automated solutions protect made pc’s hi",
+       "role": "text",
+       "text": "automated solutions protect made pc’s high-tech hardware whi",
+       "edsText": "automated solutions protect made pc’s high-tech hardware whi",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 255,
+        "w": 228,
+        "h": 96
+       },
+       "eds": {
+        "x": 32,
+        "y": 255,
+        "w": 228,
+        "h": 96,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:read more",
+       "role": "text",
+       "text": "read more",
+       "edsText": "read more",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 386,
+        "w": 228,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 386,
+        "w": 228,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 34,
+       "y": 944,
+       "w": 292,
+       "h": 442
+      },
+      "eds": {
+       "x": 34,
+       "y": 944,
+       "w": 292,
+       "h": 442
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.slick-track > div#slick-slide10 > a.story-card--list__item__card"
+     },
+     "eds": {
+      "path": "div.stories-track > div.stories-slide > a.story"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 164
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 164,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "image:close up of hands holding and placing a ",
+       "role": "image",
+       "text": "close up of hands holding and placing a shipping label on a ",
+       "edsText": "close up of hands holding and placing a shipping label on a ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 164
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 164,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:insights to help your business",
+       "role": "text",
+       "text": "insights to help your business",
+       "edsText": "insights to help your business",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 196,
+        "w": 228,
+        "h": 15
+       },
+       "eds": {
+        "x": 32,
+        "y": 196,
+        "w": 228,
+        "h": 15,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "10/12/500",
+        "eds": "10/12/500"
+       }
+      },
+      {
+       "key": "heading:what is shipping insurance?",
+       "role": "heading",
+       "text": "what is shipping insurance?",
+       "edsText": "what is shipping insurance?",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 227,
+        "w": 228,
+        "h": 19
+       },
+       "eds": {
+        "x": 32,
+        "y": 227,
+        "w": 228,
+        "h": 19,
+        "sel": "h3#what-is-shipping-insurance",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/19/500",
+        "eds": "16/19/500"
+       }
+      },
+      {
+       "key": "text:find out the benefits for your business.",
+       "role": "text",
+       "text": "find out the benefits for your business.",
+       "edsText": "find out the benefits for your business.",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 258,
+        "w": 228,
+        "h": 48
+       },
+       "eds": {
+        "x": 32,
+        "y": 258,
+        "w": 228,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:read more",
+       "role": "text",
+       "text": "read more",
+       "edsText": "read more",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 365,
+        "w": 228,
+        "h": 24
+       },
+       "eds": {
+        "x": 32,
+        "y": 365,
+        "w": 228,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/500",
+        "eds": "16/24/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 34,
+       "y": 1789,
+       "w": 292,
+       "h": 421
+      },
+      "eds": {
+       "x": 34,
+       "y": 1789,
+       "w": 292,
+       "h": 421
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 2,
+  "within": 12,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}
